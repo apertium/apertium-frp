@@ -20,14 +20,21 @@ TARGETS_COMMON =			\
 @ap_include@
 
 ###############################################################################
-## frp transducer
+## Arpitan transducer
 ###############################################################################
 
-$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix .deps/.d
+.deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix .deps/.d
+	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
+
+.deps/$(LANG1).dix: .deps/$(LANG1).metadix .deps/.d
+	xsltproc buscaPar.xsl .deps/$(LANG1).metadix | uniq >$$$$tmp1 && \
+	xsltproc $$$$tmp1 .deps/$(LANG1).metadix > $@ && rm $$$$tmp1
+
+$(LANG1).autogen.bin: .deps/$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+$(LANG1).automorf.bin: .deps/$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
@@ -57,12 +64,15 @@ $(LANG1).prob: corpus/$(LANG1).tagged
 ###############################################################################
 ## Distribution
 ###############################################################################
-EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
+EXTRA_DIST=$(BASENAME).$(LANG1).metadix		\
 		$(BASENAME).$(LANG1).acx	\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
 		$(LANG1).prob			\
-		modes.xml
+		modes.xml \
+		alt.xsl \
+		buscaPar.xsl \
+		principal.xsl
 
 ###############################################################################
 ## Installation stuff
