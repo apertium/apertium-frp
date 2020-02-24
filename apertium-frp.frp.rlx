@@ -1,15 +1,127 @@
-# Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
-DELIMITERS = "<.>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+#OPTIONS += no-inline-sets no-inline-templates ;
+OPTIONS += no-inline-templates ;
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
-# We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+SETS
+
+LIST BOS = >>> ;
+LIST EOS = <<< ;
+
+LIST Verb = vblex vbser vbhaver vbmod ;
+LIST V = vblex ;
+LIST Pron = prn ;
+LIST Haver = vbhaver ;
+LIST Ser = vbser ;
+LIST Vbmod = vbmod ;
+LIST Cm = cm ;
+LIST Sent = sent ;
+LIST Det = det ;
+LIST Def = def ;
+LIST Pos = pos ;
+LIST Prep = pr ;
+LIST Subj = subj ;
+LIST Prop = np ;
+LIST A = adj ;
+LIST Adv = adv ;
+LIST PreAdv = preadv ;
+LIST PreDet = predet ;
+LIST CnjAdv = cnjadv ;
+LIST CnjCoo = cnjcoo ;
+LIST CnjSub = cnjsub ;
+LIST Num = num ;
+LIST Itg = itg ;
+LIST Pro = pro ;
+LIST Enc = enc ;
+LIST Tn = tn ;
+LIST Prn = prn ;
+LIST N = n ;
+LIST NP = np ;
+LIST Top = top ;
+LIST Ant = ant ;
+LIST Cog = Cog ;
+
+LIST Fin = pri prs pii ifi pis cni imp ;
+LIST Ind = pri pii ifi ;
+LIST Subjunc = prs pis ;
+LIST Ifi = ifi ;
+LIST Pri = pri ;
+LIST Pii = pii ;
+LIST Prs = prs ;
+LIST Pis = pis ;
+LIST Cni = cni ;
+LIST Inf = inf ;
+LIST Ger = ger ;
+LIST PP = pp ;
+
+LIST Interr = itg ;
+LIST Rel = rel ;
+LIST Interj = ij ;
+
+SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
+
+LIST Masc_strict = m ;
+LIST Fem_strict = f ;
+LIST Masc = m mf ;
+LIST Fem = f mf ;
+LIST MascFem = mf ;
+LIST Sg_strict = sg ;
+LIST Pl_strict = pl ;
+LIST Sg = sg sp ;
+LIST Pl = pl sp ;
+LIST SgPl = sp ;
+
+SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
+SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
+SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
+SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
+
+SET NotMasc = Fem | MascFem ;
+SET NotFem = Masc | MascFem ;
+SET Gender = NotMasc | NotFem ;
+
+SET NotSg = Pl | SgPl ;
+SET NotPl = Sg | SgPl ;
+SET Number = NotSg | NotPl ;
+
+SET GenderNumber = MascSg | MascPl | FemSg | FemPl ;
+
+LIST P1 = p1 ;
+LIST P2 = p2 ;
+LIST P3 = p3 ;
+LIST Pers = p1 p2 p3 ;
+LIST Sg1 = (p1 sg) ;
+LIST Sg2 = (p2 sg) ;
+LIST Sg3 = (p3 sg) ;
+LIST Pl1 = (p1 pl) ;
+LIST Pl2 = (p2 pl) ;
+LIST Pl3 = (p3 pl) ;
+
+LIST unknown = ("\\*.*"r) ;
+LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
+LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
 
 SECTION
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE (n) OR (v) IF (1 (n s)) ;
 
-# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+# tn / pro
+
+SELECT Tn IF (-1 Prep) (0 Pro) (NOT 1 Inf) ;		# por tè / por tè chantar
+
+SELECT Pro IF (-1 Tn) (0 Tn) (1 Verb + Pers) ;		# je tè chanto
+
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg1) (1 Verb + Sg1) ;
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg2) (1 Verb + Sg2) ;
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg3) (1 Verb + Sg3) ;
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl1) (1 Verb + Pl1) ;	# nos ens avu
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl2) (1 Verb + Pl2) ;	# vos éd avu
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl3) (1 Verb + Pl3) 
+SELECT Tn IF (0 Tn + Sg1) (1 Pro) (2 Verb + Sg1) ;
+SELECT Tn IF (0 Tn + Sg2) (1 Pro) (2 Verb + Sg2) ;
+SELECT Tn IF (0 Tn + Sg3) (1 Pro) (2 Verb + Sg3) ;
+SELECT Tn IF (0 Tn + Pl1) (1 Pro) (2 Verb + Pl1) ;	# nos lor ens chantâ
+SELECT Tn IF (0 Tn + Pl2) (1 Pro) (2 Verb + Pl2) ;	# vos lor éd chantâ
+SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) 
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
