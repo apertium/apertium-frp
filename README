@@ -1,12 +1,12 @@
 frp: `apertium-frp`
 ===============================================================================
 
-This is an Apertium monolingual language package for frp. What
+This is an Apertium monolingual language package for Arpitan. What
 you can use this language package for:
 
-* Morphological analysis of frp
-* Morphological generation of frp
-* Part-of-speech tagging of frp
+* Morphological analysis of Arpitan
+* Morphological generation of Arpitan
+* Part-of-speech tagging of Arpitan
 
 Requirements
 -------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ TODO: test tagger result
 Files and data
 -------------------------------------------------------------------------------
 
-* [`apertium-frp.frp.dix`](apertium-frp.frp.dix) - Monolingual dictionary
+* [`apertium-frp.frp.metadix`](apertium-frp.frp.metadix) - Monolingual dictionary
 * [`frp.prob`](frp.prob) - Tagger model
 * [`apertium-frp.frp.rlx`](apertium-frp.frp.rlx) - Constraint Grammar disambiguation rules
 * [`apertium-frp.post-frp.dix`](apertium-frp.post-frp.dix) - Post-generator
