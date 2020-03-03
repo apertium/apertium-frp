@@ -104,6 +104,17 @@ LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
 
 SECTION
 
+# mots individuels
+
+SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	# devant la mêson
+SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	# devant la granta mêson
+SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
+SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
+
+# det / prn
+
+SELECT Det IF (0C Tn OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit
+
 # tn / pro
 
 SELECT Tn IF (-1 Prep) (0 Pro) (NOT 1 Inf) ;		# por tè / por tè chantar
@@ -115,13 +126,13 @@ SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg2) (1 Verb + Sg2) ;
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg3) (1 Verb + Sg3) ;
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl1) (1 Verb + Pl1) ;	# nos ens avu
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl2) (1 Verb + Pl2) ;	# vos éd avu
-SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl3) (1 Verb + Pl3) 
+SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl3) (1 Verb + Pl3) ;
 SELECT Tn IF (0 Tn + Sg1) (1 Pro) (2 Verb + Sg1) ;
 SELECT Tn IF (0 Tn + Sg2) (1 Pro) (2 Verb + Sg2) ;
 SELECT Tn IF (0 Tn + Sg3) (1 Pro) (2 Verb + Sg3) ;
 SELECT Tn IF (0 Tn + Pl1) (1 Pro) (2 Verb + Pl1) ;	# nos lor ens chantâ
 SELECT Tn IF (0 Tn + Pl2) (1 Pro) (2 Verb + Pl2) ;	# vos lor éd chantâ
-SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) 
+SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
@@ -129,4 +140,3 @@ SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3)
 # http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
 # http://wiki.apertium.org/wiki/Constraint_Grammar
 # http://wiki.apertium.org/wiki/Apertium_and_Constraint_Grammar
-
