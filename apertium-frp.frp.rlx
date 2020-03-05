@@ -120,6 +120,7 @@ SELECT Det IF (0C Tn OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti br
 SELECT Tn IF (-1 Prep) (0 Pro) (NOT 1 Inf) ;		# por tè / por tè chantar
 
 SELECT Pro IF (-1 Tn) (0 Tn) (1 Verb + Pers) ;		# je tè chanto
+SELECT Pro IF (0C Pro OR Tn) (1 unknown) ;		# tè xxxx
 
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg1) (1 Verb + Sg1) ;
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg2) (1 Verb + Sg2) ;
