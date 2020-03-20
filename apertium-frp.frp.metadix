@@ -511,11 +511,11 @@
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
 </pardef>
 
-<!--
-<pardef n="alors__cnjadv">
+<pardef n="alor__cnjadv">
   <e>       <p><l></l>          <r><s n="cnjadv"/></r></p></e>
 </pardef>
 
+<!--
 <pardef n="afin_/que__cnjadv">
   <e r="LR"><p><l>que</l>       <r>que<s n="cnjadv"/></r></p></e>
   <e r="LR"><p><l>qu'</l>       <r>que<s n="cnjadv"/></r></p></e>
@@ -1682,11 +1682,13 @@
 <pardef n="dont__rel">
   <e>       <p><l></l>          <r><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+-->
 
-<pardef n="combien__rel">
+<pardef n="comben__rel">
   <e>       <p><l></l>          <r><s n="rel"/><s n="adv"/></r></p></e>
 </pardef>
 
+<!--
 <pardef n="l/equel__rel">
   <e>       <p><l>esquelles</l> <r>equel<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>aquelle</l>   <r>equel<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3950,6 +3952,10 @@
 <e lm="vers">           <i>vers</i><par n="contre__pr"/></e>
 <e lm="dèrriér">           <i>dèrriér</i><par n="contre__pr"/></e>
 
+<!-- CNJSUB -->
+
+<e lm="que">           <i>que</i><par n="que__cnjsub"/></e>
+
 <!-- CNJCOO -->
 
 <e lm="et">           <i>et</i><par n="et__cnjcoo"/></e>
@@ -3957,14 +3963,24 @@
 <e lm="sêt">           <i>sêt</i><par n="et__cnjcoo"/></e>
 <e lm="mas">           <i>mas</i><par n="et__cnjcoo"/></e>
 
-<!-- CNJSUB -->
+<!-- CNJADV -->
 
-<e lm="que">           <i>que</i><par n="que__cnjsub"/></e>
+<e lm="alor">           <i>alor</i><par n="alor__cnjadv"/></e>
+<e lm="adonc">           <i>adonc</i><par n="alor__cnjadv"/></e>
+<e lm="lorsque">           <i>lorsque</i><par n="alor__cnjadv"/></e>
+<e lm="quand">           <i>quand</i><par n="alor__cnjadv"/></e>
+<e lm="quora" c="DAUPH"> <i>quora</i><par n="alor__cnjadv"/></e>
 
 <!-- REL -->
 
 <e lm="que">           <i>que</i><par n="que__rel"/></e>
 <e lm="qui">           <i>qui</i><par n="que__rel"/></e>
+<e lm="yô">           <i>yô</i><par n="comben__rel"/></e>
+<e lm="quand">           <i>quand</i><par n="comben__rel"/></e>
+<e lm="quora" c="DAUPH"> <i>quora</i><par n="comben__rel"/></e>
+<e lm="comben">           <i>comben</i><par n="comben__rel"/></e>
+<e lm="quant">           <i>quant</i><par n="comben__rel"/></e>
+<e lm="gouéro">           <i>gouéro</i><par n="comben__rel"/></e>
 
 <!-- NUM -->
 
@@ -3989,6 +4005,8 @@
 
 <e lm="coment">           <i>coment</i><par n="coment__adv"/></e>
 <e lm="yô">           <i>yô</i><par n="coment__adv"/></e>
+<e lm="quand">           <i>quand</i><par n="coment__adv"/></e>
+<e lm="quora" c="DAUPH">           <i>quora</i><par n="coment__adv"/></e>
 <e lm="porquè">           <i>porquè</i><par n="coment__adv"/></e>
 <e lm="porquê" c="SAV">           <i>porquê</i><par n="coment__adv"/></e>
 
@@ -4225,6 +4243,7 @@ pegner, je pègno !
 <e r="LR"><p><l>voutr'</l><r>voutron<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>qu'</l><r>que<s n="cnjsub"/></r></p></e>
 <e r="LR"><p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
