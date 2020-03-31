@@ -45,6 +45,7 @@ LIST Cog = Cog ;
 LIST Fin = pri prs pii ifi pis cni imp ;
 LIST Ind = pri pii ifi ;
 LIST Subjunc = prs pis ;
+LIST Imper = imp ;
 LIST Ifi = ifi ;
 LIST Pri = pri ;
 LIST Pii = pii ;
@@ -97,10 +98,41 @@ LIST Sg3 = (p3 sg) ;
 LIST Pl1 = (p1 pl) ;
 LIST Pl2 = (p2 pl) ;
 LIST Pl3 = (p3 pl) ;
+LIST VSg1 = (vblex p1 sg) (vbser p1 sg) (vbhaver p1 sg) (vbmod p1 sg);
+LIST VSg2 = (vblex p2 sg) (vbser p2 sg) (vbhaver p2 sg) (vbmod p2 sg);
+LIST VSg3 = (vblex p3 sg) (vbser p3 sg) (vbhaver p3 sg) (vbmod p3 sg);
+LIST VPl1 = (vblex p1 pl) (vbser p1 pl) (vbhaver p1 pl) (vbmod p1 pl);
+LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
+LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
+
+SET CM = (cm) OR (lpar) OR (rpar) OR ("<;>") ;
+LIST Excl = "!" ;
+
+SET Noun_Adj = N OR A ;
+SET Noun_Adj_PP = N OR A OR PP ;
+SET Adj_PP = A OR PP ;
+SET Adv_PreAdv = Adv OR PreAdv ;
+SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
+SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
+SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
 LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
+
+# verbes Vblex que typiquement impliquen subjonctif
+SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
+# verbes Vblex que typiquement impliquen indicatif
+SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
+# verbes qui peuvent avoir un attribut
+SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
+
+LIST Je = "je" ;
+LIST Te = "te" ;
+LIST Il = "il" ;
+LIST On = "on" ;
+
+LIST Que = "que" ;
 
 SECTION
 
@@ -134,6 +166,56 @@ SELECT Tn IF (0 Tn + Sg3) (1 Pro) (2 Verb + Sg3) ;
 SELECT Tn IF (0 Tn + Pl1) (1 Pro) (2 Verb + Pl1) ;	# nos lor ens chantâ
 SELECT Tn IF (0 Tn + Pl2) (1 Pro) (2 Verb + Pl2) ;	# vos lor éd chantâ
 SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) ;
+
+#
+# Verbes
+#
+
+# personne
+
+SELECT P1 IF (-1 Je) (0 VSg1);
+  ## Je veux
+SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);
+  ## Je lui veux
+SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);
+  ## Je lui en veux
+REMOVE P1 + Sg IF (NOT -1* Je) (0 Verb + P1 + Sg) ;
+
+SELECT P2 IF (-1 Te) (0 VSg2);
+  ## Tu veux
+SELECT P2 IF (1 Te) (0 VSg2);
+  ## Veux-tu
+SELECT P2 IF (-2 Te) (-1 Pro) (0 VSg2);
+  ## Tu lui veux
+SELECT P2 IF (-3 Te) (-2 Pro) (-1 Pro) (0 VSg2);
+  ## Tu lui en veux
+REMOVE P2 + Sg IF (NOT -1* Te) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper) ;
+
+SELECT P3 IF (-1 Il + Sg OR On) (0 VSg3);
+  ## Elle parle
+SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
+  ## Parle-t-elle
+SELECT P3 IF (-2 Il + Sg OR On) (-1 Pro) (0 VSg3);
+  ## Elle lui parle
+SELECT P3 IF (-3 Il + Sg OR On) (-2 Pro) (-1 Pro) (0 VSg3);
+  ## Elle lui en parle
+
+# temps verbaux
+
+REMOVE Imper IF (NOT 1* Excl) ;
+#REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
+#REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
+
+REMOVE Imper IF (-1 Ant OR Cog OR unknown) (0 P3) ;
+REMOVE Imper IF (-2 Ant OR Cog OR unknown) (-1 Adv OR Pro) (0 P3) ;
+REMOVE Imper IF (-3 Ant OR Cog OR unknown) (-2 Adv) (-1 Pro) (0 P3) ;
+
+SELECT Imper IF (-1 BOS) (1 Excl) ;
+#SELECT Imper IF (-2 BOS) (-1 Ne) (1 Adv OR Rien) (2 Excl) ;
+#SELECT Imper IF (-3 BOS) (-2 Ne) (-1 Pro) (1 Adv OR Rien) (2 Excl) ;
+
+REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
+REMOVE Subjunc (NOT -1* Que) (0C Verb) (0 Pri) ;	# VERIFY
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
