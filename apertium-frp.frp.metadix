@@ -511,7 +511,7 @@
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
 </pardef>
 
-<pardef n="alor__cnjadv">
+<pardef n="adonc__cnjadv">
   <e>       <p><l></l>          <r><s n="cnjadv"/></r></p></e>
 </pardef>
 
@@ -1385,10 +1385,6 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="que__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-</pardef>
-
 <pardef n="combien__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
@@ -1424,11 +1420,13 @@
 
 <pardef n="/il__prn">
   <e>       <p><l>il</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>'l</l>      <r><b/><j/>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ils</l>       <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>el</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ele</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ela</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>le</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>'l</l>      <r><b/><j/>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>els</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>eles</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>els</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
@@ -4505,11 +4503,13 @@
 
 <!-- CNJADV -->
 
-<e lm="alor">           <i>alor</i><par n="alor__cnjadv"/></e>
-<e lm="adonc">           <i>adonc</i><par n="alor__cnjadv"/></e>
-<e lm="lorsque">           <i>lorsque</i><par n="alor__cnjadv"/></e>
-<e lm="quand">           <i>quand</i><par n="alor__cnjadv"/></e>
-<e lm="quora" c="DAUPH"> <i>quora</i><par n="alor__cnjadv"/></e>
+<e lm="adonc">           <i>adonc</i><par n="adonc__cnjadv"/></e>
+<e lm="alor">           <i>alor</i><par n="adonc__cnjadv"/></e>
+<e lm="adonc">           <i>adonc</i><par n="adonc__cnjadv"/></e>
+<e r="LR" lm="lorsque">           <i>lorsque</i><par n="adonc__cnjadv"/></e>
+<e lm="quand">           <i>quand</i><par n="adonc__cnjadv"/></e>
+<e lm="quora" c="DAUPH"> <i>quora</i><par n="adonc__cnjadv"/></e>
+<e lm="ben sûr">           <i>ben<b/>sûr</i><par n="adonc__cnjadv"/></e>
 
 <!-- REL -->
 
@@ -4545,10 +4545,17 @@
 
 <e lm="coment">           <i>coment</i><par n="coment__adv"/></e>
 <e lm="yô">           <i>yô</i><par n="coment__adv"/></e>
+<e r="LR" lm="yô que">           <i>yô<b/>que</i><par n="coment__adv"/></e>
+<e r="RL" lm="yô que">       <p><l>yô<b/><a/>que</l><r>yô<b/>que</r></p><par n="coment__adv"/></e>
+<e r="LR" lm="yô est-o que">           <i>yô<b/>est-o<b/>que</i><par n="coment__adv"/></e>
+<e r="RL" lm="yô est-o que">       <p><l>yô<b/>est-o<b/><a/>que</l><r>yô<b/>est-o<b/>que</r></p><par n="coment__adv"/></e>
+<e lm="onte">           <i>onte</i><par n="coment__adv"/></e>
+<e lm="quand">           <i>quand</i><par n="coment__adv"/></e>
 <e lm="quand">           <i>quand</i><par n="coment__adv"/></e>
 <e lm="quora" c="DAUPH">           <i>quora</i><par n="coment__adv"/></e>
 <e lm="porquè">           <i>porquè</i><par n="coment__adv"/></e>
 <e lm="porquê" c="SAV">           <i>porquê</i><par n="coment__adv"/></e>
+
 
 <e lm="dessus">           <i>dessus</i><par n="avant__adv"/></e>
 <e lm="desot">           <i>desot</i><par n="avant__adv"/></e>
@@ -4590,6 +4597,8 @@
 <e lm="de-couta">           <i>de-couta</i><par n="avant__adv"/></e>
 <e lm="de-coute">           <i>de-coute</i><par n="avant__adv"/></e>
 <e lm="a coutâ">           <i>a<b/>coutâ</i><par n="avant__adv"/></e>
+<e lm="adonc">           <i>adonc</i><par n="avant__adv"/></e>
+<e lm="alor">           <i>alor</i><par n="avant__adv"/></e>
 
 <!-- N -->
 
@@ -4802,8 +4811,6 @@ pegner, je pègno !
 <e r="LR" lm="j'">       <p><l>j'</l>        <r>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="y'">       <p><l>y'</l>        <r>ye<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="t'">       <p><l>t'</l>        <r>te<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="'l">       <p><l>'l</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR" lm="'l">       <p><l>'l</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="m'">       <p><l>m'</l>        <r>mè<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="t'">       <p><l>t'</l>        <r>tè<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="l'">       <p><l>l'</l>        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4823,6 +4830,7 @@ pegner, je pègno !
 <e r="LR"><p><l>qu'</l><r>que<s n="cnjsub"/></r></p></e>
 <e r="LR"><p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>yô<b/>qu'</l><r>yô<b/>que<s n="adv"/><s n="itg"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
