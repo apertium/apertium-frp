@@ -143,9 +143,11 @@ SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
 
+SELECT Ser IF (0 ("savêr")) ;		# FIXME
+
 # det / prn
 
-SELECT Det IF (0C Tn OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit
+SELECT Det IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit, l'hotâl
 
 # tn / pro
 
@@ -166,6 +168,8 @@ SELECT Tn IF (0 Tn + Sg3) (1 Pro) (2 Verb + Sg3) ;
 SELECT Tn IF (0 Tn + Pl1) (1 Pro) (2 Verb + Pl1) ;	# nos lor ens chantâ
 SELECT Tn IF (0 Tn + Pl2) (1 Pro) (2 Verb + Pl2) ;	# vos lor éd chantâ
 SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) ;
+
+SELECT Tn IF (0 Pro) ;			# FIXME
 
 #
 # Verbes
