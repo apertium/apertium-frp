@@ -5917,6 +5917,8 @@
   <e>       <p><l>a</l>         <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
   <e r="LR"><p><l>e</l>         <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>e</l>         <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="LR"><p><l>ons</l>       <r>ar<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ons</l>       <r>ar<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
 <pardef n="am/ar__vblex">
@@ -6224,6 +6226,11 @@
 <pardef n="l/e[V]ar__vblex" c="modèle 1ère conjugaison Aè">
   <e>       <p><l>è</l>         <r>e</r></p><i><prm/></i><par n="âm/o__vblex"/></e>
   <e>       <i>e<prm/></i><par n="am/ar__vblex"/></e>
+</pardef>
+
+<pardef n="ass/o[T]ar__vblex" c="modèle 1ère conjugaison Aou">
+  <e>       <p><l>ou</l>         <r>o</r></p><i><prm/></i><par n="âm/o__vblex"/></e>
+  <e>       <i>o<prm/></i><par n="am/ar__vblex"/></e>
 </pardef>
 
 <pardef n="apr/o[CH]iér__vblex" c="modèle 1ère conjugaison Bô">
@@ -6571,6 +6578,12 @@
 <e lm="lé-bâs">           <i>lé-bâs</i><par n="avant__adv"/></e>
 <e lm="alentôrn">           <i>alentôrn</i><par n="avant__adv"/></e>
 <e r="LR" lm="a l'entôrn">  <i>a<b/>l'entôrn</i><par n="avant__adv"/></e>
+<e lm="ense">           <i>ense</i><par n="avant__adv"/></e>
+<e lm="d'ense">           <i>d'ense</i><par n="avant__adv"/></e>
+<e lm="d'inse">           <i>d'inse</i><par n="avant__adv"/></e>
+<e lm="asse">           <i>asse</i><par n="avant__adv"/></e>
+<e lm="ensé">           <i>ensé</i><par n="avant__adv"/></e>
+<e lm="assé">           <i>assé</i><par n="avant__adv"/></e>
 
 <!-- N -->
 
@@ -6765,6 +6778,27 @@
 <e lm="amar">          <i></i><par n="/a[M]ar__vblex" prm="m"/></e>
 <e lm="parlar">          <i>p</i><par n="/a[M]ar__vblex" prm="rl"/></e>
 <e lm="regardar">          <i>reg</i><par n="/a[M]ar__vblex" prm="rd"/></e>
+<e lm="acablar">          <i>ac</i><par n="/a[M]ar__vblex" prm="bl"/></e>
+<e lm="amassar">          <i>am</i><par n="/a[M]ar__vblex" prm="ss"/></e>
+<e lm="armar">          <i></i><par n="/a[M]ar__vblex" prm="rm"/></e>
+<e lm="avalar">          <i>av</i><par n="/a[M]ar__vblex" prm="l"/></e>
+<e lm="bavar">          <i>b</i><par n="/a[M]ar__vblex" prm="v"/></e>
+<e lm="bramar">          <i>br</i><par n="/a[M]ar__vblex" prm="m"/></e>
+<e lm="bravar">          <i>br</i><par n="/a[M]ar__vblex" prm="v"/></e>
+<e lm="dècllarar">          <i>dècll</i><par n="/a[M]ar__vblex" prm="r"/></e>
+<e lm="dèrapar">          <i>dèr</i><par n="/a[M]ar__vblex" prm="p"/></e>
+<e lm="entanar">          <i>ent</i><par n="/a[M]ar__vblex" prm="n"/></e>
+<e lm="gouardar">          <i>gou</i><par n="/a[M]ar__vblex" prm="rd"/></e>
+<e lm="lavar">          <i>l</i><par n="/a[M]ar__vblex" prm="v"/></e>
+<e lm="parar">          <i>p</i><par n="/a[M]ar__vblex" prm="r"/></e>
+<e lm="passar">          <i>p</i><par n="/a[M]ar__vblex" prm="ss"/></e>
+<e lm="ramassar">          <i>ram</i><par n="/a[M]ar__vblex" prm="ss"/></e>
+<e lm="rasar">          <i>r</i><par n="/a[M]ar__vblex" prm="s"/></e>
+<e lm="regalar">          <i>reg</i><par n="/a[M]ar__vblex" prm="l"/></e>
+<e lm="retardar">          <i>ret</i><par n="/a[M]ar__vblex" prm="rd"/></e>
+<e lm="sarrar">          <i>s</i><par n="/a[M]ar__vblex" prm="rr"/></e>
+<e lm="sèparar">          <i>sèp</i><par n="/a[M]ar__vblex" prm="r"/></e>
+<e lm="tardar">          <i>t</i><par n="/a[M]ar__vblex" prm="rd"/></e>
 
 <e lm="tornar">          <i>t</i><par n="t/o[RN]ar__vblex" prm="rn"/></e>
 <e lm="retornar">          <i>ret</i><par n="t/o[RN]ar__vblex" prm="rn"/></e>
@@ -6796,14 +6830,52 @@
 <e lm="reposar">          <i>rep</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
 <e lm="suposar">          <i>sup</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
 <e lm="demorar">          <i>dem</i><par n="t/o[RN]ar__vblex" prm="r"/></e>
+<e lm="abandonar">          <i>aband</i><par n="t/o[RN]ar__vblex" prm="n"/></e>
+<e lm="abordar">          <i>ab</i><par n="t/o[RN]ar__vblex" prm="rd"/></e>
+<e lm="acordar">          <i>ac</i><par n="t/o[RN]ar__vblex" prm="rd"/></e>
+<e lm="arrosar">          <i>arr</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
+<e lm="assomar">          <i>ass</i><par n="t/o[RN]ar__vblex" prm="m"/></e>
+<e lm="bordar">          <i>b</i><par n="t/o[RN]ar__vblex" prm="rd"/></e>
+<e lm="bornar">          <i>b</i><par n="t/o[RN]ar__vblex" prm="rn"/></e>
+<e lm="abornar">          <i>ab</i><par n="t/o[RN]ar__vblex" prm="rn"/></e>
+<e lm="consolar">          <i>cons</i><par n="t/o[RN]ar__vblex" prm="l"/></e>
+<e lm="reconsolar">          <i>recons</i><par n="t/o[RN]ar__vblex" prm="l"/></e>
+<e lm="demorar">          <i>dem</i><par n="t/o[RN]ar__vblex" prm="r"/></e>
+<e lm="disposar">          <i>disp</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
+<e lm="enfornar">          <i>enf</i><par n="t/o[RN]ar__vblex" prm="rn"/></e>
+<e lm="èprovar">          <i>èpr</i><par n="t/o[RN]ar__vblex" prm="v"/></e>
+<e lm="èxplosar">          <i>èxpl</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
+<e lm="laborar">          <i>lab</i><par n="t/o[RN]ar__vblex" prm="r"/></e>
+<e lm="osar">          <i></i><par n="t/o[RN]ar__vblex" prm="s"/></e>
+<e lm="plorar">          <i>pl</i><par n="t/o[RN]ar__vblex" prm="r"/></e>
+<e lm="portar">          <i>p</i><par n="t/o[RN]ar__vblex" prm="rt"/></e>
+<e lm="posar">          <i>p</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
+<e lm="reposar">          <i>rep</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
+<e lm="savorar">          <i>sav</i><par n="t/o[RN]ar__vblex" prm="r"/></e>
+
+<e lm="assotar">          <i>ass</i><par n="ass/o[T]ar__vblex" prm="t"/></e>
 
 <e lm="levar">          <i>l</i><par n="l/e[V]ar__vblex" prm="v"/></e>
 <e lm="assietar">          <i>assi</i><par n="l/e[V]ar__vblex" prm="t"/></e>
 <e lm="sietar">          <i>si</i><par n="l/e[V]ar__vblex" prm="t"/></e>
 <e lm="assetar">          <i>ass</i><par n="l/e[V]ar__vblex" prm="t"/></e>
 <e lm="rassietar">          <i>rassi</i><par n="l/e[V]ar__vblex" prm="t"/></e>
+<e lm="achetar">          <i>ach</i><par n="l/e[V]ar__vblex" prm="t"/></e>
+<e lm="agetar">          <i>ag</i><par n="l/e[V]ar__vblex" prm="t"/></e>
+<e lm="amenar">          <i>am</i><par n="l/e[V]ar__vblex" prm="n"/></e>
+<e lm="apelar">          <i>ap</i><par n="l/e[V]ar__vblex" prm="l"/></e>
+<e lm="arrevar">          <i>arr</i><par n="l/e[V]ar__vblex" prm="v"/></e>
+<e lm="èlevar">          <i>èl</i><par n="l/e[V]ar__vblex" prm="v"/></e>
+<e lm="felar">          <i>f</i><par n="l/e[V]ar__vblex" prm="l"/></e>
+<e lm="fenar">          <i>f</i><par n="l/e[V]ar__vblex" prm="n"/></e>
+<e lm="menar">          <i>m</i><par n="l/e[V]ar__vblex" prm="n"/></e>
+<e lm="meretar">          <i>mer</i><par n="l/e[V]ar__vblex" prm="t"/></e>
+<e lm="pesar">          <i>p</i><par n="l/e[V]ar__vblex" prm="s"/></e>
+<e lm="senar">          <i>s</i><par n="l/e[V]ar__vblex" prm="n"/></e>
 
 <e lm="aprochiér">          <i>apr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
+<e lm="acrochiér">          <i>acr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
+<e lm="dècrochiér">          <i>dècr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
 
 <e lm="fenir">            <i>f</i><par n="f/enir__vblex"/></e>
 <e r="LR" lm="sèrvir">    <i>sèrv</i><par n="2eme/ir__vblex"/></e>
@@ -6821,6 +6893,10 @@
 <e r="LR" lm="dormir">    <i>dorm</i><par n="2eme/ir__vblex"/></e>
 <e lm="dromir">          <i>dr</i><par n="d/o[R]mir__vblex" prm=""/></e>
 <e r="LR" lm="dromir">    <i>drom</i><par n="2eme/ir__vblex"/></e>
+<e lm="endormir">          <i>end</i><par n="d/o[R]mir__vblex" prm="r"/></e>
+<e r="LR" lm="endormir">    <i>endorm</i><par n="2eme/ir__vblex"/></e>
+<e lm="endromir">          <i>endr</i><par n="d/o[R]mir__vblex" prm=""/></e>
+<e r="LR" lm="endromir">    <i>endrom</i><par n="2eme/ir__vblex"/></e>
 
 <e lm="devêr">            <i>d</i><par n="d/evêr__vbmod"/></e>
 <e lm="povêr">            <i>p</i><par n="p/ovêr__vbmod"/></e>
