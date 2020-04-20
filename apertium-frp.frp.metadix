@@ -3187,7 +3187,7 @@
   <e r="LR"><p><l>éde</l>        <r>ér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
-<pardef n="2eme/ir__vblex">
+<pardef n="fen/ir__vblex">
   <e>       <p><l>ir</l>        <r>ir<s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l>éssent</l>       <r>ir<s n="vblex"/><s n="ger"/></r></p></e>
   <e r="LR"><p><l>éssant</l>       <r>ir<s n="vblex"/><s n="ger"/></r></p></e>
@@ -3336,15 +3336,6 @@
   <e r="LR"><p><l>éssons</l>       <r>ir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
   <e>       <p><l>ésséd</l>        <r>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>ésséd</l>        <r>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
-</pardef>
-
-<pardef n="f/enir__vblex">
-  <e>            <i>en</i><par n="2eme/ir__vblex"/></e>
-  <e r="LR"><p><l>ornir</l>        <r>enir<s n="vblex"/><s n="inf"/></r></p></e>
-  <e r="LR"><p><l>orni</l>         <r>enir<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ornis</l>         <r>enir<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>ornia</l>        <r>enir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ornies</l>        <r>enir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="d/evêr__vbmod" c="il n'y a pas d'impératif">
@@ -5903,7 +5894,6 @@
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -5915,8 +5905,6 @@
   <e>       <p><l>a</l>         <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
   <e r="LR"><p><l>e</l>         <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>e</l>         <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
-  <e r="LR"><p><l>ons</l>       <r>ar<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>ar<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
 <pardef n="am/ar__vblex">
@@ -6021,19 +6009,15 @@
   <e>       <p><l>o</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>iér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>iér<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>iér<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>iér<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>e</l>         <r>iér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>iér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
-  <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
 <pardef n="aproch/iér__vblex">
@@ -6095,7 +6079,7 @@
   <e r="LR"><p><l>eyo</l>         <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>eyes</l>        <r>iér<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>eye</l>         <r>iér<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ens</l>       <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ens</l>       <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>	<!-- VERIFY: + ons ? si sí, tbé am/ar -->
   <e r="LR"><p><l>eyens</l>       <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>eyons</l>       <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>éd</l>        <r>iér<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -6119,6 +6103,8 @@
 
   <e>       <p><l>ens</l>       <r>iér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ens</l>       <r>iér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
   <e>       <p><l>iéd</l>        <r>iér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>iéd</l>        <r>iér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
   <e r="LR"><p><l>iéde</l>        <r>iér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -6127,15 +6113,10 @@
 
 <pardef n="remâr/ço__vblex">
   <e>       <p><l>ço</l>         <r>ciér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>çons</l>       <r>ciér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>çont</l>       <r>ciér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>ço</l>         <r>ciér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>çons</l>       <r>ciér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>çont</l>       <r>ciér<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-
-  <e r="LR"><p><l>çons</l>       <r>ciér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>çons</l>       <r>ciér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
 <pardef n="remâr/ces__vblex">
@@ -6237,26 +6218,22 @@
   <e r="LR"><p><l>ciéde</l>        <r>ciér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
-<pardef n="pègn/o__vblex">
+<pardef n="préy/o__vblex">
   <e>       <p><l>o</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>ér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ér<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>ér<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>ér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>ér<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>e</l>         <r>ér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>ér<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
-  <e r="LR"><p><l>ons</l>       <r>ér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>ons</l>       <r>ér<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
-<pardef n="pegn/ér__vblex">
+<pardef n="prey/ér__vblex">
   <e>       <p><l>ér</l>       <r>ér<s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l>ent</l>      <r>ér<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>ê</l>         <r>ér<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6445,9 +6422,39 @@
   <e>       <i>e<prm/></i><par n="am/ar__vblex"/></e>
 </pardef>
 
+<pardef n="ach/e[T]ar__vblex" c="modèle 1ère conjugaison Aé">
+  <e>       <p><l>é</l>         <r>e</r></p><i><prm/></i><par n="âm/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="am/ar__vblex"/></e>
+</pardef>
+
+<pardef n="p/e[S]ar__vblex" c="modèle 1ère conjugaison Aê">
+  <e>       <p><l>ê</l>         <r>e</r></p><i><prm/></i><par n="âm/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="am/ar__vblex"/></e>
+</pardef>
+
+<pardef n="f/e[L]ar__vblex" c="modèle 1ère conjugaison Ai">
+  <e>       <p><l>i</l>         <r>e</r></p><i><prm/></i><par n="âm/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="am/ar__vblex"/></e>
+</pardef>
+
 <pardef n="ass/o[T]ar__vblex" c="modèle 1ère conjugaison Aou">
   <e>       <p><l>ou</l>         <r>o</r></p><i><prm/></i><par n="âm/o__vblex"/></e>
   <e>       <i>o<prm/></i><par n="am/ar__vblex"/></e>
+</pardef>
+
+<pardef n="apr/o[CH]iér__vblex" c="modèle 1ère conjugaison Bô">
+  <e>       <p><l>ô</l>         <r>o</r></p><i><prm/></i><par n="aprôch/o__vblex"/></e>
+  <e>       <i>o<prm/></i><par n="aproch/iér__vblex"/></e>
+</pardef>
+
+<pardef n="br/e[SS]iér__vblex" c="modèle 1ère conjugaison Bé">
+  <e>       <p><l>é</l>         <r>e</r></p><i><prm/></i><par n="aprôch/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="aproch/iér__vblex"/></e>
+</pardef>
+
+<pardef n="t/e[R]iér__vblex" c="modèle 1ère conjugaison Bi">
+  <e>       <p><l>i</l>         <r>e</r></p><i><prm/></i><par n="aprôch/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="aproch/iér__vblex"/></e>
 </pardef>
 
 <pardef n="rem/a[R]ciér__vblex" c="modèle 1ère conjugaison Bâc">
@@ -6456,14 +6463,9 @@
   <e>       <i>a<prm/></i><par n="remar/ciér__vblex"/></e>
 </pardef>
 
-<pardef n="apr/o[CH]iér__vblex" c="modèle 1ère conjugaison Bô">
-  <e>       <p><l>ô</l>         <r>o</r></p><i><prm/></i><par n="aprôch/o__vblex"/></e>
-  <e>       <i>o<prm/></i><par n="aproch/iér__vblex"/></e>
-</pardef>
-
-<pardef n="p/e[GN]ér__vblex" c="modèle 1ère conjugaison Bèy">
-  <e>       <p><l>è</l>         <r>e</r></p><i><prm/></i><par n="pègn/o__vblex"/></e>
-  <e>       <i>e<prm/></i><par n="pegn/ér__vblex"/></e>
+<pardef n="pr/e[Y]ér__vblex" c="modèle 1ère conjugaison Béy">
+  <e>       <p><l>é</l>         <r>e</r></p><i><prm/></i><par n="préy/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="prey/ér__vblex"/></e>
 </pardef>
 
 <pardef n="d/o[R]mir__vblex">
@@ -6907,6 +6909,13 @@
 <e lm="charrotar">          <i>charrot</i><par n="chant/ar__vblex"/></e>
 <e lm="réstar">          <i>rést</i><par n="chant/ar__vblex"/></e>
 <e lm="sobrar">          <i>sobr</i><par n="chant/ar__vblex"/></e>
+<e lm="provar">          <i>prov</i><par n="chant/ar__vblex"/></e>
+<e lm="brodar">          <i>brod</i><par n="chant/ar__vblex"/></e>
+<e lm="copar">          <i>cop</i><par n="chant/ar__vblex"/></e>
+<e lm="côtar">          <i>côt</i><par n="chant/ar__vblex"/></e>
+<e lm="fllotar">          <i>fllot</i><par n="chant/ar__vblex"/></e>
+<e lm="sôtar">          <i>sôt</i><par n="chant/ar__vblex"/></e>
+<e lm="trotar">          <i>trot</i><par n="chant/ar__vblex"/></e>
 
 <e lm="mancar">          <i>man</i><par n="man/car__vblex"/></e>
 <e lm="braçar">          <i>bra</i><par n="bra/çar__vblex"/></e>
@@ -6918,11 +6927,11 @@
 <e lm="prèchiér">          <i>prèch</i><par n="lèss/iér__vblex"/></e>
 <e lm="cachiér">          <i>cach</i><par n="lèss/iér__vblex"/></e>
 <e lm="cudiér">          <i>cud</i><par n="lèss/iér__vblex"/></e>
-<e lm="reveriér">          <i>rever</i><par n="lèss/iér__vblex"/></e>
 <e lm="revèrchiér">          <i>revèrch</i><par n="lèss/iér__vblex"/></e>
 <e lm="ratachiér">          <i>ratach</i><par n="lèss/iér__vblex"/></e>
 <e lm="avanciér">          <i>avan</i><par n="avan/ciér__vblex"/></e>
 <e lm="comenciér">          <i>comen</i><par n="avan/ciér__vblex"/></e>
+<e lm="anonciér">          <i>anon</i><par n="avan/ciér__vblex"/></e>
 <e lm="megiér">          <i>me</i><par n="me/giér__vblex"/></e>
 <e lm="mengiér">          <i>men</i><par n="me/giér__vblex"/></e>
 <e lm="prègiér">          <i>prè</i><par n="me/giér__vblex"/></e>
@@ -6937,15 +6946,14 @@
 <e lm="rèssuyér">          <i>rèssuyér</i><par n="pay/ér__vblex"/></e>
 
 <e lm="guegnér">          <i>guegn</i><par n="pay/ér__vblex"/></e>
-
-<e lm="pegnér">          <i>p</i><par n="p/e[GN]ér__vblex" prm="gn"/></e>
+<e lm="agropegnér">          <i>agropegn</i><par n="pay/ér__vblex"/></e>
+<e lm="trepegnér">          <i>trepegn</i><par n="pay/ér__vblex"/></e>
 
 <e lm="mâchiér">          <i>mâch</i><par n="lèss/iér__vblex"/></e>
 <e lm="jugiér">          <i>jug</i><par n="lèss/iér__vblex"/></e>
 <e lm="atisiér">          <i>atis</i><par n="lèss/iér__vblex"/></e>
 <e lm="bèssiér">          <i>bèss</i><par n="lèss/iér__vblex"/></e>
 <e lm="édiér">          <i>éd</i><par n="lèss/iér__vblex"/></e>
-<e lm="veriér">          <i>ver</i><par n="lèss/iér__vblex"/></e>
 <e lm="lèssiér">          <i>lèss</i><par n="lèss/iér__vblex"/></e>
 <e lm="torchiér">          <i>torch</i><par n="lèss/iér__vblex"/></e>
 <e lm="frecassiér">          <i>frecass</i><par n="lèss/iér__vblex"/></e>
@@ -7027,6 +7035,7 @@
 <e lm="posar">          <i>p</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
 <e lm="reposar">          <i>rep</i><par n="t/o[RN]ar__vblex" prm="s"/></e>
 <e lm="savorar">          <i>sav</i><par n="t/o[RN]ar__vblex" prm="r"/></e>
+<e lm="dègringolar">          <i>dègring</i><par n="t/o[RN]ar__vblex" prm="l"/></e>
 
 <e lm="assotar">          <i>ass</i><par n="ass/o[T]ar__vblex" prm="t"/></e>
 
@@ -7035,45 +7044,81 @@
 <e lm="sietar">          <i>si</i><par n="l/e[V]ar__vblex" prm="t"/></e>
 <e lm="assetar">          <i>ass</i><par n="l/e[V]ar__vblex" prm="t"/></e>
 <e lm="rassietar">          <i>rassi</i><par n="l/e[V]ar__vblex" prm="t"/></e>
-<e lm="achetar">          <i>ach</i><par n="l/e[V]ar__vblex" prm="t"/></e>
-<e lm="agetar">          <i>ag</i><par n="l/e[V]ar__vblex" prm="t"/></e>
 <e lm="amenar">          <i>am</i><par n="l/e[V]ar__vblex" prm="n"/></e>
 <e lm="apelar">          <i>ap</i><par n="l/e[V]ar__vblex" prm="l"/></e>
 <e lm="arrevar">          <i>arr</i><par n="l/e[V]ar__vblex" prm="v"/></e>
 <e lm="èlevar">          <i>èl</i><par n="l/e[V]ar__vblex" prm="v"/></e>
-<e lm="felar">          <i>f</i><par n="l/e[V]ar__vblex" prm="l"/></e>
 <e lm="fenar">          <i>f</i><par n="l/e[V]ar__vblex" prm="n"/></e>
 <e lm="menar">          <i>m</i><par n="l/e[V]ar__vblex" prm="n"/></e>
 <e lm="meretar">          <i>mer</i><par n="l/e[V]ar__vblex" prm="t"/></e>
-<e lm="pesar">          <i>p</i><par n="l/e[V]ar__vblex" prm="s"/></e>
 <e lm="senar">          <i>s</i><par n="l/e[V]ar__vblex" prm="n"/></e>
+
+<e lm="achetar">          <i>ach</i><par n="ach/e[T]ar__vblex" prm="t"/></e>
+<e lm="agetar">          <i>ag</i><par n="ach/e[T]ar__vblex" prm="t"/></e>
+<e lm="rachetar">          <i>rach</i><par n="ach/e[T]ar__vblex" prm="t"/></e>
+<e lm="ragetar">          <i>rag</i><par n="ach/e[T]ar__vblex" prm="t"/></e>
+<e lm="penar">          <i>p</i><par n="ach/e[T]ar__vblex" prm="n"/></e>
+<e lm="dèpenar">          <i>dèp</i><par n="ach/e[T]ar__vblex" prm="n"/></e>
+
+<e lm="felar">          <i>f</i><par n="f/e[L]ar__vblex" prm="l"/></e>
+<e lm="dèfelar">          <i>dèfel</i><par n="f/e[L]ar__vblex" prm="l"/></e>
+<e lm="dèforfelar">          <i>dèforfel</i><par n="f/e[L]ar__vblex" prm="l"/></e>
+<e lm="èfelar">          <i>èfel</i><par n="f/e[L]ar__vblex" prm="l"/></e>
+<e lm="enfelar">          <i>enfel</i><par n="f/e[L]ar__vblex" prm="l"/></e>
+<e lm="forfelar">          <i>forfel</i><par n="f/e[L]ar__vblex" prm="l"/></e>
+
+<e lm="pesar">          <i>p</i><par n="p/e[S]ar__vblex" prm="s"/></e>
+<e lm="apesar">          <i>ap</i><par n="p/e[S]ar__vblex" prm="s"/></e>
+<e lm="repesar">          <i>rep</i><par n="p/e[S]ar__vblex" prm="s"/></e>
+
+<e lm="preyér">          <i>pr</i><par n="pr/e[Y]ér__vblex" prm="y"/></e>
+<e lm="pegnér">          <i>p</i><par n="pr/e[Y]ér__vblex" prm="gn"/></e>
+<e lm="dèpegnér">          <i>dèp</i><par n="pr/e[Y]ér__vblex" prm="gn"/></e>
+
 
 <e lm="remarciér">          <i>rem</i><par n="rem/a[R]ciér__vblex" prm="r"/></e>
 
 <e lm="aprochiér">          <i>apr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
 <e lm="acrochiér">          <i>acr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
 <e lm="dècrochiér">          <i>dècr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
+<e lm="forciér">          <i>f</i><par n="apr/o[CH]iér__vblex" prm="rc"/></e>
+<e lm="renforciér">          <i>renf</i><par n="apr/o[CH]iér__vblex" prm="rc"/></e>
 
-<e lm="fenir">            <i>f</i><par n="f/enir__vblex"/></e>
-<e r="LR" lm="sèrvir">    <i>sèrv</i><par n="2eme/ir__vblex"/></e>
+<e lm="bressiér">          <i>br</i><par n="br/e[SS]iér__vblex" prm="ss"/></e>
 
-<e lm="emplir">            <i>empl</i><par n="empl/ir__vblex"/></e>
-<e lm="crevir">            <i>crev</i><par n="empl/ir__vblex"/></e>
+<e lm="teriér">          <i>t</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="ateriér">          <i>at</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="èteriér">          <i>èt</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="reteriér">          <i>ret</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="veriér">          <i>v</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="dèveriér">          <i>dèv</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="chaveriér">          <i>chav</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+<e lm="reveriér">          <i>rev</i><par n="t/e[R]iér__vblex" prm="r"/></e>
+
+<e lm="fenir">            <i>fen</i><par n="fen/ir__vblex"/></e>
+<e lm="dèfenir">          <i>dèfen</i><par n="fen/ir__vblex"/></e>
+<e lm="môrtrir">    <i>môrtr</i><par n="fen/ir__vblex"/></e>
+<e lm="vêtir">    <i>vêtir</i><par n="fen/ir__vblex"/></e>
+<e r="LR" lm="sèrvir">    <i>sèrv</i><par n="fen/ir__vblex"/></e>
 
 <e lm="sortir">            <i>s</i><par n="s/ortir__vblex"/></e>
 <e lm="partir">            <i>p</i><par n="p/artir__vblex"/></e>	<!-- VERIFY -->
 <e lm="salyir">            <i>saly</i><par n="saly/ir__vblex"/></e>
 <e lm="corir">            <i>c</i><par n="c/orir__vblex"/></e>
+
 <e lm="sèrvir">            <i>s</i><par n="s/èrvir__vblex"/></e>
 
+<e lm="emplir">            <i>empl</i><par n="empl/ir__vblex"/></e>
+<e lm="crevir">            <i>crev</i><par n="empl/ir__vblex"/></e>
+
 <e lm="dormir">          <i>d</i><par n="d/o[R]mir__vblex" prm="r"/></e>
-<e r="LR" lm="dormir">    <i>dorm</i><par n="2eme/ir__vblex"/></e>
+<e r="LR" lm="dormir">    <i>dorm</i><par n="fen/ir__vblex"/></e>
 <e lm="dromir">          <i>dr</i><par n="d/o[R]mir__vblex" prm=""/></e>
-<e r="LR" lm="dromir">    <i>drom</i><par n="2eme/ir__vblex"/></e>
+<e r="LR" lm="dromir">    <i>drom</i><par n="fen/ir__vblex"/></e>
 <e lm="endormir">          <i>end</i><par n="d/o[R]mir__vblex" prm="r"/></e>
-<e r="LR" lm="endormir">    <i>endorm</i><par n="2eme/ir__vblex"/></e>
+<e r="LR" lm="endormir">    <i>endorm</i><par n="fen/ir__vblex"/></e>
 <e lm="endromir">          <i>endr</i><par n="d/o[R]mir__vblex" prm=""/></e>
-<e r="LR" lm="endromir">    <i>endrom</i><par n="2eme/ir__vblex"/></e>
+<e r="LR" lm="endromir">    <i>endrom</i><par n="fen/ir__vblex"/></e>
 
 <e lm="devêr">            <i>d</i><par n="d/evêr__vbmod"/></e>
 <e lm="povêr">            <i>p</i><par n="p/ovêr__vbmod"/></e>
@@ -7150,7 +7195,6 @@
 <e lm="enstruire">            <i>enstrui</i><par n="condui/re__vblex"/></e>
 <e lm="entroduire">            <i>entrodui</i><par n="condui/re__vblex"/></e>
 <e lm="recever">            <i>re</i><par n="re/cevêr__vblex"/></e>
-
 
 <e lm="abdicar">          <i>abdi</i><par n="man/car__vblex"/></e>
 <e lm="abimar">          <i>abim</i><par n="chant/ar__vblex"/></e>
@@ -7428,7 +7472,6 @@
 <e lm="mourgar">          <i>mourg</i><par n="blag/ar__vblex"/></e>
 <e lm="murar">          <i>mur</i><par n="chant/ar__vblex"/></e>
 <e lm="murmurar">          <i>murmur</i><par n="chant/ar__vblex"/></e>
-<e lm="musar">          <i>mus</i><par n="chant/ar__vblex"/></e>
 <e lm="naturalisar">          <i>naturalis</i><par n="chant/ar__vblex"/></e>
 <e lm="nifllar">          <i>nifll</i><par n="chant/ar__vblex"/></e>
 <e lm="nipar">          <i>nip</i><par n="chant/ar__vblex"/></e>
@@ -7641,6 +7684,1534 @@
 <e lm="turgiér">          <i>tur</i><par n="me/giér__vblex"/></e>
 <e lm="visiér">          <i>vis</i><par n="lèss/iér__vblex"/></e>
 <e lm="vissiér">          <i>viss</i><par n="lèss/iér__vblex"/></e>
+<e lm="amusiér">          <i>amus</i><par n="lèss/iér__vblex"/></e>
+<e lm="ôtorisiér">          <i>ôtoris</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèpayisiér">          <i>dèpayis</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèsorganisiér">          <i>dèsorganis</i><par n="lèss/iér__vblex"/></e>
+<e lm="favorisiér">          <i>favoris</i><par n="lèss/iér__vblex"/></e>
+<e lm="formalisar">          <i>formalis</i><par n="chant/ar__vblex"/></e>
+<e lm="fratèrnisar">          <i>fratèrnis</i><par n="chant/ar__vblex"/></e>
+<e lm="glissar">          <i>gliss</i><par n="chant/ar__vblex"/></e>
+<e lm="magnètisiér">          <i>magnètis</i><par n="lèss/iér__vblex"/></e>
+<e lm="martirisiér">          <i>martiris</i><par n="lèss/iér__vblex"/></e>
+<e lm="modèrnisiér">          <i>modèrnis</i><par n="lèss/iér__vblex"/></e>
+<e lm="organisiér">          <i>organis</i><par n="lèss/iér__vblex"/></e>
+<e lm="règularisiér">          <i>règularis</i><par n="lèss/iér__vblex"/></e>
+<e lm="rivalisiér">          <i>rivalis</i><par n="lèss/iér__vblex"/></e>
+<e lm="stèrilisiér">          <i>stèrilis</i><par n="lèss/iér__vblex"/></e>
+<e lm="tapissar">          <i>tapiss</i><par n="chant/ar__vblex"/></e>
+<e lm="totalisiér">          <i>totalis</i><par n="lèss/iér__vblex"/></e>
+<e lm="tranquilisiér">          <i>tranquilis</i><par n="lèss/iér__vblex"/></e>
+<e lm="utilisiér">          <i>utilis</i><par n="lèss/iér__vblex"/></e>
+<e lm="tire-vougnér">          <i>tire-vougn</i><par n="pay/ér__vblex"/></e>
+<e lm="alongiér">          <i>alon</i><par n="me/giér__vblex"/></e>
+<e lm="ralongiér">          <i>ralon</i><par n="me/giér__vblex"/></e>
+
+<e lm="abèssiér">          <i>abèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="abochiér">          <i>aboch</i><par n="lèss/iér__vblex"/></e>
+<e lm="abregiér">          <i>abre</i><par n="me/giér__vblex"/></e>
+<e lm="acorciér">          <i>acor</i><par n="avan/ciér__vblex"/></e>
+<e lm="adociér">          <i>ado</i><par n="avan/ciér__vblex"/></e>
+<e lm="adrèciér">          <i>adrè</i><par n="avan/ciér__vblex"/></e>
+<e lm="afèssiér">          <i>afèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="afétiér">          <i>afét</i><par n="lèss/iér__vblex"/></e>
+<e lm="afllegiér">          <i>aflle</i><par n="me/giér__vblex"/></e>
+<e lm="agouesiér">          <i>agoues</i><par n="lèss/iér__vblex"/></e>
+<e lm="alegiér">          <i>ale</i><par n="me/giér__vblex"/></e>
+<e lm="alêtiér">          <i>alêt</i><par n="lèss/iér__vblex"/></e>
+<e lm="apèsiér">          <i>apès</i><par n="lèss/iér__vblex"/></e>
+<e lm="aprivouèsiér">          <i>aprivouès</i><par n="lèss/iér__vblex"/></e>
+<e lm="aprovèsiér">          <i>aprovès</i><par n="lèss/iér__vblex"/></e>
+<e lm="aquèsiér">          <i>aquès</i><par n="lèss/iér__vblex"/></e>
+<e lm="arrengiér">          <i>arren</i><par n="me/giér__vblex"/></e>
+<e lm="aspèrgiér">          <i>aspèr</i><par n="me/giér__vblex"/></e>
+<e lm="assechiér">          <i>assech</i><par n="lèss/iér__vblex"/></e>
+<e lm="assuegiér">          <i>assue</i><par n="me/giér__vblex"/></e>
+<e lm="bâchiér">          <i>bâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="bambochiér">          <i>bamboch</i><par n="lèss/iér__vblex"/></e>
+<e lm="barreciér">          <i>barre</i><par n="avan/ciér__vblex"/></e>
+<e lm="béchiér">          <i>béch</i><par n="lèss/iér__vblex"/></e>
+<e lm="bèchiér">          <i>bèch</i><par n="lèss/iér__vblex"/></e>
+<e lm="benésiér">          <i>benés</i><par n="lèss/iér__vblex"/></e>
+<e lm="bèsiér">          <i>bès</i><par n="lèss/iér__vblex"/></e>
+<e lm="bièsiér">          <i>biès</i><par n="lèss/iér__vblex"/></e>
+<e lm="blessiér">          <i>bless</i><par n="lèss/iér__vblex"/></e>
+<e lm="blochiér">          <i>bloch</i><par n="lèss/iér__vblex"/></e>
+<e lm="blossiér">          <i>bloss</i><par n="lèss/iér__vblex"/></e>
+<e lm="bolongiér">          <i>bolon</i><par n="me/giér__vblex"/></e>
+<e lm="bouesiér">          <i>boues</i><par n="lèss/iér__vblex"/></e>
+<e lm="brechiér">          <i>brech</i><par n="lèss/iér__vblex"/></e>
+<e lm="brochiér">          <i>broch</i><par n="lèss/iér__vblex"/></e>
+<e lm="bronchiér">          <i>bronch</i><par n="lèss/iér__vblex"/></e>
+<e lm="brossiér">          <i>bross</i><par n="lèss/iér__vblex"/></e>
+<e lm="cabociér">          <i>cabo</i><par n="avan/ciér__vblex"/></e>
+<e lm="carèssiér">          <i>carèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="ceriér">          <i>cer</i><par n="lèss/iér__vblex"/></e>
+<e lm="chamouesiér">          <i>chamoues</i><par n="lèss/iér__vblex"/></e>
+<e lm="chôchiér">          <i>chôch</i><par n="lèss/iér__vblex"/></e>
+<e lm="chôciér">          <i>chô</i><par n="avan/ciér__vblex"/></e>
+<e lm="cllenchiér">          <i>cllench</i><par n="lèss/iér__vblex"/></e>
+<e lm="clleriér">          <i>cller</i><par n="lèss/iér__vblex"/></e>
+<e lm="cllochiér">          <i>clloch</i><par n="lèss/iér__vblex"/></e>
+<e lm="cllossiér">          <i>clloss</i><par n="lèss/iér__vblex"/></e>
+<e lm="cochiér">          <i>coch</i><par n="lèss/iér__vblex"/></e>
+<e lm="comeniér">          <i>comen</i><par n="lèss/iér__vblex"/></e>
+<e lm="conchiér">          <i>conch</i><par n="lèss/iér__vblex"/></e>
+<e lm="conseliér">          <i>consel</i><par n="lèss/iér__vblex"/></e>
+<e lm="corregiér">          <i>corre</i><par n="me/giér__vblex"/></e>
+<e lm="corrociér">          <i>corro</i><par n="avan/ciér__vblex"/></e>
+<e lm="couèfiér">          <i>couèf</i><par n="lèss/iér__vblex"/></e>
+<e lm="couenciér">          <i>couen</i><par n="avan/ciér__vblex"/></e>
+<e lm="coviér">          <i>cov</i><par n="lèss/iér__vblex"/></e>
+<e lm="cressiér">          <i>cress</i><par n="lèss/iér__vblex"/></e>
+<e lm="crochiér">          <i>croch</i><par n="lèss/iér__vblex"/></e>
+<e lm="crossiér">          <i>cross</i><par n="lèss/iér__vblex"/></e>
+<e lm="crouesiér">          <i>croues</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèbôchiér">          <i>dèbôch</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèbouesiér">          <i>dèboues</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèchôciér">          <i>dèchô</i><par n="avan/ciér__vblex"/></e>
+<e lm="dècllenchiér">          <i>dècllench</i><par n="lèss/iér__vblex"/></e>
+<e lm="dècongiér">          <i>dècon</i><par n="me/giér__vblex"/></e>
+<e lm="dècouèriér">          <i>dècouèr</i><par n="lèss/iér__vblex"/></e>
+<e lm="dècouessiér">          <i>dècouess</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèfonciér">          <i>dèfon</i><par n="avan/ciér__vblex"/></e>
+<e lm="dèfôssiér">          <i>dèfôss</i><par n="lèss/iér__vblex"/></e>
+<e lm="dègoèsiér">          <i>dègoès</i><par n="lèss/iér__vblex"/></e>
+<e lm="dègorgiér">          <i>dègor</i><par n="me/giér__vblex"/></e>
+<e lm="dègrèssiér">          <i>dègrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèjochiér">          <i>dèjoch</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèlâssiér">          <i>dèlâss</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèlèssiér">          <i>dèlèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèlêtiér">          <i>dèlêt</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèlogiér">          <i>dèlo</i><par n="me/giér__vblex"/></e>
+<e lm="dèmegiér">          <i>dème</i><par n="me/giér__vblex"/></e>
+<e lm="dènonciér">          <i>dènon</i><par n="avan/ciér__vblex"/></e>
+<e lm="dèpeciér">          <i>dèpe</i><par n="avan/ciér__vblex"/></e>
+<e lm="dèpegiér">          <i>dèpe</i><par n="me/giér__vblex"/></e>
+<e lm="dèrengiér">          <i>dèren</i><par n="me/giér__vblex"/></e>
+<e lm="dèrochiér">          <i>dèroch</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèsentèrèssiér">          <i>dèsentèrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèsoblegiér">          <i>dèsoble</i><par n="me/giér__vblex"/></e>
+<e lm="dèsossiér">          <i>dèsoss</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèssechiér">          <i>dèssech</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèssongiér">          <i>dèsson</i><par n="me/giér__vblex"/></e>
+<e lm="dèvouediér">          <i>dèvoued</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèvouegiér">          <i>dèvoue</i><par n="me/giér__vblex"/></e>
+<e lm="difèrenciér">          <i>difèren</i><par n="avan/ciér__vblex"/></e>
+<e lm="divorciér">          <i>divor</i><par n="avan/ciér__vblex"/></e>
+<e lm="drèciér">          <i>drè</i><par n="avan/ciér__vblex"/></e>
+<e lm="èbrèchiér">          <i>èbrèch</i><par n="lèss/iér__vblex"/></e>
+<e lm="èclleriér">          <i>ècller</i><par n="lèss/iér__vblex"/></e>
+<e lm="ècofiér">          <i>ècof</i><par n="lèss/iér__vblex"/></e>
+<e lm="ècorchiér">          <i>ècorch</i><par n="lèss/iér__vblex"/></e>
+<e lm="ècorciér">          <i>ècor</i><par n="avan/ciér__vblex"/></e>
+<e lm="ècorgiér">          <i>ècor</i><par n="me/giér__vblex"/></e>
+<e lm="ècouessiér">          <i>ècouess</i><par n="lèss/iér__vblex"/></e>
+<e lm="èfarochiér">          <i>èfaroch</i><par n="lèss/iér__vblex"/></e>
+<e lm="èfarogiér">          <i>èfaro</i><par n="me/giér__vblex"/></e>
+<e lm="èfilochiér">          <i>èfiloch</i><par n="lèss/iér__vblex"/></e>
+<e lm="èfrengiér">          <i>èfren</i><par n="me/giér__vblex"/></e>
+<e lm="ègorciér">          <i>ègor</i><par n="avan/ciér__vblex"/></e>
+<e lm="ègorgiér">          <i>ègor</i><par n="me/giér__vblex"/></e>
+<e lm="ègzèrciér">          <i>ègzèr</i><par n="avan/ciér__vblex"/></e>
+<e lm="ègzôciér">          <i>ègzô</i><par n="avan/ciér__vblex"/></e>
+<e lm="embôchiér">          <i>embôch</i><par n="lèss/iér__vblex"/></e>
+<e lm="embrochiér">          <i>embroch</i><par n="lèss/iér__vblex"/></e>
+<e lm="encllenchiér">          <i>encllench</i><par n="lèss/iér__vblex"/></e>
+<e lm="encochiér">          <i>encoch</i><par n="lèss/iér__vblex"/></e>
+<e lm="enfessiér">          <i>enfess</i><par n="lèss/iér__vblex"/></e>
+<e lm="enfonciér">          <i>enfon</i><par n="avan/ciér__vblex"/></e>
+<e lm="engeniér">          <i>engen</i><par n="lèss/iér__vblex"/></e>
+<e lm="engorgiér">          <i>engor</i><par n="me/giér__vblex"/></e>
+<e lm="engrèssiér">          <i>engrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="enguesiér">          <i>engues</i><par n="lèss/iér__vblex"/></e>
+<e lm="enquèssiér">          <i>enquèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="enrechiér">          <i>enrech</i><par n="lèss/iér__vblex"/></e>
+<e lm="ensèmenciér">          <i>ensèmen</i><par n="avan/ciér__vblex"/></e>
+<e lm="entéchiér">          <i>entéch</i><par n="lèss/iér__vblex"/></e>
+<e lm="entèrèssiér">          <i>entèrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="entèrrogiér">          <i>entèrro</i><par n="me/giér__vblex"/></e>
+<e lm="entrefechiér">          <i>entrefech</i><par n="lèss/iér__vblex"/></e>
+<e lm="èpongiér">          <i>èpon</i><par n="me/giér__vblex"/></e>
+<e lm="èpoueriér">          <i>èpouer</i><par n="lèss/iér__vblex"/></e>
+<e lm="èpouesiér">          <i>èpoues</i><par n="lèss/iér__vblex"/></e>
+<e lm="ètogiér">          <i>èto</i><par n="me/giér__vblex"/></e>
+<e lm="èvarechiér">          <i>èvarech</i><par n="lèss/iér__vblex"/></e>
+<e lm="fâchiér">          <i>fâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="fechiér">          <i>fech</i><par n="lèss/iér__vblex"/></e>
+<e lm="flloriér">          <i>fllor</i><par n="lèss/iér__vblex"/></e>
+<e lm="fonciér">          <i>fon</i><par n="avan/ciér__vblex"/></e>
+<e lm="forgiér">          <i>for</i><par n="me/giér__vblex"/></e>
+<e lm="fôssiér">          <i>fôss</i><par n="lèss/iér__vblex"/></e>
+<e lm="frêssiér">          <i>frêss</i><par n="lèss/iér__vblex"/></e>
+<e lm="fronciér">          <i>fron</i><par n="avan/ciér__vblex"/></e>
+<e lm="frouessiér">          <i>frouess</i><par n="lèss/iér__vblex"/></e>
+<e lm="gerciér">          <i>ger</i><par n="avan/ciér__vblex"/></e>
+<e lm="gobèrgiér">          <i>gobèr</i><par n="me/giér__vblex"/></e>
+<e lm="gorgossiér">          <i>gorgoss</i><par n="lèss/iér__vblex"/></e>
+<e lm="grèssiér">          <i>grèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="hâchiér">          <i>hâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="hèbèrgiér">          <i>hèbèr</i><par n="me/giér__vblex"/></e>
+<e lm="hèrchiér">          <i>hèrch</i><par n="lèss/iér__vblex"/></e>
+<e lm="héressiér">          <i>héress</i><par n="lèss/iér__vblex"/></e>
+<e lm="hèrsiér">          <i>hèrs</i><par n="lèss/iér__vblex"/></e>
+<e lm="hôssiér">          <i>hôss</i><par n="lèss/iér__vblex"/></e>
+<e lm="jochiér">          <i>joch</i><par n="lèss/iér__vblex"/></e>
+<e lm="lâchiér">          <i>lâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="lâssiér">          <i>lâss</i><par n="lèss/iér__vblex"/></e>
+<e lm="lechiér">          <i>lech</i><par n="lèss/iér__vblex"/></e>
+<e lm="logiér">          <i>lo</i><par n="me/giér__vblex"/></e>
+<e lm="longiér">          <i>lon</i><par n="me/giér__vblex"/></e>
+<e lm="mègiér">          <i>mè</i><par n="me/giér__vblex"/></e>
+<e lm="meriér">          <i>mer</i><par n="lèss/iér__vblex"/></e>
+<e lm="mochiér">          <i>moch</i><par n="lèss/iér__vblex"/></e>
+<e lm="negiér">          <i>ne</i><par n="me/giér__vblex"/></e>
+<e lm="nèglegiér">          <i>nègle</i><par n="me/giér__vblex"/></e>
+<e lm="nèsiér">          <i>nès</i><par n="lèss/iér__vblex"/></e>
+<e lm="nèvochiér">          <i>nèvoch</i><par n="lèss/iér__vblex"/></e>
+<e lm="nociér">          <i>no</i><par n="avan/ciér__vblex"/></e>
+<e lm="oblegiér">          <i>oble</i><par n="me/giér__vblex"/></e>
+<e lm="panossiér">          <i>panoss</i><par n="lèss/iér__vblex"/></e>
+<e lm="patôgiér">          <i>patô</i><par n="me/giér__vblex"/></e>
+<e lm="pavouèsiér">          <i>pavouès</i><par n="lèss/iér__vblex"/></e>
+<e lm="pèchiér">          <i>pèch</i><par n="lèss/iér__vblex"/></e>
+<e lm="pêchiér">          <i>pêch</i><par n="lèss/iér__vblex"/></e>
+<e lm="pegessiér">          <i>pegess</i><par n="lèss/iér__vblex"/></e>
+<e lm="pegiér">          <i>pe</i><par n="me/giér__vblex"/></e>
+<e lm="penchiér">          <i>pench</i><par n="lèss/iér__vblex"/></e>
+<e lm="pèrchiér">          <i>pèrch</i><par n="lèss/iér__vblex"/></e>
+<e lm="pêrchiér">          <i>pêrch</i><par n="lèss/iér__vblex"/></e>
+<e lm="pèrciér">          <i>pèr</i><par n="avan/ciér__vblex"/></e>
+<e lm="piechiér">          <i>piech</i><par n="lèss/iér__vblex"/></e>
+<e lm="pièciér">          <i>piè</i><par n="avan/ciér__vblex"/></e>
+<e lm="pignochiér">          <i>pignoch</i><par n="lèss/iér__vblex"/></e>
+<e lm="pléssiér">          <i>pléss</i><par n="lèss/iér__vblex"/></e>
+<e lm="plongiér">          <i>plon</i><par n="me/giér__vblex"/></e>
+<e lm="pociér">          <i>po</i><par n="avan/ciér__vblex"/></e>
+<e lm="pouesiér">          <i>poues</i><par n="lèss/iér__vblex"/></e>
+<e lm="progrèssiér">          <i>progrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="prolongiér">          <i>prolon</i><par n="me/giér__vblex"/></e>
+<e lm="prononciér">          <i>pronon</i><par n="avan/ciér__vblex"/></e>
+<e lm="protègiér">          <i>protè</i><par n="me/giér__vblex"/></e>
+<e lm="rabâchiér">          <i>rabâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="rabèssiér">          <i>rabèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="racorciér">          <i>racor</i><par n="avan/ciér__vblex"/></e>
+<e lm="rapèrchiér">          <i>rapèrch</i><par n="lèss/iér__vblex"/></e>
+<e lm="raprochiér">          <i>raproch</i><par n="lèss/iér__vblex"/></e>
+<e lm="ratibouèsiér">          <i>ratibouès</i><par n="lèss/iér__vblex"/></e>
+<e lm="rebouesiér">          <i>reboues</i><par n="lèss/iér__vblex"/></e>
+<e lm="rechèrchiér">          <i>rechèrch</i><par n="lèss/iér__vblex"/></e>
+<e lm="recomenciér">          <i>recomen</i><par n="avan/ciér__vblex"/></e>
+<e lm="redrèciér">          <i>redrè</i><par n="avan/ciér__vblex"/></e>
+<e lm="rèfrèchiér">          <i>rèfrèch</i><par n="lèss/iér__vblex"/></e>
+<e lm="refrègiér">          <i>refrè</i><par n="me/giér__vblex"/></e>
+<e lm="regorgiér">          <i>regor</i><par n="me/giér__vblex"/></e>
+<e lm="relâchiér">          <i>relâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="renciér">          <i>ren</i><par n="avan/ciér__vblex"/></e>
+<e lm="renegiér">          <i>rene</i><par n="me/giér__vblex"/></e>
+<e lm="rengiér">          <i>ren</i><par n="me/giér__vblex"/></e>
+<e lm="rengorgiér">          <i>rengor</i><par n="me/giér__vblex"/></e>
+<e lm="renonciér">          <i>renon</i><par n="avan/ciér__vblex"/></e>
+<e lm="reprochiér">          <i>reproch</i><par n="lèss/iér__vblex"/></e>
+<e lm="reprogiér">          <i>repro</i><par n="me/giér__vblex"/></e>
+<e lm="rèssiér">          <i>rèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="ressongiér">          <i>resson</i><par n="me/giér__vblex"/></e>
+<e lm="retrèciér">          <i>retrè</i><par n="avan/ciér__vblex"/></e>
+<e lm="retrenchiér">          <i>retrench</i><par n="lèss/iér__vblex"/></e>
+<e lm="retrossiér">          <i>retross</i><par n="lèss/iér__vblex"/></e>
+<e lm="rochiér">          <i>roch</i><par n="lèss/iér__vblex"/></e>
+<e lm="rogiér">          <i>ro</i><par n="me/giér__vblex"/></e>
+<e lm="rongiér">          <i>ron</i><par n="me/giér__vblex"/></e>
+<e lm="rôssiér">          <i>rôss</i><par n="lèss/iér__vblex"/></e>
+<e lm="ruessiér">          <i>ruess</i><par n="lèss/iér__vblex"/></e>
+<e lm="sechiér">          <i>sech</i><par n="lèss/iér__vblex"/></e>
+<e lm="songiér">          <i>son</i><par n="me/giér__vblex"/></e>
+<e lm="tâchiér">          <i>tâch</i><par n="lèss/iér__vblex"/></e>
+<e lm="talochiér">          <i>taloch</i><par n="lèss/iér__vblex"/></e>
+<e lm="tessiér">          <i>tess</i><par n="lèss/iér__vblex"/></e>
+<e lm="tochiér">          <i>toch</i><par n="lèss/iér__vblex"/></e>
+<e lm="trabechiér">          <i>trabech</i><par n="lèss/iér__vblex"/></e>
+<e lm="travèrsiér">          <i>travèrs</i><par n="lèss/iér__vblex"/></e>
+<e lm="trèciér">          <i>trè</i><par n="avan/ciér__vblex"/></e>
+<e lm="trenchiér">          <i>trench</i><par n="lèss/iér__vblex"/></e>
+<e lm="trochiér">          <i>troch</i><par n="lèss/iér__vblex"/></e>
+<e lm="trossiér">          <i>tross</i><par n="lèss/iér__vblex"/></e>
+<e lm="vendèmiér">          <i>vendèm</i><par n="lèss/iér__vblex"/></e>
+<e lm="vendengiér">          <i>venden</i><par n="me/giér__vblex"/></e>
+<e lm="venengiér">          <i>venen</i><par n="me/giér__vblex"/></e>
+<e lm="vengiér">          <i>ven</i><par n="me/giér__vblex"/></e>
+<e lm="vèrgiér">          <i>vèr</i><par n="me/giér__vblex"/></e>
+<e lm="vèssiér">          <i>vèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="vouediér">          <i>voued</i><par n="lèss/iér__vblex"/></e>
+<e lm="vouegiér">          <i>voue</i><par n="me/giér__vblex"/></e>
+
+<e lm="aberar">          <i>aber</i><par n="chant/ar__vblex"/></e>
+<e lm="abevrar">          <i>abevr</i><par n="chant/ar__vblex"/></e>
+<e lm="abonar">          <i>abon</i><par n="chant/ar__vblex"/></e>
+<e lm="abônar">          <i>abôn</i><par n="chant/ar__vblex"/></e>
+<e lm="abondar">          <i>abond</i><par n="chant/ar__vblex"/></e>
+<e lm="abosar">          <i>abos</i><par n="chant/ar__vblex"/></e>
+<e lm="abotonar">          <i>aboton</i><par n="chant/ar__vblex"/></e>
+<e lm="abrevar">          <i>abrev</i><par n="chant/ar__vblex"/></e>
+<e lm="accèptar">          <i>accèpt</i><par n="chant/ar__vblex"/></e>
+<e lm="accionar">          <i>accion</i><par n="chant/ar__vblex"/></e>
+<e lm="achavonar">          <i>achavon</i><par n="chant/ar__vblex"/></e>
+<e lm="achemenar">          <i>achemen</i><par n="chant/ar__vblex"/></e>
+<e lm="achevar">          <i>achev</i><par n="chant/ar__vblex"/></e>
+<e lm="acoblar">          <i>acobl</i><par n="chant/ar__vblex"/></e>
+<e lm="acocolar">          <i>acocol</i><par n="chant/ar__vblex"/></e>
+<e lm="acodar">          <i>acod</i><par n="chant/ar__vblex"/></e>
+<e lm="acomodar">          <i>acomod</i><par n="chant/ar__vblex"/></e>
+<e lm="acostar">          <i>acost</i><par n="chant/ar__vblex"/></e>
+<e lm="acotar">          <i>acot</i><par n="chant/ar__vblex"/></e>
+<e lm="acotemar">          <i>acotem</i><par n="chant/ar__vblex"/></e>
+<e lm="acothemar">          <i>acothem</i><par n="chant/ar__vblex"/></e>
+<e lm="acovar">          <i>acov</i><par n="chant/ar__vblex"/></e>
+<e lm="acropenar">          <i>acropen</i><par n="chant/ar__vblex"/></e>
+<e lm="adicionar">          <i>adicion</i><par n="chant/ar__vblex"/></e>
+<e lm="adobar">          <i>adob</i><par n="chant/ar__vblex"/></e>
+<e lm="adocenar">          <i>adocen</i><par n="chant/ar__vblex"/></e>
+<e lm="adoptar">          <i>adopt</i><par n="chant/ar__vblex"/></e>
+<e lm="afèrmar">          <i>afèrm</i><par n="chant/ar__vblex"/></e>
+<e lm="afétar">          <i>afét</i><par n="chant/ar__vblex"/></e>
+<e lm="afistolar">          <i>afistol</i><par n="chant/ar__vblex"/></e>
+<e lm="afolar">          <i>afol</i><par n="chant/ar__vblex"/></e>
+<e lm="agllètar">          <i>agllèt</i><par n="chant/ar__vblex"/></e>
+<e lm="agnelar">          <i>agnel</i><par n="chant/ar__vblex"/></e>
+<e lm="agotar">          <i>agot</i><par n="chant/ar__vblex"/></e>
+<e lm="agôtar">          <i>agôt</i><par n="chant/ar__vblex"/></e>
+<e lm="agouelyonar">          <i>agouelyon</i><par n="chant/ar__vblex"/></e>
+<e lm="agremelonar">          <i>agremelon</i><par n="chant/ar__vblex"/></e>
+<e lm="agrepar">          <i>agrep</i><par n="chant/ar__vblex"/></e>
+<e lm="ajornar">          <i>ajorn</i><par n="chant/ar__vblex"/></e>
+<e lm="alecar">          <i>ale</i><par n="man/car__vblex"/></e>
+<e lm="alèrtar">          <i>alèrt</i><par n="chant/ar__vblex"/></e>
+<e lm="alêtar">          <i>alêt</i><par n="chant/ar__vblex"/></e>
+<e lm="alevar">          <i>alev</i><par n="chant/ar__vblex"/></e>
+<e lm="alimentar">          <i>aliment</i><par n="chant/ar__vblex"/></e>
+<e lm="ambicionar">          <i>ambicion</i><par n="chant/ar__vblex"/></e>
+<e lm="amèlyorar">          <i>amèlyor</i><par n="chant/ar__vblex"/></e>
+<e lm="amendar">          <i>amend</i><par n="chant/ar__vblex"/></e>
+<e lm="amidonar">          <i>amidon</i><par n="chant/ar__vblex"/></e>
+<e lm="amolar">          <i>amol</i><par n="chant/ar__vblex"/></e>
+<e lm="amorsar">          <i>amors</i><par n="chant/ar__vblex"/></e>
+<e lm="amortar">          <i>amort</i><par n="chant/ar__vblex"/></e>
+<e lm="amouelar">          <i>amouel</i><par n="chant/ar__vblex"/></e>
+<e lm="apinjonar">          <i>apinjon</i><par n="chant/ar__vblex"/></e>
+<e lm="apistolar">          <i>apistol</i><par n="chant/ar__vblex"/></e>
+<e lm="apouentar">          <i>apouent</i><par n="chant/ar__vblex"/></e>
+<e lm="apréhendar">          <i>apréhend</i><par n="chant/ar__vblex"/></e>
+<e lm="aprèstar">          <i>aprèst</i><par n="chant/ar__vblex"/></e>
+<e lm="aprovar">          <i>aprov</i><par n="chant/ar__vblex"/></e>
+<e lm="aprovisionar">          <i>aprovision</i><par n="chant/ar__vblex"/></e>
+<e lm="argentar">          <i>argent</i><par n="chant/ar__vblex"/></e>
+<e lm="arpentar">          <i>arpent</i><par n="chant/ar__vblex"/></e>
+<e lm="arrètar">          <i>arrèt</i><par n="chant/ar__vblex"/></e>
+<e lm="assemblar">          <i>assembl</i><par n="chant/ar__vblex"/></e>
+<e lm="assentionar">          <i>assention</i><par n="chant/ar__vblex"/></e>
+<e lm="assepar">          <i>assep</i><par n="chant/ar__vblex"/></e>
+<e lm="assêsonar">          <i>assêson</i><par n="chant/ar__vblex"/></e>
+<e lm="assetèrar">          <i>assetèr</i><par n="chant/ar__vblex"/></e>
+<e lm="atâtar">          <i>atât</i><par n="chant/ar__vblex"/></e>
+<e lm="atelar">          <i>atel</i><par n="chant/ar__vblex"/></e>
+<e lm="atropar">          <i>atrop</i><par n="chant/ar__vblex"/></e>
+<e lm="avênar">          <i>avên</i><par n="chant/ar__vblex"/></e>
+<e lm="avesenar">          <i>avesen</i><par n="chant/ar__vblex"/></e>
+<e lm="avogllar">          <i>avogll</i><par n="chant/ar__vblex"/></e>
+<e lm="avortar">          <i>avort</i><par n="chant/ar__vblex"/></e>
+<e lm="bâchar">          <i>bâch</i><par n="chant/ar__vblex"/></e>
+<e lm="bâcllar">          <i>bâcll</i><par n="chant/ar__vblex"/></e>
+<e lm="badenar">          <i>baden</i><par n="chant/ar__vblex"/></e>
+<e lm="bâfrar">          <i>bâfr</i><par n="chant/ar__vblex"/></e>
+<e lm="baguenôdar">          <i>baguenôd</i><par n="chant/ar__vblex"/></e>
+<e lm="balotar">          <i>balot</i><par n="chant/ar__vblex"/></e>
+<e lm="barbelar">          <i>barbel</i><par n="chant/ar__vblex"/></e>
+<e lm="barbotar">          <i>barbot</i><par n="chant/ar__vblex"/></e>
+<e lm="bardelar">          <i>bardel</i><par n="chant/ar__vblex"/></e>
+<e lm="baricolar">          <i>baricol</i><par n="chant/ar__vblex"/></e>
+<e lm="bariolar">          <i>bariol</i><par n="chant/ar__vblex"/></e>
+<e lm="baritèlar">          <i>baritèl</i><par n="chant/ar__vblex"/></e>
+<e lm="barlotar">          <i>barlot</i><par n="chant/ar__vblex"/></e>
+<e lm="bartavèlar">          <i>bartavèl</i><par n="chant/ar__vblex"/></e>
+<e lm="basotar">          <i>basot</i><par n="chant/ar__vblex"/></e>
+<e lm="bassenar">          <i>bassen</i><par n="chant/ar__vblex"/></e>
+<e lm="bâstar">          <i>bâst</i><par n="chant/ar__vblex"/></e>
+<e lm="bâstonar">          <i>bâston</i><par n="chant/ar__vblex"/></e>
+<e lm="bâtar">          <i>bât</i><par n="chant/ar__vblex"/></e>
+<e lm="batelyonar">          <i>batelyon</i><par n="chant/ar__vblex"/></e>
+<e lm="batiorar">          <i>batior</i><par n="chant/ar__vblex"/></e>
+<e lm="bâtonar">          <i>bâton</i><par n="chant/ar__vblex"/></e>
+<e lm="bècar">          <i>bè</i><par n="man/car__vblex"/></e>
+<e lm="bèdar">          <i>bèd</i><par n="chant/ar__vblex"/></e>
+<e lm="bèlar">          <i>bèl</i><par n="chant/ar__vblex"/></e>
+<e lm="benar">          <i>ben</i><par n="chant/ar__vblex"/></e>
+<e lm="bênar">          <i>bên</i><par n="chant/ar__vblex"/></e>
+<e lm="bendar">          <i>bend</i><par n="chant/ar__vblex"/></e>
+<e lm="berouètar">          <i>berouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="bèrsar">          <i>bèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="betar">          <i>bet</i><par n="chant/ar__vblex"/></e>
+<e lm="betonar">          <i>beton</i><par n="chant/ar__vblex"/></e>
+<e lm="blâmar">          <i>blâm</i><par n="chant/ar__vblex"/></e>
+<e lm="blasfèmar">          <i>blasfèm</i><par n="chant/ar__vblex"/></e>
+<e lm="bletonar">          <i>bleton</i><par n="chant/ar__vblex"/></e>
+<e lm="blocar">          <i>blo</i><par n="man/car__vblex"/></e>
+<e lm="blondar">          <i>blond</i><par n="chant/ar__vblex"/></e>
+<e lm="bobar">          <i>bob</i><par n="chant/ar__vblex"/></e>
+<e lm="bocar">          <i>bo</i><par n="man/car__vblex"/></e>
+<e lm="bocllar">          <i>bocll</i><par n="chant/ar__vblex"/></e>
+<e lm="bofar">          <i>bof</i><par n="chant/ar__vblex"/></e>
+<e lm="bolegar">          <i>boleg</i><par n="blag/ar__vblex"/></e>
+<e lm="bolevèrsar">          <i>bolevèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="bolyonar">          <i>bolyon</i><par n="chant/ar__vblex"/></e>
+<e lm="bombar">          <i>bomb</i><par n="chant/ar__vblex"/></e>
+<e lm="bonar">          <i>bon</i><par n="chant/ar__vblex"/></e>
+<e lm="bônar">          <i>bôn</i><par n="chant/ar__vblex"/></e>
+<e lm="bondar">          <i>bond</i><par n="chant/ar__vblex"/></e>
+<e lm="boquètar">          <i>boquèt</i><par n="chant/ar__vblex"/></e>
+<e lm="bordonar">          <i>bordon</i><par n="chant/ar__vblex"/></e>
+<e lm="borgnecar">          <i>borgne</i><par n="man/car__vblex"/></e>
+<e lm="borjonar">          <i>borjon</i><par n="chant/ar__vblex"/></e>
+<e lm="borlar">          <i>borl</i><par n="chant/ar__vblex"/></e>
+<e lm="borrar">          <i>borr</i><par n="chant/ar__vblex"/></e>
+<e lm="borriôdar">          <i>borriôd</i><par n="chant/ar__vblex"/></e>
+<e lm="bosquètar">          <i>bosquèt</i><par n="chant/ar__vblex"/></e>
+<e lm="botar">          <i>bot</i><par n="chant/ar__vblex"/></e>
+<e lm="botelar">          <i>botel</i><par n="chant/ar__vblex"/></e>
+<e lm="botonar">          <i>boton</i><par n="chant/ar__vblex"/></e>
+<e lm="bouèlar">          <i>bouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="bouèrlar">          <i>bouèrl</i><par n="chant/ar__vblex"/></e>
+<e lm="bouesar">          <i>boues</i><par n="chant/ar__vblex"/></e>
+<e lm="bouètar">          <i>bouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="boulonar">          <i>boulon</i><par n="chant/ar__vblex"/></e>
+<e lm="boxar">          <i>box</i><par n="chant/ar__vblex"/></e>
+<e lm="braconar">          <i>bracon</i><par n="chant/ar__vblex"/></e>
+<e lm="brecar">          <i>bre</i><par n="man/car__vblex"/></e>
+<e lm="bredar">          <i>bred</i><par n="chant/ar__vblex"/></e>
+<e lm="brenar">          <i>bren</i><par n="chant/ar__vblex"/></e>
+<e lm="brendar">          <i>brend</i><par n="chant/ar__vblex"/></e>
+<e lm="brenlar">          <i>brenl</i><par n="chant/ar__vblex"/></e>
+<e lm="brètar">          <i>brèt</i><par n="chant/ar__vblex"/></e>
+<e lm="bretonar">          <i>breton</i><par n="chant/ar__vblex"/></e>
+<e lm="bricolar">          <i>bricol</i><par n="chant/ar__vblex"/></e>
+<e lm="bronar">          <i>bron</i><par n="chant/ar__vblex"/></e>
+<e lm="bronzar">          <i>bronz</i><par n="chant/ar__vblex"/></e>
+<e lm="brossar">          <i>bross</i><par n="chant/ar__vblex"/></e>
+<e lm="brossetar">          <i>brosset</i><par n="chant/ar__vblex"/></e>
+<e lm="brôtar">          <i>brôt</i><par n="chant/ar__vblex"/></e>
+<e lm="brotonar">          <i>broton</i><par n="chant/ar__vblex"/></e>
+<e lm="cabriolar">          <i>cabriol</i><par n="chant/ar__vblex"/></e>
+<e lm="cajolar">          <i>cajol</i><par n="chant/ar__vblex"/></e>
+<e lm="câlar">          <i>câl</i><par n="chant/ar__vblex"/></e>
+<e lm="caletar">          <i>calet</i><par n="chant/ar__vblex"/></e>
+<e lm="calfetrar">          <i>calfetr</i><par n="chant/ar__vblex"/></e>
+<e lm="cantonar">          <i>canton</i><par n="chant/ar__vblex"/></e>
+<e lm="caponar">          <i>capon</i><par n="chant/ar__vblex"/></e>
+<e lm="capotar">          <i>capot</i><par n="chant/ar__vblex"/></e>
+<e lm="carrelar">          <i>carrel</i><par n="chant/ar__vblex"/></e>
+<e lm="carrelyonar">          <i>carrelyon</i><par n="chant/ar__vblex"/></e>
+<e lm="câsar">          <i>câs</i><par n="chant/ar__vblex"/></e>
+<e lm="catenar">          <i>caten</i><par n="chant/ar__vblex"/></e>
+<e lm="cèdar">          <i>cèd</i><par n="chant/ar__vblex"/></e>
+<e lm="cegnolar">          <i>cegnol</i><par n="chant/ar__vblex"/></e>
+<e lm="cèlèbrar">          <i>cèlèbr</i><par n="chant/ar__vblex"/></e>
+<e lm="cenar">          <i>cen</i><par n="chant/ar__vblex"/></e>
+<e lm="cengllar">          <i>cengll</i><par n="chant/ar__vblex"/></e>
+<e lm="cèrcllar">          <i>cèrcll</i><par n="chant/ar__vblex"/></e>
+<e lm="cèrnar">          <i>cèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="cèssar">          <i>cèss</i><par n="chant/ar__vblex"/></e>
+<e lm="chagrenar">          <i>chagren</i><par n="chant/ar__vblex"/></e>
+<e lm="châlar">          <i>châl</i><par n="chant/ar__vblex"/></e>
+<e lm="chambotar">          <i>chambot</i><par n="chant/ar__vblex"/></e>
+<e lm="chancelar">          <i>chancel</i><par n="chant/ar__vblex"/></e>
+<e lm="chantolar">          <i>chantol</i><par n="chant/ar__vblex"/></e>
+<e lm="chantonar">          <i>chanton</i><par n="chant/ar__vblex"/></e>
+<e lm="chantornar">          <i>chantorn</i><par n="chant/ar__vblex"/></e>
+<e lm="charbonar">          <i>charbon</i><par n="chant/ar__vblex"/></e>
+<e lm="charpenar">          <i>charpen</i><par n="chant/ar__vblex"/></e>
+<e lm="chathrotar">          <i>chathrot</i><par n="chant/ar__vblex"/></e>
+<e lm="châtrar">          <i>châtr</i><par n="chant/ar__vblex"/></e>
+<e lm="chatrotar">          <i>chatrot</i><par n="chant/ar__vblex"/></e>
+<e lm="chavonar">          <i>chavon</i><par n="chant/ar__vblex"/></e>
+<e lm="chemenar">          <i>chemen</i><par n="chant/ar__vblex"/></e>
+<e lm="chequetar">          <i>chequet</i><par n="chant/ar__vblex"/></e>
+<e lm="chifonar">          <i>chifon</i><par n="chant/ar__vblex"/></e>
+<e lm="chipotar">          <i>chipot</i><par n="chant/ar__vblex"/></e>
+<e lm="chocar">          <i>cho</i><par n="man/car__vblex"/></e>
+<e lm="chôdar">          <i>chôd</i><par n="chant/ar__vblex"/></e>
+<e lm="chôlar">          <i>chôl</i><par n="chant/ar__vblex"/></e>
+<e lm="chômar">          <i>chôm</i><par n="chant/ar__vblex"/></e>
+<e lm="cierar">          <i>cier</i><par n="chant/ar__vblex"/></e>
+<e lm="cimentar">          <i>ciment</i><par n="chant/ar__vblex"/></e>
+<e lm="cllapotar">          <i>cllapot</i><par n="chant/ar__vblex"/></e>
+<e lm="cllegnotar">          <i>cllegnot</i><par n="chant/ar__vblex"/></e>
+<e lm="cllocar">          <i>cllo</i><par n="man/car__vblex"/></e>
+<e lm="coblar">          <i>cobl</i><par n="chant/ar__vblex"/></e>
+<e lm="cocar">          <i>co</i><par n="man/car__vblex"/></e>
+<e lm="côcionar">          <i>côcion</i><par n="chant/ar__vblex"/></e>
+<e lm="cocolar">          <i>cocol</i><par n="chant/ar__vblex"/></e>
+<e lm="cocotar">          <i>cocot</i><par n="chant/ar__vblex"/></e>
+<e lm="cofrar">          <i>cofr</i><par n="chant/ar__vblex"/></e>
+<e lm="colar">          <i>col</i><par n="chant/ar__vblex"/></e>
+<e lm="côlar">          <i>côl</i><par n="chant/ar__vblex"/></e>
+<e lm="coletar">          <i>colet</i><par n="chant/ar__vblex"/></e>
+<e lm="colorar">          <i>color</i><par n="chant/ar__vblex"/></e>
+<e lm="côlyonar">          <i>côlyon</i><par n="chant/ar__vblex"/></e>
+<e lm="comblar">          <i>combl</i><par n="chant/ar__vblex"/></e>
+<e lm="comentar">          <i>coment</i><par n="chant/ar__vblex"/></e>
+<e lm="compensar">          <i>compens</i><par n="chant/ar__vblex"/></e>
+<e lm="complètar">          <i>complèt</i><par n="chant/ar__vblex"/></e>
+<e lm="complimentar">          <i>compliment</i><par n="chant/ar__vblex"/></e>
+<e lm="concentrar">          <i>concentr</i><par n="chant/ar__vblex"/></e>
+<e lm="concèrnar">          <i>concèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="concèrtar">          <i>concèrt</i><par n="chant/ar__vblex"/></e>
+<e lm="condensar">          <i>condens</i><par n="chant/ar__vblex"/></e>
+<e lm="confèccionar">          <i>confèccion</i><par n="chant/ar__vblex"/></e>
+<e lm="confiermar">          <i>confierm</i><par n="chant/ar__vblex"/></e>
+<e lm="confllar">          <i>confll</i><par n="chant/ar__vblex"/></e>
+<e lm="confortar">          <i>confort</i><par n="chant/ar__vblex"/></e>
+<e lm="confrontar">          <i>confront</i><par n="chant/ar__vblex"/></e>
+<e lm="congelar">          <i>congel</i><par n="chant/ar__vblex"/></e>
+<e lm="congèstionar">          <i>congèstion</i><par n="chant/ar__vblex"/></e>
+<e lm="consemar">          <i>consem</i><par n="chant/ar__vblex"/></e>
+<e lm="consèrvar">          <i>consèrv</i><par n="chant/ar__vblex"/></e>
+<e lm="considèrar">          <i>considèr</i><par n="chant/ar__vblex"/></e>
+<e lm="consomar">          <i>consom</i><par n="chant/ar__vblex"/></e>
+<e lm="contar">          <i>cont</i><par n="chant/ar__vblex"/></e>
+<e lm="contemplar">          <i>contempl</i><par n="chant/ar__vblex"/></e>
+<e lm="contentar">          <i>content</i><par n="chant/ar__vblex"/></e>
+<e lm="contèstar">          <i>contèst</i><par n="chant/ar__vblex"/></e>
+<e lm="contornar">          <i>contorn</i><par n="chant/ar__vblex"/></e>
+<e lm="contrar">          <i>contr</i><par n="chant/ar__vblex"/></e>
+<e lm="controlar">          <i>control</i><par n="chant/ar__vblex"/></e>
+<e lm="convèrsar">          <i>convèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="convocar">          <i>convo</i><par n="man/car__vblex"/></e>
+<e lm="convouètar">          <i>convouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="corbar">          <i>corb</i><par n="chant/ar__vblex"/></e>
+<e lm="cordar">          <i>cord</i><par n="chant/ar__vblex"/></e>
+<e lm="cornar">          <i>corn</i><par n="chant/ar__vblex"/></e>
+<e lm="coronar">          <i>coron</i><par n="chant/ar__vblex"/></e>
+<e lm="côsar">          <i>côs</i><par n="chant/ar__vblex"/></e>
+<e lm="cotar">          <i>cot</i><par n="chant/ar__vblex"/></e>
+<e lm="cotemar">          <i>cotem</i><par n="chant/ar__vblex"/></e>
+<e lm="couélar">          <i>couél</i><par n="chant/ar__vblex"/></e>
+<e lm="couénar">          <i>couén</i><par n="chant/ar__vblex"/></e>
+<e lm="couèssar">          <i>couèss</i><par n="chant/ar__vblex"/></e>
+<e lm="covar">          <i>cov</i><par n="chant/ar__vblex"/></e>
+<e lm="crachotar">          <i>crachot</i><par n="chant/ar__vblex"/></e>
+<e lm="cramponar">          <i>crampon</i><par n="chant/ar__vblex"/></e>
+<e lm="crânar">          <i>crân</i><par n="chant/ar__vblex"/></e>
+<e lm="creblar">          <i>crebl</i><par n="chant/ar__vblex"/></e>
+<e lm="cresenar">          <i>cresen</i><par n="chant/ar__vblex"/></e>
+<e lm="crevar">          <i>crev</i><par n="chant/ar__vblex"/></e>
+<e lm="crevotar">          <i>crevot</i><par n="chant/ar__vblex"/></e>
+<e lm="crocar">          <i>cro</i><par n="man/car__vblex"/></e>
+<e lm="crochetar">          <i>crochet</i><par n="chant/ar__vblex"/></e>
+<e lm="crolar">          <i>crol</i><par n="chant/ar__vblex"/></e>
+<e lm="crosar">          <i>cros</i><par n="chant/ar__vblex"/></e>
+<e lm="crotar">          <i>crot</i><par n="chant/ar__vblex"/></e>
+<e lm="curionar">          <i>curion</i><par n="chant/ar__vblex"/></e>
+<e lm="cusenar">          <i>cusen</i><par n="chant/ar__vblex"/></e>
+<e lm="cutelar">          <i>cutel</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbâlar">          <i>dèbâl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbâtar">          <i>dèbât</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbendar">          <i>dèbend</i><par n="chant/ar__vblex"/></e>
+<e lm="dèblocar">          <i>dèblo</i><par n="man/car__vblex"/></e>
+<e lm="dèblotar">          <i>dèblot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbobenar">          <i>dèboben</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbocllar">          <i>dèbocll</i><par n="chant/ar__vblex"/></e>
+<e lm="dèborbar">          <i>dèborb</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbordar">          <i>dèbord</i><par n="chant/ar__vblex"/></e>
+<e lm="dèborrar">          <i>dèborr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèborsar">          <i>dèbors</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbotar">          <i>dèbot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbotonar">          <i>dèboton</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbouèlar">          <i>dèbouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbouesar">          <i>dèboues</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbouètar">          <i>dèbouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbredar">          <i>dèbred</i><par n="chant/ar__vblex"/></e>
+<e lm="dèbrondar">          <i>dèbrond</i><par n="chant/ar__vblex"/></e>
+<e lm="dècachetar">          <i>dècachet</i><par n="chant/ar__vblex"/></e>
+<e lm="dècamotar">          <i>dècamot</i><par n="chant/ar__vblex"/></e>
+<e lm="dècatonar">          <i>dècaton</i><par n="chant/ar__vblex"/></e>
+<e lm="dècâvar">          <i>dècâv</i><par n="chant/ar__vblex"/></e>
+<e lm="dècèdar">          <i>dècèd</i><par n="chant/ar__vblex"/></e>
+<e lm="dècelar">          <i>dècel</i><par n="chant/ar__vblex"/></e>
+<e lm="dècengllar">          <i>dècengll</i><par n="chant/ar__vblex"/></e>
+<e lm="dècèrcllar">          <i>dècèrcll</i><par n="chant/ar__vblex"/></e>
+<e lm="dècharpenar">          <i>dècharpen</i><par n="chant/ar__vblex"/></e>
+<e lm="dèchênar">          <i>dèchên</i><par n="chant/ar__vblex"/></e>
+<e lm="dècoblar">          <i>dècobl</i><par n="chant/ar__vblex"/></e>
+<e lm="dècôlar">          <i>dècôl</i><par n="chant/ar__vblex"/></e>
+<e lm="dècolèrar">          <i>dècolèr</i><par n="chant/ar__vblex"/></e>
+<e lm="dècoletar">          <i>dècolet</i><par n="chant/ar__vblex"/></e>
+<e lm="dècolorar">          <i>dècolor</i><par n="chant/ar__vblex"/></e>
+<e lm="dècombrar">          <i>dècombr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèconcèrtar">          <i>dèconcèrt</i><par n="chant/ar__vblex"/></e>
+<e lm="dèconfllar">          <i>dèconfll</i><par n="chant/ar__vblex"/></e>
+<e lm="dècongestionar">          <i>dècongestion</i><par n="chant/ar__vblex"/></e>
+<e lm="dècopar">          <i>dècop</i><par n="chant/ar__vblex"/></e>
+<e lm="dècorar">          <i>dècor</i><par n="chant/ar__vblex"/></e>
+<e lm="dècordar">          <i>dècord</i><par n="chant/ar__vblex"/></e>
+<e lm="dècornar">          <i>dècorn</i><par n="chant/ar__vblex"/></e>
+<e lm="dècouèfar">          <i>dècouèf</i><par n="chant/ar__vblex"/></e>
+<e lm="dècouènar">          <i>dècouèn</i><par n="chant/ar__vblex"/></e>
+<e lm="dècovar">          <i>dècov</i><par n="chant/ar__vblex"/></e>
+<e lm="dècrètar">          <i>dècrèt</i><par n="chant/ar__vblex"/></e>
+<e lm="dècrotar">          <i>dècrot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèculotar">          <i>dèculot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèdoblar">          <i>dèdobl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèdroblar">          <i>dèdrobl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèfèrrar">          <i>dèfèrr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèficelar">          <i>dèficel</i><par n="chant/ar__vblex"/></e>
+<e lm="dèformar">          <i>dèform</i><par n="chant/ar__vblex"/></e>
+<e lm="dègelar">          <i>dègel</i><par n="chant/ar__vblex"/></e>
+<e lm="dègevrar">          <i>dègevr</i><par n="chant/ar__vblex"/></e>
+<e lm="dègllètar">          <i>dègllèt</i><par n="chant/ar__vblex"/></e>
+<e lm="dègolar">          <i>dègol</i><par n="chant/ar__vblex"/></e>
+<e lm="dègomar">          <i>dègom</i><par n="chant/ar__vblex"/></e>
+<e lm="dègonfllar">          <i>dègonfll</i><par n="chant/ar__vblex"/></e>
+<e lm="dègotar">          <i>dègot</i><par n="chant/ar__vblex"/></e>
+<e lm="dègôtar">          <i>dègôt</i><par n="chant/ar__vblex"/></e>
+<e lm="dèguènar">          <i>dèguèn</i><par n="chant/ar__vblex"/></e>
+<e lm="dèjonar">          <i>dèjon</i><par n="chant/ar__vblex"/></e>
+<e lm="dèlâbrar">          <i>dèlâbr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèlâssar">          <i>dèlâss</i><par n="chant/ar__vblex"/></e>
+<e lm="dèlavorar">          <i>dèlavor</i><par n="chant/ar__vblex"/></e>
+<e lm="dèlègar">          <i>dèlèg</i><par n="blag/ar__vblex"/></e>
+<e lm="dèlibèrar">          <i>dèlibèr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèlocar">          <i>dèlo</i><par n="man/car__vblex"/></e>
+<e lm="dèmagnolar">          <i>dèmagnol</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmalyotar">          <i>dèmalyot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmarcorar">          <i>dèmarcor</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmâscar">          <i>dèmâs</i><par n="man/car__vblex"/></e>
+<e lm="dèmècllar">          <i>dèmècll</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmembrar">          <i>dèmembr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmenar">          <i>dèmen</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmeretar">          <i>dèmeret</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmissionar">          <i>dèmission</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmôlar">          <i>dèmôl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmontar">          <i>dèmont</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmontrar">          <i>dèmontr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmuselar">          <i>dèmusel</i><par n="chant/ar__vblex"/></e>
+<e lm="denar">          <i>den</i><par n="chant/ar__vblex"/></e>
+<e lm="dènuotar">          <i>dènuot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpacotar">          <i>dèpacot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpaquetar">          <i>dèpaquet</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpègenar">          <i>dèpègen</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpelar">          <i>dèpel</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpelyotar">          <i>dèpelyot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpensar">          <i>dèpens</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpèstar">          <i>dèpèst</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpetar">          <i>dèpet</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpètrar">          <i>dèpètr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpiôlar">          <i>dèpiôl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpiôtar">          <i>dèpiôt</i><par n="chant/ar__vblex"/></e>
+<e lm="dèplâtrar">          <i>dèplâtr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèplomar">          <i>dèplom</i><par n="chant/ar__vblex"/></e>
+<e lm="dèplorar">          <i>dèplor</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpoplar">          <i>dèpopl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpotar">          <i>dèpot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpucelar">          <i>dèpucel</i><par n="chant/ar__vblex"/></e>
+<e lm="dèracenar">          <i>dèracen</i><par n="chant/ar__vblex"/></e>
+<e lm="dèrâmar">          <i>dèrâm</i><par n="chant/ar__vblex"/></e>
+<e lm="dèrègllar">          <i>dèrègll</i><par n="chant/ar__vblex"/></e>
+<e lm="dèrêsonar">          <i>dèrêson</i><par n="chant/ar__vblex"/></e>
+<e lm="dèrobar">          <i>dèrob</i><par n="chant/ar__vblex"/></e>
+<e lm="dèrotar">          <i>dèrot</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsafèctar">          <i>dèsafèct</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsalterar">          <i>dèsalter</i><par n="chant/ar__vblex"/></e>
+<e lm="dèscèlar">          <i>dèscèl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsenfèctar">          <i>dèsenfèct</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsenfllar">          <i>dèsenfll</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsèrtar">          <i>dèsèrt</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsèsperar">          <i>dèsèsper</i><par n="chant/ar__vblex"/></e>
+<e lm="dèshéretar">          <i>dèshéret</i><par n="chant/ar__vblex"/></e>
+<e lm="dèshondrar">          <i>dèshondr</i><par n="chant/ar__vblex"/></e>
+<e lm="dèshonorar">          <i>dèshonor</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsolar">          <i>dèsol</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsossar">          <i>dèsoss</i><par n="chant/ar__vblex"/></e>
+<e lm="dèssèlar">          <i>dèssèl</i><par n="chant/ar__vblex"/></e>
+<e lm="dèssorcelar">          <i>dèssorcel</i><par n="chant/ar__vblex"/></e>
+<e lm="dêtar">          <i>dêt</i><par n="chant/ar__vblex"/></e>
+<e lm="dètelar">          <i>dètel</i><par n="chant/ar__vblex"/></e>
+<e lm="dètemprar">          <i>dètempr</i><par n="chant/ar__vblex"/></e>
+<e lm="dètèrmenar">          <i>dètèrmen</i><par n="chant/ar__vblex"/></e>
+<e lm="dètèrrar">          <i>dètèrr</i><par n="chant/ar__vblex"/></e>
+<e lm="dètèstar">          <i>dètèst</i><par n="chant/ar__vblex"/></e>
+<e lm="dètorbar">          <i>dètorb</i><par n="chant/ar__vblex"/></e>
+<e lm="dètornar">          <i>dètorn</i><par n="chant/ar__vblex"/></e>
+<e lm="dètrempar">          <i>dètremp</i><par n="chant/ar__vblex"/></e>
+<e lm="dètrompar">          <i>dètromp</i><par n="chant/ar__vblex"/></e>
+<e lm="dètrônar">          <i>dètrôn</i><par n="chant/ar__vblex"/></e>
+<e lm="dèvelopar">          <i>dèvelop</i><par n="chant/ar__vblex"/></e>
+<e lm="dèvenar">          <i>dèven</i><par n="chant/ar__vblex"/></e>
+<e lm="dèvèrgondar">          <i>dèvèrgond</i><par n="chant/ar__vblex"/></e>
+<e lm="dèvèrsar">          <i>dèvèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="devesar">          <i>deves</i><par n="chant/ar__vblex"/></e>
+<e lm="dèvouedar">          <i>dèvoued</i><par n="chant/ar__vblex"/></e>
+<e lm="dèvouèlar">          <i>dèvouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="digèrar">          <i>digèr</i><par n="chant/ar__vblex"/></e>
+<e lm="discèrnar">          <i>discèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="dislocar">          <i>dislo</i><par n="man/car__vblex"/></e>
+<e lm="dispensar">          <i>dispens</i><par n="chant/ar__vblex"/></e>
+<e lm="dispèrsar">          <i>dispèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="dobar">          <i>dob</i><par n="chant/ar__vblex"/></e>
+<e lm="doblar">          <i>dobl</i><par n="chant/ar__vblex"/></e>
+<e lm="dôbtar">          <i>dôbt</i><par n="chant/ar__vblex"/></e>
+<e lm="domptar">          <i>dompt</i><par n="chant/ar__vblex"/></e>
+<e lm="donar">          <i>don</i><par n="chant/ar__vblex"/></e>
+<e lm="dondar">          <i>dond</i><par n="chant/ar__vblex"/></e>
+<e lm="dontar">          <i>dont</i><par n="chant/ar__vblex"/></e>
+<e lm="dorar">          <i>dor</i><par n="chant/ar__vblex"/></e>
+<e lm="dorlotar">          <i>dorlot</i><par n="chant/ar__vblex"/></e>
+<e lm="dotar">          <i>dot</i><par n="chant/ar__vblex"/></e>
+<e lm="dôtar">          <i>dôt</i><par n="chant/ar__vblex"/></e>
+<e lm="drènar">          <i>drèn</i><par n="chant/ar__vblex"/></e>
+<e lm="drigodar">          <i>drigod</i><par n="chant/ar__vblex"/></e>
+<e lm="droblar">          <i>drobl</i><par n="chant/ar__vblex"/></e>
+<e lm="drogar">          <i>drog</i><par n="blag/ar__vblex"/></e>
+<e lm="èbèdar">          <i>èbèd</i><par n="chant/ar__vblex"/></e>
+<e lm="èbolyentar">          <i>èbolyent</i><par n="chant/ar__vblex"/></e>
+<e lm="èbouèlar">          <i>èbouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="èbrécar">          <i>èbré</i><par n="man/car__vblex"/></e>
+<e lm="èbrenar">          <i>èbren</i><par n="chant/ar__vblex"/></e>
+<e lm="èbrendar">          <i>èbrend</i><par n="chant/ar__vblex"/></e>
+<e lm="èbrenlar">          <i>èbrenl</i><par n="chant/ar__vblex"/></e>
+<e lm="èbrondar">          <i>èbrond</i><par n="chant/ar__vblex"/></e>
+<e lm="ècafouèrar">          <i>ècafouèr</i><par n="chant/ar__vblex"/></e>
+<e lm="ècartelar">          <i>ècartel</i><par n="chant/ar__vblex"/></e>
+<e lm="ècemar">          <i>ècem</i><par n="chant/ar__vblex"/></e>
+<e lm="ècharbotar">          <i>ècharbot</i><par n="chant/ar__vblex"/></e>
+<e lm="èchelonar">          <i>èchelon</i><par n="chant/ar__vblex"/></e>
+<e lm="èchôdar">          <i>èchôd</i><par n="chant/ar__vblex"/></e>
+<e lm="ècolar">          <i>ècol</i><par n="chant/ar__vblex"/></e>
+<e lm="ècopar">          <i>ècop</i><par n="chant/ar__vblex"/></e>
+<e lm="ècornar">          <i>ècorn</i><par n="chant/ar__vblex"/></e>
+<e lm="ècorniolar">          <i>ècorniol</i><par n="chant/ar__vblex"/></e>
+<e lm="ècossar">          <i>ècoss</i><par n="chant/ar__vblex"/></e>
+<e lm="ècotar">          <i>ècot</i><par n="chant/ar__vblex"/></e>
+<e lm="ècouènar">          <i>ècouèn</i><par n="chant/ar__vblex"/></e>
+<e lm="ècovar">          <i>ècov</i><par n="chant/ar__vblex"/></e>
+<e lm="ècrolar">          <i>ècrol</i><par n="chant/ar__vblex"/></e>
+<e lm="édar">          <i>éd</i><par n="chant/ar__vblex"/></e>
+<e lm="èfllorar">          <i>èfllor</i><par n="chant/ar__vblex"/></e>
+<e lm="ègotar">          <i>ègot</i><par n="chant/ar__vblex"/></e>
+<e lm="egrabotar">          <i>egrabot</i><par n="chant/ar__vblex"/></e>
+<e lm="égrar">          <i>égr</i><par n="chant/ar__vblex"/></e>
+<e lm="ègzagèrar">          <i>ègzagèr</i><par n="chant/ar__vblex"/></e>
+<e lm="ègzamenar">          <i>ègzamen</i><par n="chant/ar__vblex"/></e>
+<e lm="ègzaspérar">          <i>ègzaspér</i><par n="chant/ar__vblex"/></e>
+<e lm="ègzentar">          <i>ègzent</i><par n="chant/ar__vblex"/></e>
+<e lm="èmaselar">          <i>èmasel</i><par n="chant/ar__vblex"/></e>
+<e lm="embâlar">          <i>embâl</i><par n="chant/ar__vblex"/></e>
+<e lm="embâtar">          <i>embât</i><par n="chant/ar__vblex"/></e>
+<e lm="embèrlificotar">          <i>embèrlificot</i><par n="chant/ar__vblex"/></e>
+<e lm="embétar">          <i>embét</i><par n="chant/ar__vblex"/></e>
+<e lm="embiornar">          <i>embiorn</i><par n="chant/ar__vblex"/></e>
+<e lm="embobenar">          <i>emboben</i><par n="chant/ar__vblex"/></e>
+<e lm="embocar">          <i>embo</i><par n="man/car__vblex"/></e>
+<e lm="emboconar">          <i>embocon</i><par n="chant/ar__vblex"/></e>
+<e lm="embômar">          <i>embôm</i><par n="chant/ar__vblex"/></e>
+<e lm="emborbar">          <i>emborb</i><par n="chant/ar__vblex"/></e>
+<e lm="embouèlar">          <i>embouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="embouètar">          <i>embouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="embrelificotar">          <i>embrelificot</i><par n="chant/ar__vblex"/></e>
+<e lm="emmagasenar">          <i>emmagasen</i><par n="chant/ar__vblex"/></e>
+<e lm="emmagnolar">          <i>emmagnol</i><par n="chant/ar__vblex"/></e>
+<e lm="emmalyotar">          <i>emmalyot</i><par n="chant/ar__vblex"/></e>
+<e lm="emmècllar">          <i>emmècll</i><par n="chant/ar__vblex"/></e>
+<e lm="emmenar">          <i>emmen</i><par n="chant/ar__vblex"/></e>
+<e lm="emmèrdar">          <i>emmèrd</i><par n="chant/ar__vblex"/></e>
+<e lm="emmouelar">          <i>emmouel</i><par n="chant/ar__vblex"/></e>
+<e lm="empaquetar">          <i>empaquet</i><par n="chant/ar__vblex"/></e>
+<e lm="empâtar">          <i>empât</i><par n="chant/ar__vblex"/></e>
+<e lm="emperonar">          <i>emperon</i><par n="chant/ar__vblex"/></e>
+<e lm="empèsar">          <i>empès</i><par n="chant/ar__vblex"/></e>
+<e lm="empêssonar">          <i>empêsson</i><par n="chant/ar__vblex"/></e>
+<e lm="empèstar">          <i>empèst</i><par n="chant/ar__vblex"/></e>
+<e lm="empètrar">          <i>empètr</i><par n="chant/ar__vblex"/></e>
+<e lm="empiérrar">          <i>empiérr</i><par n="chant/ar__vblex"/></e>
+<e lm="emplâtrar">          <i>emplâtr</i><par n="chant/ar__vblex"/></e>
+<e lm="emplomar">          <i>emplom</i><par n="chant/ar__vblex"/></e>
+<e lm="empotar">          <i>empot</i><par n="chant/ar__vblex"/></e>
+<e lm="empotègar">          <i>empotèg</i><par n="blag/ar__vblex"/></e>
+<e lm="empouesonar">          <i>empoueson</i><par n="chant/ar__vblex"/></e>
+<e lm="emprêsonar">          <i>emprêson</i><par n="chant/ar__vblex"/></e>
+<e lm="emprèssar">          <i>emprèss</i><par n="chant/ar__vblex"/></e>
+<e lm="emprontar">          <i>empront</i><par n="chant/ar__vblex"/></e>
+<e lm="enar">          <i>en</i><par n="chant/ar__vblex"/></e>
+<e lm="encâdrar">          <i>encâdr</i><par n="chant/ar__vblex"/></e>
+<e lm="encasèrnar">          <i>encasèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="encâvar">          <i>encâv</i><par n="chant/ar__vblex"/></e>
+<e lm="enchênar">          <i>enchên</i><par n="chant/ar__vblex"/></e>
+<e lm="enchevètrar">          <i>enchevètr</i><par n="chant/ar__vblex"/></e>
+<e lm="encoblar">          <i>encobl</i><par n="chant/ar__vblex"/></e>
+<e lm="encocar">          <i>enco</i><par n="man/car__vblex"/></e>
+<e lm="encombrar">          <i>encombr</i><par n="chant/ar__vblex"/></e>
+<e lm="encomodar">          <i>encomod</i><par n="chant/ar__vblex"/></e>
+<e lm="encontrar">          <i>encontr</i><par n="chant/ar__vblex"/></e>
+<e lm="encouenar">          <i>encouen</i><par n="chant/ar__vblex"/></e>
+<e lm="encrotar">          <i>encrot</i><par n="chant/ar__vblex"/></e>
+<e lm="endètar">          <i>endèt</i><par n="chant/ar__vblex"/></e>
+<e lm="endèvar">          <i>endèv</i><par n="chant/ar__vblex"/></e>
+<e lm="ènèrvar">          <i>ènèrv</i><par n="chant/ar__vblex"/></e>
+<e lm="enfarenar">          <i>enfaren</i><par n="chant/ar__vblex"/></e>
+<e lm="enfèctar">          <i>enfèct</i><par n="chant/ar__vblex"/></e>
+<e lm="enfèrrar">          <i>enfèrr</i><par n="chant/ar__vblex"/></e>
+<e lm="enfèstar">          <i>enfèst</i><par n="chant/ar__vblex"/></e>
+<e lm="enfiolar">          <i>enfiol</i><par n="chant/ar__vblex"/></e>
+<e lm="enfllar">          <i>enfll</i><par n="chant/ar__vblex"/></e>
+<e lm="enformar">          <i>enform</i><par n="chant/ar__vblex"/></e>
+<e lm="enfremar">          <i>enfrem</i><par n="chant/ar__vblex"/></e>
+<e lm="engendrar">          <i>engendr</i><par n="chant/ar__vblex"/></e>
+<e lm="engèrbar">          <i>engèrb</i><par n="chant/ar__vblex"/></e>
+<e lm="engofrar">          <i>engofr</i><par n="chant/ar__vblex"/></e>
+<e lm="engolar">          <i>engol</i><par n="chant/ar__vblex"/></e>
+<e lm="engorgelar">          <i>engorgel</i><par n="chant/ar__vblex"/></e>
+<e lm="engrenar">          <i>engren</i><par n="chant/ar__vblex"/></e>
+<e lm="engrevar">          <i>engrev</i><par n="chant/ar__vblex"/></e>
+<e lm="enjôlar">          <i>enjôl</i><par n="chant/ar__vblex"/></e>
+<e lm="enlevar">          <i>enlev</i><par n="chant/ar__vblex"/></e>
+<e lm="enneblar">          <i>ennebl</i><par n="chant/ar__vblex"/></e>
+<e lm="ennofllar">          <i>ennofll</i><par n="chant/ar__vblex"/></e>
+<e lm="enquétar">          <i>enquét</i><par n="chant/ar__vblex"/></e>
+<e lm="enquiètar">          <i>enquièt</i><par n="chant/ar__vblex"/></e>
+<e lm="enracenar">          <i>enracen</i><par n="chant/ar__vblex"/></e>
+<e lm="enremblar">          <i>enrembl</i><par n="chant/ar__vblex"/></e>
+<e lm="enrolar">          <i>enrol</i><par n="chant/ar__vblex"/></e>
+<e lm="ensagnolar">          <i>ensagnol</i><par n="chant/ar__vblex"/></e>
+<e lm="ensolentar">          <i>ensolent</i><par n="chant/ar__vblex"/></e>
+<e lm="ensorcelar">          <i>ensorcel</i><par n="chant/ar__vblex"/></e>
+<e lm="ensordelar">          <i>ensordel</i><par n="chant/ar__vblex"/></e>
+<e lm="entar">          <i>ent</i><par n="chant/ar__vblex"/></e>
+<e lm="entèrcèptar">          <i>entèrcèpt</i><par n="chant/ar__vblex"/></e>
+<e lm="entèrprètar">          <i>entèrprèt</i><par n="chant/ar__vblex"/></e>
+<e lm="entèrrar">          <i>entèrr</i><par n="chant/ar__vblex"/></e>
+<e lm="entétar">          <i>entét</i><par n="chant/ar__vblex"/></e>
+<e lm="entornar">          <i>entorn</i><par n="chant/ar__vblex"/></e>
+<e lm="entregar">          <i>entreg</i><par n="blag/ar__vblex"/></e>
+<e lm="entremar">          <i>entrem</i><par n="chant/ar__vblex"/></e>
+<e lm="entremècllar">          <i>entremècll</i><par n="chant/ar__vblex"/></e>
+<e lm="entrênar">          <i>entrên</i><par n="chant/ar__vblex"/></e>
+<e lm="entrevar">          <i>entrev</i><par n="chant/ar__vblex"/></e>
+<e lm="ènumèrar">          <i>ènumèr</i><par n="chant/ar__vblex"/></e>
+<e lm="envelopar">          <i>envelop</i><par n="chant/ar__vblex"/></e>
+<e lm="envencionar">          <i>envencion</i><par n="chant/ar__vblex"/></e>
+<e lm="envenemar">          <i>envenem</i><par n="chant/ar__vblex"/></e>
+<e lm="enventar">          <i>envent</i><par n="chant/ar__vblex"/></e>
+<e lm="enveremar">          <i>enverem</i><par n="chant/ar__vblex"/></e>
+<e lm="envèrsar">          <i>envèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="envocar">          <i>envo</i><par n="man/car__vblex"/></e>
+<e lm="èpâlar">          <i>èpâl</i><par n="chant/ar__vblex"/></e>
+<e lm="èparselar">          <i>èparsel</i><par n="chant/ar__vblex"/></e>
+<e lm="èpècllar">          <i>èpècll</i><par n="chant/ar__vblex"/></e>
+<e lm="èpelar">          <i>èpel</i><par n="chant/ar__vblex"/></e>
+<e lm="èperonar">          <i>èperon</i><par n="chant/ar__vblex"/></e>
+<e lm="èposar">          <i>èpos</i><par n="chant/ar__vblex"/></e>
+<e lm="èpoventar">          <i>èpovent</i><par n="chant/ar__vblex"/></e>
+<e lm="èpucetar">          <i>èpucet</i><par n="chant/ar__vblex"/></e>
+<e lm="èquârrar">          <i>èquârr</i><par n="chant/ar__vblex"/></e>
+<e lm="êrar">          <i>êr</i><par n="chant/ar__vblex"/></e>
+<e lm="èrenar">          <i>èren</i><par n="chant/ar__vblex"/></e>
+<e lm="èrentar">          <i>èrent</i><par n="chant/ar__vblex"/></e>
+<e lm="èscamotar">          <i>èscamot</i><par n="chant/ar__vblex"/></e>
+<e lm="èscortar">          <i>èscort</i><par n="chant/ar__vblex"/></e>
+<e lm="èscrocar">          <i>èscro</i><par n="man/car__vblex"/></e>
+<e lm="èsperar">          <i>èsper</i><par n="chant/ar__vblex"/></e>
+<e lm="èspionar">          <i>èspion</i><par n="chant/ar__vblex"/></e>
+<e lm="èssemar">          <i>èssem</i><par n="chant/ar__vblex"/></e>
+<e lm="èssenar">          <i>èssen</i><par n="chant/ar__vblex"/></e>
+<e lm="èssofllar">          <i>èssofll</i><par n="chant/ar__vblex"/></e>
+<e lm="èssorar">          <i>èssor</i><par n="chant/ar__vblex"/></e>
+<e lm="ètèlar">          <i>ètèl</i><par n="chant/ar__vblex"/></e>
+<e lm="ètiedar">          <i>ètied</i><par n="chant/ar__vblex"/></e>
+<e lm="ètiquetar">          <i>ètiquet</i><par n="chant/ar__vblex"/></e>
+<e lm="ètofar">          <i>ètof</i><par n="chant/ar__vblex"/></e>
+<e lm="ètonar">          <i>èton</i><par n="chant/ar__vblex"/></e>
+<e lm="ètornar">          <i>ètorn</i><par n="chant/ar__vblex"/></e>
+<e lm="ètrenar">          <i>ètren</i><par n="chant/ar__vblex"/></e>
+<e lm="ètrepar">          <i>ètrep</i><par n="chant/ar__vblex"/></e>
+<e lm="ètroblar">          <i>ètrobl</i><par n="chant/ar__vblex"/></e>
+<e lm="ètrossar">          <i>ètross</i><par n="chant/ar__vblex"/></e>
+<e lm="èvaporar">          <i>èvapor</i><par n="chant/ar__vblex"/></e>
+<e lm="èventar">          <i>èvent</i><par n="chant/ar__vblex"/></e>
+<e lm="èventrar">          <i>èventr</i><par n="chant/ar__vblex"/></e>
+<e lm="èvorar">          <i>èvor</i><par n="chant/ar__vblex"/></e>
+<e lm="èxplouètar">          <i>èxplouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="fabrecar">          <i>fabre</i><par n="man/car__vblex"/></e>
+<e lm="façonar">          <i>façon</i><par n="chant/ar__vblex"/></e>
+<e lm="fagotar">          <i>fagot</i><par n="chant/ar__vblex"/></e>
+<e lm="fategar">          <i>fateg</i><par n="blag/ar__vblex"/></e>
+<e lm="fèrmentar">          <i>fèrment</i><par n="chant/ar__vblex"/></e>
+<e lm="fèrrar">          <i>fèrr</i><par n="chant/ar__vblex"/></e>
+<e lm="fétar">          <i>fét</i><par n="chant/ar__vblex"/></e>
+<e lm="fevrotar">          <i>fevrot</i><par n="chant/ar__vblex"/></e>
+<e lm="ficelar">          <i>ficel</i><par n="chant/ar__vblex"/></e>
+<e lm="fignolar">          <i>fignol</i><par n="chant/ar__vblex"/></e>
+<e lm="fiolar">          <i>fiol</i><par n="chant/ar__vblex"/></e>
+<e lm="fllèronar">          <i>fllèron</i><par n="chant/ar__vblex"/></e>
+<e lm="folyetar">          <i>folyet</i><par n="chant/ar__vblex"/></e>
+<e lm="fonccionar">          <i>fonccion</i><par n="chant/ar__vblex"/></e>
+<e lm="forar">          <i>for</i><par n="chant/ar__vblex"/></e>
+<e lm="formar">          <i>form</i><par n="chant/ar__vblex"/></e>
+<e lm="forrar">          <i>forr</i><par n="chant/ar__vblex"/></e>
+<e lm="fossiorar">          <i>fossior</i><par n="chant/ar__vblex"/></e>
+<e lm="fossorar">          <i>fossor</i><par n="chant/ar__vblex"/></e>
+<e lm="fôtar">          <i>fôt</i><par n="chant/ar__vblex"/></e>
+<e lm="fouénar">          <i>fouén</i><par n="chant/ar__vblex"/></e>
+<e lm="fouèrar">          <i>fouèr</i><par n="chant/ar__vblex"/></e>
+<e lm="fouesonar">          <i>foueson</i><par n="chant/ar__vblex"/></e>
+<e lm="fouètar">          <i>fouèt</i><par n="chant/ar__vblex"/></e>
+<e lm="freçonar">          <i>freçon</i><par n="chant/ar__vblex"/></e>
+<e lm="fredonar">          <i>fredon</i><par n="chant/ar__vblex"/></e>
+<e lm="fremar">          <i>frem</i><par n="chant/ar__vblex"/></e>
+<e lm="frènar">          <i>frèn</i><par n="chant/ar__vblex"/></e>
+<e lm="frèquentar">          <i>frèquent</i><par n="chant/ar__vblex"/></e>
+<e lm="frèsar">          <i>frès</i><par n="chant/ar__vblex"/></e>
+<e lm="fresenar">          <i>fresen</i><par n="chant/ar__vblex"/></e>
+<e lm="fresotar">          <i>fresot</i><par n="chant/ar__vblex"/></e>
+<e lm="fretar">          <i>fret</i><par n="chant/ar__vblex"/></e>
+<e lm="friccionar">          <i>friccion</i><par n="chant/ar__vblex"/></e>
+<e lm="fricotar">          <i>fricot</i><par n="chant/ar__vblex"/></e>
+<e lm="frôdar">          <i>frôd</i><par n="chant/ar__vblex"/></e>
+<e lm="frôlar">          <i>frôl</i><par n="chant/ar__vblex"/></e>
+<e lm="fronar">          <i>fron</i><par n="chant/ar__vblex"/></e>
+<e lm="frondar">          <i>frond</i><par n="chant/ar__vblex"/></e>
+<e lm="frotar">          <i>frot</i><par n="chant/ar__vblex"/></e>
+<e lm="furetar">          <i>furet</i><par n="chant/ar__vblex"/></e>
+<e lm="galopar">          <i>galop</i><par n="chant/ar__vblex"/></e>
+<e lm="gambiotar">          <i>gambiot</i><par n="chant/ar__vblex"/></e>
+<e lm="gambotar">          <i>gambot</i><par n="chant/ar__vblex"/></e>
+<e lm="gargotar">          <i>gargot</i><par n="chant/ar__vblex"/></e>
+<e lm="garrotar">          <i>garrot</i><par n="chant/ar__vblex"/></e>
+<e lm="gâtar">          <i>gât</i><par n="chant/ar__vblex"/></e>
+<e lm="gâzar">          <i>gâz</i><par n="chant/ar__vblex"/></e>
+<e lm="géfar">          <i>géf</i><par n="chant/ar__vblex"/></e>
+<e lm="gelar">          <i>gel</i><par n="chant/ar__vblex"/></e>
+<e lm="gèmar">          <i>gèm</i><par n="chant/ar__vblex"/></e>
+<e lm="gemotar">          <i>gemot</i><par n="chant/ar__vblex"/></e>
+<e lm="gênar">          <i>gên</i><par n="chant/ar__vblex"/></e>
+<e lm="gèrmar">          <i>gèrm</i><par n="chant/ar__vblex"/></e>
+<e lm="gèrnar">          <i>gèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="gèrvetar">          <i>gèrvet</i><par n="chant/ar__vblex"/></e>
+<e lm="gevrar">          <i>gevr</i><par n="chant/ar__vblex"/></e>
+<e lm="gigôdar">          <i>gigôd</i><par n="chant/ar__vblex"/></e>
+<e lm="gllenar">          <i>gllen</i><par n="chant/ar__vblex"/></e>
+<e lm="gllètar">          <i>gllèt</i><par n="chant/ar__vblex"/></e>
+<e lm="gobar">          <i>gob</i><par n="chant/ar__vblex"/></e>
+<e lm="goderonar">          <i>goderon</i><par n="chant/ar__vblex"/></e>
+<e lm="golar">          <i>gol</i><par n="chant/ar__vblex"/></e>
+<e lm="gôlar">          <i>gôl</i><par n="chant/ar__vblex"/></e>
+<e lm="gomar">          <i>gom</i><par n="chant/ar__vblex"/></e>
+<e lm="gômar">          <i>gôm</i><par n="chant/ar__vblex"/></e>
+<e lm="gonar">          <i>gon</i><par n="chant/ar__vblex"/></e>
+<e lm="gondolar">          <i>gondol</i><par n="chant/ar__vblex"/></e>
+<e lm="gonfllar">          <i>gonfll</i><par n="chant/ar__vblex"/></e>
+<e lm="gongonar">          <i>gongon</i><par n="chant/ar__vblex"/></e>
+<e lm="gôtar">          <i>gôt</i><par n="chant/ar__vblex"/></e>
+<e lm="gouâtar">          <i>gouât</i><par n="chant/ar__vblex"/></e>
+<e lm="gouâthar">          <i>gouâth</i><par n="chant/ar__vblex"/></e>
+<e lm="govèrnar">          <i>govèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="grabotar">          <i>grabot</i><par n="chant/ar__vblex"/></e>
+<e lm="grapenar">          <i>grapen</i><par n="chant/ar__vblex"/></e>
+<e lm="gravetar">          <i>gravet</i><par n="chant/ar__vblex"/></e>
+<e lm="grèfar">          <i>grèf</i><par n="chant/ar__vblex"/></e>
+<e lm="gregnotar">          <i>gregnot</i><par n="chant/ar__vblex"/></e>
+<e lm="grèlar">          <i>grèl</i><par n="chant/ar__vblex"/></e>
+<e lm="grelotar">          <i>grelot</i><par n="chant/ar__vblex"/></e>
+<e lm="gremolar">          <i>gremol</i><par n="chant/ar__vblex"/></e>
+<e lm="gremonar">          <i>gremon</i><par n="chant/ar__vblex"/></e>
+<e lm="gremotar">          <i>gremot</i><par n="chant/ar__vblex"/></e>
+<e lm="grepar">          <i>grep</i><par n="chant/ar__vblex"/></e>
+<e lm="grevar">          <i>grev</i><par n="chant/ar__vblex"/></e>
+<e lm="grevelar">          <i>grevel</i><par n="chant/ar__vblex"/></e>
+<e lm="grevolar">          <i>grevol</i><par n="chant/ar__vblex"/></e>
+<e lm="grifonar">          <i>grifon</i><par n="chant/ar__vblex"/></e>
+<e lm="grisonar">          <i>grison</i><par n="chant/ar__vblex"/></e>
+<e lm="grolar">          <i>grol</i><par n="chant/ar__vblex"/></e>
+<e lm="grondar">          <i>grond</i><par n="chant/ar__vblex"/></e>
+<e lm="gropar">          <i>grop</i><par n="chant/ar__vblex"/></e>
+<e lm="grôtar">          <i>grôt</i><par n="chant/ar__vblex"/></e>
+<e lm="guètar">          <i>guèt</i><par n="chant/ar__vblex"/></e>
+<e lm="h)arp(ionar">          <i>h)arp(ion</i><par n="chant/ar__vblex"/></e>
+<e lm="héretar">          <i>héret</i><par n="chant/ar__vblex"/></e>
+<e lm="hipotècar">          <i>hipotè</i><par n="man/car__vblex"/></e>
+<e lm="honorar">          <i>honor</i><par n="chant/ar__vblex"/></e>
+<e lm="husenar">          <i>husen</i><par n="chant/ar__vblex"/></e>
+<e lm="ifonar">          <i>ifon</i><par n="chant/ar__vblex"/></e>
+<e lm="ignorar">          <i>ignor</i><par n="chant/ar__vblex"/></e>
+<e lm="inondar">          <i>inond</i><par n="chant/ar__vblex"/></e>
+<e lm="isolar">          <i>isol</i><par n="chant/ar__vblex"/></e>
+<e lm="japetar">          <i>japet</i><par n="chant/ar__vblex"/></e>
+<e lm="jaquetar">          <i>jaquet</i><par n="chant/ar__vblex"/></e>
+<e lm="jardenar">          <i>jarden</i><par n="chant/ar__vblex"/></e>
+<e lm="jargonar">          <i>jargon</i><par n="chant/ar__vblex"/></e>
+<e lm="jarretar">          <i>jarret</i><par n="chant/ar__vblex"/></e>
+<e lm="jetar">          <i>jet</i><par n="chant/ar__vblex"/></e>
+<e lm="jietar">          <i>jiet</i><par n="chant/ar__vblex"/></e>
+<e lm="jocllar">          <i>jocll</i><par n="chant/ar__vblex"/></e>
+<e lm="jonar">          <i>jon</i><par n="chant/ar__vblex"/></e>
+<e lm="juentar">          <i>juent</i><par n="chant/ar__vblex"/></e>
+<e lm="lantèrnar">          <i>lantèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="lâssar">          <i>lâss</i><par n="chant/ar__vblex"/></e>
+<e lm="lecar">          <i>le</i><par n="man/car__vblex"/></e>
+<e lm="lègar">          <i>lèg</i><par n="blag/ar__vblex"/></e>
+<e lm="lègremar">          <i>lègrem</i><par n="chant/ar__vblex"/></e>
+<e lm="libèrar">          <i>libèr</i><par n="chant/ar__vblex"/></e>
+<e lm="lotar">          <i>lot</i><par n="chant/ar__vblex"/></e>
+<e lm="mâcherar">          <i>mâcher</i><par n="chant/ar__vblex"/></e>
+<e lm="mâchonar">          <i>mâchon</i><par n="chant/ar__vblex"/></e>
+<e lm="maçonar">          <i>maçon</i><par n="chant/ar__vblex"/></e>
+<e lm="magasenar">          <i>magasen</i><par n="chant/ar__vblex"/></e>
+<e lm="mâlfiétar">          <i>mâlfiét</i><par n="chant/ar__vblex"/></e>
+<e lm="mâlmenar">          <i>mâlmen</i><par n="chant/ar__vblex"/></e>
+<e lm="mâltrètar">          <i>mâltrèt</i><par n="chant/ar__vblex"/></e>
+<e lm="manifèstar">          <i>manifèst</i><par n="chant/ar__vblex"/></e>
+<e lm="manovrar">          <i>manovr</i><par n="chant/ar__vblex"/></e>
+<e lm="marendar">          <i>marend</i><par n="chant/ar__vblex"/></e>
+<e lm="margolar">          <i>margol</i><par n="chant/ar__vblex"/></e>
+<e lm="margotar">          <i>margot</i><par n="chant/ar__vblex"/></e>
+<e lm="marmotar">          <i>marmot</i><par n="chant/ar__vblex"/></e>
+<e lm="marôdar">          <i>marôd</i><par n="chant/ar__vblex"/></e>
+<e lm="marronar">          <i>marron</i><par n="chant/ar__vblex"/></e>
+<e lm="martelar">          <i>martel</i><par n="chant/ar__vblex"/></e>
+<e lm="mâscar">          <i>mâs</i><par n="man/car__vblex"/></e>
+<e lm="mâtar">          <i>mât</i><par n="chant/ar__vblex"/></e>
+<e lm="mècllar">          <i>mècll</i><par n="chant/ar__vblex"/></e>
+<e lm="mejotar">          <i>mejot</i><par n="chant/ar__vblex"/></e>
+<e lm="mèlar">          <i>mèl</i><par n="chant/ar__vblex"/></e>
+<e lm="mèlyorar">          <i>mèlyor</i><par n="chant/ar__vblex"/></e>
+<e lm="mencionar">          <i>mencion</i><par n="chant/ar__vblex"/></e>
+<e lm="meserar">          <i>meser</i><par n="chant/ar__vblex"/></e>
+<e lm="mêssenar">          <i>mêssen</i><par n="chant/ar__vblex"/></e>
+<e lm="mêssonar">          <i>mêsson</i><par n="chant/ar__vblex"/></e>
+<e lm="metar">          <i>met</i><par n="chant/ar__vblex"/></e>
+<e lm="miétar">          <i>miét</i><par n="chant/ar__vblex"/></e>
+<e lm="miétenar">          <i>miéten</i><par n="chant/ar__vblex"/></e>
+<e lm="mijotar">          <i>mijot</i><par n="chant/ar__vblex"/></e>
+<e lm="miôlar">          <i>miôl</i><par n="chant/ar__vblex"/></e>
+<e lm="miônar">          <i>miôn</i><par n="chant/ar__vblex"/></e>
+<e lm="mitonar">          <i>miton</i><par n="chant/ar__vblex"/></e>
+<e lm="moblar">          <i>mobl</i><par n="chant/ar__vblex"/></e>
+<e lm="mochetar">          <i>mochet</i><par n="chant/ar__vblex"/></e>
+<e lm="modelar">          <i>model</i><par n="chant/ar__vblex"/></e>
+<e lm="moderar">          <i>moder</i><par n="chant/ar__vblex"/></e>
+<e lm="molar">          <i>mol</i><par n="chant/ar__vblex"/></e>
+<e lm="môlar">          <i>môl</i><par n="chant/ar__vblex"/></e>
+<e lm="molèstar">          <i>molèst</i><par n="chant/ar__vblex"/></e>
+<e lm="mondar">          <i>mond</i><par n="chant/ar__vblex"/></e>
+<e lm="montar">          <i>mont</i><par n="chant/ar__vblex"/></e>
+<e lm="monthrar">          <i>monthr</i><par n="chant/ar__vblex"/></e>
+<e lm="montrar">          <i>montr</i><par n="chant/ar__vblex"/></e>
+<e lm="morar">          <i>mor</i><par n="chant/ar__vblex"/></e>
+<e lm="morrelyètar">          <i>morrelyèt</i><par n="chant/ar__vblex"/></e>
+<e lm="morronar">          <i>morron</i><par n="chant/ar__vblex"/></e>
+<e lm="mothrar">          <i>mothr</i><par n="chant/ar__vblex"/></e>
+<e lm="mouénar">          <i>mouén</i><par n="chant/ar__vblex"/></e>
+<e lm="muletar">          <i>mulet</i><par n="chant/ar__vblex"/></e>
+<e lm="musar">          <i>mus</i><par n="chant/ar__vblex"/></e>
+<e lm="muselar">          <i>musel</i><par n="chant/ar__vblex"/></e>
+<e lm="navegar">          <i>naveg</i><par n="blag/ar__vblex"/></e>
+<e lm="nèjotar">          <i>nèjot</i><par n="chant/ar__vblex"/></e>
+<e lm="nèvolar">          <i>nèvol</i><par n="chant/ar__vblex"/></e>
+<e lm="nèvotar">          <i>nèvot</i><par n="chant/ar__vblex"/></e>
+<e lm="nivelar">          <i>nivel</i><par n="chant/ar__vblex"/></e>
+<e lm="nomar">          <i>nom</i><par n="chant/ar__vblex"/></e>
+<e lm="notar">          <i>not</i><par n="chant/ar__vblex"/></e>
+<e lm="numerotar">          <i>numerot</i><par n="chant/ar__vblex"/></e>
+<e lm="obsèrvar">          <i>obsèrv</i><par n="chant/ar__vblex"/></e>
+<e lm="ocasionar">          <i>ocasion</i><par n="chant/ar__vblex"/></e>
+<e lm="ofensar">          <i>ofens</i><par n="chant/ar__vblex"/></e>
+<e lm="ôgmentar">          <i>ôgment</i><par n="chant/ar__vblex"/></e>
+<e lm="onar">          <i>on</i><par n="chant/ar__vblex"/></e>
+<e lm="opèrar">          <i>opèr</i><par n="chant/ar__vblex"/></e>
+<e lm="oprèssar">          <i>oprèss</i><par n="chant/ar__vblex"/></e>
+<e lm="ordonar">          <i>ordon</i><par n="chant/ar__vblex"/></e>
+<e lm="orlar">          <i>orl</i><par n="chant/ar__vblex"/></e>
+<e lm="ornar">          <i>orn</i><par n="chant/ar__vblex"/></e>
+<e lm="ôtar">          <i>ôt</i><par n="chant/ar__vblex"/></e>
+<e lm="ovar">          <i>ov</i><par n="chant/ar__vblex"/></e>
+<e lm="pacientar">          <i>pacient</i><par n="chant/ar__vblex"/></e>
+<e lm="paletar">          <i>palet</i><par n="chant/ar__vblex"/></e>
+<e lm="panossar">          <i>panoss</i><par n="chant/ar__vblex"/></e>
+<e lm="papotar">          <i>papot</i><par n="chant/ar__vblex"/></e>
+<e lm="paquetar">          <i>paquet</i><par n="chant/ar__vblex"/></e>
+<e lm="pardonar">          <i>pardon</i><par n="chant/ar__vblex"/></e>
+<e lm="parlementar">          <i>parlement</i><par n="chant/ar__vblex"/></e>
+<e lm="passionar">          <i>passion</i><par n="chant/ar__vblex"/></e>
+<e lm="pâtar">          <i>pât</i><par n="chant/ar__vblex"/></e>
+<e lm="patetar">          <i>patet</i><par n="chant/ar__vblex"/></e>
+<e lm="pâtonar">          <i>pâton</i><par n="chant/ar__vblex"/></e>
+<e lm="pecar">          <i>pe</i><par n="man/car__vblex"/></e>
+<e lm="pecotar">          <i>pecot</i><par n="chant/ar__vblex"/></e>
+<e lm="pedar">          <i>ped</i><par n="chant/ar__vblex"/></e>
+<e lm="pelar">          <i>pel</i><par n="chant/ar__vblex"/></e>
+<e lm="pelotar">          <i>pelot</i><par n="chant/ar__vblex"/></e>
+<e lm="pelyonar">          <i>pelyon</i><par n="chant/ar__vblex"/></e>
+<e lm="pênar">          <i>pên</i><par n="chant/ar__vblex"/></e>
+<e lm="pendolar">          <i>pendol</i><par n="chant/ar__vblex"/></e>
+<e lm="penetrar">          <i>penetr</i><par n="chant/ar__vblex"/></e>
+<e lm="pequetar">          <i>pequet</i><par n="chant/ar__vblex"/></e>
+<e lm="pèrfèccionar">          <i>pèrfèccion</i><par n="chant/ar__vblex"/></e>
+<e lm="pèrsèvèrar">          <i>pèrsèvèr</i><par n="chant/ar__vblex"/></e>
+<e lm="pèstar">          <i>pèst</i><par n="chant/ar__vblex"/></e>
+<e lm="petar">          <i>pet</i><par n="chant/ar__vblex"/></e>
+<e lm="pêvrar">          <i>pêvr</i><par n="chant/ar__vblex"/></e>
+<e lm="piatenar">          <i>piaten</i><par n="chant/ar__vblex"/></e>
+<e lm="pintolar">          <i>pintol</i><par n="chant/ar__vblex"/></e>
+<e lm="pionar">          <i>pion</i><par n="chant/ar__vblex"/></e>
+<e lm="piornar">          <i>piorn</i><par n="chant/ar__vblex"/></e>
+<e lm="piotonar">          <i>pioton</i><par n="chant/ar__vblex"/></e>
+<e lm="pissotar">          <i>pissot</i><par n="chant/ar__vblex"/></e>
+<e lm="plafonar">          <i>plafon</i><par n="chant/ar__vblex"/></e>
+<e lm="plâtrar">          <i>plâtr</i><par n="chant/ar__vblex"/></e>
+<e lm="plèdar">          <i>plèd</i><par n="chant/ar__vblex"/></e>
+<e lm="plèsentar">          <i>plèsent</i><par n="chant/ar__vblex"/></e>
+<e lm="plomar">          <i>plom</i><par n="chant/ar__vblex"/></e>
+<e lm="plombar">          <i>plomb</i><par n="chant/ar__vblex"/></e>
+<e lm="polyenar">          <i>polyen</i><par n="chant/ar__vblex"/></e>
+<e lm="pomâdar">          <i>pomâd</i><par n="chant/ar__vblex"/></e>
+<e lm="pomârdar">          <i>pomârd</i><par n="chant/ar__vblex"/></e>
+<e lm="pompar">          <i>pomp</i><par n="chant/ar__vblex"/></e>
+<e lm="pomponar">          <i>pompon</i><par n="chant/ar__vblex"/></e>
+<e lm="popenar">          <i>popen</i><par n="chant/ar__vblex"/></e>
+<e lm="poplar">          <i>popl</i><par n="chant/ar__vblex"/></e>
+<e lm="portrètar">          <i>portrèt</i><par n="chant/ar__vblex"/></e>
+<e lm="possèdar">          <i>possèd</i><par n="chant/ar__vblex"/></e>
+<e lm="pôstar">          <i>pôst</i><par n="chant/ar__vblex"/></e>
+<e lm="pouençonar">          <i>pouençon</i><par n="chant/ar__vblex"/></e>
+<e lm="pouentar">          <i>pouent</i><par n="chant/ar__vblex"/></e>
+<e lm="prècèdar">          <i>prècèd</i><par n="chant/ar__vblex"/></e>
+<e lm="prèferar">          <i>prèfer</i><par n="chant/ar__vblex"/></e>
+<e lm="prèlevar">          <i>prèlev</i><par n="chant/ar__vblex"/></e>
+<e lm="presentar">          <i>present</i><par n="chant/ar__vblex"/></e>
+<e lm="presèrvar">          <i>presèrv</i><par n="chant/ar__vblex"/></e>
+<e lm="prétar">          <i>prét</i><par n="chant/ar__vblex"/></e>
+<e lm="prevolar">          <i>prevol</i><par n="chant/ar__vblex"/></e>
+<e lm="procèdar">          <i>procèd</i><par n="chant/ar__vblex"/></e>
+<e lm="promenar">          <i>promen</i><par n="chant/ar__vblex"/></e>
+<e lm="prônar">          <i>prôn</i><par n="chant/ar__vblex"/></e>
+<e lm="proporcionar">          <i>proporcion</i><par n="chant/ar__vblex"/></e>
+<e lm="prospèrar">          <i>prospèr</i><par n="chant/ar__vblex"/></e>
+<e lm="prostèrnar">          <i>prostèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="protèstar">          <i>protèst</i><par n="chant/ar__vblex"/></e>
+<e lm="provocar">          <i>provo</i><par n="man/car__vblex"/></e>
+<e lm="queblar">          <i>quebl</i><par n="chant/ar__vblex"/></e>
+<e lm="quèstionar">          <i>quèstion</i><par n="chant/ar__vblex"/></e>
+<e lm="quétar">          <i>quét</i><par n="chant/ar__vblex"/></e>
+<e lm="quignodar">          <i>quignod</i><par n="chant/ar__vblex"/></e>
+<e lm="rabotar">          <i>rabot</i><par n="chant/ar__vblex"/></e>
+<e lm="racionar">          <i>racion</i><par n="chant/ar__vblex"/></e>
+<e lm="râcllar">          <i>râcll</i><par n="chant/ar__vblex"/></e>
+<e lm="racomodar">          <i>racomod</i><par n="chant/ar__vblex"/></e>
+<e lm="racontar">          <i>racont</i><par n="chant/ar__vblex"/></e>
+<e lm="racordar">          <i>racord</i><par n="chant/ar__vblex"/></e>
+<e lm="radontar">          <i>radont</i><par n="chant/ar__vblex"/></e>
+<e lm="radotar">          <i>radot</i><par n="chant/ar__vblex"/></e>
+<e lm="rafistolar">          <i>rafistol</i><par n="chant/ar__vblex"/></e>
+<e lm="râlar">          <i>râl</i><par n="chant/ar__vblex"/></e>
+<e lm="râmar">          <i>râm</i><par n="chant/ar__vblex"/></e>
+<e lm="ramenar">          <i>ramen</i><par n="chant/ar__vblex"/></e>
+<e lm="ramonar">          <i>ramon</i><par n="chant/ar__vblex"/></e>
+<e lm="rancomelar">          <i>rancomel</i><par n="chant/ar__vblex"/></e>
+<e lm="rancotar">          <i>rancot</i><par n="chant/ar__vblex"/></e>
+<e lm="râpar">          <i>râp</i><par n="chant/ar__vblex"/></e>
+<e lm="rapelar">          <i>rapel</i><par n="chant/ar__vblex"/></e>
+<e lm="rapenar">          <i>rapen</i><par n="chant/ar__vblex"/></e>
+<e lm="rapessodar">          <i>rapessod</i><par n="chant/ar__vblex"/></e>
+<e lm="rapicolar">          <i>rapicol</i><par n="chant/ar__vblex"/></e>
+<e lm="rapistolar">          <i>rapistol</i><par n="chant/ar__vblex"/></e>
+<e lm="rassemblar">          <i>rassembl</i><par n="chant/ar__vblex"/></e>
+<e lm="râtelar">          <i>râtel</i><par n="chant/ar__vblex"/></e>
+<e lm="ratibouèsar">          <i>ratibouès</i><par n="chant/ar__vblex"/></e>
+<e lm="ravicolar">          <i>ravicol</i><par n="chant/ar__vblex"/></e>
+<e lm="ravigotar">          <i>ravigot</i><par n="chant/ar__vblex"/></e>
+<e lm="ravôdar">          <i>ravôd</i><par n="chant/ar__vblex"/></e>
+<e lm="rayonar">          <i>rayon</i><par n="chant/ar__vblex"/></e>
+<e lm="rebecar">          <i>rebe</i><par n="man/car__vblex"/></e>
+<e lm="rebenar">          <i>reben</i><par n="chant/ar__vblex"/></e>
+<e lm="rebetar">          <i>rebet</i><par n="chant/ar__vblex"/></e>
+<e lm="rebiolar">          <i>rebiol</i><par n="chant/ar__vblex"/></e>
+<e lm="rebocllar">          <i>rebocll</i><par n="chant/ar__vblex"/></e>
+<e lm="reborrar">          <i>reborr</i><par n="chant/ar__vblex"/></e>
+<e lm="rebouesar">          <i>reboues</i><par n="chant/ar__vblex"/></e>
+<e lm="rebrecar">          <i>rebre</i><par n="man/car__vblex"/></e>
+<e lm="rebrotar">          <i>rebrot</i><par n="chant/ar__vblex"/></e>
+<e lm="recâlar">          <i>recâl</i><par n="chant/ar__vblex"/></e>
+<e lm="recelar">          <i>recel</i><par n="chant/ar__vblex"/></e>
+<e lm="recensar">          <i>recens</i><par n="chant/ar__vblex"/></e>
+<e lm="rechôdar">          <i>rechôd</i><par n="chant/ar__vblex"/></e>
+<e lm="rècoltar">          <i>rècolt</i><par n="chant/ar__vblex"/></e>
+<e lm="rècompensar">          <i>rècompens</i><par n="chant/ar__vblex"/></e>
+<e lm="rèconfortar">          <i>rèconfort</i><par n="chant/ar__vblex"/></e>
+<e lm="recopar">          <i>recop</i><par n="chant/ar__vblex"/></e>
+<e lm="recopèlar">          <i>recopèl</i><par n="chant/ar__vblex"/></e>
+<e lm="recorbar">          <i>recorb</i><par n="chant/ar__vblex"/></e>
+<e lm="recordar">          <i>record</i><par n="chant/ar__vblex"/></e>
+<e lm="rècortar">          <i>rècort</i><par n="chant/ar__vblex"/></e>
+<e lm="recotar">          <i>recot</i><par n="chant/ar__vblex"/></e>
+<e lm="rècupèrar">          <i>rècupèr</i><par n="chant/ar__vblex"/></e>
+<e lm="redoblar">          <i>redobl</i><par n="chant/ar__vblex"/></e>
+<e lm="redondar">          <i>redond</i><par n="chant/ar__vblex"/></e>
+<e lm="redôtar">          <i>redôt</i><par n="chant/ar__vblex"/></e>
+<e lm="redroblar">          <i>redrobl</i><par n="chant/ar__vblex"/></e>
+<e lm="reflètar">          <i>reflèt</i><par n="chant/ar__vblex"/></e>
+<e lm="refôlar">          <i>refôl</i><par n="chant/ar__vblex"/></e>
+<e lm="reforgar">          <i>reforg</i><par n="blag/ar__vblex"/></e>
+<e lm="rèformar">          <i>rèform</i><par n="chant/ar__vblex"/></e>
+<e lm="regènèrar">          <i>regènèr</i><par n="chant/ar__vblex"/></e>
+<e lm="règentar">          <i>règent</i><par n="chant/ar__vblex"/></e>
+<e lm="règllar">          <i>règll</i><par n="chant/ar__vblex"/></e>
+<e lm="regllenar">          <i>regllen</i><par n="chant/ar__vblex"/></e>
+<e lm="regonfllar">          <i>regonfll</i><par n="chant/ar__vblex"/></e>
+<e lm="regrètar">          <i>regrèt</i><par n="chant/ar__vblex"/></e>
+<e lm="reguenar">          <i>reguen</i><par n="chant/ar__vblex"/></e>
+<e lm="rèlar">          <i>rèl</i><par n="chant/ar__vblex"/></e>
+<e lm="relègar">          <i>relèg</i><par n="blag/ar__vblex"/></e>
+<e lm="relevar">          <i>relev</i><par n="chant/ar__vblex"/></e>
+<e lm="remborrar">          <i>remborr</i><par n="chant/ar__vblex"/></e>
+<e lm="remborsar">          <i>rembors</i><par n="chant/ar__vblex"/></e>
+<e lm="remembrar">          <i>remembr</i><par n="chant/ar__vblex"/></e>
+<e lm="remendar">          <i>remend</i><par n="chant/ar__vblex"/></e>
+<e lm="remodar">          <i>remod</i><par n="chant/ar__vblex"/></e>
+<e lm="remontar">          <i>remont</i><par n="chant/ar__vblex"/></e>
+<e lm="remontrar">          <i>remontr</i><par n="chant/ar__vblex"/></e>
+<e lm="remplar">          <i>rempl</i><par n="chant/ar__vblex"/></e>
+<e lm="remplomar">          <i>remplom</i><par n="chant/ar__vblex"/></e>
+<e lm="renâcllar">          <i>renâcll</i><par n="chant/ar__vblex"/></e>
+<e lm="renârdar">          <i>renârd</i><par n="chant/ar__vblex"/></e>
+<e lm="rencontrar">          <i>rencontr</i><par n="chant/ar__vblex"/></e>
+<e lm="renguènar">          <i>renguèn</i><par n="chant/ar__vblex"/></e>
+<e lm="renovelar">          <i>renovel</i><par n="chant/ar__vblex"/></e>
+<e lm="renvèrsar">          <i>renvèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="repecar">          <i>repe</i><par n="man/car__vblex"/></e>
+<e lm="repensar">          <i>repens</i><par n="chant/ar__vblex"/></e>
+<e lm="repèrar">          <i>repèr</i><par n="chant/ar__vblex"/></e>
+<e lm="rèpètar">          <i>rèpèt</i><par n="chant/ar__vblex"/></e>
+<e lm="repoplar">          <i>repopl</i><par n="chant/ar__vblex"/></e>
+<e lm="reprèsentar">          <i>reprèsent</i><par n="chant/ar__vblex"/></e>
+<e lm="resèrvar">          <i>resèrv</i><par n="chant/ar__vblex"/></e>
+<e lm="resonar">          <i>reson</i><par n="chant/ar__vblex"/></e>
+<e lm="rêsonar">          <i>rêson</i><par n="chant/ar__vblex"/></e>
+<e lm="rèspèctar">          <i>rèspèct</i><par n="chant/ar__vblex"/></e>
+<e lm="ressemblar">          <i>ressembl</i><par n="chant/ar__vblex"/></e>
+<e lm="ressemèlar">          <i>ressemèl</i><par n="chant/ar__vblex"/></e>
+<e lm="ressenar">          <i>ressen</i><par n="chant/ar__vblex"/></e>
+<e lm="ressôtar">          <i>ressôt</i><par n="chant/ar__vblex"/></e>
+<e lm="rèstorar">          <i>rèstor</i><par n="chant/ar__vblex"/></e>
+<e lm="retaconar">          <i>retacon</i><par n="chant/ar__vblex"/></e>
+<e lm="rétar">          <i>rét</i><par n="chant/ar__vblex"/></e>
+<e lm="retemprar">          <i>retempr</i><par n="chant/ar__vblex"/></e>
+<e lm="retonar">          <i>reton</i><par n="chant/ar__vblex"/></e>
+<e lm="retrempar">          <i>retremp</i><par n="chant/ar__vblex"/></e>
+<e lm="rètroblar">          <i>rètrobl</i><par n="chant/ar__vblex"/></e>
+<e lm="retronar">          <i>retron</i><par n="chant/ar__vblex"/></e>
+<e lm="retrossar">          <i>retross</i><par n="chant/ar__vblex"/></e>
+<e lm="retrovar">          <i>retrov</i><par n="chant/ar__vblex"/></e>
+<e lm="rèvar">          <i>rèv</i><par n="chant/ar__vblex"/></e>
+<e lm="rèvèlar">          <i>rèvèl</i><par n="chant/ar__vblex"/></e>
+<e lm="rèvocar">          <i>rèvo</i><par n="man/car__vblex"/></e>
+<e lm="rèvoltar">          <i>rèvolt</i><par n="chant/ar__vblex"/></e>
+<e lm="ribotar">          <i>ribot</i><par n="chant/ar__vblex"/></e>
+<e lm="rigolar">          <i>rigol</i><par n="chant/ar__vblex"/></e>
+<e lm="riôlar">          <i>riôl</i><par n="chant/ar__vblex"/></e>
+<e lm="ripostar">          <i>ripost</i><par n="chant/ar__vblex"/></e>
+<e lm="rispotar">          <i>rispot</i><par n="chant/ar__vblex"/></e>
+<e lm="robar">          <i>rob</i><par n="chant/ar__vblex"/></e>
+<e lm="rôdar">          <i>rôd</i><par n="chant/ar__vblex"/></e>
+<e lm="ronar">          <i>ron</i><par n="chant/ar__vblex"/></e>
+<e lm="ronchonar">          <i>ronchon</i><par n="chant/ar__vblex"/></e>
+<e lm="ronconar">          <i>roncon</i><par n="chant/ar__vblex"/></e>
+<e lm="ronfllar">          <i>ronfll</i><par n="chant/ar__vblex"/></e>
+<e lm="ronronar">          <i>ronron</i><par n="chant/ar__vblex"/></e>
+<e lm="rotar">          <i>rot</i><par n="chant/ar__vblex"/></e>
+<e lm="rouemar">          <i>rouem</i><par n="chant/ar__vblex"/></e>
+<e lm="sabolar">          <i>sabol</i><par n="chant/ar__vblex"/></e>
+<e lm="sabotar">          <i>sabot</i><par n="chant/ar__vblex"/></e>
+<e lm="sâbrar">          <i>sâbr</i><par n="chant/ar__vblex"/></e>
+<e lm="sacramentar">          <i>sacrament</i><par n="chant/ar__vblex"/></e>
+<e lm="sârvar">          <i>sârv</i><par n="chant/ar__vblex"/></e>
+<e lm="savonar">          <i>savon</i><par n="chant/ar__vblex"/></e>
+<e lm="scèlar">          <i>scèl</i><par n="chant/ar__vblex"/></e>
+<e lm="secondar">          <i>second</i><par n="chant/ar__vblex"/></e>
+<e lm="s’ècorpelar">          <i>s’ècorpel</i><par n="chant/ar__vblex"/></e>
+<e lm="segrolar">          <i>segrol</i><par n="chant/ar__vblex"/></e>
+<e lm="sèjornar">          <i>sèjorn</i><par n="chant/ar__vblex"/></e>
+<e lm="sèlar">          <i>sèl</i><par n="chant/ar__vblex"/></e>
+<e lm="selyonar">          <i>selyon</i><par n="chant/ar__vblex"/></e>
+<e lm="semar">          <i>sem</i><par n="chant/ar__vblex"/></e>
+<e lm="semblar">          <i>sembl</i><par n="chant/ar__vblex"/></e>
+<e lm="semenar">          <i>semen</i><par n="chant/ar__vblex"/></e>
+<e lm="sènar">          <i>sèn</i><par n="chant/ar__vblex"/></e>
+<e lm="sengllotar">          <i>sengllot</i><par n="chant/ar__vblex"/></e>
+<e lm="sentonar">          <i>senton</i><par n="chant/ar__vblex"/></e>
+<e lm="sequèstrar">          <i>sequèstr</i><par n="chant/ar__vblex"/></e>
+<e lm="sèrmonar">          <i>sèrmon</i><par n="chant/ar__vblex"/></e>
+<e lm="serrar">          <i>serr</i><par n="chant/ar__vblex"/></e>
+<e lm="sevrar">          <i>sevr</i><par n="chant/ar__vblex"/></e>
+<e lm="sibèrar">          <i>sibèr</i><par n="chant/ar__vblex"/></e>
+<e lm="sirotar">          <i>sirot</i><par n="chant/ar__vblex"/></e>
+<e lm="sofllar">          <i>sofll</i><par n="chant/ar__vblex"/></e>
+<e lm="soflletar">          <i>sofllet</i><par n="chant/ar__vblex"/></e>
+<e lm="sofrar">          <i>sofr</i><par n="chant/ar__vblex"/></e>
+<e lm="solevar">          <i>solev</i><par n="chant/ar__vblex"/></e>
+<e lm="somar">          <i>som</i><par n="chant/ar__vblex"/></e>
+<e lm="somissionar">          <i>somission</i><par n="chant/ar__vblex"/></e>
+<e lm="sonar">          <i>son</i><par n="chant/ar__vblex"/></e>
+<e lm="sondar">          <i>sond</i><par n="chant/ar__vblex"/></e>
+<e lm="soprar">          <i>sopr</i><par n="chant/ar__vblex"/></e>
+<e lm="sôtelar">          <i>sôtel</i><par n="chant/ar__vblex"/></e>
+<e lm="souhètar">          <i>souhèt</i><par n="chant/ar__vblex"/></e>
+<e lm="soupçonar">          <i>soupçon</i><par n="chant/ar__vblex"/></e>
+<e lm="sôvar">          <i>sôv</i><par n="chant/ar__vblex"/></e>
+<e lm="stacionar">          <i>stacion</i><par n="chant/ar__vblex"/></e>
+<e lm="sublotar">          <i>sublot</i><par n="chant/ar__vblex"/></e>
+<e lm="subornar">          <i>suborn</i><par n="chant/ar__vblex"/></e>
+<e lm="succèdar">          <i>succèd</i><par n="chant/ar__vblex"/></e>
+<e lm="sucombar">          <i>sucomb</i><par n="chant/ar__vblex"/></e>
+<e lm="suçotar">          <i>suçot</i><par n="chant/ar__vblex"/></e>
+<e lm="sufocar">          <i>sufo</i><par n="man/car__vblex"/></e>
+<e lm="suggèrar">          <i>suggèr</i><par n="chant/ar__vblex"/></e>
+<e lm="surabondar">          <i>surabond</i><par n="chant/ar__vblex"/></e>
+<e lm="surmontar">          <i>surmont</i><par n="chant/ar__vblex"/></e>
+<e lm="sursôtar">          <i>sursôt</i><par n="chant/ar__vblex"/></e>
+<e lm="suspèctar">          <i>suspèct</i><par n="chant/ar__vblex"/></e>
+<e lm="taconar">          <i>tacon</i><par n="chant/ar__vblex"/></e>
+<e lm="talonar">          <i>talon</i><par n="chant/ar__vblex"/></e>
+<e lm="tamponar">          <i>tampon</i><par n="chant/ar__vblex"/></e>
+<e lm="tapotar">          <i>tapot</i><par n="chant/ar__vblex"/></e>
+<e lm="tarebelar">          <i>tarebel</i><par n="chant/ar__vblex"/></e>
+<e lm="tarôdar">          <i>tarôd</i><par n="chant/ar__vblex"/></e>
+<e lm="tâtar">          <i>tât</i><par n="chant/ar__vblex"/></e>
+<e lm="tâthar">          <i>tâth</i><par n="chant/ar__vblex"/></e>
+<e lm="tâtonar">          <i>tâton</i><par n="chant/ar__vblex"/></e>
+<e lm="tèlèfonar">          <i>tèlèfon</i><par n="chant/ar__vblex"/></e>
+<e lm="tempètar">          <i>tempèt</i><par n="chant/ar__vblex"/></e>
+<e lm="temprar">          <i>tempr</i><par n="chant/ar__vblex"/></e>
+<e lm="tènar">          <i>tèn</i><par n="chant/ar__vblex"/></e>
+<e lm="tentar">          <i>tent</i><par n="chant/ar__vblex"/></e>
+<e lm="tèrmenar">          <i>tèrmen</i><par n="chant/ar__vblex"/></e>
+<e lm="tèrrar">          <i>tèrr</i><par n="chant/ar__vblex"/></e>
+<e lm="têsar">          <i>tês</i><par n="chant/ar__vblex"/></e>
+<e lm="tèstar">          <i>tèst</i><par n="chant/ar__vblex"/></e>
+<e lm="tètar">          <i>tèt</i><par n="chant/ar__vblex"/></e>
+<e lm="tiedar">          <i>tied</i><par n="chant/ar__vblex"/></e>
+<e lm="tisonar">          <i>tison</i><par n="chant/ar__vblex"/></e>
+<e lm="tocar">          <i>to</i><par n="man/car__vblex"/></e>
+<e lm="tombar">          <i>tomb</i><par n="chant/ar__vblex"/></e>
+<e lm="tonar">          <i>ton</i><par n="chant/ar__vblex"/></e>
+<e lm="topar">          <i>top</i><par n="chant/ar__vblex"/></e>
+<e lm="tormentar">          <i>torment</i><par n="chant/ar__vblex"/></e>
+<e lm="tracolar">          <i>tracol</i><par n="chant/ar__vblex"/></e>
+<e lm="traforar">          <i>trafor</i><par n="chant/ar__vblex"/></e>
+<e lm="transformar">          <i>transform</i><par n="chant/ar__vblex"/></e>
+<e lm="traplorar">          <i>traplor</i><par n="chant/ar__vblex"/></e>
+<e lm="trapouentar">          <i>trapouent</i><par n="chant/ar__vblex"/></e>
+<e lm="traquenar">          <i>traquen</i><par n="chant/ar__vblex"/></e>
+<e lm="travèrsar">          <i>travèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="trècodar">          <i>trècod</i><par n="chant/ar__vblex"/></e>
+<e lm="trècodenar">          <i>trècoden</i><par n="chant/ar__vblex"/></e>
+<e lm="tremblar">          <i>trembl</i><par n="chant/ar__vblex"/></e>
+<e lm="trempar">          <i>tremp</i><par n="chant/ar__vblex"/></e>
+<e lm="trenar">          <i>tren</i><par n="chant/ar__vblex"/></e>
+<e lm="trênar">          <i>trên</i><par n="chant/ar__vblex"/></e>
+<e lm="trepar">          <i>trep</i><par n="chant/ar__vblex"/></e>
+<e lm="trètar">          <i>trèt</i><par n="chant/ar__vblex"/></e>
+<e lm="trevolar">          <i>trevol</i><par n="chant/ar__vblex"/></e>
+<e lm="tricotar">          <i>tricot</i><par n="chant/ar__vblex"/></e>
+<e lm="trionfar">          <i>trionf</i><par n="chant/ar__vblex"/></e>
+<e lm="tripotar">          <i>tripot</i><par n="chant/ar__vblex"/></e>
+<e lm="troblar">          <i>trobl</i><par n="chant/ar__vblex"/></e>
+<e lm="trocar">          <i>tro</i><par n="man/car__vblex"/></e>
+<e lm="trompar">          <i>tromp</i><par n="chant/ar__vblex"/></e>
+<e lm="trompetar">          <i>trompet</i><par n="chant/ar__vblex"/></e>
+<e lm="tronar">          <i>tron</i><par n="chant/ar__vblex"/></e>
+<e lm="trônar">          <i>trôn</i><par n="chant/ar__vblex"/></e>
+<e lm="tronçonar">          <i>tronçon</i><par n="chant/ar__vblex"/></e>
+<e lm="trossar">          <i>tross</i><par n="chant/ar__vblex"/></e>
+<e lm="tutèlar">          <i>tutèl</i><par n="chant/ar__vblex"/></e>
+<e lm="vacabondar">          <i>vacabond</i><par n="chant/ar__vblex"/></e>
+<e lm="vègètar">          <i>vègèt</i><par n="chant/ar__vblex"/></e>
+<e lm="vélar">          <i>vél</i><par n="chant/ar__vblex"/></e>
+<e lm="vènèrar">          <i>vènèr</i><par n="chant/ar__vblex"/></e>
+<e lm="ventar">          <i>vent</i><par n="chant/ar__vblex"/></e>
+<e lm="ventolar">          <i>ventol</i><par n="chant/ar__vblex"/></e>
+<e lm="vèrgetar">          <i>vèrget</i><par n="chant/ar__vblex"/></e>
+<e lm="vèrnar">          <i>vèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="veronar">          <i>veron</i><par n="chant/ar__vblex"/></e>
+<e lm="verondar">          <i>verond</i><par n="chant/ar__vblex"/></e>
+<e lm="verotar">          <i>verot</i><par n="chant/ar__vblex"/></e>
+<e lm="vèrsar">          <i>vèrs</i><par n="chant/ar__vblex"/></e>
+<e lm="vèssar">          <i>vèss</i><par n="chant/ar__vblex"/></e>
+<e lm="vetar">          <i>vet</i><par n="chant/ar__vblex"/></e>
+<e lm="vèxar">          <i>vèx</i><par n="chant/ar__vblex"/></e>
+<e lm="vicotar">          <i>vicot</i><par n="chant/ar__vblex"/></e>
+<e lm="violar">          <i>viol</i><par n="chant/ar__vblex"/></e>
+<e lm="vivotar">          <i>vivot</i><par n="chant/ar__vblex"/></e>
+<e lm="vogar">          <i>vog</i><par n="blag/ar__vblex"/></e>
+<e lm="volar">          <i>vol</i><par n="chant/ar__vblex"/></e>
+<e lm="vortar">          <i>vort</i><par n="chant/ar__vblex"/></e>
+<e lm="votar">          <i>vot</i><par n="chant/ar__vblex"/></e>
+<e lm="vouedar">          <i>voued</i><par n="chant/ar__vblex"/></e>
+<e lm="vouèlar">          <i>vouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="zonar">          <i>zon</i><par n="chant/ar__vblex"/></e>
+<e lm="zozotar">          <i>zozot</i><par n="chant/ar__vblex"/></e>
+<e lm="r-ôtar">          <i>r-ôt</i><par n="chant/ar__vblex"/></e>	<!-- VERIFY -->
+<e lm="cul-pèlar">          <i>cul-pèl</i><par n="chant/ar__vblex"/></e>
+
+<e lm="abasordir">          <i>abasord</i><par n="fen/ir__vblex"/></e>
+<e lm="trèsir">          <i>très</i><par n="fen/ir__vblex"/></e>
+<e lm="acomplir">          <i>acompl</i><par n="fen/ir__vblex"/></e>
+<e lm="agromir">          <i>agrom</i><par n="fen/ir__vblex"/></e>
+<e lm="aquerir">          <i>aquer</i><par n="fen/ir__vblex"/></e>
+<e lm="adocir">          <i>adoc</i><par n="fen/ir__vblex"/></e>
+<e lm="afèblir">          <i>afèbl</i><par n="fen/ir__vblex"/></e>
+<e lm="afèrmir">          <i>afèrm</i><par n="fen/ir__vblex"/></e>
+<e lm="agonir">          <i>agon</i><par n="fen/ir__vblex"/></e>
+<e lm="agonir">          <i>agon</i><par n="fen/ir__vblex"/></e>
+<e lm="amincir">          <i>aminc</i><par n="fen/ir__vblex"/></e>
+<e lm="amortir">          <i>amort</i><par n="fen/ir__vblex"/></e>
+<e lm="apouvrir">          <i>apouvr</i><par n="fen/ir__vblex"/></e>
+<e lm="aplôdir">          <i>aplôd</i><par n="fen/ir__vblex"/></e>
+<e lm="apouentir">          <i>apouent</i><par n="fen/ir__vblex"/></e>
+<e lm="aprovondir">          <i>aprovond</i><par n="fen/ir__vblex"/></e>
+<e lm="arriondir">          <i>arriond</i><par n="fen/ir__vblex"/></e>
+<e lm="condir">          <i>cond</i><par n="fen/ir__vblex"/></e>
+<e lm="mantegnir">          <i>mantegn</i><par n="fen/ir__vblex"/></e>
+<e lm="èstôrbir">          <i>èstôrb</i><par n="fen/ir__vblex"/></e>
+<e lm="ètèrtir">          <i>ètèrt</i><par n="fen/ir__vblex"/></e>
+<e lm="assortir">          <i>assort</i><par n="fen/ir__vblex"/></e>
+<e lm="assopir">          <i>assop</i><par n="fen/ir__vblex"/></e>
+<e lm="atendrir">          <i>atendr</i><par n="fen/ir__vblex"/></e>
+<e lm="atèrrir">          <i>atèrr</i><par n="fen/ir__vblex"/></e>
+<e lm="avenir">          <i>aven</i><par n="fen/ir__vblex"/></e>
+<e lm="avegnir">          <i>avegn</i><par n="fen/ir__vblex"/></e>
+<e lm="avèrtir">          <i>avèrt</i><par n="fen/ir__vblex"/></e>
+<e lm="bâtir">          <i>bât</i><par n="fen/ir__vblex"/></e>
+<e lm="benir">          <i>ben</i><par n="fen/ir__vblex"/></e>
+<e lm="ferir">          <i>fer</i><par n="fen/ir__vblex"/></e>
+<e lm="blètir">          <i>blèt</i><par n="fen/ir__vblex"/></e>
+<e lm="chouèsir">          <i>chouès</i><par n="fen/ir__vblex"/></e>
+<e lm="ch∙ouèsir">          <i>ch∙ouès</i><par n="fen/ir__vblex"/></e>
+<e lm="chutir">          <i>chut</i><par n="fen/ir__vblex"/></e>
+<e lm="ordir">          <i>ord</i><par n="fen/ir__vblex"/></e>
+<e lm="conquerir">          <i>conquer</i><par n="fen/ir__vblex"/></e>
+<e lm="consentir">          <i>consent</i><par n="fen/ir__vblex"/></e>
+<e lm="convèrtir">          <i>convèrt</i><par n="fen/ir__vblex"/></e>
+<e lm="crèpir">          <i>crèp</i><par n="fen/ir__vblex"/></e>
+<e lm="avorrir">          <i>avorr</i><par n="fen/ir__vblex"/></e>
+<e lm="dèfllorir">          <i>dèfllor</i><par n="fen/ir__vblex"/></e>
+<e lm="dègôchir">          <i>dègôch</i><par n="fen/ir__vblex"/></e>
+<e lm="dèmortir">          <i>dèmort</i><par n="fen/ir__vblex"/></e>
+<e lm="dègrossir">          <i>dègross</i><par n="fen/ir__vblex"/></e>
+<e lm="dèmentir">          <i>dèment</i><par n="fen/ir__vblex"/></e>
+<e lm="dèmolir">          <i>dèmol</i><par n="fen/ir__vblex"/></e>
+<e lm="dèmunir">          <i>dèmun</i><par n="fen/ir__vblex"/></e>
+<e lm="dèpèrir">          <i>dèpèr</i><par n="fen/ir__vblex"/></e>
+<e lm="dèrêdir">          <i>dèrêd</i><par n="fen/ir__vblex"/></e>
+<e lm="dèsemplir">          <i>dèsempl</i><par n="fen/ir__vblex"/></e>
+<e lm="dèvetir">          <i>dèvet</i><par n="fen/ir__vblex"/></e>
+<e lm="dèvethir">          <i>dèveth</i><par n="fen/ir__vblex"/></e>
+<e lm="requerir">          <i>requer</i><par n="fen/ir__vblex"/></e>
+<e lm="dèssèrvir">          <i>dèssèrv</i><par n="fen/ir__vblex"/></e>
+<e lm="dèsunir">          <i>dèsun</i><par n="fen/ir__vblex"/></e>
+<e lm="vegnir">          <i>vegn</i><par n="fen/ir__vblex"/></e>
+<e lm="retrècir">          <i>retrèc</i><par n="fen/ir__vblex"/></e>
+<e lm="divèrtir">          <i>divèrt</i><par n="fen/ir__vblex"/></e>
+<e lm="durcir">          <i>durc</i><par n="fen/ir__vblex"/></e>
+<e lm="èpelir">          <i>èpel</i><par n="fen/ir__vblex"/></e>
+<e lm="embèlir">          <i>embèl</i><par n="fen/ir__vblex"/></e>
+<e lm="encherir">          <i>encher</i><par n="fen/ir__vblex"/></e>
+<e lm="encouenir">          <i>encouen</i><par n="fen/ir__vblex"/></e>
+<e lm="endurcir">          <i>endurc</i><par n="fen/ir__vblex"/></e>
+<e lm="envetir">          <i>envet</i><par n="fen/ir__vblex"/></e>
+<e lm="envethir">          <i>enveth</i><par n="fen/ir__vblex"/></e>
+<e lm="entepir">          <i>entep</i><par n="fen/ir__vblex"/></e>
+<e lm="englotir">          <i>englot</i><par n="fen/ir__vblex"/></e>
+<e lm="emmortir">          <i>emmort</i><par n="fen/ir__vblex"/></e>
+<e lm="ensevelir">          <i>ensevel</i><par n="fen/ir__vblex"/></e>
+<e lm="èpèssir">          <i>èpèss</i><par n="fen/ir__vblex"/></e>
+<e lm="èpordir">          <i>èpord</i><par n="fen/ir__vblex"/></e>
+<e lm="èpavordir">          <i>èpavord</i><par n="fen/ir__vblex"/></e>
+<e lm="èlordir">          <i>èlord</i><par n="fen/ir__vblex"/></e>
+<e lm="fèblir">          <i>fèbl</i><par n="fen/ir__vblex"/></e>
+<e lm="fornir">          <i>forn</i><par n="fen/ir__vblex"/></e>
+<e lm="sentir">          <i>sent</i><par n="fen/ir__vblex"/></e>
+<e lm="fllèchir">          <i>fllèch</i><par n="fen/ir__vblex"/></e>
+<e lm="fllorir">          <i>fllor</i><par n="fen/ir__vblex"/></e>
+<e lm="frèchir">          <i>frèch</i><par n="fen/ir__vblex"/></e>
+<e lm="fremir">          <i>frem</i><par n="fen/ir__vblex"/></e>
+<e lm="gemir">          <i>gem</i><par n="fen/ir__vblex"/></e>
+<e lm="règir">          <i>règ</i><par n="fen/ir__vblex"/></e>
+<e lm="grossir">          <i>gross</i><par n="fen/ir__vblex"/></e>
+<e lm="vetir">          <i>vet</i><par n="fen/ir__vblex"/></e>
+<e lm="hènir">          <i>hèn</i><par n="fen/ir__vblex"/></e>
+<e lm="entèrvegnir">          <i>entèrvegn</i><par n="fen/ir__vblex"/></e>
+<e lm="jônir">          <i>jôn</i><par n="fen/ir__vblex"/></e>
+<e lm="râvir">          <i>râv</i><par n="fen/ir__vblex"/></e>
+<e lm="mègrir">          <i>mègr</i><par n="fen/ir__vblex"/></e>
+<e lm="mentir">          <i>ment</i><par n="fen/ir__vblex"/></e>
+<e lm="mincir">          <i>minc</i><par n="fen/ir__vblex"/></e>
+<e lm="musir">          <i>mus</i><par n="fen/ir__vblex"/></e>
+<e lm="mucir">          <i>muc</i><par n="fen/ir__vblex"/></e>
+<e lm="morir">          <i>mor</i><par n="fen/ir__vblex"/></e>
+<e lm="munir">          <i>mun</i><par n="fen/ir__vblex"/></e>
+<e lm="nurrir">          <i>nurr</i><par n="fen/ir__vblex"/></e>
+<e lm="ofrir">          <i>ofr</i><par n="fen/ir__vblex"/></e>
+<e lm="pâlir">          <i>pâl</i><par n="fen/ir__vblex"/></e>
+<e lm="parcorir">          <i>parcor</i><par n="fen/ir__vblex"/></e>
+<e lm="parvegnir">          <i>parvegn</i><par n="fen/ir__vblex"/></e>
+<e lm="pèrir">          <i>pèr</i><par n="fen/ir__vblex"/></e>
+<e lm="pèrvèrtir">          <i>pèrvèrt</i><par n="fen/ir__vblex"/></e>
+<e lm="apesentir">          <i>apesent</i><par n="fen/ir__vblex"/></e>
+<e lm="pètrir">          <i>pètr</i><par n="fen/ir__vblex"/></e>
+<e lm="polir">          <i>pol</i><par n="fen/ir__vblex"/></e>
+<e lm="purrir">          <i>purr</i><par n="fen/ir__vblex"/></e>
+<e lm="provegnir">          <i>provegn</i><par n="fen/ir__vblex"/></e>
+<e lm="punir">          <i>pun</i><par n="fen/ir__vblex"/></e>
+<e lm="querir">          <i>quer</i><par n="fen/ir__vblex"/></e>
+<e lm="radocir">          <i>radoc</i><par n="fen/ir__vblex"/></e>
+<e lm="rafrèchir">          <i>rafrèch</i><par n="fen/ir__vblex"/></e>
+<e lm="rêdir">          <i>rêd</i><par n="fen/ir__vblex"/></e>
+<e lm="rajouenir">          <i>rajouen</i><par n="fen/ir__vblex"/></e>
+<e lm="ralentir">          <i>ralent</i><par n="fen/ir__vblex"/></e>
+<e lm="ramolir">          <i>ramol</i><par n="fen/ir__vblex"/></e>
+<e lm="rebâtir">          <i>rebât</i><par n="fen/ir__vblex"/></e>
+<e lm="rèflèchir">          <i>rèflèch</i><par n="fen/ir__vblex"/></e>
+<e lm="musar">          <i>mus</i><par n="chant/ar__vblex"/></e>
+<e lm="refllorir">          <i>refllor</i><par n="fen/ir__vblex"/></e>
+<e lm="refrèdir">          <i>refrèd</i><par n="fen/ir__vblex"/></e>
+<e lm="remplir">          <i>rempl</i><par n="fen/ir__vblex"/></e>
+<e lm="rencherir">          <i>rencher</i><par n="fen/ir__vblex"/></e>
+<e lm="repentir">          <i>repent</i><par n="fen/ir__vblex"/></e>
+<e lm="ressentir">          <i>ressent</i><par n="fen/ir__vblex"/></e>
+<e lm="retegnir">          <i>retegn</i><par n="fen/ir__vblex"/></e>
+<e lm="retentir">          <i>retent</i><par n="fen/ir__vblex"/></e>
+<e lm="rèunir">          <i>rèun</i><par n="fen/ir__vblex"/></e>
+<e lm="reussir">          <i>reuss</i><par n="fen/ir__vblex"/></e>
+<e lm="vèrdir">          <i>vèrd</i><par n="fen/ir__vblex"/></e>
+<e lm="revèrdir">          <i>revèrd</i><par n="fen/ir__vblex"/></e>
+<e lm="revetir">          <i>revet</i><par n="fen/ir__vblex"/></e>
+<e lm="rutir">          <i>rut</i><par n="fen/ir__vblex"/></e>
+<e lm="rogir">          <i>rog</i><par n="fen/ir__vblex"/></e>
+<e lm="rossir">          <i>ross</i><par n="fen/ir__vblex"/></e>
+<e lm="rugir">          <i>rug</i><par n="fen/ir__vblex"/></e>
+<e lm="sêsir">          <i>sês</i><par n="fen/ir__vblex"/></e>
+<e lm="sâlir">          <i>sâl</i><par n="fen/ir__vblex"/></e>
+<e lm="secorir">          <i>secor</i><par n="fen/ir__vblex"/></e>
+<e lm="sofrir">          <i>sofr</i><par n="fen/ir__vblex"/></e>
+<e lm="sotegnir">          <i>sotegn</i><par n="fen/ir__vblex"/></e>
+<e lm="sovegnir">          <i>sovegn</i><par n="fen/ir__vblex"/></e>
+<e lm="subir">          <i>sub</i><par n="fen/ir__vblex"/></e>
+<e lm="sufir">          <i>suf</i><par n="fen/ir__vblex"/></e>
+<e lm="survegnir">          <i>survegn</i><par n="fen/ir__vblex"/></e>
+<e lm="tegnir">          <i>tegn</i><par n="fen/ir__vblex"/></e>
+<e lm="tiedir">          <i>tied</i><par n="fen/ir__vblex"/></e>
+<e lm="ètiedir">          <i>ètied</i><par n="fen/ir__vblex"/></e>
+<e lm="tussir">          <i>tuss</i><par n="fen/ir__vblex"/></e>
+<e lm="unir">          <i>un</i><par n="fen/ir__vblex"/></e>
+<e lm="vomir">          <i>vom</i><par n="fen/ir__vblex"/></e>
+<e lm="bomir">          <i>bom</i><par n="fen/ir__vblex"/></e>
 
 <!--
 1ère conjugaison A :           chantar, je chanto
