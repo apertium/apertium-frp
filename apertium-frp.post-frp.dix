@@ -31,62 +31,6 @@
     </pardef>
 
     <pardef n="article_complet">
-      <e><i>Haydn</i></e>
-      <e><i>Hayes</i></e>
-      <e><i>Hegel</i></e>
-      <e><i>Heidegger</i></e>
-      <e><i>Helsinki</i></e>
-      <e><i>Herbert</i></e>
-      <e><i>hindi</i></e>
-      <e><i>hip<b/>hop</i></e>
-      <e><i>hip-hop</i></e>
-      <e><i>hippie</i></e>
-      <e><i>hiragana</i></e>
-      <e><i>hit</i></e>
-      <e><i>hoax</i></e>
-      <e><i>Horthy</i></e>
-      <e><i>Houellebecq</i></e>
-      <e><i>Houston</i></e>
-      <e><i>Hugh</i></e>
-      <e><i>Huntington</i></e>
-      <e><i>Huston</i></e>
-      <e><i>Hadley</i></e>
-      <e><i>Hadnagy</i></e>
-      <e><i>Hailey</i></e>
-      <e><i>Haley</i></e>
-      <e><i>Halley</i></e>
-      <e><i>Hallyday</i></e>
-      <e><i>Hanley</i></e>
-      <e><i>Hans</i></e>
-      <e><i>Hardey</i></e>
-      <e><i>Hardy</i></e>
-      <e><i>Harley</i></e>
-      <e><i>Harmony</i></e>
-      <e><i>Harry</i></e>
-      <e><i>Hartley</i></e>
-      <e><i>Harvey</i></e>
-      <e><i>Harvey</i></e>
-      <e><i>Hathaway</i></e>
-      <e><i>Hawey</i></e>
-      <e><i>Hay</i></e>
-      <e><i>Hayley</i></e>
-      <e><i>Healey</i></e>
-      <e><i>Healy</i></e>
-      <e><i>Hemingway</i></e>
-      <e><i>Henley</i></e>
-      <e><i>Henry</i></e>
-      <e><i>Henry</i></e>
-      <e><i>Hevey</i></e>
-      <e><i>Hickey</i></e>
-      <e><i>Hilary</i></e>
-      <e><i>Hillary</i></e>
-      <e><i>Holloway</i></e>
-      <e><i>Holly</i></e>
-      <e><i>Hughboy</i></e>
-      <e><i>Humphrey</i></e>
-      <e><i>Humphrey</i></e>
-      <e><i>Hurley</i></e>
-      <e><i>Huxley</i></e>
       <e><i>yacht</i></e>
       <e><i>yang</i></e>
       <e><i>yankee</i></e>
@@ -102,8 +46,8 @@
       <e><i>yougoslave</i></e>
       <e><i>Yougoslavie</i></e>
       <e><i>yourte</i></e>
-      <e><i>Ier</i></e>
-      <e><i>Ire</i></e>
+      <e><i>Iièr</i></e>
+      <e><i>Iière</i></e>
       <e><i>IIe</i></e>
       <e><i>IIIe</i></e>
       <e><i>IVe</i></e>
@@ -259,7 +203,6 @@
       <e><i>Yuste</i></e>
       <e><i>Yustine</i></e>
       <e><i>Yuvia</i></e>
-
 </pardef>
 
     <pardef n="vocals">
@@ -324,7 +267,9 @@
       <e><p><l><b/><a/>ta<b/></l><r>e<b/>ton<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>sa<b/></l><r>e<b/>son<b/></r></p><par n="vocals"/></e>
 -->
-      <e><p><l><b/></l><r>e<b/></r></p><par n="consonants"/></e>
+<!--
+      <e><p><l><b/></l><r>e<b/></r></p><par n="consonants"/></e> VERIFY
+-->
 <!--
       <e><p><l><b/>lequel</l><r>uquel</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquels</l><r>esquels</r></p><par n="caracter_general"/></e>
@@ -372,7 +317,9 @@
       <e><p><l><a/>lo<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><a/>la<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
 <!--      <e><p><l><a/>sè<b/></l><r>e<b/>s'</r></p><par n="vocals"/></e> -->
-      <e><p><l></l><r>e<b/></r></p><par n="consonants"/></e>
+<!--
+      <e><p><l></l><r>e<b/></r></p><par n="consonants"/></e>	VERIFY
+-->
     </pardef>
   </pardefs>
 
@@ -417,6 +364,13 @@
       <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
       <e><p><l><a/>ye<b/></l><r>y</r></p><par n="je"/></e>
       <e><p><l><a/>te<b/></l><r>t</r></p><par n="je"/></e>
+
+<!--
+      <e><p><l>-<a/>je</l><r>-jo</r></p></e>
+      <e><p><l>-<a/>ye</l><r>-yo</r></p></e>
+      <e><p><l>-<a/>te</l><r>-tu</r></p></e>
+      <e><p><l>-<a/>le</l><r>-el</r></p></e>
+-->
 
       <e><p><l><a/>mè<b/></l><r>m</r></p><par n="è_lo"/></e>
       <e><p><l><a/>mè<b/></l><r>m'</r></p><par n="vocals"/></e>

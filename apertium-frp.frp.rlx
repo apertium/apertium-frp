@@ -26,6 +26,7 @@ LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
 LIST PreAdv = preadv ;
+LIST PostAdv = postadv ;
 LIST PreDet = predet ;
 LIST CnjAdv = cnjadv ;
 LIST CnjCoo = cnjcoo ;
@@ -133,6 +134,7 @@ LIST Il = "il" ;
 LIST On = "on" ;
 
 LIST Que = "que" ;
+LIST Etre = "étre" ;
 
 SECTION
 
@@ -145,7 +147,24 @@ SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
 
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
+# étre vbser / vblex (=appartenir)
+
+SELECT V IF (0 Etre) (1 ("a")) (NOT 2 Top OR unknownMajIni) ;			# ére ux Angliès
+SELECT V IF (0 Etre) (1 Adv) (2 ("a")) (NOT 3 Top OR unknownMajIni) ;		# ére pas ux Angliès
+SELECT V IF (0 Etre) (1 Adv) (2 Adv) (3 ("a")) (NOT 4 Top OR unknownMajIni) ;	# ére pas alor ux Angliès
+SELECT Ser IF (0 Etre) ;
+
+# adv / postadv
+
+SELECT PostAdv IF (-1 (META:/-/r)) ;
+REMOVE PostAdv IF (NOT -1 (META:/-/r)) ;
+
 # det / prn
+
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 A + &&GenderNumber) ;
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 Adv_PreAdv) (3 A + &&GenderNumber) ;
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 A + &&GenderNumber) (2 N + &&GenderNumber) ;
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreAdv) (2 A + &&GenderNumber) (2 N + &&GenderNumber) ;
 
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit, l'hotâl
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
@@ -187,6 +206,8 @@ SELECT Tn IF (0 Pro) ;			# FIXME
 
 SELECT P1 IF (-1 Je) (0 VSg1);
   ## Je veux
+SELECT P1 IF (0 VSg1) (0 (META:/-/r)) (1 Je) ;
+  ## Veux-je
 SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);
   ## Je lui veux
 SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);
@@ -195,6 +216,8 @@ REMOVE P1 + Sg IF (NOT -1* Je) (0 Verb + P1 + Sg) ;
 
 SELECT P2 IF (-1 Te) (0 VSg2);
   ## Tu veux
+SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Te) ;
+  ## Veux-tu
 SELECT P2 IF (1 Te) (0 VSg2);
   ## Veux-tu
 SELECT P2 IF (-2 Te) (-1 Pro) (0 VSg2);
@@ -205,6 +228,8 @@ REMOVE P2 + Sg IF (NOT -1* Te) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper)
 
 SELECT P3 IF (-1 Il + Sg OR On) (0 VSg3);
   ## Elle parle
+SELECT P3 IF (0 VSg3) (0 (META:/-/r)) (1 Il + Sg OR On) ;
+  ## Dit-il
 SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
   ## Parle-t-elle
 SELECT P3 IF (-2 Il + Sg OR On) (-1 Pro) (0 VSg3);
@@ -228,6 +253,15 @@ SELECT Imper IF (-1 BOS) (1 Excl) ;
 
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
 REMOVE Subjunc (NOT -1* Que) (0C Verb) (0 Pri) ;	# VERIFY
+
+# dormét pri/ifi
+# il faut regarder aussi qu'est-ce qui ce passe dans la frase antérieure ou postérieure (pri ou ifi?)
+
+SET MarcaPasado = ("ayer") OR ("anteayer");
+LIST LemmaPasado = (".*pasado.*"r) ;
+REMOVE:presente_pasado1 (pri) IF (0 (pri)) (0 (ifi)) (-1*/* MarcaPasado OR LemmaPasado OR ("pasado") BARRIER Verb OR Cnj_Rel_End); #El año pasado creamos
+REMOVE:presente_pasado2 (pri) IF (0 (pri)) (0 (ifi)) (1 MarcaPasado OR LemmaPasado) (NOT 1 ("pasado"));
+REMOVE:presente_pasado0 (ifi) IF (0 (pri)) (0 (ifi));
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
