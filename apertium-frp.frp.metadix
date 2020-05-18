@@ -1653,128 +1653,355 @@
 <pardef n="n'importe_qui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
--->
 
-<!--
 <pardef n="quelques_un/s__prn">
   <e>       <p><l>s</l>         <r>s<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>es</l>        <r>s<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+-->
 
-<pardef n="/le_mien__prn">
-  <e r="LR"><p><l>les<b/>miennes</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>la<b/>mienne</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>les<b/>miens</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>le<b/>mien</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>miennes</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>mienne</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>miens</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>mien</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="du_mien__prn">
-  <e r="LR"><p><l>des<b/>miennes</l><r>de<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>des<b/>miens</l><r>de<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>du<b/>mien</l><r>de<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="au_mien__prn">
-  <e r="LR"><p><l>aux<b/>miennes</l><r>à<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>aux<b/>miens</l><r>à<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>au<b/>mien</l><r>à<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
+<pardef n="/lo_min__prn">
+  <e>       <p><l>lo<b/>min</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>min</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>mino</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>mino</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>mina</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>minna</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>mâye</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>mins</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>minos</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>mines</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>minnes</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>mâyes</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>men</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>men</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>meno</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>meno</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>mena</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>menna</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>mens</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>menos</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>menes</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>mennes</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>mieno</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>mieno</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>miena</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>mienna</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>miens</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>mienos</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>mienes</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>miennes</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>mio</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>mio</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>mia</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>mios</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>mies</l>        <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 
-<pardef n="/le_sien__prn">
-  <e r="LR"><p><l>les<b/>siennes</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>la<b/>sienne</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>les<b/>siens</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>le<b/>sien</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>siennes</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>sienne</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>siens</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>sien</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="du_sien__prn">
-  <e r="LR"><p><l>des<b/>siennes</l><r>de<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>des<b/>siens</l><r>de<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>du<b/>sien</l><r>de<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="au_sien__prn">
-  <e r="LR"><p><l>aux<b/>siennes</l><r>à<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>aux<b/>siens</l><r>à<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>au<b/>sien</l><r>à<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
+  <e r="LR"><p><l>u<b/>min</l>         <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>u<b/>mino</l>         <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mins</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>minos</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mines</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>minnes</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mâyes</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>men</l>         <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>u<b/>meno</l>         <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mens</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>menos</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>menes</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mennes</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>mieno</l>         <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>miens</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mienos</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mienes</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>miennes</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>mio</l>         <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mios</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>mies</l>        <r>a<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 
-<pardef n="/le_tien__prn">
-  <e r="LR"><p><l>les<b/>tiennes</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>la<b/>tienne</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>les<b/>tiens</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>le<b/>tien</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>tiennes</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>tienne</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>tiens</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>tien</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="du_tien__prn">
-  <e r="LR"><p><l>des<b/>tiennes</l><r>de<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>des<b/>tiens</l><r>de<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>du<b/>tien</l><r>de<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="au_tien__prn">
-  <e r="LR"><p><l>aux<b/>tiennes</l><r>à<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>aux<b/>tiens</l><r>à<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>au<b/>tien</l><r>à<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-
-<pardef n="/le_nôtre__prn">
-  <e r="LR"><p><l>la<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>les<b/>nôtres</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>le<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>nôtres</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="du_nôtre__prn">
-  <e r="LR"><p><l>des<b/>nôtres</l><r>de<s n="pr"/><j/>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>du<b/>nôtre</l><r>de<s n="pr"/><j/>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="au_nôtre__prn">
-  <e r="LR"><p><l>aux<b/>nôtres</l><r>à<s n="pr"/><j/>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>au<b/>nôtre</l><r>à<s n="pr"/><j/>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-
-<pardef n="/le_vôtre__prn">
-  <e r="LR"><p><l>la<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>le<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>les<b/>vôtres</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>vôtres</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-</pardef>
-<pardef n="du_vôtre__prn">
-  <e r="LR"><p><l>des<b/>vôtres</l><r>de<s n="pr"/><j/>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>du<b/>vôtre</l><r>de<s n="pr"/><j/>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="au_vôtre__prn">
-  <e r="LR"><p><l>aux<b/>vôtres</l><r>à<s n="pr"/><j/>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>au<b/>vôtre</l><r>à<s n="pr"/><j/>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>min</l>         <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>mino</l>         <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mins</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>minos</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mines</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>minnes</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mâyes</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>men</l>         <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>meno</l>         <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mens</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>menos</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>menes</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mennes</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>mieno</l>         <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>miens</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mienos</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mienes</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>miennes</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>mio</l>         <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mios</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>mies</l>        <r>de<s n="pr"/><j/>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="/le_leur__prn">
-  <e r="LR"><p><l>la<b/>leur</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>le<b/>leur</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>les<b/>leurs</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>leur</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>leur</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>les<b/>leurs</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-</pardef>
-<pardef n="du_leur__prn">
-  <e r="LR"><p><l>des<b/>leurs</l><r>de<s n="pr"/><j/>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>du<b/>leur</l><r>de<s n="pr"/><j/>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-<pardef n="au_leur__prn">
-  <e r="LR"><p><l>aux<b/>leurs</l><r>à<s n="pr"/><j/>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>au<b/>leur</l><r>à<s n="pr"/><j/>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<pardef n="/lo_tin__prn">
+  <e>       <p><l>lo<b/>tin</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>tin</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>tino</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>tino</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>tina</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tinna</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tâye</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>tins</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>tinos</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>tines</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tinnes</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tâyes</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>ten</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>ten</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>teno</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>teno</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tena</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tenna</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>tens</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>tenos</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tenes</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tennes</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>tieno</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>tieno</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tiena</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tienna</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tuva</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>tiens</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>tienos</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tienes</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tiennes</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tuves</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>tio</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>tio</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tia</l>         <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>tios</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>ties</l>        <r>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+
+  <e r="LR"><p><l>u<b/>tin</l>         <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>u<b/>tino</l>         <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tins</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tinos</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tines</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tinnes</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tâyes</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>ten</l>         <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>u<b/>teno</l>         <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tens</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tenos</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tenes</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tennes</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>tieno</l>         <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tiens</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tienos</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tienes</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tiennes</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tuves</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>tio</l>         <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>tios</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>ties</l>        <r>a<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+
+  <e r="LR"><p><l>du<b/>tin</l>         <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>tino</l>         <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tins</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tinos</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tines</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tinnes</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tâyes</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>ten</l>         <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>teno</l>         <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tens</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tenos</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tenes</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tennes</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>tieno</l>         <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tiens</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tienos</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tienes</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tiennes</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tuves</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>tio</l>         <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>tios</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>ties</l>        <r>de<s n="pr"/><j/>lo<b/>tin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="/lo_sin__prn">
+  <e>       <p><l>lo<b/>sin</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>sin</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>sino</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>sino</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>sina</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>sinna</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>sâye</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>sins</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>sinos</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>sines</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>sinnes</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>sâyes</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>sen</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>sen</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>seno</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>seno</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>sena</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>senna</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>sens</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>senos</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>senes</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>sennes</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>sieno</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>sieno</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>siena</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>sienna</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>suva</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>siens</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>los<b/>sienos</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>sienes</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>siennes</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>suves</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>sio</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>sio</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>la<b/>sia</l>         <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>los<b/>sios</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>les<b/>sies</l>        <r>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+
+  <e r="LR"><p><l>u<b/>sin</l>         <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>u<b/>sino</l>         <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sins</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sinos</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sines</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sinnes</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sâyes</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>sen</l>         <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>u<b/>seno</l>         <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sens</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>senos</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>senes</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sennes</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>sieno</l>         <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>siens</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sienos</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sienes</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>siennes</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>suves</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>sio</l>         <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sios</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>sies</l>        <r>a<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+
+  <e r="LR"><p><l>du<b/>sin</l>         <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>sino</l>         <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sins</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sinos</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sines</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sinnes</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sâyes</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>sen</l>         <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>du<b/>seno</l>         <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sens</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>senos</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>senes</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sennes</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>sieno</l>         <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>siens</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sienos</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sienes</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>siennes</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>suves</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>sio</l>         <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sios</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>sies</l>        <r>de<s n="pr"/><j/>lo<b/>sin<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="/lo_noutro__prn">
+  <e>       <p><l>lo<b/>noutro</l>        <r>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>noutro</l>        <r>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>noutra</l>         <r>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>noutros</l>        <r>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>noutres</l>        <r>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>noutro</l>        <r>a<s n="pr"/><j/>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>noutros</l>        <r>a<s n="pr"/><j/>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>noutres</l>        <r>a<s n="pr"/><j/>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>noutro</l>        <r>de<s n="pr"/><j/>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>noutros</l>        <r>de<s n="pr"/><j/>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>noutres</l>        <r>de<s n="pr"/><j/>lo<b/>noutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="/lo_voutro__prn">
+  <e>       <p><l>lo<b/>voutro</l>        <r>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>voutro</l>        <r>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>voutra</l>         <r>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>voutros</l>        <r>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>voutres</l>        <r>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>voutro</l>        <r>a<s n="pr"/><j/>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>voutros</l>        <r>a<s n="pr"/><j/>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>voutres</l>        <r>a<s n="pr"/><j/>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>voutro</l>        <r>de<s n="pr"/><j/>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>voutros</l>        <r>de<s n="pr"/><j/>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>voutres</l>        <r>de<s n="pr"/><j/>lo<b/>voutro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="/lo_lor__prn">
+  <e>       <p><l>lo<b/>lor</l>        <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>lor</l>        <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>lo<b/>loron</l>        <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>loron</l>        <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>lor</l>         <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>lors</l>        <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>lors</l>        <r>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>lor</l>        <r>a<s n="pr"/><j/>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lors</l>        <r>a<s n="pr"/><j/>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lors</l>        <r>a<s n="pr"/><j/>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>lor</l>        <r>de<s n="pr"/><j/>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lors</l>        <r>de<s n="pr"/><j/>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lors</l>        <r>de<s n="pr"/><j/>lo<b/>lor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="/lo_lyor__prn">
+  <e>       <p><l>lo<b/>lyor</l>        <r>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>lyor</l>        <r>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>lyor</l>         <r>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>lyors</l>        <r>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>lyors</l>        <r>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>lyor</l>        <r>a<s n="pr"/><j/>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lyors</l>        <r>a<s n="pr"/><j/>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lyors</l>        <r>a<s n="pr"/><j/>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>lyor</l>        <r>de<s n="pr"/><j/>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lyors</l>        <r>de<s n="pr"/><j/>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lyors</l>        <r>de<s n="pr"/><j/>lo<b/>lyor<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="/lo_lœr__prn">
+  <e>       <p><l>lo<b/>lœr</l>        <r>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>lœr</l>        <r>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>lœr</l>         <r>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>lœrs</l>        <r>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>lœrs</l>        <r>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>lœr</l>        <r>a<s n="pr"/><j/>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lœrs</l>        <r>a<s n="pr"/><j/>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lœrs</l>        <r>a<s n="pr"/><j/>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>lœr</l>        <r>de<s n="pr"/><j/>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lœrs</l>        <r>de<s n="pr"/><j/>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lœrs</l>        <r>de<s n="pr"/><j/>lo<b/>lœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="/lo_lyœr__prn">
+  <e>       <p><l>lo<b/>lyœr</l>        <r>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>lyœr</l>        <r>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la<b/>lyœr</l>         <r>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>los<b/>lyœrs</l>        <r>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>les<b/>lyœrs</l>        <r>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>u<b/>lyœr</l>        <r>a<s n="pr"/><j/>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lyœrs</l>        <r>a<s n="pr"/><j/>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux<b/>lyœrs</l>        <r>a<s n="pr"/><j/>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>du<b/>lyœr</l>        <r>de<s n="pr"/><j/>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lyœrs</l>        <r>de<s n="pr"/><j/>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>des<b/>lyœrs</l>        <r>de<s n="pr"/><j/>lo<b/>lyœr<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+<!--
 <pardef n="dont__rel">
   <e>       <p><l></l>          <r><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
@@ -6642,6 +6869,16 @@
 <e lm="y">              <i>y</i><par n="en__prn"/></e>
 
 <e lm="se">           <i></i><par n="/se__prn"/></e>
+
+<e lm="lo min">             <i></i><par n="/lo_min__prn"/></e>
+<e lm="lo tin">             <i></i><par n="/lo_tin__prn"/></e>
+<e lm="lo sin">             <i></i><par n="/lo_sin__prn"/></e>
+<e lm="lo noutro">             <i></i><par n="/lo_noutro__prn"/></e>
+<e lm="lo voutro">             <i></i><par n="/lo_voutro__prn"/></e>
+<e lm="lo lor">             <i></i><par n="/lo_lor__prn"/></e>
+<e lm="lo lyor">             <i></i><par n="/lo_lyor__prn"/></e>
+<e lm="lo lœr">             <i></i><par n="/lo_lœr__prn"/></e>
+<e lm="lo lyœr">             <i></i><par n="/lo_lyœr__prn"/></e>
 
 <e lm="cen">           <i>cen</i><par n="cen__prn"/></e>
 <e lm="o">           <i>o</i><par n="cen__prn"/></e>
