@@ -2,8 +2,6 @@
 ## Makefile for apertium-frp
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=frp
 BASENAME=apertium-$(LANG1)
 
@@ -99,9 +97,9 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_frp_srcdir) || mkdir -p $(DESTDIR)$(apertium_frp_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_frp_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_frp_srcdir)
 	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_frp_srcdir)
+#	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_frp_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
