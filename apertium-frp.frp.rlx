@@ -198,6 +198,16 @@ REMOVE Tn + Pl3 IF (0 Tn + Pl3) (NOT 1 Verb + Pl3) ;
 
 SELECT Tn IF (0 Pro) ;			# FIXME
 
+
+# n / adj
+
+
+# mots individuels (mais après la selection n/adj)
+
+REMOVE ("franc") IF (0C N) (0 ("Franc_poplo")) ;
+REMOVE ("franc") IF (0C A) (0 ("franc_poplo")) ;
+SELECT N IF (-1 Num) (0 ("franc")) ;
+
 #
 # Verbes
 #
