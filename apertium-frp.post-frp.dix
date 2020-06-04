@@ -258,15 +258,16 @@
       <e><p><l><b/><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/><a/>le</l><r>u</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>le<b/><a/>biô<b/></l><r>u<b/>bél<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>nôvo<b/></l><r>u<b/>nôf<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>nuevo<b/></l><r>u<b/>nuef<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="caracter_general"/></e>
       <e><p><l><b/></l><r>'</r></p><par n="vocals"/></e>
-<!--
       <e><p><l><b/><a/>ma<b/></l><r>e<b/>mon<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>ta<b/></l><r>e<b/>ton<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>sa<b/></l><r>e<b/>son<b/></r></p><par n="vocals"/></e>
--->
 <!--
       <e><p><l><b/></l><r>e<b/></r></p><par n="consonants"/></e> VERIFY
 -->
@@ -288,12 +289,13 @@
       <e><p><l><b/><a/>la<b/></l><r>a<b/>la<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/><a/>la<b/></l><r>a<b/>la<b/></r></p><par n="caracter_general"/></e>
       <e><p><l><b/><a/>le</l><r>u</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>le<b/><a/>biô<b/></l><r>u<b/>bél<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>nôvo<b/></l><r>u<b/>nôf<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>nuevo<b/></l><r>u<b/>nuef<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>de</l><r>a<b/>d</r></p><par n="de"/></e>
-<!--
       <e><p><l><b/><a/>ma<b/></l><r>a<b/>mon<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>ta<b/></l><r>a<b/>ton<b/></r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>sa<b/></l><r>a<b/>son<b/></r></p><par n="vocals"/></e>
--->
       <e><p><l><b/></l><r>a<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/></l><r>a<b/></r></p><par n="vocals"/></e>
 <!--
@@ -352,11 +354,6 @@
       <e><p><l><a/>quoique<b/></l><r>quoiqu'</r></p><par n="vocals"/></e>
       <e><p><l><a/>celui<b/>qui<b/>il<b/></l><r>celui<b/>qui<b/></r></p></e>
       <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>
-      <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="vocals"/></e>
-      <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="vocals"/></e>
-      <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="vocals"/></e>
-      <e><p><l><a/>nouveau<b/></l><r>nouvel<b/></r></p><par n="vocals"/></e>
-      <e><p><l><a/>le<b/><a/>nouveau<b/></l><r>le<b/>nouvel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>si<b/>il<b/></l><r>s'il<b/></r></p></e>
       <e><p><l><a/>si<b/>ils<b/></l><r>s'ils<b/></r></p></e>
 -->
@@ -370,6 +367,8 @@
       <e><p><l>-<a/>ye</l><r>-yo</r></p></e>
       <e><p><l>-<a/>te</l><r>-tu</r></p></e>
       <e><p><l>-<a/>le</l><r>-el</r></p></e>
+      <e><p><l><b/><a/>le<b/><a/>nôvo<b/></l><r>u<b/>nôf<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>nuevo<b/></l><r>u<b/>nuef<b/></r></p><par n="vocals"/></e>
 -->
 
       <e><p><l><a/>mè<b/></l><r>m</r></p><par n="è_lo"/></e>
@@ -390,6 +389,17 @@
       <e><p><l><a/>de<b/><a/>ne<b/></l><r>de<b/>n'</r></p><par n="vocals"/></e>
       <e><p><l><a/>de<b/></l><r>de<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de</l><r>d</r></p><par n="de"/></e>
+
+      <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="vocals"/></e>
+
+      <e><p><l><a/>biô<b/></l><r>bél<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>lo<b/><a/>biô<b/></l><r>lo<b/>bél<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>nôvo<b/></l><r>nôf<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>lo<b/><a/>nôvo<b/></l><r>lo<b/>nôf<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>nuevo<b/></l><r>nuef<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>lo<b/><a/>nuevo<b/></l><r>lo<b/>nuef<b/></r></p><par n="vocals"/></e>
   </section>
 
 </dictionary>
