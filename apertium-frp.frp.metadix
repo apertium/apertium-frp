@@ -209,6 +209,14 @@ buscar els e. en el dic en word
   <e>       <p><l>èles</l>      <r>iô<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="nô/vo__adj">
+  <e>       <p><l>vo</l>        <r>vo<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>f</l>        <r>vo<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>va</l>       <r>vo<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>vos</l>       <r>vo<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ves</l>      <r>vo<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="ambicio/x__adj">
   <e>       <p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>sa</l>        <r>x<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -625,16 +633,18 @@ buscar els e. en el dic en word
   <e>       <p><l>le</l>        <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+-->
 
-<pardef n="quelque__det">
+<pardef n="quârque__det">
   <e>       <p><l>s</l>         <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="chaque__det">
+<pardef n="châque__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
 
+<!--
 <pardef n="maint__det">
   <e>       <p><l>es</l>        <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
@@ -879,7 +889,7 @@ buscar els e. en el dic en word
   <e>       <p><l>s</l>         <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="par__n">	<!-- mots qui sont utilisés parfois au masculin et parfois au féminin sans aucune distinction de sens -->
+<pardef n="afâre__n">	<!-- mots qui sont utilisés parfois au masculin et parfois au féminin sans aucune distinction de sens -->
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1055,6 +1065,7 @@ buscar els e. en el dic en word
   <e>       <p><l>ot</l>         <r>ot<s n="predet"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ota</l>        <r>ot<s n="predet"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ôs</l>         <r>ot<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ués</l>        <r>ot<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>otes</l>       <r>ot<s n="predet"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -1062,6 +1073,7 @@ buscar els e. en el dic en word
   <e>       <p><l>ot</l>         <r>ot<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ota</l>        <r>ot<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ôs</l>         <r>ot<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ués</l>        <r>ot<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>otes</l>       <r>ot<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -1120,19 +1132,6 @@ buscar els e. en el dic en word
 <pardef n="què__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
-
-<!--
-<pardef n="combien__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-</pardef>
-
-<pardef n="/lui-même__prn">
-  <e>       <p><l>lui-même</l>  <r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>elle-même</l> <r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>eux-mêmes</l> <r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>elles-mêmes</l><r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-</pardef>
--->
 
 <pardef n="/se__prn">
   <e r="LR"><p><l>se</l>          <r>se<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -1259,6 +1258,41 @@ buscar els e. en el dic en word
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 
+<pardef n="mè-mém/o__prn">
+  <e>       <p><l>o</l>          <r>o<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>          <r>o<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="tè-mém/o__prn">
+  <e>       <p><l>o</l>          <r>o<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>          <r>o<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="l/ui-mémo__prn">
+  <e>       <p><l>ui-mémo</l>          <r>ui-mémo<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>yé-méma</l>          <r>ui-mémo<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>i-mémo</l>          <r>ui-mémo<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>i-méma</l>          <r>ui-mémo<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="l/or-mémos__prn">
+  <e>       <p><l>or-mémos</l>          <r>or-mémos<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>or-mémes</l>          <r>or-mémos<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yor-mémos</l>          <r>or-mémos<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yor-mémes</l>          <r>or-mémos<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yés-mémes</l>          <r>or-mémos<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="nos-mém/os__prn">
+  <e>       <p><l>os</l>          <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>es</l>          <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="vos-mém/os__prn">
+  <e>       <p><l>os</l>          <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>es</l>          <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="cen__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
@@ -1280,11 +1314,6 @@ buscar els e. en el dic en word
   <e>       <p><l>t</l>         <r>t<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="aucun__prn">
-  <e>       <p><l>e</l>         <r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-
 <pardef n="un__prn">
   <e>       <p><l>e</l>         <r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1292,23 +1321,26 @@ buscar els e. en el dic en word
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="personne__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
-</pardef>
-
 <pardef n="tout_le_monde__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
-
-<pardef n="n'importe_qui__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
-</pardef>
-
-<pardef n="quelques_un/s__prn">
-  <e>       <p><l>s</l>         <r>s<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>es</l>        <r>s<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
-</pardef>
 -->
+
+<pardef n="nion__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="aucun__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="quârqu/'un__prn">
+  <e>       <p><l>'un</l>         <r>'un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>'una</l>        <r>'un<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>es-uns</l>         <r>'un<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>es-unes</l>        <r>'un<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
 
 <pardef n="/lo_min__prn">
   <e>       <p><l>lo<b/>min</l>         <r>lo<b/>min<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2130,8 +2162,10 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>alant</l>       <r>alar<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>alâ</l>         <r>alar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>alâs</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>alâ</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>alês</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>alâye</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>alâ</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>alâyes</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>alês</l>        <r>alar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>vé</l>         <r>alar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>véso</l>         <r>alar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2296,10 +2330,10 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>ent</l>       <r>ar<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>â</l>         <r>ar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>â</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>âye</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>âyes</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>â</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>âye</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>âyes</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ês</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2406,10 +2440,10 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>quent</l>       <r>car<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>câ</l>         <r>car<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>câs</l>        <r>car<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>câ</l>        <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>câye</l>       <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>câs</l>        <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>câyes</l>       <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>câ</l>        <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>câye</l>       <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>câs</l>        <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>câyes</l>       <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>quês</l>        <r>car<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>co</l>         <r>car<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2518,10 +2552,10 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>cent</l>       <r>çar<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>çâ</l>         <r>çar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>çâs</l>        <r>çar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>çâ</l>        <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>çâye</l>       <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>çâs</l>        <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>çâyes</l>       <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>çâ</l>        <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>çâye</l>       <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>çâs</l>        <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>çâyes</l>       <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>cês</l>        <r>çar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>ço</l>         <r>çar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2628,10 +2662,10 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>uent</l>       <r>ar<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>â</l>         <r>ar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>â</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>âye</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>âyes</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>â</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>âye</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>âyes</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>uês</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -5883,10 +5917,10 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>ent</l>       <r>ar<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>â</l>         <r>ar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>â</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>âye</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>âyes</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>â</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>âye</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>âyes</l>       <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ês</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>ens</l>       <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -6598,6 +6632,7 @@ buscar els e. en el dic en word
 <!-- PREDET -->
 
 <e lm="tot">           <i>t</i><par n="t/ot__predet"/></e>
+<e lm="très-tot">      <i>très-t</i><par n="t/ot__predet"/></e>
 
 <!-- DET -->
 
@@ -6606,9 +6641,12 @@ buscar els e. en el dic en word
 
 <e lm="un">              <par n="/un__det"/></e>
 
-<e lm="mon">             <i>m</i><par n="m/on__det"/></e>
-<e lm="ton">             <i>t</i><par n="m/on__det"/></e>
-<e lm="son">             <i>s</i><par n="m/on__det"/></e>
+<e r="LR" lm="mon">             <i>m</i><par n="m/on__det"/></e>
+<e r="LR" lm="ton">             <i>t</i><par n="m/on__det"/></e>
+<e r="LR" lm="son">             <i>s</i><par n="m/on__det"/></e>
+<e r="RL" lm="mon">      <p><l><a/>m</l>     <r>m</r></p><par n="m/on__det"/></e>
+<e r="RL" lm="son">      <p><l><a/>s</l>     <r>s</r></p><par n="m/on__det"/></e>
+<e r="RL" lm="ton">      <p><l><a/>t</l>     <r>t</r></p><par n="m/on__det"/></e>
 <e lm="noutron">         <i>nou</i><par n="t/th"/><i>r</i><par n="noutr/on__det"/></e>
 <e lm="voutron">         <i>vou</i><par n="t/th"/><i>r</i><par n="noutr/on__det"/></e>
 <e lm="lor">         <i>lor</i><par n="lor__det"/></e>
@@ -6629,6 +6667,12 @@ buscar els e. en el dic en word
 <e lm="gins de">         <i>gins<b/></i><par n="gint_/de__det"/></e>
 <e lm="gint de">         <i>gint<b/></i><par n="gint_/de__det"/></e>
 
+<e lm="châque">         <i>châque</i><par n="châque__det"/></e>
+<e lm="a châ">         <i>a<b/>châ</i><par n="châque__det"/></e>
+<e lm="châ">         <i>châ</i><par n="châque__det"/></e>
+<e lm="quârque">         <i>quârque</i><par n="quârque__det"/></e>
+<e lm="doux-três">       <p><l>doux-três</l>          <r>doux-três<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+
 <!-- PRN -->
 
 <e r="LR" lm="je">       <p><l>je</l>        <r>je</r></p><par n="je__prn"/></e>
@@ -6636,13 +6680,13 @@ buscar els e. en el dic en word
 <e r="RL" lm="je">       <p><l><a/>je</l>    <r>prpers</r></p><par n="je__prn"/></e>
 <e r="LR" lm="ye">       <p><l>ye</l>        <r>ye</r></p><par n="je__prn"/></e>
 <e r="RL" lm="ye">       <p><l><a/>ye</l>    <r>ye</r></p><par n="je__prn"/></e>
-<e r="LR" lm="jo">       <p><l>jo</l>        <r>je</r></p><par n="je__prn"/></e>
-<e r="LR" lm="yo">       <p><l>yo</l>        <r>ye</r></p><par n="je__prn"/></e>
+<e lm="jo">       <p><l>jo</l>        <r>jo</r></p><par n="je__prn"/></e>
+<e lm="yo">       <p><l>yo</l>        <r>yo</r></p><par n="je__prn"/></e>
 
 <e r="LR" lm="te">       <p><l>te</l>        <r>te</r></p><par n="te__prn"/></e>
 <e r="RL" lm="te">       <p><l><a/>te</l>    <r>te</r></p><par n="te__prn"/></e>
 <e r="RL" lm="te">       <p><l><a/>te</l>    <r>prpers</r></p><par n="te__prn"/></e>
-<e r="LR" lm="tu">       <p><l>tu</l>        <r>te</r></p><par n="te__prn"/></e>
+<e lm="tu">       <p><l>tu</l>        <r>tu</r></p><par n="te__prn"/></e>
 
 <e lm="il">              <par n="/il__prn"/></e>
 <e lm="o">               <i>o</i><par n="o__prn"/></e>
@@ -6650,26 +6694,33 @@ buscar els e. en el dic en word
 
 <e lm="nos">            <p><l>nos</l>      <r>nos</r></p><par n="nos__prn"/></e>
 <e r="RL" lm="nos">     <p><l>nos</l>      <r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+<e lm="nos-mémos">      <i>nos-mém</i><par n="nos-mém/os__prn"/></e>
 
 <e lm="vos">            <p><l>vos</l>      <r>vos</r></p><par n="vos__prn"/></e>
 <e r="RL" lm="vos">     <p><l>vos</l>      <r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+<e lm="vos-mémos">      <i>vos-mém</i><par n="vos-mém/os__prn"/></e>
 
 <e r="LR" lm="mè">       <p><l>mè</l>    <r>mè</r></p><par n="mè__prn_pro"/></e>
 <e r="RL" lm="mè">       <p><l><a/>mè</l>    <r>mè</r></p><par n="mè__prn_pro"/></e>
-<e lm="mè">       <p><l>mè</l>    <r>mè</r></p><par n="mè__prn_tn"/></e>
+<e lm="mè">       <p><l>mè</l>    <r>mè</r></p><par n="je__prn"/></e>
+<e lm="mè-mémo">         <i>mè-mém</i><par n="mè-mém/o__prn"/></e>
 
 <e r="LR" lm="tè">       <p><l>tè</l>    <r>tè</r></p><par n="tè__prn_pro"/></e>
 <e r="RL" lm="tè">       <p><l><a/>tè</l>    <r>tè</r></p><par n="tè__prn_pro"/></e>
-<e lm="tè">       <p><l>tè</l>    <r>tè</r></p><par n="tè__prn_tn"/></e>
+<e lm="tè">       <p><l>tè</l>    <r>tè</r></p><par n="te__prn"/></e>
+<e lm="tè-mémo">         <i>tè-mém</i><par n="tè-mém/o__prn"/></e>
 
 <e lm="lo">              <par n="/lo__prn"/></e>
 
 <e r="LR" lm="sè">       <p><l>sè</l>    <r>sè</r></p><par n="sè__prn_pro"/></e>
 <e r="RL" lm="sè">       <p><l><a/>sè</l>    <r>sè</r></p><par n="sè__prn_pro"/></e>
 <e lm="sè">       <p><l>sè</l>    <r>sè</r></p><par n="sè__prn_tn"/></e>
+<e lm="sè-mémo" c="'ne connaît que le masculin singulier' (Stich, 03.06.2020)">               <i>sè-mémo</i><par n="sè__prn_tn"/></e>
 
 <e lm="lui">              <i>l</i><par n="l/ui__prn"/></e>
 <e lm="lor">              <i>l</i><par n="l/or__prn"/></e>
+<e lm="lui-mémo"><i>l</i><par n="l/ui-mémo__prn"/></e>
+<e lm="lor-mémos"><i>l</i><par n="l/or-mémos__prn"/></e>
 
 <e lm="en">              <i>en</i><par n="en__prn"/></e>
 <e lm="y">              <i>y</i><par n="en__prn"/></e>
@@ -6690,6 +6741,17 @@ buscar els e. en el dic en word
 <e lm="o">           <i>o</i><par n="cen__prn"/></e>
 <e lm="ren">           <i>ren</i><par n="cen__prn"/></e>
 <e lm="quârque-ren">   <i>quârque-ren</i><par n="cen__prn"/></e>
+<e lm="sé-què">   <i>sé-què</i><par n="cen__prn"/></e>
+<e lm="quârque chousa">   <i>quârque<b/>chousa</i><par n="cen__prn"/></e>
+<e lm="quârqu'un">         <i>quârqu</i><par n="quârqu/'un__prn"/></e>
+<e lm="nion">   <i>nion</i><par n="nion__prn"/></e>
+<e lm="legun">   <i>legun</i><par n="nion__prn"/></e>
+<e lm="lengun">   <i>lengun</i><par n="nion__prn"/></e>
+<e lm="negun">   <i>negun</i><par n="nion__prn"/></e>
+<e lm="nengun">   <i>nengun</i><par n="nion__prn"/></e>
+<e lm="quiconque">   <i>quiconque</i><par n="nion__prn"/></e>
+<e lm="qui que sêt">   <i>qui<b/>que<b/>sêt</i><par n="nion__prn"/></e>
+<e lm="qui sè volye">   <i>qui<b/>sè<b/>volye</i><par n="nion__prn"/></e>
 
 <e lm="ceti">         <i>cet</i><par n="cet/i__prn"/></e>
 <e lm="quet">         <i>quet</i><par n="quet/__prn"/></e>
@@ -6790,6 +6852,12 @@ buscar els e. en el dic en word
 <e lm="donc">           <i>donc</i><par n="adonc__cnjadv"/></e>
 <e lm="vêr">           <i>vêr</i><par n="adonc__cnjadv"/></e>
 <e lm="devant que">           <i>devant<b/></i><par n="devant_/que__cnjadv"/></e>
+<e lm="cependent">          <i>cependent</i><par n="adonc__cnjadv"/></e>
+<e lm="tot-un">          <i>tot-un</i><par n="adonc__cnjadv"/></e>
+<e lm="pas-muens">          <i>pas-muens</i><par n="adonc__cnjadv"/></e>
+<e lm="quèque">          <i>quèque</i><par n="adonc__cnjadv"/></e>
+<e r="LR" lm="se">          <i>se</i><par n="adonc__cnjadv"/></e>
+<e r="RL" lm="se">       <p><l><a/>se</l><r>se</r></p><par n="adonc__cnjadv"/></e>
 
 <!-- REL -->
 
@@ -6872,6 +6940,7 @@ buscar els e. en el dic en word
 <e lm="vito">           <i>vito</i><par n="avant__adv"/></e>
 <e lm="ben">           <i>ben</i><par n="avant__adv"/></e>
 <e lm="bien">           <i>bien</i><par n="avant__adv"/></e>
+<e lm="mâl">          <i>mâl</i><par n="avant__adv"/></e>
 <e lm="oncor">           <i>oncor</i><par n="avant__adv"/></e>
 <e lm="defôr">           <i>defôr</i><par n="avant__adv"/></e>
 <e lm="en-un-mouél">           <i>en-un-mouél</i><par n="avant__adv"/></e>
@@ -7060,6 +7129,8 @@ buscar els e. en el dic en word
 <e lm="drêt-ora">          <i>drêt-ora</i><par n="avant__adv"/></e>
 <e lm="râva">          <i>râva</i><par n="avant__adv"/></e>
 <e lm="pou">          <i>pou</i><par n="avant__adv"/></e>
+<e lm="mielx">          <i>mielx</i><par n="avant__adv"/></e>
+<e lm="pir">          <i>pir</i><par n="avant__adv"/></e>
 <e lm="pletout">          <i>pletout</i><par n="avant__adv"/></e>
 <e lm="portant">          <i>portant</i><par n="avant__adv"/></e>
 <e lm="présque">          <i>présque</i><par n="avant__adv"/></e>
@@ -7435,7 +7506,8 @@ buscar els e. en el dic en word
 <e lm="arc">          <i>arc</i><par n="abricot__n"/></e>
 <e lm="arcanjo">          <i>arcanjo</i><par n="abricot__n"/></e>
 <e lm="archèt">          <i>archèt</i><par n="abricot__n"/></e>
-<e lm="archiduc">          <i>archiduc</i><par n="abricot__n"/></e>
+<e lm="archiduc">          <i>arch</i><par n="·"/><i>iduc</i><par n="abricot__n"/></e>
+<e lm="archives">          <i>arch</i><par n="·"/><i>ives</i><par n="vacances__n"/></e>
 <e lm="argument">          <i>argument</i><par n="abricot__n"/></e>
 <e lm="armisti">          <i>armisti</i><par n="abricot__n"/></e>
 <e lm="armouèro">          <i>armouèro</i><par n="abricot__n"/></e>
@@ -8304,7 +8376,6 @@ buscar els e. en el dic en word
 <e lm="angonia">          <i>angoni</i><par n="cultur/a__n"/></e>
 <e lm="agrafa">          <i>agraf</i><par n="cultur/a__n"/></e>
 <e lm="agricultura">          <i>agricultur</i><par n="cultur/a__n"/></e>
-<e lm="éda">          <i>éd</i><par n="cultur/a__n"/></e>
 <e lm="empâra">          <i>empâr</i><par n="cultur/a__n"/></e>
 <e lm="èpâra">          <i>èpâr</i><par n="cultur/a__n"/></e>
 <e lm="âla">          <i>âl</i><par n="cultur/a__n"/></e>
@@ -8346,8 +8417,8 @@ buscar els e. en el dic en word
 <e lm="empâra">          <i>empâr</i><par n="cultur/a__n"/></e>
 <e lm="arcâda">          <i>arcâd</i><par n="cultur/a__n"/></e>
 <e lm="arquèologia">          <i>arquèologi</i><par n="cultur/a__n"/></e>
-<e lm="archiduchèssa">          <i>archiduchèss</i><par n="cultur/a__n"/></e>
-<e lm="architèctura">          <i>architèctur</i><par n="cultur/a__n"/></e>
+<e lm="archiduchèssa">          <i>arch</i><par n="·"/><i>iduchèss</i><par n="cultur/a__n"/></e>
+<e lm="architèctura">          <i>arch</i><par n="·"/><i>itèctur</i><par n="cultur/a__n"/></e>
 <e lm="lôza">          <i>lôz</i><par n="cultur/a__n"/></e>
 <e lm="lèssa">          <i>lèss</i><par n="cultur/a__n"/></e>
 <e lm="arêna">          <i>arên</i><par n="cultur/a__n"/></e>
@@ -8763,6 +8834,7 @@ buscar els e. en el dic en word
 <e lm="dèscenta">          <i>dèscent</i><par n="cultur/a__n"/></e>
 <e lm="dètenta">          <i>dètent</i><par n="cultur/a__n"/></e>
 <e lm="dètrèssa">          <i>dètrèss</i><par n="cultur/a__n"/></e>
+<e lm="dèto">          <i>dèto</i><par n="abricot__n"/></e>
 <e lm="dèta">          <i>dèt</i><par n="cultur/a__n"/></e>
 <e lm="dèvala">          <i>dèval</i><par n="cultur/a__n"/></e>
 <e lm="devinerèssa">          <i>devinerèss</i><par n="cultur/a__n"/></e>
@@ -8815,8 +8887,6 @@ buscar els e. en el dic en word
 <e lm="adrèce">          <i>adrèce</i><par n="abayie__n"/></e>
 <e lm="aèrogâra">          <i>aèrogâr</i><par n="cultur/a__n"/></e>
 <e lm="aèrogâra">          <i>aèrogâr</i><par n="cultur/a__n"/></e>
-<e lm="afâre">          <i>afâre</i><par n="abayie__n"/></e>
-<e lm="afére">          <i>afére</i><par n="abayie__n"/></e>
 <e lm="afèccion">          <i>afèccion</i><par n="abayie__n"/></e>
 <e lm="afiche">          <i>afiche</i><par n="abayie__n"/></e>
 <e lm="aflliccion">          <i>aflliccion</i><par n="abayie__n"/></e>
@@ -8825,7 +8895,6 @@ buscar els e. en el dic en word
 <e lm="couète">          <i>couète</i><par n="abayie__n"/></e>
 <e lm="croche">          <i>croche</i><par n="abayie__n"/></e>
 <e lm="agrègacion">          <i>agrègacion</i><par n="abayie__n"/></e>
-<e lm="éde">          <i>éde</i><par n="abayie__n"/></e>
 <e lm="assistance">          <i>assistance</i><par n="abayie__n"/></e>
 <e lm="aglle">          <i>aglle</i><par n="abayie__n"/></e>
 <e lm="agouelye">          <i>agouelye</i><par n="abayie__n"/></e>
@@ -8842,7 +8911,7 @@ buscar els e. en el dic en word
 <e lm="ambulance">          <i>ambulance</i><par n="abayie__n"/></e>
 <e lm="empêsa">          <i>empês</i><par n="cultur/a__n"/></e>
 <e lm="anâye">          <i>anâye</i><par n="abayie__n"/></e>
-<e lm="anarchie">          <i>anarchie</i><par n="abayie__n"/></e>
+<e lm="anarchie">          <i>anarch</i><par n="·"/><i>ie</i><par n="abayie__n"/></e>
 <e lm="anèmie">          <i>anèmie</i><par n="abayie__n"/></e>
 <e lm="anâye">          <i>anâye</i><par n="abayie__n"/></e>
 <e lm="anèccion">          <i>anèccion</i><par n="abayie__n"/></e>
@@ -9302,7 +9371,11 @@ buscar els e. en el dic en word
 <e lm="dimension">          <i>dimension</i><par n="abayie__n"/></e>
 <e lm="diminucion">          <i>diminucion</i><par n="abayie__n"/></e>
 <e lm="dirèccion">          <i>dirèccion</i><par n="abayie__n"/></e>
+<e lm="nuet">          <i>nuet</i><par n="abayie__n"/></e>
+<e lm="nuet">          <i>nuet</i><par n="abricot__n"/></e>
+<e lm="sêr">          <i>sêr</i><par n="abricot__n"/></e>
 
+<e lm="édo">          <i>éd</i><par n="anarchist/o__n"/></e>
 <e lm="abkhazo">          <i>abkhaz</i><par n="anarchist/o__n"/></e>
 <e lm="absent">          <i>absent</i><par n="asian__n"/></e>
 <e lm="acaparor">          <i>acaparo</i><par n="admirato/r__n"/></e>
@@ -9316,7 +9389,6 @@ buscar els e. en el dic en word
 <e lm="sèrgent">          <i>sèrgent</i><par n="asian__n"/></e>
 <e lm="policiér">          <i>policiér</i><par n="bouchiér__n"/></e>
 <e lm="côgno">          <i>côgn</i><par n="borgn/o__n"/></e>
-<e lm="bèsso">          <i>bèss</i><par n="borgn/o__n"/></e>
 <e lm="bèsso">          <i>bèss</i><par n="borgn/o__adj"/></e>
 <e lm="premiér">          <i>premiér</i><par n="bouchiér__n"/></e>
 <e lm="albanês">          <i>albanês</i><par n="anglês__n"/></e>
@@ -9329,7 +9401,7 @@ buscar els e. en el dic en word
 <e lm="amène">          <i>amène</i><par n="abricot__n"/></e>
 <e lm="amèriquen">          <i>amèriqu</i><par n="afriqu/en__n"/></e>
 <e lm="amplifior">          <i>amplifio</i><par n="admirato/r__n"/></e>
-<e lm="anarchisto">          <i>anarchist</i><par n="anarchist/o__n"/></e>
+<e lm="anarchisto">          <i>anarch</i><par n="·"/><i>ist</i><par n="anarchist/o__n"/></e>
 <e lm="ancian">          <i>ancian</i><par n="asian__n"/></e>
 <e lm="ancien">          <i>anci</i><par n="afriqu/en__n"/></e>
 <e lm="andorran">          <i>andorran</i><par n="asian__n"/></e>
@@ -9349,8 +9421,8 @@ buscar els e. en el dic en word
 <e lm="raye">          <i>raye</i><par n="abayie__n"/></e>
 <e lm="arcange">          <i>arcange</i><par n="abricot__n"/></e>
 <e lm="archiér">          <i>archiér</i><par n="bouchiér__n"/></e>
-<e lm="archevèque">          <i>archevèque</i><par n="abricot__n"/></e>
-<e lm="architècte">          <i>architècte</i><par n="enfant__n"/></e>
+<e lm="archevèque">          <i>arch</i><par n="·"/><i>evèque</i><par n="abricot__n"/></e>
+<e lm="architècte">          <i>arch</i><par n="·"/><i>itècte</i><par n="enfant__n"/></e>
 <e lm="aristocrato">          <i>aristocrat</i><par n="anarchist/o__n"/></e>
 <e lm="armènien">          <i>armèni</i><par n="afriqu/en__n"/></e>
 <e lm="armuriér">          <i>armuriér</i><par n="bouchiér__n"/></e>
@@ -9750,10 +9822,16 @@ buscar els e. en el dic en word
 <e lm="zambien">          <i>zambi</i><par n="afriqu/en__n"/></e>
 <e lm="zimbabouès">          <i>zimbabouès</i><par n="anglês__n"/></e>
 
-<e lm="par">          <i>par</i><par n="par__n"/></e>
-<e lm="pàr">          <i>pàr</i><par n="par__n"/></e>
-<e lm="pâr">          <i>pâr</i><par n="par__n"/></e>
-<e lm="calyê">          <i>calyê</i><par n="par__n"/></e>
+<e lm="afâre">          <i>afâre</i><par n="afâre__n"/></e>
+<e lm="afére">          <i>afére</i><par n="afâre__n"/></e>
+<e lm="corvâ">          <i>corvâ</i><par n="afâre__n"/></e>
+<e lm="danrê">          <i>danrê</i><par n="afâre__n"/></e>
+<e lm="éde">          <i>éde</i><par n="afâre__n"/></e>
+<e lm="mençonge">          <i>mençonge</i><par n="afâre__n"/></e>
+<e lm="par">          <i>par</i><par n="afâre__n"/></e>
+<e lm="pàr">          <i>pàr</i><par n="afâre__n"/></e>
+<e lm="pâr">          <i>pâr</i><par n="afâre__n"/></e>
+<e lm="calyê">          <i>calyê</i><par n="afâre__n"/></e>
 <e lm="pêche">          <i>pêche</i><par n="abayie__n"/></e>
 <e lm="pêrche">          <i>pêrche</i><par n="abayie__n"/></e>
 
@@ -9864,7 +9942,12 @@ buscar els e. en el dic en word
 <e lm="môrt">           <i>môrt</i><par n="asian__adj"/></e>
 <e lm="muert">           <i>muert</i><par n="asian__adj"/></e>
 <e lm="fôl">           <i>fôl</i><par n="asian__adj"/></e>
-<e lm="biô">          <i>b</i><par n="b/iô__adj"/></e>
+<e r="LR" lm="biô">          <i>b</i><par n="b/iô__adj"/></e>
+<e r="RL" lm="biô">  <p><l><a/>b</l> <r>b</r></p><par n="b/iô__adj"/></e>
+<e r="LR" lm="nôvo">          <i>nô</i><par n="nô/vo__adj"/></e>
+<e r="RL" lm="nôvo">  <p><l><a/>nô</l> <r>nô</r></p><par n="nô/vo__adj"/></e>
+<e r="LR" lm="nuevo">          <i>nue</i><par n="nô/vo__adj"/></e>
+<e r="RL" lm="nuevo">  <p><l><a/>nue</l> <r>nue</r></p><par n="nô/vo__adj"/></e>
 <e lm="novél">          <i>nov</i><par n="nov/él__adj"/></e>
 <e lm="bartavél">          <i>bartav</i><par n="nov/él__adj"/></e>
 <e lm="comon">          <i>com</i><par n="com/on__adj"/></e>
@@ -9891,6 +9974,7 @@ buscar els e. en el dic en word
 <e lm="premiér">          <i>premiér</i><par n="premiér__adj"/></e>
 <e lm="Iiér">          <i>Iiér</i><par n="premiér__adj"/></e>
 <e lm="gentily">          <i>gentily</i><par n="premiér__adj"/></e>
+<e lm="long">          <i>long</i><par n="premiér__adj"/></e>
 
 <e lm="entiér">          <i>entiér</i><par n="entiér__adj"/></e>
 <e lm="frêd">          <i>frêd</i><par n="entiér__adj"/></e>
@@ -10250,7 +10334,7 @@ buscar els e. en el dic en word
 <e lm="vendâblo">          <i>vendâbl</i><par n="anarchist/o__adj"/></e>
 <e lm="vènèrâblo">          <i>vènèrâbl</i><par n="anarchist/o__adj"/></e>
 <e lm="veretâblo">          <i>veretâbl</i><par n="anarchist/o__adj"/></e>
-<e lm="anarchisto">          <i>anarchist</i><par n="anarchist/o__adj"/></e>
+<e lm="anarchisto">          <i>anarch</i><par n="·"/><i>ist</i><par n="anarchist/o__adj"/></e>
 <e lm="artisto">          <i>artist</i><par n="anarchist/o__adj"/></e>
 <e lm="ôtonomisto">          <i>ôtonomist</i><par n="anarchist/o__adj"/></e>
 <e lm="avant-gardisto">          <i>avant-gardist</i><par n="anarchist/o__adj"/></e>
@@ -13508,6 +13592,7 @@ pegner, je pègno !
 <e r="LR" lm="voutr'"><p><l>voutr'</l><r>voutron<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="qu'"><p><l>qu'</l><r>que<s n="cnjsub"/></r></p></e>
 <e r="LR" lm="devant qu'"><p><l>devant<b/>qu'</l><r>devant<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="s'"><p><l>s'</l><r>se<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="qu'"><p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" lm="lorsqu'"><p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="yô qu'"><p><l>yô<b/>qu'</l><r>yô<b/>que<s n="adv"/><s n="itg"/></r></p></e>
