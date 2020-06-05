@@ -203,7 +203,7 @@
       <e><i>Yuste</i></e>
       <e><i>Yustine</i></e>
       <e><i>Yuvia</i></e>
-</pardef>
+    </pardef>
 
     <pardef n="vocals">
       <e><i>a</i></e>
@@ -400,6 +400,10 @@
       <e><p><l><a/>lo<b/><a/>nôvo<b/></l><r>lo<b/>nôf<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>nuevo<b/></l><r>nuef<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>lo<b/><a/>nuevo<b/></l><r>lo<b/>nuef<b/></r></p><par n="vocals"/></e>
+
+      <e><p><l><a/>-il</l><r>-t-il</r></p></e>
+      <e><p><l><a/>-<a/>el</l><r>-t-el</r></p></e>
+      <e><p><l><a/>-on</l><r>-t-on</r></p></e>
   </section>
 
 </dictionary>

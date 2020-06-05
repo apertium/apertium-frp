@@ -1136,6 +1136,7 @@ buscar els e. en el dic en word
 <pardef n="/il__prn">
   <e>       <p><l>il</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>'l</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>	<!-- FIXME: espace --> <!-- Stich conseille ne pas l'utiliser, bien qu'il l'accepte -->
+  <e r="LR"><p><l>t-il</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ils</l>       <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>el</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l><a/>el</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1144,7 +1145,9 @@ buscar els e. en el dic en word
   <e r="LR"><p><l>lyé</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>le</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>'l</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>	<!-- FIXME: espace --> <!-- Stich conseille ne pas l'utiliser, bien qu'il l'accepte -->
-  <e r="LR"><p><l>el</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>t-el</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>t-ele</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>t-ela</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>els</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>eles</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>lyés</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
@@ -2351,7 +2354,8 @@ buscar els e. en el dic en word
 
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ens</l>       <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ons</l>       <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>âd</l>        <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -2805,7 +2809,8 @@ buscar els e. en el dic en word
 
   <e>       <p><l>o</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>iér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ens</l>       <r>iér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ons</l>       <r>iér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>iéd</l>       <r>iér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -3126,7 +3131,8 @@ buscar els e. en el dic en word
 
   <e>       <p><l>o</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ens</l>       <r>ér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ons</l>       <r>ér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>éd</l>       <r>ér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -3884,7 +3890,8 @@ buscar els e. en el dic en word
 
   <e>       <p><l>o</l>         <r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ens</l>       <r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ons</l>       <r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>éd</l>        <r>ir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -5959,7 +5966,8 @@ buscar els e. en el dic en word
 <pardef n="âm/o__vblex">
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ont</l>       <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6077,7 +6085,8 @@ buscar els e. en el dic en word
 <pardef n="aprôch/o__vblex">
   <e>       <p><l>o</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>iér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ont</l>       <r>iér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>iér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6415,7 +6424,8 @@ buscar els e. en el dic en word
 <pardef n="préy/o__vblex">
   <e>       <p><l>o</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>e</l>         <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>e<a/></l>     <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ont</l>       <r>ér<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ér<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
