@@ -372,13 +372,25 @@ buscar els e. en el dic en word
   <e>       <p><l>es</l>         <r>e<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="anglês__adj">
+<pardef n="borjouès__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>a</l>         <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l>a</l>         <r><s n="adj"/><s n="f"/><s n="sp"/></r></p></e> 
+</pardef>
+
+<pardef n="angll/ês__adj">
+  <e>       <p><l>ês</l>          <r>ês<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
+  <e>       <p><l>êsa</l>         <r>ês<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>êses</l>        <r>ês<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ês</l>          <r>ês<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ês</l>          <r>ês<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>êsa</l>         <r>ês<s n="adj"/><s n="f"/><s n="sp"/></r></p></e> 
+  <e r="LR"><p><l>ès</l>          <r>ês<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>èsa</l>         <r>ês<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>èses</l>        <r>ês<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="demês__adj">
@@ -437,7 +449,17 @@ buscar els e. en el dic en word
   <e>       <p><l>âs</l>         <r>â<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>âs</l>         <r>â<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>âyes</l>         <r>â<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>êss</l>         <r>â<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ês</l>         <r>â<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="compli/câ__adj">
+  <e>       <p><l>câ</l>          <r>câ<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>câ</l>          <r>câ<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>câye</l>          <r>câ<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>câs</l>         <r>câ<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>câs</l>         <r>câ<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>câyes</l>         <r>câ<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>quês</l>         <r>câ<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="achichi/ê__adj" c="-êe préféré (Stich, 01.06.2020)">
@@ -659,7 +681,7 @@ buscar els e. en el dic en word
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="brâvament_des__det">
+<pardef n="ben_des__det">
   <e>       <p><l></l>        <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 
@@ -939,13 +961,25 @@ buscar els e. en el dic en word
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="anglês__n">
+<pardef n="borjouès__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>a</l>         <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l>a</l>         <r><s n="n"/><s n="f"/><s n="sp"/></r></p></e> 
+</pardef>
+
+<pardef n="angll/ês__n">
+  <e>       <p><l>ês</l>          <r>ês<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+  <e>       <p><l>êsa</l>         <r>ês<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>êses</l>        <r>ês<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ês</l>          <r>ês<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ês</l>          <r>ês<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>êsa</l>         <r>ês<s n="n"/><s n="f"/><s n="sp"/></r></p></e> 
+  <e r="LR"><p><l>ès</l>          <r>ês<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>èsa</l>         <r>ês<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>èses</l>        <r>ês<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="friborgês__n">
@@ -971,11 +1005,11 @@ buscar els e. en el dic en word
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="soif__n">
+<pardef n="sêf__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="abords__n">
+<pardef n="alentôrns__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -1072,7 +1106,7 @@ buscar els e. en el dic en word
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="Allemagnes__np">
+<pardef n="Alemagnes__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -6895,6 +6929,11 @@ buscar els e. en el dic en word
   <e>       <i>e<prm/></i><par n="prey/ér__vblex"/></e>
 </pardef>
 
+<pardef n="dèl/e[Y]ér__vblex" c="modèle 1ère conjugaison Bèy">
+  <e>       <p><l>è</l>         <r>e</r></p><i><prm/></i><par n="préy/o__vblex"/></e>
+  <e>       <i>e<prm/></i><par n="prey/ér__vblex"/></e>
+</pardef>
+
 <pardef n="c/o[GN]ér__vblex" c="modèle 1ère conjugaison Bôy">
   <e>       <p><l>ô</l>         <r>o</r></p><i><prm/></i><par n="préy/o__vblex"/></e>
   <e>       <i>o<prm/></i><par n="prey/ér__vblex"/></e>
@@ -6916,6 +6955,11 @@ buscar els e. en el dic en word
 <pardef n="t/th">
   <e>       <p><l>t</l>         <r>t</r></p></e>
   <e r="LR"><p><l>th</l>         <r>t</r></p></e>
+</pardef>
+
+<pardef n="ll/l">
+  <e>       <p><l>ll</l>         <r>ll</r></p></e>
+  <e r="LR"><p><l>l</l>         <r>ll</r></p></e>
 </pardef>
   </pardefs>
 
@@ -6954,7 +6998,8 @@ buscar els e. en el dic en word
 <e lm="quél">         <i>qu</i><par n="qu/él__det"/></e>
 <e lm="iquél">         <i>iqu</i><par n="qu/él__det"/></e>
 
-<e lm="brâvament des">         <i>brâvament<b/>des</i><par n="brâvament_des__det"/></e>
+<e lm="ben des">         <i>ben<b/>des</i><par n="ben_des__det"/></e>
+<e lm="brâvament des">         <i>brâvament<b/>des</i><par n="ben_des__det"/></e>
 <e lm="tot plen de">         <i>tot<b/>plen<b/></i><par n="gint_/de__det"/></e>
 <e lm="gins de">         <i>gins<b/></i><par n="gint_/de__det"/></e>
 <e lm="gint de">         <i>gint<b/></i><par n="gint_/de__det"/></e>
@@ -7141,6 +7186,7 @@ buscar els e. en el dic en word
 <e lm="a travèrs">           <i>a<b/>travèrs</i><par n="contre__pr"/></e>
 <e lm="dèrniér">          <i>dèrniér</i><par n="contre__pr"/></e>
 <e lm="depués">          <i>depués</i><par n="contre__pr"/></e>
+<e lm="dempués">          <i>dempués</i><par n="contre__pr"/></e>
 <e lm="vis-a-vis">          <i>vis-a-vis</i><par n="contre__pr"/></e>
 <e lm="hormis">          <i>hormis</i><par n="contre__pr"/></e>
 <e lm="outre">          <i>outre</i><par n="contre__pr"/></e>
@@ -7219,6 +7265,8 @@ buscar els e. en el dic en word
 <e lm="quand ben">           <i>quand<b/>ben</i><par n="adonc__cnjadv"/></e>
 <e lm="ben que">           <i>ben<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="dês que">          <i>dês<b/></i><par n="devant_/que__cnjadv"/></e>
+<e lm="depués que">          <i>depués<b/></i><par n="devant_/que__cnjadv"/></e>
+<e r="LR" lm="dempués que">          <i>dempués<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="drêt que">          <i>drêt<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="perce que">          <i>perce<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="porce que">          <i>porce<b/></i><par n="devant_/que__cnjadv"/></e>
@@ -7628,9 +7676,7 @@ buscar els e. en el dic en word
 <e lm="decé">          <i>decé</i><par n="avant__adv"/></e>
 <e lm="dejâ">          <i>dejâ</i><par n="avant__adv"/></e>
 <e lm="ja">          <i>ja</i><par n="avant__adv"/></e>
-<e lm="dês">          <i>dês</i><par n="avant__adv"/></e>
-<e lm="depués">          <i>depués</i><par n="avant__adv"/></e>
-<e lm="dempués">          <i>dempués</i><par n="avant__adv"/></e>
+<e lm="dês adonc">          <i>dês<b/>adonc</i><par n="avant__adv"/></e>
 <e lm="orendrêt">          <i>orendrêt</i><par n="avant__adv"/></e>
 <e lm="per-dessus">          <i>per-dessus</i><par n="avant__adv"/></e>
 <e lm="enfin">          <i>enfin</i><par n="avant__adv"/></e>
@@ -7861,6 +7907,10 @@ buscar els e. en el dic en word
 
 <e lm="abricot">           <i>abricot</i><par n="abricot__n"/></e>
 <e lm="cort">           <i>cort</i><par n="abricot__n"/></e>
+<e lm="ensemblo">           <i>ensemblo</i><par n="abricot__n"/></e>
+<e lm="complèxo">           <i>complèxo</i><par n="abricot__n"/></e>
+<e lm="centro">           <i>centro</i><par n="abricot__n"/></e>
+<e lm="çantre">           <i>çantre</i><par n="abricot__n"/></e>
 <e lm="homo">           <i>homo</i><par n="abricot__n"/></e>
 <e lm="home">           <i>home</i><par n="abricot__n"/></e>
 <e lm="jorn">           <i>jorn</i><par n="abricot__n"/></e>
@@ -7918,9 +7968,11 @@ buscar els e. en el dic en word
 <e lm="paréthro">           <i>paréthro</i><par n="abricot__n"/></e>
 <e lm="biôe">           <i>biôe</i><par n="abricot__n"/></e>
 
-<e lm="gent">           <i>gent</i><par n="soif__n"/></e>
-<e lm="gens">           <i>gens</i><par n="abords__n"/></e>
-<e lm="dèbris">           <i>dèbris</i><par n="abords__n"/></e>
+<e lm="sêf">           <i>sêf</i><par n="sêf__n"/></e>
+<e lm="gent">           <i>gent</i><par n="sêf__n"/></e>
+<e lm="gens">           <i>gens</i><par n="alentôrns__n"/></e>
+<e lm="dèbris">           <i>dèbris</i><par n="alentôrns__n"/></e>
+<e lm="alentôrns">           <i>alentôrns</i><par n="alentôrns__n"/></e>
 
 <e lm="biô-pâre">           <i>biô</i><par n="biô/-pâre__n"/></e>
 <e lm="biô-fily">           <i>biô</i><par n="biô/-fily"/></e>
@@ -7930,14 +7982,14 @@ buscar els e. en el dic en word
 <e lm="bèla-felye">           <i>bèl</i><par n="bèl/a-felye__n"/></e>
 <e lm="bèla-suèra">          <i>bèl</i><par n="bèl/a-suèra__n"/></e>
 <e lm="bèla-seror">           <i>bèl</i><par n="bèl/a-seror__n"/></e>
-<e lm="biôs-parents">           <i>biôs-parents</i><par n="abords__n"/></e>
+<e lm="biôs-parents">           <i>biôs-parents</i><par n="alentôrns__n"/></e>
 
 <e lm="petit-fily">           <i>petit</i><par n="biô/-fily"/></e>
 <e lm="petit-fely">           <i>petit</i><par n="biô/-fely"/></e>
 <e lm="petit-garçon">           <i>petit</i><par n="petit/-garçon"/></e>
 <e lm="petita-filye">           <i>petit</i><par n="bèl/a-filye__n"/></e>
 <e lm="petita-felye">           <i>petit</i><par n="bèl/a-felye__n"/></e>
-<e lm="petits-enfants">           <i>petits-enfants</i><par n="abords__n"/></e>
+<e lm="petits-enfants">           <i>petits-enfants</i><par n="alentôrns__n"/></e>
 
 <e lm="payis">           <i>payis</i><par n="mês__n"/></e>
 <e lm="fils">           <i>fils</i><par n="mês__n"/></e>
@@ -8024,10 +8076,10 @@ buscar els e. en el dic en word
 <e lm="megnât">           <i>megnât</i><par n="asian__n"/></e>
 <e lm="menât">           <i>menât</i><par n="asian__n"/></e>
 
-<e lm="anglês">           <i>anglês</i><par n="anglês__n"/></e>
-<e lm="anglês">           <i>anglês</i><par n="anglês__adj"/></e>
-<e lm="francês">           <i>francês</i><par n="anglês__n"/></e>
-<e lm="francês">           <i>francês</i><par n="anglês__adj"/></e>
+<e lm="angllês">           <i>ang</i><par n="ll/l"/><i></i><par n="angll/ês__n"/></e>
+<e lm="angllês">           <i>ang</i><par n="ll/l"/><i></i><par n="angll/ês__adj"/></e>
+<e lm="francês">           <i>franc</i><par n="angll/ês__n"/></e>
+<e lm="francês">           <i>franc</i><par n="angll/ês__adj"/></e>
 <e lm="Françouès">           <i>Françouès</i><par n="ami__n"/></e>
 <e lm="espagnol">           <i>espagnol</i><par n="asian__n"/></e>
 <e lm="espagnol">           <i>espagnol</i><par n="asian__adj"/></e>
@@ -10058,7 +10110,7 @@ buscar els e. en el dic en word
 <e lm="côgno">          <i>côgn</i><par n="borgn/o__n"/></e>
 <e lm="bèsso">          <i>bèss</i><par n="borgn/o__adj"/></e>
 <e lm="premiér">          <i>premiér</i><par n="bouchiér__n"/></e>
-<e lm="albanês">          <i>albanês</i><par n="anglês__n"/></e>
+<e lm="albanês">          <i>alban</i><par n="angll/ês__n"/></e>
 <e lm="tuche">          <i>tuche</i><par n="enfant__n"/></e>
 <e lm="mejalye">          <i>mejalye</i><par n="abayie__n"/></e>
 <e lm="menjalye">          <i>menjalye</i><par n="abayie__n"/></e>
@@ -10074,9 +10126,9 @@ buscar els e. en el dic en word
 <e lm="âno">          <i>ân</i><par n="anarchist/o__n"/></e>
 <e lm="anèmico">          <i>anèmi</i><par n="asiati/co__n"/></e>
 <e lm="ange">          <i>ange</i><par n="abricot__n"/></e>
-<e lm="angolês">          <i>angolês</i><par n="anglês__n"/></e>
+<e lm="angolês">          <i>angol</i><par n="angll/ês__n"/></e>
 <e lm="anonimo">          <i>anonim</i><par n="anarchist/o__n"/></e>
-<e lm="antiguês">          <i>antiguês</i><par n="anglês__n"/></e>
+<e lm="antiguês">          <i>antigu</i><par n="angll/ês__n"/></e>
 <e lm="ganache">          <i>ganache</i><par n="abricot__n"/></e>
 <e lm="farmacien">          <i>farmaci</i><par n="afriqu/en__n"/></e>
 <e lm="éche">          <i>éche</i><par n="abricot__n"/></e>
@@ -10148,7 +10200,7 @@ buscar els e. en el dic en word
 <e lm="concurrent">          <i>concurrent</i><par n="asian__n"/></e>
 <e lm="conductor">          <i>conducto</i><par n="admirato/r__n"/></e>
 <e lm="confrére">          <i>confrére</i><par n="abricot__n"/></e>
-<e lm="congolês">          <i>congolês</i><par n="anglês__n"/></e>
+<e lm="congolês">          <i>congol</i><par n="angll/ês__n"/></e>
 <e lm="cognessor">          <i>cognesso</i><par n="admirato/r__n"/></e>
 <e lm="conscrit">          <i>conscrit</i><par n="asian__n"/></e>
 <e lm="conseliér">          <i>conseliér</i><par n="bouchiér__n"/></e>
@@ -10262,7 +10314,7 @@ buscar els e. en el dic en word
 <e lm="domèstico">          <i>domèsti</i><par n="asiati/co__n"/></e>
 <e lm="vâlèt">          <i>vâlèt</i><par n="asian__n"/></e>
 <e lm="dominacion">          <i>dominacion</i><par n="abayie__n"/></e>
-<e lm="dominiquês">          <i>dominiquês</i><par n="anglês__n"/></e>
+<e lm="dominiquês">          <i>dominiqu</i><par n="angll/ês__n"/></e>
 <e lm="pèrta">          <i>pèrt</i><par n="cultur/a__n"/></e>
 <e lm="pèrda">          <i>pèrd</i><par n="cultur/a__n"/></e>
 <e lm="donator">          <i>donato</i><par n="admirato/r__n"/></e>
@@ -10366,39 +10418,39 @@ buscar els e. en el dic en word
 <e lm="èmocion">          <i>èmocion</i><par n="abayie__n"/></e>
 <e lm="empana">          <i>empan</i><par n="cultur/a__n"/></e>
 
-<e lm="bèninouès">          <i>bèninouès</i><par n="anglês__n"/></e>
-<e lm="chinouès">          <i>chinouès</i><par n="anglês__n"/></e>
-<e lm="danouès">          <i>danouès</i><par n="anglês__n"/></e>
+<e lm="bèninouès">          <i>bèninouès</i><par n="borjouès__n"/></e>
+<e lm="chinouès">          <i>chinouès</i><par n="borjouès__n"/></e>
+<e lm="danouès">          <i>danouès</i><par n="borjouès__n"/></e>
 <e lm="èquatorien">          <i>èquatori</i><par n="afriqu/en__n"/></e>
 <e lm="èritrèen">          <i>èritrè</i><par n="afriqu/en__n"/></e>
 <e lm="èstonien">          <i>èstoni</i><par n="afriqu/en__n"/></e>
 <e lm="ètiopien">          <i>ètiopi</i><par n="afriqu/en__n"/></e>
 <e lm="fidjien">          <i>fidji</i><par n="afriqu/en__n"/></e>
-<e lm="finlandês">          <i>finlandês</i><par n="anglês__n"/></e>
-<e lm="gabonês">          <i>gabonês</i><par n="anglês__n"/></e>
+<e lm="finlandês">          <i>finland</i><par n="angll/ês__n"/></e>
+<e lm="gabonês">          <i>gabon</i><par n="angll/ês__n"/></e>
 <e lm="gambien">          <i>gambi</i><par n="afriqu/en__n"/></e>
 <e lm="georgien">          <i>g</i><par n="·"/><i>eorgi</i><par n="afriqu/en__n"/></e>
 <e lm="ghanèen">          <i>ghanè</i><par n="afriqu/en__n"/></e>
-<e lm="groenlandês">          <i>groenlandês</i><par n="anglês__n"/></e>
+<e lm="groenlandês">          <i>groenland</i><par n="angll/ês__n"/></e>
 <e lm="goadeloupèen">          <i>goadeloupè</i><par n="afriqu/en__n"/></e>
 <e lm="goatèmaltèco">          <i>goatèmaltè</i><par n="asiati/co__n"/></e>
 <e lm="guinèen">          <i>guinè</i><par n="afriqu/en__n"/></e>
-<e lm="guiyanês">          <i>guiyanês</i><par n="anglês__n"/></e>
+<e lm="guiyanês">          <i>guiyan</i><par n="angll/ês__n"/></e>
 <e lm="habitant">          <i>habitant</i><par n="asian__n"/></e>
 <e lm="habitent">          <i>habitent</i><par n="asian__n"/></e>
 <e lm="hayicien">          <i>hayici</i><par n="afriqu/en__n"/></e>
 <e lm="hawayen">          <i>haway</i><par n="afriqu/en__n"/></e>
 <e lm="hondurien">          <i>honduri</i><par n="afriqu/en__n"/></e>
-<e lm="hongrouès">          <i>hongrouès</i><par n="anglês__n"/></e>
+<e lm="hongrouès">          <i>hongrouès</i><par n="borjouès__n"/></e>
 <e lm="indien">          <i>indi</i><par n="afriqu/en__n"/></e>
 <e lm="indonèsien">          <i>indonèsi</i><par n="afriqu/en__n"/></e>
 <e lm="iraquien">          <i>iraqui</i><par n="afriqu/en__n"/></e>
 <e lm="iranien">          <i>irani</i><par n="afriqu/en__n"/></e>
-<e lm="irlandês">          <i>irlandês</i><par n="anglês__n"/></e>
-<e lm="islandês">          <i>islandês</i><par n="anglês__n"/></e>
+<e lm="irlandês">          <i>irland</i><par n="angll/ês__n"/></e>
+<e lm="islandês">          <i>island</i><par n="angll/ês__n"/></e>
 <e lm="israèlien">          <i>israèli</i><par n="afriqu/en__n"/></e>
 <e lm="jamayiquen">          <i>jamayiqu</i><par n="afriqu/en__n"/></e>
-<e lm="japonês">          <i>japonês</i><par n="anglês__n"/></e>
+<e lm="japonês">          <i>japon</i><par n="angll/ês__n"/></e>
 <e lm="jordanien">          <i>jordani</i><par n="afriqu/en__n"/></e>
 <e lm="kenyan">          <i>kenyan</i><par n="asian__n"/></e>
 <e lm="kiribatien">          <i>kiribati</i><par n="afriqu/en__n"/></e>
@@ -10409,82 +10461,82 @@ buscar els e. en el dic en word
 <e lm="libèrien">          <i>libèri</i><par n="afriqu/en__n"/></e>
 <e lm="libien">          <i>libi</i><par n="afriqu/en__n"/></e>
 <e lm="lituanien">          <i>lituani</i><par n="afriqu/en__n"/></e>
-<e lm="luxemborjouès">          <i>luxemborjouès</i><par n="anglês__n"/></e>
+<e lm="luxemborjouès">          <i>luxemborjouès</i><par n="borjouès__n"/></e>
 <e lm="macèdonien">          <i>macèdoni</i><par n="afriqu/en__n"/></e>
-<e lm="malês">          <i>malês</i><par n="anglês__n"/></e>
+<e lm="malês">          <i>mal</i><par n="angll/ês__n"/></e>
 <e lm="malaouito">          <i>malaouit</i><par n="anarchist/o__n"/></e>
 <e lm="maldivien">          <i>maldivi</i><par n="afriqu/en__n"/></e>
 <e lm="malien">          <i>mali</i><par n="afriqu/en__n"/></e>
-<e lm="maltês">          <i>maltês</i><par n="anglês__n"/></e>
+<e lm="maltês">          <i>malt</i><par n="angll/ês__n"/></e>
 <e lm="maroquen">          <i>maroqu</i><par n="afriqu/en__n"/></e>
-<e lm="martiniquês">          <i>martiniquês</i><par n="anglês__n"/></e>
+<e lm="martiniquês">          <i>martiniqu</i><par n="angll/ês__n"/></e>
 <e lm="môricien">          <i>môrici</i><par n="afriqu/en__n"/></e>
 <e lm="môritanien">          <i>môritani</i><par n="afriqu/en__n"/></e>
 <e lm="mèxiquen">          <i>mèxiqu</i><par n="afriqu/en__n"/></e>
 <e lm="micronèsien">          <i>micronèsi</i><par n="afriqu/en__n"/></e>
 <e lm="moldavo">          <i>moldav</i><par n="anarchist/o__n"/></e>
 <e lm="monègasco">          <i>monègas</i><par n="asiati/co__n"/></e>
-<e lm="mozambiquês">          <i>mozambiquês</i><par n="anglês__n"/></e>
+<e lm="mozambiquês">          <i>mozambiqu</i><par n="angll/ês__n"/></e>
 <e lm="namibien">          <i>namibi</i><par n="afriqu/en__n"/></e>
-<e lm="nèpalês">          <i>nèpalês</i><par n="anglês__n"/></e>
+<e lm="nèpalês">          <i>nèpal</i><par n="angll/ês__n"/></e>
 <e lm="nicaragoayen">          <i>nicaragoay</i><par n="afriqu/en__n"/></e>
 <e lm="nigèrien">          <i>nigèri</i><par n="afriqu/en__n"/></e>
 <e lm="nigèrian">          <i>nigèrian</i><par n="asian__n"/></e>
 <e lm="norvègien">          <i>norvègi</i><par n="afriqu/en__n"/></e>
 <e lm="nèo-calèdonien">          <i>nèo-calèdoni</i><par n="afriqu/en__n"/></e>
-<e lm="nèo-zèlandês">          <i>nèo-zèlandês</i><par n="anglês__n"/></e>
-<e lm="omanês">          <i>omanês</i><par n="anglês__n"/></e>
+<e lm="nèo-zèlandês">          <i>nèo-zèland</i><par n="angll/ês__n"/></e>
+<e lm="omanês">          <i>oman</i><par n="angll/ês__n"/></e>
 <e lm="ossèto">          <i>ossèt</i><par n="anarchist/o__n"/></e>
-<e lm="ougandês">          <i>ougandês</i><par n="anglês__n"/></e>
-<e lm="pakistanês">          <i>pakistanês</i><par n="anglês__n"/></e>
+<e lm="ougandês">          <i>ougand</i><par n="angll/ês__n"/></e>
+<e lm="pakistanês">          <i>pakistan</i><par n="angll/ês__n"/></e>
 <e lm="palèstinien">          <i>palèstini</i><par n="afriqu/en__n"/></e>
 <e lm="panamèen">          <i>panamè</i><par n="afriqu/en__n"/></e>
 <e lm="papou">          <i>papou</i><par n="asian__n"/></e>
 <e lm="paragoayen">          <i>paragoay</i><par n="afriqu/en__n"/></e>
-<e lm="holandês">          <i>holandês</i><par n="anglês__n"/></e>
+<e lm="holandês">          <i>holand</i><par n="angll/ês__n"/></e>
 <e lm="pèruvien">          <i>pèruvi</i><par n="afriqu/en__n"/></e>
-<e lm="polonês">          <i>polonês</i><par n="anglês__n"/></e>
+<e lm="polonês">          <i>polon</i><par n="angll/ês__n"/></e>
 <e lm="polinèsien">          <i>polinèsi</i><par n="afriqu/en__n"/></e>
-<e lm="português">          <i>português</i><par n="anglês__n"/></e>
+<e lm="português">          <i>portugu</i><par n="angll/ês__n"/></e>
 <e lm="qatarien">          <i>qatari</i><par n="afriqu/en__n"/></e>
 <e lm="centrafriquen">          <i>centrafriqu</i><par n="afriqu/en__n"/></e>
 <e lm="dominiquen">          <i>dominiqu</i><par n="afriqu/en__n"/></e>
 <e lm="roumen">          <i>roum</i><par n="afriqu/en__n"/></e>
 <e lm="britanico">          <i>britani</i><par n="asiati/co__n"/></e>
-<e lm="rouandês">          <i>rouandês</i><par n="anglês__n"/></e>
+<e lm="rouandês">          <i>rouand</i><par n="angll/ês__n"/></e>
 <e lm="salvadorien">          <i>salvadori</i><par n="afriqu/en__n"/></e>
 <e lm="samoan">          <i>samoan</i><par n="asian__n"/></e>
-<e lm="sènègalês">          <i>sènègalês</i><par n="anglês__n"/></e>
+<e lm="sènègalês">          <i>sènègal</i><par n="angll/ês__n"/></e>
 <e lm="sèrbo">          <i>sèrb</i><par n="anarchist/o__n"/></e>
-<e lm="sêchèlouès">          <i>sêchèlouès</i><par n="anglês__n"/></e>
+<e lm="sêchèlouès">          <i>sêchèlouès</i><par n="borjouès__n"/></e>
 <e lm="singapourien">          <i>singapouri</i><par n="afriqu/en__n"/></e>
 <e lm="slovaco">          <i>slova</i><par n="asiati/co__n"/></e>
 <e lm="slovèno">          <i>slovèn</i><par n="anarchist/o__n"/></e>
 <e lm="somalien">          <i>somali</i><par n="afriqu/en__n"/></e>
 <e lm="somali">          <i>somali</i><par n="asian__n"/></e>
-<e lm="somalilandês">          <i>somalilandês</i><par n="anglês__n"/></e>
-<e lm="soudanês">          <i>soudanês</i><par n="anglês__n"/></e>
-<e lm="srilankês">          <i>srilankês</i><par n="anglês__n"/></e>
-<e lm="suèdouès">          <i>suèdouès</i><par n="anglês__n"/></e>
+<e lm="somalilandês">          <i>somaliland</i><par n="angll/ês__n"/></e>
+<e lm="soudanês">          <i>soudan</i><par n="angll/ês__n"/></e>
+<e lm="srilankês">          <i>srilank</i><par n="angll/ês__n"/></e>
+<e lm="suèdouès">          <i>suèdouès</i><par n="borjouès__n"/></e>
 <e lm="souazi">          <i>souazi</i><par n="asian__n"/></e>
 <e lm="sirien">          <i>siri</i><par n="afriqu/en__n"/></e>
-<e lm="taywanês">          <i>taywanês</i><par n="anglês__n"/></e>
+<e lm="taywanês">          <i>taywan</i><par n="angll/ês__n"/></e>
 <e lm="tanzanien">          <i>tanzani</i><par n="afriqu/en__n"/></e>
 <e lm="tchadien">          <i>tchadi</i><par n="afriqu/en__n"/></e>
-<e lm="taylandês">          <i>taylandês</i><par n="anglês__n"/></e>
+<e lm="taylandês">          <i>tayland</i><par n="angll/ês__n"/></e>
 <e lm="tibèten">          <i>tibèt</i><par n="afriqu/en__n"/></e>
 <e lm="timorien">          <i>timori</i><par n="afriqu/en__n"/></e>
-<e lm="togolês">          <i>togolês</i><par n="anglês__n"/></e>
+<e lm="togolês">          <i>togol</i><par n="angll/ês__n"/></e>
 <e lm="tongien">          <i>tongi</i><par n="afriqu/en__n"/></e>
 <e lm="turkmèno">          <i>turkmèn</i><par n="anarchist/o__n"/></e>
 <e lm="ukrênien">          <i>ukrêni</i><par n="afriqu/en__n"/></e>
 <e lm="urugoayen">          <i>urugoay</i><par n="afriqu/en__n"/></e>
-<e lm="vôdês">          <i>vôdês</i><par n="anglês__n"/></e>
+<e lm="vôdês">          <i>vôd</i><par n="angll/ês__n"/></e>
 <e lm="vènèzuèlien">          <i>vènèzuèli</i><par n="afriqu/en__n"/></e>
 <e lm="viètnamien">          <i>viètnami</i><par n="afriqu/en__n"/></e>
 <e lm="yèmènito">          <i>yèmènit</i><par n="anarchist/o__n"/></e>
 <e lm="zambien">          <i>zambi</i><par n="afriqu/en__n"/></e>
-<e lm="zimbabouès">          <i>zimbabouès</i><par n="anglês__n"/></e>
+<e lm="zimbabouès">          <i>zimbabouès</i><par n="borjouès__n"/></e>
 
 <e lm="afâre">          <i>afâre</i><par n="afâre__n"/></e>
 <e lm="afére">          <i>afére</i><par n="afâre__n"/></e>
@@ -10631,6 +10683,7 @@ buscar els e. en el dic en word
 <e lm="berécllo">           <i>berécllo</i><par n="abricot__n"/></e>
 <e lm="beséclles">           <i>beséclles</i><par n="vacances__n"/></e>
 <e lm="lenèta">           <i>lenèt</i><par n="cultur/a__n"/></e>
+<e lm="vacances">           <i>vacances</i><par n="vacances__n"/></e>
 
 <!-- nnnnn -->
 
@@ -10752,9 +10805,9 @@ buscar els e. en el dic en word
 <e lm="ègâlo">          <i>ègâl</i><par n="anarchist/o__adj"/></e>
 <e lm="ègouo">          <i>ègou</i><par n="anarchist/o__adj"/></e>
 <e lm="abkhazo">          <i>abkhaz</i><par n="anarchist/o__adj"/></e>
-<e lm="albanês">          <i>albanês</i><par n="anglês__adj"/></e>
-<e lm="angolês">          <i>angolês</i><par n="anglês__adj"/></e>
-<e lm="antiguês">          <i>antiguês</i><par n="anglês__adj"/></e>
+<e lm="albanês">          <i>alban</i><par n="angll/ês__adj"/></e>
+<e lm="angolês">          <i>angol</i><par n="angll/ês__adj"/></e>
+<e lm="antiguês">          <i>antigu</i><par n="angll/ês__adj"/></e>
 <e lm="saoudien">          <i>saoudi</i><par n="afriqu/en__adj"/></e>
 <e lm="armènien">          <i>armèni</i><par n="afriqu/en__adj"/></e>
 <e lm="ôstralien">          <i>ôstrali</i><par n="afriqu/en__adj"/></e>
@@ -10855,54 +10908,54 @@ buscar els e. en el dic en word
 <e lm="viètnamien">          <i>viètnami</i><par n="afriqu/en__adj"/></e>
 <e lm="yèmènito">          <i>yèmènit</i><par n="anarchist/o__adj"/></e>
 <e lm="zambien">          <i>zambi</i><par n="afriqu/en__adj"/></e>
-<e lm="bhoutanês">          <i>bhoutanês</i><par n="anglês__adj"/></e>
-<e lm="botsouanês">          <i>botsouanês</i><par n="anglês__adj"/></e>
-<e lm="bouroundês">          <i>bouroundês</i><par n="anglês__adj"/></e>
-<e lm="camerounês">          <i>camerounês</i><par n="anglês__adj"/></e>
-<e lm="congolês">          <i>congolês</i><par n="anglês__adj"/></e>
-<e lm="dominiquês">          <i>dominiquês</i><par n="anglês__adj"/></e>
-<e lm="finlandês">          <i>finlandês</i><par n="anglês__adj"/></e>
-<e lm="gabonês">          <i>gabonês</i><par n="anglês__adj"/></e>
-<e lm="groenlandês">          <i>groenlandês</i><par n="anglês__adj"/></e>
-<e lm="guiyanês">          <i>guiyanês</i><par n="anglês__adj"/></e>
-<e lm="irlandês">          <i>irlandês</i><par n="anglês__adj"/></e>
-<e lm="islandês">          <i>islandês</i><par n="anglês__adj"/></e>
-<e lm="japonês">          <i>japonês</i><par n="anglês__adj"/></e>
-<e lm="malês">          <i>malês</i><par n="anglês__adj"/></e>
-<e lm="maltês">          <i>maltês</i><par n="anglês__adj"/></e>
-<e lm="martiniquês">          <i>martiniquês</i><par n="anglês__adj"/></e>
-<e lm="mozambiquês">          <i>mozambiquês</i><par n="anglês__adj"/></e>
-<e lm="nèpalês">          <i>nèpalês</i><par n="anglês__adj"/></e>
-<e lm="omanês">          <i>omanês</i><par n="anglês__adj"/></e>
-<e lm="ougandês">          <i>ougandês</i><par n="anglês__adj"/></e>
-<e lm="pakistanês">          <i>pakistanês</i><par n="anglês__adj"/></e>
-<e lm="holandês">          <i>holandês</i><par n="anglês__adj"/></e>
-<e lm="polonês">          <i>polonês</i><par n="anglês__adj"/></e>
-<e lm="português">          <i>português</i><par n="anglês__adj"/></e>
-<e lm="rouandês">          <i>rouandês</i><par n="anglês__adj"/></e>
-<e lm="sènègalês">          <i>sènègalês</i><par n="anglês__adj"/></e>
-<e lm="somalilandês">          <i>somalilandês</i><par n="anglês__adj"/></e>
-<e lm="soudanês">          <i>soudanês</i><par n="anglês__adj"/></e>
-<e lm="srilankês">          <i>srilankês</i><par n="anglês__adj"/></e>
-<e lm="taywanês">          <i>taywanês</i><par n="anglês__adj"/></e>
-<e lm="taylandês">          <i>taylandês</i><par n="anglês__adj"/></e>
-<e lm="togolês">          <i>togolês</i><par n="anglês__adj"/></e>
-<e lm="vôdês">          <i>vôdês</i><par n="anglês__adj"/></e>
-<e lm="zimbabouès">          <i>zimbabouès</i><par n="anglês__adj"/></e>
-<e lm="bèninouès">          <i>bèninouès</i><par n="anglês__adj"/></e>
-<e lm="chinouès">          <i>chinouès</i><par n="anglês__adj"/></e>
-<e lm="danouès">          <i>danouès</i><par n="anglês__adj"/></e>
-<e lm="hongrouès">          <i>hongrouès</i><par n="anglês__adj"/></e>
-<e lm="luxemborjouès">          <i>luxemborjouès</i><par n="anglês__adj"/></e>
-<e lm="sêchèlouès">          <i>sêchèlouès</i><par n="anglês__adj"/></e>
-<e lm="suèdouès">          <i>suèdouès</i><par n="anglês__adj"/></e>
+<e lm="bhoutanês">          <i>bhoutan</i><par n="angll/ês__adj"/></e>
+<e lm="botsouanês">          <i>botsouan</i><par n="angll/ês__adj"/></e>
+<e lm="bouroundês">          <i>bouround</i><par n="angll/ês__adj"/></e>
+<e lm="camerounês">          <i>cameroun</i><par n="angll/ês__adj"/></e>
+<e lm="congolês">          <i>congol</i><par n="angll/ês__adj"/></e>
+<e lm="dominiquês">          <i>dominiqu</i><par n="angll/ês__adj"/></e>
+<e lm="finlandês">          <i>finland</i><par n="angll/ês__adj"/></e>
+<e lm="gabonês">          <i>gabon</i><par n="angll/ês__adj"/></e>
+<e lm="groenlandês">          <i>groenland</i><par n="angll/ês__adj"/></e>
+<e lm="guiyanês">          <i>guiyan</i><par n="angll/ês__adj"/></e>
+<e lm="irlandês">          <i>irland</i><par n="angll/ês__adj"/></e>
+<e lm="islandês">          <i>island</i><par n="angll/ês__adj"/></e>
+<e lm="japonês">          <i>japon</i><par n="angll/ês__adj"/></e>
+<e lm="malês">          <i>mal</i><par n="angll/ês__adj"/></e>
+<e lm="maltês">          <i>malt</i><par n="angll/ês__adj"/></e>
+<e lm="martiniquês">          <i>martiniqu</i><par n="angll/ês__adj"/></e>
+<e lm="mozambiquês">          <i>mozambiqu</i><par n="angll/ês__adj"/></e>
+<e lm="nèpalês">          <i>nèpal</i><par n="angll/ês__adj"/></e>
+<e lm="omanês">          <i>oman</i><par n="angll/ês__adj"/></e>
+<e lm="ougandês">          <i>ougand</i><par n="angll/ês__adj"/></e>
+<e lm="pakistanês">          <i>pakistan</i><par n="angll/ês__adj"/></e>
+<e lm="holandês">          <i>holand</i><par n="angll/ês__adj"/></e>
+<e lm="polonês">          <i>polon</i><par n="angll/ês__adj"/></e>
+<e lm="português">          <i>portugu</i><par n="angll/ês__adj"/></e>
+<e lm="rouandês">          <i>rouand</i><par n="angll/ês__adj"/></e>
+<e lm="sènègalês">          <i>sènègal</i><par n="angll/ês__adj"/></e>
+<e lm="somalilandês">          <i>somaliland</i><par n="angll/ês__adj"/></e>
+<e lm="soudanês">          <i>soudan</i><par n="angll/ês__adj"/></e>
+<e lm="srilankês">          <i>srilank</i><par n="angll/ês__adj"/></e>
+<e lm="taywanês">          <i>taywan</i><par n="angll/ês__adj"/></e>
+<e lm="taylandês">          <i>tayland</i><par n="angll/ês__adj"/></e>
+<e lm="togolês">          <i>togol</i><par n="angll/ês__adj"/></e>
+<e lm="vôdês">          <i>vôd</i><par n="angll/ês__adj"/></e>
+<e lm="zimbabouès">          <i>zimbabouès</i><par n="borjouès__adj"/></e>
+<e lm="bèninouès">          <i>bèninouès</i><par n="borjouès__adj"/></e>
+<e lm="chinouès">          <i>chinouès</i><par n="borjouès__adj"/></e>
+<e lm="danouès">          <i>danouès</i><par n="borjouès__adj"/></e>
+<e lm="hongrouès">          <i>hongrouès</i><par n="borjouès__adj"/></e>
+<e lm="luxemborjouès">          <i>luxemborjouès</i><par n="borjouès__adj"/></e>
+<e lm="sêchèlouès">          <i>sêchèlouès</i><par n="borjouès__adj"/></e>
+<e lm="suèdouès">          <i>suèdouès</i><par n="borjouès__adj"/></e>
 <e lm="sud-afriquen">          <i>sud-afriqu</i><par n="afriqu/en__adj"/></e>
 <e lm="cap-vèrdien">          <i>cap-vèrdi</i><par n="afriqu/en__adj"/></e>
 <e lm="nord-corèen">          <i>nord-corè</i><par n="afriqu/en__adj"/></e>
 <e lm="sud-corèen">          <i>sud-corè</i><par n="afriqu/en__adj"/></e>
 <e lm="nèo-calèdonien">          <i>nèo-calèdoni</i><par n="afriqu/en__adj"/></e>
-<e lm="nèo-zèlandês">          <i>nèo-zèlandês</i><par n="anglês__adj"/></e>
-<e lm="sièrra-lèonês">          <i>sièrra-lèonês</i><par n="anglês__adj"/></e>
+<e lm="nèo-zèlandês">          <i>nèo-zèland</i><par n="angll/ês__adj"/></e>
+<e lm="sièrra-lèonês">          <i>sièrra-lèon</i><par n="angll/ês__adj"/></e>
 <e lm="afghan">          <i>afghan</i><par n="asian__adj"/></e>
 <e lm="amâr">          <i>amâr</i><par n="asian__adj"/></e>
 <e lm="andorran">          <i>andorran</i><par n="asian__adj"/></e>
@@ -11255,29 +11308,30 @@ buscar els e. en el dic en word
 <e lm="rèèl">          <i>rèèl</i><par n="asian__adj"/></e>
 <e lm="solanèl">          <i>solanèl</i><par n="asian__adj"/></e>
 <e lm="supèrficièl">          <i>supèrficièl</i><par n="asian__adj"/></e>
-<e lm="borgês">          <i>borgês</i><par n="anglês__adj"/></e>
-<e lm="albigês">          <i>albigês</i><par n="anglês__adj"/></e>
-<e lm="cortês">          <i>cortês</i><par n="anglês__adj"/></e>
-<e lm="dèmês">          <i>dèmês</i><par n="anglês__adj"/></e>
-<e lm="entreprês">          <i>entreprês</i><par n="anglês__adj"/></e>
-<e lm="libanês">          <i>libanês</i><par n="anglês__adj"/></e>
-<e lm="morianês">          <i>morianês</i><par n="anglês__adj"/></e>
-<e lm="pèrmês">          <i>pèrmês</i><par n="anglês__adj"/></e>
-<e lm="piemontês">          <i>piemontês</i><par n="anglês__adj"/></e>
-<e lm="prês">          <i>prês</i><par n="anglês__adj"/></e>
-<e lm="surprês">          <i>surprês</i><par n="anglês__adj"/></e>
-<e lm="velagês">          <i>velagês</i><par n="anglês__adj"/></e>
-<e lm="biès">          <i>biès</i><par n="anglês__adj"/></e>
-<e lm="borjouès">          <i>borjouès</i><par n="anglês__adj"/></e>
-<e lm="tès">          <i>tès</i><par n="anglês__adj"/></e>
-<e lm="èpès">          <i>èpès</i><par n="anglês__adj"/></e>
-<e lm="frès">          <i>frès</i><par n="anglês__adj"/></e>
-<e lm="grivouès">          <i>grivouès</i><par n="anglês__adj"/></e>
-<e lm="galès">          <i>galès</i><par n="anglês__adj"/></e>
-<e lm="punès">          <i>punès</i><par n="anglês__adj"/></e>
-<e lm="sornouès">          <i>sornouès</i><par n="anglês__adj"/></e>
-<e lm="èstèfanouès">          <i>èstèfanouès</i><par n="anglês__adj"/></e>
-<e lm="vôdouès">          <i>vôdouès</i><par n="anglês__adj"/></e>
+<e lm="borgês">          <i>borg</i><par n="angll/ês__adj"/></e>
+<e lm="albigês">          <i>albig</i><par n="angll/ês__adj"/></e>
+<e lm="albigês">          <i>albig</i><par n="angll/ês__n"/></e>
+<e lm="cortês">          <i>cort</i><par n="angll/ês__adj"/></e>
+<e lm="dèmês">          <i>dèm</i><par n="angll/ês__adj"/></e>
+<e lm="entreprês">          <i>entrepr</i><par n="angll/ês__adj"/></e>
+<e lm="libanês">          <i>liban</i><par n="angll/ês__adj"/></e>
+<e lm="morianês">          <i>morian</i><par n="angll/ês__adj"/></e>
+<e lm="pèrmês">          <i>pèrm</i><par n="angll/ês__adj"/></e>
+<e lm="piemontês">          <i>piemont</i><par n="angll/ês__adj"/></e>
+<e lm="prês">          <i>pr</i><par n="angll/ês__adj"/></e>
+<e lm="surprês">          <i>surpr</i><par n="angll/ês__adj"/></e>
+<e lm="velagês">          <i>velag</i><par n="angll/ês__adj"/></e>
+<e lm="biès">          <i>biès</i><par n="borjouès__adj"/></e>
+<e lm="borjouès">          <i>borjouès</i><par n="borjouès__adj"/></e>
+<e lm="tès">          <i>tès</i><par n="borjouès__adj"/></e>
+<e lm="èpès">          <i>èpès</i><par n="borjouès__adj"/></e>
+<e lm="frès">          <i>frès</i><par n="borjouès__adj"/></e>
+<e lm="grivouès">          <i>grivouès</i><par n="borjouès__adj"/></e>
+<e lm="galès">          <i>galès</i><par n="borjouès__adj"/></e>
+<e lm="punès">          <i>punès</i><par n="borjouès__adj"/></e>
+<e lm="sornouès">          <i>sornouès</i><par n="borjouès__adj"/></e>
+<e lm="èstèfanouès">          <i>èstèfanouès</i><par n="borjouès__adj"/></e>
+<e lm="vôdouès">          <i>vôdouès</i><par n="borjouès__adj"/></e>
 <e lm="cantonâl">          <i>cantonâl</i><par n="asian__adj"/></e>
 <e lm="mâl">          <i>mâl</i><par n="asian__adj"/></e>
 <e lm="fèdèrâl">          <i>fèdèrâl</i><par n="asian__adj"/></e>
@@ -11376,6 +11430,7 @@ buscar els e. en el dic en word
 <e lm="sâjo">          <i>sâ</i><par n="ètran/jo__adj"/></e>
 <e lm="sarvâjo">          <i>sarvâ</i><par n="ètran/jo__adj"/></e>
 <e lm="sârvâjo">          <i>sârvâ</i><par n="ètran/jo__adj"/></e>
+<e lm="complicâ">          <i>compli</i><par n="compli/câ__adj"/></e>
 <e lm="abonâ">          <i>abon</i><par n="acharn/â__adj"/></e>
 <e lm="achalandâ">          <i>achaland</i><par n="acharn/â__adj"/></e>
 <e lm="acharnâ">          <i>acharn</i><par n="acharn/â__adj"/></e>
@@ -11401,7 +11456,6 @@ buscar els e. en el dic en word
 <e lm="carrâ">          <i>carr</i><par n="acharn/â__adj"/></e>
 <e lm="pelâ">          <i>pel</i><par n="acharn/â__adj"/></e>
 <e lm="combinâ">          <i>combin</i><par n="acharn/â__adj"/></e>
-<e lm="complicâ">          <i>complic</i><par n="acharn/â__adj"/></e>
 <e lm="confèdèrâ">          <i>confèdèr</i><par n="acharn/â__adj"/></e>
 <e lm="constèrnâ">          <i>constèrn</i><par n="acharn/â__adj"/></e>
 <e lm="culotâ">          <i>culot</i><par n="acharn/â__adj"/></e>
@@ -11421,7 +11475,7 @@ buscar els e. en el dic en word
 <e lm="ècèrvelâ">          <i>ècèrvel</i><par n="acharn/â__adj"/></e>
 <e lm="ècllopâ">          <i>ècllop</i><par n="acharn/â__adj"/></e>
 <e lm="èdentâ">          <i>èdent</i><par n="acharn/â__adj"/></e>
-<e lm="èfllancâ">          <i>èfllanc</i><par n="acharn/â__adj"/></e>
+<e lm="èfllancâ">          <i>èfllan</i><par n="compli/câ__adj"/></e>
 <e lm="afrontâ">          <i>afront</i><par n="acharn/â__adj"/></e>
 <e lm="èfrontâ">          <i>èfront</i><par n="acharn/â__adj"/></e>
 <e lm="ensarrâ">          <i>ensarr</i><par n="acharn/â__adj"/></e>
@@ -11476,7 +11530,7 @@ buscar els e. en el dic en word
 <e lm="posâ">          <i>pos</i><par n="acharn/â__adj"/></e>
 <e lm="subordonâ">          <i>subordon</i><par n="acharn/â__adj"/></e>
 <e lm="surgelâ">          <i>surgel</i><par n="acharn/â__adj"/></e>
-<e lm="tocâ">          <i>toc</i><par n="acharn/â__adj"/></e>
+<e lm="tocâ">          <i>to</i><par n="compli/câ__adj"/></e>
 <e lm="trètâ">          <i>trèt</i><par n="acharn/â__adj"/></e>
 <e lm="usitâ">          <i>usit</i><par n="acharn/â__adj"/></e>
 <e lm="veloutâ">          <i>velout</i><par n="acharn/â__adj"/></e>
@@ -11828,6 +11882,87 @@ buscar els e. en el dic en word
 <e lm="tèl">          <i>tèl</i><par n="asian__adj"/></e>
 <e lm="tèlo">          <i>tèl</i><par n="anarchist/o__adj"/></e>
 
+<e lm="algèrien">          <i>algèri</i><par n="afriqu/en__adj"/></e>
+<e lm="ancien">          <i>anci</i><par n="afriqu/en__adj"/></e>
+<e lm="payen">          <i>pay</i><par n="afriqu/en__adj"/></e>
+<e lm="bouèmien">          <i>bouèmi</i><par n="afriqu/en__adj"/></e>
+<e lm="crètien">          <i>crètien</i><par n="asian__adj"/></e>
+<e lm="citoyen">          <i>citoy</i><par n="afriqu/en__adj"/></e>
+<e lm="colègien">          <i>colègi</i><par n="afriqu/en__adj"/></e>
+<e lm="dèmocrate-crètien">          <i>dèmocrate-crèti</i><par n="afriqu/en__adj"/></e>
+<e lm="chalvèrien">          <i>chalvèri</i><par n="afriqu/en__adj"/></e>
+<e lm="èlectricien">          <i>èlectrici</i><par n="afriqu/en__adj"/></e>
+<e lm="endien">          <i>endi</i><par n="afriqu/en__adj"/></e>
+<e lm="étalien">          <i>étali</i><par n="afriqu/en__adj"/></e>
+<e lm="italien">          <i>itali</i><par n="afriqu/en__adj"/></e>
+<e lm="lèsbien">          <i>lèsbi</i><par n="afriqu/en__adj"/></e>
+<e lm="luenten">          <i>luent</i><par n="afriqu/en__adj"/></e>
+<e lm="lutèrien">          <i>lutèri</i><par n="afriqu/en__adj"/></e>
+<e lm="sagoen">          <i>sagoen</i><par n="asian__adj"/></e>
+<e lm="mècanicien">          <i>mècanici</i><par n="afriqu/en__adj"/></e>
+<e lm="mitoyen">          <i>mitoyen</i><par n="asian__adj"/></e>
+<e lm="moyen">          <i>moy</i><par n="afriqu/en__adj"/></e>
+<e lm="meyen">          <i>mey</i><par n="afriqu/en__adj"/></e>
+<e lm="musicien">          <i>musici</i><par n="afriqu/en__adj"/></e>
+<e lm="nen">          <i>n</i><par n="afriqu/en__adj"/></e>
+<e lm="ocèanien">          <i>ocèani</i><par n="afriqu/en__adj"/></e>
+<e lm="vilen">          <i>vil</i><par n="afriqu/en__adj"/></e>
+<e lm="fisicien">          <i>fisici</i><par n="afriqu/en__adj"/></e>
+<e lm="prochen">          <i>prochen</i><par n="asian__adj"/></e>
+<e lm="prussien">          <i>prussi</i><par n="afriqu/en__adj"/></e>
+<e lm="rèpubliquen">          <i>rèpubliqu</i><par n="afriqu/en__adj"/></e>
+<e lm="riveren">          <i>river</i><par n="afriqu/en__adj"/></e>
+<e lm="romen">          <i>rom</i><par n="afriqu/en__adj"/></e>
+<e lm="prèromen" a="Vouiquipèdia">          <i>prèrom</i><par n="afriqu/en__adj"/></e>
+<e lm="sarvagen">          <i>sarvag</i><par n="afriqu/en__adj"/></e>
+<e lm="seren">          <i>ser</i><par n="afriqu/en__adj"/></e>
+<e lm="soden">          <i>sod</i><par n="afriqu/en__adj"/></e>
+<e lm="sôveren">          <i>sôver</i><par n="afriqu/en__adj"/></e>
+<e lm="tunisien">          <i>tunisi</i><par n="afriqu/en__adj"/></e>
+<e lm="urben">          <i>urb</i><par n="afriqu/en__adj"/></e>
+<e lm="vâldoten">          <i>vâldot</i><par n="afriqu/en__adj"/></e>
+<e lm="vendèen">          <i>vendè</i><par n="afriqu/en__adj"/></e>
+<e lm="vènicien">          <i>vènici</i><par n="afriqu/en__adj"/></e>
+<e lm="saharien" a="Vouiquipèdia">          <i>sahari</i><par n="afriqu/en__adj"/></e>
+<e lm="sub-saharien" a="Vouiquipèdia">          <i>sub-sahari</i><par n="afriqu/en__adj"/></e>
+<e lm="arpetan">          <i>arpetan</i><par n="asian__adj"/></e>
+<e lm="artisan">          <i>artisan</i><par n="asian__adj"/></e>
+<e lm="baban">          <i>baban</i><par n="asian__adj"/></e>
+<e lm="badian">          <i>badian</i><par n="asian__adj"/></e>
+<e lm="bressan">          <i>bressan</i><par n="asian__adj"/></e>
+<e lm="cortisan">          <i>cortisan</i><par n="asian__adj"/></e>
+<e lm="foran">          <i>foran</i><par n="asian__adj"/></e>
+<e lm="gaban">          <i>gaban</i><par n="asian__adj"/></e>
+<e lm="gaberan">          <i>gaberan</i><par n="asian__adj"/></e>
+<e lm="galapian">          <i>galapian</i><par n="asian__adj"/></e>
+<e lm="galistran">          <i>galistran</i><par n="asian__adj"/></e>
+<e lm="gâpian">          <i>gâpian</i><par n="asian__adj"/></e>
+<e lm="mâlsan">          <i>mâlsan</i><par n="asian__adj"/></e>
+<e lm="musulman">          <i>musulman</i><par n="asian__adj"/></e>
+<e lm="nan">          <i>nan</i><par n="asian__adj"/></e>
+<e lm="occitan">          <i>occitan</i><par n="asian__adj"/></e>
+<e lm="pacan">          <i>pacan</i><par n="asian__adj"/></e>
+<e lm="pagan">          <i>pagan</i><par n="asian__adj"/></e>
+<e lm="partisan">          <i>partisan</i><par n="asian__adj"/></e>
+<e lm="patouesan">          <i>patouesan</i><par n="asian__adj"/></e>
+<e lm="payisan">          <i>payisan</i><par n="asian__adj"/></e>
+<e lm="plan">          <i>plan</i><par n="asian__adj"/></e>
+<e lm="roman">          <i>roman</i><par n="asian__adj"/></e>
+<e lm="safran">          <i>safran</i><par n="asian__adj"/></e>
+<e lm="san">          <i>san</i><par n="asian__adj"/></e>
+<e lm="uropèan">          <i>uropèan</i><par n="asian__adj"/></e>
+<e lm="valêsan">          <i>valêsan</i><par n="asian__adj"/></e>
+<e lm="van">          <i>van</i><par n="asian__adj"/></e>
+<e lm="vètèran">          <i>vètèran</i><par n="asian__adj"/></e>
+<e lm="galês">          <i>gal</i><par n="angll/ês__adj"/></e>
+<e lm="genevês">          <i>genev</i><par n="angll/ês__adj"/></e>
+<e lm="marselyês">          <i>marsely</i><par n="angll/ês__adj"/></e>
+<e lm="sud-soudanês">          <i>sud-soudan</i><par n="angll/ês__adj"/></e>
+<e lm="vivarês">          <i>vivar</i><par n="angll/ês__adj"/></e>
+<e lm="justo">          <i>j</i><par n="·"/><i>ust</i><par n="anarchist/o__adj"/></e>
+<e lm="justo">          <i>j</i><par n="·"/><i>ust</i><par n="anarchist/o__n"/></e>
+<e lm="justo">          <i>j</i><par n="·"/><i>usto</i><par n="avant__adv"/></e>
+
 <!-- aaaaaaa -->
 
 <!-- NP -->
@@ -11851,6 +11986,7 @@ buscar els e. en el dic en word
 <e lm="avêr">          <i></i><par n="/avêr__vblex"/></e>
 
 <e lm="chantar">          <i>chant</i><par n="chant/ar__vblex"/></e>
+<e lm="ècartar">          <i>ècart</i><par n="chant/ar__vblex"/></e>
 <e lm="trovar">          <i>trov</i><par n="chant/ar__vblex"/></e>
 <e lm="comptar">          <i>compt</i><par n="chant/ar__vblex"/></e>
 <e lm="demandar">          <i>demand</i><par n="chant/ar__vblex"/></e>
@@ -12030,6 +12166,7 @@ buscar els e. en el dic en word
 <e lm="senar">          <i>s</i><par n="ap/e[L]ar__vblex" prm="n"/></e>
 <e lm="levar">          <i>l</i><par n="ap/e[L]ar__vblex" prm="v"/></e>
 <e r="LR" lm="levar">          <i>l</i><par n="ach/e[T]ar__vblex" prm="v"/></e>
+<e lm="barcelar">          <i>barc</i><par n="ap/e[L]ar__vblex" prm="l"/></e>
 
 <e lm="achetar">          <i>ach</i><par n="ach/e[T]ar__vblex" prm="t"/></e>
 <e lm="agetar">          <i>ag</i><par n="ach/e[T]ar__vblex" prm="t"/></e>
@@ -12049,6 +12186,7 @@ buscar els e. en el dic en word
 <e lm="apesar">          <i>ap</i><par n="p/e[S]ar__vblex" prm="s"/></e>
 <e lm="repesar">          <i>rep</i><par n="p/e[S]ar__vblex" prm="s"/></e>
 
+<e lm="dèleyér">          <i>dèl</i><par n="dèl/e[Y]ér__vblex" prm="y"/></e>
 <e lm="preyér">          <i>pr</i><par n="pr/e[Y]ér__vblex" prm="y"/></e>
 <e lm="pegnér">          <i>p</i><par n="pr/e[Y]ér__vblex" prm="gn"/></e>
 <e lm="dèpegnér">          <i>dèp</i><par n="pr/e[Y]ér__vblex" prm="gn"/></e>
@@ -14270,14 +14408,14 @@ pegner, je pègno !
 <e lm="vouloir">         <i>v</i><par n="v/ouloir__vbmod"/></e>
 -->
 
-<e lm="Allemagnes">          <i>Allemagnes</i><par n="Allemagnes__np"/></e>
-<e lm="Amèriques">          <i>Amèriques</i><par n="Allemagnes__np"/></e>
+<e lm="Alemagnes">          <i>Alemagnes</i><par n="Alemagnes__np"/></e>
+<e lm="Amèriques">          <i>Amèriques</i><par n="Alemagnes__np"/></e>
 <e lm="Amèrica">          <i>Amèrica</i><par n="Bulgarie__np"/></e>
-<e lm="Afriques">          <i>Afriques</i><par n="Allemagnes__np"/></e>
+<e lm="Afriques">          <i>Afriques</i><par n="Alemagnes__np"/></e>
 <e lm="Africa">          <i>Africa</i><par n="Bulgarie__np"/></e>
-<e lm="Eropes">          <i>Eropes</i><par n="Allemagnes__np"/></e>
+<e lm="Eropes">          <i>Eropes</i><par n="Alemagnes__np"/></e>
 <e lm="Eropa">          <i>Eropa</i><par n="Bulgarie__np"/></e>
-<e lm="Uropes">          <i>Uropes</i><par n="Allemagnes__np"/></e>
+<e lm="Uropes">          <i>Uropes</i><par n="Alemagnes__np"/></e>
 <e lm="Uropa">          <i>Uropa</i><par n="Bulgarie__np"/></e>
 <e lm="Asie">          <i>Asie</i><par n="Bulgarie__np"/></e>
 <e lm="Asia" a="Vouiquipèdia"><i>Asia</i><par n="Bulgarie__np"/></e>
