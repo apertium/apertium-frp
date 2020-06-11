@@ -132,6 +132,7 @@ LIST Je = "je" ;
 LIST Te = "te" ;
 LIST Il = "il" ;
 LIST On = "on" ;
+LIST Se = "sè" ;
 
 LIST Que = "que" ;
 LIST Etre = "étre" ;
@@ -148,6 +149,10 @@ SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
 SELECT ("lui") IF (0 ("il")) (-1C Prep) ;
+
+REMOVE Itg IF (0 Se) (1 Verb + P3) ;
+
+SELECT Pro IF (0 ("nen")) (1 unknown) ;
 
 # étre vbser / vblex (=appartenir)
 
@@ -173,6 +178,8 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&G
 
 REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv) ;
 REMOVE Det IF (0 Prn) (1C Adv OR PreAdv) (NOT 1 A) ;
+
+SELECT Prn IF (0 Det) (1 unknown) ;
 
 # tn / pro
 
@@ -215,7 +222,7 @@ REMOVE ("franc") IF (0C A) (0 ("franc_poplo")) ;
 SELECT N IF (-1 Num) (0 ("franc")) ;
 
 #
-# Verbes
+# Verbos
 #
 
 # personne
@@ -251,6 +258,17 @@ SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
 SELECT P3 IF (-2 Il + Sg OR On) (-1 Pro) (0 VSg3);
   ## Elle lui parle
 SELECT P3 IF (-3 Il + Sg OR On) (-2 Pro) (-1 Pro) (0 VSg3);
+  ## Elle lui en parle
+
+SELECT P3 IF (-1 Il + Pl) (0 VPl3);
+  ## Elle parle
+SELECT P3 IF (0 VPl3) (0 (META:/-/r)) (1 Il + Pl) ;
+  ## Dit-il
+SELECT P3 IF (1 Il + Pl) (0 VPl3);
+  ## Parle-t-elle
+SELECT P3 IF (-2 Il + Pl) (-1 Pro) (0 VPl3);
+  ## Elle lui parle
+SELECT P3 IF (-3 Il + Pl) (-2 Pro) (-1 Pro) (0 VPl3);
   ## Elle lui en parle
 
 # temps verbaux
