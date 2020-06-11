@@ -271,11 +271,6 @@
 <!--
       <e><p><l><b/></l><r>e<b/></r></p><par n="consonants"/></e> VERIFY
 -->
-<!--
-      <e><p><l><b/>lequel</l><r>uquel</r></p><par n="caracter_general"/></e>
-      <e><p><l><b/>lesquels</l><r>esquels</r></p><par n="caracter_general"/></e>
-      <e><p><l><b/>lesquelles</l><r>esquelles</r></p><par n="caracter_general"/></e>
--->
       <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="vocals"/></e>
     </pardef>
 
@@ -299,9 +294,6 @@
       <e><p><l><b/></l><r>a<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/></l><r>a<b/></r></p><par n="vocals"/></e>
 <!--
-      <e><p><l><b/>lequel</l><r>auquel</r></p><par n="caracter_general"/></e>
-      <e><p><l><b/>lesquels</l><r>auxquels</r></p><par n="caracter_general"/></e>
-      <e><p><l><b/>lesquelles</l><r>auxquelles</r></p><par n="caracter_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>a<b/>s'</r></p><par n="vocals"/></e>
 -->
     </pardef>
@@ -346,14 +338,14 @@
       <e><p><l><a/>ce<b/>est</l><r>c'est</r></p></e>
       <e><p><l><a/>ce<b/>était</l><r>c'était</r></p></e>
       <e><p><l><a/>ce<b/>étais</l><r>c'étais</r></p></e>
-      <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
       <e><p><l><a/>jusque<b/></l><r>jusqu'</r></p><par n="vocals"/></e>
       <e><p><l><a/>celui<b/>qui<b/>il<b/></l><r>celui<b/>qui<b/></r></p></e>
       <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>
       <e><p><l><a/>si<b/>il<b/></l><r>s'il<b/></r></p></e>
       <e><p><l><a/>si<b/>ils<b/></l><r>s'ils<b/></r></p></e>
 -->
+      <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
       <e><p><l><a/>quèque<b/></l><r>quèqu'</r></p><par n="vocals"/></e>
       <e><p><l><a/>lorsque<b/></l><r>lorsqu'</r></p><par n="vocals"/></e>
 
