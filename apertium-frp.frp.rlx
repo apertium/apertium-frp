@@ -215,6 +215,13 @@ REMOVE Tn + Pl3 IF (0 Tn + Pl3) (NOT 1 Verb + Pl3) (NOT -1 Prep) ;
 SELECT Pro IF (0 Pro) (1 Inf OR Ger) (-1 Prep) ;		# por lyé dére
 SELECT Tn IF (0 Pro) (NOT 1 Inf OR Ger) ;			# VERIFY
 
+# adj / adv
+
+SELECT Adv IF (-1C Verb) (0 A) (1C Det) ;	# amâvont galyârd la guèrra
+
+# preadv
+
+REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 
 # n / adj
 
