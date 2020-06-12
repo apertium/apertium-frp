@@ -20,6 +20,7 @@ LIST Sent = sent ;
 LIST Det = det ;
 LIST Def = def ;
 LIST Pos = pos ;
+LIST Ord = ord ;
 LIST Prep = pr ;
 LIST Subj = subj ;
 LIST Prop = np ;
@@ -217,6 +218,7 @@ SELECT Tn IF (0 Pro) (NOT 1 Inf OR Ger) ;			# VERIFY
 
 # n / adj
 
+SELECT Ord IF (0 N) (1 N) ;
 
 # mots individuels (mais après la selection n/adj)
 
