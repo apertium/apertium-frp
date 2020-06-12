@@ -176,10 +176,11 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreA
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit, l'hotâl
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
 
+SELECT Det IF (0 ("<l'>")) (1 unknown) ;
+SELECT Prn IF (0 Det) (1 unknown) ;
+
 REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv) ;
 REMOVE Det IF (0 Prn) (1C Adv OR PreAdv) (NOT 1 A) ;
-
-SELECT Prn IF (0 Det) (1 unknown) ;
 
 # tn / pro
 
