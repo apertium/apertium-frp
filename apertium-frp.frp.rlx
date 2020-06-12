@@ -168,6 +168,8 @@ REMOVE PostAdv IF (NOT -1 (META:/-/r)) ;
 
 # det / prn
 
+SELECT Prn (0 Det) (1 ("que")) ;
+
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 A + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 Adv_PreAdv) (3 A + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 A + &&GenderNumber) (2 N + &&GenderNumber) ;
