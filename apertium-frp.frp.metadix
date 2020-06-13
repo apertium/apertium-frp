@@ -9961,7 +9961,7 @@ buscar els e. en el dic en word
 <e lm="belyèta">          <i>belyèt</i><par n="cultur/a__n"/></e>
 <e lm="bise">          <i>bise</i><par n="abayie__n"/></e>
 <e lm="casamata">          <i>casamat</i><par n="cultur/a__n"/></e>
-<e lm="boa">          <i>bo</i><par n="cultur/a__n"/></e>
+<e lm="boa">          <i>bo</i><par n="èrmit/a__n"/></e>
 <e lm="bobelye">          <i>bobelye</i><par n="abayie__n"/></e>
 <e lm="gorfa">          <i>gorf</i><par n="cultur/a__n"/></e>
 <e lm="corfa">          <i>corf</i><par n="cultur/a__n"/></e>
@@ -11447,7 +11447,7 @@ buscar els e. en el dic en word
 <e lm="èxtrèt">          <i>èxtrèt</i><par n="abricot__n"/></e>
 <e lm="èxtravagance">          <i>èxtravagance</i><par n="abayie__n"/></e>
 <e lm="èxtrèmisto">          <i>èxtrèmist</i><par n="anarchist/o__n"/></e>
-<e lm="fa">          <i>f</i><par n="cultur/a__n"/></e>
+<e lm="fa">          <i>f</i><par n="mês__n"/></e>
 <e lm="fâbla">          <i>fâbl</i><par n="cultur/a__n"/></e>
 <e lm="fabrecan">          <i>fabrecan</i><par n="asian__n"/></e>
 <e lm="fabrecant">          <i>fabrecant</i><par n="asian__n"/></e>
@@ -11750,7 +11750,7 @@ buscar els e. en el dic en word
 <e lm="frotement">          <i>frotement</i><par n="abricot__n"/></e>
 <e lm="frutiére">          <i>frutiére</i><par n="abayie__n"/></e>
 <e lm="ganguelye">          <i>ganguelye</i><par n="abayie__n"/></e>
-<e lm="flucsia">          <i>flucsi</i><par n="cultur/a__n"/></e>
+<e lm="flucsia">          <i>flucsi</i><par n="èrmit/a__n"/></e>
 <e lm="fuga">          <i>fug</i><par n="bag/a__n"/></e>
 <e lm="fuite">          <i>fuite</i><par n="abayie__n"/></e>
 <e lm="fuita">          <i>fuit</i><par n="cultur/a__n"/></e>
@@ -12004,7 +12004,7 @@ buscar els e. en el dic en word
 <e lm="catél">          <i>catél</i><par n="abricot__n"/></e>
 <e lm="caton">          <i>caton</i><par n="abricot__n"/></e>
 <e lm="gremél">          <i>gremél</i><par n="abricot__n"/></e>
-<e lm="gruviére">          <i>gruviére</i><par n="abayie__n"/></e>
+<e lm="gruviére">          <i>gruviére</i><par n="abricot__n"/></e>
 <e lm="pèlyandra">          <i>pèlyandr</i><par n="cultur/a__n"/></e>
 <e lm="froche">          <i>froche</i><par n="abayie__n"/></e>
 <e lm="gouépa">          <i>gouép</i><par n="cultur/a__n"/></e>
@@ -12673,6 +12673,7 @@ buscar els e. en el dic en word
 <e lm="manelyér">          <i>manelyér</i><par n="bouchiér__n"/></e>
 <e lm="mariâjo">          <i>mariâjo</i><par n="abricot__n"/></e>
 <e lm="marena">          <i>maren</i><par n="cultur/a__n"/></e>
+<e lm="marine" a="hector"><i>marine</i><par n="abricot__n"/></e>
 <e lm="mareniér">          <i>mareniér</i><par n="bouchiér__n"/></e>
 <e lm="marionèta">          <i>marionèt</i><par n="cultur/a__n"/></e>
 <e lm="marjolèna">          <i>marjolèn</i><par n="cultur/a__n"/></e>
@@ -13638,7 +13639,7 @@ buscar els e. en el dic en word
 <e lm="porcherie">          <i>porcherie</i><par n="abayie__n"/></e>
 <e lm="portâl">          <i>portâl</i><par n="abricot__n"/></e>
 <e lm="pôrta">          <i>pôrt</i><par n="cultur/a__n"/></e>
-<e lm="pôrtafôlye">          <i>pôrtafôlye</i><par n="abayie__n"/></e>
+<e lm="pôrtafôlye">          <i>pôrtafôlye</i><par n="abricot__n"/></e>
 <e lm="portor">          <i>porto</i><par n="admirato/r__n"/></e>
 <e lm="portior">          <i>portio</i><par n="admirato/r__n"/></e>
 <e lm="portiér">          <i>portiér</i><par n="bouchiér__n"/></e>
@@ -14462,6 +14463,7 @@ buscar els e. en el dic en word
 <e lm="dentâ">          <i>dentâ</i><par n="abricot__n"/></e>
 <e lm="soc">          <i>soc</i><par n="abricot__n"/></e>
 <e lm="suèc">          <i>suèc</i><par n="abricot__n"/></e>
+<e lm="comenismo " a="hector">          <i>comenismo </i><par n="abricot__n"/></e>
 <e lm="socialismo" a="hector">          <i>socialismo</i><par n="abricot__n"/></e>
 <e lm="socialisto">          <i>socialist</i><par n="anarchist/o__n"/></e>
 <e lm="sociètèro">          <i>sociètèr</i><par n="advèrsèr/o__n"/></e>
@@ -14694,7 +14696,7 @@ buscar els e. en el dic en word
 <e lm="tarifa">          <i>tarif</i><par n="cultur/a__n"/></e>
 <e lm="tarot">          <i>tarot</i><par n="abricot__n"/></e>
 <e lm="rutia">          <i>ruti</i><par n="cultur/a__n"/></e>
-<e lm="târtra">          <i>târtr</i><par n="cultur/a__n"/></e>
+<e lm="târtra">          <i>târtr</i><par n="èrmit/a__n"/></e>
 <e lm="tâs">          <i>tâs</i><par n="mês__n"/></e>
 <e lm="tâssa">          <i>tâss</i><par n="cultur/a__n"/></e>
 <e lm="tôdis">          <i>tôdis</i><par n="mês__n"/></e>
@@ -14961,7 +14963,7 @@ buscar els e. en el dic en word
 <e lm="trouye">          <i>trouye</i><par n="abayie__n"/></e>
 <e lm="trueta">          <i>truet</i><par n="cultur/a__n"/></e>
 <e lm="tsar">          <i>tsar</i><par n="abricot__n"/></e>
-<e lm="tuba">          <i>tub</i><par n="cultur/a__n"/></e>
+<e lm="tuba">          <i>tub</i><par n="èrmit/a__n"/></e>
 <e lm="pouetrinèro">          <i>pouetrinèr</i><par n="advèrsèr/o__n"/></e>
 <e lm="tubèrculosa">          <i>tubèrculos</i><par n="cultur/a__n"/></e>
 <e lm="massacror">          <i>massacro</i><par n="admirato/r__n"/></e>
