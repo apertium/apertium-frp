@@ -234,6 +234,9 @@ REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 
 SELECT Ord IF (0 N) (1 N) ;
 
+SELECT A IF (-2 Det + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") OR ("muens")) (0 A + &&GenderNumber) ;	# lo ples fôrt
+SELECT A IF (-2 Noun_Adj + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") OR ("muens")) (0 A + &&GenderNumber) ;	# un poplo ples fôrt
+
 # mots individuels (mais après la selection n/adj)
 
 REMOVE ("franc") IF (0C N) (0 ("Franc_poplo")) ;
