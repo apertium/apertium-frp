@@ -142,6 +142,11 @@ SECTION
 
 # mots individuels
 
+SELECT ("chamô") IF (0 ("chamôs")) (-1 Num) ;
+SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
+SELECT ("chamô") IF (0 ("chamôs")) (1 A + MascPl) ;
+SELECT ("chamô") IF (0 ("chamôs")) (1 PreAdv OR Adv) (2 A + MascPl) ;
+
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	# devant la mêson
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	# devant la granta mêson
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
