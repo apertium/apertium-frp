@@ -172,6 +172,17 @@
   <e r="LR"><p><l>ènes</l>         <r>en<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="cheti__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ita</l>          <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ira</l>          <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>a</l>          <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>tes</l>         <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ires</l>          <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>es</l>          <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="orfel/in__adj">
   <e>       <p><l>in</l>          <r>in<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ena</l>          <r>in<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -7077,6 +7088,11 @@
   <e>       <p><l>ll</l>         <r>ll</r></p></e>
   <e r="LR"><p><l>l</l>         <r>ll</r></p></e>
 </pardef>
+
+<pardef n="e/l">	<!-- j'utilise ce paradigme pour des formes en è trouvées dans le corpus, mais qui n'appartiennent pas au "standard" -->
+  <e>       <p><l>e</l>         <r>e</r></p></e>
+  <e r="LR"><p><l>è</l>         <r>e</r></p></e>
+</pardef>
   </pardefs>
 
   <section id="main" type="standard">
@@ -11278,7 +11294,7 @@
 <e lm="emmanjura">          <i>emmanjur</i><par n="cultur/a__n"/></e>
 <e lm="èmouè">          <i>èmouè</i><par n="abricot__n"/></e>
 <e lm="empegne">          <i>empegne</i><par n="abayie__n"/></e>
-<e lm="emperor">          <i>empero</i><par n="admirato/r__n"/></e>
+<e lm="emperor">          <i>emperor</i><par n="abricot__n"/></e>
 <e lm="tacon">          <i>tacon</i><par n="abricot__n"/></e>
 <e lm="emplacement">          <i>emplacement</i><par n="abricot__n"/></e>
 <e lm="emplèta">          <i>emplèt</i><par n="cultur/a__n"/></e>
@@ -15348,7 +15364,7 @@
 <e lm="filme">          <i>filme</i><par n="abricot__n"/></e>
 <e lm="ècôrge">          <i>ècôrge</i><par n="abricot__n"/></e>
 <e lm="gone">          <i>gone</i><par n="abricot__n"/></e>
-<e lm="radice">          <i>radice</i><par n="abricot__n"/></e>
+<e lm="radice">          <i>radice</i><par n="abayie__n"/></e>
 <e lm="gène">          <i>gène</i><par n="abricot__n"/></e>
 <e lm="genie">          <i>genie</i><par n="abricot__n"/></e>
 <e lm="golfe">          <i>golfe</i><par n="abricot__n"/></e>
@@ -15990,7 +16006,7 @@
 <e lm="comparèson">          <i>comparèson</i><par n="abayie__n"/></e>
 <e lm="contrefaçon">          <i>contrefaçon</i><par n="abayie__n"/></e>
 <e lm="beneton">          <i>beneton</i><par n="abayie__n"/></e>
-<e lm="cuchon">          <i>cuchon</i><par n="abayie__n"/></e>
+<e lm="cuchon">          <i>cuchon</i><par n="abricot__n"/></e>
 <e lm="couéson">          <i>couéson</i><par n="abayie__n"/></e>
 <e lm="couésson">          <i>couésson</i><par n="abayie__n"/></e>
 <e lm="dèmegèson">          <i>dèmegèson</i><par n="abayie__n"/></e>
@@ -16050,9 +16066,9 @@
 <e lm="reche">          <i>reche</i><par n="enfant__n"/></e>
 <e lm="sornouès">          <i>sornouès</i><par n="borjouès__n"/></e>
 <e lm="vôdouès">          <i>vôdouès</i><par n="borjouès__n"/></e>
-<e lm="libèrâlismo" a="hector">          <i>libèrâlismo</i><par n="abricot__n"/></e>
-<e lm="nèolibèrâlismo" a="hector">          <i>nèolibèrâlismo</i><par n="abricot__n"/></e>
-<e lm="matrice" c="Stich, 16.06.2020">           <i>matrice</i><par n="abayie__n"/></e>
+<e lm="libèralismo" a="Stich, 17.06.20">          <i>libèralismo</i><par n="abricot__n"/></e>
+<e lm="nèolibèralismo" a="Stich, 17.06.20">          <i>nèolibèralismo</i><par n="abricot__n"/></e>
+<e lm="matrice" c="Stich, 16.06.20">           <i>matrice</i><par n="abayie__n"/></e>
 <e lm="consèly">          <i>consèly</i><par n="abricot__n"/></e>
 <e lm="tôrn">          <i>tôrn</i><par n="abricot__n"/></e>
 <e lm="mar">          <i>mar</i><par n="abayie__n"/></e>
@@ -16062,7 +16078,7 @@
 <e lm="ègror">          <i>ègror</i><par n="abayie__n"/></e>
 <e lm="amplor">          <i>amplor</i><par n="abayie__n"/></e>
 <e lm="ardor">          <i>ardor</i><par n="abayie__n"/></e>
-<e lm="ôtonomia" a="hector">          <i>ôtonomi</i><par n="cultur/a__n"/></e>
+<e lm="ôtonomia" a="corpus">          <i>ôtonomi</i><par n="cultur/a__n"/></e>
 <e lm="blanchior">          <i>blanchior</i><par n="abayie__n"/></e>
 <e lm="bravor">          <i>bravor</i><par n="abayie__n"/></e>
 <e lm="chalor">          <i>chalor</i><par n="abayie__n"/></e>
@@ -16071,7 +16087,7 @@
 <e lm="dèdamagement">          <i>dèdamagement</i><par n="abricot__n"/></e>
 <e lm="docior">          <i>docior</i><par n="abayie__n"/></e>
 <e lm="doçor">          <i>doçor</i><par n="abayie__n"/></e>
-<e lm="èconomisto" a="hector">          <i>èconomist</i><par n="anarchist/o__n"/></e>
+<e lm="èconomisto" a="corpus">          <i>èconomist</i><par n="anarchist/o__n"/></e>
 <e lm="èpèssior">          <i>èpèssior</i><par n="abayie__n"/></e>
 <e lm="èrror">          <i>èrror</i><par n="abayie__n"/></e>
 <e lm="favor">          <i>favor</i><par n="abayie__n"/></e>
@@ -16124,9 +16140,9 @@
 <e lm="tor">          <i>tor</i><par n="abayie__n"/></e>
 <e lm="vapor">          <i>vapor</i><par n="abayie__n"/></e>
 <e lm="vigor">          <i>vigor</i><par n="abayie__n"/></e>
-<e lm="rèsilience" a="hector">          <i>rèsilience</i><par n="abayie__n"/></e>
-<e lm="complèxitât" a="hector">          <i>complèxit</i><par n="activit/ât__n"/></e>
-<e lm="nèolitico" a="hector">          <i>nèolitico</i><par n="abricot__n"/></e>
+<e lm="rèsilience" a="corpus">          <i>rèsilience</i><par n="abayie__n"/></e>
+<e lm="complèxitât" a="corpus">          <i>complèxit</i><par n="activit/ât__n"/></e>
+<e lm="nèolitico" a="corpus">          <i>nèolitico</i><par n="abricot__n"/></e>
 <e lm="fllorilèjo">          <i>fllorilèjo</i><par n="abricot__n"/></e>
 <e lm="acustico">          <i>acustico</i><par n="abricot__n"/></e>
 <e lm="éso">          <i>éso</i><par n="abricot__n"/></e>
@@ -16195,6 +16211,7 @@
 <e lm="gringuignotes">          <i>gringuignotes</i><par n="vacances__n"/></e>
 <e lm="cllâf">          <i>cllâf</i><par n="abayie__n"/></e>
 <e lm="molâr">          <i>molâr</i><par n="abayie__n"/></e>
+<e lm="gllacèta">          <i>gllacèta</i><par n="abayie__n"/></e>
 
 <!-- nnnnn -->
 
@@ -16871,7 +16888,7 @@
 <e lm="boufi">          <i>boufi</i><par n="asian__adj"/></e>
 <e lm="bolyi">          <i>bolyi</i><par n="asian__adj"/></e>
 <e lm="chèri">          <i>chèri</i><par n="asian__adj"/></e>
-<e lm="cheti">          <i>cheti</i><par n="asian__adj"/></e>
+<e lm="cheti">          <i>cheti</i><par n="cheti__adj"/></e>
 <e lm="môrtri">          <i>môrtri</i><par n="asian__adj"/></e>
 <e lm="dècati">          <i>dècati</i><par n="asian__adj"/></e>
 <e lm="dècrèpi">          <i>dècrèpi</i><par n="asian__adj"/></e>
@@ -17806,7 +17823,6 @@
 <e lm="sparciato">          <i>sparciat</i><par n="anarchist/o__adj"/></e>
 <e lm="splendido">          <i>splendid</i><par n="anarchist/o__adj"/></e>
 <e lm="stèrilo">          <i>stèril</i><par n="anarchist/o__adj"/></e>
-<e lm="stompo">          <i>stomp</i><par n="anarchist/o__adj"/></e>
 <e lm="stupido">          <i>stupid</i><par n="anarchist/o__adj"/></e>
 <e lm="subaltèrno">          <i>subaltèrn</i><par n="anarchist/o__adj"/></e>
 <e lm="sublimo">          <i>sublim</i><par n="anarchist/o__adj"/></e>
@@ -17872,6 +17888,8 @@
 <e lm="chier">          <i>chier</i><par n="asian__adj"/></e>
 <e lm="mâltru">          <i>mâltru</i><par n="asian__adj"/></e>
 <e lm="mâletru">          <i>mâletru</i><par n="asian__adj"/></e>
+<e lm="mâltrus">          <i>mâltrus</i><par n="borjouès__adj"/></e>
+<e lm="mâletrus">          <i>mâletrus</i><par n="borjouès__adj"/></e>
 <e lm="pèlu">          <i>pèlu</i><par n="asian__adj"/></e>
 <e lm="coucou">          <i>coucou</i><par n="asian__adj"/></e>
 <e lm="quièt">          <i>quièt</i><par n="asian__adj"/></e>
@@ -18119,7 +18137,6 @@
 <e lm="tuche">          <i>tuche</i><par n="fadasse__adj"/></e>
 <e lm="aritmètico">          <i>aritmèti</i><par n="asiati/co__adj"/></e>
 <e lm="bredolye">          <i>bredolye</i><par n="fadasse__adj"/></e>
-<e lm="chetire">          <i>chetire</i><par n="fadasse__adj"/></e>
 <e lm="râre">          <i>râre</i><par n="fadasse__adj"/></e>
 <e lm="complice">          <i>complice</i><par n="fadasse__adj"/></e>
 <e lm="dèmagogue">          <i>dèmagogue</i><par n="fadasse__adj"/></e>
@@ -18197,7 +18214,6 @@
 <e lm="tendu">          <i>tendu</i><par n="asian__adj"/></e>
 <e lm="tofu">          <i>tofu</i><par n="asian__adj"/></e>
 <e lm="arabo">          <i>arab</i><par n="anarchist/o__adj"/></e>
-<e lm="gèologico" a="corpus">          <i>gèologi</i><par n="asiati/co__adj"/></e>
 <e lm="dègôrdi">          <i>dègôrdi</i><par n="asian__adj"/></e>
 <e lm="engôrdi">          <i>engôrdi</i><par n="asian__adj"/></e>
 <e lm="ènemi">          <i>ènemi</i><par n="asian__adj"/></e>
@@ -18214,7 +18230,24 @@
 <e lm="sud" a="Stich, 16.10.20" c="quand en apposition"><i>sud</i><par n="orange__adj"/></e>
 <e lm="sud" a="Stich, 16.10.20"><i>sud</i><par n="personnel__n"/></e>
 <e lm="cllâf">          <i>cllâf</i><par n="fadasse__adj"/></e>
-
+<e lm="chirurgico" a="hector">          <i>chirurgi</i><par n="asiati/co__adj"/></e>
+<e lm="farisien">          <i>farisi</i><par n="afriqu/en__adj"/></e>
+<e lm="revèrsiblo" a="corpus">          <i>revèrsibl</i><par n="anarchist/o__adj"/></e>
+<e lm="irrevèrsiblo" a="corpus">          <i>irrevèrsibl</i><par n="anarchist/o__adj"/></e>
+<e lm="vago" a="Stich">          <i>vag</i><par n="analog/o__adj"/></e>
+<e lm="musical" a="hector">          <i>musical</i><par n="asian__adj"/></e>
+<e lm="cevôla">          <i>cevôl</i><par n="cultur/a__n"/></e>
+<e lm="inègalitât" a="hector">          <i>inègalit</i><par n="activit/ât__n"/></e>
+<e lm="faraon">          <i>faraon</i><par n="asian__n"/></e>
+<e lm="biosféra" a="corpus">          <i>biosfér</i><par n="cultur/a__n"/></e>
+<e lm="idèologia" a="corpus">          <i>idèologi</i><par n="cultur/a__n"/></e>
+<e lm="fragilitât" a="corpus">          <i>fragilit</i><par n="activit/ât__n"/></e>
+<e lm="banquisa" a="corpus">          <i>banquis</i><par n="cultur/a__n"/></e>
+<e lm="camus">          <i>camus</i><par n="borjouès__adj"/></e>
+<e lm="confus">          <i>confus</i><par n="borjouès__adj"/></e>
+<e lm="multinacionâl" a="corpus">          <i>multinacionâl</i><par n="asian__adj"/></e>
+<e lm="chetire">          <i>chetire</i><par n="fadasse__adj"/></e>
+<e lm="rasibus">          <i>rasibus</i><par n="borjouès__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -21650,7 +21683,8 @@ pegner, je pègno !
 <e lm="Asie">          <i>Asie</i><par n="Bulgarie__np"/></e>
 <e lm="Asia" a="Vouiquipèdia"><i>Asia</i><par n="Bulgarie__np"/></e>
 <e lm="France">          <i>France</i><par n="Bulgarie__np"/></e>
-<e lm="China">          <i>Ch</i><par n="·"/><i>ina</i><par n="Bulgarie__np"/></e>
+<!-- <e lm="China">          <i>Ch</i><par n="·"/><i>ina</i><par n="Bulgarie__np"/></e> C'est étrange, mais cela cause "China/China" -->
+<e lm="China">          <i>China</i><par n="Bulgarie__np"/></e>
 <e lm="Inda">          <i>Inda</i><par n="Bulgarie__np"/></e>
 <e lm="Gôla">          <i>Gôla</i><par n="Bulgarie__np"/></e>
 <e lm="Suisse">          <i>Suisse</i><par n="Bulgarie__np"/></e>
