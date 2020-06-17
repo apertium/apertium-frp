@@ -142,6 +142,11 @@ SECTION
 
 # mots individuels
 
+SELECT Masc_strict IF (0 ("il") + Fem_strict) (1 Verb) (2 Noun_Adj + Masc_strict) ;			# 'l est recho
+SELECT Masc_strict IF (0 ("il") + Fem_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Masc_strict) ;	# 'l est brâvament recho
+SELECT Fem_strict IF (0 ("il") + Masc_strict) (1 Verb) (2 Noun_Adj + Fem_strict) ;			# 'l est recha
+SELECT Fem_strict IF (0 ("il") + Masc_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Fem_strict) ;	# 'l est brâvament recha
+
 SELECT ("chamô") IF (0 ("chamôs")) (-1 Num) ;
 SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 A + MascPl) ;
