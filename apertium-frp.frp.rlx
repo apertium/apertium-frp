@@ -168,6 +168,8 @@ REMOVE Itg IF (0 Se) (1 Verb + P3) ;
 
 SELECT Pro IF (0 ("nen")) (1 unknown) ;
 
+SELECT A IF (0 ("quint") + MajIni + &&GenderNumber) (-1 Ant OR unknownMajIni + &&GenderNumber) ;
+
 # étre vbser / vblex (=appartenir)
 
 SELECT V IF (0 Etre) (1 ("a")) (NOT 2 Top OR unknownMajIni) ;			# ére ux Angliès
