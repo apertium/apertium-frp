@@ -153,7 +153,7 @@ SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 PreAdv OR Adv) (2 A + MascPl) ;
 
-SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
+SELECT A IF (0 ("dèrriér") + &&GenderNumber) (1 N + &&GenderNumber) ;	# dèrriér pouent
 
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	# devant la mêson
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	# devant la granta mêson
@@ -161,6 +161,8 @@ SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
 
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
+
+SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
 
 SELECT ("lui") IF (0 ("il")) (-1C Prep) ;
 
@@ -240,9 +242,14 @@ SELECT Adv IF (-1C Verb) (0 A) (1C Det) ;	# amâvont galyârd la guèrra
 
 REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 
+# n / verb
+
+SELECT N IF (-1 ("dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;		# dèrriér pouent
+SELECT N IF (-1 ("avant-dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;	# avant-dèrriér pouent
+
 # n / adj
 
-SELECT Ord IF (0 N) (1 N) ;
+SELECT Ord IF (0 N + &&GenderNumber) (1 N + &&GenderNumber) ;
 
 SELECT A IF (-2 Det + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") OR ("muens")) (0 A + &&GenderNumber) ;	# lo ples fôrt
 SELECT A IF (-2 Noun_Adj + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") OR ("muens")) (0 A + &&GenderNumber) ;	# un poplo ples fôrt
