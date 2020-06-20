@@ -143,10 +143,10 @@ SECTION
 
 # mots individuels
 
-SELECT Masc_strict IF (0 ("il") + Fem_strict) (1 Verb) (2 Noun_Adj + Masc_strict) ;			# 'l est recho
-SELECT Masc_strict IF (0 ("il") + Fem_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Masc_strict) ;	# 'l est brâvament recho
-SELECT Fem_strict IF (0 ("il") + Masc_strict) (1 Verb) (2 Noun_Adj + Fem_strict) ;			# 'l est recha
-SELECT Fem_strict IF (0 ("il") + Masc_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Fem_strict) ;	# 'l est brâvament recha
+SELECT Masc_strict IF (0 ("<'l>") + Fem_strict) (1 Verb) (2 Noun_Adj + Masc_strict) ;			# 'l est recho
+SELECT Masc_strict IF (0 ("<'l>") + Fem_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Masc_strict) ;	# 'l est brâvament recho
+SELECT Fem_strict IF (0 ("<'l>") + Masc_strict) (1 Verb) (2 Noun_Adj + Fem_strict) ;			# 'l est recha
+SELECT Fem_strict IF (0 ("<'l>") + Masc_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Fem_strict) ;	# 'l est brâvament recha
 
 SELECT ("chamô") IF (0 ("chamôs")) (-1 Num) ;
 SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
@@ -211,7 +211,7 @@ REMOVE Tn IF (0C Pro OR Tn) (1 unknown) ;		# tè xxxx
 
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg1) (1 Verb + Sg1) ;
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg2) (1 Verb + Sg2) ;
-SELECT Tn IF (NOT -1 Tn) (0 Tn + Sg3) (1 Verb + Sg3) ;
+SELECT Tn OR Pro IF (NOT -1 Tn) (0 Tn + Sg3) (1 Verb + Sg3) ;	# Louis XIV l’at fêt
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl1) (1 Verb + Pl1) ;	# nos ens avu
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl2) (1 Verb + Pl2) ;	# vos éd avu
 SELECT Tn IF (NOT -1 Tn) (0 Tn + Pl3) (1 Verb + Pl3) ;
@@ -232,7 +232,7 @@ REMOVE Tn + Pl3 IF (0 Tn + Pl3) (NOT 1 Verb + Pl3) (NOT -1 Prep) ;
 SELECT Pro IF (0 Pro) (1 Inf OR Ger) (-1 Prep) ;		# por lyé dére
 SELECT Ref IF (0 ("sè")) (1 Ser + P3) (2 PP) ;			# sè sont disputâ (sic)
 SELECT Ref IF (0 ("sè")) (1 Ser + P3) (2 Adv_PreAdv) (3 PP) ;
-SELECT Tn IF (0 Pro) (NOT 1 Inf OR Ger) ;			# VERIFY
+SELECT Tn OR Pro IF (0 Pro) (NOT 1 Inf OR Ger) ;			# Louis XIV l’at fêt / VERIFY
 
 # adj / adv
 
