@@ -687,7 +687,7 @@
   <e>       <p><l>eles</l>         <r>él<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="châcun__det">
+<pardef n="ôcun__det">
   <e>       <p><l></l>        <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>       <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>       <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
@@ -921,6 +921,13 @@
   <e>       <p><l>èla</l>       <r>él<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>éls</l>       <r>él<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>èles</l>      <r>él<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="flamenc__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>he</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hes</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="jui/f__n">
@@ -4753,6 +4760,7 @@
   <e>       <p><l>esant</l>       <r>âre<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>assévant</l>         <r>âre<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>asévant</l>         <r>âre<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e r="LR" c="stich"><p><l>esiant</l>         <r>âre<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e r="LR"><p><l>aré</l>      <r>âre<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>arés</l>      <r>âre<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -7147,8 +7155,7 @@
 <e lm="gins de">         <i>gins<b/></i><par n="gint_/de__det"/></e>
 <e lm="gint de">         <i>gint<b/></i><par n="gint_/de__det"/></e>
 
-<e lm="ôcun">         <i>ôcun</i><par n="châcun__det"/></e>
-<e lm="châcun">         <i>châcun</i><par n="châcun__det"/></e>
+<e lm="ôcun">         <i>ôcun</i><par n="ôcun__det"/></e>
 <e lm="cèrtin">         <i>cèrt</i><par n="cèrt/in__det"/></e>
 <e lm="châque">         <i>châque</i><par n="châque__det"/></e>
 <e lm="a châ">         <i>a<b/>châ</i><par n="châque__det"/></e>
@@ -7715,6 +7722,8 @@
 
 <e lm="franc">           <i>franc</i><par n="franc__preadv"/></e>
 <e lm="brâvament">           <i>brâvament</i><par n="franc__preadv"/></e>
+<e lm="brâvo" a="alanfavre"><i>brâvo</i><par n="franc__preadv"/></e>
+<e lm="brament" a="alanfavre"><i>brament</i><par n="franc__preadv"/></e>
 <e lm="grôs">           <i>grôs</i><par n="franc__preadv"/></e>
 <e lm="rudo">           <i>rudo</i><par n="franc__preadv"/></e>
 <e lm="très">           <i>très</i><par n="franc__preadv"/></e>
@@ -8411,6 +8420,8 @@
 <e lm="eropèen">           <i>eropè</i><par n="afriqu/en__adj"/></e>
 <e lm="Uropèen">           <i>Uropè</i><par n="afriqu/en__n"/></e>
 <e lm="uropèen">           <i>uropè</i><par n="afriqu/en__adj"/></e>
+<e lm="Uropèan">          <i>Uropèan</i><par n="asian__n"/></e>
+<e lm="uropèan">          <i>uropèan</i><par n="asian__adj"/></e>
 <e lm="Asian">           <i>Asian</i><par n="asian__n"/></e>
 <e lm="asian">           <i>asian</i><par n="asian__adj"/></e>
 <e lm="Asiatico">           <i>Asiati</i><par n="asiati/co__n"/></e>
@@ -11503,8 +11514,6 @@
 <e lm="ôtonèta">          <i>ôtonèt</i><par n="cultur/a__n"/></e>
 <e lm="uro">          <i>uro</i><par n="abricot__n"/></e>
 <e lm="erô">          <i>erô</i><par n="abricot__n"/></e>
-<e lm="eropèen">          <i>eropèen</i><par n="abricot__n"/></e>
-<e lm="uropèen">          <i>uropèen</i><par n="abricot__n"/></e>
 <e lm="èvangilo">          <i>èvangilo</i><par n="abricot__n"/></e>
 <e lm="èvaniment">          <i>èvaniment</i><par n="abricot__n"/></e>
 <e lm="èvèchiê">          <i>èvèchiê</i><par n="abricot__n"/></e>
@@ -16351,7 +16360,6 @@
 <e lm="Èmaresot">          <i>Èmaresot</i><par n="asian__n"/></e>
 <e lm="Injo">          <i>Injo</i><par n="Iran__np"/></e>
 <e lm="N-Injo">          <i>N-Injo</i><par n="Iran__np"/></e>
-<e lm="Uropèan">          <i>Uropèan</i><par n="asian__n"/></e>
 <e lm="Fôcegneran">          <i>Fôcegneran</i><par n="asian__n"/></e>
 <e lm="Felyènsiér">          <i>Felyènsiér</i><par n="aventuriér__n"/></e>
 <e lm="Felyèndiér">          <i>Felyèndiér</i><par n="aventuriér__n"/></e>
@@ -16456,6 +16464,67 @@
 <e lm="bon-temps">      <p><l>bon-temps</l><r>bon-temps<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="bon-temps">      <p><l>bons-temps</l><r>bon-temps<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="étre" a="hector"><i>étre</i><par n="abricot__n"/></e>
+
+<e lm="Arvelenc">          <i>Arvelenc</i><par n="flamenc__n"/></e>
+<e lm="Avesenc">          <i>Avesenc</i><par n="flamenc__n"/></e>
+<e lm="Amavelenc">          <i>Amavelenc</i><par n="flamenc__n"/></e>
+<e lm="Bardelenc">          <i>Bardelenc</i><par n="flamenc__n"/></e>
+<e lm="Bélerenc">          <i>Bélerenc</i><par n="flamenc__n"/></e>
+<e lm="Bionenc">          <i>Bionenc</i><par n="flamenc__n"/></e>
+<e lm="Bônevalenc">          <i>Bônevalenc</i><par n="flamenc__n"/></e>
+<e lm="Bréssognenc">          <i>Bréssognenc</i><par n="flamenc__n"/></e>
+<e lm="Brechonenc">          <i>Brechonenc</i><par n="flamenc__n"/></e>
+<e lm="Chamouèsenc">          <i>Chamouèsenc</i><par n="flamenc__n"/></e>
+<e lm="Charvensolenc">          <i>Charvensolenc</i><par n="flamenc__n"/></e>
+<e lm="Châtelyonenc">          <i>Châtelyonenc</i><par n="flamenc__n"/></e>
+<e lm="Cheserenc">          <i>Cheserenc</i><par n="flamenc__n"/></e>
+<e lm="Cognenc">          <i>Cognenc</i><par n="flamenc__n"/></e>
+<e lm="Creberienc">          <i>Creberienc</i><par n="flamenc__n"/></e>
+<e lm="Cormayorenc">          <i>Cormayorenc</i><par n="flamenc__n"/></e>
+<e lm="Cortmayorenc">          <i>Cortmayorenc</i><par n="flamenc__n"/></e>
+<e lm="Eropèenc">          <i>Eropèenc</i><par n="flamenc__n"/></e>
+<e lm="Fenisenc">          <i>Fenisenc</i><par n="flamenc__n"/></e>
+<e lm="flamenc">          <i>flamenc</i><par n="flamenc__n"/></e>
+<e lm="Fontanamorenc">          <i>Fontanamorenc</i><par n="flamenc__n"/></e>
+<e lm="Gignôlenc">          <i>Gignôlenc</i><par n="flamenc__n"/></e>
+<e lm="Grèssanenc">          <i>Grèssanenc</i><par n="flamenc__n"/></e>
+<e lm="Gruverenc">          <i>Gruverenc</i><par n="flamenc__n"/></e>
+<e lm="Introlenc">          <i>Introlenc</i><par n="flamenc__n"/></e>
+<e lm="Israèlito">          <i>Israèlit</i><par n="anarchist/o__n"/></e>
+<e lm="Issimenc">          <i>Issimenc</i><par n="flamenc__n"/></e>
+<e lm="Issognenc">          <i>Issognenc</i><par n="flamenc__n"/></e>
+<e lm="Jovençanenc">          <i>Jovençanenc</i><par n="flamenc__n"/></e>
+<e lm="Madelenc">          <i>Madelenc</i><par n="flamenc__n"/></e>
+<e lm="Muetrerenc">          <i>Muetrerenc</i><par n="flamenc__n"/></e>
+<e lm="Nimosenc">          <i>Nimosenc</i><par n="flamenc__n"/></e>
+<e lm="Nuvenc">          <i>Nuvenc</i><par n="flamenc__n"/></e>
+<e lm="Nevenc">          <i>Nevenc</i><par n="flamenc__n"/></e>
+<e lm="ponantenc">          <i>ponantenc</i><par n="flamenc__n"/></e>
+<e lm="Olomonenc">          <i>Olomonenc</i><par n="flamenc__n"/></e>
+<e lm="levantenc">          <i>levantenc</i><par n="flamenc__n"/></e>
+<e lm="Damounenc">          <i>Damounenc</i><par n="flamenc__n"/></e>
+<e lm="Pèrlenc">          <i>Pèrlenc</i><par n="flamenc__n"/></e>
+<e lm="Polenc">          <i>Polenc</i><par n="flamenc__n"/></e>
+<e lm="Quartenc">          <i>Quartenc</i><par n="flamenc__n"/></e>
+<e lm="Rocherenc">          <i>Rocherenc</i><par n="flamenc__n"/></e>
+<e lm="Rouèsanenc">          <i>Rouèsanenc</i><par n="flamenc__n"/></e>
+<e lm="Cretoblenc">          <i>Cretoblenc</i><par n="flamenc__n"/></e>
+<e lm="Marcelenc">          <i>Marcelenc</i><par n="flamenc__n"/></e>
+<e lm="Salenc">          <i>Salenc</i><par n="flamenc__n"/></e>
+<e lm="Sarvagnenc">          <i>Sarvagnenc</i><par n="flamenc__n"/></e>
+<e lm="Sarrolenc">          <i>Sarrolenc</i><par n="flamenc__n"/></e>
+<e lm="Sassonenc">          <i>Sassonenc</i><par n="flamenc__n"/></e>
+<e lm="Tounenc">          <i>Tounenc</i><par n="flamenc__n"/></e>
+<e lm="Tuelyenc">          <i>Tuelyenc</i><par n="flamenc__n"/></e>
+<e lm="Torgnolenc">          <i>Torgnolenc</i><par n="flamenc__n"/></e>
+<e lm="Vâldelyenc">          <i>Vâldelyenc</i><par n="flamenc__n"/></e>
+<e lm="Avalenc">          <i>Avalenc</i><par n="flamenc__n"/></e>
+<e lm="Vâlpelenenc">          <i>Vâlpelenenc</i><par n="flamenc__n"/></e>
+<e lm="Vâlsavarenc">          <i>Vâlsavarenc</i><par n="flamenc__n"/></e>
+<e lm="Vâltornenc">          <i>Vâltornenc</i><par n="flamenc__n"/></e>
+<e lm="Vovrienc">          <i>Vovrienc</i><par n="flamenc__n"/></e>
+<e lm="Vœvrienc">          <i>Vœvrienc</i><par n="flamenc__n"/></e>
+<e lm="Vuernerenc">          <i>Vuernerenc</i><par n="flamenc__n"/></e>
 
 <!-- nnnnn -->
 
@@ -17709,7 +17778,6 @@
 <e lm="plan">          <i>plan</i><par n="asian__adj"/></e>
 <e lm="roman">          <i>roman</i><par n="asian__adj"/></e>
 <e lm="san">          <i>san</i><par n="asian__adj"/></e>
-<e lm="uropèan">          <i>uropèan</i><par n="asian__adj"/></e>
 <e lm="valêsan">          <i>valêsan</i><par n="asian__adj"/></e>
 <e lm="van">          <i>van</i><par n="asian__adj"/></e>
 <e lm="vètèran">          <i>vètèran</i><par n="asian__adj"/></e>
@@ -18639,6 +18707,8 @@
 <e lm="Pouètiérs"><i>Pouètiérs</i><par n="Iran__np"/></e>
 <e lm="Jèrusalêm"><i>Jèrusalêm</i><par n="Iran__np"/></e>
 <e lm="Charlomagno"><i>Charlomagno</i><par n="Jian__np"/></e>
+<e lm="Jèsus"><i>Jèsus</i><par n="Jian__np"/></e>
+<e lm="Jèsus-Crist"><i>Jèsus-Crist</i><par n="Jian__np"/></e>
 <e lm="Jian">          <i>Jian</i><par n="Jian__np"/></e>
 <e lm="Jean">          <i>Jean</i><par n="Jian__np"/></e>
 <e lm="Luc">          <i>Luc</i><par n="Jian__np"/></e>
@@ -22126,6 +22196,9 @@ pegner, je pègno !
 <e lm="Ôtriche">          <i>Ôtriche</i><par n="Bulgarie__np"/></e>
 <e lm="Èspagne">          <i>Èspagne</i><par n="Bulgarie__np"/></e>
 <e lm="Piemont">          <i>Piemont</i><par n="Iran__np"/></e>
+
+<e lm="Euro">            <i>Euro</i><par n="Wikipedia__np"/></e>
+<e lm="Eurobasket">      <i>Eurobasket</i><par n="Linux__np"/></e>
 
   </section>
 
