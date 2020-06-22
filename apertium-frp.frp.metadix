@@ -8214,6 +8214,20 @@
 <e lm="vagament" a="Stich">          <i>vagament</i><par n="avant__adv"/></e>
 <e lm="musicalament" a="hector">          <i>musicalament</i><par n="avant__adv"/></e>
 <e lm="sevèrament" a="hector">          <i>sevèrament</i><par n="avant__adv"/></e>
+<e lm="tôs los ans" a="alanfavre">          <i>tôs<b/>los<b/>ans</i><par n="avant__adv"/></e>
+<e lm="en quèstion" a="alanfavre">          <i>en<b/>quèstion</i><par n="avant__adv"/></e>
+<e lm="u contrèro" a="alanfavre">          <i>u<b/>contrèro</i><par n="avant__adv"/></e>
+<e lm="de façon dèmocratica" a="alanfavre">          <i>de<b/>façon<b/>dèmocratica</i><par n="avant__adv"/></e>
+<e lm="durament" a="alanfavre">          <i>durament</i><par n="avant__adv"/></e>
+<e lm="en prêson" a="alanfavre">          <i>en<b/>prêson</i><par n="avant__adv"/></e>
+<e lm="en fôx" a="alanfavre">          <i>en<b/>fôx</i><par n="avant__adv"/></e>
+<e lm="de façon formèla" a="alanfavre">          <i>de<b/>façon<b/>formèla</i><par n="avant__adv"/></e>
+<e lm="de façon enstitucionèla" a="alanfavre">          <i>de<b/>façon<b/>enstitucionèla</i><par n="avant__adv"/></e>
+<e lm="uvèrtament" a="alanfavre">          <i>uvèrtament</i><par n="avant__adv"/></e>
+<e lm="relativament" a="alanfavre">          <i>relativament</i><par n="avant__adv"/></e>
+<e lm="en mémo temps" a="alanfavre">          <i>en<b/>mémo<b/>temps</i><par n="avant__adv"/></e>
+<e lm="de façon sembolica" a="alanfavre">          <i>de<b/>façon<b/>sembolica</i><par n="avant__adv"/></e>
+<e lm="de façon sistèmatica" a="alanfavre">          <i>de<b/>façon<b/>sistèmatica</i><par n="avant__adv"/></e>
 
 <!-- bbbbbb -->
 
@@ -18745,6 +18759,124 @@
 <e lm="zambien">          <i>zambi</i><par n="afriqu/en__adj"/></e>
 <e lm="zimbabouès">          <i>zimbabouès</i><par n="borjouès__adj"/></e>
 
+<e lm="abstrèt" a="alanfavre">          <i>abstrèt</i><par n="asian__adj"/></e>
+<e lm="accèptâblo" a="alanfavre">          <i>accèptâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="acusator" a="alanfavre">          <i>acusato</i><par n="admirato/r__adj"/></e>
+<e lm="adaptâ" a="alanfavre">          <i>adapt</i><par n="acharn/â__adj"/></e>
+<e lm="adjuent" a="alanfavre">          <i>adjuent</i><par n="asian__adj"/></e>
+<e lm="administratif" a="alanfavre">          <i>administrati</i><par n="acti/f__adj"/></e>
+<e lm="agroalimentèro" a="alanfavre">          <i>agroalimentèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="anuèl" a="alanfavre">          <i>anuèl</i><par n="asian__adj"/></e>
+<e lm="associatif" a="alanfavre">          <i>associati</i><par n="acti/f__adj"/></e>
+<e lm="atlètico" a="alanfavre">          <i>atlèti</i><par n="asiati/co__adj"/></e>
+<e lm="recognu" a="alanfavre">          <i>recognu</i><par n="asian__adj"/></e>
+<e lm="volontéro" a="alanfavre">          <i>volontér</i><par n="anarchist/o__adj"/></e>
+<e lm="bruto" a="alanfavre">          <i>brut</i><par n="anarchist/o__adj"/></e>
+<e lm="brutal" a="alanfavre">          <i>brutal</i><par n="asian__adj"/></e>
+<e lm="budgètèro" a="alanfavre">          <i>budgètèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="cronico" a="alanfavre">          <i>croni</i><par n="asiati/co__adj"/></e>
+<e lm="colèctif" a="alanfavre">          <i>colècti</i><par n="acti/f__adj"/></e>
+<e lm="comunôtèro" a="alanfavre">          <i>comunôtèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="compliço" a="alanfavre">          <i>compliç</i><par n="anarchist/o__adj"/></e>
+<e lm="concrèt" a="alanfavre">          <i>concrèt</i><par n="asian__adj"/></e>
+<e lm="conflictuèl" a="alanfavre">          <i>conflictuèl</i><par n="asian__adj"/></e>
+<e lm="controlâblo" a="alanfavre">          <i>controlâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="coopèrator" a="alanfavre">          <i>coopèrato</i><par n="admirato/r__adj"/></e>
+<e lm="coopèratif" a="alanfavre">          <i>coopèrati</i><par n="acti/f__adj"/></e>
+<e lm="corrèccionèl" a="alanfavre">          <i>corrèccionèl</i><par n="asian__adj"/></e>
+<e lm="corruptor" a="alanfavre">          <i>corrupto</i><par n="admirato/r__adj"/></e>
+<e lm="critico" a="alanfavre">          <i>criti</i><par n="asiati/co__adj"/></e>
+<e lm="dècllenchior" a="alanfavre">          <i>dècllenchio</i><par n="admirato/r__adj"/></e>
+<e lm="dècrèssent" a="alanfavre">          <i>dècrèssent</i><par n="asian__adj"/></e>
+<e lm="dèmocrato" a="alanfavre">          <i>dèmocrat</i><par n="anarchist/o__adj"/></e>
+<e lm="dèvastator" a="alanfavre">          <i>dèvastato</i><par n="admirato/r__adj"/></e>
+<e lm="disciplinèro" a="alanfavre">          <i>disciplinèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="dissident" a="alanfavre">          <i>dissident</i><par n="asian__adj"/></e>
+<e lm="dinamico" a="alanfavre">          <i>dinami</i><par n="asiati/co__adj"/></e>
+<e lm="èmèrgent" a="alanfavre">          <i>èmèrgent</i><par n="asian__adj"/></e>
+<e lm="èmigrant" a="alanfavre">          <i>èmigrant</i><par n="asian__adj"/></e>
+<e lm="ènèrgètico" a="alanfavre">          <i>ènèrgèti</i><par n="asiati/co__adj"/></e>
+<e lm="ènèrgico" a="alanfavre">          <i>ènèrgi</i><par n="asiati/co__adj"/></e>
+<e lm="environamental" a="alanfavre">          <i>environamental</i><par n="asian__adj"/></e>
+<e lm="environamentalisto" a="alanfavre">          <i>environamentalist</i><par n="anarchist/o__adj"/></e>
+<e lm="èpidèmiologico" a="alanfavre">          <i>èpidèmiologi</i><par n="asiati/co__adj"/></e>
+<e lm="ègzemplèro" a="alanfavre">          <i>ègzemplèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="ègzigent" a="alanfavre">          <i>ègzigent</i><par n="asian__adj"/></e>
+<e lm="ègzigiblo" a="alanfavre">          <i>ègzigibl</i><par n="anarchist/o__adj"/></e>
+<e lm="fiscal" a="alanfavre">          <i>fiscal</i><par n="asian__adj"/></e>
+<e lm="formèl" a="alanfavre">          <i>formèl</i><par n="asian__adj"/></e>
+<e lm="frondor" a="alanfavre">          <i>frondo</i><par n="admirato/r__adj"/></e>
+<e lm="gèopolitico" a="alanfavre">          <i>g</i><par n="·"/><i>èopoliti</i><par n="asiati/co__adj"/></e>
+<e lm="historico" a="alanfavre">          <i>histori</i><par n="asiati/co__adj"/></e>
+<e lm="ilègal" a="alanfavre">          <i>ilègal</i><par n="asian__adj"/></e>
+<e lm="imigrant" a="alanfavre">          <i>imigrant</i><par n="asian__adj"/></e>
+<e lm="imuno" a="alanfavre">          <i>imun</i><par n="anarchist/o__adj"/></e>
+<e lm="empèratif" a="alanfavre">          <i>empèrati</i><par n="acti/f__adj"/></e>
+<e lm="emproductif" a="alanfavre">          <i>emproducti</i><par n="acti/f__adj"/></e>
+<e lm="inaccèptâblo" a="alanfavre">          <i>inaccèptâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="encontrolâblo" a="alanfavre">          <i>encontrolâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="enformèl" a="alanfavre">          <i>enformèl</i><par n="asian__adj"/></e>
+<e lm="enfraroge" a="alanfavre">          <i>enfraroge</i><par n="fadasse__adj"/></e>
+<e lm="inicial" a="alanfavre">          <i>inicial</i><par n="asian__adj"/></e>
+<e lm="enstitucionèl" a="alanfavre">          <i>enstitucionèl</i><par n="asian__adj"/></e>
+<e lm="ensurmontâblo" a="alanfavre">          <i>ensurmontâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="entèrno" a="alanfavre">          <i>entèrn</i><par n="anarchist/o__adj"/></e>
+<e lm="entolèrant" a="alanfavre">          <i>entolèrant</i><par n="asian__adj"/></e>
+<e lm="entransigent" a="alanfavre">          <i>entransigent</i><par n="asian__adj"/></e>
+<e lm="envèstissor" a="alanfavre">          <i>envèstisso</i><par n="admirato/r__adj"/></e>
+<e lm="islamico" a="alanfavre">          <i>islami</i><par n="asiati/co__adj"/></e>
+<e lm="islamisto" a="alanfavre">          <i>islamist</i><par n="anarchist/o__adj"/></e>
+<e lm="légalisto" a="alanfavre">          <i>légalist</i><par n="anarchist/o__adj"/></e>
+<e lm="ludico" a="alanfavre">          <i>ludi</i><par n="asiati/co__adj"/></e>
+<e lm="majoritèro" a="alanfavre">          <i>majoritèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="matriarcal" a="alanfavre">          <i>matriarcal</i><par n="asian__adj"/></e>
+<e lm="maximal" a="alanfavre">          <i>maximal</i><par n="asian__adj"/></e>
+<e lm="mètropoliten" a="alanfavre">          <i>mètropolit</i><par n="afriqu/en__adj"/></e>
+<e lm="migrant" a="alanfavre">          <i>migrant</i><par n="asian__adj"/></e>
+<e lm="migrator" a="alanfavre">          <i>migrato</i><par n="admirato/r__adj"/></e>
+<e lm="minimal" a="alanfavre">          <i>minimal</i><par n="asian__adj"/></e>
+<e lm="ministèrièl" a="alanfavre">          <i>ministèrièl</i><par n="asian__adj"/></e>
+<e lm="minoritèro" a="alanfavre">          <i>minoritèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="mondial" a="alanfavre">          <i>mondial</i><par n="asian__adj"/></e>
+<e lm="mondialisto" a="alanfavre">          <i>mondialist</i><par n="anarchist/o__adj"/></e>
+<e lm="musclâ" a="alanfavre">          <i>muscl</i><par n="acharn/â__adj"/></e>
+<e lm="objèctif" a="alanfavre">          <i>objècti</i><par n="acti/f__adj"/></e>
+<e lm="oculto" a="alanfavre">          <i>ocult</i><par n="anarchist/o__adj"/></e>
+<e lm="paradoxal" a="alanfavre">          <i>paradoxal</i><par n="asian__adj"/></e>
+<e lm="paramètrico" a="alanfavre">          <i>paramètri</i><par n="asiati/co__adj"/></e>
+<e lm="patriarcal" a="alanfavre">          <i>patriarcal</i><par n="asian__adj"/></e>
+<e lm="passiblo" a="alanfavre">          <i>passibl</i><par n="anarchist/o__adj"/></e>
+<e lm="pèrformant" a="alanfavre">          <i>pèrformant</i><par n="asian__adj"/></e>
+<e lm="planètèro" a="alanfavre">          <i>planètèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="prèconçu" a="alanfavre">          <i>prèconçu</i><par n="asian__adj"/></e>
+<e lm="prèliminèro" a="alanfavre">          <i>prèliminèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="prèventif" a="alanfavre">          <i>prèventi</i><par n="acti/f__adj"/></e>
+<e lm="prioritèro" a="alanfavre">          <i>prioritèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="productor" a="alanfavre">          <i>producto</i><par n="admirato/r__adj"/></e>
+<e lm="productif" a="alanfavre">          <i>producti</i><par n="acti/f__adj"/></e>
+<e lm="progrèssif" a="alanfavre">          <i>progrèssi</i><par n="acti/f__adj"/></e>
+<e lm="protèccionisto" a="alanfavre">          <i>protèccionist</i><par n="anarchist/o__adj"/></e>
+<e lm="punissâblo" a="alanfavre">          <i>punissâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="radiox" a="alanfavre">          <i>radio</i><par n="ambicio/x__adj"/></e>
+<e lm="rècidivisto" a="alanfavre">          <i>rècidivist</i><par n="anarchist/o__adj"/></e>
+<e lm="rèfèrent" a="alanfavre">          <i>rèfèrent</i><par n="asian__adj"/></e>
+<e lm="rèsilyent" a="alanfavre">          <i>rèsilyent</i><par n="asian__adj"/></e>
+<e lm="rèvèlator" a="alanfavre">          <i>rèvèlato</i><par n="admirato/r__adj"/></e>
+<e lm="spècifico" a="alanfavre">          <i>spècifi</i><par n="asiati/co__adj"/></e>
+<e lm="stratègico" a="alanfavre">          <i>stratègi</i><par n="asiati/co__adj"/></e>
+<e lm="subjèctif" a="alanfavre">          <i>subjècti</i><par n="acti/f__adj"/></e>
+<e lm="sembolico" a="alanfavre">          <i>semboli</i><par n="asiati/co__adj"/></e>
+<e lm="sempatico" a="alanfavre">          <i>sempati</i><par n="asiati/co__adj"/></e>
+<e lm="sistèmatico" a="alanfavre">          <i>sistèmati</i><par n="asiati/co__adj"/></e>
+<e lm="tolèrant" a="alanfavre">          <i>tolèrant</i><par n="asian__adj"/></e>
+<e lm="transformator" a="alanfavre">          <i>transformato</i><par n="admirato/r__adj"/></e>
+<e lm="ultraviolèt" a="alanfavre">          <i>ultraviolèt</i><par n="asian__adj"/></e>
+<e lm="univoco" a="alanfavre">          <i>univo</i><par n="asiati/co__adj"/></e>
+<e lm="de la paroche" a="alanfavre">          <i>de la paroche</i><par n="orange__adj"/></e>
+<e lm="de recllâma" a="alanfavre">          <i>de recllâma</i><par n="orange__adj"/></e>
+<e lm="de mémo temps" a="alanfavre">          <i>de mémo temps</i><par n="orange__adj"/></e>
+<e lm="de cura" a="alanfavre">          <i>de cura</i><par n="orange__adj"/></e>
+
 <!-- aaaaaaa -->
 
 <!-- NP -->
@@ -19077,7 +19209,8 @@
 <e lm="recuvrir">            <i>rec</i><par n="c/uvrir__vblex"/></e>
 <e lm="alar">          <i></i><par n="/alar__vblex"/></e>
 
-<e lm="fére">            <i>f</i><par n="f/âre__vblex"/></e>
+<e lm="fâre">            <i>f</i><par n="f/âre__vblex"/></e>
+<e lm="fâre sembllant" a="alanfavre"><i>f</i><par n="f/âre__vblex"/><p><l><b/>sembllant</l><r><g><b/>sembllant</g></r></p></e>
 <e lm="vêre">            <i>v</i><par n="v/êre__vblex"/></e>
 <e lm="entrevêre">            <i>entrev</i><par n="v/êre__vblex"/></e>
 <e lm="revêre">            <i>rev</i><par n="v/êre__vblex"/></e>
@@ -22185,6 +22318,72 @@
 <e lm="dèvaluar" a="corpus">          <i>dèvalu</i><par n="chant/ar__vblex"/></e>
 <e lm="afrontar" a="stich">          <i>afront</i><par n="chant/ar__vblex"/></e>
 <e lm="placiér">          <i>pla</i><par n="avan/ciér__vblex"/></e>
+
+<e lm="aquérir" a="alanfavre">          <i>aquér</i><par n="fen/ir__vblex"/></e>
+<e lm="alyér" a="alanfavre">          <i>aly</i><par n="pay/ér__vblex"/></e>
+<e lm="altèrnar" a="alanfavre">          <i>altèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="pulvèrisar" a="alanfavre">          <i>pulvèris</i><par n="chant/ar__vblex"/></e>
+<e lm="recuelyir" a="alanfavre">          <i>recuely</i><par n="fen/ir__vblex"/></e>
+<e lm="concèdar" a="alanfavre">          <i>concèd</i><par n="chant/ar__vblex"/></e>
+<e lm="concèptualisar" a="alanfavre">          <i>concèptualis</i><par n="chant/ar__vblex"/></e>
+<e lm="concrètisar" a="alanfavre">          <i>concrètis</i><par n="chant/ar__vblex"/></e>
+<e lm="condicionar" a="alanfavre">          <i>condicion</i><par n="chant/ar__vblex"/></e>
+<e lm="contractar" a="alanfavre">          <i>contract</i><par n="chant/ar__vblex"/></e>
+<e lm="coopèrar" a="alanfavre">          <i>coopèr</i><par n="chant/ar__vblex"/></e>
+<e lm="cristalisar" a="alanfavre">          <i>cristalis</i><par n="chant/ar__vblex"/></e>
+<e lm="dècllâmar" a="alanfavre">          <i>dècllâm</i><par n="chant/ar__vblex"/></e>
+<e lm="dècontractar" a="alanfavre">          <i>dècontract</i><par n="chant/ar__vblex"/></e>
+<e lm="dèdiér" a="alanfavre">          <i>dèd</i><par n="lèss/iér__vblex"/></e>
+<e lm="dèmocratisar" a="alanfavre">          <i>dèmocratis</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmondialisar" a="alanfavre">          <i>dèmondialis</i><par n="chant/ar__vblex"/></e>
+<e lm="dèpolitisar" a="alanfavre">          <i>dèpolitis</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsenvèstir" a="alanfavre">          <i>dèsenvèst</i><par n="fen/ir__vblex"/></e>
+<e lm="dèstructurar" a="alanfavre">          <i>dèstructur</i><par n="chant/ar__vblex"/></e>
+<e lm="disciplinar" a="alanfavre">          <i>disciplin</i><par n="chant/ar__vblex"/></e>
+<e lm="èmèrgiér" a="alanfavre">          <i>èmèr</i><par n="me/giér__vblex"/></e>
+<e lm="emmagasinar" a="alanfavre">          <i>emmagasin</i><par n="chant/ar__vblex"/></e>
+<e lm="filmar" a="alanfavre">          <i>film</i><par n="chant/ar__vblex"/></e>
+<e lm="galvanisar" a="alanfavre">          <i>galvanis</i><par n="chant/ar__vblex"/></e>
+<e lm="trop usar" a="alanfavre">          <i>trop us</i><par n="chant/ar__vblex"/></e>
+<e lm="imigrar" a="alanfavre">          <i>imigr</i><par n="chant/ar__vblex"/></e>
+<e lm="emplicar" a="alanfavre">          <i>empli</i><par n="man/car__vblex"/></e>
+<e lm="iniciér" a="alanfavre">          <i>ini</i><par n="avan/ciér__vblex"/></e>
+<e lm="enstituar" a="alanfavre">          <i>enstitu</i><par n="chant/ar__vblex"/></e>
+<e lm="enstitucionalisar" a="alanfavre">          <i>enstitucionalis</i><par n="chant/ar__vblex"/></e>
+<e lm="ensurgiér" a="alanfavre">          <i>ensur</i><par n="me/giér__vblex"/></e>
+<e lm="entèrnalisar" a="alanfavre">          <i>entèrnalis</i><par n="chant/ar__vblex"/></e>
+<e lm="entèrposar" a="alanfavre">          <i>entèrpos</i><par n="chant/ar__vblex"/></e>
+<e lm="envèstir" a="alanfavre">          <i>envèst</i><par n="fen/ir__vblex"/></e>
+<e lm="islamisar" a="alanfavre">          <i>islamis</i><par n="chant/ar__vblex"/></e>
+<e lm="musclar" a="alanfavre">          <i>muscl</i><par n="chant/ar__vblex"/></e>
+<e lm="orquèstrar" a="alanfavre">          <i>orquèstr</i><par n="chant/ar__vblex"/></e>
+<e lm="parafar" a="alanfavre">          <i>paraf</i><par n="chant/ar__vblex"/></e>
+<e lm="paramètrar" a="alanfavre">          <i>paramètr</i><par n="chant/ar__vblex"/></e>
+<e lm="podcastar" a="alanfavre">          <i>podcast</i><par n="chant/ar__vblex"/></e>
+<e lm="politisar" a="alanfavre">          <i>politis</i><par n="chant/ar__vblex"/></e>
+<e lm="quadruplar" a="alanfavre">          <i>quadrupl</i><par n="chant/ar__vblex"/></e>
+<e lm="radicalisar" a="alanfavre">          <i>radicalis</i><par n="chant/ar__vblex"/></e>
+<e lm="ravivar" a="alanfavre">          <i>raviv</i><par n="chant/ar__vblex"/></e>
+<e lm="rècidivar" a="alanfavre">          <i>rècidiv</i><par n="chant/ar__vblex"/></e>
+<e lm="rèfèrar" a="alanfavre">          <i>rèfèr</i><par n="chant/ar__vblex"/></e>
+<e lm="règrèssiér" a="alanfavre">          <i>règrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="rèsegnér" a="alanfavre">          <i>rèsegn</i><par n="pay/ér__vblex"/></e>
+<e lm="rèsiliér" a="alanfavre">          <i>rèsil</i><par n="lèss/iér__vblex"/></e>
+<e lm="restructurar" a="alanfavre">          <i>restructur</i><par n="chant/ar__vblex"/></e>
+<e lm="sanccionar" a="alanfavre">          <i>sanccion</i><par n="chant/ar__vblex"/></e>
+<e lm="sèxualisar" a="alanfavre">          <i>sèxualis</i><par n="chant/ar__vblex"/></e>
+<e lm="simular" a="alanfavre">          <i>simul</i><par n="chant/ar__vblex"/></e>
+<e lm="structurar" a="alanfavre">          <i>structur</i><par n="chant/ar__vblex"/></e>
+<e lm="surèstimar" a="alanfavre">          <i>surèstim</i><par n="chant/ar__vblex"/></e>
+<e lm="sembolisar" a="alanfavre">          <i>sembolis</i><par n="chant/ar__vblex"/></e>
+<e lm="sempatisar" a="alanfavre">          <i>sempatis</i><par n="chant/ar__vblex"/></e>
+<e lm="sistèmatisar" a="alanfavre">          <i>sistèmatis</i><par n="chant/ar__vblex"/></e>
+<e lm="tolèrar" a="alanfavre">          <i>tolèr</i><par n="chant/ar__vblex"/></e>
+<e lm="transgrèssiér" a="alanfavre">          <i>transgrèss</i><par n="lèss/iér__vblex"/></e>
+<e lm="uniformisar" a="alanfavre">          <i>uniformis</i><par n="chant/ar__vblex"/></e>
+<e lm="betar en place" a="alanfavre"><i>bet</i><par n="chant/ar__vblex"/><p><l><b/>en<b/>place</l><r><g><b/>en<b/>place</g></r></p></e>
+<e lm="relevar lo dèfi" a="alanfavre"><i>relev</i><par n="chant/ar__vblex"/><p><l><b/>lo<b/>dèfi</l><r><g><b/>lo<b/>dèfi</g></r></p></e>
+<e lm="enscrire u budgèt" a="alanfavre"><i>enscr</i><par n="ècr/ire__vblex"/><p><l><b/>u<b/>budgèt</l><r><g><b/>u<b/>budgèt</g></r></p></e>
 
 <!-- vvvvvv -->
 
