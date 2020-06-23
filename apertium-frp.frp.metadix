@@ -11203,7 +11203,7 @@
 <e lm="tacon">          <i>tacon</i><par n="abricot__n"/></e>
 <e lm="emplacement">          <i>emplacement</i><par n="abricot__n"/></e>
 <e lm="emplèta">          <i>emplèt</i><par n="cultur/a__n"/></e>
-<e lm="profèssion">          <i>profèssion</i><par n="abricot__n"/></e>
+<e lm="profèssion">          <i>profèssion</i><par n="abayie__n"/></e>
 <e lm="emplê">          <i>emplê</i><par n="abricot__n"/></e>
 <e lm="empront">          <i>empront</i><par n="abricot__n"/></e>
 <e lm="emprontior">          <i>emprontio</i><par n="admirato/r__n"/></e>
@@ -13850,7 +13850,7 @@
 <e lm="pijamâ">          <i>pijamâ</i><par n="abricot__n"/></e>
 <e lm="piramida">          <i>piramid</i><par n="cultur/a__n"/></e>
 <e lm="piton">          <i>piton</i><par n="abricot__n"/></e>
-<e lm="quadruplo">          <i>quadrupl</i><par n="anarchist/o__n"/></e>
+<e lm="quadruplo">          <i>quadruplo</i><par n="abricot__n"/></e>
 <e lm="quê">          <i>quê</i><par n="abricot__n"/></e>
 <e lm="trotior">          <i>trotior</i><par n="abricot__n"/></e>
 <e lm="quarantêna">          <i>quarantên</i><par n="cultur/a__n"/></e>
@@ -13916,8 +13916,6 @@
 <e lm="reng">          <i>reng</i><par n="abricot__n"/></e>
 <e lm="renche">          <i>renche</i><par n="abayie__n"/></e>
 <e lm="tire">          <i>tire</i><par n="abayie__n"/></e>
-<e lm="rengiér">          <i>rengiér</i><par n="aventuriér__n"/></e>
-<e lm="ètoyér">          <i>ètoyér</i><par n="aventuriér__n"/></e>
 <e lm="râpa">          <i>râp</i><par n="cultur/a__n"/></e>
 <e lm="rapido">          <i>rapid</i><par n="anarchist/o__n"/></e>
 <e lm="rêdo">          <i>rêd</i><par n="anarchist/o__n"/></e>
@@ -14917,7 +14915,7 @@
 <e lm="tripa">          <i>trip</i><par n="cultur/a__n"/></e>
 <e lm="treperie">          <i>treperie</i><par n="abayie__n"/></e>
 <e lm="trepiér">          <i>trepiér</i><par n="aventuriér__n"/></e>
-<e lm="triplo">          <i>tripl</i><par n="anarchist/o__n"/></e>
+<e lm="triplo">          <i>triplo</i><par n="abricot__n"/></e>
 <e lm="tripotâjo">          <i>tripotâjo</i><par n="abricot__n"/></e>
 <e lm="tristo">          <i>trist</i><par n="anarchist/o__n"/></e>
 <e lm="tristèsse">          <i>tristèsse</i><par n="abayie__n"/></e>
@@ -15597,7 +15595,7 @@
 <e lm="revenjârd">          <i>revenjârd</i><par n="asian__n"/></e>
 <e lm="rivâl">          <i>rivâl</i><par n="asian__n"/></e>
 <e lm="royâl">          <i>royâl</i><par n="asian__n"/></e>
-<e lm="fin">          <i>fin</i><par n="asian__n"/></e>
+<e lm="fin">          <i>fin</i><par n="abayie__n"/></e>
 <e lm="malin">          <i>malin</i><par n="asian__n"/></e>
 <e lm="sacristin">          <i>sacristin</i><par n="asian__n"/></e>
 <e lm="sanguin">          <i>sanguin</i><par n="asian__n"/></e>
@@ -16744,7 +16742,51 @@
 <e lm="consultâjo" a="alanfavre">          <i>consultâjo</i><par n="abricot__n"/></e>
 <e lm="corrèccionèla" a="alanfavre">          <i>corrèccionèl</i><par n="cultur/a__n"/></e>
 <e lm="prèsidencièla" a="alanfavre">          <i>prèsidencièl</i><par n="cultur/a__n"/></e>
-
+<e lm="reprèsentant" a="stich">          <i>reprèsentant</i><par n="asian__n"/></e>
+<e lm="modèrnitât" a="corpus">          <i>modèrnit</i><par n="activit/ât__n"/></e>
+<e lm="dêgt de pied"><i>dêgt</i><par n="abricot__n"/><p><l><b/>de<b/>pied</l><r><g><b/>de<b/>pied</g></r></p></e>
+<e lm="arc-en-cièl">          <i>arc-en-cièl</i><par n="abricot__n"/></e>
+<e lm="rat-de-mèr">          <i>rat-de-mèr</i><par n="abricot__n"/></e>
+<e lm="corona de Sent-Barnabè"><i>coron</i><par n="cultur/a__n"/><p><l><b/>de<b/>Sent-Barnabè</l><r><g><b/>de<b/>Sent-Barnabè</g></r></p></e>
+<e lm="arc de Sent-Martin"><i>arc</i><par n="abricot__n"/><p><l><b/>de<b/>Sent-Martin</l><r><g><b/>de<b/>Sent-Martin</g></r></p></e>
+<e lm="pouenta du jorn"><i>pouent</i><par n="cultur/a__n"/><p><l><b/>du<b/>jorn</l><r><g><b/>du<b/>jorn</g></r></p></e>
+<e lm="pantalon de cotil"><i>pantalon</i><par n="abricot__n"/><p><l><b/>de<b/>cotil</l><r><g><b/>de<b/>cotil</g></r></p></e>
+<e lm="perét bon Diô"><i>perét</i><par n="abricot__n"/><p><l><b/>bon<b/>Diô</l><r><g><b/>bon<b/>Diô</g></r></p></e>
+<e lm="perét a bon Diô"><i>perét</i><par n="abricot__n"/><p><l><b/>a<b/>bon<b/>Diô</l><r><g><b/>a<b/>bon<b/>Diô</g></r></p></e>
+<e lm="perét de Sant-Martin"><i>perét</i><par n="abricot__n"/><p><l><b/>de<b/>Sant-Martin</l><r><g><b/>de<b/>Sant-Martin</g></r></p></e>
+<e lm="piérra des fayes"><i>piérr</i><par n="cultur/a__n"/><p><l><b/>des<b/>fayes</l><r><g><b/>des<b/>fayes</g></r></p></e>
+<e lm="fuè du cièl"><i>fuè</i><par n="abricot__n"/><p><l><b/>du<b/>cièl</l><r><g><b/>du<b/>cièl</g></r></p></e>
+<e lm="cortil d'enfants"><i>cortil</i><par n="abricot__n"/><p><l><b/>d'enfants</l><r><g><b/>d'enfants</g></r></p></e>
+<e lm="môrt d'un lât"><i>môrt</i><par n="abricot__n"/><p><l><b/>d'un<b/>lât</l><r><g><b/>d'un<b/>lât</g></r></p></e>
+<e lm="paniér de nâs"><i>paniér</i><par n="abricot__n"/><p><l><b/>de<b/>nâs</l><r><g><b/>de<b/>nâs</g></r></p></e>
+<e lm="têla du ventro"><i>têl</i><par n="cultur/a__n"/><p><l><b/>du<b/>ventro</l><r><g><b/>du<b/>ventro</g></r></p></e>
+<e lm="cllâf de la man"><i>cllâf</i><par n="abayie__n"/><p><l><b/>de<b/>la<b/>man</l><r><g><b/>de<b/>la<b/>man</g></r></p></e>
+<e lm="cova de lévro"><i>cov</i><par n="cultur/a__n"/><p><l><b/>de<b/>lévro</l><r><g><b/>de<b/>lévro</g></r></p></e>
+<e lm="téta de lévro"><i>tét</i><par n="cultur/a__n"/><p><l><b/>de<b/>lévro</l><r><g><b/>de<b/>lévro</g></r></p></e>
+<e lm="hotâl de vela"><i>hotâl</i><par n="abricot__n"/><p><l><b/>de<b/>vela</l><r><g><b/>de<b/>vela</g></r></p></e>
+<e lm="hotâl de viala"><i>hotâl</i><par n="abricot__n"/><p><l><b/>de<b/>viala</l><r><g><b/>de<b/>viala</g></r></p></e>
+<e lm="hotâl du dèpartement"><i>hotâl</i><par n="abricot__n"/><p><l><b/>du<b/>dèpartement</l><r><g><b/>du<b/>dèpartement</g></r></p></e>
+<e lm="cova de rat"><i>cov</i><par n="cultur/a__n"/><p><l><b/>de<b/>rat</l><r><g><b/>de<b/>rat</g></r></p></e>
+<e lm="cova de chevâl"><i>cov</i><par n="cultur/a__n"/><p><l><b/>de<b/>chevâl</l><r><g><b/>de<b/>chevâl</g></r></p></e>
+<e lm="cova d'agace"><i>cov</i><par n="cultur/a__n"/><p><l><b/>d'agace</l><r><g><b/>d'agace</g></r></p></e>
+<e lm="bèc de gâzo"><i>bèc</i><par n="abricot__n"/><p><l><b/>de<b/>gâzo</l><r><g><b/>de<b/>gâzo</g></r></p></e>
+<e lm="savon de pêl"><i>savon</i><par n="abricot__n"/><p><l><b/>de<b/>pêl</l><r><g><b/>de<b/>pêl</g></r></p></e>
+<e lm="hotâl d'arrondissement"><i>hotâl</i><par n="abricot__n"/><p><l><b/>d'arrondissement</l><r><g><b/>d'arrondissement</g></r></p></e>
+<e lm="quârt d'an"><i>quârt</i><par n="abricot__n"/><p><l><b/>d'an</l><r><g><b/>d'an</g></r></p></e>
+<e lm="fin de senana"><i>fin</i><par n="abricot__n"/><p><l><b/>de<b/>senana</l><r><g><b/>de<b/>senana</g></r></p></e>
+<e lm="fin de semana"><i>fin</i><par n="abricot__n"/><p><l><b/>de<b/>semana</l><r><g><b/>de<b/>semana</g></r></p></e>
+<e lm="ultraviolèt" a="alanfavre">          <i>ultraviolèt</i><par n="abricot__n"/></e>
+<e lm="volontariât" a="alanfavre">          <i>volontariât</i><par n="abricot__n"/></e>
+<e lm="cacalye" a="alanfavre">          <i>cacalye</i><par n="abayie__n"/></e>
+<e lm="barquèta" a="alanfavre">          <i>barquèt</i><par n="cultur/a__n"/></e>
+<e lm="enfraroge" a="alanfavre">          <i>enfraroge</i><par n="abricot__n"/></e>
+<e lm="iniciala" a="alanfavre">          <i>inicial</i><par n="cultur/a__n"/></e>
+<e lm="iniciê" a="alanfavre">          <i>iniciê</i><par n="enfant__n"/></e>
+<e lm="entransigence" a="alanfavre">          <i>entransigence</i><par n="abayie__n"/></e>
+<e lm="rècidiva" a="alanfavre">          <i>rècidiv</i><par n="cultur/a__n"/></e>
+<e lm="restructuracion" a="alanfavre">          <i>restructuracion</i><par n="abayie__n"/></e>
+<e lm="terior de plans" a="alanfavre"><i>terio</i><par n="admirato/r__n"/><p><l><b/>de<b/>plans</l><r><g><b/>de<b/>plans</g></r></p></e>
+<e lm="côp d'ètat" a="alanfavre"><i>côp</i><par n="abricot__n"/><p><l><b/>d'ètat</l><r><g><b/>d'ètat</g></r></p></e>
 
 <!-- nnnnn -->
 
@@ -18248,7 +18290,8 @@
 <e lm="assidu">          <i>assidu</i><par n="asian__adj"/></e>
 <e lm="refêt">          <i>refêt</i><par n="asian__adj"/></e>
 <e lm="ôvèrgnat">          <i>ôvèrgnat</i><par n="asian__adj"/></e>
-<e lm="tire-sou">          <i>tire-sou</i><par n="asian__adj"/></e>
+<e lm="tire-sou">          <i>tire-sou</i><par n="fadasse__adj"/></e>
+<e lm="tire-sou">          <i>tire-sou</i><par n="enfant__n"/></e>
 <e lm="barbu">          <i>barbu</i><par n="asian__adj"/></e>
 <e lm="benêt">          <i>benêt</i><par n="asian__adj"/></e>
 <e lm="benvenu">          <i>benvenu</i><par n="asian__adj"/></e>
@@ -19064,18 +19107,13 @@
 <e lm="de recllâma" a="alanfavre">          <i>de recllâma</i><par n="orange__adj"/></e>
 <e lm="de mémo temps" a="alanfavre">          <i>de mémo temps</i><par n="orange__adj"/></e>
 <e lm="de cura" a="alanfavre">          <i>de cura</i><par n="orange__adj"/></e>
-<e lm="ultraviolèt" a="alanfavre">          <i>ultraviolèt</i><par n="abricot__n"/></e>
-<e lm="volontariât" a="alanfavre">          <i>volontariât</i><par n="abricot__n"/></e>
-<e lm="cacalye" a="alanfavre">          <i>cacalye</i><par n="abayie__n"/></e>
-<e lm="barquèta" a="alanfavre">          <i>barquèt</i><par n="cultur/a__n"/></e>
-<e lm="enfraroge" a="alanfavre">          <i>enfraroge</i><par n="abricot__n"/></e>
-<e lm="iniciala" a="alanfavre">          <i>inicial</i><par n="cultur/a__n"/></e>
-<e lm="iniciê" a="alanfavre">          <i>iniciê</i><par n="enfant__n"/></e>
-<e lm="entransigence" a="alanfavre">          <i>entransigence</i><par n="abayie__n"/></e>
-<e lm="rècidiva" a="alanfavre">          <i>rècidiv</i><par n="cultur/a__n"/></e>
-<e lm="restructuracion" a="alanfavre">          <i>restructuracion</i><par n="abayie__n"/></e>
-<e lm="terior de plans" a="alanfavre"><i>terio</i><par n="admirato/r__n"/><p><l><b/>de<b/>plans</l><r><g><b/>de<b/>plans</g></r></p></e>
-<e lm="côp d'ètat" a="alanfavre"><i>côp</i><par n="abricot__n"/><p><l><b/>d'ètat</l><r><g><b/>d'ètat</g></r></p></e>
+<e lm="de bôna mèna">          <i>de bôna mèna</i><par n="orange__adj"/></e>
+<e lm="de penta">          <i>de penta</i><par n="orange__adj"/></e>
+<e lm="idèologico" a="corpus">          <i>idèologi</i><par n="asiati/co__adj"/></e>
+<e lm="dèsèspèrâ" a="stich">          <i>dèsèspèr</i><par n="acharn/â__adj"/></e>
+<e lm="èspèrâ" a="hector">          <i>èspèr</i><par n="acharn/â__adj"/></e>
+<e lm="saoudito">          <i>saoudit</i><par n="anarchist/o__adj"/></e>
+<e lm="otoman" a="hector">          <i>otoman</i><par n="asian__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -19086,6 +19124,8 @@
 <e lm="Charlomagno"><i>Charlomagno</i><par n="Jian__np"/></e>
 <e lm="Jèsus"><i>Jèsus</i><par n="Jian__np"/></e>
 <e lm="Jèsus-Crist"><i>Jèsus-Crist</i><par n="Jian__np"/></e>
+<e lm="Josèf">          <i>Josèf</i><par n="Jian__np"/></e>
+<e lm="Joseph">          <i>Joseph</i><par n="Jian__np"/></e>
 <e lm="Jian">          <i>Jian</i><par n="Jian__np"/></e>
 <e lm="Jean">          <i>Jean</i><par n="Jian__np"/></e>
 <e lm="Luc">          <i>Luc</i><par n="Jian__np"/></e>
