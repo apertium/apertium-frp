@@ -16988,6 +16988,7 @@
 <e lm="tire-bouchon">          <i>tire-bouchon</i><par n="abricot__n"/></e>
 <e lm="savêr-vivre">          <i>savêr-vivre</i><par n="abricot__n"/></e>
 <e lm="vice-royotât">          <i>vice-royotât</i><par n="abayie__n"/></e>
+<e lm="arc-boutent">          <i>arc-boutent</i><par n="abricot__n"/></e>
 <e lm="kazakh">          <i>kazakh</i><par n="asian__n"/></e>
 <e lm="kazakh">          <i>kazakh</i><par n="asian__adj"/></e>
 
@@ -19333,6 +19334,20 @@
 <e lm="Jèsus-Crist"><i>Jèsus-Crist</i><par n="Jian__np"/></e>
 <e lm="Josèf">          <i>Josèf</i><par n="Jian__np"/></e>
 <e lm="Joseph">          <i>Joseph</i><par n="Jian__np"/></e>
+<e lm="André">          <i>André</i><par n="Jian__np"/></e>
+<e lm="Simon">          <i>Simon</i><par n="Jian__np"/></e>
+<e lm="Matiô">          <i>Matiô</i><par n="Jian__np"/></e>
+<e lm="Mathieu">          <i>Mathieu</i><par n="Jian__np"/></e>
+<e lm="Thomas">          <i>Thomas</i><par n="Jian__np"/></e>
+<e lm="Tomas">          <i>Tomas</i><par n="Jian__np"/></e>
+<e lm="Judas">          <i>Judas</i><par n="Jian__np"/></e>
+<e lm="Tadê">          <i>Tadê</i><par n="Jian__np"/></e>
+<e lm="Pèpin lo Cortèt">          <i>Pèpin<b/>lo<b/>Cortèt</i><par n="Jian__np"/></e>
+<e lm="Charlo Martél">          <i>Charlo<b/>Martél</i><par n="Jian__np"/></e>
+<e lm="Pierre">          <i>Pierre</i><par n="Jian__np"/></e>
+<e lm="Pierro">          <i>Pierro</i><par n="Jian__np"/></e>
+<e lm="Paul">          <i>Paul</i><par n="Jian__np"/></e>
+<e lm="Pol">          <i>Pol</i><par n="Jian__np"/></e>
 <e lm="Jian">          <i>Jian</i><par n="Jian__np"/></e>
 <e lm="Jean">          <i>Jean</i><par n="Jian__np"/></e>
 <e lm="Luc">          <i>Luc</i><par n="Jian__np"/></e>
@@ -19351,7 +19366,10 @@
 <e lm="Philippe">      <i>Philippe</i><par n="Jian__np"/></e>
 <e lm="Èdouard">      <i>Èdouard</i><par n="Jian__np"/></e>
 <e lm="Édouard">      <i>Édouard</i><par n="Jian__np"/></e>
+<e lm="Alèxandro lo Grant">      <i>Alèxandro<b/>lo<b/>Grant</i><par n="Jian__np"/></e>
 
+<e lm="Bourbon">      <i>Bourbon</i><par n="Saussure__np"/></e>
+<e lm="Mèdici">      <i>Mèdici</i><par n="Saussure__np"/></e>
 <e lm="Valouès">      <i>Valouès</i><par n="Saussure__np"/></e>
 <e lm="de Valouès">   <i>de<b/>Valouès</i><par n="Saussure__np"/></e>
 
@@ -23265,6 +23283,35 @@ pegner, je pègno !
 <e lm="Rin">          <i>Rin</i><par n="Iran__np"/></e>
 <e lm="Troyes">          <i>Troyes</i><par n="Bulgarie__np"/></e>
 <e lm="Provence">          <i>Provence</i><par n="Bulgarie__np"/></e>
+<e lm="En" c="reviére">          <i>En</i><par n="Iran__np"/></e>
+<e lm="Bâla">          <i>Bâla</i><par n="Iran__np"/></e>
+<e lm="Gêna">          <i>Gêna</i><par n="Bulgarie__np"/></e>
+<e lm="Gresons">          <i>Gresons</i><par n="États-Unis__np"/></e>
+<e lm="Marengo">          <i>Marengo</i><par n="Iran__np"/></e>
+<e lm="Naple">          <i>Naple</i><par n="États-Unis__np"/></e>
+<e lm="Naplle">          <i>Naplle</i><par n="États-Unis__np"/></e>
+<e lm="Narbona">          <i>Narbona</i><par n="Bulgarie__np"/></e>
+<e lm="Tula">          <i>Tula</i><par n="Bulgarie__np"/></e>
+<e lm="Barcelona" a="Vouiquipèdia">          <i>Barcelona</i><par n="Bulgarie__np"/></e>
+<e lm="Isera">          <i>Isera</i><par n="Bulgarie__np"/></e>
+<e lm="Zurique">          <i>Zurique</i><par n="Iran__np"/></e>
+<e lm="Tsurique">          <i>Tsurique</i><par n="Iran__np"/></e>
+<e lm="Bèrna">          <i>Bèrna</i><par n="Bulgarie__np"/></e>
+<e lm="Geneva">          <i>Geneva</i><par n="Bulgarie__np"/></e>
+<e lm="Atênes">          <i>Atênes</i><par n="Bulgarie__np"/></e>
+<e lm="Mayence">          <i>Mayence</i><par n="Bulgarie__np"/></e>
+<e lm="Padoua">          <i>Padoua</i><par n="Bulgarie__np"/></e>
+<e lm="Pavie">          <i>Pavie</i><par n="Bulgarie__np"/></e>
+<e lm="Ravèna">          <i>Ravèna</i><par n="Bulgarie__np"/></e>
+<e lm="Alinjos">          <i>Alinjos</i><par n="Iran__np"/></e>
+<e lm="Marignan">          <i>Marignan</i><par n="Iran__np"/></e>
+<e lm="Sent-Gale">          <i>Sent-Gale</i><par n="Iran__np"/></e>
+<e lm="Ontrevalde">          <i>Ontrevalde</i><par n="Iran__np"/></e>
+<e lm="Ouri">          <i>Ouri</i><par n="Iran__np"/></e>
+<e lm="Valês">          <i>Valês</i><par n="Iran__np"/></e>
+<e lm="Albi">          <i>Albi</i><par n="Iran__np"/></e>
+<e lm="Fribôrg">          <i>Fribôrg</i><par n="Iran__np"/></e>
+<e lm="Gèssenê">          <i>Gèssenê</i><par n="Iran__np"/></e>
 
 <!-- ttttttt -->
 
