@@ -160,6 +160,8 @@ SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
 
+REMOVE Top IF (-1 BOS) (0 ("en")) ;
+
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
 SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
@@ -259,6 +261,10 @@ SELECT A IF (-2 Noun_Adj + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") 
 REMOVE ("franc") IF (0C N) (0 ("Franc_poplo")) ;
 REMOVE ("franc") IF (0C A) (0 ("franc_poplo")) ;
 SELECT N IF (-1 Num) (0 ("franc")) ;
+
+# n / np
+
+SELECT NP IF (0 MajIni);	# VERIFY (il faut des tas plus de règles)
 
 #
 # Verbos
