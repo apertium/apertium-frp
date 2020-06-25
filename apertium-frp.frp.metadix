@@ -19341,6 +19341,8 @@
 <e lm="Thomas">          <i>Thomas</i><par n="Jian__np"/></e>
 <e lm="Tomas">          <i>Tomas</i><par n="Jian__np"/></e>
 <e lm="Judas">          <i>Judas</i><par n="Jian__np"/></e>
+<e lm="Albert">          <i>Albert</i><par n="Jian__np"/></e>
+<e lm="Albèrt">          <i>Albèrt</i><par n="Jian__np"/></e>
 <e lm="Tadê">          <i>Tadê</i><par n="Jian__np"/></e>
 <e lm="Pèpin lo Cortèt">          <i>Pèpin<b/>lo<b/>Cortèt</i><par n="Jian__np"/></e>
 <e lm="Charlo Martél">          <i>Charlo<b/>Martél</i><par n="Jian__np"/></e>
@@ -23312,6 +23314,16 @@ pegner, je pègno !
 <e lm="Albi">          <i>Albi</i><par n="Iran__np"/></e>
 <e lm="Fribôrg">          <i>Fribôrg</i><par n="Iran__np"/></e>
 <e lm="Gèssenê">          <i>Gèssenê</i><par n="Iran__np"/></e>
+<e lm="Planna">          <i>Planna</i><par n="Bulgarie__np"/></e>
+<e lm="Plana">          <i>Plana</i><par n="Bulgarie__np"/></e>
+<e lm="Ènneci">          <i>Ènneci</i><par n="Iran__np"/></e>
+<e lm="Èneci">          <i>Èneci</i><par n="Iran__np"/></e>
+<e lm="Chablès">          <i>Chablès</i><par n="Iran__np"/></e>
+<e lm="Chambèri">          <i>Chambèri</i><par n="Iran__np"/></e>
+<e lm="Chamônix">          <i>Chamônix</i><par n="Iran__np"/></e>
+<e lm="Chamoniard">          <i>Chamoniard</i><par n="Iran__np"/></e>
+<e lm="Galilê">          <i>Galilê</i><par n="Bulgarie__np"/></e>
+<e lm="Sinay">          <i>Sinay</i><par n="Iran__np"/></e>
 
 <!-- ttttttt -->
 
