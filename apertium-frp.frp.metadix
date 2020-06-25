@@ -3163,8 +3163,8 @@
   <e r="LR"><p><l>cês</l>        <r>ciér<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ciêe</l>        <r>ciér<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>cêe</l>        <r>ciér<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ciêes</l>        <r>icér<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR"><p><l>cêes</l>        <r>icér<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ciêes</l>        <r>cicér<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>cêes</l>        <r>cicér<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>ço</l>         <r>ciér<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ces</l>        <r>ciér<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -8552,7 +8552,7 @@
 
 <e lm="enfant">           <i>enfant</i><par n="enfant__n"/></e>
 
-<e lm="parisien">           <i>parisien</i><par n="parisi/en__n"/></e>
+<e lm="Parisien">           <i>Parisien</i><par n="parisi/en__n"/></e>
 <e lm="parisien">           <i>parisi</i><par n="parisi/en__adj"/></e>
 <e lm="cusin">           <i>cus</i><par n="orfel/in__n"/></e>
 <e lm="orfelin">           <i>orfel</i><par n="orfel/in__n"/></e>
@@ -9971,7 +9971,7 @@
 <e lm="quinquèrna">          <i>quinquèrn</i><par n="cultur/a__n"/></e>
 <e lm="secossa">          <i>secoss</i><par n="cultur/a__n"/></e>
 <e lm="quota">          <i>quot</i><par n="cultur/a__n"/></e>
-<e lm="couta">          <i>cout</i><par n="t/th"/><i></i><par n="cultur/a__n"/></e>
+<e lm="couta">          <i>cou</i><par n="t/th"/><i></i><par n="cultur/a__n"/></e>
 <e lm="cotelèta">          <i>cotelèt</i><par n="cultur/a__n"/></e>
 <e lm="cuchèta">          <i>cuchèt</i><par n="cultur/a__n"/></e>
 <e lm="colovra">          <i>colovr</i><par n="cultur/a__n"/></e>
@@ -15844,7 +15844,7 @@
 <e lm="oftalmologue">          <i>oftalmologue</i><par n="enfant__n"/></e>
 <e lm="pilote">          <i>pilote</i><par n="enfant__n"/></e>
 <e lm="poète">          <i>poète</i><par n="enfant__n"/></e>
-<e lm="prétre">          <i>prétre</i><par n="enfant__n"/></e>
+<e lm="prétre">          <i>prétre</i><par n="abricot__n"/></e>
 <e lm="prince">          <i>prince</i><par n="abricot__n"/></e>
 <e lm="princèssa">          <i>princèssa</i><par n="abayie__n"/></e>
 <e lm="profète">          <i>profète</i><par n="enfant__n"/></e>
@@ -16639,7 +16639,7 @@
 <e lm="Mozambiquês">          <i>Mozambiqu</i><par n="angll/ês__n"/></e>
 <e lm="Namibien">          <i>Namibi</i><par n="afriqu/en__n"/></e>
 <e lm="nèpalês">          <i>nèpal</i><par n="angll/ês__n"/></e>
-<e lm="nicaragoayen">          <i>nicaragoay</i><par n="afriqu/en__n"/></e>
+<e lm="Nicaragoayen">          <i>Nicaragoay</i><par n="afriqu/en__n"/></e>
 <e lm="Nigèrien">          <i>Nigèri</i><par n="afriqu/en__n"/></e>
 <e lm="Nigèrian">          <i>Nigèrian</i><par n="asian__n"/></e>
 <e lm="norvègien">          <i>norvègi</i><par n="afriqu/en__n"/></e>
@@ -16688,7 +16688,7 @@
 <e lm="Tongien">          <i>Tongi</i><par n="afriqu/en__n"/></e>
 <e lm="turkmèno">          <i>turkmèn</i><par n="anarchist/o__n"/></e>
 <e lm="ukrênien">          <i>ukrêni</i><par n="afriqu/en__n"/></e>
-<e lm="urugoayen">          <i>urugoay</i><par n="afriqu/en__n"/></e>
+<e lm="Urugoayen">          <i>Urugoay</i><par n="afriqu/en__n"/></e>
 <e lm="Vènèzuèlien">          <i>Vènèzuèli</i><par n="afriqu/en__n"/></e>
 <e lm="viètnamien">          <i>viètnami</i><par n="afriqu/en__n"/></e>
 <e lm="Yèmènito">          <i>Yèmènit</i><par n="anarchist/o__n"/></e>
@@ -16991,6 +16991,43 @@
 <e lm="arc-boutent">          <i>arc-boutent</i><par n="abricot__n"/></e>
 <e lm="kazakh">          <i>kazakh</i><par n="asian__n"/></e>
 <e lm="kazakh">          <i>kazakh</i><par n="asian__adj"/></e>
+<e lm="mié-jorn">          <i>mié-jorn</i><par n="abricot__n"/></e>
+<e lm="mi-jorn">          <i>mi-jorn</i><par n="abricot__n"/></e>
+<e lm="Alaman">          <i>Alaman</i><par n="asian__n"/></e>
+<e lm="Aquiten">          <i>Aquit</i><par n="afriqu/en__n"/></e>
+<e lm="geomètre">          <i></i><par n="g/g·"/><i>eomètre</i><par n="enfant__n"/></e>
+<e lm="caoutchou">          <i>caoutc</i><par n="h/h·"/><i>ou</i><par n="abricot__n"/></e>
+<e lm="châle">          <i>c</i><par n="h/h·"/><i>âle</i><par n="abricot__n"/></e>
+<e lm="chiendant">          <i>c</i><par n="h/h·"/><i>iendant</i><par n="abricot__n"/></e>
+<e lm="gendârme">          <i></i><par n="g/g·"/><i>endârme</i><par n="enfant__n"/></e>
+<e lm="janre">          <i></i><par n="j/j·"/><i>anre</i><par n="abricot__n"/></e>
+<e lm="rèjant">          <i>rè</i><par n="j/j·"/><i>ant</i><par n="asian__n"/></e>
+<e lm="jèsuito">          <i>jèsuit</i><par n="anarchist/o__n"/></e>
+<e lm="jèsuisto">          <i>jèsuist</i><par n="anarchist/o__n"/></e>
+<e lm="julyèt">          <i></i><par n="j/j·"/><i>ulyèt</i><par n="abricot__n"/></e>
+<e lm="kirghize">          <i>kirghize</i><par n="enfant__n"/></e>
+<e lm="parchèt">          <i>parchèt</i><par n="abricot__n"/></e>
+<e lm="parcâjo">          <i>parcâjo</i><par n="abricot__n"/></e>
+<e lm="parlement">          <i>parlement</i><par n="abricot__n"/></e>
+<e lm="piège">          <i>piè</i><par n="g/g·"/><i>e</i><par n="abricot__n"/></e>
+<e lm="renèssance">          <i>renèssance</i><par n="abayie__n"/></e>
+<e lm="sabat">          <i>sabat</i><par n="abricot__n"/></e>
+<e lm="Scito">          <i>Scit</i><par n="anarchist/o__n"/></e>
+<e lm="unionisto">          <i>unionist</i><par n="anarchist/o__n"/></e>
+<e lm="disciplo" a="stich">          <i>discipl</i><par n="anarchist/o__n"/></e>
+<e lm="centrala" a="hector">          <i>central</i><par n="cultur/a__n"/></e>
+<e lm="coute" a="Vouiquipèdia">          <i>coute</i><par n="abayie__n"/></e>
+<e lm="châle">          <i>c</i><par n="h/h·"/><i>âle</i><par n="abricot__n"/></e>
+<e lm="corintien">          <i>corinti</i><par n="afriqu/en__n"/></e>
+<e lm="Èfèsien">          <i>Èfèsi</i><par n="afriqu/en__n"/></e>
+<e lm="forézien">          <i>forézi</i><par n="afriqu/en__n"/></e>
+<e lm="Samariten">          <i>Samarit</i><par n="afriqu/en__n"/></e>
+<e lm="caldèen">          <i>caldè</i><par n="afriqu/en__adj"/></e>
+<e lm="corintien">          <i>corinti</i><par n="afriqu/en__adj"/></e>
+<e lm="èfèsien">          <i>èfèsi</i><par n="afriqu/en__adj"/></e>
+<e lm="forézien">          <i>forézi</i><par n="afriqu/en__adj"/></e>
+<e lm="mètropolitan">          <i>mètropolitan</i><par n="asian__adj"/></e>
+<e lm="samariten">          <i>samarit</i><par n="afriqu/en__adj"/></e>
 
 <!-- nnnnn -->
 
@@ -19322,6 +19359,21 @@
 <e lm="polonês">          <i>polon</i><par n="angll/ês__adj"/></e>
 <e lm="dèmografico" a="hector">          <i>dèmografi</i><par n="asiati/co__adj"/></e>
 <e lm="rètorico">          <i>rètori</i><par n="asiati/co__adj"/></e>
+<e lm="alaman">          <i>alaman</i><par n="asian__adj"/></e>
+<e lm="amorrito">          <i>amorrit</i><par n="anarchist/o__adj"/></e>
+<e lm="anècien">          <i>anèci</i><par n="afriqu/en__adj"/></e>
+<e lm="aquiten">          <i>aquit</i><par n="afriqu/en__adj"/></e>
+<e lm="atênien">          <i>atêni</i><par n="afriqu/en__adj"/></e>
+<e lm="bregognon">          <i>bregognon</i><par n="asian__adj"/></e>
+<e lm="borguegnon">          <i>borguegnon</i><par n="asian__adj"/></e>
+<e lm="comtês">          <i>comt</i><par n="angll/ês__adj"/></e>
+<e lm="cuanês">          <i>cuan</i><par n="angll/ês__adj"/></e>
+<e lm="ionien">          <i>ioni</i><par n="afriqu/en__adj"/></e>
+<e lm="romanèsco">          <i>romanès</i><par n="asiati/co__adj"/></e>
+<e lm="scito">          <i>scit</i><par n="anarchist/o__adj"/></e>
+<e lm="tèssalonicien">          <i>tèssalonici</i><par n="afriqu/en__adj"/></e>
+<e lm="unionisto">          <i>unionist</i><par n="anarchist/o__adj"/></e>
+<e lm="central" a="hector">          <i>central</i><par n="asian__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -22925,7 +22977,8 @@ pegner, je pègno !
 <e lm="Indes">          <i>Indes</i><par n="Alemagnes__np"/></e>
 <e lm="Gôla">          <i>Gôla</i><par n="Bulgarie__np"/></e>
 <e lm="Suisse">          <i>Suisse</i><par n="Bulgarie__np"/></e>
-<e lm="Belgique">          <i>Belgique</i><par n="Bulgarie__np"/></e>
+<e lm="Belgique">          <i>Bel</i><par n="g/g·"/><i>ique</i><par n="Bulgarie__np"/></e>
+<e lm="Bèlgica" a="Vouiquipèdia"><i>Bèl</i><par n="g/g·"/><i>ica</i><par n="Bulgarie__np"/></e>
 <e lm="Italie">          <i>Italie</i><par n="Bulgarie__np"/></e>
 <e lm="Étalie">          <i>Étalie</i><par n="Bulgarie__np"/></e>
 <e lm="Étalia" a="Vouiquipèdia"><i>Étalia</i><par n="Bulgarie__np"/></e>
@@ -22934,6 +22987,7 @@ pegner, je pègno !
 <e lm="Ôtriche">          <i>Ôtric</i><par n="h/h·"/><i>e</i><par n="Bulgarie__np"/></e>
 <e lm="Èspagne">          <i>Èspagne</i><par n="Bulgarie__np"/></e>
 <e lm="Piemont">          <i>Piemont</i><par n="Iran__np"/></e>
+<e lm="Tchèquie">          <i>Tc</i><par n="h/h·"/><i>èquie</i><par n="Bulgarie__np"/></e>
 
 <e lm="Euro">            <i>Euro</i><par n="Wikipedia__np"/></e>
 <e lm="Eurobasket">      <i>Eurobasket</i><par n="Linux__np"/></e>
@@ -23324,6 +23378,54 @@ pegner, je pègno !
 <e lm="Chamoniard">          <i>Chamoniard</i><par n="Iran__np"/></e>
 <e lm="Galilê">          <i>Galilê</i><par n="Bulgarie__np"/></e>
 <e lm="Sinay">          <i>Sinay</i><par n="Iran__np"/></e>
+<e lm="Èx">          <i>Èx</i><par n="Iran__np"/></e>
+<e lm="Arbèrtvile">          <i>Arbèrtvile</i><par n="Bulgarie__np"/></e>
+<e lm="Borgogne">          <i>Borgogne</i><par n="Bulgarie__np"/></e>
+<e lm="Lêre">          <i>Lêre</i><par n="Bulgarie__np"/></e>
+<e lm="Antioche">          <i>Antioc</i><par n="h/h·"/><i>e</i><par n="Bulgarie__np"/></e>
+<e lm="Michigan" a="Vouiquipèdia">          <i>Mic</i><par n="h/h·"/><i>igan</i><par n="Iran__np"/></e>
+<e lm="Aquitania" a="Vouiquipèdia">          <i>Aquitania</i><par n="Bulgarie__np"/></e>
+<e lm="Gaza">          <i>Gaza</i><par n="Bulgarie__np"/></e>
+<e lm="Nazarèt">          <i>Nazarèt</i><par n="Iran__np"/></e>
+<e lm="Champagne" a="Vouiquipèdia">          <i>Champagne</i><par n="Bulgarie__np"/></e>
+<e lm="Ardenes" a="Vouiquipèdia">          <i>Ardenes</i><par n="Alemagnes__np"/></e>
+<e lm="Ardena" a="Vouiquipèdia">          <i>Ardena</i><par n="Bulgarie__np"/></e>
+<e lm="Corse" a="Vouiquipèdia">          <i>Corse</i><par n="Bulgarie__np"/></e>
+<e lm="Franche-Comtât" a="Vouiquipèdia">          <i>Franche-Comtât</i><par n="Bulgarie__np"/></e>
+<e lm="Ila-de-France" a="Vouiquipèdia">          <i>Ila-de-France</i><par n="Bulgarie__np"/></e>
+<e lm="Lengouadoc" a="Vouiquipèdia">          <i>Lengouadoc</i><par n="Iran__np"/></e>
+<e lm="Rosselyon" a="Vouiquipèdia">          <i>Rosselyon</i><par n="Iran__np"/></e>
+<e lm="Limosin" a="Vouiquipèdia">          <i>Limosin</i><par n="Iran__np"/></e>
+<e lm="Mié-jorn-Pirènês" a="Vouiquipèdia">          <i>Mié-jorn-Pirènês</i><par n="Iran__np"/></e>
+<e lm="Calês" a="Vouiquipèdia">          <i>Calês</i><par n="Iran__np"/></e>
+<e lm="Bâssa-Normandie" a="Vouiquipèdia">          <i>Bâssa-Normandie</i><par n="Bulgarie__np"/></e>
+<e lm="Hôta-Normandie" a="Vouiquipèdia">          <i>Hôta-Normandie</i><par n="Bulgarie__np"/></e>
+<e lm="Nord-Pâs-de-Calês" a="Vouiquipèdia">          <i>Nord-Pâs-de-Calês</i><par n="Iran__np"/></e>
+<e lm="Payis de la Lêre" a="Vouiquipèdia">          <i>Payis<b/>de<b/>la<b/>Lêre</i><par n="États-Unis__np"/></e>
+<e lm="Pecardie" a="Vouiquipèdia">          <i>Pecardie</i><par n="Bulgarie__np"/></e>
+<e lm="Pouètou" a="Vouiquipèdia">          <i>Pouètou</i><par n="Iran__np"/></e>
+<e lm="Charentes" a="Vouiquipèdia">          <i>Charentes</i><par n="Alemagnes__np"/></e>
+<e lm="D'Amont-de-France" a="Vouiquipèdia">          <i>D'Amont-de-France</i><par n="Iran__np"/></e>
+<e lm="Guiyana">          <i>Guiyana</i><par n="Bulgarie__np"/></e>
+<e lm="Vâl de Lêre" a="Vouiquipèdia">          <i>Vâl<b/>de<b/>Lêre</i><par n="Iran__np"/></e>
+<e lm="Pâs-de-Calês" a="Vouiquipèdia">          <i>Pâs-de-Calês</i><par n="Iran__np"/></e>
+<e lm="Guyana" a="Vouiquipèdia">          <i>Guyana</i><par n="Bulgarie__np"/></e>
+<e lm="Martinique" a="Vouiquipèdia">          <i>Martinique</i><par n="Bulgarie__np"/></e>
+<e lm="Alemagne" a="Vouiquipèdia">          <i>Alemagne</i><par n="Bulgarie__np"/></e>
+<e lm="Hongrie" a="Vouiquipèdia">          <i>Hongrie</i><par n="Bulgarie__np"/></e>
+<e lm="Lussembôrg" a="Vouiquipèdia">          <i>Lussembôrg</i><par n="Iran__np"/></e>
+<e lm="Cipro" a="Vouiquipèdia">          <i>Cipro</i><par n="Bulgarie__np"/></e>
+<e lm="Danemârc" a="Vouiquipèdia">          <i>Danemârc</i><par n="Iran__np"/></e>
+<e lm="Bêt-Lèhem">          <i>Bêt-Lèhem</i><par n="Iran__np"/></e>
+<e lm="Corinto">          <i>Corinto</i><par n="Iran__np"/></e>
+<e lm="Cirèna">          <i>Cirèna</i><par n="Bulgarie__np"/></e>
+<e lm="Forêz">          <i>Forêz</i><par n="Iran__np"/></e>
+<e lm="Samarie">          <i>Samarie</i><par n="Bulgarie__np"/></e>
+<e lm="Israèl">          <i>Israèl</i><par n="Iran__np"/></e>
+<e lm="Juda">          <i>Juda</i><par n="Iran__np"/></e>
+<e lm="Ufrata">          <i>Ufrata</i><par n="Iran__np"/></e>
+<e lm="Tigre">          <i>Tigre</i><par n="Iran__np"/></e>
+
 
 <!-- ttttttt -->
 
