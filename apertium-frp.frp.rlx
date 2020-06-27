@@ -59,7 +59,6 @@ LIST Inf = inf ;
 LIST Ger = ger ;
 LIST PP = pp ;
 
-LIST Interr = itg ;
 LIST Rel = rel ;
 LIST Interj = ij ;
 
@@ -181,6 +180,15 @@ SELECT V IF (0 Etre) (1 ("a")) (NOT 2 Top OR unknownMajIni) ;			# ére ux Angli�
 SELECT V IF (0 Etre) (1 Adv) (2 ("a")) (NOT 3 Top OR unknownMajIni) ;		# ére pas ux Angliès
 SELECT V IF (0 Etre) (1 Adv) (2 Adv) (3 ("a")) (NOT 4 Top OR unknownMajIni) ;	# ére pas alor ux Angliès
 SELECT Ser IF (0 Etre) ;
+
+# itg / rel, adj, cnjadv
+
+SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR A) ;				# Qui ; Quint mâl at-il fêt ?
+SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR A) ;			# A qui s'adresse
+SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel OR A) ;		## je demando qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel OR A) ;	## je demando avouéc qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel OR A) ;	## je demando pas qui
+SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel OR A) ;	## je demando pas avouéc qui
 
 # adv / postadv
 
