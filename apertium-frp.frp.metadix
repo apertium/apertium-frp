@@ -15256,7 +15256,6 @@
 <e lm="pariana">          <i>parian</i><par n="cultur/a__n"/></e>
 <e lm="punèse">          <i>punèse</i><par n="abayie__n"/></e>
 <e lm="punicion">          <i>punicion</i><par n="abayie__n"/></e>
-<e lm="puro">          <i>pur</i><par n="anarchist/o__n"/></e>
 <e lm="purgatèro">          <i>purgatèro</i><par n="abricot__n"/></e>
 <e lm="pregatèro">          <i>pregatèro</i><par n="abricot__n"/></e>
 <e lm="purgatouèro">          <i>purgatouèro</i><par n="abricot__n"/></e>
@@ -18387,6 +18386,34 @@
 <e lm="Kiribatien">          <i>Kiribati</i><par n="afriqu/en__n"/></e>
 <e lm="Tarasconês">          <i>Tarascon</i><par n="angll/ês__n"/></e>
 <e lm="Quèbècouès" a="Vouiquipèdia">          <i>Quèbècouès</i><par n="borjouès__n"/></e>
+<e lm="argonôto">          <i>argonôto</i><par n="abricot__n"/></e>
+<e lm="grônlandês" a="Vouiquipèdia">          <i>grônland</i><par n="angll/ês__n"/></e>
+<e lm="mètâlurgie" a="Vouiquipèdia">          <i>mètâlurgie</i><par n="abayie__n"/></e>
+<e lm="sègnorerie" a="Vouiquipèdia">          <i>sègnorerie</i><par n="abayie__n"/></e>
+<e lm="cronologia" a="Vouiquipèdia">          <i>cronologi</i><par n="cultur/a__n"/></e>
+<e lm="zoologia" a="Vouiquipèdia">          <i>zoologi</i><par n="cultur/a__n"/></e>
+<e lm="punk" a="stich">          <i>punk</i><par n="asian__n"/></e>
+<e lm="statistica" a="Vouiquipèdia">          <i>statisti</i><par n="aritmèti/ca__n"/></e>
+<e lm="èsperanto" a="Vouiquipèdia">          <i>èsperanto</i><par n="abricot__n"/></e>
+<e lm="èsperantisto" a="Vouiquipèdia">          <i>èsperantist</i><par n="anarchist/o__n"/></e>
+<e lm="friôlan" a="Vouiquipèdia">          <i>friôlan</i><par n="asian__n"/></e>
+<e lm="ladin" a="Vouiquipèdia">          <i>ladin</i><par n="abricot__n"/></e>
+<e lm="frison" a="Vouiquipèdia">          <i>frison</i><par n="asian__n"/></e>
+<e lm="pecârd" a="Vouiquipèdia">          <i>pecârd</i><par n="asian__n"/></e>
+<e lm="lorren" a="Vouiquipèdia">          <i>lorr</i><par n="afriqu/en__n"/></e>
+<e lm="santongês" a="Vouiquipèdia">          <i>santong</i><par n="angll/ês__n"/></e>
+<e lm="bèrrichon" a="Vouiquipèdia">          <i>bèrrichon</i><par n="asian__n"/></e>
+<e lm="galô" a="Vouiquipèdia">          <i>galô</i><par n="abricot__n"/></e>
+<e lm="angevin" a="Vouiquipèdia">          <i>angevin</i><par n="asian__n"/></e>
+<e lm="ètimologo" a="hector">          <i>ètimolog</i><par n="astrolog/o__n"/></e>
+<e lm="champenouès" a="Vouiquipèdia">          <i>champenouès</i><par n="borjouès__n"/></e>
+<e lm="poitevin" a="Vouiquipèdia">          <i>poitevin</i><par n="asian__n"/></e>
+<e lm="doge">          <i>doge</i><par n="abricot__n"/></e>
+<e lm="ionien">          <i>ioni</i><par n="afriqu/en__n"/></e>
+<e lm="ponce">          <i>ponce</i><par n="abayie__n"/></e>
+<e lm="trôyen">          <i>trôy</i><par n="afriqu/en__n"/></e>
+<e lm="borbonês" a="Vouiquipèdia">          <i>borbon</i><par n="angll/ês__n"/></e>
+<e lm="odor">          <i>odor</i><par n="abayie__n"/></e>
 
 <!-- nnnnn -->
 
@@ -20780,6 +20807,31 @@
 <e lm="ênè">          <i>ênè</i><par n="asian__n"/></e>
 <e lm="endevis">          <i>endevis</i><par n="borjouès__adj"/></e>
 <e lm="rassis">          <i>rassis</i><par n="borjouès__adj"/></e>
+<e lm="grônlandês" a="Vouiquipèdia">          <i>grônland</i><par n="angll/ês__adj"/></e>
+<e lm="mètalico" a="hector">          <i>mètali</i><par n="asiati/co__adj"/></e>
+<e lm="mètâlurgico" a="hector">          <i>mètâlurgi</i><par n="asiati/co__adj"/></e>
+<e lm="fesico">          <i>fesi</i><par n="asiati/co__adj"/></e>
+<e lm="fisico">          <i>fisi</i><par n="asiati/co__adj"/></e>
+<e lm="sarrâ" a="Vouiquipèdia">          <i>sarr</i><par n="acharn/â__adj"/></e>
+<e lm="èsperantisto" a="Vouiquipèdia">          <i>èsperantist</i><par n="anarchist/o__adj"/></e>
+<e lm="friôlan" a="Vouiquipèdia">          <i>friôlan</i><par n="asian__adj"/></e>
+<e lm="ladin" a="Vouiquipèdia">          <i>ladin</i><par n="asian__adj"/></e>
+<e lm="frison" a="Vouiquipèdia">          <i>frison</i><par n="asian__adj"/></e>
+<e lm="agricôlo" a="Vouiquipèdia">          <i>agricôl</i><par n="anarchist/o__adj"/></e>
+<e lm="pecârd" a="Vouiquipèdia">          <i>pecârd</i><par n="asian__adj"/></e>
+<e lm="valon" a="Vouiquipèdia">          <i>valon</i><par n="asian__adj"/></e>
+<e lm="champenouès" a="Vouiquipèdia">          <i>champenouès</i><par n="borjouès__adj"/></e>
+<e lm="lorren" a="Vouiquipèdia">          <i>lorr</i><par n="afriqu/en__adj"/></e>
+<e lm="poitevin" a="Vouiquipèdia">          <i>poitevin</i><par n="asian__adj"/></e>
+<e lm="santongês" a="Vouiquipèdia">          <i>santong</i><par n="angll/ês__adj"/></e>
+<e lm="bèrrichon" a="Vouiquipèdia">          <i>bèrrichon</i><par n="asian__adj"/></e>
+<e lm="borbonês" a="Vouiquipèdia">          <i>borbon</i><par n="angll/ês__adj"/></e>
+<e lm="angevin" a="Vouiquipèdia">          <i>angevin</i><par n="asian__adj"/></e>
+<e lm="cuchientenc" a="Vouiquipèdia">          <i>cuchientenc</i><par n="blanc__adj"/></e>
+<e lm="ètimologico" a="hector">          <i>ètimologi</i><par n="asiati/co__adj"/></e>
+<e lm="cronologico" a="hector">          <i>cronologi</i><par n="asiati/co__adj"/></e>
+<e lm="Sièrra-lèonês">          <i>Sièrra-lèon</i><par n="angll/ês__n"/></e>
+<e lm="sièrra-lèonês">          <i>sièrra-lèon</i><par n="angll/ês__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -20854,6 +20906,7 @@
 <e lm="ècartar">          <i>ècart</i><par n="chant/ar__vblex"/></e>
 <e lm="trovar">          <i>trov</i><par n="chant/ar__vblex"/></e>
 <e r="LR" lm="trovar">          <i>tr</i><par n="t/o[RN]ar__vblex" prm="v"/></e>
+<e lm="lèssier">          <i>lèss</i><par n="lèss/iér__vblex"/></e>
 <e lm="comptar">          <i>compt</i><par n="chant/ar__vblex"/></e>
 <e lm="demandar">          <i>demand</i><par n="chant/ar__vblex"/></e>
 <e lm="acutar">          <i>acut</i><par n="chant/ar__vblex"/></e>
@@ -23104,7 +23157,7 @@
 <e lm="vouèlar">          <i>vouèl</i><par n="chant/ar__vblex"/></e>
 <e lm="zonar">          <i>zon</i><par n="chant/ar__vblex"/></e>
 <e lm="zozotar">          <i>zozot</i><par n="chant/ar__vblex"/></e>
-<e lm="r-ôtar">          <i>r-ôt</i><par n="chant/ar__vblex"/></e>	<!-- VERIFY -->
+<e lm="r-ôtar">          <i>r-ôt</i><par n="chant/ar__vblex"/></e>
 <e lm="cul-pèlar">          <i>cul-pèl</i><par n="chant/ar__vblex"/></e>
 
 <e lm="abasordir">          <i>abasord</i><par n="fen/ir__vblex"/></e>
@@ -24416,6 +24469,7 @@
 <e lm="dèconfinar" a="hector">          <i>dèconfin</i><par n="chant/ar__vblex"/></e>
 <e lm="reconfinar" a="hector">          <i>reconfin</i><par n="chant/ar__vblex"/></e>
 <e lm="tamisiér">          <i>tamis</i><par n="lèss/iér__vblex"/></e>
+<e lm="apostasiyér">          <i>apostasiy</i><par n="pay/ér__vblex"/></e>
 
 <!-- vvvvvv -->
 
@@ -24482,6 +24536,10 @@ pegner, je pègno !
 
 <e lm="Euro">            <i>Euro</i><par n="Wikipedia__np"/></e>
 <e lm="Eurobasket">      <i>Eurobasket</i><par n="Linux__np"/></e>
+<e lm="Wikipedia">       <i>Wikipedia</i><par n="Wikipedia__np"/></e>
+<e lm="Vouiquipèdia">       <i>Vouiquipèdia</i><par n="Wikipedia__np"/></e>
+<e lm="Wikimedia">       <i>Wikimedia</i><par n="Wikipedia__np"/></e>
+<e lm="Wikimedia Commons">       <i>Wikimedia<b/>Commons</i><par n="Wikipedia__np"/></e>
 
 <e lm="Armènie">          <i>Armènie</i><par n="Bulgarie__np"/></e>
 <e lm="Armorica">          <i>Armorica</i><par n="Bulgarie__np"/></e>
@@ -24507,6 +24565,7 @@ pegner, je pègno !
 <e lm="Hong-Kong">          <i>Hong-Kong</i><par n="Iran__np"/></e>
 <e lm="Hongries">          <i>Hongries</i><par n="Bulgarie__np"/></e>
 <e lm="Japon">          <i>Japon</i><par n="Iran__np"/></e>
+<e r="LR" lm="Japon"><p><l>J·apon</l><r>Japon</r></p><par n="Iran__np"/></e>
 <e lm="Judê">          <i>Judê</i><par n="Bulgarie__np"/></e>
 <e lm="Liban">          <i>Liban</i><par n="Iran__np"/></e>
 <e lm="Libie">          <i>Libie</i><par n="Bulgarie__np"/></e>
@@ -24624,7 +24683,9 @@ pegner, je pègno !
 <e lm="Cartajo">          <i>Cartajo</i><par n="Iran__np"/></e>
 <e lm="Castilye">          <i>Castilye</i><par n="Bulgarie__np"/></e>
 <e lm="Côcaso">          <i>Côcaso</i><par n="Iran__np"/></e>
-<e lm="Chipro">          <i>C</i><par n="h/h·"/><i>ipro</i><par n="Bulgarie__np"/></e>
+<e lm="Chipro">          <i>C</i><par n="h/h·"/><i>ipro</i><par n="Iran__np"/></e>
+<e lm="Cipro" a="Vouiquipèdia"><i>Cipro</i><par n="Iran__np"/></e>
+<e lm="Chipre" a="Vouiquipèdia"><i>C</i><par n="h/h·"/><i>ipre</i><par n="Bulgarie__np"/></e>
 <e lm="Cllârmont-Fèrrand">          <i>Cllârmont-Fèrrand</i><par n="Iran__np"/></e>
 <e lm="Colombie">          <i>Colombie</i><par n="Bulgarie__np"/></e>
 <e lm="Compiègne">          <i>Compiègne</i><par n="Bulgarie__np"/></e>
@@ -24999,6 +25060,24 @@ pegner, je pègno !
 <e lm="Quèbèco" a="Vouiquipèdia">          <i>Quèbèco</i><par n="Iran__np"/></e>
 <e lm="Montreyâl" a="Vouiquipèdia">          <i>Montreyâl</i><par n="Iran__np"/></e>
 <e lm="Canada" a="Vouiquipèdia">          <i>Canada</i><par n="Iran__np"/></e>
+<e lm="Carmèl">          <i>Carmèl</i><par n="Iran__np"/></e>
+<e lm="Grônlande" a="Vouiquipèdia">          <i>Grônlande</i><par n="Iran__np"/></e>
+<e lm="Mèditèrranê">          <i>Mèditèrranê</i><par n="Bulgarie__np"/></e>
+<e lm="Scandinavie" a="Vouiquipèdia">          <i>Scandinavie</i><par n="Bulgarie__np"/></e>
+<e lm="Varsovie" a="Vouiquipèdia">          <i>Varsovie</i><par n="Bulgarie__np"/></e>
+<e lm="Friôl" a="Vouiquipèdia">          <i>Friôl</i><par n="Iran__np"/></e>
+<e lm="Vènècia" a="Vouiquipèdia">          <i>Vènècia</i><par n="Bulgarie__np"/></e>
+<e lm="Friôl-Vènècia juliâna" a="Vouiquipèdia">          <i>Friôl-Vènècia<b/>juliâna</i><par n="Iran__np"/></e>
+<e lm="Friôl-Vènècia jelièna" a="Vouiquipèdia">          <i>Friôl-Vènècia<b/>jelièna</i><par n="Iran__np"/></e>
+<e lm="Jèrzê" a="Vouiquipèdia">          <i>Jèrzê</i><par n="Iran__np"/></e>
+<e lm="Éga-Môrta">          <i>Éga-Môrta</i><par n="Bulgarie__np"/></e>
+<e lm="Arpètes">          <i>Arpètes</i><par n="Alemagnes__np"/></e>
+<e lm="Ancôna">          <i>Ancôna</i><par n="Bulgarie__np"/></e>
+<e lm="Uzès">          <i>Uzès</i><par n="Iran__np"/></e>
+<e lm="Vendê">          <i>Vendê</i><par n="Bulgarie__np"/></e>
+<e lm="Ventour">          <i>Ventour</i><par n="Iran__np"/></e>
+<e lm="Vènus">          <i>Vènus</i><par n="Bulgarie__np"/></e>
+<e lm="Vincènes">          <i>Vincènes</i><par n="Bulgarie__np"/></e>
 
 <!-- ttttttt -->
 
