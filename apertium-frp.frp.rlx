@@ -130,7 +130,11 @@ SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 LIST Je = "je" ;
+LIST Ye = "ye" ;
+LIST Jo = "jo" ;
+LIST Yo = "yo" ;
 LIST Te = "te" ;
+LIST Tu = "tu" ;
 LIST Il = "il" ;
 LIST On = "on" ;
 LIST Se = "sè" ;
@@ -281,19 +285,19 @@ SELECT NP IF (0 MajIni);	# VERIFY (il faut des tas plus de règles)
 
 # personne
 
-SELECT P1 IF (-1 Je) (0 VSg1);
+SELECT P1 IF (-1 Je OR Ye) (0 VSg1);
   ## Je veux
-SELECT P1 IF (0 VSg1) (0 (META:/-/r)) (1 Je) ;
+SELECT P1 IF (0 VSg1) (0 (META:/-/r)) (1 Jo OR Yo) ;
   ## Veux-je
-SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);
+SELECT P1 IF (-2 Je OR Ye) (-1 Pro) (0 VSg1);
   ## Je lui veux
-SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);
+SELECT P1 IF (-3 Je OR Ye) (-2 Pro) (-1 Pro) (0 VSg1);
   ## Je lui en veux
-REMOVE P1 + Sg IF (NOT -1* Je) (0 Verb + P1 + Sg) ;
+REMOVE P1 + Sg IF (NOT -1* Je OR Ye) (0 Verb + P1 + Sg) ;
 
 SELECT P2 IF (-1 Te) (0 VSg2);
   ## Tu veux
-SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Te) ;
+SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Tu) ;
   ## Veux-tu
 SELECT P2 IF (1 Te) (0 VSg2);
   ## Veux-tu
