@@ -156,6 +156,8 @@ SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 PreAdv OR Adv) (2 A + MascPl) ;
 
+REMOVE ("mê") IF (0 ("mês")) ;
+
 SELECT A IF (0 ("dèrriér") + &&GenderNumber) (1 N + &&GenderNumber) ;	# dèrriér pouent
 
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	# devant la mêson
@@ -177,6 +179,9 @@ REMOVE Itg IF (0 Se) (1 Verb + P3) ;
 SELECT Pro IF (0 ("nen")) (1 unknown) ;
 
 SELECT A IF (0 ("quint") + MajIni + &&GenderNumber) (-1 Ant OR unknownMajIni + &&GenderNumber) ;
+
+REMOVE Adv IF (0 ("devant")) (1 Det OR NP OR Prn) ;
+REMOVE N IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 
 # étre vbser / vblex (=appartenir)
 
@@ -261,6 +266,8 @@ REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 
 SELECT N IF (-1 ("dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;		# dèrriér pouent
 SELECT N IF (-1 ("avant-dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;	# avant-dèrriér pouent
+
+REMOVE Verb IF (-1C Det + &&GenderNumber) (0 N + &&GenderNumber) ;
 
 # n / adj
 
