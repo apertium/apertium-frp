@@ -13923,7 +13923,7 @@
 <e lm="lègenda">          <i>lègend</i><par n="cultur/a__n"/></e>
 <e lm="lègumo">          <i>lègumo</i><par n="abricot__n"/></e>
 <e lm="vèrdura">          <i>vèrdur</i><par n="cultur/a__n"/></e>
-<e lm="vèrdior">          <i>vèrdior</i><par n="abricot__n"/></e>
+<e lm="vèrdior">          <i>vèrdior</i><par n="abayie__n"/></e>
 <e lm="lentelye">          <i>lentelye</i><par n="abayie__n"/></e>
 <e lm="léopârd">          <i>léopârd</i><par n="abricot__n"/></e>
 <e lm="lèpra">          <i>lèpr</i><par n="cultur/a__n"/></e>
@@ -17689,6 +17689,10 @@
 <e lm="granda-duchèssa" a="hector"><p><l>grandes-duchèsses</l><r>granda-duchèssa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="granta-duchèssa" a="hector"><p><l>granta-duchèssa</l><r>granta-duchèssa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="granta-duchèssa" a="hector"><p><l>grantes-duchèsses</l><r>granta-duchèssa<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="rata-voliva" a="hector"><p><l>rata-voliva</l><r>rata-voliva<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="rata-voliva" a="hector"><p><l>rates-volives</l><r>rata-voliva<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="rata-volage" a="hector"><p><l>rata-volage</l><r>rata-volage<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="rata-volage" a="hector"><p><l>rates-volages</l><r>rata-volage<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 <e lm="colonisacion" a="hector">          <i>colonisacion</i><par n="abayie__n"/></e>
 <e lm="porta-avion" a="hector">          <i>porta-avion</i><par n="abricot__n"/></e>
@@ -17956,6 +17960,7 @@
 <e lm="Hondurien">          <i>Honduri</i><par n="afriqu/en__n"/></e>
 <e lm="hongrouès">          <i>hongrouès</i><par n="borjouès__n"/></e>
 <e lm="Indien">          <i>Indi</i><par n="afriqu/en__n"/></e>
+<e lm="Endien">          <i>Endi</i><par n="afriqu/en__n"/></e>
 <e lm="indonèsien">          <i>indonèsi</i><par n="afriqu/en__n"/></e>
 <e lm="Iraquien">          <i>Iraqui</i><par n="afriqu/en__n"/></e>
 <e lm="Iranien">          <i>Irani</i><par n="afriqu/en__n"/></e>
