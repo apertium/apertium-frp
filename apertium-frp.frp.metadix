@@ -635,8 +635,8 @@
 </pardef>
 
 <pardef n="cet__det">
-  <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>i</l>         <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>         <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>       <r><s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>os</l>         <r><s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>es</l>         <r><s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
@@ -8912,6 +8912,11 @@
   <e>       <i>o<prm/></i><par n="aproch/iér__vblex"/></e>
 </pardef>
 
+<pardef n="m/a[RCH]iér__vblex" c="modèle 1ère conjugaison Bâ">
+  <e>       <p><l>â</l>         <r>a</r></p><i><prm/></i><par n="aprôch/o__vblex"/></e>
+  <e>       <i>a<prm/></i><par n="aproch/iér__vblex"/></e>
+</pardef>
+
 <pardef n="br/e[SS]iér__vblex" c="modèle 1ère conjugaison Bé">
   <e>       <p><l>é</l>         <r>e</r></p><i><prm/></i><par n="aprôch/o__vblex"/></e>
   <e>       <i>e<prm/></i><par n="aproch/iér__vblex"/></e>
@@ -9283,6 +9288,7 @@
 <e lm="dens lo câdro de">          <i>dens<b/>lo<b/>câdro<b/></i><par n="/de__pr"/></e>
 <e lm="du temps de">          <i>du<b/>temps<b/></i><par n="/de__pr"/></e>
 <e lm="en câs de">          <i>en<b/>câs<b/></i><par n="/de__pr"/></e>
+<e lm="en cors de" a="alanfavre"><i>en<b/>cors<b/></i><par n="/de__pr"/></e>
 <e lm="en defôr de">          <i>en<b/>defôr<b/></i><par n="/de__pr"/></e>
 <e lm="en èchanjo de">          <i>en<b/>èchanjo<b/></i><par n="/de__pr"/></e>
 <e lm="en face de">          <i>en<b/>face<b/></i><par n="/de__pr"/></e>
@@ -9320,6 +9326,7 @@
 <e lm="ux fllancs de">          <i>ux<b/>fllancs<b/></i><par n="/de__pr"/></e>
 <e lm="vis-a-vis de">          <i>vis-a-vis<b/></i><par n="/de__pr"/></e>
 <e lm="dam-a-cen">          <i>dam-a-cen</i><par n="contre__pr"/></e>
+<e lm="a l'endrêt de">          <i>a<b/>l'endrêt<b/></i><par n="/de__pr"/></e>
 
 <!-- CNJSUB -->
 
@@ -9361,6 +9368,7 @@
 <e lm="coment">          <i>coment</i><par n="adonc__cnjadv"/></e>
 <e lm="'ment">          <i>'ment</i><par n="adonc__cnjadv"/></e>
 <e lm="come">          <i>come</i><par n="adonc__cnjadv"/></e>
+<e lm="et pués">          <i>et<b/>pués</i><par n="adonc__cnjadv"/></e>
 <e lm="quand ben">           <i>quand<b/>ben</i><par n="adonc__cnjadv"/></e>
 <e lm="ben que">           <i>ben<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="dês que">          <i>dês<b/></i><par n="devant_/que__cnjadv"/></e>
@@ -9403,6 +9411,7 @@
 <e lm="o est d'ense que">          <i>o<b/>est<b/>d'ense<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="d'atant que">          <i>d'atant<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="de façon que">          <i>de<b/>façon<b/></i><par n="devant_/que__cnjadv"/></e>
+<e r="RL" lm="viu que" a="alanfavre">          <i>viu<b/></i><par n="devant_/que__cnjadv"/></e>
 
 <!-- REL -->
 
@@ -10145,6 +10154,27 @@
 <e lm="coragiosament">          <i>coragiosament</i><par n="avant__adv"/></e>
 <e lm="fôlament" a="stich">          <i>fôlament</i><par n="avant__adv"/></e>
 <e lm="parcièlament" a="Vouiquipèdia">          <i>parcièlament</i><par n="avant__adv"/></e>
+<e lm="avant" a="alanfavre">          <i>avant</i><par n="avant__adv"/></e>
+<e lm="avogllament" a="alanfavre">          <i>avogllament</i><par n="avant__adv"/></e>
+<e lm="bruscament" a="alanfavre">          <i>bruscament</i><par n="avant__adv"/></e>
+<e lm="èfèctivament" a="alanfavre">          <i>èfèctivament</i><par n="avant__adv"/></e>
+<e lm="gènèrosament" a="alanfavre">          <i>gènèrosament</i><par n="avant__adv"/></e>
+<e lm="normalament" a="alanfavre">          <i>normalament</i><par n="avant__adv"/></e>
+<e lm="coment de cotema" a="alanfavre">          <i>coment<b/>de<b/>cotema</i><par n="avant__adv"/></e>
+<e lm="en massa" a="alanfavre">          <i>en<b/>massa</i><par n="avant__adv"/></e>
+<e lm="l'un l'ôtro" a="alanfavre">          <i>l'un<b/>l'ôtro</i><par n="avant__adv"/></e>
+<e lm="nècèssèrament" a="alanfavre">          <i>nècèssèrament</i><par n="avant__adv"/></e>
+<e lm="ponctuèlament" a="alanfavre">          <i>ponctuèlament</i><par n="avant__adv"/></e>
+<e lm="d'avance" a="alanfavre">          <i>d'avance</i><par n="avant__adv"/></e>
+<e lm="prècisament" a="alanfavre">          <i>prècisament</i><par n="avant__adv"/></e>
+<e lm="u vesenâjo" a="alanfavre">          <i>u<b/>vesenâjo</i><par n="avant__adv"/></e>
+<e lm="radicalament" a="alanfavre">          <i>radicalament</i><par n="avant__adv"/></e>
+<e lm="rigorosament" a="alanfavre">          <i>rigorosament</i><par n="avant__adv"/></e>
+<e lm="ètrangement" a="alanfavre">          <i>ètrangement</i><par n="avant__adv"/></e>
+<e lm="avouéc souen" a="alanfavre">          <i>avouéc<b/>souen</i><par n="avant__adv"/></e>
+<e lm="fèrmo" a="alanfavre">          <i>fèrmo</i><par n="avant__adv"/></e>
+<e lm="spontanament" a="alanfavre">          <i>spontanament</i><par n="avant__adv"/></e>
+<e lm="vèrticalament" a="alanfavre">          <i>vèrticalament</i><par n="avant__adv"/></e>
 
 <!-- bbbbbb -->
 
@@ -10152,7 +10182,7 @@
 
 <e lm="abricot">           <i>abricot</i><par n="abricot__n"/></e>
 <e lm="côlyon" a="alanfavre"><i>côlyon</i><par n="abricot__n"/></e>
-<e lm="cort">           <i>cort</i><par n="abricot__n"/></e>
+<e lm="cort">           <i>cort</i><par n="abayie__n"/></e>
 <e lm="ensemblo">           <i>ensemblo</i><par n="abricot__n"/></e>
 <e lm="complèxo">           <i>complèxo</i><par n="abricot__n"/></e>
 <e lm="centro">           <i>centro</i><par n="abricot__n"/></e>
@@ -18110,6 +18140,8 @@
 <e lm="rata-voliva" a="hector"><p><l>rates-volives</l><r>rata-voliva<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="rata-volage" a="hector"><p><l>rata-volage</l><r>rata-volage<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="rata-volage" a="hector"><p><l>rates-volages</l><r>rata-volage<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="téta fina" a="hector"><p><l>téta<b/>fina</l><r>téta<b/>fina<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="téta fina" a="hector"><p><l>tétes<b/>fines</l><r>téta<b/>fina<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 <e lm="colonisacion" a="hector">          <i>colonisacion</i><par n="abayie__n"/></e>
 <e lm="porta-avion" a="hector">          <i>porta-avion</i><par n="abricot__n"/></e>
@@ -18595,7 +18627,7 @@
 <e lm="enfraccion" a="alanfavre">          <i>enfraccion</i><par n="abayie__n"/></e>
 <e lm="iniciacion" a="alanfavre">          <i>iniciacion</i><par n="abayie__n"/></e>
 <e lm="entèrno" a="alanfavre">          <i>entèrn</i><par n="anarchist/o__n"/></e>
-<e lm="enterposicion" a="alanfavre">          <i>enterposicion</i><par n="abayie__n"/></e>
+<e lm="entèrposicion" a="alanfavre">          <i>entèrposicion</i><par n="abayie__n"/></e>
 <e lm="envèstissement" a="alanfavre">          <i>envèstissement</i><par n="abricot__n"/></e>
 <e lm="envèstissor" a="alanfavre">          <i>envèstisso</i><par n="admirato/r__n"/></e>
 <e lm="islamisacion" a="alanfavre">          <i>islamisacion</i><par n="abayie__n"/></e>
@@ -19416,6 +19448,7 @@
 <e lm="èlèctron" a="stich">          <i>èlèctron</i><par n="abricot__n"/></e>
 <e lm="fotosintèsa" a="stich">          <i>fotosintès</i><par n="cultur/a__n"/></e>
 <e lm="circuit" a="LoTrèsor">          <i>circuit</i><par n="abricot__n"/></e>
+<e lm="èrèccion" a="alanfavre">          <i>èrèccion</i><par n="abayie__n"/></e>
 
 <!-- nnnnn -->
 
@@ -21612,7 +21645,6 @@
 <e lm="associatif" a="alanfavre">          <i>associati</i><par n="acti/f__adj"/></e>
 <e lm="atlètico" a="alanfavre">          <i>atlèti</i><par n="asiati/co__adj"/></e>
 <e lm="recognu" a="alanfavre">          <i>recognu</i><par n="asian__adj"/></e>
-<e lm="volontéro" a="alanfavre">          <i>volontér</i><par n="anarchist/o__adj"/></e>
 <e lm="bruto" a="alanfavre">          <i>brut</i><par n="anarchist/o__adj"/></e>
 <e lm="brutal" a="alanfavre">          <i>brutal</i><par n="asian__adj"/></e>
 <e lm="budgètèro" a="alanfavre">          <i>budgètèr</i><par n="advèrsèr/o__adj"/></e>
@@ -21851,6 +21883,9 @@
 <e lm="comutatif" a="hector">          <i>comutati</i><par n="acti/f__adj"/></e>
 <e lm="abèlien" a="hector">          <i>abèli</i><par n="afriqu/en__adj"/></e>
 <e lm="isocèlo" a="stich">          <i>isocèl</i><par n="anarchist/o__adj"/></e>
+<e lm="poueson" a="alanfavre">          <i>poueson</i><par n="orange__adj"/></e>
+<e lm="qu'at nom" a="alanfavre">          <i>qu'at<b/>nom</i><par n="orange__adj"/></e>
+<e lm="qu'avêt nom" a="alanfavre">          <i>qu'avêt<b/>nom</i><par n="orange__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -21936,6 +21971,10 @@
 <e lm="avêr">          <i></i><par n="/avêr__vbhaver"/></e>
 <e lm="avêr">          <i></i><par n="/avêr__vblex"/></e>
 
+<e lm="être u sonjon" a="alanfavre"> <i></i><par n="/étre__vblex"/><p><l><b/>u<b/>sonjon</l><r><g><b/>u<b/>sonjon</g></r></p></e>
+<e r="LR" lm="être l'objèt de" a="alanfavre"> <i></i><par n="/étre__vblex"/><p><l><b/>l'objèt<b/>de</l><r><g><b/>l'objèt<b/>de</g></r></p></e>
+<e r="RL" lm="être l'objèt de" a="alanfavre"> <i></i><par n="/étre__vblex"/><p><l><b/>l'objèt<b/><a/>de</l><r><g><b/>l'objèt<b/>de</g></r></p></e>
+<e lm="avêr nom" a="alanfavre"> <i></i><par n="/avêr__vblex"/><p><l><b/>nom</l><r><g><b/>nom</g></r></p></e>
 <e lm="chantar">          <i>chant</i><par n="chant/ar__vblex"/></e>
 <e lm="ècartar">          <i>ècart</i><par n="chant/ar__vblex"/></e>
 <e lm="trovar">          <i>trov</i><par n="chant/ar__vblex"/></e>
@@ -21983,7 +22022,6 @@
 <e lm="blagar">          <i>blag</i><par n="blag/ar__vblex"/></e>
 
 <e lm="lèssiér">          <i>lèss</i><par n="lèss/iér__vblex"/></e>
-<e lm="marchiér">          <i>march</i><par n="lèss/iér__vblex"/></e>
 <e lm="chèrchiér">          <i>chèrch</i><par n="lèss/iér__vblex"/></e>
 <e lm="prèchiér">          <i>prèch</i><par n="lèss/iér__vblex"/></e>
 <e lm="cachiér">          <i>cach</i><par n="lèss/iér__vblex"/></e>
@@ -22037,6 +22075,7 @@
 <e lm="dècllarar">          <i>dècll</i><par n="/a[M]ar__vblex" prm="r"/></e>
 <e lm="dèrapar">          <i>dèr</i><par n="/a[M]ar__vblex" prm="p"/></e>
 <e lm="entanar">          <i>ent</i><par n="/a[M]ar__vblex" prm="n"/></e>
+<e lm="entamar">          <i>ent</i><par n="/a[M]ar__vblex" prm="m"/></e>
 <e lm="gouardar">          <i>gou</i><par n="/a[M]ar__vblex" prm="rd"/></e>
 <e lm="lavar">          <i>l</i><par n="/a[M]ar__vblex" prm="v"/></e>
 <e lm="parar">          <i>p</i><par n="/a[M]ar__vblex" prm="r"/></e>
@@ -22147,6 +22186,7 @@
 <e lm="dèpegnér">          <i>dèp</i><par n="pr/e[Y]ér__vblex" prm="gn"/></e>
 <e lm="cognér">          <i>c</i><par n="c/o[GN]ér__vblex" prm="gn"/></e>
 
+<e lm="marchiér">          <i>m</i><par n="m/a[RCH]iér__vblex" prm="rch"/></e>
 <e lm="remarciér">          <i>rem</i><par n="rem/a[R]ciér__vblex" prm="r"/></e>
 <e lm="forciér">          <i>f</i><par n="f/o[R]ciér__vblex" prm="r"/></e>
 <e lm="renforciér">          <i>renf</i><par n="f/o[R]ciér__vblex" prm="r"/></e>
@@ -22291,7 +22331,7 @@
 <e lm="apartenir">            <i>apart</i><par n="v/enir__vblex"/></e>
 <e lm="abstenir">            <i>abst</i><par n="v/enir__vblex"/></e>
 <e lm="aouire">            <i>aou</i><par n="aou/ire__vblex"/></e>
-<e r="LR" lm="aouir" c="AF"><i>aou</i><par n="fen/ir__vblex"/></e>
+<e r="LR" lm="aouir" a="alanfavre"><i>aou</i><par n="fen/ir__vblex"/></e>
 <e lm="apondre">            <i>apond</i><par n="apond/re__vblex"/></e>
 <e lm="rapondre">            <i>rapond</i><par n="apond/re__vblex"/></e>
 <e lm="rèpondre">            <i>rèpond</i><par n="apond/re__vblex"/></e>
@@ -22303,6 +22343,7 @@
 <e lm="ècrire">            <i>ècr</i><par n="ècr/ire__vblex"/></e>
 <e lm="dècrire">            <i>dècr</i><par n="ècr/ire__vblex"/></e>
 <e lm="enscrire">            <i>enscr</i><par n="ècr/ire__vblex"/></e>
+<e lm="prèscrire" a="alanfavre"><i>prèscr</i><par n="ècr/ire__vblex"/></e>
 <e lm="frire">            <i>fr</i><par n="ècr/ire__vblex"/></e>
 <e lm="circonscrire">            <i>circonscr</i><par n="ècr/ire__vblex"/></e>
 <e lm="liére">            <i>l</i><par n="l/iére__vblex"/></e>
@@ -24579,7 +24620,6 @@
 <e lm="garar">          <i>gar</i><par n="chant/ar__vblex"/></e>
 <e lm="ensablar">          <i>ensabl</i><par n="chant/ar__vblex"/></e>
 <e lm="ensacar">          <i>ensa</i><par n="man/car__vblex"/></e>
-<e lm="entamar">          <i>entam</i><par n="chant/ar__vblex"/></e>
 <e lm="entravar">          <i>entrav</i><par n="chant/ar__vblex"/></e>
 <e lm="entrelardar">          <i>entrelard</i><par n="chant/ar__vblex"/></e>
 <e lm="emmandar">          <i>emmand</i><par n="chant/ar__vblex"/></e>
@@ -25533,6 +25573,55 @@
 <e lm="neyér">          <i>ney</i><par n="pay/ér__vblex"/></e>
 <e lm="èssoubliar">          <i>èssoubli</i><par n="chant/ar__vblex"/></e>
 <e lm="èssoublar">          <i>èssoubl</i><par n="chant/ar__vblex"/></e>
+<e lm="accèlèrar" a="alanfavre">          <i>accèlèr</i><par n="chant/ar__vblex"/></e>
+<e lm="actualisar" a="alanfavre">          <i>actualis</i><par n="chant/ar__vblex"/></e>
+<e lm="animar" a="alanfavre">          <i>anim</i><par n="chant/ar__vblex"/></e>
+<e lm="atèstar" a="alanfavre">          <i>atèst</i><par n="chant/ar__vblex"/></e>
+<e lm="ôtoprocllamar" a="alanfavre">          <i>ôtoprocllam</i><par n="chant/ar__vblex"/></e>
+<e lm="banir" a="alanfavre">          <i>ban</i><par n="fen/ir__vblex"/></e>
+<e lm="calibrar" a="alanfavre">          <i>calibr</i><par n="chant/ar__vblex"/></e>
+<e lm="checheyér" a="alanfavre">          <i>chechey</i><par n="pay/ér__vblex"/></e>
+<e lm="codar" a="alanfavre">          <i>cod</i><par n="chant/ar__vblex"/></e>
+<e lm="codifeyér" a="alanfavre">          <i>codifey</i><par n="pay/ér__vblex"/></e>
+<e lm="cohabitar" a="alanfavre">          <i>cohabit</i><par n="chant/ar__vblex"/></e>
+<e lm="comèrcialisar" a="alanfavre">          <i>comèrcialis</i><par n="chant/ar__vblex"/></e>
+<e lm="dèboulonar" a="alanfavre">          <i>dèboulon</i><par n="chant/ar__vblex"/></e>
+<e lm="dècolonisar" a="alanfavre">          <i>dècolonis</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmitifeyér" a="alanfavre">          <i>dèmitifey</i><par n="pay/ér__vblex"/></e>
+<e lm="dèsèrtifeyér" a="alanfavre">          <i>dèsèrtifey</i><par n="pay/ér__vblex"/></e>
+<e lm="dècotemar" a="alanfavre">          <i>dècotem</i><par n="chant/ar__vblex"/></e>
+<e lm="dèsendustrialisar" a="alanfavre">          <i>dèsendustrialis</i><par n="chant/ar__vblex"/></e>
+<e lm="dèmonisar" a="alanfavre">          <i>dèmonis</i><par n="chant/ar__vblex"/></e>
+<e lm="difusar" a="alanfavre">          <i>difus</i><par n="chant/ar__vblex"/></e>
+<e lm="diplomar" a="alanfavre">          <i>diplom</i><par n="chant/ar__vblex"/></e>
+<e lm="dissuadar" a="alanfavre">          <i>dissuad</i><par n="chant/ar__vblex"/></e>
+<e lm="èmocionar" a="alanfavre">          <i>èmocion</i><par n="chant/ar__vblex"/></e>
+<e lm="endoctrinar" a="alanfavre">          <i>endoctrin</i><par n="chant/ar__vblex"/></e>
+<e lm="èxpllorar" a="alanfavre">          <i>èxpllor</i><par n="chant/ar__vblex"/></e>
+<e lm="facilitar" a="alanfavre">          <i>facilit</i><par n="chant/ar__vblex"/></e>
+<e lm="hièrarchisar" a="alanfavre">          <i>hièrarchis</i><par n="chant/ar__vblex"/></e>
+<e lm="homologar" a="alanfavre">          <i>homolog</i><par n="blag/ar__vblex"/></e>
+<e lm="emprèssionar" a="alanfavre">          <i>emprèssion</i><par n="chant/ar__vblex"/></e>
+<e lm="endustrialisar" a="alanfavre">          <i>endustrialis</i><par n="chant/ar__vblex"/></e>
+<e lm="enstrumentalisar" a="alanfavre">          <i>enstrumentalis</i><par n="chant/ar__vblex"/></e>
+<e lm="entègrar" a="alanfavre">          <i>entègr</i><par n="chant/ar__vblex"/></e>
+<e lm="listar" a="alanfavre">          <i>list</i><par n="chant/ar__vblex"/></e>
+<e lm="mitifeyér" a="alanfavre">          <i>mitifey</i><par n="pay/ér__vblex"/></e>
+<e lm="normalisar" a="alanfavre">          <i>normalis</i><par n="chant/ar__vblex"/></e>
+<e lm="obsèdar" a="alanfavre">          <i>obsèd</i><par n="chant/ar__vblex"/></e>
+<e lm="ponctuar" a="alanfavre">          <i>ponctu</i><par n="chant/ar__vblex"/></e>
+<e lm="recomptar" a="alanfavre">          <i>recompt</i><par n="chant/ar__vblex"/></e>
+<e lm="rèdigiér" a="alanfavre">          <i>rèdi</i><par n="me/giér__vblex"/></e>
+<e lm="redistribuar" a="alanfavre">          <i>redistribu</i><par n="chant/ar__vblex"/></e>
+<e lm="regâgnér" a="alanfavre">          <i>regâgn</i><par n="pay/ér__vblex"/></e>
+<e lm="rèquisicionar" a="alanfavre">          <i>rèquisicion</i><par n="chant/ar__vblex"/></e>
+<e lm="sensibilisar" a="alanfavre">          <i>sensibilis</i><par n="chant/ar__vblex"/></e>
+<e lm="sèdentarisar" a="alanfavre">          <i>sèdentaris</i><par n="chant/ar__vblex"/></e>
+<e lm="singularisar" a="alanfavre">          <i>singularis</i><par n="chant/ar__vblex"/></e>
+<e lm="subvencionar" a="alanfavre">          <i>subvencion</i><par n="chant/ar__vblex"/></e>
+<e lm="vandalisar" a="alanfavre">          <i>vandalis</i><par n="chant/ar__vblex"/></e>
+<e lm="betar d'acôrd" a="alanfavre"><i>bet</i><par n="chant/ar__vblex"/><p><l><b/>d'acôrd</l><r><g><b/>d'acôrd</g></r></p></e>
+<e lm="spècialisar" a="alanfavre">          <i>spècialis</i><par n="chant/ar__vblex"/></e>
 
 <!-- vvvvvv -->
 
@@ -26301,6 +26390,7 @@ pegner, je pègno !
 <e r="LR" lm="o est d'ense qu'"><p><l>o<b/>est<b/>d'ense<b/>qu'</l><r>o<b/>est<b/>d'ense<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="d'atant qu'"><p><l>d'atant<b/>qu'</l><r>d'atant<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="de façon qu'"><p><l>de<b/>façon<b/>qu'</l><r>de<b/>façon<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="être l'objèt de" a="alanfavre"> <i></i><par n="/étre__vblex"/><p><l><b/>l'objèt<b/>d'</l><r><g><b/>l'objèt<b/>de</g></r></p></e>
 
   </section>
 
