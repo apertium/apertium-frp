@@ -183,6 +183,8 @@ SELECT A IF (0 ("quint") + MajIni + &&GenderNumber) (-1 Ant OR unknownMajIni + &
 REMOVE Adv IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 REMOVE N IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 
+REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la fin Diô at acutâ lor preyére
+
 # étre vbser / vblex (=appartenir)
 
 SELECT V IF (0 Etre) (1 ("a")) (NOT 2 Top OR unknownMajIni) ;			# ére ux Angliès
