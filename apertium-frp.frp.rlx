@@ -260,6 +260,12 @@ SELECT Tn OR Pro IF (0 Pro) (NOT 1 Inf OR Ger) ;			# Louis XIV l’at fêt / VER
 
 SELECT Adv IF (-1C Verb) (0 A) (1C Det) ;	# amâvont galyârd la guèrra
 
+# adj / ger
+
+REMOVE Ger IF (-1 Ser + &&Number) (0 A + &&Number) ;			# il ére valyent
+REMOVE Ger IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 A + &&Number) ;	# il ére galyârd valyent
+REMOVE Ger IF (-1C Adv_PreAdv OR ("galyârd")) (0 A + &&Number) ;	# il ére galyârd valyent
+
 # preadv
 
 REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
