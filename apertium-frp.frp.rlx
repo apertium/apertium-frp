@@ -136,10 +136,14 @@ LIST Yo = "yo" ;
 LIST Te = "te" ;
 LIST Tu = "tu" ;
 LIST Il = "il" ;
+LIST Nos = "nos" ;
+LIST Vos = "vos" ;
 LIST On = "on" ;
+LIST O = "o" ;
 LIST Se = "sè" ;
 
 LIST Que = "que" ;
+LIST Qui = "qui" ;
 LIST Etre = "étre" ;
 
 SECTION
