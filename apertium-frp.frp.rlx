@@ -192,6 +192,10 @@ SELECT V IF (0 Etre) (1 Adv) (2 ("a")) (NOT 3 Top OR unknownMajIni) ;		# ére pa
 SELECT V IF (0 Etre) (1 Adv) (2 Adv) (3 ("a")) (NOT 4 Top OR unknownMajIni) ;	# ére pas alor ux Angliès
 SELECT Ser IF (0 Etre) ;
 
+# cnjsub / rel
+
+REMOVE CnjSub IF (-1C Det OR N OR A OR Pro) ;
+
 # itg / rel, adj, cnjadv
 
 SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR A) ;				# Qui ; Quint mâl at-il fêt ?
