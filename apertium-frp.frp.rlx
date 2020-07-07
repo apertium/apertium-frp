@@ -294,6 +294,8 @@ SELECT Ord IF (0 N + &&GenderNumber) (1 N + &&GenderNumber) ;
 SELECT A IF (-2 Det + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") OR ("muens")) (0 A + &&GenderNumber) ;	# lo ples fôrt
 SELECT A IF (-2 Noun_Adj + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") OR ("muens")) (0 A + &&GenderNumber) ;	# un poplo ples fôrt
 
+REMOVE A IF (-2 Verb) (-1 Det + &&GenderNumber)  (0 N + &&GenderNumber) (1 Prep OR Rel OR CnjAdv) ;
+
 # mots individuels (mais après la selection n/adj)
 
 REMOVE ("franc") IF (0C N) (0 ("Franc_poplo")) ;
