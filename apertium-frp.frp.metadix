@@ -4138,6 +4138,7 @@
   <e r="LR"><p><l>egnons</l>       <r>endre<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>ende</l>        <r>endre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>egnéd</l>        <r>endre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e r="LR" a="stich"><p><l>enéd</l>        <r>endre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>egnont</l>       <r>endre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>egnê</l>         <r>endre<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4220,6 +4221,9 @@
   <e r="LR"><p><l>egnéd</l>        <r>endre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>egnéd</l>       <r>endre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy1"/></e>
   <e r="LR"><p><l>egnéds</l>       <r>endre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy2"/></e>
+  <e r="LR" a="stich"><p><l>enéd</l><r>endre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e r="LR" a="stich"><p><l>enéd</l><r>endre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy1"/></e>
+  <e r="LR" a="stich"><p><l>enéds</l><r>endre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy2"/></e>
 </pardef>
 
 <pardef n="cr/endre__vblex">
@@ -14491,8 +14495,8 @@
 <e lm="gelenèta">          <i>gelenèt</i><par n="cultur/a__n"/></e>
 <e lm="gengiva">          <i>gengiv</i><par n="cultur/a__n"/></e>
 <e lm="genciva">          <i>genciv</i><par n="cultur/a__n"/></e>
-<e lm="gendarmeria">          <i>gendarmeri</i><par n="cultur/a__n"/></e>
-<e lm="gendarmerie">          <i>gendarmerie</i><par n="abayie__n"/></e>
+<e lm="gendarmeria">          <i></i><par n="g/g·"/><i>endarmeri</i><par n="cultur/a__n"/></e>
+<e lm="gendarmerie">          <i></i><par n="g/g·"/><i>endarmerie</i><par n="abayie__n"/></e>
 <e lm="felyâtro">          <i>felyâtro</i><par n="abricot__n"/></e>
 <e lm="gendro">          <i>gendro</i><par n="abricot__n"/></e>
 <e lm="gêna">          <i>gên</i><par n="cultur/a__n"/></e>
@@ -16203,7 +16207,7 @@
 <e lm="plèsenterie">          <i>plèsenterie</i><par n="abayie__n"/></e>
 <e lm="gâla">          <i>gâl</i><par n="cultur/a__n"/></e>
 <e lm="plèsir">          <i>plèsir</i><par n="abricot__n"/></e>
-<e lm="plan">          <i>plan</i><par n="asian__n"/></e>
+<e lm="plan">          <i>plan</i><par n="abricot__n"/></e>
 <e lm="planche">          <i>planche</i><par n="abayie__n"/></e>
 <e lm="palanche">          <i>palanche</i><par n="abayie__n"/></e>
 <e lm="palange">          <i>palange</i><par n="abayie__n"/></e>
@@ -18357,7 +18361,7 @@
 <e lm="ouzbèk">          <i>ouzbèk</i><par n="asian__adj"/></e>
 <e lm="druide">          <i>druide</i><par n="enfant__n"/></e>
 <e lm="sêtre">          <i>sêtre</i><par n="enfant__n"/></e>
-<e lm="gendârme">          <i>gendârme</i><par n="enfant__n"/></e>
+<e lm="gendârme">          <i></i><par n="g/g·"/><i>endârme</i><par n="enfant__n"/></e>
 <e lm="gorile">          <i>gorile</i><par n="enfant__n"/></e>
 <e lm="ginècologue">          <i>ginècologue</i><par n="enfant__n"/></e>
 <e lm="gnogne">          <i>gnogne</i><par n="enfant__n"/></e>
@@ -19633,6 +19637,9 @@
 <e lm="pontbosètin">          <i>pontbosètin</i><par n="asian__n"/></e>
 <e lm="renom">          <i>renom</i><par n="abricot__n"/></e>
 <e lm="rock" a="stich">          <i>rock</i><par n="personnel__n"/></e>
+<e lm="hard rock" a="hector">          <i>hard<b/>rock</i><par n="personnel__n"/></e>
+<e lm="roque" a="alanfavre">          <i>roque</i><par n="personnel__n"/></e>
+<e lm="roque dur" a="alanfavre">          <i>roque<b/>dur</i><par n="personnel__n"/></e>
 <e lm="rock and roll" a="stich">          <i>rock<b/>and<b/>roll</i><par n="personnel__n"/></e>
 <e lm="roc en role">          <i>roc<b/>en<b/>role</i><par n="personnel__n"/></e>
 <e lm="sirêna">          <i>sirên</i><par n="cultur/a__n"/></e>
@@ -20385,6 +20392,11 @@
 <e lm="Tôssent">          <i>Tôssent</i><par n="abayie__n"/></e>
 <e lm="tenalyes">          <i>tenalyes</i><par n="vacances__n"/></e>
 <e lm="etenalyes">          <i>etenalyes</i><par n="vacances__n"/></e>
+<e lm="fruita">          <i>fruit</i><par n="cultur/a__n"/></e>
+<e lm="barbiér">          <i>barbiér</i><par n="abricot__n"/></e>
+<e lm="manovriér">          <i>manovriér</i><par n="abricot__n"/></e>
+<e lm="rabin">          <i>rabin</i><par n="abricot__n"/></e>
+<e lm="ôrs">          <i>ôrs</i><par n="borjouès__n"/></e>
 
 <!-- nnnnn -->
 
@@ -23878,6 +23890,7 @@
 <e lm="bouchiér">          <i>bouch</i><par n="lèss/iér__vblex"/></e>
 <e lm="bouciér">          <i>bou</i><par n="avan/ciér__vblex"/></e>
 <e lm="brisiér">          <i>bris</i><par n="lèss/iér__vblex"/></e>
+<e lm="bresiér">          <i>bres</i><par n="lèss/iér__vblex"/></e>
 <e lm="buchiér">          <i>buch</i><par n="lèss/iér__vblex"/></e>
 <e lm="bugiér">          <i>bu</i><par n="me/giér__vblex"/></e>
 <e lm="calugiér">          <i>calu</i><par n="me/giér__vblex"/></e>
@@ -24885,6 +24898,7 @@
 <e lm="grolar">          <i>grol</i><par n="chant/ar__vblex"/></e>
 <e lm="grondar">          <i>grond</i><par n="chant/ar__vblex"/></e>
 <e lm="gropar">          <i>grop</i><par n="chant/ar__vblex"/></e>
+<e lm="agropar">          <i>agrop</i><par n="chant/ar__vblex"/></e>
 <e lm="grôtar">          <i>grôt</i><par n="chant/ar__vblex"/></e>
 <e lm="guètar">          <i>guèt</i><par n="chant/ar__vblex"/></e>
 <e lm="héretar">          <i>héret</i><par n="chant/ar__vblex"/></e>
@@ -26605,7 +26619,7 @@
 <e lm="relingiér">          <i>relin</i><par n="me/giér__vblex"/></e>
 <e lm="enorguelyir">          <i>enorguely</i><par n="fen/ir__vblex"/></e>
 <e lm="fiar">          <i>fi</i><par n="chant/ar__vblex"/></e>
-<e lm="gendarmar">          <i>gendarm</i><par n="chant/ar__vblex"/></e>
+<e lm="gendarmar">          <i></i><par n="g/g·"/><i>endarm</i><par n="chant/ar__vblex"/></e>
 <e lm="couètar">          <i>couèt</i><par n="chant/ar__vblex"/></e>
 <e lm="piérreyér">          <i>piérrey</i><par n="pay/ér__vblex"/></e>
 <e lm="ziotar">          <i>ziot</i><par n="chant/ar__vblex"/></e>
