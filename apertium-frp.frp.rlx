@@ -276,11 +276,15 @@ SELECT Prep IF (0 ("en")) (1 Ger) ;				# en jetant
 SELECT Prep IF (0 ("en")) (1 Pro) (2 Ger) ;			# en sè jetant
 SELECT Tn OR Pro IF (0 Pro) (NOT 1 Inf OR Ger) ;		# Louis XIV l’at fêt / VERIFY
 
-# adj / adv
+# adv / adj
 
 SELECT Adv IF (-1C Verb) (0 A) (1C Det) ;	# amâvont galyârd la guèrra
 
-SELECT Adv IF (-1 Haver) (0 A OR N) (1 PP) ;
+SELECT Adv OR PreAdv IF (-1 Haver) (0 A OR N) (1 PP) ;
+
+# adv / n
+
+SELECT Adv IF (-1 BOS OR Sent) (0 Noun_Adj) (1* P1 OR P2 OR P3) ;		# ; pués je tè beniré
 
 # adj / ger
 
