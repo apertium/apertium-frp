@@ -187,6 +187,7 @@ SELECT A IF (0 ("quint") + MajIni + &&GenderNumber) (-1 Ant OR unknownMajIni + &
 REMOVE Adv IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 REMOVE N IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 
+SELECT Prn IF (-1 ("de")) (0 ("ren")) ;					# pouer de ren
 SELECT Prn IF (-1 Haver) (0 ("ren")) (1 PP) ;				# Abraham at ren volu avêr
 SELECT Prn IF (-1 Ser + &&Number) (0 ("ren")) (1 PP + &&Number) ;
 
