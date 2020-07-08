@@ -235,6 +235,11 @@ SELECT Prn IF (0 Det) (1 unknown) ;
 REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv) ;
 REMOVE Det IF (0 Prn) (1C Adv OR PreAdv) (NOT 1 A) ;
 
+# pro / enc
+
+SELECT Enc IF (-1 (META:/-/r)) (0 ("mè") OR ("tè")) ;
+REMOVE Enc IF (NOT -1 (META:/-/r)) (0 ("mè") OR ("tè")) ;
+
 # tn / pro
 
 REMOVE Pro IF (-1 Prep) (0 Pro) (NOT 1 Inf OR Ger OR Pro) ;	# por tè / por tè chantar / en sè jetant
