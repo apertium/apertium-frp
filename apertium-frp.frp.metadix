@@ -11125,6 +11125,8 @@
 <e lm="dèxtra" a="alanfabre">          <i>dèxtra</i><par n="avant__adv"/></e>
 <e lm="supèr">          <i>supèr</i><par n="avant__adv"/></e>
 <e lm="d'amont">          <i>d'amont</i><par n="avant__adv"/></e>
+<e lm="misèrâblament" a="stich">          <i>misèrâblament</i><par n="avant__adv"/></e>
+<e lm="valyament" a="stich">          <i>valyament</i><par n="avant__adv"/></e>
 
 <!-- bbbbbb -->
 
@@ -13645,7 +13647,7 @@
 <e lm="èmetior">          <i>èmetio</i><par n="admirato/r__n"/></e>
 <e lm="èmigracion">          <i>èmigracion</i><par n="abayie__n"/></e>
 <e lm="èmission">          <i>èmission</i><par n="abayie__n"/></e>
-<e lm="programe">          <i>programe</i><par n="abayie__n"/></e>
+<e lm="programe">          <i>programe</i><par n="abricot__n"/></e>
 <e lm="èmocion">          <i>èmocion</i><par n="abayie__n"/></e>
 <e lm="empana">          <i>empan</i><par n="cultur/a__n"/></e>
 
@@ -20657,6 +20659,37 @@
 <e lm="reliques">          <i>reliques</i><par n="vacances__n"/></e>
 <e lm="sèrventa">          <i>sèrvent</i><par n="cultur/a__n"/></e>
 <e lm="groupe">          <i>groupe</i><par n="abricot__n"/></e>
+<e lm="benherox">          <i>benhero</i><par n="ambicio/x__n"/></e>
+<e lm="limbo">          <i>limbo</i><par n="abricot__n"/></e>
+<e lm="limon" a="stich">          <i>limon</i><par n="abricot__n"/></e>
+<e lm="gavota">          <i>gavot</i><par n="cultur/a__n"/></e>
+<e lm="zèloto">          <i>zèlot</i><par n="anarchist/o__n"/></e>
+<e lm="Grenoblouès" a="stich">          <i>Grenoblouès</i><par n="borjouès__n"/></e>
+<e lm="cruâltât" a="stich">          <i>cruâlt</i><par n="activit/ât__n"/></e>
+<e lm="puretât" a="stich">          <i>puret</i><par n="activit/ât__n"/></e>
+<e lm="culto" a="stich">          <i>culto</i><par n="abricot__n"/></e>
+<e lm="scandalo" a="stich">          <i>scandalo</i><par n="abricot__n"/></e>
+<e lm="navegator" a="stich">          <i>navegato</i><par n="admirato/r__n"/></e>
+<e lm="nègociacion" a="corpus">          <i>nègociacion</i><par n="abayie__n"/></e>
+<e lm="lâva-linjo">          <i>lâva-linjo</i><par n="abricot__n"/></e>
+<e lm="lâva-tèrralye">          <i>lâva-tèrralye</i><par n="abricot__n"/></e>
+<e lm="cremâly">          <i>cremâly</i><par n="abricot__n"/></e>
+<e lm="crépo">          <i>crépo</i><par n="abricot__n"/></e>
+<e lm="chaplor">          <i>chaplor</i><par n="abricot__n"/></e>
+<e lm="chaplèta">          <i>chaplèt</i><par n="cultur/a__n"/></e>
+<e lm="plôt">          <i>plôt</i><par n="abricot__n"/></e>
+<e lm="cimbale">          <i>cimbale</i><par n="abayie__n"/></e>
+<e lm="rênèta">          <i>rênèt</i><par n="cultur/a__n"/></e>
+<e lm="arc-en-cièl">     <i>arc</i><par n="abricot__n"/><p><l>-en-cièl</l><r><g>-en-cièl</g></r></p></e>
+<e lm="corona de Sent-Barnabè"><i>coron</i><par n="cultur/a__n"/><p><l><b/>de<b/>Sent-Barnabè</l><r><g><b/>de<b/>Sent-Barnabè</g></r></p></e>
+<e lm="roua de Sent-Martin"><i>rou</i><par n="cultur/a__n"/><p><l><b/>de<b/>Sent-Martin</l><r><g><b/>de<b/>Sent-Martin</g></r></p></e>
+<e lm="roua de Sent-Bernârd"><i>rou</i><par n="cultur/a__n"/><p><l><b/>de<b/>Sent-Bernârd</l><r><g><b/>de<b/>Sent-Bernârd</g></r></p></e>
+<e lm="raye de Sent-Martin"><i>raye</i><par n="abayie__n"/><p><l><b/>de<b/>Sent-Martin</l><r><g><b/>de<b/>Sent-Martin</g></r></p></e>
+<e lm="raye de Sent-Martin"><i>raye</i><par n="abayie__n"/><p><l><b/>de<b/>Sent-Martin</l><r><g><b/>de<b/>Sent-Martin</g></r></p></e>
+<e lm="arc de Sent-Bernârd"><i>arc</i><par n="abricot__n"/><p><l><b/>de<b/>Sent-Bernârd</l><r><g><b/>de<b/>Sent-Bernârd</g></r></p></e>
+<e lm="arc de Sent-Bernârd"><i>arc</i><par n="abricot__n"/><p><l><b/>de<b/>Sent-Bernârd</l><r><g><b/>de<b/>Sent-Bernârd</g></r></p></e>
+<e lm="citâre" a="stich">          <i>citâre</i><par n="abayie__n"/></e>
+
 
 <!-- nnnnn -->
 
@@ -23185,6 +23218,7 @@
 <e lm="supèr">          <i>supèr</i><par n="asian__adj"/></e>
 <e lm="gardien">          <i>gardi</i><par n="afriqu/en__adj"/></e>
 <e lm="réstant">          <i>réstant</i><par n="asian__adj"/></e>
+<e lm="grenoblouès" a="stich">          <i>grenoblouès</i><par n="borjouès__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -26985,6 +27019,13 @@
 <e lm="èxtrère">          <i>èxtr</i><par n="tr/ère__vblex"/></e>
 <e lm="dinamisar" a="hector">          <i>dinamis</i><par n="chant/ar__vblex"/></e>
 <e lm="transfigurar" a="stich">          <i>transfigur</i><par n="chant/ar__vblex"/></e>
+<e lm="ètèrpar">          <i>ètèrp</i><par n="chant/ar__vblex"/></e>
+<e lm="dècharpelyér">          <i>dècharpely</i><par n="pay/ér__vblex"/></e>
+<e lm="dèchiquetar">          <i>dèc</i><par n="h/h·"/><i>iquet</i><par n="chant/ar__vblex"/></e>
+<e lm="dègorciér">          <i>dègor</i><par n="avan/ciér__vblex"/></e>
+<e lm="dèfaretar">          <i>dèfaret</i><par n="chant/ar__vblex"/></e>
+<e lm="empatonar">          <i>empaton</i><par n="chant/ar__vblex"/></e>
+<e lm="empatolyér">          <i>empatoly</i><par n="pay/ér__vblex"/></e>
 
 <!-- vvvvvv -->
 
@@ -27056,6 +27097,7 @@ pegner, je pègno !
 <e lm="Wikimedia">       <i>Wikimedia</i><par n="Wikipedia__np"/></e>
 <e lm="Wikimedia Commons">       <i>Wikimedia<b/>Commons</i><par n="Wikipedia__np"/></e>
 <e lm="Rês">            <i>Rês</i><par n="Jeux_olympiques__np"/></e>
+<e lm="Chalendes">            <i>Chalendes</i><par n="Nations_unies__np"/></e>
 <e lm="Grant Semana">       <i>Grant<b/>Semana</i><par n="Wikipedia__np"/></e>
 <e lm="Grant Semana">       <i>Grant<b/>Senana</i><par n="Wikipedia__np"/></e>
 
@@ -27627,6 +27669,11 @@ pegner, je pègno !
 <e lm="Vâlbenête">          <i>Vâlbenête</i><par n="Bulgarie__np"/></e>
 <e lm="Vêsa">          <i>Vêsa</i><par n="Bulgarie__np"/></e>
 <e lm="Gardon">          <i>Gardon</i><par n="Iran__np"/></e>
+<e lm="Minorca" a="hector">          <i>Minorca</i><par n="Bulgarie__np"/></e>
+<e lm="Vuatèrlô">          <i>Vuatèrlô</i><par n="Iran__np"/></e>
+<e lm="Bêt-lèhem" a="stich">          <i>Bêt-lèhem</i><par n="Iran__np"/></e>
+<e lm="Marne" a="Vouiquipèdia">          <i>Marne</i><par n="Bulgarie__np"/></e>
+<e lm="Besançon" a="stich">          <i>Besançon</i><par n="Iran__np"/></e>
 
 <!-- ttttttt -->
 
@@ -27758,6 +27805,7 @@ pegner, je pègno !
 <e r="LR" lm="o est d'ense qu'"><p><l>o<b/>est<b/>d'ense<b/>qu'</l><r>o<b/>est<b/>d'ense<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="d'atant qu'"><p><l>d'atant<b/>qu'</l><r>d'atant<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="de façon qu'"><p><l>de<b/>façon<b/>qu'</l><r>de<b/>façon<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="puésqu'"><p><l>puésqu'</l><r>puésque<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="être l'objèt de" a="alanfavre"> <i></i><par n="/étre__vblex"/><p><l><b/>l'objèt<b/>d'</l><r><g><b/>l'objèt<b/>de</g></r></p></e>
 
   </section>
