@@ -237,7 +237,7 @@ REMOVE Det IF (0 Prn) (1C Adv OR PreAdv) (NOT 1 A) ;
 
 # tn / pro
 
-REMOVE Pro IF (-1 Prep) (0 Pro) (NOT 1 Inf OR Ger) ;	# por tè / por tè chantar / en sè jetant
+REMOVE Pro IF (-1 Prep) (0 Pro) (NOT 1 Inf OR Ger OR Pro) ;	# por tè / por tè chantar / en sè jetant
 
 REMOVE Tn IF (-1 Tn) (0 Tn) (1 Verb + Pers) ;		# je tè chanto
 REMOVE Tn IF (0C Pro OR Tn) (1 unknown) ;		# tè xxxx
@@ -262,7 +262,9 @@ REMOVE Tn + Pl1 IF (0 Tn + Pl1) (NOT 1 Verb + Pl1) (NOT -1 Prep) ;
 REMOVE Tn + Pl2 IF (0 Tn + Pl2) (NOT 1 Verb + Pl2) (NOT -1 Prep) ;
 REMOVE Tn + Pl3 IF (0 Tn + Pl3) (NOT 1 Verb + Pl3) (NOT -1 Prep) ;
 
-SELECT Pro IF (0 Pro) (1 Inf OR Ger) (-1 Prep) ;		# por lyé dére
+SELECT Pro IF (-1 Prep) (0 Pro) (1 Inf OR Ger) ;		# por lyé dére
+SELECT Pro IF (-1 Prep) (0 Pro) (1 Pro) (2 Inf OR Ger) ;	# por sè nen fâre
+SELECT Pro IF (-2 Prep) (-1 Pro) (0 Pro) (1 Inf OR Ger) ;	# por sè nen fâre
 SELECT Ref IF (0 ("sè")) (1 Ser + P3) (2 PP) ;			# sè sont disputâ (sic)
 SELECT Ref IF (0 ("sè")) (1 Ser + P3) (2 Adv_PreAdv) (3 PP) ;
 SELECT Prep IF (0 ("en")) (1 Ger) ;				# en jetant
