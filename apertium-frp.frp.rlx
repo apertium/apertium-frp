@@ -198,7 +198,7 @@ SELECT Ser IF (0 Etre) ;
 
 # cnjsub / rel
 
-REMOVE CnjSub IF (-1C Det OR N OR A OR Tn OR Pro) ;
+REMOVE CnjSub IF (-1C Det OR N OR A OR Tn OR Pro OR Cm) ;
 
 # itg / rel, adj, cnjadv
 
