@@ -203,6 +203,7 @@ SELECT Ser IF (0 Etre) ;
 # cnjsub / rel
 
 REMOVE CnjSub IF (-1C Det OR N OR A OR Tn OR Pro OR Cm) ;
+REMOVE CnjSub IF (-1 PP LINK NOT -1 Haver OR Ser OR Adv ) ;
 
 # itg / rel, adj, cnjadv
 
@@ -227,8 +228,11 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&Ge
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 A + &&GenderNumber) (2 N + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreAdv) (2 A + &&GenderNumber) (2 N + &&GenderNumber) ;
 
+SELECT Det + &&GenderNumber IF (-1 PreDet + &&GenderNumber) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# tota l’assemblâ
 SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit ; l'hotâl ; je lo vôl
 SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber LINK NOT 0 Verb + Pers) ;	# châcun son diô
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber LINK NOT 0 Verb + Pers) ;
 
 SELECT Det IF (0 ("<l'>")) (1 unknown) ;
 SELECT Prn IF (0 Det) (1 unknown) ;
@@ -302,7 +306,11 @@ REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 SELECT N IF (-1 ("dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;		# dèrriér pouent
 SELECT N IF (-1 ("avant-dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;	# avant-dèrriér pouent
 
-REMOVE Verb IF (NOT -2 Tn) (-1C Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# Je lo vôl
+REMOVE Verb IF (-2 BOS OR Sent) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;		# La fuita en Ègipta
+REMOVE Verb IF (-2 PreDet + &&GenderNumber) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# tota l’assemblâ
+REMOVE Verb IF (-2 Prep) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# la téta de ses armâs
+REMOVE Verb IF (-1 Prep) (-1/* Det) (0 N) ;					# des armâs
+REMOVE Verb IF (-2 Verb) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# comandâvont ses armâs
 
 # n / adj
 
