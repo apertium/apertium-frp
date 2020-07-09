@@ -8515,7 +8515,10 @@
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>sens</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>sons</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yens</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yons</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>séd</l>        <r>re<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yéd</l>        <r>re<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>sê</l>         <r>re<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -8587,9 +8590,16 @@
   <e>       <p><l>sens</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc_cons"/></e>
   <e r="LR"><p><l>sons</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>sons</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc_cons"/></e>
+  <e r="LR"><p><l>yens</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yens</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc_cons"/></e>
+  <e r="LR"><p><l>yons</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yons</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc_cons"/></e>
   <e>       <p><l>séd</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>séd</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy1"/></e>
   <e>       <p><l>séds</l>       <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy2"/></e>
+  <e r="LR"><p><l>yéd</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>yéd</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy1"/></e>
+  <e r="LR"><p><l>yéds</l>       <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc_voy2"/></e>
 </pardef>
 
 <pardef n="tr/ère__vblex">
@@ -10240,6 +10250,7 @@
 <e lm="contra">           <i>contra</i><par n="contre__pr"/></e>
 <e lm="contro">           <i>contro</i><par n="contre__pr"/></e>
 <e lm="pendent">           <i>pendent</i><par n="contre__pr"/></e>
+<e r="LR" lm="pendant" a="stich" c="use_sub"><i>pendant</i><par n="contre__pr"/></e>
 <e lm="entre">           <i>entre</i><par n="contre__pr"/></e>
 <e lm="permié">           <i>permié</i><par n="contre__pr"/></e>
 <e lm="u tôrn de">           <i>u<b/>tôrn<b/></i><par n="/de__pr"/></e>
@@ -13818,7 +13829,7 @@
 <e lm="bièlorusso">          <i>bièloruss</i><par n="anarchist/o__n"/></e>
 <e lm="bilingo">          <i>biling</i><par n="astrolog/o__n"/></e>
 <e lm="bouèmo">          <i>bouèm</i><par n="anarchist/o__n"/></e>
-<e lm="tsigano">          <i>tsigan</i><par n="anarchist/o__n"/></e>
+<e lm="Tsigano">          <i>Tsigan</i><par n="anarchist/o__n"/></e>
 <e lm="bancalo">          <i>bancal</i><par n="anarchist/o__n"/></e>
 <e lm="bancano">          <i>bancan</i><par n="anarchist/o__n"/></e>
 <e lm="canso">          <i>cans</i><par n="anarchist/o__n"/></e>
@@ -19985,7 +19996,10 @@
 <e lm="hèbrô">          <i>hèbr</i><par n="hèbr/ô__n"/></e>
 <e lm="hèbrô">          <i>hèbr</i><par n="hèbr/ô__adj"/></e>
 <e lm="atê" a="stich, 27.02.20">          <i>atê</i><par n="associyê__n"/></e>
+<e lm="Pentecoutes">          <i>Pentecoutes</i><par n="vacances__n"/></e>
+<e lm="Pentecouta">          <i>Pentecouta</i><par n="sêf__n"/></e>
 <e lm="Pâques">          <i>Pâques</i><par n="vacances__n"/></e>
+<e lm="Pâque" a="stich">          <i>Pâque</i><par n="sêf__n"/></e>
 <e lm="Pâca">          <i>Pâ</i><par n="aritmèti/ca__n"/></e>
 <e lm="dèportacion" a="stich">          <i>dèportacion</i><par n="abayie__n"/></e>
 <e lm="lèninismo" a="LoTrèsor">          <i>lèninismo</i><par n="abricot__n"/></e>
@@ -23478,7 +23492,7 @@
 <e lm="jèsuisto">          <i>jèsuist</i><par n="anarchist/o__adj"/></e>
 <e lm="privâ" a="LoTrèsor">          <i>priv</i><par n="acharn/â__adj"/></e>
 
-<!-- aaaaaaa -->
+<!-- aaaaaa -->
 
 <!-- NP -->
 
@@ -23905,6 +23919,10 @@
 <e lm="ècondre">            <i>ècond</i><par n="apond/re__vblex"/></e>
 <e lm="fendre">            <i>fend</i><par n="apond/re__vblex"/></e>
 <e lm="refendre">            <i>refend</i><par n="apond/re__vblex"/></e>
+<e lm="pendre">            <i>pend</i><par n="apond/re__vblex"/></e>
+<e lm="apendre">            <i>apend</i><par n="apond/re__vblex"/></e>
+<e lm="suspendre">            <i>suspend</i><par n="apond/re__vblex"/></e>
+<e lm="dèpendre">            <i>dèpend</i><par n="apond/re__vblex"/></e>
 <e lm="tiendre">            <i>tiend</i><par n="apond/re__vblex"/></e>
 <e lm="ètiendre">            <i>ètiend</i><par n="apond/re__vblex"/></e>
 <e lm="dètiendre">            <i>dètiend</i><par n="apond/re__vblex"/></e>
@@ -27843,7 +27861,8 @@ pegner, je pègno !
 <e lm="Dôfenât" a="Vouiquipèdia">          <i>Dôfenât</i><par n="Iran__np"/></e>
 <e lm="Èden">          <i>Èden</i><par n="Iran__np"/></e>
 <e lm="Ègê">          <i>Ègê</i><par n="Bulgarie__np"/></e>
-<e lm="Èfèso">          <i>Èfèso</i><par n="Bulgarie__np"/></e>
+<e lm="Èfèso">          <i>Èfèso</i><par n="Iran__np"/></e>
+<e lm="Èfèsa" a="stich"><i>Èfèsa</i><par n="Bulgarie__np"/></e>
 <e lm="Èstonia" a="Vouiquipèdia">          <i>Èstonia</i><par n="Bulgarie__np"/></e>
 <e lm="Forês">          <i>Forês</i><par n="Iran__np"/></e>
 <e lm="Jorgia" a="Vouiquipèdia">          <i>Jorgia</i><par n="Bulgarie__np"/></e>
@@ -28182,6 +28201,7 @@ pegner, je pègno !
 <e lm="Jèroboam">          <i>Jèroboam</i><par n="Jian__np"/></e>
 <e lm="Clotèro">          <i>Clotèro</i><par n="Jian__np"/></e>
 <e lm="Julio Cèsâr" a="stich" c="use_sub">          <i>Julio<b/>Cèsâr</i><par n="Jian__np"/></e>
+<e lm="Marc">          <i>Marc</i><par n="Jian__np"/></e>
 
 <!-- cccc -->
 
