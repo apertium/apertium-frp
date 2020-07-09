@@ -11127,6 +11127,9 @@
 <e lm="d'amont">          <i>d'amont</i><par n="avant__adv"/></e>
 <e lm="misèrâblament" a="stich">          <i>misèrâblament</i><par n="avant__adv"/></e>
 <e lm="valyament" a="stich">          <i>valyament</i><par n="avant__adv"/></e>
+<e lm="solanèlament" a="stich">          <i>solanèlament</i><par n="avant__adv"/></e>
+<e lm="sèvèrament" a="stich" c="use_sub">          <i>sèvèrament</i><par n="avant__adv"/></e>
+<e lm="sarvâgement">          <i>sarvâgement</i><par n="avant__adv"/></e>
 
 <!-- bbbbbb -->
 
@@ -19293,6 +19296,10 @@
 <e lm="sord-muet">      <p><l>sordes-muetes</l><r>sord-muet<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="gèrno abâtardi">      <p><l>gèrno<b/>abâtardi</l><r>gèrno<b/>abâtardi<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="gèrno abâtardi">      <p><l>gèrnos<b/>abâtardis</l><r>gèrno<b/>abâtardi<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="disco compacto">      <p><l>disco<b/>compacto</l><r>disco<b/>compacto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="disco compacto">      <p><l>discos<b/>compactos</l><r>disco<b/>compacto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="disco-ROM">      <p><l>disco-ROM</l><r>disco-ROM<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="disco-ROM">      <p><l>discos-ROM</l><r>disco-ROM<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e lm="Arvelenc">          <i>Arvelenc</i><par n="flamenc__n"/></e>
 <e lm="Avesenc">          <i>Avesenc</i><par n="flamenc__n"/></e>
@@ -20689,7 +20696,17 @@
 <e lm="arc de Sent-Bernârd"><i>arc</i><par n="abricot__n"/><p><l><b/>de<b/>Sent-Bernârd</l><r><g><b/>de<b/>Sent-Bernârd</g></r></p></e>
 <e lm="arc de Sent-Bernârd"><i>arc</i><par n="abricot__n"/><p><l><b/>de<b/>Sent-Bernârd</l><r><g><b/>de<b/>Sent-Bernârd</g></r></p></e>
 <e lm="citâre" a="stich">          <i>citâre</i><par n="abayie__n"/></e>
-
+<e lm="pantèt">          <i>pantèt</i><par n="abricot__n"/></e>
+<e lm="sôta-mouton">          <i>sôta-mouton</i><par n="abricot__n"/></e>
+<e lm="anticrist">          <i>anticrist</i><par n="abricot__n"/></e>
+<e lm="assompcion">          <i>assompcion</i><par n="abayie__n"/></e>
+<e lm="capècien">          <i>capèci</i><par n="afriqu/en__n"/></e>
+<e lm="Macabê">          <i>Macabê</i><par n="associyê__n"/></e>
+<e lm="magnificence" a="stich">          <i>magnificence</i><par n="abayie__n"/></e>
+<e lm="aquèen">          <i>aquè</i><par n="afriqu/en__n"/></e>
+<e lm="science-ficcion">          <i>science-ficcion</i><par n="sêf__n"/></e>
+<e lm="fantascience">          <i>fantascience</i><par n="sêf__n"/></e>
+<e lm="doctor" a="stich">          <i>doctor</i><par n="abricot__n"/></e>
 
 <!-- nnnnn -->
 
@@ -23219,6 +23236,11 @@
 <e lm="gardien">          <i>gardi</i><par n="afriqu/en__adj"/></e>
 <e lm="réstant">          <i>réstant</i><par n="asian__adj"/></e>
 <e lm="grenoblouès" a="stich">          <i>grenoblouès</i><par n="borjouès__adj"/></e>
+<e lm="aquèen">          <i>aquè</i><par n="afriqu/en__adj"/></e>
+<e lm="capècien">          <i>capèci</i><par n="afriqu/en__adj"/></e>
+<e lm="fèacien">          <i>fèaci</i><par n="afriqu/en__adj"/></e>
+<e lm="jèsuito">          <i>jèsuit</i><par n="anarchist/o__adj"/></e>
+<e lm="jèsuisto">          <i>jèsuist</i><par n="anarchist/o__adj"/></e>
 
 <!-- aaaaaaa -->
 
@@ -23226,68 +23248,9 @@
 
 <e lm="Pouètiérs"><i>Pouètiérs</i><par n="Iran__np"/></e>
 <e lm="Jèrusalêm"><i>Jèrusalêm</i><par n="Iran__np"/></e>
-<e lm="Charlomagno"><i>Charlomagno</i><par n="Jian__np"/></e>
-<e lm="Jèsus"><i>Jèsus</i><par n="Jian__np"/></e>
-<e lm="Jèsus-Crist"><i>Jèsus-Crist</i><par n="Jian__np"/></e>
-<e lm="Crist"><i>Crist</i><par n="Jian__np"/></e>
 <e lm="Crist"><i>Crist</i><par n="Linux__np"/></e>
-<e lm="Josèf">          <i>Josèf</i><par n="Jian__np"/></e>
-<e lm="Joseph">          <i>Joseph</i><par n="Jian__np"/></e>
-<e lm="André">          <i>André</i><par n="Jian__np"/></e>
-<e lm="Simon">          <i>Simon</i><par n="Jian__np"/></e>
-<e lm="Matiô">          <i>Matiô</i><par n="Jian__np"/></e>
-<e lm="Mathieu">          <i>Mathieu</i><par n="Jian__np"/></e>
-<e lm="Thomas">          <i>Thomas</i><par n="Jian__np"/></e>
-<e lm="Tomas">          <i>Tomas</i><par n="Jian__np"/></e>
-<e lm="Judas">          <i>Judas</i><par n="Jian__np"/></e>
-<e lm="Albert">          <i>Albert</i><par n="Jian__np"/></e>
-<e lm="Albèrt">          <i>Albèrt</i><par n="Jian__np"/></e>
-<e lm="Guillaume">          <i>Guillaume</i><par n="Jian__np"/></e>
-<e lm="Guelyômo">          <i>Guelyômo</i><par n="Jian__np"/></e>
-<e lm="Guelyôme">          <i>Guelyôme</i><par n="Jian__np"/></e>
-<e lm="Guelyômo Tèl">          <i>Guelyômo<b/>Tèl</i><par n="Jian__np"/></e>
-<e lm="Guelyôme Tèl">          <i>Guelyôme<b/>Tèl</i><par n="Jian__np"/></e>
-<e lm="Tadê">          <i>Tadê</i><par n="Jian__np"/></e>
-<e lm="Pèpin lo Cortèt">          <i>Pèpin<b/>lo<b/>Cortèt</i><par n="Jian__np"/></e>
-<e lm="Charlo Martél">          <i>Charlo<b/>Martél</i><par n="Jian__np"/></e>
-<e lm="Pierre">          <i>Pierre</i><par n="Jian__np"/></e>
-<e lm="Pierro">          <i>Pierro</i><par n="Jian__np"/></e>
-<e lm="Paul">          <i>Paul</i><par n="Jian__np"/></e>
-<e lm="Pol">          <i>Pol</i><par n="Jian__np"/></e>
-<e lm="Jian">          <i>Jian</i><par n="Jian__np"/></e>
-<e lm="Jean">          <i>Jean</i><par n="Jian__np"/></e>
-<e lm="Luc">          <i>Luc</i><par n="Jian__np"/></e>
-<e lm="Marie">          <i>Marie</i><par n="Marie__np"/></e>
-<e lm="Marine">          <i>Marine</i><par n="Marie__np"/></e>
-<e lm="Caterina">          <i>Caterina</i><par n="Marie__np"/></e>
-<e lm="Catherine">          <i>Catherine</i><par n="Marie__np"/></e>
-<e lm="Anne">          <i>Anne</i><par n="Marie__np"/></e>
-<e lm="Ana">          <i>Ana</i><par n="Marie__np"/></e>
-<e lm="Jeanne">          <i>Jeanne</i><par n="Marie__np"/></e>
-<e lm="Jiana">          <i>Jiana</i><par n="Marie__np"/></e>
-<e lm="Jiâna">          <i>Jiâna</i><par n="Marie__np"/></e>
-<e lm="Jiana d'Arc">          <i>Jiana<b/>d'Arc</i><par n="Marie__np"/></e>
-<e lm="Jâque">      <i>Jâque</i><par n="Jian__np"/></e>
-<e lm="Jacques">      <i>Jacques</i><par n="Jian__np"/></e>
-<e lm="Hombèrt">      <i>Hombèrt</i><par n="Jian__np"/></e>
-<e lm="Humbert">      <i>Humbert</i><par n="Jian__np"/></e>
-<e lm="Françouès">      <i>Françouès</i><par n="Jian__np"/></e>
-<e lm="François">      <i>François</i><par n="Jian__np"/></e>
-<e lm="Fanfouès">      <i>Fanfouès</i><par n="Jian__np"/></e>
-<e lm="Henri">      <i>Henri</i><par n="Jian__np"/></e>
-<e lm="Hanri">      <i>Hanri</i><par n="Jian__np"/></e>
-<e lm="Louis">      <i>Louis</i><par n="Jian__np"/></e>
-<e lm="Charlo">      <i>Charlo</i><par n="Jian__np"/></e>
-<e lm="Charles">      <i>Charles</i><par n="Jian__np"/></e>
-<e lm="Filipo">      <i>Filipo</i><par n="Jian__np"/></e>
-<e lm="Philippe">      <i>Philippe</i><par n="Jian__np"/></e>
-<e lm="Èdouard">      <i>Èdouard</i><par n="Jian__np"/></e>
-<e lm="Édouard">      <i>Édouard</i><par n="Jian__np"/></e>
-<e lm="Michel">      <i>Michel</i><par n="Jian__np"/></e>
-<e lm="Mechiél">      <i>Mechiél</i><par n="Jian__np"/></e>
-<e lm="Alèxandro lo Grant">      <i>Alèxandro<b/>lo<b/>Grant</i><par n="Jian__np"/></e>
-
 <e lm="Bourbon">      <i>Bourbon</i><par n="Saussure__np"/></e>
+<e lm="Capèt">      <i>Capèt</i><par n="Saussure__np"/></e>
 <e lm="Mèdici">      <i>Mèdici</i><par n="Saussure__np"/></e>
 <e lm="Valouès">      <i>Valouès</i><par n="Saussure__np"/></e>
 <e lm="de Valouès">   <i>de<b/>Valouès</i><par n="Saussure__np"/></e>
@@ -27674,8 +27637,312 @@ pegner, je pègno !
 <e lm="Bêt-lèhem" a="stich">          <i>Bêt-lèhem</i><par n="Iran__np"/></e>
 <e lm="Marne" a="Vouiquipèdia">          <i>Marne</i><par n="Bulgarie__np"/></e>
 <e lm="Besançon" a="stich">          <i>Besançon</i><par n="Iran__np"/></e>
+<e lm="Antibo">          <i>Antibo</i><par n="Iran__np"/></e>
+<e lm="Assour">          <i>Assour</i><par n="Iran__np"/></e>
+<e lm="Canaan">          <i>Canaan</i><par n="Iran__np"/></e>
+<e lm="Cafarnaom">          <i>Cafarnaom</i><par n="Iran__np"/></e>
+<e lm="Yafô">          <i>Yafô</i><par n="Bulgarie__np"/></e>
+<e lm="Saba">          <i>Saba</i><par n="Iran__np"/></e>
+<e lm="Sedan">          <i>Sedan</i><par n="Iran__np"/></e>
+<e lm="Tolbiac">          <i>Tolbiac</i><par n="Iran__np"/></e>
 
 <!-- ttttttt -->
+
+<e lm="Charlomagno"><i>Charlomagno</i><par n="Jian__np"/></e>
+<e lm="Jèsus"><i>Jèsus</i><par n="Jian__np"/></e>
+<e lm="Jèsus-Crist"><i>Jèsus-Crist</i><par n="Jian__np"/></e>
+<e lm="Crist"><i>Crist</i><par n="Jian__np"/></e>
+<e lm="Josèf">          <i>Josèf</i><par n="Jian__np"/></e>
+<e lm="Joseph">          <i>Joseph</i><par n="Jian__np"/></e>
+<e lm="André">          <i>André</i><par n="Jian__np"/></e>
+<e lm="Simon">          <i>Simon</i><par n="Jian__np"/></e>
+<e lm="Matiô">          <i>Matiô</i><par n="Jian__np"/></e>
+<e lm="Mathieu">          <i>Mathieu</i><par n="Jian__np"/></e>
+<e lm="Thomas">          <i>Thomas</i><par n="Jian__np"/></e>
+<e lm="Tomas">          <i>Tomas</i><par n="Jian__np"/></e>
+<e lm="Judas">          <i>Judas</i><par n="Jian__np"/></e>
+<e lm="Albert">          <i>Albert</i><par n="Jian__np"/></e>
+<e lm="Albèrt">          <i>Albèrt</i><par n="Jian__np"/></e>
+<e lm="Guillaume">          <i>Guillaume</i><par n="Jian__np"/></e>
+<e lm="Guelyômo">          <i>Guelyômo</i><par n="Jian__np"/></e>
+<e lm="Guelyôme">          <i>Guelyôme</i><par n="Jian__np"/></e>
+<e lm="Guelyômo Tèl">          <i>Guelyômo<b/>Tèl</i><par n="Jian__np"/></e>
+<e lm="Guelyôme Tèl">          <i>Guelyôme<b/>Tèl</i><par n="Jian__np"/></e>
+<e lm="Tadê">          <i>Tadê</i><par n="Jian__np"/></e>
+<e lm="Pèpin lo Cortèt">          <i>Pèpin<b/>lo<b/>Cortèt</i><par n="Jian__np"/></e>
+<e lm="Charlo Martél">          <i>Charlo<b/>Martél</i><par n="Jian__np"/></e>
+<e lm="Pierre">          <i>Pierre</i><par n="Jian__np"/></e>
+<e lm="Pierro">          <i>Pierro</i><par n="Jian__np"/></e>
+<e lm="Paul">          <i>Paul</i><par n="Jian__np"/></e>
+<e lm="Pol">          <i>Pol</i><par n="Jian__np"/></e>
+<e lm="Jian">          <i>Jian</i><par n="Jian__np"/></e>
+<e lm="Jean">          <i>Jean</i><par n="Jian__np"/></e>
+<e lm="Luc">          <i>Luc</i><par n="Jian__np"/></e>
+<e lm="Marie">          <i>Marie</i><par n="Marie__np"/></e>
+<e lm="Marine">          <i>Marine</i><par n="Marie__np"/></e>
+<e lm="Caterina">          <i>Caterina</i><par n="Marie__np"/></e>
+<e lm="Catherine">          <i>Catherine</i><par n="Marie__np"/></e>
+<e lm="Anne">          <i>Anne</i><par n="Marie__np"/></e>
+<e lm="Ana">          <i>Ana</i><par n="Marie__np"/></e>
+<e lm="Jeanne">          <i>Jeanne</i><par n="Marie__np"/></e>
+<e lm="Jiana">          <i>Jiana</i><par n="Marie__np"/></e>
+<e lm="Jiâna">          <i>Jiâna</i><par n="Marie__np"/></e>
+<e lm="Jiana d'Arc">          <i>Jiana<b/>d'Arc</i><par n="Marie__np"/></e>
+<e lm="Jâque">      <i>Jâque</i><par n="Jian__np"/></e>
+<e lm="Jacques">      <i>Jacques</i><par n="Jian__np"/></e>
+<e lm="Hombèrt">      <i>Hombèrt</i><par n="Jian__np"/></e>
+<e lm="Humbert">      <i>Humbert</i><par n="Jian__np"/></e>
+<e lm="Françouès">      <i>Françouès</i><par n="Jian__np"/></e>
+<e lm="François">      <i>François</i><par n="Jian__np"/></e>
+<e lm="Fanfouès">      <i>Fanfouès</i><par n="Jian__np"/></e>
+<e lm="Henri">      <i>Henri</i><par n="Jian__np"/></e>
+<e lm="Hanri">      <i>Hanri</i><par n="Jian__np"/></e>
+<e lm="Louis">      <i>Louis</i><par n="Jian__np"/></e>
+<e lm="Charlo">      <i>Charlo</i><par n="Jian__np"/></e>
+<e lm="Charles">      <i>Charles</i><par n="Jian__np"/></e>
+<e lm="Filipo">      <i>Filipo</i><par n="Jian__np"/></e>
+<e lm="Philippe">      <i>Philippe</i><par n="Jian__np"/></e>
+<e lm="Èdouard">      <i>Èdouard</i><par n="Jian__np"/></e>
+<e lm="Édouard">      <i>Édouard</i><par n="Jian__np"/></e>
+<e lm="Michel">      <i>Michel</i><par n="Jian__np"/></e>
+<e lm="Mechiél">      <i>Mechiél</i><par n="Jian__np"/></e>
+<e lm="Alèxandro lo Grant">      <i>Alèxandro<b/>lo<b/>Grant</i><par n="Jian__np"/></e>
+
+<e lm="Abraham">          <i>Abraham</i><par n="Jian__np"/></e>
+<e lm="Agamèmnon">          <i>Agamèmnon</i><par n="Jian__np"/></e>
+<e lm="Alèxandro">          <i>Alèxandro</i><par n="Jian__np"/></e>
+<e lm="Alexandre">          <i>Alexandre</i><par n="Jian__np"/></e>
+<e lm="Afrodita">          <i>Afrodita</i><par n="Marie__np"/></e>
+<e lm="Apolon">          <i>Apolon</i><par n="Jian__np"/></e>
+<e lm="Atêna">          <i>Atêna</i><par n="Marie__np"/></e>
+<e lm="Atila">          <i>Atila</i><par n="Jian__np"/></e>
+<e lm="Bacus">          <i>Bacus</i><par n="Jian__np"/></e>
+<e lm="Bâcus">          <i>Bâcus</i><par n="Jian__np"/></e>
+<e lm="Bertrand">          <i>Bertrand</i><par n="Jian__np"/></e>
+<e lm="Bèrtrand">          <i>Bèrtrand</i><par n="Jian__np"/></e>
+<e lm="Cayin">          <i>Cayin</i><par n="Jian__np"/></e>
+<e lm="Caterina de Mèdici">          <i>Caterina<b/>de<b/>Mèdici</i><par n="Marie__np"/></e>
+<e lm="Cèsâr">          <i>Cèsâr</i><par n="Jian__np"/></e>
+<e lm="Ciros">          <i>Ciros</i><par n="Jian__np"/></e>
+<e lm="Daniel">          <i>Daniel</i><par n="Jian__np"/></e>
+<e lm="Danièl">          <i>Danièl</i><par n="Jian__np"/></e>
+<e lm="David">          <i>David</i><par n="Jian__np"/></e>
+<e lm="Ègê">          <i>Ègê</i><par n="Jian__np"/></e>
+<e lm="Élisabeth">          <i>Élisabeth</i><par n="Marie__np"/></e>
+<e lm="Èlisabèt">          <i>Èlisabèt</i><par n="Marie__np"/></e>
+<e lm="Esther">          <i>Esther</i><par n="Marie__np"/></e>
+<e lm="Èstèr">          <i>Èstèr</i><par n="Marie__np"/></e>
+<e lm="Étienne">          <i>Étienne</i><par n="Jian__np"/></e>
+<e lm="Ètièno">          <i>Ètièno</i><par n="Jian__np"/></e>
+<e lm="Galatê">          <i>Galatê</i><par n="Marie__np"/></e>
+<e lm="Goliat">          <i>Goliat</i><par n="Jian__np"/></e>
+<e lm="Idomènê">          <i>Idomènê</i><par n="Jian__np"/></e>
+<e lm="Isaac">          <i>Isaac</i><par n="Jian__np"/></e>
+<e lm="Isold">          <i>Isold</i><par n="Marie__np"/></e>
+<e lm="Jean-Baptiste">          <i>Jean-Baptiste</i><par n="Jian__np"/></e>
+<e lm="Jian-Baptisto">          <i>Jian-Baptisto</i><par n="Jian__np"/></e>
+<e lm="Jéremie">          <i>Jéremie</i><par n="Jian__np"/></e>
+<e lm="Jérémie">          <i>Jérémie</i><par n="Jian__np"/></e>
+<e lm="Job">          <i>Job</i><par n="Jian__np"/></e>
+<e lm="Joël">          <i>Joël</i><par n="Jian__np"/></e>
+<e lm="Joèl">          <i>Joèl</i><par n="Jian__np"/></e>
+<e lm="Jonas">          <i>Jonas</i><par n="Jian__np"/></e>
+<e lm="Jonathan">          <i>Jonathan</i><par n="Jian__np"/></e>
+<e lm="Jonatan">          <i>Jonatan</i><par n="Jian__np"/></e>
+<e lm="Juda">          <i>Juda</i><par n="Jian__np"/></e>
+<e lm="Judas Macabê">          <i>Judas<b/>Macabê</i><par n="Jian__np"/></e>
+<e lm="Judas Iscarioto">          <i>Judas<b/>Iscarioto</i><par n="Jian__np"/></e>
+<e lm="Juda-Tadê">          <i>Juda-Tadê</i><par n="Jian__np"/></e>
+<e lm="Julo Cèsâr">          <i>Julo<b/>Cèsâr</i><par n="Jian__np"/></e>
+<e lm="Jupitèr">          <i>Jupitèr</i><par n="Jian__np"/></e>
+<e lm="Madeleine">          <i>Madeleine</i><par n="Marie__np"/></e>
+<e lm="Madelêna">          <i>Madelêna</i><par n="Marie__np"/></e>
+<e lm="Mahomèt">          <i>Mahomèt</i><par n="Jian__np"/></e>
+<e lm="Marie-Antouènèta">          <i>Marie-Antouènèta</i><par n="Marie__np"/></e>
+<e lm="Mârs">          <i>Mârs</i><par n="Jian__np"/></e>
+<e lm="Mèrcure">          <i>Mèrcure</i><par n="Jian__np"/></e>
+<e lm="Mèrcuro">          <i>Mèrcuro</i><par n="Jian__np"/></e>
+<e lm="Moyise">          <i>Moyise</i><par n="Jian__np"/></e>
+<e lm="Napoléon">          <i>Napoléon</i><par n="Jian__np"/></e>
+<e lm="Nathan">          <i>Nathan</i><par n="Jian__np"/></e>
+<e lm="Natan">          <i>Natan</i><par n="Jian__np"/></e>
+<e lm="Neptuno">          <i>Neptuno</i><par n="Jian__np"/></e>
+<e lm="Nèron">          <i>Nèron</i><par n="Jian__np"/></e>
+<e lm="Nestor">          <i>Nestor</i><par n="Jian__np"/></e>
+<e lm="Nèstôr">          <i>Nèstôr</i><par n="Jian__np"/></e>
+<e lm="Pilato">          <i>Pilato</i><par n="Jian__np"/></e>
+<e lm="Rachel">          <i>Rachel</i><par n="Marie__np"/></e>
+<e lm="Rachèl">          <i>Rachèl</i><par n="Marie__np"/></e>
+<e lm="Raphaël">          <i>Raphaël</i><par n="Jian__np"/></e>
+<e lm="Rafaèl">          <i>Rafaèl</i><par n="Jian__np"/></e>
+<e lm="René">          <i>René</i><par n="Jian__np"/></e>
+<e lm="Reniér">          <i>Reniér</i><par n="Jian__np"/></e>
+<e lm="Salomon">          <i>Salomon</i><par n="Jian__np"/></e>
+<e lm="Samuel">          <i>Samuel</i><par n="Jian__np"/></e>
+<e lm="Samuèl">          <i>Samuèl</i><par n="Jian__np"/></e>
+<e lm="Shaoul">          <i>Shaoul</i><par n="Jian__np"/></e>
+<e lm="Sisifo">          <i>Sisifo</i><par n="Jian__np"/></e>
+<e lm="Tibèro">          <i>Tibèro</i><par n="Jian__np"/></e>
+<e lm="Vènus">          <i>Vènus</i><par n="Marie__np"/></e>
+<e lm="Zeus">          <i>Zeus</i><par n="Jian__np"/></e>
+<e lm="Benjamin">          <i>Benjamin</i><par n="Jian__np"/></e>
+<e lm="Adam">          <i>Adam</i><par n="Jian__np"/></e>
+<e lm="Ève">          <i>Ève</i><par n="Marie__np"/></e>
+<e lm="Èva">          <i>Èva</i><par n="Marie__np"/></e>
+<e lm="Abel">          <i>Abel</i><par n="Jian__np"/></e>
+<e lm="Abèl">          <i>Abèl</i><par n="Jian__np"/></e>
+<e lm="Cayifo">          <i>Cayifo</i><par n="Jian__np"/></e>
+<e lm="Canaan">          <i>Canaan</i><par n="Jian__np"/></e>
+<e lm="Dan">          <i>Dan</i><par n="Jian__np"/></e>
+<e lm="Hèrodo">          <i>Hèrodo</i><par n="Jian__np"/></e>
+<e lm="Jacob">          <i>Jacob</i><par n="Jian__np"/></e>
+<e lm="Josuè">          <i>Josuè</i><par n="Jian__np"/></e>
+<e lm="Mèrovê">          <i>Mèrovê</i><par n="Jian__np"/></e>
+<e lm="Sarah">          <i>Sarah</i><par n="Marie__np"/></e>
+<e lm="Satan">          <i>Satan</i><par n="Jian__np"/></e>
+<e lm="Vèrcingètorix">          <i>Vèrcingètorix</i><par n="Jian__np"/></e>
+<e lm="Diana">          <i>Diana</i><par n="Marie__np"/></e>
+<e lm="Hêfèstos">          <i>Hêfèstos</i><par n="Jian__np"/></e>
+<e lm="Hêra">          <i>Hêra</i><par n="Marie__np"/></e>
+<e lm="Hèrmês">          <i>Hèrmês</i><par n="Jian__np"/></e>
+<e lm="Clotilda">          <i>Clotilda</i><par n="Marie__np"/></e>
+<e lm="Cretôfllo Colomb">          <i>Cretôfllo<b/>Colomb</i><par n="Jian__np"/></e>
+<e lm="Hêraclês">          <i>Hêraclês</i><par n="Jian__np"/></e>
+<e lm="Hèrodo Agripa">          <i>Hèrodo<b/>Agripa</i><par n="Jian__np"/></e>
+<e lm="Agripa">          <i>Agripa</i><par n="Jian__np"/></e>
+<e lm="Claude">          <i>Claude</i><par n="Jian__np"/></e>
+<e lm="Claude">          <i>Claude</i><par n="Marie__np"/></e>
+<e lm="Gllôdo">          <i>Gllôdo</i><par n="Jian__np"/></e>
+<e lm="Gllôda">          <i>Gllôda</i><par n="Marie__np"/></e>
+<e lm="Ariadna">          <i>Ariadna</i><par n="Marie__np"/></e>
+<e lm="Clovis">          <i>Clovis</i><par n="Jian__np"/></e>
+<e lm="Jaque Cllèment">          <i>Jaque<b/>Cllèment</i><par n="Jian__np"/></e>
+<e lm="Mitra">          <i>Mitra</i><par n="Jian__np"/></e>
+<e lm="Fèdra">          <i>Fèdra</i><par n="Marie__np"/></e>
+<e lm="Filipo-Ôgusto">          <i>Filipo-Ôgusto</i><par n="Jian__np"/></e>
+<e lm="Grégoire">          <i>Grégoire</i><par n="Jian__np"/></e>
+<e lm="Gregouère" a="alanfavre">          <i>Gregouère</i><par n="Jian__np"/></e>
+<e lm="Emmanuel">          <i>Emmanuel</i><par n="Jian__np"/></e>
+<e lm="Èmanuèl" a="alanfavre">          <i>Èmanuèl</i><par n="Jian__np"/></e>
+<e lm="Isabelle">          <i>Isabelle</i><par n="Marie__np"/></e>
+<e lm="Isabèla" a="alanfavre">          <i>Isabèla</i><par n="Marie__np"/></e>
+<e lm="Èlisabèta" a="alanfavre">          <i>Èlisabèta</i><par n="Marie__np"/></e>
+<e lm="Maria">          <i>Maria</i><par n="Marie__np"/></e>
+<e lm="Sophie">          <i>Sophie</i><par n="Marie__np"/></e>
+<e lm="Sofia" a="alanfavre">          <i>Sofia</i><par n="Marie__np"/></e>
+<e lm="Michèl" a="alanfavre">          <i>Michèl</i><par n="Jian__np"/></e>
+<e lm="Jean-Paul">          <i>Jean-Paul</i><par n="Jian__np"/></e>
+<e lm="Jian-Pol" a="alanfavre">          <i>Jian-Pol</i><par n="Jian__np"/></e>
+<e lm="Benoît">          <i>Benoît</i><par n="Jian__np"/></e>
+<e lm="Benêt" a="alanfavre">          <i>Benêt</i><par n="Jian__np"/></e>
+<e lm="Sixte">          <i>Sixte</i><par n="Jian__np"/></e>
+<e lm="Sixto" a="alanfavre">          <i>Sixto</i><par n="Jian__np"/></e>
+<e lm="Innocent">          <i>Innocent</i><par n="Jian__np"/></e>
+<e lm="Inocent" a="alanfavre">          <i>Inocent</i><par n="Jian__np"/></e>
+<e lm="Léon">          <i>Léon</i><par n="Jian__np"/></e>
+<e lm="Lion" a="alanfavre">          <i>Lion</i><par n="Jian__np"/></e>
+<e lm="Ferdinand">          <i>Ferdinand</i><par n="Jian__np"/></e>
+<e lm="Fèrnand" a="alanfavre">          <i>Fèrnand</i><par n="Jian__np"/></e>
+<e lm="Richard">          <i>Richard</i><par n="Jian__np"/></e>
+<e lm="Richârd" a="alanfavre">          <i>Richârd</i><par n="Jian__np"/></e>
+<e lm="Martin">          <i>Martin</i><par n="Jian__np"/></e>
+<e lm="Alphonse">          <i>Alphonse</i><par n="Jian__np"/></e>
+<e lm="Alfonse" a="alanfavre">          <i>Alfonse</i><par n="Jian__np"/></e>
+<e lm="Louise">          <i>Louise</i><par n="Marie__np"/></e>
+<e lm="Louisa" a="alanfavre">          <i>Louisa</i><par n="Marie__np"/></e>
+<e lm="Nicolas">          <i>Nicolas</i><par n="Jian__np"/></e>
+<e lm="Maximilien">          <i>Maximilien</i><par n="Jian__np"/></e>
+<e lm="Bernard">          <i>Bernard</i><par n="Jian__np"/></e>
+<e lm="Bèrnârd" a="alanfavre">          <i>Bèrnârd</i><par n="Jian__np"/></e>
+<e lm="Frédéric">          <i>Frédéric</i><par n="Jian__np"/></e>
+<e lm="Frèdèric" a="alanfavre">          <i>Frèdèric</i><par n="Jian__np"/></e>
+<e lm="Jules">          <i>Jules</i><par n="Jian__np"/></e>
+<e lm="Aliénor">          <i>Aliénor</i><par n="Marie__np"/></e>
+<e lm="Alionor" a="alanfavre">          <i>Alionor</i><par n="Marie__np"/></e>
+<e lm="Raymond">          <i>Raymond</i><par n="Jian__np"/></e>
+<e lm="Rêmond" a="alanfavre">          <i>Rêmond</i><par n="Jian__np"/></e>
+<e lm="Stéphanie">          <i>Stéphanie</i><par n="Marie__np"/></e>
+<e lm="Èstèfania" a="alanfavre">          <i>Èstèfania</i><par n="Marie__np"/></e>
+<e lm="Boniface">          <i>Boniface</i><par n="Jian__np"/></e>
+<e lm="Clément">          <i>Clément</i><par n="Jian__np"/></e>
+<e lm="Cllèment" a="alanfavre">          <i>Cllèment</i><par n="Jian__np"/></e>
+<e lm="Georges">          <i>Georges</i><par n="Jian__np"/></e>
+<e lm="Jôrjo" a="alanfavre">          <i>Jôrjo</i><par n="Jian__np"/></e>
+<e lm="Jorio" a="alanfavre">          <i>Jorio</i><par n="Jian__np"/></e>
+<e lm="Germain">          <i>Germain</i><par n="Jian__np"/></e>
+<e lm="Gèrmen" a="alanfavre">          <i>Gèrmen</i><par n="Jian__np"/></e>
+<e lm="Antoine">          <i>Antoine</i><par n="Jian__np"/></e>
+<e lm="Antouèno" a="alanfavre">          <i>Antouèno</i><par n="Jian__np"/></e>
+<e lm="Antouènèta">          <i>Antouènèta</i><par n="Marie__np"/></e>
+<e lm="Renâ" a="alanfavre">          <i>Renâ</i><par n="Jian__np"/></e>
+<e lm="Eugénie">          <i>Eugénie</i><par n="Marie__np"/></e>
+<e lm="Ugènia" a="alanfavre">          <i>Ugènia</i><par n="Marie__np"/></e>
+<e lm="Baudouin">          <i>Baudouin</i><par n="Jian__np"/></e>
+<e lm="Baldouin" a="alanfavre">          <i>Baldouin</i><par n="Jian__np"/></e>
+<e lm="Léopold">          <i>Léopold</i><par n="Jian__np"/></e>
+<e lm="Liopold" a="alanfavre">          <i>Liopold</i><par n="Jian__np"/></e>
+<e lm="Amédée">          <i>Amédée</i><par n="Jian__np"/></e>
+<e lm="Amèdê" a="alanfavre">          <i>Amèdê</i><par n="Jian__np"/></e>
+<e lm="Christophe">          <i>Christophe</i><par n="Jian__np"/></e>
+<e lm="Rémi">          <i>Rémi</i><par n="Jian__np"/></e>
+<e lm="Rèmi" a="alanfavre">          <i>Rèmi</i><par n="Jian__np"/></e>
+<e lm="Robert">          <i>Robert</i><par n="Jian__np"/></e>
+<e lm="Robèrt" a="alanfavre">          <i>Robèrt</i><par n="Jian__np"/></e>
+<e lm="Humbèrt" a="alanfavre">          <i>Humbèrt</i><par n="Jian__np"/></e>
+<e lm="Hubert">          <i>Hubert</i><par n="Jian__np"/></e>
+<e lm="Hubèrt" a="alanfavre">          <i>Hubèrt</i><par n="Jian__np"/></e>
+<e lm="Hugues">          <i>Hugues</i><par n="Jian__np"/></e>
+<e lm="Hugo" a="alanfavre">          <i>Hugo</i><par n="Jian__np"/></e>
+<e lm="Félix">          <i>Félix</i><par n="Jian__np"/></e>
+<e lm="Fèlix" a="alanfavre">          <i>Fèlix</i><par n="Jian__np"/></e>
+<e lm="Urbain">          <i>Urbain</i><par n="Jian__np"/></e>
+<e lm="Urben" a="alanfavre">          <i>Urben</i><par n="Jian__np"/></e>
+<e lm="Marguerite">          <i>Marguerite</i><par n="Marie__np"/></e>
+<e lm="Margrita" a="alanfavre">          <i>Margrita</i><par n="Marie__np"/></e>
+<e lm="Yolande">          <i>Yolande</i><par n="Marie__np"/></e>
+<e lm="Iolanda" a="alanfavre">          <i>Iolanda</i><par n="Marie__np"/></e>
+<e lm="Béatrice">          <i>Béatrice</i><par n="Marie__np"/></e>
+<e lm="Bèatrice" a="alanfavre">          <i>Bèatrice</i><par n="Marie__np"/></e>
+<e lm="Christine">          <i>Christine</i><par n="Marie__np"/></e>
+<e lm="Cristina" a="alanfavre">          <i>Cristina</i><par n="Marie__np"/></e>
+<e lm="Margot">          <i>Margot</i><par n="Marie__np"/></e>
+<e lm="Margoton">          <i>Margoton</i><par n="Marie__np"/></e>
+<e lm="Philibert">          <i>Philibert</i><par n="Jian__np"/></e>
+<e lm="Filibèrt" a="alanfavre">          <i>Filibèrt</i><par n="Jian__np"/></e>
+<e lm="Udo" a="alanfavre">          <i>Udo</i><par n="Jian__np"/></e>
+<e lm="Anselme">          <i>Anselme</i><par n="Jian__np"/></e>
+<e lm="Ansèlmo" a="alanfavre">          <i>Ansèlmo</i><par n="Jian__np"/></e>
+<e lm="Sigismond">          <i>Sigismond</i><par n="Jian__np"/></e>
+<e lm="Sigimond" a="alanfavre">          <i>Sigimond</i><par n="Jian__np"/></e>
+<e lm="Gondebôd" a="alanfavre">          <i>Gondebôd</i><par n="Jian__np"/></e>
+<e lm="Geoffroy">          <i>Geoffroy</i><par n="Jian__np"/></e>
+<e lm="Jèfrê" a="alanfavre">          <i>Jèfrê</i><par n="Jian__np"/></e>
+<e lm="Abia">          <i>Abia</i><par n="Jian__np"/></e>
+<e lm="Abimèlèk">          <i>Abimèlèk</i><par n="Jian__np"/></e>
+<e lm="Alcinoos">          <i>Alcinoos</i><par n="Jian__np"/></e>
+<e lm="Alcmêna">          <i>Alcmêna</i><par n="Marie__np"/></e>
+<e lm="Amon">          <i>Amon</i><par n="Jian__np"/></e>
+<e lm="Anticlèa">          <i>Anticlèa</i><par n="Marie__np"/></e>
+<e lm="Antiocos">          <i>Antiocos</i><par n="Jian__np"/></e>
+<e lm="Assouèros">          <i>Assouèros</i><par n="Jian__np"/></e>
+<e lm="Atalie">          <i>Atalie</i><par n="Marie__np"/></e>
+<e lm="Brunehôt">          <i>Brunehôt</i><par n="Marie__np"/></e>
+<e lm="Dagobèrt">          <i>Dagobèrt</i><par n="Jian__np"/></e>
+<e lm="Frèdègonda">          <i>Frèdègonda</i><par n="Marie__np"/></e>
+<e lm="Hamor">          <i>Hamor</i><par n="Jian__np"/></e>
+<e lm="Jiana Hachèta">          <i>Jiana<b/>Hachèta</i><par n="Marie__np"/></e>
+<e lm="Jèconias">          <i>Jèconias</i><par n="Jian__np"/></e>
+<e lm="Josafat">          <i>Josafat</i><par n="Jian__np"/></e>
+<e lm="Mènèlâs">          <i>Mènèlâs</i><par n="Jian__np"/></e>
+<e lm="Nabucodonosor">          <i>Nabucodonosor</i><par n="Jian__np"/></e>
+<e lm="Salmanassar">          <i>Salmanassar</i><par n="Jian__np"/></e>
+<e lm="Senahèrib">          <i>Senahèrib</i><par n="Jian__np"/></e>
+<e lm="Achilo">          <i>Achilo</i><par n="Jian__np"/></e>
+<e lm="Roboam">          <i>Roboam</i><par n="Jian__np"/></e>
+<e lm="Saoul">          <i>Saoul</i><par n="Jian__np"/></e>
+<e lm="Jèroboam">          <i>Jèroboam</i><par n="Jian__np"/></e>
+
+<!-- cccc -->
 
   <e>       <p><l>mè</l>      <r>mè<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>tè</l>      <r>tè<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
