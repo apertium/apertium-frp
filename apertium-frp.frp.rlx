@@ -227,8 +227,8 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&Ge
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 A + &&GenderNumber) (2 N + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreAdv) (2 A + &&GenderNumber) (2 N + &&GenderNumber) ;
 
-SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit, l'hotâl
-SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
+SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit ; l'hotâl ; je lo vôl
+SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
 
 SELECT Det IF (0 ("<l'>")) (1 unknown) ;
 SELECT Prn IF (0 Det) (1 unknown) ;
@@ -302,7 +302,7 @@ REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 SELECT N IF (-1 ("dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;		# dèrriér pouent
 SELECT N IF (-1 ("avant-dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;	# avant-dèrriér pouent
 
-REMOVE Verb IF (-1C Det + &&GenderNumber) (0 N + &&GenderNumber) ;
+REMOVE Verb IF (NOT -2 Tn) (-1C Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# Je lo vôl
 
 # n / adj
 
