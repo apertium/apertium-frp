@@ -172,6 +172,8 @@ SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
 REMOVE Top IF (-1 BOS) (0 ("en")) ;
 REMOVE Top IF (-1 BOS) (0 ("nion")) ;
 
+SELECT N IF (-1 Def + FemSg) (0 ("<Mar>")) ;
+
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
 SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
