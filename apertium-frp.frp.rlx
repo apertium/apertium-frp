@@ -428,7 +428,8 @@ SELECT P3 IF (-3 Il + Pl) (-2 Pro) (-1 Pro) (0 VPl3);
 
 # temps verbaux
 
-REMOVE Imper IF (NOT 1* Excl) ;
+REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* Excl) ;
+SELECT Imper IF (-1 BOS OR Sent OR (lpar)) (0 ("<Va>")) ;
 #REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
 #REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
 
