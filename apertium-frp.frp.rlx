@@ -167,6 +167,8 @@ REMOVE ("mê") IF (0 ("mês")) ;
 
 SELECT A IF (0 ("dèrriér") + &&GenderNumber) (1 N + &&GenderNumber) ;	# dèrriér pouent
 
+SELECT Adv IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("pouent")) ;
+
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	# devant la mêson
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	# devant la granta mêson
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
@@ -186,6 +188,8 @@ SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
 
 SELECT ("lui") IF (0 ("il")) (-1C Prep) ;
 
+SELECT N IF (-1 BOS OR Sent OR (lpar)) (0 ("fèna")) (1 CM) ;
+
 REMOVE Itg IF (0 Se) (1 Verb + P3) ;
 
 SELECT Pro IF (0 ("nen")) (1 unknown) ;
@@ -198,6 +202,7 @@ REMOVE N IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 SELECT Prn IF (-1 ("de")) (0 ("ren")) ;					# pouer de ren
 SELECT Prn IF (-1 Haver) (0 ("ren")) (1 PP) ;				# Abraham at ren volu avêr
 SELECT Prn IF (-1 Ser + &&Number) (0 ("ren")) (1 PP + &&Number) ;
+SELECT Prn IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("ren")) ;
 
 REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la fin Diô at acutâ lor preyére
 
@@ -430,6 +435,8 @@ SELECT P3 IF (-3 Il + Pl) (-2 Pro) (-1 Pro) (0 VPl3);
 
 REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* Excl) ;
 SELECT Imper IF (-1 BOS OR Sent OR (lpar)) (0 ("<Va>")) ;
+REMOVE Ind OR Subjunc IF (-1 BOS OR Sent OR (lpar)) (0 Imper) ;		# « Salye de ton payis
+
 #REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
 #REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
 
