@@ -211,7 +211,7 @@ REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la
 SELECT V IF (0 Etre) (1 ("a")) (NOT 2 Top OR unknownMajIni) ;			# ére ux Angliès
 SELECT V IF (0 Etre) (1 Adv) (2 ("a")) (NOT 3 Top OR unknownMajIni) ;		# ére pas ux Angliès
 SELECT V IF (0 Etre) (1 Adv) (2 Adv) (3 ("a")) (NOT 4 Top OR unknownMajIni) ;	# ére pas alor ux Angliès
-SELECT Ser IF (0 Etre) ;
+REMOVE V IF (0 Etre) ;
 
 # cnjsub / rel
 
