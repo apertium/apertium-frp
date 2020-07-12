@@ -431,6 +431,18 @@ SELECT P3 IF (-2 Il + Pl) (-1 Pro) (0 VPl3);
 SELECT P3 IF (-3 Il + Pl) (-2 Pro) (-1 Pro) (0 VPl3);
   ## Elle lui en parle
 
+SELECT P1 IF (-1 Nos) (0 VPl1);
+  ## Nos sens
+  ## Nos serens
+SELECT P1 IF (0 VPl1) (0 (META:/-/r)) (1 Nos) ;
+SELECT P1 IF (-2 Nos) (-1 Pro) (0 VPl1);
+SELECT P1 IF (-3 Nos) (-2 Pro) (-1 Pro) (0 VPl1);
+
+SELECT P2 IF (-1 Vos) (0 VPl2);
+SELECT P2 IF (0 VPl2) (0 (META:/-/r)) (1 Vos) ;
+SELECT P2 IF (-2 Vos) (-1 Pro) (0 VPl2);
+SELECT P2 IF (-3 Vos) (-2 Pro) (-1 Pro) (0 VPl2);
+
 # temps verbaux
 
 REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* Excl) ;
