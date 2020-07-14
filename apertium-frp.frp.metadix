@@ -55637,6 +55637,148 @@
 <e lm="travalyor de frontiére" a="alanfavre"><i>travalyo</i><par n="admirato/r__n"/><p><l><b/>de<b/>frontiére</l><r><g><b/>de<b/>frontiére</g></r></p></e>
 <e lm="forgon de police" a="alanfavre"><i>forgon</i><par n="abricot__n"/><p><l><b/>de<b/>police</l><r><g><b/>de<b/>police</g></r></p></e>
 
+<e lm="Samson">          <i>Samson</i><par n="Jian__np"/></e>
+<e lm="Lot" a="stich">          <i>Lot</i><par n="Jian__np"/></e>
+<e lm="Roland Garos">          <i>Roland<b/>Garos</i><par n="Jian__np"/></e>
+<e lm="Holofèrnes">          <i>Holofèrnes</i><par n="Jian__np"/></e>
+<e lm="Lot" a="Vouiquipèdia">          <i>Lot</i><par n="Iran__np"/></e>
+<e lm="Aragon" a="Vouiquipèdia">          <i>Aragon</i><par n="Iran__np"/></e>
+<e lm="Niou-Yorque" a="Vouiquipèdia">          <i>Niou-Yorque</i><par n="Iran__np"/></e>
+<e lm="Wimbledon">          <i>Wimbledon</i><par n="Iran__np"/></e>
+<e lm="Wembley">          <i>Wembley</i><par n="Iran__np"/></e>
+<e lm="Greenwich">          <i>Greenwich</i><par n="Iran__np"/></e>
+<e lm="Volgograd">          <i>Volgograd</i><par n="Iran__np"/></e>
+<e lm="Stalingrad">          <i>Stalingrad</i><par n="Iran__np"/></e>
+<e lm="Strasbôrg" a="Vouiquipèdia">          <i>Strasbôrg</i><par n="Iran__np"/></e>
+<e lm="Èdimbôrg" a="hector">          <i>Èdimbôrg</i><par n="Iran__np"/></e>
+<e lm="Augsbôrg" a="hector">          <i>Augsbôrg</i><par n="Iran__np"/></e>
+<e lm="Brandèbôrg" a="hector">          <i>Brandèbôrg</i><par n="Iran__np"/></e>
+<e lm="Francfort" a="Vouiquipèdia">          <i>Francfort</i><par n="Iran__np"/></e>
+<e lm="Hesse" a="Vouiquipèdia">          <i>Hesse</i><par n="Bulgarie__np"/></e>
+<e lm="Limbôrg" a="hector">          <i>Limbôrg</i><par n="Iran__np"/></e>
+<e lm="Salzbôrg" a="hector">          <i>Salzbôrg</i><par n="Iran__np"/></e>
+<e lm="Bakou" a="hector">          <i>Bakou</i><par n="Iran__np"/></e>
+<e lm="Grozny" a="hector">          <i>Grozny</i><par n="Iran__np"/></e>
+<e lm="Tbilissi" a="hector">          <i>Tbilissi</i><par n="Iran__np"/></e>
+<e lm="Tbilisi" a="Vouiquipèdia">          <i>Tbilisi</i><par n="Iran__np"/></e>
+<e lm="Yèrèvan" a="Vouiquipèdia">          <i>Yèrèvan</i><par n="Iran__np"/></e>
+<e lm="Alèsia">          <i>Alèsia</i><par n="Bulgarie__np"/></e>
+<e lm="Gèrgovie">          <i>Gèrgovie</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Macèdouène" a="stich" c="use_sub"><i>Macèdouène</i><par n="Bulgarie__np"/></e>
+<e lm="Buenos Aires" a="Vouiquipèdia">          <i>Buenos<b/>Aires</i><par n="Iran__np"/></e>
+<e lm="Lot" a="Vouiquipèdia">          <i>Lot</i><par n="Iran__np"/></e>
+<e lm="Aragon" a="Vouiquipèdia">          <i>Aragon</i><par n="Iran__np"/></e>
+<e lm="Niou-Yorque" a="Vouiquipèdia">          <i>Niou-Yorque</i><par n="Iran__np"/></e>
+<e lm="Wimbledon">          <i>Wimbledon</i><par n="Iran__np"/></e>
+<e lm="Wembley">          <i>Wembley</i><par n="Iran__np"/></e>
+<e lm="Greenwich">          <i>Greenwich</i><par n="Iran__np"/></e>
+<e lm="Volgograd">          <i>Volgograd</i><par n="Iran__np"/></e>
+<e lm="Stalingrad">          <i>Stalingrad</i><par n="Iran__np"/></e>
+<e lm="Strasbôrg" a="Vouiquipèdia">          <i>Strasbôrg</i><par n="Iran__np"/></e>
+<e lm="Èdimbôrg" a="hector">          <i>Èdimbôrg</i><par n="Iran__np"/></e>
+<e lm="Augsbôrg" a="hector">          <i>Augsbôrg</i><par n="Iran__np"/></e>
+<e lm="Brandèbôrg" a="hector">          <i>Brandèbôrg</i><par n="Iran__np"/></e>
+<e lm="Francfort" a="Vouiquipèdia">          <i>Francfort</i><par n="Iran__np"/></e>
+<e lm="Hesse" a="Vouiquipèdia">          <i>Hesse</i><par n="Bulgarie__np"/></e>
+<e lm="Limbôrg" a="hector">          <i>Limbôrg</i><par n="Iran__np"/></e>
+<e lm="Salzbôrg" a="hector">          <i>Salzbôrg</i><par n="Iran__np"/></e>
+<e lm="Bakou" a="hector">          <i>Bakou</i><par n="Iran__np"/></e>
+<e lm="Grozny" a="hector">          <i>Grozny</i><par n="Iran__np"/></e>
+<e lm="Tbilissi" a="hector">          <i>Tbilissi</i><par n="Iran__np"/></e>
+<e lm="Tbilisi" a="Vouiquipèdia">          <i>Tbilisi</i><par n="Iran__np"/></e>
+<e lm="Yèrèvan" a="Vouiquipèdia">          <i>Yèrèvan</i><par n="Iran__np"/></e>
+<e lm="Alèsia">          <i>Alèsia</i><par n="Bulgarie__np"/></e>
+<e lm="Gèrgovie">          <i>Gèrgovie</i><par n="Bulgarie__np"/></e>
+<e lm="Macèdouène" a="stich">          <i>Macèdouène</i><par n="Bulgarie__np"/></e>
+<e lm="Buenos Aires" a="Vouiquipèdia">          <i>Buenos<b/>Aires</i><par n="Iran__np"/></e>
+<e lm="Peugeot">          <i>Peugeot</i><par n="Wikipedia__np"/></e>
+<e lm="Citroën">          <i>Citroën</i><par n="Wikipedia__np"/></e>
+<e lm="Renault">          <i>Renault</i><par n="Wikipedia__np"/></e>
+<e lm="Nissan">          <i>Nissan</i><par n="Wikipedia__np"/></e>
+<e lm="Honda">          <i>Honda</i><par n="Wikipedia__np"/></e>
+<e lm="Toyota">          <i>Toyota</i><par n="Wikipedia__np"/></e>
+<e lm="Fiat">          <i>Fiat</i><par n="Wikipedia__np"/></e>
+<e lm="Lancia">          <i>Lancia</i><par n="Wikipedia__np"/></e>
+<e lm="Ferrari">          <i>Ferrari</i><par n="Wikipedia__np"/></e>
+<e lm="Apertium">          <i>Apertium</i><par n="Linux__np"/></e>
+<e lm="Alfa Romeo">          <i>Alfa<b/>Romeo</i><par n="Wikipedia__np"/></e>
+<e lm="Seat">          <i>Seat</i><par n="Wikipedia__np"/></e>
+<e lm="Skoda">          <i>Skoda</i><par n="Wikipedia__np"/></e>
+<e lm="BMW">          <i>BMW</i><par n="Wikipedia__np"/></e>
+<e lm="Google">          <i>Google</i><par n="Linux__np"/></e>
+<e lm="Android">          <i>Android</i><par n="Linux__np"/></e>
+<e lm="Microsoft">          <i>Microsoft</i><par n="Linux__np"/></e>
+<e lm="IBM">          <i>IBM</i><par n="Wikipedia__np"/></e>
+<e lm="SNCF">          <i>SNCF</i><par n="Wikipedia__np"/></e>
+<e lm="Alcatel">          <i>Alcatel</i><par n="Linux__np"/></e>
+<e lm="Alstom">          <i>Alstom</i><par n="Linux__np"/></e>
+<e lm="Alsthom">          <i>Alsthom</i><par n="Linux__np"/></e>
+<e lm="Alitalia">          <i>Alitalia</i><par n="Wikipedia__np"/></e>
+<e lm="Swissair">          <i>Swissair</i><par n="Wikipedia__np"/></e>
+<e lm="Air France">          <i>Air<b/>France</i><par n="Linux__np"/></e>
+<e lm="BNP Paribas">          <i>BNP<b/>Paribas</i><par n="Wikipedia__np"/></e>
+<e lm="Roland Garos">          <i>Roland<b/>Garos</i><par n="Linux__np"/></e>
+<e lm="Wimbledon">          <i>Wimbledon</i><par n="Linux__np"/></e>
+<e lm="Lucent">          <i>Lucent</i><par n="Linux__np"/></e>
+<e lm="Mozilla">          <i>Mozilla</i><par n="Wikipedia__np"/></e>
+<e lm="Chrome">          <i>Chrome</i><par n="Linux__np"/></e>
+<e lm="Facebook">          <i>Facebook</i><par n="Linux__np"/></e>
+<e lm="Instagram">          <i>Instagram</i><par n="Linux__np"/></e>
+<e lm="Telegram">          <i>Telegram</i><par n="Linux__np"/></e>
+<e lm="WhatsApp">          <i>WhatsApp</i><par n="Linux__np"/></e>
+<e lm="Twitter">          <i>Twitter</i><par n="Linux__np"/></e>
+<e lm="Hewlett-Packard">          <i>Hewlett-Packard</i><par n="Wikipedia__np"/></e>
+<e lm="Hezbollah">          <i>Hezbollah</i><par n="Linux__np"/></e>
+<e lm="Volkswagen">          <i>Volkswagen</i><par n="Wikipedia__np"/></e>
+<e lm="Microsoft Access">          <i>Microsoft<b/>Access</i><par n="Linux__np"/></e>
+<e lm="Microsoft Excel">          <i>Microsoft<b/>Excel</i><par n="Linux__np"/></e>
+<e lm="Microsoft Office">          <i>Microsoft<b/>Office</i><par n="Linux__np"/></e>
+<e lm="Microsoft OneNote">          <i>Microsoft<b/>OneNote</i><par n="Linux__np"/></e>
+<e lm="Microsoft PowerPoint">          <i>Microsoft<b/>PowerPoint</i><par n="Linux__np"/></e>
+<e lm="Microsoft Windows">          <i>Microsoft<b/>Windows</i><par n="Linux__np"/></e>
+<e lm="Microsoft Word">          <i>Microsoft<b/>Word</i><par n="Linux__np"/></e>
+<e lm="OpenOffice">          <i>OpenOffice</i><par n="Linux__np"/></e>
+<e lm="Open Office">          <i>Open<b/>Office</i><par n="Linux__np"/></e>
+<e lm="LibreOffice">          <i>LibreOffice</i><par n="Linux__np"/></e>
+<e lm="Libre Office">          <i>Libre<b/>Office</i><par n="Linux__np"/></e>
+<e lm="ètèrnèlament" a="stich">          <i>ètèrnèlament</i><par n="avant__adv"/></e>
+<e lm="contrèrament" a="Vouiquipèdia">          <i>contrèrament</i><par n="avant__adv"/></e>
+<e lm="apostasiér" a="stich">          <i>apostas</i><par n="lèss/iér__vblex"/></e>
+<e lm="besemâcllo">          <i>besemâcll</i><par n="anarchist/o__adj"/></e>
+<e lm="libèrator" a="stich">          <i>libèrato</i><par n="admirato/r__adj"/></e>
+<e lm="libèrator" a="stich">          <i>libèrato</i><par n="admirato/r__n"/></e>
+<e lm="supradialèctâl" a="LoTrèsor">          <i>supradialèctâl</i><par n="asian__adj"/></e>
+<e lm="diacritico" a="Vouiquipèdia">          <i>diacriti</i><par n="asiati/co__adj"/></e>
+<e lm="topografico" a="hector">          <i>topografi</i><par n="asiati/co__adj"/></e>
+<e lm="microscopico" a="hector">          <i>microscopi</i><par n="asiati/co__adj"/></e>
+<e lm="tsaristo" a="hector">          <i>tsarist</i><par n="anarchist/o__adj"/></e>
+<e lm="dèpartemental" a="hector">          <i>dèpartemental</i><par n="asian__adj"/></e>
+<e lm="mècanico" a="LoTrèsor">          <i>mècani</i><par n="asiati/co__adj"/></e>
+<e lm="mècanisto" a="LoTrèsor">          <i>mècanist</i><par n="anarchist/o__adj"/></e>
+<e lm="subtropical" a="hector">          <i>subtropical</i><par n="asian__adj"/></e>
+<e lm="semi-tropical" a="hector">          <i>semi-tropical</i><par n="asian__adj"/></e>
+<e lm="remarcâbllo" a="stich">          <i>remarcâbll</i><par n="anarchist/o__adj"/></e>
+<e lm="étre arrètâ" a="alanfavre"><i></i><par n="/étre__vblex"/><p><l><b/>arrètâ</l><r><g><b/>arrètâ</g></r></p></e>
+<e lm="étre arrètâs" a="alanfavre"><i></i><par n="/étre__vblex"/><p><l><b/>arrètâs</l><r><g><b/>arrètâs</g></r></p></e>
+<e lm="veriér jaca" a="alanfavre"><i>ve</i><par n="t/e[R]iér__vblex"/><p><l><b/>jaca</l><r><g><b/>jaca</g></r></p></e>
+<e lm="sonâ" a="alanfavre">          <i>son</i><par n="acharn/â__adj"/></e>
+<e lm="ascension">          <i>ascension</i><par n="abayie__n"/></e>
+<e lm="archèvèchiê" a="hector">          <i>archèvèchiê</i><par n="abricot__n"/></e>
+<e lm="fonèticien" a="Vouiquipèdia">          <i>fonètici</i><par n="afriqu/en__n"/></e>
+<e lm="cicllo" a="LoTrèsor">          <i>cicllo</i><par n="abricot__n"/></e>
+<e lm="zona" a="LoTrèsor">          <i>zon</i><par n="cultur/a__n"/></e>
+<e lm="topografia" a="LoTrèsor">          <i>topografi</i><par n="cultur/a__n"/></e>
+<e lm="topografo" a="hector">          <i>topografo</i><par n="abricot__n"/></e>
+<e lm="toponimo" a="hector">          <i>toponimo</i><par n="abricot__n"/></e>
+<e lm="microscopia" a="hector">          <i>microscopi</i><par n="cultur/a__n"/></e>
+<e lm="tsarismo" a="hector">          <i>tsarismo</i><par n="abricot__n"/></e>
+<e lm="tsaristo" a="hector">          <i>tsarist</i><par n="anarchist/o__n"/></e>
+<e lm="ciclôpo">          <i>ciclôpo</i><par n="abricot__n"/></e>
+<e lm="èx-prèsident" a="alanfavre">          <i>èx-prèsident</i><par n="asian__n"/></e>
+<e lm="èx-vice-prèsident" a="hector">          <i>èx-vice-prèsident</i><par n="asian__n"/></e>
+<e lm="èx-ministro" a="alanfavre">          <i>èx-ministr</i><par n="anarchist/o__n"/></e>
+<e lm="mècanismo" a="LoTrèsor">          <i>mècanismo</i><par n="abricot__n"/></e>
+<e lm="mècanisto" a="LoTrèsor">          <i>mècanist</i><par n="anarchist/o__n"/></e>
 
 <!--- xxxxx -->
 
