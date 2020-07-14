@@ -220,7 +220,7 @@ REMOVE V IF (0 Etre) ;
 
 # cnjsub / rel
 
-REMOVE CnjSub IF (-1C Det OR N OR A OR Tn OR Pro OR Cm) ;
+REMOVE CnjSub IF (-1C Det OR N OR A OR Tn OR Pro OR NP OR Cm) ;
 REMOVE CnjSub IF (-1 PP LINK NOT -1 Haver OR Ser OR Adv ) ;
 
 # itg / rel, adj, cnjadv
