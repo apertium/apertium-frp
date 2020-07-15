@@ -282,6 +282,8 @@
       <e><p><l><b/><a/>lo<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>lo<b/></l><r>u<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>lo</l><r>u</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>loprn<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>loprn<b/></l><r>e<b/>lo<b/></r></p></e>
       <e><p><l><b/><a/>le<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>le</l><r>u</r></p><par n="caractere_general"/></e>
@@ -305,6 +307,8 @@
       <e><p><l><b/><a/>les</l><r>ux</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lo<b/></l><r>a<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>lo<b/></l><r>u<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>loprn<b/></l><r>a<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>loprn<b/></l><r>a<b/>lo<b/></r></p></e>
       <e><p><l><b/><a/>le<b/></l><r>a<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>la<b/></l><r>a<b/>l'</r></p><par n="voyelles"/></e>
@@ -327,6 +331,8 @@
 
     <pardef n="è_lo">
       <e><p><l><a/>lo<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>è<b/>lo<b/></r></p></e>
       <e><p><l><a/>la<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>les</l><r>è<b/>les</r></p><par n="caractere_general"/></e>
     </pardef>
@@ -336,6 +342,8 @@
       <e><p><l><a/>mè<b/></l><r>e<b/>m'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>tè<b/></l><r>e<b/>t'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>lo<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>e<b/>lo<b/></r></p></e>
       <e><p><l><a/>la<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
 <!--      <e><p><l><a/>sè<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e> -->
 <!--
@@ -398,6 +406,10 @@
 
       <e><p><l><a/>lo<b/></l><r>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>la<b/></l><r>l'</r></p><par n="voyelles"/></e>
+
+      <e><p><l><a/>loprn<b/></l><r>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>lo<b/></r></p></e>
+      <e><p><l><a/>loprn</l><r>lo</r></p><par n="caractere_general_sans_espace"/></e>
 
       <e><p><l><a/>a<b/><a/>lo<b/></l><r>u<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>a<b/><a/>la<b/></l><r>a<b/>la<b/></r></p><par n="article_complet"/></e>

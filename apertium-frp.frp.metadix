@@ -1512,9 +1512,9 @@
   <e r="LR"><p><l>lo</l>        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>la</l>        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>lo</l>        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e r="RL"><p><l><a/>lo</l>    <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>loprn</l> <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l><a/>la</l>    <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>lo</l>    <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e r="RL"><p><l><a/>loprn</l> <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
   <e>       <p><l>los</l>       <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>les</l>       <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>les</l>       <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
