@@ -245,6 +245,7 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&Ge
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 Adv_PreAdv) (3 A + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 A + &&GenderNumber) (2 N + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreAdv) (2 A + &&GenderNumber) (2 N + &&GenderNumber) ;
+SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1C Noun_Adj + &&GenderNumber) ;	# lo hôt
 
 SELECT Det + &&GenderNumber IF (-1 PreDet + &&GenderNumber) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# tota l’assemblâ
 SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit ; l'hotâl ; je lo vôl
