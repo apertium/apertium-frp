@@ -317,6 +317,9 @@ REMOVE Ger IF (-1 Ser + &&Number) (0 A + &&Number) ;			# il ére valyent
 REMOVE Ger IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 A + &&Number) ;	# il ére galyârd valyent
 REMOVE Ger IF (-1C Adv_PreAdv OR ("galyârd")) (0 A + &&Number) ;	# il ére galyârd valyent
 
+REMOVE Ger IF (-1C Noun_Adj + &&GenderNumber) (0 Noun_Adj + &&GenderNumber) ;	# un rê violent
+REMOVE Ger IF (-3 N + &&GenderNumber) (-2 A + &&GenderNumber) (-1 CnjCoo) (0 A + &&GenderNumber) ;	# un rê malin et violent
+
 # preadv
 
 REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
