@@ -252,6 +252,8 @@ SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber)
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber LINK NOT 0 Verb + Pers) ;	# châcun son diô
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber LINK NOT 0 Verb + Pers) ;
 
+SELECT Det + &&GenderNumber IF (-1 Ant + &&GenderNumber) (0 Tn OR Pro OR Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + MajIni) ;	# Filipo lo Bél
+
 SELECT Det IF (0 ("<l'>")) (1 unknown) ;
 SELECT Prn IF (0 Det) (1 unknown) ;
 
