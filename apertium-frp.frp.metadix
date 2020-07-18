@@ -92,13 +92,17 @@
   </sdefs>
   <pardefs>
 <pardef n="III/o__adj">
-  <e>       <p><l>º</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>émo</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>º</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>°</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>o</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ª</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éma</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ª</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>a</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>os</l>        <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>es</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>émos</l>        <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>os</l>        <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>émes</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>es</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="numeros">
@@ -2108,6 +2112,10 @@
 <pardef n="/avêr__vbhaver">
   <e>       <p><l>avêr</l>      <r>avêr<s n="vbhaver"/><s n="inf"/></r></p></e>
   <e>       <p><l>èyent</l>     <r>avêr<s n="vbhaver"/><s n="ger"/></r></p></e>
+  <e r="RL"><p><l>avu</l>       <r>avêr<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>avus</l>      <r>avêr<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>avua</l>      <r>avêr<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>avues</l>     <r>avêr<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>é</l>         <r>avêr<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>âs</l>        <r>avêr<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -11727,8 +11735,8 @@
 <e lm="IX">              <i>IX</i><par n="III/o__adj"/></e>
 <e lm="jacobin">         <i>jacobin</i><par n="asian__adj"/></e>
 <e lm="jalox">           <i>jalo</i><par n="ambicio/x__adj"/></e>
-<e lm="jamayiquen">      <i>jamayiqu</i><par n="afriqu/en__adj"/></e>
-<e lm="japonês">         <i>japon</i><par n="angll/ês__adj"/></e>
+<e lm="jamayiquen">      <i></i><par n="j/j·"/><i>amayiqu</i><par n="afriqu/en__adj"/></e>
+<e lm="japonês">         <i></i><par n="j/j·"/><i>apon</i><par n="angll/ês__adj"/></e>
 <e lm="jardeniér">       <i>jardeniér</i><par n="aventuriér__adj"/></e>
 <e lm="jardox">          <i>jardo</i><par n="ambicio/x__adj"/></e>
 <e lm="jiu">             <i>jiu</i><par n="asian__adj"/></e>
@@ -18294,13 +18302,14 @@
 <e lm="jalon">           <i>jalon</i><par n="abricot__n"/></e>
 <e lm="jalosie">         <i>jalosie</i><par n="abayie__n"/></e>
 <e lm="Jamayiquen">      <i>Jamayiqu</i><par n="afriqu/en__n"/></e>
+<e r="LR" lm="Jamayiquen">    <p><l>J·amayiquen</l>    <r>Jamayiquen</r></p><par n="afriqu/en__n"/></e>
 <e lm="jamba">           <i>jamb</i><par n="cultur/a__n"/></e>
 <e lm="jambon">          <i>jambon</i><par n="abricot__n"/></e>
 <e lm="janglle">         <i>janglle</i><par n="abayie__n"/></e>
 <e lm="janviér">         <i>janviér</i><par n="abricot__n"/></e>
 <e lm="japelyèt">        <i>japelyèt</i><par n="abricot__n"/></e>
 <e lm="japetar">         <i>japetar</i><par n="abricot__n"/></e>
-<e lm="japonês">         <i>japon</i><par n="angll/ês__n"/></e>
+<e lm="japonês">         <i></i><par n="j/j·"/><i>apon</i><par n="angll/ês__n"/></e>
 <e lm="japâ">            <i>japâ</i><par n="abayie__n"/></e>
 <e lm="japèt">           <i>japèt</i><par n="abricot__n"/></e>
 <e lm="jaquelyon">       <i>jaquelyon</i><par n="abayie__n"/></e>
@@ -36184,6 +36193,7 @@
 <e lm="Jalynn">          <i>Jalynn</i><par n="Marie__np"/></e>
 <e lm="Jamal">           <i>Jamal</i><par n="Jian__np"/></e>
 <e lm="Jamayica">        <i>Jamayica</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Jamayica">    <p><l>J·amayica</l>    <r>Jamayica</r></p><par n="Bulgarie__np"/></e>
 <e lm="Jambo">           <i>Jambo</i><par n="Saussure__np"/></e>
 <e lm="James">           <i>James</i><par n="Jian__np"/></e>
 <e lm="James">           <i>James</i><par n="Saussure__np"/></e>
@@ -51014,7 +51024,7 @@
 <e lm="apartenir">       <i>apart</i><par n="v/enir__vblex"/></e>
 <e lm="apedanciér">      <i>apedan</i><par n="avan/ciér__vblex"/></e>
 <e lm="apendre">         <i>apend</i><par n="apond/re__vblex"/></e>
-<e lm="apesentir">       <i>apes</i><par n="s/entir__vblex"/></e>
+<!-- <e lm="apesentir">       <i>apes</i><par n="s/entir__vblex"/></e> -->
 <e lm="apesentir">       <i>apesent</i><par n="fen/ir__vblex"/></e>
 <e lm="apinjonar">       <i>apinjon</i><par n="chant/ar__vblex"/></e>
 <e lm="apistolar">       <i>apistol</i><par n="chant/ar__vblex"/></e>
