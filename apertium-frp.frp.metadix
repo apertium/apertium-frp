@@ -33,6 +33,7 @@
     <sdef n="adv" /> 
     <sdef n="preadv" /> 
     <sdef n="postadv" 	c="-ce, -cé, -que, -qué, -lé"/> 
+    <sdef n="pref" /> 
     <sdef n="pr" /> 
     <sdef n="prn" /> 
     <sdef n="rel" /> 
@@ -90,8 +91,19 @@
     <sdef n="org" /> 
   </sdefs>
   <pardefs>
+<pardef n="III/o__adj">
+  <e>       <p><l>º</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>°</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>o</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ª</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>a</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>os</l>        <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>es</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="numeros">
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+  <e>       <re>[1-9][0-9]+</re><i></i><par n="III/o__adj"/></e>
 <!--  <e>       <re>[0-9]([0-9]([0-9])?)?( [0-9][0-9][0-9])*</re><p><l></l><r><s n="num"/></r></p></e> -->
 <!--  <e>       <re>[0-9]([0-9]([0-9])?)?( [0-9][0-9][0-9])*([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e> -->
 </pardef>
@@ -544,16 +556,6 @@
   <e>       <p><l>es</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="III/o__adj">
-  <e>       <p><l>º</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>°</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>o</l>         <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ª</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>a</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>os</l>        <r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>es</l>        <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
-</pardef>
-
 <pardef n="ôtr/o__adj">
   <e>       <p><l>o</l>         <r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>         <r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
@@ -589,6 +591,10 @@
 
 <pardef n="coment__adv">
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
+</pardef>
+
+<pardef n="anti__pref">
+  <e>       <p><l></l>          <r><s n="pref"/></r></p></e>
 </pardef>
 
 <pardef n="adonc__cnjadv">
@@ -900,8 +906,8 @@
 <pardef n="associyê__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
@@ -34925,7 +34931,7 @@
 <e lm="Gustems">         <i>Gustems</i><par n="Saussure__np"/></e>
 <e lm="Gustov">          <i>Gustov</i><par n="Saussure__np"/></e>
 <e lm="Gusí">            <i>Gusí</i><par n="Saussure__np"/></e>
-<e lm="Gutenberg">       <i>Gutenberg</i><par n="Saussure__np"/></e>
+<e lm="Gutenbèrg">       <i>Gutenbèrg</i><par n="Saussure__np"/></e>
 <e lm="Guterres">        <i>Guterres</i><par n="Saussure__np"/></e>
 <e lm="Gutgeld">         <i>Gutgeld</i><par n="Saussure__np"/></e>
 <e lm="Gutheil">         <i>Gutheil</i><par n="Saussure__np"/></e>
@@ -55070,13 +55076,15 @@
 
 <e lm="grata-papiér" a="alanfavre"><i>grata-papiér</i><par n="abricot__n"/></e>
 <e lm="grata-papiér" a="alanfavre"><i>grata-papiér</i><par n="fadasse__adj"/></e>
-<e lm="de grata-papiér" a="alanfavre"><i>de<b/>grata-papiér</i><par n="orange__adj"/></e>
+<e r="RL" lm="de grata-papiér" a="alanfavre"><i>de<b/>grata-papiér</i><par n="orange__adj"/></e>
 <e lm="topa-fuè" a="alanfavre"><i>topa-fuè</i><par n="abricot__n"/></e>
 <e lm="LGTB" a="alanfavre"><i>LGTB</i><par n="orange__adj"/></e>
-<e lm="de police" a="alanfavre"><i>de<b/>police</i><par n="orange__adj"/></e>
-<e lm="de race" a="alanfavre"><i>de<b/>race</i><par n="orange__adj"/></e>
-<e lm="de vela" a="alanfavre"><i>de<b/>vela</i><par n="orange__adj"/></e>
-<e lm="des tropicos" a="alanfavre"><i>des<b/>tropicos</i><par n="orange__adj"/></e>
+<e r="RL" lm="de police" a="alanfavre"><i>de<b/>police</i><par n="orange__adj"/></e>
+<e r="RL" lm="de race" a="alanfavre"><i>de<b/>race</i><par n="orange__adj"/></e>
+<e r="RL" lm="de vela" a="alanfavre"><i>de<b/>vela</i><par n="orange__adj"/></e>
+<e r="RL" lm="en vela" a="hector"><i>en<b/>vela</i><par n="orange__adj"/></e>
+<e r="RL" lm="de la vela" a="hector"><i>de<b/>la<b/>vela</i><par n="orange__adj"/></e>
+<e r="RL" lm="des tropicos" a="alanfavre"><i>des<b/>tropicos</i><par n="orange__adj"/></e>
 <e lm="activament" a="alanfavre">        <i>activament</i><par n="avant__adv"/></e>
 <e lm="de façon difèrenta" a="alanfavre">        <i>de<b/>façon<b/>difèrenta</i><par n="avant__adv"/></e>
 <e lm="avouéc èficacitât" a="alanfavre">        <i>avouéc<b/>èficacitât</i><par n="avant__adv"/></e>
@@ -56128,6 +56136,37 @@
 <e lm="Unix" a="hector">          <i>Unix</i><par n="Linux__np"/></e>
 <e lm="Mandriva" a="hector">          <i>Mandriva</i><par n="Wikipedia__np"/></e>
 <e lm="Red Hat" a="hector">          <i>Red<b/>Hat</i><par n="Linux__np"/></e>
+<e lm="2G">              <i>2G</i><par n="BBC__n"/></e>
+<e lm="3G">              <i>3G</i><par n="BBC__n"/></e>
+<e lm="4G">              <i>4G</i><par n="BBC__n"/></e>
+<e lm="5G">              <i>5G</i><par n="BBC__n"/></e>
+<e lm="6G">              <i>6G</i><par n="BBC__n"/></e>
+<e lm="2o">              <i>2</i><par n="III/o__adj"/></e>
+<e lm="3o">              <i>3</i><par n="III/o__adj"/></e>
+<e lm="4o">              <i>4</i><par n="III/o__adj"/></e>
+<e lm="5o">              <i>5</i><par n="III/o__adj"/></e>
+<e lm="6o">              <i>6</i><par n="III/o__adj"/></e>
+<e lm="7o">              <i>7</i><par n="III/o__adj"/></e>
+<e lm="8o">              <i>8</i><par n="III/o__adj"/></e>
+<e lm="9o">              <i>9</i><par n="III/o__adj"/></e>
+<e lm="2nd">             <i>2nd</i><par n="second__adj"/></e>
+
+<e lm="franco" a="hector"><i>franco</i><par n="anti__pref"/></e>
+<e lm="vidèo" a="alanfavre">          <i>vidèo</i><par n="anti__pref"/></e>
+<e lm="dèstra" a="alanfavre">          <i>dèstra</i><par n="anti__pref"/></e>
+<e lm="èx" a="alanfavre">          <i>èx</i><par n="anti__pref"/></e>
+<e lm="anti" a="hector">          <i>anti</i><par n="anti__pref"/></e>
+<e lm="prè" a="hector">          <i>prè</i><par n="anti__pref"/></e>
+<e lm="amèricano" a="hector">          <i>amèricano</i><par n="anti__pref"/></e>
+<e lm="anglo" a="hector">          <i>anglo</i><par n="anti__pref"/></e>
+<e lm="gèrmano" a="hector">          <i>gèrmano</i><par n="anti__pref"/></e>
+<e lm="italo" a="hector">          <i>italo</i><par n="anti__pref"/></e>
+<e lm="hispano" a="hector">          <i>hispano</i><par n="anti__pref"/></e>
+<e lm="russo" a="hector">          <i>russo</i><par n="anti__pref"/></e>
+<e lm="vice" a="hector">          <i>vice</i><par n="anti__pref"/></e>
+<e lm="arabo" a="hector">          <i>arabo</i><par n="anti__pref"/></e>
+<e lm="israèlo" a="hector">          <i>israèlo</i><par n="anti__pref"/></e>
+<e lm="palèstino" a="hector">          <i>palèstino</i><par n="anti__pref"/></e>
 
 <!--- xxxxx -->
 
