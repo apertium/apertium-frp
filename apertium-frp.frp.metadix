@@ -5791,6 +5791,7 @@
 <pardef n="f/âre__vblex">
   <e>       <p><l>âre</l>       <r>âre<s n="vblex"/><s n="inf"/></r></p></e>
   <e r="LR"><p><l>ére</l>       <r>âre<s n="vblex"/><s n="inf"/></r></p></e>
+  <e r="LR" a="stich" c="use_sub"><p><l>êre</l><r>âre<s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l>asent</l>     <r>âre<s n="vblex"/><s n="ger"/></r></p></e>
   <e r="LR"><p><l>assent</l>    <r>âre<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>êt</l>        <r>âre<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -13690,6 +13691,7 @@
 <e lm="pas-muens">       <i>pas-muens</i><par n="adonc__cnjadv"/></e>
 <e lm="pendent que">     <i>pendent<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="per l'amôr">      <i>per<b/>l'amôr</i><par n="adonc__cnjadv"/></e>
+<e lm="per l'amôr que" a="stich"><i>per<b/>l'amôr<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="perce que">       <i>perce<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="pletout que">     <i>pletout<b/></i><par n="devant_/que__cnjadv"/></e>
 <e lm="por que">         <i>por<b/></i><par n="devant_/que__cnjadv"/></e>
@@ -53425,6 +53427,7 @@
 <e lm="ratachiér">       <i>ratach</i><par n="lèss/iér__vblex"/></e>
 <e lm="ratibouèsiér">    <i>ratibouès</i><par n="lèss/iér__vblex"/></e>
 <e lm="ratibouèsar">     <i>ratibouès</i><par n="chant/ar__vblex"/></e>
+<e lm="atrapar">        <i>atrap</i><par n="chant/ar__vblex"/></e>
 <e lm="ratrapar">        <i>ratrap</i><par n="chant/ar__vblex"/></e>
 <e lm="ravagiér">        <i>rava</i><par n="me/giér__vblex"/></e>
 <e lm="ravalar">         <i>raval</i><par n="chant/ar__vblex"/></e>
@@ -56178,6 +56181,56 @@
 <e lm="israèlo" a="hector">          <i>israèlo</i><par n="anti__pref"/></e>
 <e lm="palèstino" a="hector">          <i>palèstino</i><par n="anti__pref"/></e>
 
+<e lm="Los Angeles" a="Vouiquipèdia">          <i>Los<b/>Angeles</i><par n="Iran__np"/></e>
+<e lm="San Francisco" a="hector">          <i>San<b/>Francisco</i><par n="Iran__np"/></e>
+<e lm="Chicago" a="Vouiquipèdia">          <i>Chicago</i><par n="Iran__np"/></e>
+<e lm="Glasgow" a="hector">          <i>Glasgow</i><par n="Iran__np"/></e>
+<e lm="Ècossa" a="hector">          <i>Ècossa</i><par n="Bulgarie__np"/></e>
+<e lm="Alep" a="hector">          <i>Alep</i><par n="Iran__np"/></e>
+<e lm="Doves-Siciles" a="hector">          <i>Doves-Siciles</i><par n="Alemagnes__np"/></e>
+<e lm="Doves-Seciles" a="hector">          <i>Doves-Seciles</i><par n="Alemagnes__np"/></e>
+<e lm="Broadway" a="hector">          <i>Broadway</i><par n="Iran__np"/></e>
+<e lm="Manhattan" a="hector">          <i>Manhattan</i><par n="Iran__np"/></e>
+<e lm="Hollywood" a="hector">          <i>Hollywood</i><par n="Iran__np"/></e>
+<e lm="Bollywood" a="hector">          <i>Bollywood</i><par n="Iran__np"/></e>
+<e lm="Ontario" a="hector">          <i>Ontario</i><par n="Iran__np"/></e>
+<e lm="Essex" a="hector">          <i>Essex</i><par n="Iran__np"/></e>
+<e lm="York" a="hector">          <i>York</i><par n="Iran__np"/></e>
+<e lm="Liverpool" a="hector">          <i>Liverpool</i><par n="Iran__np"/></e>
+<e lm="Birmingham" a="hector">          <i>Birmingham</i><par n="Iran__np"/></e>
+<e lm="Leeds" a="hector">          <i>Leeds</i><par n="Iran__np"/></e>
+<e lm="Buckingham" a="hector">          <i>Buckingham</i><par n="Iran__np"/></e>
+<e lm="Hampshire" a="hector">          <i>Hampshire</i><par n="Iran__np"/></e>
+<e lm="Lancashire" a="hector">          <i>Lancashire</i><par n="Iran__np"/></e>
+<e lm="Lincolnshire" a="hector">          <i>Lincolnshire</i><par n="Iran__np"/></e>
+<e lm="Yorkshire" a="hector">          <i>Yorkshire</i><par n="Iran__np"/></e>
+<e lm="Oxford" a="hector">          <i>Oxford</i><par n="Iran__np"/></e>
+<e lm="Cambridge" a="hector">          <i>Cambridge</i><par n="Iran__np"/></e>
+<e lm="Berkeley" a="hector">          <i>Berkeley</i><par n="Iran__np"/></e>
+<e lm="Harvard" a="hector">          <i>Harvard</i><par n="Iran__np"/></e>
+<e lm="Stanford" a="hector">          <i>Stanford</i><par n="Iran__np"/></e>
+<e lm="Palo Alto" a="hector">          <i>Palo<b/>Alto</i><par n="Iran__np"/></e>
+<e lm="Silicon Valley" a="hector">          <i>Silicon<b/>Valley</i><par n="Iran__np"/></e>
+<e lm="Cornoualye" a="hector">          <i>Cornoualye</i><par n="Bulgarie__np"/></e>
+<e lm="Cornoualyes" a="hector">          <i>Cornoualyes</i><par n="Alemagnes__np"/></e>
+<e lm="Hiroshima" a="hector">          <i>Hiroshima</i><par n="Bulgarie__np"/></e>
+<e lm="Nagasaki" a="hector">          <i>Nagasaki</i><par n="Iran__np"/></e>
+<e lm="Toquio" a="Vouiquipèdia">          <i>Toquio</i><par n="Iran__np"/></e>
+<e lm="Huawei">          <i>Huawei</i><par n="Linux__np"/></e>
+<e lm="Yale" a="hector">          <i>Yale</i><par n="Linux__np"/></e>
+<e lm="Princeton" a="hector">          <i>Princeton</i><par n="Linux__np"/></e>
+<e lm="Le Monde" a="hector">          <i>Le<b/>Monde</i><par n="Linux__np"/></e>
+<e lm="Le Figaro" a="hector">          <i>Le<b/>Figaro</i><par n="Linux__np"/></e>
+<e lm="Hachette" a="hector">          <i>Hachette</i><par n="Wikipedia__np"/></e>
+<e lm="Gallimard" a="hector">          <i>Gallimard</i><par n="Linux__np"/></e>
+<e r="LR" lm="u Monde"> <p><l>u<b/>Monde</l><r>a<s n="pr"/><j/>Le<b/>Monde<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="u Figaro"> <p><l>u<b/>Figaro</l><r>a<s n="pr"/><j/>Le<b/>Figaro<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="u Mans"> <p><l>u<b/>Mans</l><r>a<s n="pr"/><j/>Le<b/>Mans<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="du Mans">  <p><l>du<b/>Mans</l><r>de<s n="pr"/><j/>Le<b/>Mans<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e i="yes" lm="du Monde"> <p><l>du<b/>Monde</l><r>de<s n="pr"/><j/>Le<b/>Monde<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="du Figaro"> <p><l>du<b/>Figaro</l><r>de<s n="pr"/><j/>Le<b/>Figaro<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="chôma">          <i>chôm</i><par n="cultur/a__n"/></e>
+
 <!--- xxxxx -->
 
   </section>
@@ -56212,6 +56265,7 @@
 <e r="LR" lm="mémament qu'"><p><l>mémament<b/>qu'</l><r>mémament<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="o est d'ense qu'"><p><l>o<b/>est<b/>d'ense<b/>qu'</l><r>o<b/>est<b/>d'ense<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="pendent qu'"><p><l>pendent<b/>qu'</l><r>pendent<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="per l'amôr qu'" a="hector"><p><l>per<b/>l'amôr<b/>qu'</l><r>per<b/>l'amôr<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="perce qu'"><p><l>perce<b/>qu'</l><r>perce<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="pletout qu'"><p><l>pletout<b/>qu'</l><r>pletout<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="por qu'">  <p><l>por<b/>qu'</l><r>por<b/>que<s n="cnjadv"/></r></p></e>
