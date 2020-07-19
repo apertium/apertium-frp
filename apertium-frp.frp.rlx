@@ -272,6 +272,9 @@ SELECT Prn IF (0 Det) (1 unknown) ;
 REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv) ;
 REMOVE Det IF (0 Prn) (1C Adv OR PreAdv) (NOT 1 A) ;
 
+#REMOVE Det IF (-1 Prep) (0 Prn) (0 Det + &&GenderNumber) (NOT 1 PreAdv OR Noun_Adj + &&GenderNumber) ;	# avouéc lor por sè rendre
+REMOVE Det IF (-1 Prep) (0 Prn) (0 Det) (NOT 1 PreAdv OR Noun_Adj) ;	# avouéc lor por sè rendre
+
 # pro / enc
 
 SELECT Enc IF (-1 (META:/-/r)) (0 ("mè") OR ("tè")) ;
