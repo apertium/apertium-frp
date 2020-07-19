@@ -12718,6 +12718,8 @@
 <e lm="sèmito">          <i>sèmit</i><par n="anarchist/o__adj"/></e>
 <e lm="sènègalês">       <i>sènègal</i><par n="angll/ês__adj"/></e>
 <e lm="sèptantiémo">     <i>sèptantiém</i><par n="dousiém/o__adj"/></e>
+<e lm="huétantiémo" a="hector"><i>huétantiém</i><par n="dousiém/o__adj"/></e>
+<e lm="huétantiémo" a="hector"><i>huétantiém</i><par n="anarchist/o__n"/></e>
 <e lm="sèptiémo">        <i>sèptiém</i><par n="dousiém/o__adj"/></e>
 <e lm="sèrbo">           <i>sèrb</i><par n="anarchist/o__adj"/></e>
 <e lm="sèriox">          <i>sèrio</i><par n="ambicio/x__adj"/></e>
@@ -13139,7 +13141,7 @@
 <e lm="a jon">           <i>a<b/>jon</i><par n="avant__adv"/></e>
 <e lm="a l'amiâbla">     <i>a<b/>l'amiâbla</i><par n="avant__adv"/></e>
 <e lm="a l'amiâblo">     <i>a<b/>l'amiâblo</i><par n="avant__adv"/></e>
-<e r="LR" lm="a l'entôrn"><i>a<b/>l'entôrn</i><par n="avant__adv"/></e>
+<e lm="a l'entôrn"><i>a<b/>l'entôrn</i><par n="avant__adv"/></e>
 <e lm="a la borgno">     <i>a<b/>la<b/>borgno</i><par n="avant__adv"/></e>
 <e lm="a la renvèrsa">   <i>a<b/>la<b/>renvèrsa</i><par n="avant__adv"/></e>
 <e lm="a la sâre nuet">  <i>a<b/>la<b/>sâre<b/>nuet</i><par n="avant__adv"/></e>
@@ -21788,7 +21790,7 @@
 <e lm="sèria">           <i>sèri</i><par n="cultur/a__n"/></e>
 <e lm="sèrment">         <i>sèrment</i><par n="abricot__n"/></e>
 <e lm="sèrmon">          <i>sèrmon</i><par n="abricot__n"/></e>
-<e lm="sèrpent">         <i>sèrpent</i><par n="abricot__n"/></e>
+<e lm="sèrpent">         <i>sèrpent</i><par n="afâre__n"/></e>
 <e lm="sèrpilyére">      <i>sèrpilyére</i><par n="abayie__n"/></e>
 <e lm="sèrpolèt">        <i>sèrpolèt</i><par n="abricot__n"/></e>
 <e lm="sèrra">           <i>sèrr</i><par n="cultur/a__n"/></e>
@@ -22413,7 +22415,7 @@
 <e lm="val">             <i>val</i><par n="abayie__n"/></e>
 <e lm="validacion" a="alanfavre"><i>validacion</i><par n="abayie__n"/></e>
 <e lm="valisa">          <i>valis</i><par n="cultur/a__n"/></e>
-<e lm="valon">           <i>valon</i><par n="abricot__n"/></e>
+<e lm="valon">           <i>valon</i><par n="asian__n"/></e>
 <e lm="valor">           <i>valor</i><par n="abayie__n"/></e>
 <e lm="valse">           <i>valse</i><par n="abayie__n"/></e>
 <e lm="valyence">        <i>valyence</i><par n="abayie__n"/></e>
@@ -41814,7 +41816,6 @@
 <e lm="Nowitzki">        <i>Nowitzki</i><par n="Saussure__np"/></e>
 <e lm="Noya">            <i>Noya</i><par n="Saussure__np"/></e>
 <e lm="Noèlia">          <i>Noèlia</i><par n="Marie__np"/></e>
-<e lm="Noé">             <i>Noé</i><par n="Jian__np"/></e>
 <e lm="Noé">             <i>Noé</i><par n="Saussure__np"/></e>
 <e lm="Noémi">           <i>Noémi</i><par n="Marie__np"/></e>
 <e lm="Noémie">          <i>Noémie</i><par n="Marie__np"/></e>
@@ -55629,7 +55630,7 @@
 <e lm="polinisator" a="alanfavre">          <i>polinisato</i><par n="admirato/r__adj"/></e>
 <e lm="poluor" a="alanfavre">          <i>poluo</i><par n="admirato/r__adj"/></e>
 <e lm="poligonal" a="alanfavre">          <i>poligonal</i><par n="asian__adj"/></e>
-<e lm="d'après" a="alanfavre">          <i>d'après</i><par n="borjouès__adj"/></e>
+<e lm="d'aprés" a="alanfavre">          <i>d'aprés</i><par n="borjouès__adj"/></e>
 <e lm="problèmatico" a="alanfavre">          <i>problèmati</i><par n="asiati/co__adj"/></e>
 <e lm="profèssionèl" a="alanfavre">          <i>profèssionèl</i><par n="asian__adj"/></e>
 <e lm="de tôs los jorns" a="alanfavre">          <i>de<b/>tôs<b/>los<b/>jorns</i><par n="orange__adj"/></e>
@@ -56231,7 +56232,7 @@
 <e r="LR" lm="du Figaro"> <p><l>du<b/>Figaro</l><r>de<s n="pr"/><j/>Le<b/>Figaro<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="chôma">          <i>chôm</i><par n="cultur/a__n"/></e>
 
-<e r="RL" lm="après cen" a="alanfavre">          <i>après<b/>cen</i><par n="avant__adv"/></e>
+<e r="RL" lm="aprés cen" a="alanfavre">          <i>aprés<b/>cen</i><par n="avant__adv"/></e>
 <e lm="en fêt" a="alanfavre">          <i>en<b/>fêt</i><par n="avant__adv"/></e>
 <e lm="en ples" a="alanfavre">          <i>en<b/>ples</i><par n="avant__adv"/></e>
 <e lm="règuliérement" a="alanfavre">          <i>règuliérement</i><par n="avant__adv"/></e>
@@ -56243,7 +56244,7 @@
 <e lm="en legne" a="alanfavre">          <i>en<b/>legne</i><par n="avant__adv"/></e>
 <e lm="més ou muens" a="alanfavre">          <i>més<b/>ou<b/>muens</i><par n="avant__adv"/></e>
 <e lm="a bôrd" a="alanfavre">          <i>a<b/>bôrd</i><par n="avant__adv"/></e>
-<e lm="lo jorn d'après" a="alanfavre">          <i>lo<b/>jorn<b/>d'après</i><par n="avant__adv"/></e>
+<e lm="lo jorn d'aprés" a="alanfavre">          <i>lo<b/>jorn<b/>d'aprés</i><par n="avant__adv"/></e>
 <e lm="ceti an" a="alanfavre">          <i>ceti<b/>an</i><par n="avant__adv"/></e>
 <e lm="a drêta" a="alanfavre">          <i>a<b/>drêta</i><par n="avant__adv"/></e>
 <e lm="u forél" a="alanfavre">          <i>u<b/>forél</i><par n="avant__adv"/></e>
@@ -56330,7 +56331,7 @@
 <e lm="a tôrt" a="alanfavre">          <i>a<b/>tôrt</i><par n="avant__adv"/></e>
 <e lm="per accident" a="alanfavre">          <i>per<b/>accident</i><par n="avant__adv"/></e>
 <e lm="vers damont" a="alanfavre">          <i>vers<b/>damont</i><par n="avant__adv"/></e>
-<e lm="un pou après" a="alanfavre">          <i>un<b/>pou<b/>après</i><par n="avant__adv"/></e>
+<e lm="un pou aprés" a="alanfavre">          <i>un<b/>pou<b/>aprés</i><par n="avant__adv"/></e>
 <e lm="mémament pas" a="alanfavre">          <i>mémament<b/>pas</i><par n="avant__adv"/></e>
 <e lm="por lo trêsiémo côp" a="alanfavre">          <i>por<b/>lo<b/>trêsiémo<b/>côp</i><par n="avant__adv"/></e>
 <e lm="secrètament" a="alanfavre">          <i>secrètament</i><par n="avant__adv"/></e>
@@ -56408,7 +56409,7 @@
 <e lm="los ôtros viâjos" a="alanfavre">          <i>los<b/>ôtros<b/>viâjos</i><par n="avant__adv"/></e>
 <e lm="mècanicament" a="alanfavre">          <i>mècanicament</i><par n="avant__adv"/></e>
 <e lm="matèrièlament" a="alanfavre">          <i>matèrièlament</i><par n="avant__adv"/></e>
-<e lm="l'un après l'ôtro" a="alanfavre">          <i>l'un<b/>après<b/>l'ôtro</i><par n="avant__adv"/></e>
+<e lm="l'un aprés l'ôtro" a="alanfavre">          <i>l'un<b/>aprés<b/>l'ôtro</i><par n="avant__adv"/></e>
 <e lm="de façon linèâra" a="alanfavre">          <i>de<b/>façon<b/>linèâra</i><par n="avant__adv"/></e>
 <e lm="sur lo fllanc" a="alanfavre">          <i>sur<b/>lo<b/>fllanc</i><par n="avant__adv"/></e>
 <e lm="un côp per jorn" a="alanfavre">          <i>un<b/>côp<b/>per<b/>jorn</i><par n="avant__adv"/></e>
@@ -56416,6 +56417,65 @@
 <e lm="sen lo volêr" a="alanfavre">          <i>sen<b/>lo<b/>volêr</i><par n="avant__adv"/></e>
 <e lm="sen pensar" a="alanfavre">          <i>sen<b/>pensar</i><par n="avant__adv"/></e>
 <e lm="honorâblament" a="alanfavre">          <i>honorâblament</i><par n="avant__adv"/></e>
+
+<e lm="Pèquin" a="Vouiquipèdia">          <i>Pèquin</i><par n="Iran__np"/></e>
+<e lm="Tehran" a="Vouiquipèdia">          <i>Tehran</i><par n="Iran__np"/></e>
+<e r="LR" lm="Éran" a="Vouiquipèdia" c="use_sub">          <i>Éran</i><par n="Iran__np"/></e>
+<e lm="Ottawa" a="Vouiquipèdia">          <i>Ottawa</i><par n="Bulgarie__np"/></e>
+<e lm="Bohèma" a="hector">          <i>Bohèma</i><par n="Bulgarie__np"/></e>
+<e lm="Moravie" a="hector">          <i>Moravie</i><par n="Bulgarie__np"/></e>
+<e lm="Queensland" a="hector">          <i>Queensland</i><par n="Iran__np"/></e>
+<e r="LR" lm="Tolosa" a="Vouiquipèdia" c="use_sub">          <i>Tolosa</i><par n="Bulgarie__np"/></e>
+<e lm="Brussèles" a="Vouiquipèdia">          <i>Brussèles</i><par n="Iran__np"/></e>
+<e r="LR" lm="Brussèla" a="Vouiquipèdia" c="use_sub">          <i>Brussèla</i><par n="Iran__np"/></e>
+<e lm="Silèsie" a="hector">          <i>Silèsie</i><par n="Bulgarie__np"/></e>
+<e lm="Brooklyn" a="Vouiquipèdia">          <i>Brooklyn</i><par n="Iran__np"/></e>
+<e lm="Times Square" a="Vouiquipèdia">          <i>Times<b/>Square</i><par n="Bulgarie__np"/></e>
+<e lm="Queens" a="Vouiquipèdia">          <i>Queens</i><par n="Iran__np"/></e>
+<e lm="Bangalore" a="hector">          <i>Bangalore</i><par n="Iran__np"/></e>
+<e lm="Toronto" a="Vouiquipèdia">          <i>Toronto</i><par n="Iran__np"/></e>
+<e lm="Flandra" a="Vouiquipèdia">          <i>Flandra</i><par n="Bulgarie__np"/></e>
+<e lm="Valonie" a="Vouiquipèdia">          <i>Valonie</i><par n="Bulgarie__np"/></e>
+<e lm="Nacions unies" a="Vouiquipèdia">          <i>Nacions<b/>unies</i><par n="Nations_unies__np"/></e>
+<e lm="Concorde">          <i>Concorde</i><par n="Linux__np"/></e>
+<e lm="Mirage">          <i>Mirage</i><par n="Linux__np"/></e>
+<e lm="Dassault">          <i>Dassault</i><par n="Linux__np"/></e>
+<e lm="Le Canard enchaîné">          <i>Le<b/>Canard<b/>enchaîné</i><par n="Linux__np"/></e>
+<e lm="Noè" a="stich">          <i>Noè</i><par n="Jian__np"/></e>
+<e r="LR" lm="oncoro" a="stich" c="use_sub"><i>oncoro</i><par n="avant__adv"/></e>
+<e lm="valaco" a="hector">          <i>vala</i><par n="asiati/co__adj"/></e>
+<e lm="ètnico" a="hector">          <i>ètni</i><par n="asiati/co__adj"/></e>
+<e lm="lengadocien" a="hector">          <i>lengadoci</i><par n="afriqu/en__adj"/></e>
+<e lm="toulousenc" a="hector">          <i>toulousenc</i><par n="blanc__adj"/></e>
+<e r="LR" lm="tolosenc" a="Vouiquipèdia" c="use_sub"><i>tolosenc</i><par n="blanc__adj"/></e>
+<e lm="alfabètico" a="alanfavre">          <i>alfabèti</i><par n="asiati/co__adj"/></e>
+<e lm="èlèctoralisto" a="corpus">          <i>èlèctoralist</i><par n="anarchist/o__adj"/></e>
+<e lm="babilonien" a="stich">          <i>babiloni</i><par n="afriqu/en__adj"/></e>
+<e lm="nêrlandês" a="Vouiquipèdia">          <i>nêrland</i><par n="angll/ês__adj"/></e>
+<e lm="limborgês" a="Vouiquipèdia">          <i>limborg</i><par n="angll/ês__adj"/></e>
+<e lm="ètnicitât" a="hector">          <i>ètnicit</i><par n="activit/ât__n"/></e>
+<e lm="bitcoin" a="hector">          <i>bitcoin</i><par n="abricot__n"/></e>
+<e r="LR" lm="siècllo" a="Vouiquipèdia" c="use_sub">          <i>siècllo</i><par n="abricot__n"/></e>
+<e lm="lengadocien" a="hector">          <i>lengadoci</i><par n="afriqu/en__n"/></e>
+<e lm="Toulousenc" a="hector">          <i>Toulousenc</i><par n="flamenc__n"/></e>
+<e r="LR" lm="Tolosenc" a="Vouiquipèdia" c="use_sub">          <i>Tolosenc</i><par n="flamenc__n"/></e>
+<e r="LR" lm="lenguoua" a="Vouiquipèdia" c="use_sub">          <i>lenguou</i><par n="cultur/a__n"/></e>
+<e r="LR" lm="cllimat" a="Vouiquipèdia" c="use_sub">          <i>cllimat</i><par n="abricot__n"/></e>
+<e r="LR" lm="èchièla" a="stich" c="use_sub">          <i>èchièl</i><par n="cultur/a__n"/></e>
+<e r="LR" lm="pèrsèvèrance" a="stich" c="use_sub">          <i>pèrsèvèrance</i><par n="abayie__n"/></e>
+<e lm="èlèctoralismo" a="corpus">          <i>èlèctoralismo</i><par n="abricot__n"/></e>
+<e lm="Babilonien" a="stich">          <i>Babiloni</i><par n="afriqu/en__n"/></e>
+<e lm="nêrlandês" a="Vouiquipèdia">          <i>nêrland</i><par n="angll/ês__n"/></e>
+<e lm="lengoua d'oc" a="vouiquipèdia"><i>lengou</i><par n="cultur/a__n"/><p><l><b/>d'oc</l><r><g><b/>d'oc</g></r></p></e>
+<e lm="valaco" a="hector">          <i>vala</i><par n="asiati/co__n"/></e>
+<e lm="limborgês" a="Vouiquipèdia">          <i>limborg</i><par n="angll/ês__n"/></e>
+<e lm="islamo" a="hector">          <i>islamo</i><par n="anti__pref"/></e>
+<e lm="mié" a="hector">          <i>mié</i><par n="anti__pref"/></e>
+<e lm="entèr" a="hector">          <i>entèr</i><par n="anti__pref"/></e>
+<e lm="demi" a="hector">          <i>demi</i><par n="anti__pref"/></e>
+<e lm="UEFA"><i>UEFA</i><par n="BBC__n"/></e>
+<e lm="FIFA"><i>FIFA</i><par n="BBC__n"/></e>
+
 <!--- xxxxx -->
 
   </section>
