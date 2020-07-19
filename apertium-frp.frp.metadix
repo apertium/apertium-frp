@@ -56231,6 +56231,191 @@
 <e r="LR" lm="du Figaro"> <p><l>du<b/>Figaro</l><r>de<s n="pr"/><j/>Le<b/>Figaro<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="chôma">          <i>chôm</i><par n="cultur/a__n"/></e>
 
+<e r="RL" lm="après cen" a="alanfavre">          <i>après<b/>cen</i><par n="avant__adv"/></e>
+<e lm="en fêt" a="alanfavre">          <i>en<b/>fêt</i><par n="avant__adv"/></e>
+<e lm="en ples" a="alanfavre">          <i>en<b/>ples</i><par n="avant__adv"/></e>
+<e lm="règuliérement" a="alanfavre">          <i>règuliérement</i><par n="avant__adv"/></e>
+<e lm="amplament" a="alanfavre">          <i>amplament</i><par n="avant__adv"/></e>
+<e lm="adés més" a="alanfavre">          <i>adés<b/>més</i><par n="avant__adv"/></e>
+<e lm="en gènèral" a="alanfavre">          <i>en<b/>gènèral</i><par n="avant__adv"/></e>
+<e lm="per ègzemplo" a="alanfavre">          <i>per<b/>ègzemplo</i><par n="avant__adv"/></e>
+<e lm="sot la dirèccion" a="alanfavre">          <i>sot<b/>la<b/>dirèccion</i><par n="avant__adv"/></e>
+<e lm="en legne" a="alanfavre">          <i>en<b/>legne</i><par n="avant__adv"/></e>
+<e lm="més ou muens" a="alanfavre">          <i>més<b/>ou<b/>muens</i><par n="avant__adv"/></e>
+<e lm="a bôrd" a="alanfavre">          <i>a<b/>bôrd</i><par n="avant__adv"/></e>
+<e lm="lo jorn d'après" a="alanfavre">          <i>lo<b/>jorn<b/>d'après</i><par n="avant__adv"/></e>
+<e lm="ceti an" a="alanfavre">          <i>ceti<b/>an</i><par n="avant__adv"/></e>
+<e lm="a drêta" a="alanfavre">          <i>a<b/>drêta</i><par n="avant__adv"/></e>
+<e lm="u forél" a="alanfavre">          <i>u<b/>forél</i><par n="avant__adv"/></e>
+<e lm="a gôche" a="alanfavre">          <i>a<b/>gôche</i><par n="avant__adv"/></e>
+<e lm="sur lo cârro" a="alanfavre">          <i>sur<b/>lo<b/>cârro</i><par n="avant__adv"/></e>
+<e lm="a son tôrn" a="alanfavre">          <i>a<b/>son<b/>tôrn</i><par n="avant__adv"/></e>
+<e lm="en colaboracion" a="alanfavre">          <i>en<b/>colaboracion</i><par n="avant__adv"/></e>
+<e lm="sur lo revond" a="alanfavre">          <i>sur<b/>lo<b/>revond</i><par n="avant__adv"/></e>
+<e lm="avant tot" a="alanfavre">          <i>avant<b/>tot</i><par n="avant__adv"/></e>
+<e lm="devant tot" a="alanfavre">          <i>devant<b/>tot</i><par n="avant__adv"/></e>
+<e lm="a môrt" a="alanfavre">          <i>a<b/>môrt</i><par n="avant__adv"/></e>
+<e lm="per tradicion" a="alanfavre">          <i>per<b/>tradicion</i><par n="avant__adv"/></e>
+<e lm="en comon" a="alanfavre">          <i>en<b/>comon</i><par n="avant__adv"/></e>
+<e lm="un pou més" a="alanfavre">          <i>un<b/>pou<b/>més</i><par n="avant__adv"/></e>
+<e lm="a l'hotâl" a="alanfavre">          <i>a<b/>l'hotâl</i><par n="avant__adv"/></e>
+<e lm="en paralèlo" a="alanfavre">          <i>en<b/>paralèlo</i><par n="avant__adv"/></e>
+<e lm="u nivél" a="alanfavre">          <i>u<b/>nivél</i><par n="avant__adv"/></e>
+<e lm="tant que lé" a="alanfavre">          <i>tant<b/>que<b/>lé</i><par n="avant__adv"/></e>
+<e lm="en tot" a="alanfavre">          <i>en<b/>tot</i><par n="avant__adv"/></e>
+<e lm="de fôrce" a="alanfavre">          <i>de<b/>fôrce</i><par n="avant__adv"/></e>
+<e lm="prèsto" a="alanfavre">          <i>prèsto</i><par n="avant__adv"/></e>
+<e lm="naturèlament" a="alanfavre">          <i>naturèlament</i><par n="avant__adv"/></e>
+<e lm="a cavalon" a="alanfavre">          <i>a<b/>cavalon</i><par n="avant__adv"/></e>
+<e lm="en premiér" a="alanfavre">          <i>en<b/>premiér</i><par n="avant__adv"/></e>
+<e lm="per atant" a="alanfavre">          <i>per<b/>atant</i><par n="avant__adv"/></e>
+<e lm="pendent cél temps" a="alanfavre">          <i>pendent<b/>cél<b/>temps</i><par n="avant__adv"/></e>
+<e lm="en cors" a="alanfavre">          <i>en<b/>cors</i><par n="avant__adv"/></e>
+<e lm="a pied" a="alanfavre">          <i>a<b/>pied</i><par n="avant__adv"/></e>
+<e lm="dês alor" a="alanfavre">          <i>dês<b/>alor</i><par n="avant__adv"/></e>
+<e lm="a la man" a="alanfavre">          <i>a<b/>la<b/>man</i><par n="avant__adv"/></e>
+<e lm="mâlherosament" a="alanfavre">          <i>mâlherosament</i><par n="avant__adv"/></e>
+<e lm="en hivèrn" a="alanfavre">          <i>en<b/>hivèrn</i><par n="avant__adv"/></e>
+<e lm="dês grant-temps" a="alanfavre">          <i>dês<b/>grant-temps</i><par n="avant__adv"/></e>
+<e lm="possiblament" a="alanfavre">          <i>possiblament</i><par n="avant__adv"/></e>
+<e lm="en desot" a="alanfavre">          <i>en<b/>desot</i><par n="avant__adv"/></e>
+<e lm="ôtrament nomâ" a="alanfavre">          <i>ôtrament<b/>nomâ</i><par n="avant__adv"/></e>
+<e lm="sen payér" a="alanfavre">          <i>sen<b/>payér</i><par n="avant__adv"/></e>
+<e lm="hôt" a="alanfavre">          <i>hôt</i><par n="avant__adv"/></e>
+<e lm="hiôt" a="alanfavre">          <i>hiôt</i><par n="avant__adv"/></e>
+<e lm="por" a="alanfavre">          <i>por</i><par n="avant__adv"/></e>
+<e lm="més d'avâl" a="alanfavre">          <i>més<b/>d'avâl</i><par n="avant__adv"/></e>
+<e lm="u comencement" a="alanfavre">          <i>u<b/>comencement</i><par n="avant__adv"/></e>
+<e lm="tipicament" a="alanfavre">          <i>tipicament</i><par n="avant__adv"/></e>
+<e lm="outre-mar" a="alanfavre">          <i>outre-mar</i><par n="avant__adv"/></e>
+<e lm="damont" a="alanfavre">          <i>damont</i><par n="avant__adv"/></e>
+<e lm="u chôd-temps" a="alanfavre">          <i>u<b/>chôd-temps</i><par n="avant__adv"/></e>
+<e lm="veré" a="alanfavre">          <i>veré</i><par n="avant__adv"/></e>
+<e lm="tant qu'alor" a="alanfavre">          <i>tant<b/>qu'alor</i><par n="avant__adv"/></e>
+<e lm="de lé" a="alanfavre">          <i>de<b/>lé</i><par n="avant__adv"/></e>
+<e lm="en més" a="alanfavre">          <i>en<b/>més</i><par n="avant__adv"/></e>
+<e lm="franc ben" a="alanfavre">          <i>franc<b/>ben</i><par n="avant__adv"/></e>
+<e lm="historicament" a="alanfavre">          <i>historicament</i><par n="avant__adv"/></e>
+<e lm="d'atant més" a="alanfavre">          <i>d'atant<b/>més</i><par n="avant__adv"/></e>
+<e lm="en activitât" a="alanfavre">          <i>en<b/>activitât</i><par n="avant__adv"/></e>
+<e lm="en ôton" a="alanfavre">          <i>en<b/>ôton</i><par n="avant__adv"/></e>
+<e lm="a l'en-dèrriér" a="alanfavre">          <i>a<b/>l'en-dèrriér</i><par n="avant__adv"/></e>
+<e lm="du muens" a="alanfavre">          <i>du<b/>muens</i><par n="avant__adv"/></e>
+<e lm="ux jorns d'ora" a="alanfavre">          <i>ux<b/>jorns<b/>d'ora</i><par n="avant__adv"/></e>
+<e lm="dificilament" a="alanfavre">          <i>dificilament</i><par n="avant__adv"/></e>
+<e lm="u maximon" a="alanfavre">          <i>u<b/>maximon</i><par n="avant__adv"/></e>
+<e lm="dens l'ôrdre alfabètico" a="alanfavre">          <i>dens<b/>l'ôrdre<b/>alfabètico</i><par n="avant__adv"/></e>
+<e lm="en plen" a="alanfavre">          <i>en<b/>plen</i><par n="avant__adv"/></e>
+<e lm="a l'origina" a="alanfavre">          <i>a<b/>l'origina</i><par n="avant__adv"/></e>
+<e lm="u minimon" a="alanfavre">          <i>u<b/>minimon</i><par n="avant__adv"/></e>
+<e lm="a l'hora" a="alanfavre">          <i>a<b/>l'hora</i><par n="avant__adv"/></e>
+<e lm="de coutâ" a="alanfavre">          <i>de<b/>coutâ</i><par n="avant__adv"/></e>
+<e lm="politicament" a="alanfavre">          <i>politicament</i><par n="avant__adv"/></e>
+<e lm="etc" a="hector">          <i>etc</i><par n="avant__adv"/></e>
+<e lm="etc." a="hector">        <i>etc.</i><par n="avant__adv"/></e>
+<e lm="a l'època" a="alanfavre">          <i>a<b/>l'època</i><par n="avant__adv"/></e>
+<e lm="por lo premiér côp" a="alanfavre">          <i>por<b/>lo<b/>premiér<b/>côp</i><par n="avant__adv"/></e>
+<e lm="por le segond côp" a="alanfavre">          <i>por<b/>le<b/>segond<b/>côp</i><par n="avant__adv"/></e>
+<e lm="en principo" a="alanfavre">          <i>en<b/>principo</i><par n="avant__adv"/></e>
+<e lm="de longe durâ" a="alanfavre">          <i>de<b/>longe<b/>durâ</i><par n="avant__adv"/></e>
+<e lm="tôs los jorns" a="alanfavre">          <i>tôs<b/>los<b/>jorns</i><par n="avant__adv"/></e>
+<e lm="a priori" a="alanfavre">          <i>a<b/>priori</i><par n="avant__adv"/></e>
+<e lm="a cél moment" a="alanfavre">          <i>a<b/>cél<b/>moment</i><par n="avant__adv"/></e>
+<e lm="vers davâl" a="alanfavre">          <i>vers<b/>davâl</i><par n="avant__adv"/></e>
+<e lm="rechement" a="alanfavre">          <i>rechement</i><par n="avant__adv"/></e>
+<e lm="de son lât" a="alanfavre">          <i>de<b/>son<b/>lât</i><par n="avant__adv"/></e>
+<e lm="por cent" a="alanfavre">          <i>por<b/>cent</i><par n="avant__adv"/></e>
+<e lm="a l'ocasion" a="alanfavre">          <i>a<b/>l'ocasion</i><par n="avant__adv"/></e>
+<e lm="mâlgrât tot" a="alanfavre">          <i>mâlgrât<b/>tot</i><par n="avant__adv"/></e>
+<e lm="a tôrt" a="alanfavre">          <i>a<b/>tôrt</i><par n="avant__adv"/></e>
+<e lm="per accident" a="alanfavre">          <i>per<b/>accident</i><par n="avant__adv"/></e>
+<e lm="vers damont" a="alanfavre">          <i>vers<b/>damont</i><par n="avant__adv"/></e>
+<e lm="un pou après" a="alanfavre">          <i>un<b/>pou<b/>après</i><par n="avant__adv"/></e>
+<e lm="mémament pas" a="alanfavre">          <i>mémament<b/>pas</i><par n="avant__adv"/></e>
+<e lm="por lo trêsiémo côp" a="alanfavre">          <i>por<b/>lo<b/>trêsiémo<b/>côp</i><par n="avant__adv"/></e>
+<e lm="secrètament" a="alanfavre">          <i>secrètament</i><par n="avant__adv"/></e>
+<e lm="a l'unanimitât" a="alanfavre">          <i>a<b/>l'unanimitât</i><par n="avant__adv"/></e>
+<e lm="altèrnativament" a="alanfavre">          <i>altèrnativament</i><par n="avant__adv"/></e>
+<e lm="en davâl" a="alanfavre">          <i>en<b/>davâl</i><par n="avant__adv"/></e>
+<e lm="tant que houé" a="alanfavre">          <i>tant<b/>que<b/>houé</i><par n="avant__adv"/></e>
+<e lm="en nêr et blanc" a="alanfavre">          <i>en<b/>nêr<b/>et<b/>blanc</i><par n="avant__adv"/></e>
+<e lm="tant que cé" a="alanfavre">          <i>tant<b/>que<b/>cé</i><par n="avant__adv"/></e>
+<e lm="en dètaly" a="alanfavre">          <i>en<b/>dètaly</i><par n="avant__adv"/></e>
+<e lm="logicament" a="alanfavre">          <i>logicament</i><par n="avant__adv"/></e>
+<e lm="gravament" a="alanfavre">          <i>gravament</i><par n="avant__adv"/></e>
+<e lm="a mié-chemin" a="alanfavre">          <i>a<b/>mié-chemin</i><par n="avant__adv"/></e>
+<e lm="tècnicament" a="alanfavre">          <i>tècnicament</i><par n="avant__adv"/></e>
+<e lm="meraculosament" a="alanfavre">          <i>meraculosament</i><par n="avant__adv"/></e>
+<e lm="per lo militèros" a="alanfavre">          <i>per<b/>lo<b/>militèros</i><par n="avant__adv"/></e>
+<e lm="châque senana" a="alanfavre">          <i>châque<b/>senana</i><par n="avant__adv"/></e>
+<e lm="ben outre" a="alanfavre">          <i>ben<b/>outre</i><par n="avant__adv"/></e>
+<e lm="a tot moment" a="alanfavre">          <i>a<b/>tot<b/>moment</i><par n="avant__adv"/></e>
+<e lm="sèxuèlament" a="alanfavre">          <i>sèxuèlament</i><par n="avant__adv"/></e>
+<e lm="por lo moment" a="alanfavre">          <i>por<b/>lo<b/>moment</i><par n="avant__adv"/></e>
+<e lm="pèrpendiculèrament" a="alanfavre">          <i>pèrpendiculèrament</i><par n="avant__adv"/></e>
+<e lm="juridicament" a="alanfavre">          <i>juridicament</i><par n="avant__adv"/></e>
+<e lm="a plen temps" a="alanfavre">          <i>a<b/>plen<b/>temps</i><par n="avant__adv"/></e>
+<e lm="sur mesera" a="alanfavre">          <i>sur<b/>mesera</i><par n="avant__adv"/></e>
+<e lm="en fonccion" a="alanfavre">          <i>en<b/>fonccion</i><par n="avant__adv"/></e>
+<e lm="a vèlô" a="alanfavre">          <i>a<b/>vèlô</i><par n="avant__adv"/></e>
+<e lm="u grant êr" a="alanfavre">          <i>u<b/>grant<b/>êr</i><par n="avant__adv"/></e>
+<e lm="dens la matenâ" a="alanfavre">          <i>dens<b/>la<b/>matenâ</i><par n="avant__adv"/></e>
+<e lm="comptent" a="alanfavre">          <i>comptent</i><par n="avant__adv"/></e>
+<e lm="sen balyér lo nom" a="alanfavre">          <i>sen<b/>balyér<b/>lo<b/>nom</i><par n="avant__adv"/></e>
+<e lm="a la mié-nuet" a="alanfavre">          <i>a<b/>la<b/>mié-nuet</i><par n="avant__adv"/></e>
+<e lm="a la mié-jorn" a="alanfavre">          <i>a<b/>la<b/>mié-jorn</i><par n="avant__adv"/></e>
+<e lm="d'ense de fela" a="alanfavre">          <i>d'ense<b/>de<b/>fela</i><par n="avant__adv"/></e>
+<e lm="uniformament" a="alanfavre">          <i>uniformament</i><par n="avant__adv"/></e>
+<e lm="unanimament" a="alanfavre">          <i>unanimament</i><par n="avant__adv"/></e>
+<e lm="tot u ples" a="alanfavre">          <i>tot<b/>u<b/>ples</i><par n="avant__adv"/></e>
+<e lm="paradoxalament" a="alanfavre">          <i>paradoxalament</i><par n="avant__adv"/></e>
+<e lm="oficièlament" a="alanfavre">          <i>oficièlament</i><par n="avant__adv"/></e>
+<e lm="moralament" a="alanfavre">          <i>moralament</i><par n="avant__adv"/></e>
+<e lm="mentalament" a="alanfavre">          <i>mentalament</i><par n="avant__adv"/></e>
+<e lm="encrèyâblament" a="alanfavre">          <i>encrèyâblament</i><par n="avant__adv"/></e>
+<e lm="face a face" a="alanfavre">          <i>face<b/>a<b/>face</i><par n="avant__adv"/></e>
+<e lm="en privâ" a="alanfavre">          <i>en<b/>privâ</i><par n="avant__adv"/></e>
+<e lm="de tota façon" a="alanfavre">          <i>de<b/>tota<b/>façon</i><par n="avant__adv"/></e>
+<e lm="de la méma façon" a="alanfavre">          <i>de<b/>la<b/>méma<b/>façon</i><par n="avant__adv"/></e>
+<e lm="u long" a="alanfavre">          <i>u<b/>long</i><par n="avant__adv"/></e>
+<e lm="a portâ" a="alanfavre">          <i>a<b/>portâ</i><par n="avant__adv"/></e>
+<e lm="u temps d'ora" a="alanfavre">          <i>u<b/>temps<b/>d'ora</i><par n="avant__adv"/></e>
+<e lm="en avant" a="alanfavre">          <i>en<b/>avant</i><par n="avant__adv"/></e>
+<e lm="en devant" a="alanfavre">          <i>en<b/>devant</i><par n="avant__adv"/></e>
+<e lm="a côp" a="alanfavre">          <i>a<b/>côp</i><par n="avant__adv"/></e>
+<e lm="du mémo côp" a="alanfavre">          <i>du<b/>mémo<b/>côp</i><par n="avant__adv"/></e>
+<e r="RL" lm="por cen" a="alanfavre">          <i>por<b/>cen</i><par n="avant__adv"/></e>
+<e lm="de façon mutuèla" a="alanfavre">          <i>de<b/>façon<b/>mutuèla</i><par n="avant__adv"/></e>
+<e lm="l'una l'ôtra" a="alanfavre">          <i>l'una<b/>l'ôtra</i><par n="avant__adv"/></e>
+<e lm="los uns los ôtros" a="alanfavre">          <i>los<b/>uns<b/>los<b/>ôtros</i><par n="avant__adv"/></e>
+<e lm="de biès" a="alanfavre">          <i>de<b/>biès</i><par n="avant__adv"/></e>
+<e lm="per lo nombro" a="alanfavre">          <i>per<b/>lo<b/>nombro</i><par n="avant__adv"/></e>
+<e lm="u nivél nacionâl" a="alanfavre">          <i>u<b/>nivél<b/>nacionâl</i><par n="avant__adv"/></e>
+<e lm="u nivél mondial" a="alanfavre">          <i>u<b/>nivél<b/>mondial</i><par n="avant__adv"/></e>
+<e lm="de façon ilègala" a="alanfavre">          <i>de<b/>façon<b/>ilègala</i><par n="avant__adv"/></e>
+<e lm="u mémo nivél" a="alanfavre">          <i>u<b/>mémo<b/>nivél</i><par n="avant__adv"/></e>
+<e lm="en plen acôrd" a="alanfavre">          <i>en<b/>plen<b/>acôrd</i><par n="avant__adv"/></e>
+<e lm="u hasârd" a="alanfavre">          <i>u<b/>hasârd</i><par n="avant__adv"/></e>
+<e lm="a ceti propôs" a="alanfavre">          <i>a<b/>ceti<b/>propôs</i><par n="avant__adv"/></e>
+<e lm="univèrsèlament" a="alanfavre">          <i>univèrsèlament</i><par n="avant__adv"/></e>
+<e lm="sot lo jog" a="alanfavre">          <i>sot<b/>lo<b/>jog</i><par n="avant__adv"/></e>
+<e lm="en prioritât" a="alanfavre">          <i>en<b/>prioritât</i><par n="avant__adv"/></e>
+<e lm="positivament" a="alanfavre">          <i>positivament</i><par n="avant__adv"/></e>
+<e lm="avouéc passion" a="alanfavre">          <i>avouéc<b/>passion</i><par n="avant__adv"/></e>
+<e lm="manifèstament" a="alanfavre">          <i>manifèstament</i><par n="avant__adv"/></e>
+<e lm="d'ordinèro" a="alanfavre">          <i>d'ordinèro</i><par n="avant__adv"/></e>
+<e lm="nègativament" a="alanfavre">          <i>nègativament</i><par n="avant__adv"/></e>
+<e lm="los ôtros viâjos" a="alanfavre">          <i>los<b/>ôtros<b/>viâjos</i><par n="avant__adv"/></e>
+<e lm="mècanicament" a="alanfavre">          <i>mècanicament</i><par n="avant__adv"/></e>
+<e lm="matèrièlament" a="alanfavre">          <i>matèrièlament</i><par n="avant__adv"/></e>
+<e lm="l'un après l'ôtro" a="alanfavre">          <i>l'un<b/>après<b/>l'ôtro</i><par n="avant__adv"/></e>
+<e lm="de façon linèâra" a="alanfavre">          <i>de<b/>façon<b/>linèâra</i><par n="avant__adv"/></e>
+<e lm="sur lo fllanc" a="alanfavre">          <i>sur<b/>lo<b/>fllanc</i><par n="avant__adv"/></e>
+<e lm="un côp per jorn" a="alanfavre">          <i>un<b/>côp<b/>per<b/>jorn</i><par n="avant__adv"/></e>
+<e lm="irrèguliérement" a="alanfavre">          <i>irrèguliérement</i><par n="avant__adv"/></e>
+<e lm="sen lo volêr" a="alanfavre">          <i>sen<b/>lo<b/>volêr</i><par n="avant__adv"/></e>
+<e lm="sen pensar" a="alanfavre">          <i>sen<b/>pensar</i><par n="avant__adv"/></e>
+<e lm="honorâblament" a="alanfavre">          <i>honorâblament</i><par n="avant__adv"/></e>
 <!--- xxxxx -->
 
   </section>
@@ -56387,6 +56572,7 @@
 <e r="LR" lm="yô qu'">   <p><l>yô<b/>qu'</l> <r>yô<b/>que<s n="adv"/><s n="itg"/></r></p></e>
 <e r="LR" lm="qu'">      <p><l>qu'</l>       <r>que<s n="cnjsub"/></r></p></e>
 <e r="LR" lm="être l'objèt de" a="alanfavre"><i></i><par n="/étre__vblex"/><p><l><b/>l'objèt<b/>d'</l><r><g><b/>l'objèt<b/>de</g></r></p></e>
+<e r="LR" lm="n'">       <p><l>n'</l>        <r>ne<s n="adv"/></r></p></e>
 
   </section>
 
