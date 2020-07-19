@@ -128,6 +128,7 @@ SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
 LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
+LIST ChiffreRom = ("\\<[IVXLCM]*\\>"r) ;
 
 # verbes Vblex que typiquement impliquen subjonctif
 SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
@@ -382,6 +383,9 @@ REMOVE ("franc") IF (0C A) (0 ("franc_poplo")) ;
 SELECT N IF (-1 Num) (0 ("franc")) ;
 
 # n / np
+
+SELECT Ant IF (0 Ant + &&GenderNumber) (1 ("Iiér") + &&GenderNumber) ;	# Françouès Iiér
+SELECT Ant IF (0 Ant) (1 ChiffreRom) ;	# Françouès II
 
 REMOVE Ant IF (-1 ("en")) (0 Ant OR Cog) ;
 
