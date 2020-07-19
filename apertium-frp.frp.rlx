@@ -215,6 +215,11 @@ SELECT Prn IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("ren")) ;
 
 REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la fin Diô at acutâ lor preyére
 
+# vbhaver / vblex
+
+SELECT Haver IF (0 Haver) (1 Adv OR CnjAdv) (2 PP) ;		# at pas chantâ
+SELECT Haver IF (0 Haver) (1 Adv OR CnjAdv) (2 Adv OR CnjAdv) (3 PP) ;
+
 # étre vbser / vblex (=appartenir)
 
 SELECT V IF (0 Etre) (1 ("a")) (NOT 2 Top OR unknownMajIni) ;			# ére ux Angliès
