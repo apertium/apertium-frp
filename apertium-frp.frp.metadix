@@ -174,10 +174,10 @@
 <pardef n="afriqu/en__adj">
   <e>       <p><l>en</l>        <r>en<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>èna</l>       <r>en<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="LR" c="corpus"><p><l>êna</l><r>en<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>êna</l><r>en<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ens</l>       <r>en<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ènes</l>      <r>en<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-  <e r="LR" c="corpus"><p><l>ênes</l><r>en<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>ênes</l><r>en<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="pl/en__adj">
@@ -537,6 +537,18 @@
   <e>       <p><l>ês</l>        <r>ê<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>êes</l>       <r>ê<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ês</l>        <r>ê<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="coloss/al__adj" c="Stich a classé tous les adjectifs terminés en -âl dans les dico, on trouve assez souvent d'autres adjectifs écrits avec le circonflexe">
+  <e>       <p><l>al</l>          <r>al<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ala</l>         <r>al<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>als</l>         <r>al<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ales</l>        <r>al<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âl</l>          <r>al<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âla</l>         <r>al<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âls</l>         <r>al<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>ox</l>         <r>al<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âles</l>        <r>al<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="premiér__adj">
@@ -10855,7 +10867,7 @@
 <e lm="brunèyen">        <i>brunèy</i><par n="afriqu/en__adj"/></e>
 <e lm="brusco">          <i>brus</i><par n="asiati/co__adj"/></e>
 <e lm="bruto" a="alanfavre"><i>brut</i><par n="anarchist/o__adj"/></e>
-<e lm="brutal" a="alanfavre"><i>brutal</i><par n="asian__adj"/></e>
+<e lm="brutal" a="alanfavre"><i>brut</i><par n="coloss/al__adj"/></e>
 <e lm="brâmior">         <i>brâmio</i><par n="admirato/r__adj"/></e>
 <e lm="brâmor">          <i>brâmo</i><par n="admirato/r__adj"/></e>
 <e lm="brâvo">           <i>brâv</i><par n="anarchist/o__adj"/></e>
@@ -10991,7 +11003,7 @@
 <e lm="cofo">            <i>cof</i><par n="anarchist/o__adj"/></e>
 <e lm="colombien">       <i>colombi</i><par n="afriqu/en__adj"/></e>
 <e lm="coloniâl">        <i>coloniâl</i><par n="asian__adj"/></e>
-<e lm="colossal">        <i>colossal</i><par n="asian__adj"/></e>
+<e lm="colossal">        <i>coloss</i><par n="coloss/al__adj"/></e>
 <e lm="colèctif" a="alanfavre"><i>colècti</i><par n="acti/f__adj"/></e>
 <e lm="colègien">        <i>colègi</i><par n="afriqu/en__adj"/></e>
 <e lm="comon">           <i>com</i><par n="com/on__adj"/></e>
@@ -11016,7 +11028,7 @@
 <e lm="comunâl">         <i>comunâl</i><par n="asian__adj"/></e>
 <e lm="comunôtèro" a="alanfavre"><i>comunôtèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="comutatif" a="hector"><i>comutati</i><par n="acti/f__adj"/></e>
-<e lm="comèrciâl" a="alanfavre"><i>comèrciâl</i><par n="asian__adj"/></e>
+<e lm="comèrcial" a="alanfavre/hector"><i>comèrci</i><par n="coloss/al__adj"/></e>
 <e lm="comèrçant">       <i>comèrçant</i><par n="asian__adj"/></e>
 <e lm="comôdo">          <i>comôd</i><par n="anarchist/o__adj"/></e>
 <e lm="concevâblo">      <i>concevâbl</i><par n="anarchist/o__adj"/></e>
@@ -11052,7 +11064,7 @@
 <e lm="coquin">          <i>coquin</i><par n="asian__adj"/></e>
 <e lm="coragiox">        <i>coragio</i><par n="ambicio/x__adj"/></e>
 <e lm="corbo">           <i>corb</i><par n="anarchist/o__adj"/></e>
-<e lm="cordial" a="hector"><i>cordial</i><par n="asian__adj"/></e>
+<e lm="cordial" a="hector"><i>cordi</i><par n="coloss/al__adj"/></e>
 <e lm="corent">          <i>corent</i><par n="asian__adj"/></e>
 <e lm="corintien">       <i>corinti</i><par n="afriqu/en__adj"/></e>
 <e lm="cornifllor">      <i>cornifllo</i><par n="admirato/r__adj"/></e>
@@ -11360,7 +11372,7 @@
 <e lm="enstant">         <i>enstant</i><par n="asian__adj"/></e>
 <e lm="enstitucionèl" a="alanfavre"><i>enstitucionèl</i><par n="asian__adj"/></e>
 <e lm="enstructif" a="alanfavre"><i>enstructi</i><par n="acti/f__adj"/></e>
-<e lm="enstrumental" a="alanfavre"><i>enstrumental</i><par n="asian__adj"/></e>
+<e lm="enstrumental" a="alanfavre"><i>enstrument</i><par n="coloss/al__adj"/></e>
 <e lm="ensufisent">      <i>ensufisent</i><par n="asian__adj"/></e>
 <e lm="ensulèro">        <i>ensulèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="ensuportâblo">    <i>ensuportâbl</i><par n="anarchist/o__adj"/></e>
@@ -11390,7 +11402,7 @@
 <e lm="envenciblo">      <i>envencibl</i><par n="anarchist/o__adj"/></e>
 <e lm="enversenc">       <i>enversenc</i><par n="blanc__adj"/></e>
 <e lm="enveyox">         <i>enveyo</i><par n="ambicio/x__adj"/></e>
-<e lm="environamental" a="alanfavre"><i>environamental</i><par n="asian__adj"/></e>
+<e lm="environamental" a="alanfavre"><i>environament</i><par n="coloss/al__adj"/></e>
 <e lm="environamentalisto" a="alanfavre"><i>environamentalist</i><par n="anarchist/o__adj"/></e>
 <e lm="envisiblo">       <i>envisibl</i><par n="anarchist/o__adj"/></e>
 <e lm="envolontèro" a="alanfavre"><i>envolontèr</i><par n="advèrsèr/o__adj"/></e>
@@ -11426,7 +11438,7 @@
 <e lm="farôd">           <i>farôd</i><par n="asian__adj"/></e>
 <e lm="farôge">          <i>farôge</i><par n="fadasse__adj"/></e>
 <e lm="fascisto">        <i>fascist</i><par n="anarchist/o__adj"/></e>
-<e lm="fatal">           <i>fatal</i><par n="asian__adj"/></e>
+<e lm="fatal">           <i>fat</i><par n="coloss/al__adj"/></e>
 <e lm="favorâblo">       <i>favorâbl</i><par n="anarchist/o__adj"/></e>
 <e lm="femelin">         <i>femelin</i><par n="asian__adj"/></e>
 <e lm="femenin">         <i>femenin</i><par n="asian__adj"/></e>
@@ -11445,13 +11457,13 @@
 <e lm="filosofico" a="hector"><i>filosofi</i><par n="asiati/co__adj"/></e>
 <e lm="filou">           <i>filou</i><par n="asian__adj"/></e>
 <e lm="fin">             <i>fin</i><par n="asian__adj"/></e>
-<e lm="final">           <i>final</i><par n="asian__adj"/></e>
+<e lm="final">           <i>fin</i><par n="coloss/al__adj"/></e>
 <e lm="financiér">       <i>financiér</i><par n="aventuriér__adj"/></e>
 <e lm="finlandês">       <i>finland</i><par n="angll/ês__adj"/></e>
 <e lm="finèt">           <i>finèt</i><par n="asian__adj"/></e>
 <e lm="finôd">           <i>finôd</i><par n="asian__adj"/></e>
 <e lm="fiolo">           <i>fiol</i><par n="anarchist/o__adj"/></e>
-<e lm="fiscal" a="alanfavre"><i>fiscal</i><par n="asian__adj"/></e>
+<e lm="fiscal" a="alanfavre"><i>fisc</i><par n="coloss/al__adj"/></e>
 <e lm="fisico">          <i>fisi</i><par n="asiati/co__adj"/></e>
 <e lm="fisicien">        <i>fisici</i><par n="afriqu/en__adj"/></e>
 <e lm="fixo">            <i>fix</i><par n="advèrsèr/o__adj"/></e>
@@ -11518,7 +11530,7 @@
 <e lm="fèdèralisto">     <i>fèdèralist</i><par n="anarchist/o__adj"/></e>
 <e lm="fèdèrâl">         <i>fèdèrâl</i><par n="asian__adj"/></e>
 <e lm="fènéant">         <i>fènéant</i><par n="asian__adj"/></e>
-<e lm="fèodal">          <i>fèodal</i><par n="asian__adj"/></e>
+<e lm="fèodal">          <i>fèod</i><par n="coloss/al__adj"/></e>
 <e lm="fèrmo">           <i>fèrm</i><par n="anarchist/o__adj"/></e>
 <e lm="fèrm">            <i>fèrm</i><par n="asian__adj"/></e>
 <e lm="fèrtilo">         <i>fèrtil</i><par n="anarchist/o__adj"/></e>
@@ -11564,7 +11576,7 @@
 <e lm="glloriox">        <i>gllorio</i><par n="ambicio/x__adj"/></e>
 <e lm="gllôdo">          <i>gllôd</i><par n="anarchist/o__adj"/></e>
 <e lm="gllôd">           <i>gllôd</i><par n="asian__adj"/></e>
-<e lm="global" a="alanfavre"><i>global</i><par n="asian__adj"/></e>
+<e lm="global" a="alanfavre"><i>glob</i><par n="coloss/al__adj"/></e>
 <e lm="glouton">         <i>glouton</i><par n="asian__adj"/></e>
 <e lm="gnogne">          <i>gnogne</i><par n="fadasse__adj"/></e>
 <e lm="gnognon">         <i>gnognon</i><par n="asian__adj"/></e>
@@ -11629,7 +11641,7 @@
 <e lm="gâpian">          <i>gâpian</i><par n="asian__adj"/></e>
 <e lm="gâto">            <i>gât</i><par n="anarchist/o__adj"/></e>
 <e lm="gèant">           <i>gèant</i><par n="asian__adj"/></e>
-<e lm="gènèral">         <i>gènèral</i><par n="asian__adj"/></e>
+<e lm="gènèral">         <i>gènèr</i><par n="coloss/al__adj"/></e>
 <e lm="gènèrox">         <i>gènèro</i><par n="ambicio/x__adj"/></e>
 <e lm="gènètico" a="hector"><i>gènèti</i><par n="asiati/co__adj"/></e>
 <e lm="gèrman">          <i>gèrman</i><par n="asian__adj"/></e>
@@ -11666,7 +11678,7 @@
 <e lm="hontox">          <i>honto</i><par n="ambicio/x__adj"/></e>
 <e lm="honéto">          <i>honét</i><par n="anarchist/o__adj"/></e>
 <e lm="honétho">         <i>honéth</i><par n="anarchist/o__adj"/></e>
-<e lm="horizontal">      <i>horizontal</i><par n="asian__adj"/></e>
+<e lm="horizontal">      <i>horizont</i><par n="coloss/al__adj"/></e>
 <e lm="horlogiér">       <i>horlogiér</i><par n="aventuriér__adj"/></e>
 <e lm="horriblo">        <i>horribl</i><par n="anarchist/o__adj"/></e>
 <e lm="horèro">          <i>horèr</i><par n="advèrsèr/o__adj"/></e>
@@ -11693,7 +11705,7 @@
 <e lm="ilimitâ">         <i>ilimit</i><par n="acharn/â__adj"/></e>
 <e lm="iliésiblo">       <i>iliésibl</i><par n="anarchist/o__adj"/></e>
 <e lm="ilustro">         <i>ilustr</i><par n="anarchist/o__adj"/></e>
-<e lm="ilègal" a="alanfavre"><i>ilègal</i><par n="asian__adj"/></e>
+<e lm="ilègal" a="alanfavre"><i>ilèg</i><par n="coloss/al__adj"/></e>
 <e lm="ilètrâ">          <i>ilètr</i><par n="acharn/â__adj"/></e>
 <e lm="imanse">          <i>imanse</i><par n="fadasse__adj"/></e>
 <e lm="imigrant" a="alanfavre"><i>imigrant</i><par n="asian__adj"/></e>
@@ -11707,7 +11719,7 @@
 <e lm="inaccèptâblo" a="alanfavre"><i>inaccèptâbl</i><par n="anarchist/o__adj"/></e>
 <e lm="indien">          <i>indi</i><par n="afriqu/en__adj"/></e>
 <e lm="indonèsien">      <i>indonèsi</i><par n="afriqu/en__adj"/></e>
-<e lm="inicial" a="alanfavre"><i>inicial</i><par n="asian__adj"/></e>
+<e lm="inicial" a="alanfavre"><i>inici</i><par n="coloss/al__adj"/></e>
 <e lm="inocent">         <i>inocent</i><par n="asian__adj"/></e>
 <e lm="inofensif" a="alanfavre"><i>inofensi</i><par n="acti/f__adj"/></e>
 <e lm="inombrâblo" a="stich"><i>inombrâbl</i><par n="anarchist/o__adj"/></e>
@@ -11782,7 +11794,7 @@
 <e lm="libien">          <i>libi</i><par n="afriqu/en__adj"/></e>
 <e lm="libro">           <i>libr</i><par n="anarchist/o__adj"/></e>
 <e lm="libèrien">        <i>libèri</i><par n="afriqu/en__adj"/></e>
-<e lm="libèrâl" a="corpus"><i>libèrâl</i><par n="asian__adj"/></e>
+<e lm="libèrâl" a="LoTrèsor"><i>libèrâl</i><par n="asian__adj"/></e>
 <e lm="lice">            <i>lice</i><par n="fadasse__adj"/></e>
 <e lm="lilâs">           <i>lilâs</i><par n="orange__adj"/></e>
 <e lm="limâ">            <i>lim</i><par n="acharn/â__adj"/></e>
@@ -11797,7 +11809,7 @@
 <e lm="liço">            <i>liç</i><par n="anarchist/o__adj"/></e>
 <e lm="liésiblo">        <i>liésibl</i><par n="anarchist/o__adj"/></e>
 <e lm="liésor">          <i>liéso</i><par n="admirato/r__adj"/></e>
-<e lm="local">           <i>local</i><par n="asian__adj"/></e>
+<e lm="local">           <i>loc</i><par n="coloss/al__adj"/></e>
 <e lm="locatèro">        <i>locatèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="logico">          <i>logi</i><par n="asiati/co__adj"/></e>
 <e lm="lombârd">         <i>lombârd</i><par n="asian__adj"/></e>
@@ -11875,12 +11887,12 @@
 <e lm="mato">            <i>mat</i><par n="anarchist/o__adj"/></e>
 <e lm="mat">             <i>mat</i><par n="asian__adj"/></e>
 <e lm="mateniér">        <i>mateniér</i><par n="aventuriér__adj"/></e>
-<e lm="matriarcal" a="alanfavre"><i>matriarcal</i><par n="asian__adj"/></e>
+<e lm="matriarcal" a="alanfavre"><i>matriarc</i><par n="coloss/al__adj"/></e>
 <e lm="matèmatico">      <i>matèmati</i><par n="asiati/co__adj"/></e>
 <e lm="matèrialisto">    <i>matèrialist</i><par n="anarchist/o__adj"/></e>
 <e lm="matèrièl">        <i>matèrièl</i><par n="asian__adj"/></e>
 <e lm="matèrnâ">         <i>matèrn</i><par n="acharn/â__adj"/></e>
-<e lm="maximal" a="alanfavre"><i>maximal</i><par n="asian__adj"/></e>
+<e lm="maximal" a="alanfavre"><i>maxim</i><par n="coloss/al__adj"/></e>
 <e lm="megiê">           <i>megi</i><par n="achichi/ê__adj"/></e>
 <e lm="megnon">          <i>megnon</i><par n="asian__adj"/></e>
 <e lm="megnât">          <i>megnât</i><par n="asian__adj"/></e>
@@ -11901,7 +11913,7 @@
 <e lm="milyonèro">       <i>milyonèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="milènèro">        <i>milènèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="mince">           <i>mince</i><par n="fadasse__adj"/></e>
-<e lm="minimal" a="alanfavre"><i>minimal</i><par n="asian__adj"/></e>
+<e lm="minimal" a="alanfavre"><i>minim</i><par n="coloss/al__adj"/></e>
 <e lm="ministèrièl" a="alanfavre"><i>ministèrièl</i><par n="asian__adj"/></e>
 <e lm="minor" c="Stich 01.06.20"><i>minor</i><par n="entiér__adj"/></e>
 <e lm="minoritèro" a="alanfavre"><i>minoritèr</i><par n="advèrsèr/o__adj"/></e>
@@ -11927,7 +11939,7 @@
 <e lm="moldavo">         <i>moldav</i><par n="anarchist/o__adj"/></e>
 <e lm="monarchisto">     <i>monarc</i><par n="h/h·"/><i>ist</i><par n="anarchist/o__adj"/></e>
 <e lm="monarchico">      <i>monarc</i><par n="h/h·"/><i>i</i><par n="asiati/co__adj"/></e>
-<e lm="mondial" a="alanfavre"><i>mondial</i><par n="asian__adj"/></e>
+<e lm="mondial" a="alanfavre"><i>mondi</i><par n="coloss/al__adj"/></e>
 <e lm="mondialisto" a="alanfavre"><i>mondialist</i><par n="anarchist/o__adj"/></e>
 <e lm="mondiâl">         <i>mondiâl</i><par n="asian__adj"/></e>
 <e lm="mongol">          <i>mongol</i><par n="asian__adj"/></e>
@@ -11973,7 +11985,7 @@
 <e lm="municipâl">       <i>municipâl</i><par n="asian__adj"/></e>
 <e lm="musclâ" a="alanfavre"><i>muscl</i><par n="acharn/â__adj"/></e>
 <e lm="musi">            <i>musi</i><par n="asian__adj"/></e>
-<e lm="musical" a="hector"><i>musical</i><par n="asian__adj"/></e>
+<e lm="musical" a="hector"><i>music</i><par n="coloss/al__adj"/></e>
 <e lm="musicien">        <i>musici</i><par n="afriqu/en__adj"/></e>
 <e lm="musulman">        <i>musulman</i><par n="asian__adj"/></e>
 <e lm="mutuèl">          <i>mutuèl</i><par n="asian__adj"/></e>
@@ -12021,7 +12033,7 @@
 <e lm="mègrolèt">        <i>mègrolèt</i><par n="asian__adj"/></e>
 <e lm="mèlancolico">     <i>mèlancoli</i><par n="asiati/co__adj"/></e>
 <e lm="mèlyor" c="Stich 01.06.20"><i>mèlyor</i><par n="entiér__adj"/></e>
-<e lm="mèmorial" a="alanfavre"><i>mèmorial</i><par n="asian__adj"/></e>
+<e lm="mèmorial" a="alanfavre"><i>mèmori</i><par n="coloss/al__adj"/></e>
 <e lm="mèmorâblo">       <i>mèmorâbl</i><par n="anarchist/o__adj"/></e>
 <e lm="mènagiér">        <i>mènagiér</i><par n="aventuriér__adj"/></e>
 <e lm="mèprisâblo">      <i>mèprisâbl</i><par n="anarchist/o__adj"/></e>
@@ -12080,7 +12092,7 @@
 <e lm="nord" a="Stich, 16.10.20" c="quand en apposition"><i>nord</i><par n="orange__adj"/></e>
 <e lm="nord-amèriquen">  <i>nord-amèriqu</i><par n="afriqu/en__adj"/></e>
 <e lm="nord-corèen">     <i>nord-corè</i><par n="afriqu/en__adj"/></e>
-<e lm="normal">          <i>normal</i><par n="asian__adj"/></e>
+<e lm="normal">          <i>norm</i><par n="coloss/al__adj"/></e>
 <e lm="normand">         <i>normand</i><par n="asian__adj"/></e>
 <e lm="norvègien">       <i>norvègi</i><par n="afriqu/en__adj"/></e>
 <e lm="notâblo">         <i>notâbl</i><par n="anarchist/o__adj"/></e>
@@ -12171,7 +12183,7 @@
 <e lm="papisto">         <i>papist</i><par n="anarchist/o__adj"/></e>
 <e lm="papou">           <i>papou</i><par n="asian__adj"/></e>
 <e lm="par">             <i>par</i><par n="asian__adj"/></e>
-<e lm="paradoxal" a="alanfavre"><i>paradoxal</i><par n="asian__adj"/></e>
+<e lm="paradoxal" a="alanfavre"><i>paradox</i><par n="coloss/al__adj"/></e>
 <e lm="paragoayen">      <i>paragoay</i><par n="afriqu/en__adj"/></e>
 <e lm="paralitico">      <i>paraliti</i><par n="asiati/co__adj"/></e>
 <e lm="paramètrico" a="alanfavre"><i>paramètri</i><par n="asiati/co__adj"/></e>
@@ -12193,7 +12205,7 @@
 <e lm="parvegnu">        <i>parvegnu</i><par n="asian__adj"/></e>
 <e lm="parvenu">         <i>parvenu</i><par n="asian__adj"/></e>
 <e lm="parèly">          <i>parèly</i><par n="asian__adj"/></e>
-<e lm="pascal">          <i>pascal</i><par n="asian__adj"/></e>
+<e lm="pascal">          <i>pasc</i><par n="coloss/al__adj"/></e>
 <e lm="pascatin">        <i>pascatin</i><par n="asian__adj"/></e>
 <e lm="passagiér">       <i>passagiér</i><par n="aventuriér__adj"/></e>
 <e lm="passent">         <i>passent</i><par n="asian__adj"/></e>
@@ -12204,7 +12216,7 @@
 <e lm="patologico">      <i>patologi</i><par n="asiati/co__adj"/></e>
 <e lm="patouesan">       <i>patouesan</i><par n="asian__adj"/></e>
 <e lm="patouesant">      <i>patouesant</i><par n="asian__adj"/></e>
-<e lm="patriarcal" a="alanfavre"><i>patriarcal</i><par n="asian__adj"/></e>
+<e lm="patriarcal" a="alanfavre"><i>patriarc</i><par n="coloss/al__adj"/></e>
 <e lm="patrioto">        <i>patriot</i><par n="anarchist/o__adj"/></e>
 <e lm="patriotico">      <i>patrioti</i><par n="asiati/co__adj"/></e>
 <e lm="patu">            <i>patu</i><par n="asian__adj"/></e>
@@ -12520,7 +12532,7 @@
 <e lm="râso">            <i>râs</i><par n="anarchist/o__adj"/></e>
 <e lm="râs">             <i>râs</i><par n="borjouès__adj"/></e>
 <e lm="règionalisto">    <i>rè</i><par n="g/g·"/><i>ionalist</i><par n="anarchist/o__adj"/></e>
-<e lm="règional" a="hector"><i>rè</i><par n="g/g·"/><i>ional</i><par n="asian__adj"/></e>
+<e lm="règional" a="hector"><i>rè</i><par n="g/g·"/><i>ion</i><par n="coloss/al__adj"/></e>
 <e lm="rèalisto" a="hector"><i>rèalist</i><par n="anarchist/o__adj"/></e>
 <e lm="rècidivisto" a="alanfavre"><i>rècidivist</i><par n="anarchist/o__adj"/></e>
 <e lm="rèfèrent" a="alanfavre"><i>rèfèrent</i><par n="asian__adj"/></e>
@@ -12550,7 +12562,7 @@
 <e lm="rôse">            <i>rôse</i><par n="fadasse__adj"/></e>
 <e lm="sacrâ">           <i>sacr</i><par n="acharn/â__adj"/></e>
 <e lm="sacrilèjo">       <i>sacrilè</i><par n="ètran/jo__adj"/></e>
-<e lm="sacèrdotâl" a="stich"><i>sacèrdotâl</i><par n="asian__adj"/></e>
+<e lm="sacèrdotal" a="stich/hector"><i>sacèrdot</i><par n="coloss/al__adj"/></e>
 <e lm="sado">            <i>sad</i><par n="anarchist/o__adj"/></e>
 <e lm="safir">           <i>safir</i><par n="orange__adj"/></e>
 <e lm="safran">          <i>safran</i><par n="orange__adj"/></e>
@@ -12785,7 +12797,7 @@
 <e lm="transformator" a="alanfavre"><i>transformato</i><par n="admirato/r__adj"/></e>
 <e lm="transitouèro" a="alanfavre"><i>transitouèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="transparent">     <i>transparent</i><par n="asian__adj"/></e>
-<e lm="transvèrsâl" a="alanfavre"><i>transvèrsâl</i><par n="asian__adj"/></e>
+<e lm="transvèrsâl" a="LoTrèsor"><i>transvèrsâl</i><par n="asian__adj"/></e>
 <e lm="travalyor">       <i>travalyo</i><par n="admirato/r__adj"/></e>
 <e lm="trempo">          <i>tremp</i><par n="anarchist/o__adj"/></e>
 <e lm="trenchent">       <i>trenchent</i><par n="asian__adj"/></e>
@@ -12884,7 +12896,6 @@
 <e lm="ventru">          <i>ventru</i><par n="asian__adj"/></e>
 <e lm="veremox">         <i>veremo</i><par n="ambicio/x__adj"/></e>
 <e lm="veretâblo">       <i>veretâbl</i><par n="anarchist/o__adj"/></e>
-<e lm="vertical" a="hector"><i>vertical</i><par n="asian__adj"/></e>
 <e lm="veré">            <i>veré</i><par n="fadasse__adj"/></e>
 <e lm="vesin">           <i>ves</i><par n="orfel/in__adj"/></e>
 <e lm="vesitor">         <i>vesito</i><par n="admirato/r__adj"/></e>
@@ -12936,7 +12947,7 @@
 <e lm="vèrmèly">         <i>vèrmèly</i><par n="entiér__adj"/></e>
 <e lm="vèrsant">         <i>vèrsant</i><par n="asian__adj"/></e>
 <e lm="vèrt">            <i>vèrt</i><par n="asian__adj"/></e>
-<e lm="vèrtical" a="alanfavre"><i>vèrtical</i><par n="asian__adj"/></e>
+<e lm="vèrtical" a="alanfavre"><i>vèrtic</i><par n="coloss/al__adj"/></e>
 <e lm="vèrtuox">         <i>vèrtuo</i><par n="ambicio/x__adj"/></e>
 <e lm="vètèran">         <i>vètèran</i><par n="asian__adj"/></e>
 <e lm="vètèrinèro">      <i>vètèrinèr</i><par n="advèrsèr/o__adj"/></e>
@@ -13016,7 +13027,7 @@
 <e lm="èlisèen">         <i>èlisè</i><par n="afriqu/en__adj"/></e>
 <e lm="èloquent">        <i>èloquent</i><par n="asian__adj"/></e>
 <e lm="èlu">             <i>èlu</i><par n="asian__adj"/></e>
-<e lm="èlèctoral" a="alanfavre"><i>èlèctoral</i><par n="asian__adj"/></e>
+<e lm="èlèctoral" a="alanfavre"><i>èlèctor</i><par n="coloss/al__adj"/></e>
 <e lm="èlègant">         <i>èlègant</i><par n="asian__adj"/></e>
 <e lm="èlèmentèro">      <i>èlèmentèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="èmaselâ">         <i>èmasel</i><par n="acharn/â__adj"/></e>
@@ -13892,7 +13903,6 @@
 <e lm="afranchisto">     <i>afranchist</i><par n="anarchist/o__n"/></e>
 <e lm="African">         <i>African</i><par n="asian__n"/></e>
 <e lm="Afriquen">        <i>Afriqu</i><par n="afriqu/en__n"/></e>
-<e lm="afriquen">        <i>afriqu</i><par n="afriqu/en__n"/></e>
 <e lm="afront">          <i>afront</i><par n="abricot__n"/></e>
 <e lm="afrontâ">         <i>afrontâ</i><par n="enfant__n"/></e>
 <e lm="afut">            <i>afut</i><par n="abricot__n"/></e>
@@ -16600,7 +16610,7 @@
 <e lm="drôlo">           <i>drôl</i><par n="anarchist/o__n"/></e>
 <e lm="drôlerie">        <i>drôlerie</i><par n="abayie__n"/></e>
 <e lm="duc">             <i>duc</i><par n="abricot__n"/></e>
-<e lm="duchèssa">        <i>duchèss</i><par n="cultur/a__n"/></e>
+<e lm="duchèssa">        <i>duc</i><par n="h/h·"/><i>èss</i><par n="cultur/a__n"/></e>
 <e lm="ducât" a="hector"><i>ducât</i><par n="abricot__n"/></e>
 <e lm="duely">           <i>duely</i><par n="abricot__n"/></e>
 <e lm="duer">            <i>duer</i><par n="abricot__n"/></e>
@@ -21126,6 +21136,7 @@
 <e lm="râva">            <i>râv</i><par n="cultur/a__n"/></e>
 <e lm="rè">              <i>rè</i><par n="abricot__n"/></e>
 <e lm="règion">          <i>rè</i><par n="g/g·"/><i>ion</i><par n="abayie__n"/></e>
+<e lm="erorègion" a="hector"><i>erorè</i><par n="g/g·"/><i>ion</i><par n="abayie__n"/></e>
 <e lm="règionalisto">    <i>rè</i><par n="g/g·"/><i>ionalist</i><par n="anarchist/o__n"/></e>
 <e lm="règionalismo" a="hector"><i>rè</i><par n="g/g·"/><i>ionalismo</i><par n="abricot__n"/></e>
 <e lm="rèjant">          <i>rè</i><par n="j/j·"/><i>ant</i><par n="asian__n"/></e>
@@ -55189,7 +55200,7 @@
 <e lm="crèdiblo" a="alanfavre">          <i>crèdibl</i><par n="anarchist/o__adj"/></e>
 <e lm="crèmatouèro" a="alanfavre">          <i>crèmatouèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="dètèrmenant" a="alanfavre">          <i>dètèrmenant</i><par n="asian__adj"/></e>
-<e lm="èditoriâl" a="alanfavre">          <i>èditoriâl</i><par n="asian__adj"/></e>
+<e lm="èditorial" a="alanfavre/hector">          <i>èditori</i><par n="coloss/al__adj"/></e>
 <e lm="èficaço" a="alanfavre">          <i>èficaç</i><par n="anarchist/o__adj"/></e>
 <e lm="assolelyê" a="alanfavre">          <i>assolely</i><par n="achichi/ê__adj"/></e>
 <e lm="èpidèmico" a="alanfavre">          <i>èpidèmi</i><par n="asiati/co__adj"/></e>
@@ -55227,7 +55238,7 @@
 <e lm="judicièro" a="alanfavre">          <i>judicièr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="juridico" a="alanfavre">          <i>juridi</i><par n="asiati/co__adj"/></e>
 <e lm="manifèsto" a="alanfavre">          <i>manifèst</i><par n="anarchist/o__adj"/></e>
-<e lm="mèdicâl" a="alanfavre">          <i>mèdicâl</i><par n="asian__adj"/></e>
+<e lm="mèdicâl" a="LoTrèsor">          <i>mèdicâl</i><par n="asian__adj"/></e>
 <e lm="mimètico" a="alanfavre">          <i>mimèti</i><par n="asiati/co__adj"/></e>
 <e lm="numèrico" a="alanfavre">          <i>numèri</i><par n="asiati/co__adj"/></e>
 <e lm="ofensif" a="alanfavre">          <i>ofensi</i><par n="acti/f__adj"/></e>
@@ -55579,17 +55590,17 @@
 <e lm="aèronôtico" a="alanfavre">          <i>aèronôti</i><par n="asiati/co__adj"/></e>
 <e lm="atacor" a="alanfavre">          <i>ataco</i><par n="admirato/r__adj"/></e>
 <e lm="anoncior" a="alanfavre">          <i>anoncio</i><par n="admirato/r__adj"/></e>
-<e lm="architèctural" a="alanfavre">          <i>architèctural</i><par n="asian__adj"/></e>
+<e lm="architèctural" a="alanfavre">          <i>architèctur</i><par n="coloss/al__adj"/></e>
 <e lm="astu" a="alanfavre">          <i>astu</i><par n="asian__adj"/></e>
 <e lm="balistico" a="alanfavre">          <i>balisti</i><par n="asiati/co__adj"/></e>
 <e lm="bruissent" a="alanfavre">          <i>bruissent</i><par n="asian__adj"/></e>
 <e lm="colaboracionisto" a="alanfavre">          <i>colaboracionist</i><par n="anarchist/o__adj"/></e>
 <e lm="complèmentèro" a="alanfavre">          <i>complèmentèr</i><par n="advèrsèr/o__adj"/></e>
 <e lm="conjuent" a="alanfavre">          <i>conjuent</i><par n="asian__adj"/></e>
-<e lm="conjugal" a="alanfavre">          <i>conjugal</i><par n="asian__adj"/></e>
+<e lm="conjugal" a="alanfavre">          <i>conjug</i><par n="coloss/al__adj"/></e>
 <e lm="consensuèl" a="alanfavre">          <i>consensuèl</i><par n="asian__adj"/></e>
 <e lm="consultatif" a="alanfavre">          <i>consultati</i><par n="acti/f__adj"/></e>
-<e lm="dictatorial" a="alanfavre">          <i>dictatorial</i><par n="asian__adj"/></e>
+<e lm="dictatorial" a="alanfavre">          <i>dictatori</i><par n="coloss/al__adj"/></e>
 <e lm="difusior" a="alanfavre">          <i>difusio</i><par n="admirato/r__adj"/></e>
 <e lm="dirigent" a="alanfavre">          <i>dirigent</i><par n="asian__adj"/></e>
 <e lm="de jorn" a="alanfavre">          <i>de<b/>jorn</i><par n="orange__adj"/></e>
@@ -55611,8 +55622,8 @@
 <e lm="de frontiére" a="alanfavre">          <i>de<b/>frontiére</i><par n="orange__adj"/></e>
 <e lm="de govèrnement" a="alanfavre">          <i>de<b/>govèrnement</i><par n="orange__adj"/></e>
 <e lm="harmoniox" a="alanfavre">          <i>harmonio</i><par n="ambicio/x__adj"/></e>
-<e lm="semanal" a="alanfavre">          <i>semanal</i><par n="asian__adj"/></e>
-<e lm="hègzagonal" a="alanfavre">          <i>hègzagonal</i><par n="asian__adj"/></e>
+<e lm="semanal" a="alanfavre">          <i>seman</i><par n="coloss/al__adj"/></e>
+<e lm="hègzagonal" a="alanfavre">          <i>hègzagon</i><par n="coloss/al__adj"/></e>
 <e lm="iconoclasto" a="alanfavre">          <i>iconoclast</i><par n="anarchist/o__adj"/></e>
 <e lm="identifiâblo" a="alanfavre">          <i>identifiâbl</i><par n="anarchist/o__adj"/></e>
 <e lm="identitèro" a="alanfavre">          <i>identitèr</i><par n="advèrsèr/o__adj"/></e>
@@ -55638,7 +55649,7 @@
 <e lm="poètico" a="alanfavre">          <i>poèti</i><par n="asiati/co__adj"/></e>
 <e lm="polinisator" a="alanfavre">          <i>polinisato</i><par n="admirato/r__adj"/></e>
 <e lm="poluor" a="alanfavre">          <i>poluo</i><par n="admirato/r__adj"/></e>
-<e lm="poligonal" a="alanfavre">          <i>poligonal</i><par n="asian__adj"/></e>
+<e lm="poligonal" a="alanfavre">          <i>poligon</i><par n="coloss/al__adj"/></e>
 <e lm="d'aprés" a="alanfavre">          <i>d'aprés</i><par n="borjouès__adj"/></e>
 <e lm="problèmatico" a="alanfavre">          <i>problèmati</i><par n="asiati/co__adj"/></e>
 <e lm="profèssionèl" a="alanfavre">          <i>profèssionèl</i><par n="asian__adj"/></e>
@@ -55647,9 +55658,9 @@
 <e lm="rèstrictif" a="alanfavre">          <i>rèstricti</i><par n="acti/f__adj"/></e>
 <e lm="sodomito" a="alanfavre">          <i>sodomit</i><par n="anarchist/o__adj"/></e>
 <e lm="rafinâ" a="alanfavre">          <i>rafin</i><par n="acharn/â__adj"/></e>
-<e lm="spacial" a="alanfavre">          <i>spacial</i><par n="asian__adj"/></e>
+<e lm="spacial" a="alanfavre">          <i>spaci</i><par n="coloss/al__adj"/></e>
 <e lm="emprèssionent" a="alanfavre">          <i>emprèssionent</i><par n="asian__adj"/></e>
-<e lm="sindical" a="alanfavre">          <i>sindical</i><par n="asian__adj"/></e>
+<e lm="sindical" a="alanfavre">          <i>sindic</i><par n="coloss/al__adj"/></e>
 <e lm="tèorico" a="alanfavre">          <i>tèori</i><par n="asiati/co__adj"/></e>
 <e lm="tèrmico" a="alanfavre">          <i>tèrmi</i><par n="asiati/co__adj"/></e>
 <e lm="voluptox" a="alanfavre">          <i>volupto</i><par n="ambicio/x__adj"/></e>
@@ -55961,11 +55972,11 @@
 <e lm="topografico" a="hector">          <i>topografi</i><par n="asiati/co__adj"/></e>
 <e lm="microscopico" a="hector">          <i>microscopi</i><par n="asiati/co__adj"/></e>
 <e lm="tsaristo" a="hector">          <i>tsarist</i><par n="anarchist/o__adj"/></e>
-<e lm="dèpartemental" a="hector">          <i>dèpartemental</i><par n="asian__adj"/></e>
+<e lm="dèpartemental" a="hector">          <i>dèpartement</i><par n="coloss/al__adj"/></e>
 <e lm="mècanico" a="LoTrèsor">          <i>mècani</i><par n="asiati/co__adj"/></e>
 <e lm="mècanisto" a="LoTrèsor">          <i>mècanist</i><par n="anarchist/o__adj"/></e>
-<e lm="subtropical" a="hector">          <i>subtropical</i><par n="asian__adj"/></e>
-<e lm="semi-tropical" a="hector">          <i>semi-tropical</i><par n="asian__adj"/></e>
+<e lm="subtropical" a="hector">          <i>subtropic</i><par n="coloss/al__adj"/></e>
+<e lm="semi-tropical" a="hector">          <i>semi-tropic</i><par n="coloss/al__adj"/></e>
 <e lm="remarcâbllo" a="stich">          <i>remarcâbll</i><par n="anarchist/o__adj"/></e>
 <e lm="étre arrètâ" a="alanfavre"><i></i><par n="/étre__vblex"/><p><l><b/>arrètâ</l><r><g><b/>arrètâ</g></r></p></e>
 <e lm="étre arrètâs" a="alanfavre"><i></i><par n="/étre__vblex"/><p><l><b/>arrètâs</l><r><g><b/>arrètâs</g></r></p></e>
@@ -56597,6 +56608,66 @@
 <e lm="Paquistan" a="Vouiquipèdia">          <i>Paquistan</i><par n="Iran__np"/></e>
 <e lm="Sri Lanka" a="Vouiquipèdia">          <i>Sri<b/>Lanka</i><par n="Iran__np"/></e>
 <e lm="Tayivan" a="Vouiquipèdia">          <i>Tayivan</i><par n="Iran__np"/></e>
+<e lm="armôria" a="Vouiquipèdia">          <i>armôri</i><par n="cultur/a__n"/></e>
+<e lm="panarpetan" a="Vouiquipèdia">          <i>panarpetan</i><par n="asian__adj"/></e>
+<e lm="panarpitan" a="hector">          <i>panarpitan</i><par n="asian__adj"/></e>
+<e lm="dombisto">          <i>dombist</i><par n="anarchist/o__adj"/></e>
+<e lm="dombistro">          <i>dombistr</i><par n="anarchist/o__adj"/></e>
+<e lm="bugisto">          <i>bugist</i><par n="anarchist/o__adj"/></e>
+<e lm="arpitan">          <i>arpitan</i><par n="asian__adj"/></e>
+<e lm="liyen" a="Vouiquipèdia">          <i>liyen</i><par n="abricot__n"/></e>
+<e lm="galeria" a="Vouiquipèdia">          <i>galeri</i><par n="cultur/a__n"/></e>
+<e lm="sot-prèfèctura" a="hector">          <i>sot-prèfèctur</i><par n="cultur/a__n"/></e>
+<e lm="sot-prèfèt" a="hector">          <i>sot-prèfèt</i><par n="asian__n"/></e>
+<e lm="prèhistouère">          <i>prèhistouère</i><par n="abayie__n"/></e>
+<e lm="arpitan">          <i>arpitan</i><par n="asian__n"/></e>
+<e lm="entitât" a="Vouiquipèdia">          <i>entit</i><par n="activit/ât__n"/></e>
+<e r="LR" lm="blâson" a="Vouiquipèdia" c="use_sub">          <i>blâson</i><par n="abricot__n"/></e>
+<e lm="sud-èst" a="hector">          <i>sud-èst</i><par n="personnel__n"/></e>
+<e lm="sud-ouèst" a="hector">          <i>sud-ouèst</i><par n="personnel__n"/></e>
+<e lm="nord-èst" a="hector">          <i>nord-èst</i><par n="personnel__n"/></e>
+<e lm="nord-ouèst" a="hector">          <i>nord-ouèst</i><par n="personnel__n"/></e>
+<e lm="lengoua d'ôvra" a="vouiquipèdia"><i>lengou</i><par n="cultur/a__n"/><p><l><b/>d'ôvra</l><r><g><b/>d'ôvra</g></r></p></e>
+<e lm="Biôjor" a="Vouiquipèdia">          <i>Biôjor</i><par n="Iran__np"/></e>
+<e lm="Charolês" a="Vouiquipèdia">          <i>Charolês</i><par n="Iran__np"/></e>
+<e lm="Charôl" a="Vouiquipèdia">          <i>Charôl</i><par n="Iran__np"/></e>
+<e lm="Gèx" a="Vouiquipèdia">          <i>Gèx</i><par n="Iran__np"/></e>
+<e lm="Payis de Gèx" a="Vouiquipèdia">          <i>Payis<b/>de<b/>Gèx</i><par n="Iran__np"/></e>
+<e lm="Sôgèt" a="Vouiquipèdia">          <i>Sôgèt</i><par n="Iran__np"/></e>
+<e lm="L'Abayie" a="Vouiquipèdia">          <i>L'Abayie</i><par n="Iran__np"/></e>
+<e lm="Biôjolês" a="Vouiquipèdia">          <i>Biôjolês</i><par n="Iran__np"/></e>
+<e lm="Kiev" a="hector">          <i>Kiev</i><par n="Iran__np"/></e>
+<e lm="Fôcegni">          <i>Fôcegni</i><par n="Iran__np"/></e>
+<e lm="Genevês" a="Vouiquipèdia">          <i>Genevês</i><par n="Iran__np"/></e>
+<e lm="Môrièna">          <i>Môrièna</i><par n="Bulgarie__np"/></e>
+<e lm="Tarentèsa">          <i>Tarentèsa</i><par n="Bulgarie__np"/></e>
+<e lm="Brion">          <i>Brion</i><par n="Iran__np"/></e>
+<e lm="Ustache de Sent-Pierro">          <i>Ustache<b/>de<b/>Sent-Pierro</i><par n="Jian__np"/></e>
+<e lm="Eutèrpa">          <i>Eutèrpa</i><par n="Marie__np"/></e>
+<e lm="Eurialo">          <i>Eurialo</i><par n="Jian__np"/></e>
+<e lm="Euricléa">          <i>Euricléa</i><par n="Marie__np"/></e>
+<e lm="Euriloco">          <i>Euriloco</i><par n="Jian__np"/></e>
+<e lm="Eurimaco">          <i>Eurimaco</i><par n="Jian__np"/></e>
+<e lm="Eroparlement" a="hector">          <i>Eroparlement</i><par n="Linux__np"/></e>
+<e lm="fôcegneran">          <i>fôcegneran</i><par n="asian__adj"/></e>
+<e lm="erocomenisto" a="hector">          <i>erocomenist</i><par n="anarchist/o__adj"/></e>
+<e lm="erofobe" a="hector">          <i>erofobe</i><par n="fadasse__adj"/></e>
+<e lm="erofobo" a="hector">          <i>erofob</i><par n="anarchist/o__adj"/></e>
+<e lm="erocentristo" a="hector">          <i>erocentrist</i><par n="anarchist/o__adj"/></e>
+<e lm="eroparlementèro" a="hector">          <i>eroparlementèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="ducal" a="Vouiquipèdia/hector">          <i>duc</i><par n="coloss/al__adj"/></e>
+<e r="LR" lm="arondissement" a="Vouiquipèdia" c="use_sub"><i>arondissement</i><par n="abricot__n"/></e>
+<e lm="erocomenismo" a="hector">          <i>erocomenismo</i><par n="abricot__n"/></e>
+<e lm="erocomenisto" a="hector">          <i>erocomenist</i><par n="anarchist/o__n"/></e>
+<e lm="erofobo" a="hector">          <i>erofob</i><par n="anarchist/o__n"/></e>
+<e lm="erofobe" a="hector">          <i>erofobe</i><par n="enfant__n"/></e>
+<e lm="erocentrismo" a="hector">          <i>erocentrismo</i><par n="abricot__n"/></e>
+<e lm="erocentristo" a="hector">          <i>erocentrist</i><par n="anarchist/o__n"/></e>
+<e lm="erocracia" a="hector">          <i>erocraci</i><par n="cultur/a__n"/></e>
+<e lm="erocrato" a="hector">          <i>erocrat</i><par n="anarchist/o__n"/></e>
+<e lm="erozona" a="hector">          <i>erozon</i><par n="cultur/a__n"/></e>
+<e lm="erodèputâ" a="hector">          <i>erodèputâ</i><par n="enfant__n"/></e>
+<e lm="eroparlementèro" a="hector">          <i>eroparlementèr</i><par n="advèrsèr/o__n"/></e>
 
 <!--- xxxxx -->
 
