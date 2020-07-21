@@ -326,6 +326,10 @@ SELECT Ref IF (0 ("sè")) (1 Ser + P3) (2 PP) ;			# sè sont disputâ (sic)
 SELECT Ref IF (0 ("sè")) (1 Ser + P3) (2 Adv_PreAdv) (3 PP) ;
 SELECT Prep IF (0 ("en")) (1 Ger) ;				# en jetant
 SELECT Prep IF (0 ("en")) (1 Pro) (2 Ger) ;			# en sè jetant
+
+SELECT Tn IF (-1 Prep) (0 Pro) (1 Verb + Pers) ;
+SELECT Tn IF (-1 Prep) (0 Pro) (1 Pro) (2 Verb + Pers) ;	# permié lor y avêt
+
 SELECT Tn OR Pro IF (0 Pro) (NOT 1 Inf OR Ger) ;		# Louis XIV l’at fêt / VERIFY
 
 # adv / adj
