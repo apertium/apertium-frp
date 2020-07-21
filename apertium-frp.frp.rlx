@@ -147,7 +147,7 @@ LIST Il = "il" ;
 LIST Nos = "nos" ;
 LIST Vos = "vos" ;
 LIST On = "on" ;
-LIST O = "o" ;
+LIST Oprn = "o" ;
 LIST Se = "sè" ;
 
 LIST Que = "que" ;
@@ -504,6 +504,12 @@ SELECT P2 IF (-1 Vos) (0 VPl2);
 SELECT P2 IF (0 VPl2) (0 (META:/-/r)) (1 Vos) ;
 SELECT P2 IF (-2 Vos) (-1 Pro) (0 VPl2);
 SELECT P2 IF (-3 Vos) (-2 Pro) (-1 Pro) (0 VPl2);
+
+REMOVE P3 IF (0 Oprn) (1 Ser) ;						# o est
+REMOVE P3 IF (0 Oprn) (1 Haver) (2 Ser + PP) ;
+REMOVE P3 IF (0 Oprn) (1 Haver) (2 Adv) (3 Ser + PP) ;
+REMOVE P3 IF (0 Oprn) (1 Haver) (2 Adv) (3 Adv) (4 Ser + PP) ;
+SELECT P3 IF (0 Oprn) (1 Verb + P3 + Sg) ;
 
 # temps verbaux
 
