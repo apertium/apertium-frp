@@ -11350,7 +11350,7 @@
 <e lm="enfortunâ">       <i>enfortun</i><par n="acharn/â__adj"/></e>
 <e lm="enfraroge" a="alanfavre"><i>enfraroge</i><par n="fadasse__adj"/></e>
 <e lm="enfâmo">          <i>enfâm</i><par n="anarchist/o__adj"/></e>
-<e lm="enfèrior">        <i>enfèrio</i><par n="admirato/r__adj"/></e>
+<e lm="enfèrior">        <i>enfèrior</i><par n="asian__adj"/></e>
 <e lm="enfèrnâl">        <i>enfèrnâl</i><par n="asian__adj"/></e>
 <e lm="engouo">          <i>engou</i><par n="anarchist/o__adj"/></e>
 <e lm="engrat">          <i>engrat</i><par n="asian__adj"/></e>
@@ -12706,9 +12706,8 @@
 <e lm="supèrbo">         <i>supèrb</i><par n="anarchist/o__adj"/></e>
 <e lm="supèrficièl">     <i>supèrficièl</i><par n="asian__adj"/></e>
 <e lm="supèrflu">        <i>supèrflu</i><par n="asian__adj"/></e>
-<e lm="supèrior">        <i>supèrio</i><par n="admirato/r__adj"/></e>
+<e lm="supèrior">        <i>supèrior</i><par n="asian__adj"/></e>
 <e lm="surgelâ">         <i>surgel</i><par n="acharn/â__adj"/></e>
-<e lm="surprês">         <i>surpr</i><par n="angll/ês__adj"/></e>
 <e lm="surprês">         <i>surprês</i><par n="demês__adj"/></e>
 <e lm="surrèalisto" a="hector"><i>surrèalist</i><par n="anarchist/o__adj"/></e>
 <e lm="survelyent">      <i>survelyent</i><par n="asian__adj"/></e>
@@ -13374,6 +13373,8 @@
 <e lm="giére">           <i>giére</i><par n="avant__adv"/></e>
 <e lm="gota">            <i>gota</i><par n="avant__adv"/></e>
 <e lm="gouéro">          <i>gouéro</i><par n="avant__adv"/></e>
+<e lm="ples gouéro" a="alanfavre"><i>ples<b/>gouéro</i><par n="avant__adv"/></e>
+<e lm="ples jamés" a="alanfavre"><i>ples<b/>jamés</i><par n="avant__adv"/></e>
 <e lm="grant-temps">     <i>grant-temps</i><par n="avant__adv"/></e>
 <e lm="grâvament" a="stich"><i>grâvament</i><par n="avant__adv"/></e>
 <e lm="guêment">         <i>guêment</i><par n="avant__adv"/></e>
@@ -18979,6 +18980,7 @@
 <e lm="mimi">            <i>mimi</i><par n="abricot__n"/></e>
 <e lm="mina">            <i>min</i><par n="cultur/a__n"/></e>
 <e lm="min">             <i>min</i><par n="mês__n"/></e>
+<e lm="min.">             <i>min.</i><par n="mês__n"/></e>
 <e lm="mincior">         <i>mincior</i><par n="abayie__n"/></e>
 <e lm="minerê">          <i>minerê</i><par n="abricot__n"/></e>
 <e lm="minicar">         <i>minicar</i><par n="abricot__n"/></e>
@@ -24026,9 +24028,9 @@
 <e lm="Alejandro">       <i>Alejandro</i><par n="Jian__np"/></e>
 <e lm="Alejo">           <i>Alejo</i><par n="Jian__np"/></e>
 <e lm="Alejo">           <i>Alejo</i><par n="Saussure__np"/></e>
-<e lm="Aleksandrovitch"> <i>Aleksandrovitch</i><par n="Jian__np"/></e>
+<e lm="Alèksandrovitch"> <i>Alèksandrovitch</i><par n="Jian__np"/></e>
 <e lm="Aleksandrs">      <i>Aleksandrs</i><par n="Jian__np"/></e>
-<e lm="Aleksey">         <i>Aleksey</i><par n="Jian__np"/></e>
+<e lm="Alèksèy">         <i>Alèksèy</i><par n="Jian__np"/></e>
 <e lm="Alelf">           <i>Alelf</i><par n="Marie__np"/></e>
 <e lm="Alemagne" a="Vouiquipèdia"><i>Alemagne</i><par n="Bulgarie__np"/></e>
 <e lm="Alemagnes">       <i>Alemagnes</i><par n="Alemagnes__np"/></e>
@@ -37114,7 +37116,7 @@
 <e lm="Korsakov">        <i>Korsakov</i><par n="Saussure__np"/></e>
 <e lm="Korshunova">      <i>Korshunova</i><par n="Saussure__np"/></e>
 <e lm="Korta">           <i>Korta</i><par n="Saussure__np"/></e>
-<e lm="Kortchnoï">       <i>Kortchnoï</i><par n="Saussure__np"/></e>
+<e lm="Kortchnoy">       <i>Kortchnoy</i><par n="Saussure__np"/></e>
 <e lm="Kosatík">         <i>Kosatík</i><par n="Saussure__np"/></e>
 <e lm="Kosovo">          <i>Kosovo</i><par n="Iran__np"/></e>
 <e lm="Kossuth">         <i>Kossuth</i><par n="Saussure__np"/></e>
@@ -47835,7 +47837,7 @@
 <e lm="Tolley">          <i>Tolley</i><par n="Saussure__np"/></e>
 <e lm="Tolosa">          <i>Tolosa</i><par n="Saussure__np"/></e>
 <e lm="Tolotti">         <i>Tolotti</i><par n="Saussure__np"/></e>
-<e lm="Tolstoï">         <i>Tolstoï</i><par n="Saussure__np"/></e>
+<e lm="Tolstoy">         <i>Tolstoy</i><par n="Saussure__np"/></e>
 <e lm="Tom">             <i>Tom</i><par n="Jian__np"/></e>
 <e lm="Toma">            <i>Toma</i><par n="Saussure__np"/></e>
 <e lm="Tomarchio">       <i>Tomarchio</i><par n="Saussure__np"/></e>
@@ -48132,14 +48134,13 @@
 <e lm="Tronti">          <i>Tronti</i><par n="Saussure__np"/></e>
 <e lm="Trotski">         <i>Trotski</i><par n="Saussure__np"/></e>
 <e lm="Trottier">        <i>Trottier</i><par n="Saussure__np"/></e>
-<e lm="Troubetskoï">     <i>Troubetskoï</i><par n="Saussure__np"/></e>
+<e lm="Troubètskoy">     <i>Troubètskoy</i><par n="Saussure__np"/></e>
 <e lm="Trovato">         <i>Trovato</i><par n="Saussure__np"/></e>
 <e lm="Trovão">          <i>Trovão</i><par n="Saussure__np"/></e>
 <e lm="Troya">           <i>Troya</i><par n="Saussure__np"/></e>
 <e lm="Troyano">         <i>Troyano</i><par n="Saussure__np"/></e>
 <e lm="Troyes">          <i>Troyes</i><par n="Bulgarie__np"/></e>
 <e lm="Troïlus">         <i>Troïlus</i><par n="Jian__np"/></e>
-<e lm="Trubetskoi">      <i>Trubetskoi</i><par n="Saussure__np"/></e>
 <e lm="Truchon">         <i>Truchon</i><par n="Saussure__np"/></e>
 <e lm="Trudeau">         <i>Trudeau</i><par n="Saussure__np"/></e>
 <e lm="Trudel">          <i>Trudel</i><par n="Saussure__np"/></e>
@@ -50831,7 +50832,8 @@
 <e lm="loquâl">          <i>l</i><par n="l/oquâl__rel"/></e>
 <e lm="quand">           <i>quand</i><par n="comben__rel"/></e>
 <e lm="quant">           <i>quant</i><par n="comben__rel"/></e>
-<e lm="que">             <i>que</i><par n="que__rel"/></e>
+<e r="LR" lm="que">      <i>que</i><par n="que__rel"/></e>
+<e r="RL" lm="que">      <p><l><a/>que</l><r>que</r></p><par n="que__rel"/></e>
 <e lm="qui">             <i>qui</i><par n="que__rel"/></e>
 <e lm="quin">            <i>quin</i><par n="quint__rel"/></e>
 <e lm="quint">           <i>quint</i><par n="quint__rel"/></e>
@@ -51061,6 +51063,7 @@
 <e lm="aplôdir">         <i>aplôd</i><par n="fen/ir__vblex"/></e>
 <e lm="apondre">         <i>apond</i><par n="apond/re__vblex"/></e>
 <e lm="rompre">          <i>romp</i><par n="apond/re__vblex"/></e>
+<e lm="corrompre">          <i>corromp</i><par n="apond/re__vblex"/></e>
 <e lm="entèrrompre" a="LoTrèsor"><i>entèrromp</i><par n="apond/re__vblex"/></e>
 <e lm="rontre">          <i>ro</i><par n="ro/ntre__vblex"/></e>
 <e lm="dèrontre">        <i>dèro</i><par n="ro/ntre__vblex"/></e>
@@ -54551,7 +54554,8 @@
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
-<e lm="que">             <i>que</i><par n="que__cnjsub"/></e>
+<e r="LR" lm="que">      <i>que</i><par n="que__cnjsub"/></e>
+<e r="RL" lm="que">      <p><l><a/>que</l><r>que</r></p><par n="que__cnjsub"/></e>
 <e lm="doux-três">       <p><l>doux-três</l> <r>doux-três<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
 <!--
 <e r="LR" lm="être a"> <i></i><par n="/étre__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
@@ -55455,7 +55459,7 @@
 <e lm="smartfone" a="alanfavre">          <i>smartfone</i><par n="abricot__n"/></e>
 <e lm="souegnent" a="alanfavre">          <i>souegnent</i><par n="asian__n"/></e>
 <e r="LR" lm="sôverenitât" a="alanfavre" c="use_sub">          <i>sôverenit</i><par n="activit/ât__n"/></e>
-<e lm="soveranitât" a="hector">          <i>sôveranit</i><par n="activit/ât__n"/></e>
+<e lm="soveranitât" a="hector">          <i>soveranit</i><par n="activit/ât__n"/></e>
 <e r="LR" lm="soverenismo" a="alanfavre" c="use_sub">          <i>soverenismo</i><par n="abricot__n"/></e>
 <e lm="soveranismo" a="hector">          <i>soveranismo</i><par n="abricot__n"/></e>
 <e r="LR" lm="soverenisto" a="alanfavre" c="use_sub">          <i>soverenist</i><par n="anarchist/o__n"/></e>
@@ -56795,6 +56799,12 @@
 <e lm="RD">          <i>RD</i><par n="BBC__n"/></e>
 <e lm="ONU">          <i>ONU</i><par n="BBC__n"/></e>
 <e lm="Unesco">          <i>Unesco</i><par n="BBC__n"/></e>
+<e lm="M.">              <i>M.</i><par n="personnel__n"/></e>
+<e lm="MM.">             <i>MM.</i><par n="alentôrns__n"/></e>
+<e lm="Mme">             <i>Mme</i><par n="sêf__n"/></e>
+<e lm="rap" a="hector">          <i>rap</i><par n="abricot__n"/></e>
+<e lm="rapor" a="hector">          <i>rapo</i><par n="admirato/r__n"/></e>
+<e lm="hip-hop" a="hector">          <i>hip-hop</i><par n="mês__n"/></e>
 
 <!--- xxxxx -->
 
