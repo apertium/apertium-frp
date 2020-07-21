@@ -509,6 +509,7 @@ REMOVE P3 IF (0 Oprn) (1 Ser) ;						# o est
 REMOVE P3 IF (0 Oprn) (1 Haver) (2 Ser + PP) ;
 REMOVE P3 IF (0 Oprn) (1 Haver) (2 Adv) (3 Ser + PP) ;
 REMOVE P3 IF (0 Oprn) (1 Haver) (2 Adv) (3 Adv) (4 Ser + PP) ;
+REMOVE P3 IF (-1 Ser) (0 (META:/-/r)) (0 Oprn) ;
 SELECT P3 IF (0 Oprn) (1 Verb + P3 + Sg) ;
 
 # temps verbaux
