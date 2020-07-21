@@ -312,12 +312,12 @@ SELECT Tn IF (0 Tn + Pl1) (1 Pro) (2 Verb + Pl1) ;	# nos lor ens chantâ
 SELECT Tn IF (0 Tn + Pl2) (1 Pro) (2 Verb + Pl2) ;	# vos lor éd chantâ
 SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) ;
 
-REMOVE Tn + Sg1 IF (0 Tn + Sg1) (NOT 1 Verb + Sg1) (NOT -1 Prep) ;
-REMOVE Tn + Sg2 IF (0 Tn + Sg2) (NOT 1 Verb + Sg2) (NOT -1 Prep) ;	# t'é trovâ
-REMOVE Tn + Sg3 IF (0 Tn + Sg3) (NOT 1 Verb + Sg3) (NOT -1 Prep) ;
-REMOVE Tn + Pl1 IF (0 Tn + Pl1) (NOT 1 Verb + Pl1) (NOT -1 Prep) ;
-REMOVE Tn + Pl2 IF (0 Tn + Pl2) (NOT 1 Verb + Pl2) (NOT -1 Prep) ;
-REMOVE Tn + Pl3 IF (0 Tn + Pl3) (NOT 1 Verb + Pl3) (NOT -1 Prep) ;
+REMOVE Tn + Sg1 IF (0 Tn + Sg1) (NOT 1 Verb + Sg1) (NOT -1 Verb + Sg1) (NOT -1 Prep) ;
+REMOVE Tn + Sg2 IF (0 Tn + Sg2) (NOT 1 Verb + Sg2) (NOT -1 Verb + Sg2) (NOT -1 Prep) ;	# t'é trovâ
+REMOVE Tn + Sg3 IF (0 Tn + Sg3) (NOT 1 Verb + Sg3) (NOT -1 Verb + Sg3) (NOT -1 Prep) ;
+REMOVE Tn + Pl1 IF (0 Tn + Pl1) (NOT 1 Verb + Pl1) (NOT -1 Verb + Pl1) (NOT -1 Prep) ;
+REMOVE Tn + Pl2 IF (0 Tn + Pl2) (NOT 1 Verb + Pl2) (NOT -1 Verb + Pl2) (NOT -1 Prep) ;
+REMOVE Tn + Pl3 IF (0 Tn + Pl3) (NOT 1 Verb + Pl3) (NOT -1 Verb + Pl3) (NOT -1 Prep) ;
 
 SELECT Pro IF (-1 Prep) (0 Pro) (1 Inf OR Ger) ;		# por lyé dére
 SELECT Pro IF (-1 Prep) (0 Pro) (1 Pro) (2 Inf OR Ger) ;	# por sè nen fâre
@@ -513,7 +513,8 @@ REMOVE P3 IF (0 Oprn) (1 Ser) ;						# o est
 REMOVE P3 IF (0 Oprn) (1 Haver) (2 Ser + PP) ;
 REMOVE P3 IF (0 Oprn) (1 Haver) (2 Adv) (3 Ser + PP) ;
 REMOVE P3 IF (0 Oprn) (1 Haver) (2 Adv) (3 Adv) (4 Ser + PP) ;
-REMOVE P3 IF (-1 Ser) (0 (META:/-/r)) (0 Oprn) ;
+REMOVE P3 IF (-1 Ser) (-1 (META:/-/r)) (0 Oprn) ;
+SELECT P3 IF (-1 Verb + P3 + Sg) (-1 (META:/-/r)) (0 Oprn) ;		# Y at-o de la place ?
 SELECT P3 IF (0 Oprn) (1 Verb + P3 + Sg) ;
 
 # temps verbaux
