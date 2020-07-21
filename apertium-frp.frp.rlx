@@ -196,6 +196,14 @@ SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
 SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
 
+SELECT Prep IF (0 ("dèrriér")) (1C Prn) ;	# dèrriér lor
+SELECT Prep IF (0 ("dèrriér")) (1 Det + &&GenderNumber) (2 Noun_Adj + &&GenderNumber) ;	# dèrriér lor hotâl
+SELECT Prep IF (0 ("dèrriér")) (1 Det + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber) ;
+
+SELECT Prep IF (0 ("devant")) (1C Prn) (NOT 2 Inf) ;	# devant lor
+SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 Noun_Adj + &&GenderNumber) ;	# devant lor hotâl
+SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber) ;
+
 SELECT ("lui") IF (0 ("il")) (-1C Prep) ;
 
 SELECT N IF (-1 BOS OR Sent OR (lpar)) (0 ("fèna")) (1 CM) ;
