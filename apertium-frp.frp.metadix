@@ -56758,9 +56758,43 @@
 <e lm="romano" a="hector">          <i>romano</i><par n="anti__pref"/></e>
 <e lm="grèco" a="hector">          <i>grèco</i><par n="anti__pref"/></e>
 <e lm="bizantino" a="hector">          <i>bizantino</i><par n="anti__pref"/></e>
-<e lm="hellèno" a="hector">          <i>hellèno</i><par n="anti__pref"/></e>
+<e lm="helèno" a="hector">          <i>helèno</i><par n="anti__pref"/></e>
 <e lm="nigèro" a="hector">          <i>nigèro</i><par n="anti__pref"/></e>
 <e lm="divèrs" a="LoTrèsor">          <i>divèrs</i><par n="borjouès__adj"/></e>
+<e lm="FN">          <i>FN</i><par n="BBVA__n"/></e>
+<e lm="RN">          <i>RN</i><par n="BBVA__n"/></e>
+<e lm="FME">          <i>FME</i><par n="IRPF__n"/></e>
+<e lm="FMI">          <i>FMI</i><par n="IRPF__n"/></e>
+<e lm="FM">          <i>FM</i><par n="BBC__n"/></e>
+<e lm="PCF">          <i>PCF</i><par n="BBVA__n"/></e>
+<e lm="PDF">          <i>PDF</i><par n="IRPF__n"/></e>
+<e lm="PDG">          <i>PDG</i><par n="IRPF__n"/></e>
+<e lm="PS">          <i>PS</i><par n="BBVA__n"/></e>
+<e lm="PSF">          <i>PSF</i><par n="BBVA__n"/></e>
+<e lm="SFIO">          <i>SFIO</i><par n="IRPF__n"/></e>
+<e lm="SFIC">          <i>SFIC</i><par n="IRPF__n"/></e>
+<e lm="MoDem">          <i>MoDem</i><par n="IRPF__n"/></e>
+<e lm="ADN">          <i>ADN</i><par n="BBVA__n"/></e>
+<e lm="ARN">          <i>ARN</i><par n="BBVA__n"/></e>
+<e lm="PEB">          <i>PEB</i><par n="IRPF__n"/></e>
+<e lm="PIB">          <i>PIB</i><par n="IRPF__n"/></e>
+<e lm="UDF">          <i>UDF</i><par n="BBC__n"/></e>
+<e lm="PCI">          <i>PCI</i><par n="BBVA__n"/></e>
+<e lm="PDS">          <i>PDS</i><par n="BBVA__n"/></e>
+<e lm="CD">          <i>CD</i><par n="IRPF__n"/></e>
+<e lm="DVD">          <i>DVD</i><par n="BBVA__n"/></e>
+<e lm="ROM">          <i>ROM</i><par n="BBC__n"/></e>
+<e lm="RAM">          <i>RAM</i><par n="BBC__n"/></e>
+<e lm="CD-ROM">          <i>CD-ROM</i><par n="IRPF__n"/></e>
+<e lm="CEE">          <i>CEE</i><par n="BBC__n"/></e>
+<e lm="UE">          <i>UE</i><par n="BBC__n"/></e>
+<e lm="PSOE">          <i>PSOE</i><par n="BBVA__n"/></e>
+<e lm="UMP">          <i>UMP</i><par n="BBC__n"/></e>
+<e lm="MPF">          <i>MPF</i><par n="IRPF__n"/></e>
+<e lm="RPF">          <i>RPF</i><par n="IRPF__n"/></e>
+<e lm="RD">          <i>RD</i><par n="BBC__n"/></e>
+<e lm="ONU">          <i>ONU</i><par n="BBC__n"/></e>
+<e lm="Unesco">          <i>Unesco</i><par n="BBC__n"/></e>
 
 <!--- xxxxx -->
 
