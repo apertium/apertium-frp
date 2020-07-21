@@ -13124,9 +13124,9 @@
           group adj_symbol
       ****************************** -->
 <e lm="sord-muet">       <p><l>sord-muet</l> <r>sord-muet<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="sord-muet">       <p><l>sorda-mueta</l><r>sord-muet<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="sord-muet">       <p><l>sordes-muetes</l><r>sord-muet<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="sord-muet">       <p><l>sorda-mueta</l><r>sord-muet<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="sord-muet">       <p><l>sords-muets</l><r>sord-muet<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="sord-muet">       <p><l>sordes-muetes</l><r>sord-muet<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR" lm="veré">     <p><l>veréta</l>    <r>veré<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="veré">     <p><l>verétes</l>   <r>veré<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 
@@ -51061,6 +51061,7 @@
 <e lm="aplôdir">         <i>aplôd</i><par n="fen/ir__vblex"/></e>
 <e lm="apondre">         <i>apond</i><par n="apond/re__vblex"/></e>
 <e lm="rompre">          <i>romp</i><par n="apond/re__vblex"/></e>
+<e lm="entèrrompre" a="LoTrèsor"><i>entèrromp</i><par n="apond/re__vblex"/></e>
 <e lm="rontre">          <i>ro</i><par n="ro/ntre__vblex"/></e>
 <e lm="dèrontre">        <i>dèro</i><par n="ro/ntre__vblex"/></e>
 <e lm="apopreyér">       <i>apoprey</i><par n="pay/ér__vblex"/></e>
@@ -56687,6 +56688,79 @@
 <e lm="dialèctica" a="LoTrèsor">          <i>dialècti</i><par n="aritmèti/ca__n"/></e>
 <e lm="libero" a="LoTrèsor">          <i>libero</i><par n="abricot__n"/></e>
 <e lm="libèrismo" a="LoTrèsor">          <i>libèrismo</i><par n="abricot__n"/></e>
+<e lm="NASA">            <i>NASA</i><par n="BBC__n"/></e>
+<e lm="entèrnar" a="LoTrèsor">          <i>entèrn</i><par n="chant/ar__vblex"/></e>
+<e lm="entèrrogatif" a="LoTrèsor">          <i>entèrrogati</i><par n="acti/f__adj"/></e>
+<e lm="entèrcomprenâblo" a="hector">          <i>entèrcomprenâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="entèrnacionalisto" a="LoTrèsor">          <i>entèrnacionalist</i><par n="anarchist/o__adj"/></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâl-socialisto</l> <r>nacionâl-socialisto<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâla-socialista</l><r>nacionâl-socialisto<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâls-socialistos</l><r>nacionâl-socialisto<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâles-socialistes</l><r>sord-socialisto<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâl-socialisto</l> <r>nacionâl-socialisto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâla-socialista</l><r>nacionâl-socialisto<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâls-socialistos</l><r>nacionâl-socialisto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="dèpart" a="stich">          <i>dèpart</i><par n="abricot__n"/></e>
+<e lm="bans" a="LoTrèsor">          <i>bans</i><par n="mês__n"/></e>
+<e lm="entèrdiccion" a="LoTrèsor">          <i>entèrdiccion</i><par n="abayie__n"/></e>
+<e lm="entervalo" a="LoTrèsor">          <i>entervalo</i><par n="abricot__n"/></e>
+<e lm="entreviua" a="LoTrèsor">          <i>entreviu</i><par n="cultur/a__n"/></e>
+<e lm="entèrrogacion" a="LoTrèsor">          <i>entèrrogacion</i><par n="abayie__n"/></e>
+<e lm="entèrrogatouèro" a="LoTrèsor">          <i>entèrrogatouèro</i><par n="abricot__n"/></e>
+<e lm="entèrruptor" a="LoTrèsor">          <i>entèrruptor</i><par n="abricot__n"/></e>
+<e lm="entèrprètacion" a="LoTrèsor">          <i>entèrprètacion</i><par n="abayie__n"/></e>
+<e lm="entèrcomprèhension" a="LoTrèsor">          <i>entèrcomprèhension</i><par n="abayie__n"/></e>
+<e lm="entèrnacionalismo" a="hector">          <i>entèrnacionalismo</i><par n="abricot__n"/></e>
+<e lm="entèrnacionalisto" a="LoTrèsor">          <i>entèrnacionalist</i><par n="anarchist/o__n"/></e>
+<e lm="entèrnacionâla" a="LoTrèsor">          <i>entèrnacionâl</i><par n="cultur/a__n"/></e>
+<e lm="entèrprèto" a="LoTrèsor">          <i>entèrprèt</i><par n="anarchist/o__n"/></e>
+<e lm="entèrmenâbllo" a="LoTrèsor">          <i>entèrmenâbll</i><par n="anarchist/o__adj"/></e>
+<e lm="Walt Disney">          <i>Walt<b/>Disney</i><par n="Jian__np"/></e>
+<e lm="George Lucas">          <i>George<b/>Lucas</i><par n="Jian__np"/></e>
+<e lm="Starbucks">          <i>Starbucks</i><par n="Linux__np"/></e>
+<e lm="Star Wars">          <i>Star<b/>Wars</i><par n="Linux__np"/></e>
+<e lm="Matrix">          <i>Matrix</i><par n="Linux__np"/></e>
+<e lm="Blade Runner">          <i>Blade<b/>Runner</i><par n="Linux__np"/></e>
+<e lm="Walt Disney">          <i>Walt<b/>Disney</i><par n="Wikipedia__np"/></e>
+<e lm="Disney">          <i>Disney</i><par n="Wikipedia__np"/></e>
+<e lm="Walt Disney Company">          <i>Walt<b/>Disney<b/>Company</i><par n="Wikipedia__np"/></e>
+<e lm="SpaceX">          <i>SpaceX</i><par n="Wikipedia__np"/></e>
+<e lm="Deutsche Bank">          <i>Deutsche<b/>Bank</i><par n="Linux__np"/></e>
+<e lm="suisso" a="hector">          <i>suisso</i><par n="anti__pref"/></e>
+<e lm="canado" a="hector">          <i>canado</i><par n="anti__pref"/></e>
+<e lm="judèo" a="hector">          <i>judèo</i><par n="anti__pref"/></e>
+<e lm="africano" a="hector">          <i>africano</i><par n="anti__pref"/></e>
+<e lm="albano" a="hector">          <i>albano</i><par n="anti__pref"/></e>
+<e lm="armèno" a="hector">          <i>armèno</i><par n="anti__pref"/></e>
+<e lm="atlantico" a="hector">          <i>atlantico</i><par n="anti__pref"/></e>
+<e lm="ôstro" a="hector">          <i>ôstro</i><par n="anti__pref"/></e>
+<e lm="basco" a="hector">          <i>basco</i><par n="anti__pref"/></e>
+<e lm="catalano" a="hector">          <i>catalano</i><par n="anti__pref"/></e>
+<e lm="occitano" a="hector">          <i>occitano</i><par n="anti__pref"/></e>
+<e lm="arpetano" a="hector">          <i>arpetano</i><par n="anti__pref"/></e>
+<e lm="arpitano" a="hector">          <i>arpitano</i><par n="anti__pref"/></e>
+<e lm="nord" a="hector">          <i>nord</i><par n="anti__pref"/></e>
+<e lm="sud" a="hector">          <i>sud</i><par n="anti__pref"/></e>
+<e lm="sino" a="hector">          <i>sino</i><par n="anti__pref"/></e>
+<e lm="corèo" a="hector">          <i>corèo</i><par n="anti__pref"/></e>
+<e lm="nipo" a="hector">          <i>nipo</i><par n="anti__pref"/></e>
+<e lm="jordano" a="hector">          <i>jordano</i><par n="anti__pref"/></e>
+<e lm="libano" a="hector">          <i>libano</i><par n="anti__pref"/></e>
+<e lm="siro" a="hector">          <i>siro</i><par n="anti__pref"/></e>
+<e lm="irano" a="hector">          <i>irano</i><par n="anti__pref"/></e>
+<e lm="serbo" a="hector">          <i>serbo</i><par n="anti__pref"/></e>
+<e lm="croato" a="hector">          <i>croato</i><par n="anti__pref"/></e>
+<e lm="irako" a="hector">          <i>irako</i><par n="anti__pref"/></e>
+<e lm="bosno" a="hector">          <i>bosno</i><par n="anti__pref"/></e>
+<e lm="fino" a="hector">          <i>fino</i><par n="anti__pref"/></e>
+<e lm="ibèro" a="hector">          <i>ibèro</i><par n="anti__pref"/></e>
+<e lm="galo" a="hector">          <i>galo</i><par n="anti__pref"/></e>
+<e lm="romano" a="hector">          <i>romano</i><par n="anti__pref"/></e>
+<e lm="grèco" a="hector">          <i>grèco</i><par n="anti__pref"/></e>
+<e lm="bizantino" a="hector">          <i>bizantino</i><par n="anti__pref"/></e>
+<e lm="hellèno" a="hector">          <i>hellèno</i><par n="anti__pref"/></e>
+<e lm="nigèro" a="hector">          <i>nigèro</i><par n="anti__pref"/></e>
+<e lm="divèrs" a="LoTrèsor">          <i>divèrs</i><par n="borjouès__adj"/></e>
 
 <!--- xxxxx -->
 
