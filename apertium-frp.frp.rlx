@@ -320,6 +320,13 @@ SELECT Tn IF (0 Tn + Pl1) (1 Pro) (2 Verb + Pl1) ;	# nos lor ens chantâ
 SELECT Tn IF (0 Tn + Pl2) (1 Pro) (2 Verb + Pl2) ;	# vos lor éd chantâ
 SELECT Tn IF (0 Tn + Pl3) (1 Pro) (2 Verb + Pl3) ;
 
+SELECT Tn + Sg1 IF (0 Tn + Sg1) (1 CM) (-1 CM) ;
+SELECT Tn + Sg2 IF (0 Tn + Sg2) (1 CM) (-1 CM) ;
+SELECT Tn + Sg3 IF (0 Tn + Sg3) (1 CM) (-1 CM) ;
+SELECT Tn + Pl1 IF (0 Tn + Pl1) (1 CM) (-1 CM) ;
+SELECT Tn + Pl2 IF (0 Tn + Pl2) (1 CM) (-1 CM) ;
+SELECT Tn + Pl3 IF (0 Tn + Pl3) (1 CM) (-1 CM) ;
+
 REMOVE Tn + Sg1 IF (0 Tn + Sg1) (NOT 1 Verb + Sg1) (NOT -1 Verb + Sg1) (NOT -1 Prep) ;
 REMOVE Tn + Sg2 IF (0 Tn + Sg2) (NOT 1 Verb + Sg2) (NOT -1 Verb + Sg2) (NOT -1 Prep) ;	# t'é trovâ
 REMOVE Tn + Sg3 IF (0 Tn + Sg3) (NOT 1 Verb + Sg3) (NOT -1 Verb + Sg3) (NOT -1 Prep) ;
