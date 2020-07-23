@@ -347,6 +347,15 @@ SELECT Tn IF (-1 Prep) (0 Pro) (1 Pro) (2 Verb + Pers) ;	# permié lor y avêt
 
 SELECT Tn OR Pro IF (0 Pro) (NOT 1 Inf OR Ger) ;		# Louis XIV l’at fêt / VERIFY
 
+SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nos) ;
+SELECT Tn IF (NOT -1 Noun_Adj) (0 Nos) (1 VPl1);
+SELECT Tn IF (NOT -1 Noun_Adj) (0 Nos) (1 Pro) (2 VPl1);
+SELECT Tn IF (0 Nos) (1 Pro) (2 Pro) (2 VPl1);
+SELECT Tn IF (-1 VPl2) (-1 (META:/-/r)) (0 Vos) ;
+SELECT Tn IF (NOT -1 Noun_Adj) (0 Vos) (1 VPl2);
+SELECT Tn IF (NOT -1 Noun_Adj) (0 Vos) (1 Pro) (2 VPl2);
+SELECT Tn IF (0 Vos) (1 Pro) (2 Pro) (2 VPl2);
+
 # adv / adj
 
 SELECT Adv IF (-1C Verb) (0 A) (1C Det) ;	# amâvont galyârd la guèrra
