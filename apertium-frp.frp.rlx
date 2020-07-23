@@ -116,7 +116,9 @@ LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
 LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
 
 SET CM = (cm) OR (lpar) OR (rpar) OR ("<;>") ;
-LIST Excl = "!" ;
+LIST LPar = lpar ;
+LIST PtExcl = "!" ;
+LIST PtItg = "?" ;
 
 SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
@@ -154,6 +156,8 @@ LIST Se = "sè" ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
 LIST Etre = "étre" ;
+
+LIST Coment = "coment" ;
 
 SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
 
@@ -245,12 +249,15 @@ REMOVE CnjSub IF (-1C CnjCoo) (NOT 1 Tn) ;
 
 # itg / rel, adj, cnjadv
 
-SELECT Itg IF (-1 BOS OR Sent) (0C Itg OR Rel OR A) ;			# Qui ; Quint mâl at-il fêt ?
-SELECT Itg IF (-2 BOS OR Sent) (-1 Prep) (0C Itg OR Rel OR A) ;		# A qui s'adresse
-SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel OR A) ;		## je demando qui
-SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel OR A) ;	## je demando avouéc qui
-SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel OR A) ;	## je demando pas qui
-SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel OR A) ;	## je demando pas avouéc qui
+SELECT Itg IF (-1 BOS OR Sent) (0C Itg OR Rel OR A) ;				# Qui ; Quint mâl at-il fêt ?
+SELECT Itg IF (-2 BOS OR Sent) (-1 LPar) (0C Itg OR Rel OR A) ;			# « Quint mâl at-il fêt ?
+SELECT Itg IF (-2 BOS OR Sent) (-1 Prep) (0C Itg OR Rel OR A) ;			# A qui s'adresse
+SELECT Itg IF (-1 BOS OR Sent) (0 Coment) (1* PtItg BARRIER (":")) ;		# Coment y at-o donc du loly asse-ben ?
+SELECT Itg IF (-2 BOS OR Sent) (-1 LPar) (0 Coment) (1* PtItg BARRIER (":")) ;	# « Coment 
+SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel OR A) ;			# je demando qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel OR A) ;		# je demando avouéc qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel OR A) ;		# je demando pas qui
+SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel OR A) ;	# je demando pas avouéc qui
 
 # adv / postadv
 
@@ -384,22 +391,22 @@ SELECT A IF (-2 Noun_Adj + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") 
 REMOVE A IF (-2 Verb) (-1 Det + &&GenderNumber)  (0 N + &&GenderNumber) (1 Prep OR Rel OR CnjAdv) ;
 
 
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Num) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
+REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
+REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Num) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
 
-REMOVE A OR PP IF (-2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Adv) (2 Adj_PP + &&GenderNumber) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Adv) (2 Adj_PP + &&GenderNumber) ;
 
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 SELECT N IF (-1C Prep OR BOS) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 Ord) (NOT 1C N) ;
@@ -528,7 +535,7 @@ SELECT P3 IF (0 Oprn) (1 Verb + P3 + Sg) ;
 
 # temps verbaux
 
-REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* Excl) ;
+REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* PtExcl) ;
 SELECT Imper IF (-1 BOS OR Sent OR (lpar)) (0 ("<Va>")) ;
 REMOVE Ind OR Subjunc IF (-1 BOS OR Sent OR (lpar)) (0 Imper) ;		# « Salye de ton payis
 
@@ -539,9 +546,9 @@ REMOVE Imper IF (-1 Ant OR Cog OR unknown) (0 P3) ;
 REMOVE Imper IF (-2 Ant OR Cog OR unknown) (-1 Adv OR Pro) (0 P3) ;
 REMOVE Imper IF (-3 Ant OR Cog OR unknown) (-2 Adv) (-1 Pro) (0 P3) ;
 
-SELECT Imper IF (-1 BOS) (1 Excl) ;
-#SELECT Imper IF (-2 BOS) (-1 Ne) (1 Adv OR Rien) (2 Excl) ;
-#SELECT Imper IF (-3 BOS) (-2 Ne) (-1 Pro) (1 Adv OR Rien) (2 Excl) ;
+SELECT Imper IF (-1 BOS) (1 PtExcl) ;
+#SELECT Imper IF (-2 BOS) (-1 Ne) (1 Adv OR Rien) (2 PtExcl) ;
+#SELECT Imper IF (-3 BOS) (-2 Ne) (-1 Pro) (1 Adv OR Rien) (2 PtExcl) ;
 
 REMOVE Pers IF (-1C Prep) ;
 
