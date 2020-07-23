@@ -384,8 +384,8 @@ SELECT A IF (-2 Noun_Adj + &&GenderNumber) (-1 ("més") OR ("ples") OR ("peca") 
 REMOVE A IF (-2 Verb) (-1 Det + &&GenderNumber)  (0 N + &&GenderNumber) (1 Prep OR Rel OR CnjAdv) ;
 
 
-REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
+REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -3 ("coment")) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -2 ("coment")) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
