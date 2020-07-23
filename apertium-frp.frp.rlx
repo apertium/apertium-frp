@@ -223,7 +223,8 @@ REMOVE Adv IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 REMOVE N IF (0 ("devant")) (1 Det OR NP OR Prn) ;
 
 SELECT Prn IF (-1 ("de")) (0 ("ren")) ;					# pouer de ren
-SELECT Prn IF (-1 Haver) (0 ("ren")) (1 PP) ;				# Abraham at ren volu avêr
+#SELECT Prn IF (-1 Haver) (0 ("ren")) (1 PP) ;				# Abraham at ren volu avêr
+SELECT Prn IF (0 ("ren")) (1 PP) ;					# il at ren bu et ren megiê
 SELECT Prn IF (-1 Ser + &&Number) (0 ("ren")) (1 PP + &&Number) ;
 SELECT Prn IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("ren")) ;
 
