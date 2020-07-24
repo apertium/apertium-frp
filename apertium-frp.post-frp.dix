@@ -277,6 +277,14 @@
       <e><i>ç</i></e>
     </pardef>
 
+    <pardef n="è_lo">
+      <e><p><l><a/>lo<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>loprn<b/></l><r>è<b/>lo<b/></r></p></e>
+      <e><p><l><a/>la<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>les</l><r>è<b/>les</r></p><par n="caractere_general"/></e>
+    </pardef>
+
     <pardef n="de">
       <e><p><l><b/><a/>los</l><r>es</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>les</l><r>es</r></p><par n="caractere_general"/></e>
@@ -295,6 +303,12 @@
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="caractere_general"/></e>
       <e><p><l><b/></l><r>'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>mè<b/></l><r>e<b/>m</r></p><par n="è_lo"/></e>
+      <e><p><l><b/><a/>mè<b/></l><r>e<b/>m'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>tè<b/></l><r>e<b/>t</r></p><par n="è_lo"/></e>
+      <e><p><l><b/><a/>tè<b/></l><r>e<b/>t'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>sè<b/></l><r>e<b/>s</r></p><par n="è_lo"/></e>
+      <e><p><l><b/><a/>sè<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ma<b/></l><r>e<b/>mon<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ta<b/></l><r>e<b/>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>sa<b/></l><r>e<b/>son<b/></r></p><par n="voyelles"/></e>
@@ -321,22 +335,21 @@
       <e><p><l><b/><a/>le<b/><a/>nôvo<b/></l><r>u<b/>nôf<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>nuevo<b/></l><r>u<b/>nuef<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>de</l><r>a<b/>d</r></p><par n="de"/></e>
+      <e><p><l><b/><a/>mè<b/></l><r>a<b/>m</r></p><par n="è_lo"/></e>
+      <e><p><l><b/><a/>mè<b/></l><r>a<b/>m'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>tè<b/></l><r>a<b/>t</r></p><par n="è_lo"/></e>
+      <e><p><l><b/><a/>tè<b/></l><r>a<b/>t'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>sè<b/></l><r>a<b/>s</r></p><par n="è_lo"/></e>
+      <e><p><l><b/><a/>sè<b/></l><r>a<b/>s'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ma<b/></l><r>a<b/>mon<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ta<b/></l><r>a<b/>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>sa<b/></l><r>a<b/>son<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/></l><r>a<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/></l><r>a<b/></r></p><par n="voyelles"/></e>
+
 <!--
       <e><p><l><b/><a/>se<b/></l><r>a<b/>s'</r></p><par n="voyelles"/></e>
 -->
-    </pardef>
-
-    <pardef n="è_lo">
-      <e><p><l><a/>lo<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>loprn<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>loprn<b/></l><r>è<b/>lo<b/></r></p></e>
-      <e><p><l><a/>la<b/></l><r>è<b/>l'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>les</l><r>è<b/>les</r></p><par n="caractere_general"/></e>
     </pardef>
 
     <pardef n="je">
@@ -405,7 +418,6 @@
       <e><p><l><a/>que<b/><a/>ma<b/></l><r>que<b/>mon<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>que<b/><a/>ta<b/></l><r>que<b/>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>que<b/><a/>sa<b/></l><r>que<b/>son<b/></r></p><par n="voyelles"/></e>
-
 
       <e><p><l><a/>quèque<b/></l><r>quèqu'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>lorsque<b/></l><r>lorsqu'</r></p><par n="voyelles"/></e>
