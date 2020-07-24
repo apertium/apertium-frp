@@ -347,6 +347,8 @@
       <e><p><l><a/>loprn<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>loprn<b/></l><r>e<b/>lo<b/></r></p></e>
       <e><p><l><a/>la<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>ne<b/></l><r>e<b/>n'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>ne<b/></l><r>e<b/>ne<b/></r></p></e>
 <!--      <e><p><l><a/>sè<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e> -->
 <!--
       <e><p><l></l><r>e<b/></r></p><par n="consonnes"/></e>	VERIFY
@@ -381,6 +383,8 @@
       <e><p><l><a/>si<b/>il<b/></l><r>s'il<b/></r></p></e>
       <e><p><l><a/>si<b/>ils<b/></l><r>s'ils<b/></r></p></e>
 -->
+      <e><p><l><a/>ne<b/></l><r>n'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>ne<b/></l><r>ne<b/></r></p></e>
       <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
       <e><p><l><a/>quèque<b/></l><r>quèqu'</r></p><par n="voyelles"/></e>
