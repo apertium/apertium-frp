@@ -1453,6 +1453,7 @@
 
 <pardef n="/il__prn">
   <e>       <p><l>il</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR" a="Vouiquipèdia" c="use_sub"><p><l>ol</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>'l</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>	<!-- Stich conseille ne pas l'utiliser, bien qu'il l'accepte -->
   <e r="LR"><p><l>‘l</l>        <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>	<!-- Stich conseille ne pas l'utiliser, bien qu'il l'accepte -->
   <e r="LR"><p><l>t-il</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -13422,7 +13423,8 @@
 <e lm="nan">             <i>nan</i><par n="avant__adv"/></e>
 <e lm="nan pas">         <i>nan<b/>pas</i><par n="avant__adv"/></e>
 <e lm="nan ples">        <i>nan<b/>ples</i><par n="avant__adv"/></e>
-<e lm="ne">              <i>ne</i><par n="avant__adv"/></e>
+<e r="LR" lm="ne">       <i>ne</i><par n="avant__adv"/></e>
+<e r="RL" lm="ne">       <p><l><a/>ne</l><r>ne</r></p><par n="avant__adv"/></e>
 <e lm="ni-més">          <i>ni-més</i><par n="avant__adv"/></e>
 <e lm="nion luè">        <i>nion<b/>luè</i><par n="avant__adv"/></e>
 <e lm="nion sens">       <i>nion<b/>sens</i><par n="avant__adv"/></e>
@@ -56999,6 +57001,7 @@
 <e lm="missis" a="hector ">          <i>missis</i><par n="sêf__n"/></e>
 <e lm="lady" a="hector ">          <i>lady</i><par n="sêf__n"/></e>
 <e lm="empur" a="stich ">          <i>empur</i><par n="asian__adj"/></e>
+<e lm="grèva">          <i>grèv</i><par n="cultur/a__n"/></e>
 
 <!--- xxxxx -->
 
