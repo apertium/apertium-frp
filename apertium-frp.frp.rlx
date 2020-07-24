@@ -227,6 +227,7 @@ SELECT Prn IF (0 ("ren")) (1 PP) ;					# il at ren bu et ren megiê
 SELECT Prn IF (0 ("ren")) (1 Inf) ;					# sen ren vêre
 SELECT Prn IF (-1 Ser + &&Number) (0 ("ren")) (1 PP + &&Number) ;
 SELECT Prn IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("ren")) ;
+SELECT Prn IF (-2 Verb + Pers) (NOT -1 A OR Det) (0 ("ren")) ;
 
 REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la fin Diô at acutâ lor preyére
 
