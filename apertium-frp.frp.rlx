@@ -178,6 +178,11 @@ SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 A + MascPl) ;
 SELECT ("chamô") IF (0 ("chamôs")) (1 PreAdv OR Adv) (2 A + MascPl) ;
 
+SELECT ("cors") IF (0 ("cor") OR ("cors")) ;
+
+SELECT Masc IF (0 ("cort")) (NOT -1 Fem_strict) (1 ("de")) (2 ("tènis")) ;
+SELECT Fem IF (0 ("cort")) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+
 REMOVE ("mê") IF (0 ("mês")) ;
 
 SELECT A IF (0 ("dèrriér") + &&GenderNumber) (1 N + &&GenderNumber) ;	# dèrriér pouent
@@ -429,7 +434,6 @@ REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&G
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 SELECT N IF (-1C Prep OR BOS) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 Ord) (NOT 1C N) ;
 SELECT N IF (-1C Prep OR BOS) (0C Noun_Adj_PP) (1 EOS) ;
-
 
 # mots individuels (mais après la selection n/adj)
 
