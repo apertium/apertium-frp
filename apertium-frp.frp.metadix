@@ -16011,6 +16011,7 @@
 <e lm="corsèro">         <i>corsèr</i><par n="advèrsèr/o__n"/></e>
 <e lm="corsèt">          <i>corsèt</i><par n="abricot__n"/></e>
 <e lm="cort">            <i>cort</i><par n="abayie__n"/></e>
+<e lm="cort">            <i>cort</i><par n="abricot__n"/></e>
 <e lm="corteliér">       <i>corteliér</i><par n="aventuriér__n"/></e>
 <e lm="cortelyon">       <i>cortelyon</i><par n="abricot__n"/></e>
 <e lm="cortelyâjo">      <i>cortelyâjo</i><par n="abricot__n"/></e>
@@ -19251,7 +19252,7 @@
 <e lm="mècllâ">          <i>mècllâ</i><par n="abricot__n"/></e>
 <e lm="Mèdo">            <i>Mèd</i><par n="anarchist/o__n"/></e>
 <e lm="mèdecina">        <i>mèdecin</i><par n="cultur/a__n"/></e>
-<e lm="mèdecin">         <i>mèdecin</i><par n="asian__n"/></e>
+<e lm="mèdecin">         <i>mèdecin</i><par n="enfant__n"/></e>
 <e lm="mèdiacion" a="alanfavre"><i>mèdiacion</i><par n="abayie__n"/></e>
 <e lm="mèdiator" a="alanfavre"><i>mèdiat</i><par n="act/or__n"/></e>
 <e lm="mèdicament">      <i>mèdicament</i><par n="abricot__n"/></e>
@@ -21925,6 +21926,8 @@
 <e lm="templo">          <i>templo</i><par n="abricot__n"/></e>
 <e lm="tempra">          <i>tempr</i><par n="cultur/a__n"/></e>
 <e lm="temps">           <i>temps</i><par n="mês__n"/></e>
+<e lm="mié-temps" a="alanfavro"><i>mié-temps</i><par n="mês__n"/></e>
+<e lm="mié-temps" a="alanfavro"><i>mié-temps</i><par n="fês__n"/></e>
 <e lm="tempèrament">     <i>tempèrament</i><par n="abricot__n"/></e>
 <e lm="tempèrance">      <i>tempèrance</i><par n="abayie__n"/></e>
 <e lm="tempèratura">     <i>tempèratur</i><par n="cultur/a__n"/></e>
@@ -23251,6 +23254,7 @@
 <e lm="ôrtal">           <i>ôrtal</i><par n="abricot__n"/></e>
 <e lm="ôrèola">          <i>ôrèol</i><par n="cultur/a__n"/></e>
 <e lm="ôs">              <i>ôs</i><par n="mês__n"/></e>
+<e r="RL" lm="ôs">       <i>ôs</i><par n="alentôrns__n"/></e>
 <e lm="Ôstralien">       <i>Ôstrali</i><par n="afriqu/en__n"/></e>
 <e lm="ôstèritât">       <i>ôstèrit</i><par n="activit/ât__n"/></e>
 <e lm="ôtor">            <i>ôt</i><par n="act/or__n"/></e>
@@ -32893,7 +32897,7 @@
 <e lm="Figuerola">       <i>Figuerola</i><par n="Saussure__np"/></e>
 <e lm="Filali">          <i>Filali</i><par n="Saussure__np"/></e>
 <e lm="Filella">         <i>Filella</i><par n="Saussure__np"/></e>
-<e lm="Filemó">          <i>Filemó</i><par n="Jian__np"/></e>
+<e lm="Filémon">          <i>Filémon</i><par n="Jian__np"/></e>
 <e lm="Filho">           <i>Filho</i><par n="Saussure__np"/></e>
 <e lm="Filiatrault">     <i>Filiatrault</i><par n="Saussure__np"/></e>
 <e lm="Filibèrt" a="alanfavre"><i>Filibèrt</i><par n="Jian__np"/></e>
@@ -36847,7 +36851,7 @@
 <e lm="Karpov">          <i>Karpov</i><par n="Saussure__np"/></e>
 <e lm="Karrenbauer">     <i>Karrenbauer</i><par n="Saussure__np"/></e>
 <e lm="Karven">          <i>Karven</i><par n="Saussure__np"/></e>
-<e lm="Karzaï">          <i>Karzaï</i><par n="Saussure__np"/></e>
+<e lm="Karzayi">          <i>Karzayi</i><par n="Saussure__np"/></e>
 <e lm="Kasandra">        <i>Kasandra</i><par n="Marie__np"/></e>
 <e lm="Kasparov">        <i>Kasparov</i><par n="Saussure__np"/></e>
 <e lm="Kassab">          <i>Kassab</i><par n="Saussure__np"/></e>
@@ -40917,7 +40921,7 @@
 <e lm="Morrow">          <i>Morrow</i><par n="Saussure__np"/></e>
 <e lm="Morse">           <i>Morse</i><par n="Saussure__np"/></e>
 <e lm="Morselli">        <i>Morselli</i><par n="Saussure__np"/></e>
-<e lm="Mortadelo">       <i>Mortadelo</i><par n="Jian__np"/></e>
+<e lm="Mortadel">       <i>Mortadel</i><par n="Jian__np"/></e>
 <e lm="Morte">           <i>Morte</i><par n="Saussure__np"/></e>
 <e lm="Mortimer">        <i>Mortimer</i><par n="Saussure__np"/></e>
 <e lm="Morton">          <i>Morton</i><par n="Saussure__np"/></e>
@@ -43814,6 +43818,7 @@
 <e lm="Profumo">         <i>Profumo</i><par n="Saussure__np"/></e>
 <e lm="Proietti">        <i>Proietti</i><par n="Saussure__np"/></e>
 <e lm="Prokofièv">       <i>Prokofièv</i><par n="Saussure__np"/></e>
+<e lm="Dmitrièv">       <i>Dmitrièv</i><par n="Saussure__np"/></e>
 <e lm="Prométhée">       <i>Prométhée</i><par n="Jian__np"/></e>
 <e lm="Pronovost">       <i>Pronovost</i><par n="Saussure__np"/></e>
 <e lm="Properzj">        <i>Properzj</i><par n="Saussure__np"/></e>
@@ -55863,6 +55868,10 @@
 <e lm="sang-mècllâ">   <p><l>sangs-mècllâs</l><r>sang-mècllâ<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e lm="sèctor privâ">   <p><l>sèctor<b/>privâ</l><r>sèctor<b/>privâ<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="sèctor privâ">   <p><l>sèctors<b/>privâs</l><r>sèctor<b/>privâ<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="filme long" a="alanfavro">   <p><l>filme<b/>long</l><r>filme<b/>long<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="filme long" a="alanfavro">   <p><l>filmes<b/>longs</l><r>filme<b/>long<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="filme côrt" a="alanfavro">   <p><l>filme<b/>côrt</l><r>filme<b/>côrt<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="filme côrt" a="alanfavro">   <p><l>filmes<b/>côrts</l><r>filme<b/>côrt<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="iconoclasto" a="alanfavre">          <i>iconoclast</i><par n="anarchist/o__n"/></e>
 <e lm="stèrlina" a="alanfavre">          <i>stèrlin</i><par n="cultur/a__n"/></e>
 <e lm="sodomito" a="alanfavre">          <i>sodomit</i><par n="anarchist/o__n"/></e>
@@ -57002,6 +57011,698 @@
 <e lm="lady" a="hector ">          <i>lady</i><par n="sêf__n"/></e>
 <e lm="empur" a="stich ">          <i>empur</i><par n="asian__adj"/></e>
 <e lm="grèva">          <i>grèv</i><par n="cultur/a__n"/></e>
+<e lm="rebouciér" a="alanfavro"><i>rebou</i><par n="avan/ciér__vblex"/></e>
+<e lm="gouârda-parc" a="alanfavro "><i>gouârda-parc</i><par n="enfant__n"/></e>
+<e lm="guido" a="alanfavro "><i>guid</i><par n="anarchist/o__n"/></e>
+<e lm="benda dèssinâye" a="alanfavro">  <p><l>benda<b/>dèssinâye</l><r>benda<b/>dèssinâye<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="benda dèssinâye" a="alanfavro">  <p><l>bendes<b/>dèssinâyes</l><r>benda<b/>dèssinâye<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="vif-argent">          <i>vif-argent</i><par n="personnel__n"/></e>
+<e lm="bâs-relièf" a="alanfavro "><i>bâs-relièf</i><par n="abricot__n"/></e>
+<e lm="grata-cièl" a="alanfavro "><i>grata-cièl</i><par n="abricot__n"/></e>
+<e lm="kikongo" a="hector"><i>kikongo</i><par n="fadasse__adj"/></e>
+<e lm="kikongo" a="hector"><i>kikongo</i><par n="personnel__n"/></e>
+<e lm="lingala" a="hector"><i>lingala</i><par n="fadasse__adj"/></e>
+<e lm="lingala" a="hector"><i>lingala</i><par n="personnel__n"/></e>
+<e lm="souahili" a="hector"><i>souahili</i><par n="fadasse__adj"/></e>
+<e lm="Souahili" a="hector"><i>Souahili</i><par n="enfant__n"/></e>
+<e lm="afrikâns" a="Vouiquipèdia"><i>afrikâns</i><par n="fadasse__adj"/></e>
+<e lm="afrikâns" a="Vouiquipèdia"><i>afrikâns</i><par n="abricot__n"/></e>
+<e lm="zoulou" a="Vouiquipèdia"><i>zoulou</i><par n="fadasse__adj"/></e>
+<e lm="Zoulou" a="Vouiquipèdia"><i>Zoulou</i><par n="enfant__n"/></e>
+<e lm="xhosa" a="Vouiquipèdia"><i>xhosa</i><par n="fadasse__adj"/></e>
+<e lm="Xhosa" a="Vouiquipèdia"><i>Xhosa</i><par n="enfant__n"/></e>
+<e lm="venda" a="Vouiquipèdia"><i>venda</i><par n="fadasse__adj"/></e>
+<e lm="Venda" a="Vouiquipèdia"><i>Venda</i><par n="enfant__n"/></e>
+<e lm="sothô" a="Vouiquipèdia"><i>sothô</i><par n="fadasse__adj"/></e>
+<e lm="Sothô" a="Vouiquipèdia"><i>Sothô</i><par n="enfant__n"/></e>
+<e lm="tsouana" a="Vouiquipèdia"><i>tsouana</i><par n="fadasse__adj"/></e>
+<e lm="Tsouana" a="Vouiquipèdia"><i>Tsouana</i><par n="enfant__n"/></e>
+<e lm="tsonga" a="Vouiquipèdia"><i>tsonga</i><par n="fadasse__adj"/></e>
+<e lm="Tsonga" a="Vouiquipèdia"><i>Tsonga</i><par n="enfant__n"/></e>
+<e lm="souati" a="hector"><i>souati</i><par n="fadasse__adj"/></e>
+<e lm="souati" a="hector"><i>souati</i><par n="personnel__n"/></e>
+<e lm="sisouati" a="Vouiquipèdia"><i>sisouati</i><par n="fadasse__adj"/></e>
+<e lm="sisouati" a="Vouiquipèdia"><i>sisouati</i><par n="personnel__n"/></e>
+<e lm="ndèbèlè" a="Vouiquipèdia"><i>ndèbèlè</i><par n="fadasse__adj"/></e>
+<e lm="Ndèbèlè" a="Vouiquipèdia"><i>Ndèbèlè</i><par n="enfant__n"/></e>
+<e lm="dedens-les-muralyes" a="Vouiquipèdia"><i>dedens-les-muralyes</i><par n="orange__adj"/></e>
+
+<e lm="yanki" a="hector"><i>yanki</i><par n="fadasse__adj"/></e>
+<e lm="yanki" a="alanfavro"><i>yanki</i><par n="enfant__n"/></e>
+<e lm="aprés-guèrra" a="alanfavro"><i>aprés-guèrra</i><par n="fês__n"/></e>
+<e lm="alâ et retôrn" a="alanfavro"><i>alâ<b/>et<b/>retôrn</i><par n="personnel__n"/></e>
+<e lm="numèro yon" a="alanfavro"><i>numèro<b/>yon</i><par n="personnel__n"/></e>
+<e lm="palès borgês" a="alanfavro"><i>palès<b/>borgês</i><par n="mês__n"/></e>
+<e lm="cort suprèma" a="alanfavro/hector">  <p><l>cort<b/>suprèma</l><r>cort<b/>suprèma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="cort suprèma" a="alanfavro/hector">  <p><l>corts<b/>suprèmes</l><r>cort<b/>suprèma<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="seconda chance" a="alanfavro/hector">  <p><l>seconda<b/>chance</l><r>seconda<b/>chance<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="seconda chance" a="alanfavro/hector">  <p><l>secondes<b/>chances</l><r>seconda<b/>chance<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="compagnie d'ôvra" a="alanfavro"><i>compagnie</i><par n="abayie__n"/><p><l><b/>d'aviacion</l><r><g><b/>d'aviacion</g></r></p></e>
+<e lm="ôtro" a="alanfavro">          <i>ôtr</i><par n="anarchist/o__n"/></e>
+<e lm="classement" a="alanfavro">          <i>classement</i><par n="abricot__n"/></e>
+<e lm="finâla" a="alanfavro">          <i>finâl</i><par n="cultur/a__n"/></e>
+<e lm="homonimia" a="alanfavro">          <i>homonimi</i><par n="cultur/a__n"/></e>
+<e lm="tècnica" a="alanfavro">          <i>tècni</i><par n="aritmèti/ca__n"/></e>
+<e lm="e" a="alanfavro">          <i>e</i><par n="abricot__n"/></e>
+<e lm="studiô" a="alanfavro">          <i>studiô</i><par n="abricot__n"/></e>
+<e lm="F" a="alanfavro">          <i>F</i><par n="abricot__n"/></e>
+<e lm="fèstival" a="alanfavro">          <i>fèstival</i><par n="abricot__n"/></e>
+<e lm="analise" a="alanfavro">          <i>analise</i><par n="abayie__n"/></e>
+<e lm="liêson" a="alanfavro">          <i>liêson</i><par n="abayie__n"/></e>
+<e lm="môdo" a="alanfavro">          <i>môdo</i><par n="abricot__n"/></e>
+<e lm="procèssus" a="alanfavro">          <i>procèssus</i><par n="mês__n"/></e>
+<e lm="format" a="alanfavro">          <i>format</i><par n="abricot__n"/></e>
+<e lm="score" a="alanfavro">          <i>score</i><par n="abricot__n"/></e>
+<e lm="corror" a="alanfavro">          <i>corro</i><par n="admirato/r__n"/></e>
+<e lm="fusion" a="alanfavro">          <i>fusion</i><par n="abayie__n"/></e>
+<e lm="ciclo" a="alanfavro">          <i>ciclo</i><par n="abricot__n"/></e>
+<e lm="tècnologia" a="alanfavro">          <i>tècnologi</i><par n="cultur/a__n"/></e>
+<e lm="principâl" a="alanfavro">          <i>principâl</i><par n="asian__n"/></e>
+<e lm="contèxto" a="alanfavro">          <i>contèxto</i><par n="abricot__n"/></e>
+<e lm="t" a="alanfavro">          <i>t</i><par n="abricot__n"/></e>
+<e lm="spècialisto" a="alanfavro">          <i>spècialist</i><par n="anarchist/o__n"/></e>
+<e lm="nocion" a="alanfavro">          <i>nocion</i><par n="abayie__n"/></e>
+<e lm="fêblo" a="alanfavro">          <i>fêbl</i><par n="anarchist/o__n"/></e>
+<e lm="caractèristica" a="alanfavro">          <i>caractèristi</i><par n="aritmèti/ca__n"/></e>
+<e lm="d" a="alanfavro">          <i>d</i><par n="abricot__n"/></e>
+<e lm="èxtension" a="alanfavro">          <i>èxtension</i><par n="abayie__n"/></e>
+<e lm="aproche" a="alanfavro">          <i>aproche</i><par n="abayie__n"/></e>
+<e lm="tèst" a="alanfavro">          <i>tèst</i><par n="abricot__n"/></e>
+<e lm="flota" a="alanfavro">          <i>flot</i><par n="cultur/a__n"/></e>
+<e lm="organismo" a="alanfavro">          <i>organismo</i><par n="abricot__n"/></e>
+<e lm="titulèro" a="alanfavro">          <i>titulèr</i><par n="advèrsèr/o__n"/></e>
+<e lm="vedèta" a="alanfavro">          <i>vedèt</i><par n="cultur/a__n"/></e>
+<e lm="apèlacion" a="alanfavro">          <i>apèlacion</i><par n="abayie__n"/></e>
+<e lm="scènariô" a="alanfavro">          <i>scènariô</i><par n="abricot__n"/></e>
+<e lm="contre" a="alanfavro">          <i>contre</i><par n="abricot__n"/></e>
+<e lm="dinastia" a="alanfavro">          <i>dinasti</i><par n="cultur/a__n"/></e>
+<e lm="èfort" a="alanfavro">          <i>èfort</i><par n="abricot__n"/></e>
+<e lm="modificacion" a="alanfavro">          <i>modificacion</i><par n="abayie__n"/></e>
+<e lm="concentracion" a="alanfavro">          <i>concentracion</i><par n="abayie__n"/></e>
+<e lm="pâsse" a="alanfavro">          <i>pâsse</i><par n="abayie__n"/></e>
+<e lm="folacherie" a="alanfavro">          <i>folacherie</i><par n="abayie__n"/></e>
+<e lm="solô" a="alanfavro">          <i>solô</i><par n="abricot__n"/></e>
+<e lm="scènaristo" a="alanfavro">          <i>scènarist</i><par n="anarchist/o__n"/></e>
+<e lm="archive" a="alanfavro">          <i>archive</i><par n="abayie__n"/></e>
+<e lm="duô" a="alanfavro">          <i>duô</i><par n="abricot__n"/></e>
+<e lm="arrètâ" a="alanfavro">          <i>arrètâ</i><par n="abricot__n"/></e>
+<e lm="filmâjo" a="alanfavro">          <i>filmâjo</i><par n="abricot__n"/></e>
+<e lm="frapa" a="alanfavro">          <i>frap</i><par n="cultur/a__n"/></e>
+<e lm="dècor" a="alanfavro">          <i>dècor</i><par n="abricot__n"/></e>
+<e lm="ècliptica" a="alanfavro">          <i>èclipti</i><par n="aritmèti/ca__n"/></e>
+<e lm="demi-finâla" a="alanfavro">          <i>demi-finâl</i><par n="cultur/a__n"/></e>
+<e lm="qualificacion" a="alanfavro">          <i>qualificacion</i><par n="abayie__n"/></e>
+<e lm="lancior" a="alanfavro">          <i>lancio</i><par n="admirato/r__n"/></e>
+<e lm="massif" a="alanfavro">          <i>massif</i><par n="abricot__n"/></e>
+<e lm="i" a="alanfavro">          <i>i</i><par n="abricot__n"/></e>
+<e lm="engancement" a="alanfavro">          <i>engancement</i><par n="abricot__n"/></e>
+<e lm="variacion" a="alanfavro">          <i>variacion</i><par n="abayie__n"/></e>
+<e lm="plen" a="alanfavro">          <i>plen</i><par n="abricot__n"/></e>
+<e lm="x" a="alanfavro">          <i>x</i><par n="mês__n"/></e>
+<e lm="èvènament" a="alanfavro">          <i>èvènament</i><par n="abricot__n"/></e>
+<e lm="afluent" a="alanfavro">          <i>afluent</i><par n="abricot__n"/></e>
+<e lm="mèlioracion" a="alanfavro">          <i>mèlioracion</i><par n="abayie__n"/></e>
+<e lm="relièf" a="alanfavro">          <i>relièf</i><par n="abricot__n"/></e>
+<e lm="protèina" a="alanfavro">          <i>protèin</i><par n="cultur/a__n"/></e>
+<e lm="habitat" a="alanfavro">          <i>habitat</i><par n="abricot__n"/></e>
+<e lm="gouârdo" a="alanfavro">          <i>gouârd</i><par n="anarchist/o__n"/></e>
+<e lm="bilan" a="alanfavro">          <i>bilan</i><par n="abricot__n"/></e>
+<e lm="guitaristo" a="alanfavro">          <i>guitarist</i><par n="anarchist/o__n"/></e>
+<e lm="adulto" a="alanfavro">          <i>adult</i><par n="anarchist/o__n"/></e>
+<e lm="constructor" a="alanfavro">          <i>constructor</i><par n="act/or__n"/></e>
+<e lm="passâ" a="alanfavro">          <i>passâ</i><par n="abricot__n"/></e>
+<e lm="clipe" a="alanfavro">          <i>clipe</i><par n="abricot__n"/></e>
+<e lm="chârta" a="alanfavro">          <i>chârt</i><par n="cultur/a__n"/></e>
+<e lm="mentin" a="alanfavro">          <i>mentin</i><par n="abricot__n"/></e>
+<e lm="rèdactor" a="alanfavro">          <i>rèdactor</i><par n="act/or__n"/></e>
+<e lm="fôrt" a="alanfavro">          <i>fôrt</i><par n="abricot__n"/></e>
+<e lm="tubo" a="alanfavro">          <i>tubo</i><par n="abricot__n"/></e>
+<e lm="rèparacion" a="alanfavro">          <i>rèparacion</i><par n="abayie__n"/></e>
+<e lm="dét" a="alanfavro">          <i>dét</i><par n="abricot__n"/></e>
+<e lm="entrênament" a="alanfavro">          <i>entrênament</i><par n="abricot__n"/></e>
+<e lm="maliâjo" a="alanfavro">          <i>maliâjo</i><par n="personnel__n"/></e>
+<e lm="particularitât" a="alanfavro">          <i>particularit</i><par n="activit/ât__n"/></e>
+<e lm="dènominacion" a="alanfavro">          <i>dènominacion</i><par n="abayie__n"/></e>
+<e lm="clan" a="alanfavro">          <i>clan</i><par n="abricot__n"/></e>
+<e lm="èpouèt" a="alanfavro">          <i>èpouèt</i><par n="abricot__n"/></e>
+<e lm="participo" a="alanfavro">          <i>participo</i><par n="abricot__n"/></e>
+<e lm="tèlèfilme" a="alanfavro">          <i>tèlèfilme</i><par n="abricot__n"/></e>
+<e lm="rotacion" a="alanfavro">          <i>rotacion</i><par n="abayie__n"/></e>
+<e lm="opèrator" a="alanfavro">          <i>opèrato</i><par n="admirato/r__n"/></e>
+<e lm="mètrâjo" a="alanfavro">          <i>mètrâjo</i><par n="abricot__n"/></e>
+<e lm="compilacion" a="alanfavro">          <i>compilacion</i><par n="abayie__n"/></e>
+<e lm="siglo" a="alanfavro">          <i>siglo</i><par n="abricot__n"/></e>
+<e lm="partenariat" a="alanfavro">          <i>partenariat</i><par n="abricot__n"/></e>
+<e lm="coalicion" a="alanfavro">          <i>coalicion</i><par n="abayie__n"/></e>
+<e lm="atraccion" a="alanfavro">          <i>atraccion</i><par n="abayie__n"/></e>
+<e lm="tèorèmo" a="alanfavro">          <i>tèorèmo</i><par n="abricot__n"/></e>
+<e lm="multiplo" a="alanfavro">          <i>multiplo</i><par n="abricot__n"/></e>
+<e lm="financement" a="alanfavro">          <i>financement</i><par n="abricot__n"/></e>
+<e lm="consèrvacion" a="alanfavro">          <i>consèrvacion</i><par n="abayie__n"/></e>
+<e lm="coèquipiér" a="alanfavro">          <i>coèquipiér</i><par n="aventuriér__n"/></e>
+<e lm="varianta" a="alanfavro">          <i>variant</i><par n="cultur/a__n"/></e>
+<e lm="juridiccion" a="alanfavro">          <i>juridiccion</i><par n="abayie__n"/></e>
+<e lm="fane" a="alanfavro">          <i>fane</i><par n="enfant__n"/></e>
+<e lm="podion" a="alanfavro">          <i>podion</i><par n="abricot__n"/></e>
+<e lm="finance" a="alanfavro">          <i>finance</i><par n="abayie__n"/></e>
+<e lm="classificacion" a="alanfavro">          <i>classificacion</i><par n="abayie__n"/></e>
+<e lm="carbono" a="alanfavro">          <i>carbono</i><par n="abricot__n"/></e>
+<e lm="prototipo" a="alanfavro">          <i>prototipo</i><par n="abricot__n"/></e>
+<e lm="populèro" a="alanfavro">          <i>populèr</i><par n="advèrsèr/o__n"/></e>
+<e lm="particula" a="alanfavro">          <i>particul</i><par n="cultur/a__n"/></e>
+<e lm="entègracion" a="alanfavro">          <i>entègracion</i><par n="abayie__n"/></e>
+<e lm="configuracion" a="alanfavro">          <i>configuracion</i><par n="abayie__n"/></e>
+<e lm="atmosfèra" a="alanfavro">          <i>atmosfèr</i><par n="cultur/a__n"/></e>
+<e lm="acido" a="alanfavro">          <i>acido</i><par n="abricot__n"/></e>
+<e lm="sèquence" a="alanfavro">          <i>sèquence</i><par n="abayie__n"/></e>
+<e lm="modèrno" a="alanfavro">          <i>modèrn</i><par n="anarchist/o__n"/></e>
+<e lm="empulsion" a="alanfavro">          <i>empulsion</i><par n="abayie__n"/></e>
+<e lm="cratèro" a="alanfavro">          <i>cratèro</i><par n="abricot__n"/></e>
+<e lm="catastrofa" a="alanfavro">          <i>catastrof</i><par n="cultur/a__n"/></e>
+<e lm="prècèdent" a="alanfavro">          <i>prècèdent</i><par n="abricot__n"/></e>
+<e lm="frèsco" a="alanfavro">          <i>frèsco</i><par n="abricot__n"/></e>
+<e lm="preyorâ" a="alanfavro">          <i>preyorâ</i><par n="abricot__n"/></e>
+<e lm="nacionâl" a="alanfavro">          <i>nacionâl</i><par n="asian__n"/></e>
+<e lm="èstima" a="alanfavro">          <i>èstim</i><par n="cultur/a__n"/></e>
+<e lm="navigacion" a="alanfavro">          <i>navigacion</i><par n="abayie__n"/></e>
+<e lm="mitologia" a="alanfavro">          <i>mitologi</i><par n="cultur/a__n"/></e>
+<e lm="algoritmo" a="alanfavro">          <i>algoritmo</i><par n="abricot__n"/></e>
+<e lm="opus" a="alanfavro">          <i>opus</i><par n="mês__n"/></e>
+<e lm="marchant" a="alanfavro">          <i>marchant</i><par n="asian__n"/></e>
+<e lm="entèrdét" a="alanfavro">          <i>entèrdét</i><par n="abricot__n"/></e>
+<e lm="sègment" a="alanfavro">          <i>sègment</i><par n="abricot__n"/></e>
+<e lm="schèmâ" a="alanfavro">          <i>schèmâ</i><par n="abricot__n"/></e>
+<e lm="opcion" a="alanfavro">          <i>opcion</i><par n="abayie__n"/></e>
+<e lm="mangâ" a="alanfavro">          <i>mangâ</i><par n="abricot__n"/></e>
+<e lm="rènovacion" a="alanfavro">          <i>rènovacion</i><par n="abayie__n"/></e>
+<e lm="poste" a="alanfavro">          <i>poste</i><par n="abricot__n"/></e>
+<e lm="devenir" a="alanfavro">          <i>devenir</i><par n="abricot__n"/></e>
+<e lm="crouesior" a="alanfavro">          <i>crouesior</i><par n="abricot__n"/></e>
+<e lm="aliment" a="alanfavro">          <i>aliment</i><par n="abricot__n"/></e>
+<e lm="sufixo" a="alanfavro">          <i>sufixo</i><par n="abricot__n"/></e>
+<e lm="popularitât" a="alanfavro">          <i>popularit</i><par n="activit/ât__n"/></e>
+<e lm="sinonimo" a="alanfavro">          <i>sinonimo</i><par n="abricot__n"/></e>
+<e lm="arquèologo" a="alanfavro">          <i>arquèolog</i><par n="astrolog/o__n"/></e>
+<e lm="entèrface" a="alanfavro">          <i>entèrface</i><par n="abayie__n"/></e>
+<e lm="dèsignacion" a="alanfavro">          <i>dèsignacion</i><par n="abayie__n"/></e>
+<e lm="colaborator" a="alanfavro">          <i>colaborator</i><par n="act/or__n"/></e>
+<e lm="chentre" a="alanfavro">          <i>chentre</i><par n="abayie__n"/></e>
+<e lm="prôpro" a="alanfavro">          <i>prôpro</i><par n="abricot__n"/></e>
+<e lm="entèrnacionâl" a="alanfavro">          <i>entèrnacionâl</i><par n="asian__n"/></e>
+<e lm="firma" a="alanfavro">          <i>firm</i><par n="cultur/a__n"/></e>
+<e lm="composâ" a="alanfavro">          <i>composâ</i><par n="abricot__n"/></e>
+<e lm="stage" a="alanfavro">          <i>stage</i><par n="abricot__n"/></e>
+<e lm="stabilitât" a="alanfavro">          <i>stabilit</i><par n="activit/ât__n"/></e>
+<e lm="châtelèt" a="alanfavro">          <i>châtelèt</i><par n="abricot__n"/></e>
+<e lm="dèmonstracion" a="alanfavro">          <i>dèmonstracion</i><par n="abayie__n"/></e>
+<e lm="radâr" a="alanfavro">          <i>radâr</i><par n="abricot__n"/></e>
+<e lm="profèssionèl" a="alanfavro">          <i>profèssionèl</i><par n="asian__n"/></e>
+<e lm="rèactor" a="alanfavro">          <i>rèactor</i><par n="abricot__n"/></e>
+<e lm="prô" a="alanfavro">          <i>prô</i><par n="abricot__n"/></e>
+<e lm="motô" a="alanfavro">          <i>motô</i><par n="abayie__n"/></e>
+<e lm="èxtraccion" a="alanfavro">          <i>èxtraccion</i><par n="abayie__n"/></e>
+<e lm="dirèct" a="alanfavro">          <i>dirèct</i><par n="asian__n"/></e>
+<e lm="potencièl" a="alanfavro">          <i>potencièl</i><par n="abricot__n"/></e>
+<e lm="oscâr" a="alanfavro">          <i>oscâr</i><par n="abricot__n"/></e>
+<e lm="finalisto" a="alanfavro">          <i>finalist</i><par n="anarchist/o__n"/></e>
+<e lm="lègislatura" a="alanfavro">          <i>lègislatur</i><par n="cultur/a__n"/></e>
+<e lm="cristianismo" a="alanfavro">          <i>cristianismo</i><par n="abricot__n"/></e>
+<e lm="projèccion" a="alanfavro">          <i>projèccion</i><par n="abayie__n"/></e>
+<e lm="holotipo" a="alanfavro">          <i>holotipo</i><par n="abricot__n"/></e>
+<e lm="envôl" a="alanfavro">          <i>envôl</i><par n="abricot__n"/></e>
+<e lm="embochiura" a="alanfavro">          <i>embochiur</i><par n="cultur/a__n"/></e>
+<e lm="embochior" a="alanfavro">          <i>embochior</i><par n="abricot__n"/></e>
+<e lm="cèrèala" a="alanfavro">          <i>cèrèal</i><par n="cultur/a__n"/></e>
+<e lm="mastère" a="alanfavro">          <i>mastère</i><par n="abricot__n"/></e>
+<e lm="entensitât" a="alanfavro">          <i>entensit</i><par n="activit/ât__n"/></e>
+<e lm="coèficient" a="alanfavro">          <i>coèficient</i><par n="abricot__n"/></e>
+<e lm="cinèasto" a="alanfavro">          <i>cinèast</i><par n="anarchist/o__n"/></e>
+<e lm="ôto" a="alanfavro">          <i>ôto</i><par n="abricot__n"/></e>
+<e lm="anfibio" a="alanfavro">          <i>anfibio</i><par n="abricot__n"/></e>
+<e lm="plantacion" a="alanfavro">          <i>plantacion</i><par n="abayie__n"/></e>
+<e lm="ion" a="alanfavro">          <i>ion</i><par n="abricot__n"/></e>
+<e lm="èliminacion" a="alanfavro">          <i>èliminacion</i><par n="abayie__n"/></e>
+<e lm="absida" a="alanfavro">          <i>absid</i><par n="cultur/a__n"/></e>
+<e lm="recrutament" a="alanfavro">          <i>recrutament</i><par n="abricot__n"/></e>
+<e lm="consola" a="alanfavro">          <i>consol</i><par n="cultur/a__n"/></e>
+<e lm="sprinte" a="alanfavro">          <i>sprinte</i><par n="abricot__n"/></e>
+<e lm="rèprèssion" a="alanfavro">          <i>rèprèssion</i><par n="abayie__n"/></e>
+<e lm="idèâl" a="alanfavro">          <i>idèâl</i><par n="abricot__n"/></e>
+<e lm="diagnostico" a="alanfavro">          <i>diagnostico</i><par n="abricot__n"/></e>
+<e lm="c" a="alanfavro">          <i>c</i><par n="sêf__n"/></e>
+<e lm="triô" a="alanfavro">          <i>triô</i><par n="abricot__n"/></e>
+<e lm="rituèl" a="alanfavro">          <i>rituèl</i><par n="abricot__n"/></e>
+<e lm="ârmeries" a="alanfavro">          <i>ârmeries</i><par n="vacances__n"/></e>
+<e lm="tèlèspèctator" a="alanfavro">          <i>tèlèspèctator</i><par n="act/or__n"/></e>
+<e lm="robot" a="alanfavro">          <i>robot</i><par n="abricot__n"/></e>
+<e lm="dèstroyér" a="alanfavro">          <i>dèstroyér</i><par n="abricot__n"/></e>
+<e lm="congrègacion" a="alanfavro">          <i>congrègacion</i><par n="abayie__n"/></e>
+<e lm="aluminion" a="alanfavro">          <i>aluminion</i><par n="abricot__n"/></e>
+<e lm="complèment" a="alanfavro">          <i>complèment</i><par n="abricot__n"/></e>
+<e lm="tèologo" a="alanfavro">          <i>tèolog</i><par n="astrolog/o__n"/></e>
+<e lm="rito" a="alanfavro">          <i>rito</i><par n="abricot__n"/></e>
+<e lm="platafôrma" a="alanfavro">          <i>platafôrm</i><par n="cultur/a__n"/></e>
+<e lm="grafe" a="alanfavro">          <i>grafe</i><par n="abricot__n"/></e>
+<e lm="èquivalent" a="alanfavro">          <i>èquivalent</i><par n="abricot__n"/></e>
+<e lm="cèramica" a="alanfavro">          <i>cèrami</i><par n="aritmèti/ca__n"/></e>
+<e lm="vouèla" a="alanfavro">          <i>vouèl</i><par n="cultur/a__n"/></e>
+<e lm="saquèta" a="alanfavro">          <i>saquèt</i><par n="cultur/a__n"/></e>
+<e lm="pioniér" a="alanfavro">          <i>pioniér</i><par n="aventuriér__n"/></e>
+<e lm="oportunitât" a="alanfavro">          <i>oportunit</i><par n="activit/ât__n"/></e>
+<e lm="icôna" a="alanfavro">          <i>icôn</i><par n="cultur/a__n"/></e>
+<e lm="dèriva" a="alanfavro">          <i>dèriv</i><par n="cultur/a__n"/></e>
+<e lm="coordinacion" a="alanfavro">          <i>coordinacion</i><par n="abayie__n"/></e>
+<e lm="blessiê" a="alanfavro">          <i>blessiê</i><par n="associyê__n"/></e>
+<e lm="bagne" a="alanfavro">          <i>bagne</i><par n="abayie__n"/></e>
+<e lm="bactèria" a="alanfavro">          <i>bactèri</i><par n="cultur/a__n"/></e>
+<e lm="turbina" a="alanfavro">          <i>turbin</i><par n="cultur/a__n"/></e>
+<e lm="tèlècomunicacion" a="alanfavro">          <i>tèlècomunicacion</i><par n="abayie__n"/></e>
+<e lm="scolaritât" a="alanfavro">          <i>scolarit</i><par n="activit/ât__n"/></e>
+<e lm="pastor" a="alanfavro">          <i>pastor</i><par n="abricot__n"/></e>
+<e lm="palmarès" a="alanfavro">          <i>palmarès</i><par n="mês__n"/></e>
+<e lm="nèerlandês" a="alanfavro">          <i>nèerland</i><par n="angll/ês__n"/></e>
+<e lm="flora" a="alanfavro">          <i>flor</i><par n="cultur/a__n"/></e>
+<e lm="survivent" a="alanfavro">          <i>survivent</i><par n="asian__n"/></e>
+<e lm="sot-division" a="alanfavro">          <i>sot-division</i><par n="abayie__n"/></e>
+<e lm="ré" a="alanfavro">          <i>ré</i><par n="abricot__n"/></e>
+<e lm="frègata" a="alanfavro">          <i>frègat</i><par n="cultur/a__n"/></e>
+<e lm="èfondrament" a="alanfavro">          <i>èfondrament</i><par n="abricot__n"/></e>
+<e lm="carburant" a="alanfavro">          <i>carburant</i><par n="abricot__n"/></e>
+<e lm="bite" a="alanfavro">          <i>bite</i><par n="abricot__n"/></e>
+<e lm="vouèlo" a="alanfavro">          <i>vouèlo</i><par n="abricot__n"/></e>
+<e lm="sot-famelye" a="alanfavro">          <i>sot-famelye</i><par n="abayie__n"/></e>
+<e lm="sot-èspèce" a="alanfavro">          <i>sot-èspèce</i><par n="abayie__n"/></e>
+<e lm="sagâ" a="alanfavro">          <i>sagâ</i><par n="abayie__n"/></e>
+<e lm="èxcèlence" a="alanfavro">          <i>èxcèlence</i><par n="abayie__n"/></e>
+<e lm="corporacion" a="alanfavro">          <i>corporacion</i><par n="abayie__n"/></e>
+<e lm="administrator" a="alanfavro">          <i>administrator</i><par n="act/or__n"/></e>
+<e lm="rimma" a="alanfavro">          <i>rimm</i><par n="cultur/a__n"/></e>
+<e lm="miniatura" a="alanfavro">          <i>miniatur</i><par n="cultur/a__n"/></e>
+<e lm="mèrcatica" a="alanfavro">          <i>mèrcati</i><par n="aritmèti/ca__n"/></e>
+<e lm="èvacuacion" a="alanfavro">          <i>èvacuacion</i><par n="abayie__n"/></e>
+<e lm="coordonâ" a="alanfavro">          <i>coordonâ</i><par n="abayie__n"/></e>
+<e lm="composanta" a="alanfavro">          <i>composant</i><par n="cultur/a__n"/></e>
+<e lm="acompagnement" a="alanfavro">          <i>acompagnement</i><par n="abricot__n"/></e>
+<e lm="survia" a="alanfavro">          <i>survi</i><par n="cultur/a__n"/></e>
+<e lm="ocupant" a="alanfavro">          <i>ocupant</i><par n="asian__n"/></e>
+<e lm="magazino" a="alanfavro">          <i>magazino</i><par n="abricot__n"/></e>
+<e lm="juristo" a="alanfavro">          <i>jurist</i><par n="anarchist/o__n"/></e>
+<e lm="entèrcomunalitât" a="alanfavro">          <i>entèrcomunalit</i><par n="activit/ât__n"/></e>
+<e lm="Dr" a="alanfavro">          <i>Dr</i><par n="abricot__n"/></e>
+<e lm="alusion" a="alanfavro">          <i>alusion</i><par n="abayie__n"/></e>
+<e lm="vèctor" a="alanfavro">          <i>vèctor</i><par n="act/or__n"/></e>
+<e lm="transèpt" a="alanfavro">          <i>transèpt</i><par n="abricot__n"/></e>
+<e lm="raprochement" a="alanfavro">          <i>raprochement</i><par n="abricot__n"/></e>
+<e lm="pompa" a="alanfavro">          <i>pomp</i><par n="cultur/a__n"/></e>
+<e lm="èxtrèmo" a="alanfavro">          <i>èxtrèmo</i><par n="abricot__n"/></e>
+<e lm="conèccion" a="alanfavro">          <i>conèccion</i><par n="abayie__n"/></e>
+<e lm="agricultor" a="alanfavro">          <i>agricultor</i><par n="act/or__n"/></e>
+<e lm="chavonament" a="alanfavro">          <i>chavonament</i><par n="abricot__n"/></e>
+<e lm="voyèla" a="alanfavro">          <i>voyèl</i><par n="cultur/a__n"/></e>
+<e lm="siuvu" a="alanfavro">          <i>siuvu</i><par n="abricot__n"/></e>
+<e lm="redècopâjo" a="alanfavro">          <i>redècopâjo</i><par n="abricot__n"/></e>
+<e lm="optica" a="alanfavro">          <i>opti</i><par n="aritmèti/ca__n"/></e>
+<e lm="ogiva" a="alanfavro">          <i>ogiv</i><par n="cultur/a__n"/></e>
+<e lm="faccion" a="alanfavro">          <i>faccion</i><par n="abayie__n"/></e>
+<e lm="cabina" a="alanfavro">          <i>cabin</i><par n="cultur/a__n"/></e>
+<e lm="urbanismo" a="alanfavro">          <i>urbanismo</i><par n="abricot__n"/></e>
+<e lm="sotenor" a="alanfavro">          <i>soteno</i><par n="admirato/r__n"/></e>
+<e lm="slalome" a="alanfavro">          <i>slalome</i><par n="abricot__n"/></e>
+<e lm="rèvolucionèro" a="alanfavro">          <i>rèvolucionèr</i><par n="advèrsèr/o__n"/></e>
+<e lm="revendicacion" a="alanfavro">          <i>revendicacion</i><par n="abayie__n"/></e>
+<e lm="entèrrupcion" a="alanfavro">          <i>entèrrupcion</i><par n="abayie__n"/></e>
+<e lm="ilèt" a="alanfavro">          <i>ilèt</i><par n="abricot__n"/></e>
+<e lm="hèlice" a="alanfavro">          <i>hèlice</i><par n="abayie__n"/></e>
+<e lm="fonccionalitât" a="alanfavro">          <i>fonccionalit</i><par n="activit/ât__n"/></e>
+<e lm="èxtinccion" a="alanfavro">          <i>èxtinccion</i><par n="abayie__n"/></e>
+<e lm="èxpulsion" a="alanfavro">          <i>èxpulsion</i><par n="abayie__n"/></e>
+<e lm="ètnia" a="alanfavro">          <i>ètni</i><par n="cultur/a__n"/></e>
+<e lm="dècopâjo" a="alanfavro">          <i>dècopâjo</i><par n="abricot__n"/></e>
+<e lm="busto" a="alanfavro">          <i>busto</i><par n="abricot__n"/></e>
+<e lm="véprenâ" a="alanfavro">          <i>véprenâ</i><par n="abayie__n"/></e>
+<e lm="blond" a="alanfavro">          <i>blond</i><par n="asian__n"/></e>
+<e lm="alegnement" a="alanfavro">          <i>alegnement</i><par n="abricot__n"/></e>
+<e lm="traccion" a="alanfavro">          <i>traccion</i><par n="abayie__n"/></e>
+<e lm="sociologo" a="alanfavro">          <i>sociolog</i><par n="astrolog/o__n"/></e>
+<e lm="ortografia" a="alanfavro">          <i>ortografi</i><par n="cultur/a__n"/></e>
+<e lm="règisto" a="alanfavro">          <i>règist</i><par n="anarchist/o__n"/></e>
+<e lm="forfêt" a="alanfavro">          <i>forfêt</i><par n="abricot__n"/></e>
+<e lm="èstuèro" a="alanfavro">          <i>èstuèro</i><par n="abricot__n"/></e>
+<e lm="enlèvament" a="alanfavro">          <i>enlèvament</i><par n="abricot__n"/></e>
+<e lm="consomator" a="alanfavro">          <i>consomator</i><par n="act/or__n"/></e>
+<e lm="boudismo" a="alanfavro">          <i>boudismo</i><par n="abricot__n"/></e>
+<e lm="barèmo" a="alanfavro">          <i>barèmo</i><par n="abricot__n"/></e>
+<e lm="matèmaticien" a="alanfavro">          <i>matèmatici</i><par n="afriqu/en__n"/></e>
+<e lm="envitâ" a="alanfavro">          <i>envitâ</i><par n="enfant__n"/></e>
+<e lm="enjèccion" a="alanfavro">          <i>enjèccion</i><par n="abayie__n"/></e>
+<e lm="dèsavantâjo" a="alanfavro">          <i>dèsavantâjo</i><par n="abricot__n"/></e>
+<e lm="guètô" a="alanfavro">          <i>guètô</i><par n="abricot__n"/></e>
+<e lm="dôsa" a="alanfavro">          <i>dôs</i><par n="cultur/a__n"/></e>
+<e lm="compromês" a="alanfavro">          <i>compromês</i><par n="mês__n"/></e>
+<e lm="compagne" a="alanfavro">          <i>compagne</i><par n="abayie__n"/></e>
+<e lm="bonus" a="alanfavro">          <i>bonus</i><par n="mês__n"/></e>
+<e lm="blues" a="hector">          <i>blues</i><par n="mês__n"/></e>
+<e lm="acronimo" a="alanfavro">          <i>acronimo</i><par n="abricot__n"/></e>
+<e lm="vielyissement" a="alanfavro">          <i>vielyissement</i><par n="abricot__n"/></e>
+<e lm="soldo" a="alanfavro">          <i>soldo</i><par n="abricot__n"/></e>
+<e lm="reprèsalye" a="alanfavro">          <i>reprèsalye</i><par n="abayie__n"/></e>
+<e lm="rèorganisacion" a="alanfavro">          <i>rèorganisacion</i><par n="abayie__n"/></e>
+<e lm="règia" a="alanfavro">          <i>règi</i><par n="cultur/a__n"/></e>
+<e lm="mentenence" a="alanfavro">          <i>mentenence</i><par n="abayie__n"/></e>
+<e lm="locutor" a="alanfavro">          <i>locutor</i><par n="act/or__n"/></e>
+<e lm="fiscalitât" a="alanfavro">          <i>fiscalit</i><par n="activit/ât__n"/></e>
+<e lm="colâ" a="alanfavro">          <i>colâ</i><par n="abayie__n"/></e>
+<e lm="dinosôro" a="alanfavro">          <i>dinosôro</i><par n="abricot__n"/></e>
+<e lm="diagramo" a="alanfavro">          <i>diagramo</i><par n="abricot__n"/></e>
+<e lm="dècllenchement" a="alanfavro">          <i>dècllenchement</i><par n="abricot__n"/></e>
+<e lm="consona" a="alanfavro">          <i>conson</i><par n="cultur/a__n"/></e>
+<e lm="comandor" a="alanfavro">          <i>comando</i><par n="admirato/r__n"/></e>
+<e lm="colision" a="alanfavro">          <i>colision</i><par n="abayie__n"/></e>
+<e lm="campus" a="alanfavro">          <i>campus</i><par n="mês__n"/></e>
+<e lm="baronia" a="alanfavro">          <i>baroni</i><par n="cultur/a__n"/></e>
+<e lm="ôditor" a="alanfavro">          <i>ôditor</i><par n="act/or__n"/></e>
+<e lm="apartenence" a="alanfavro">          <i>apartenence</i><par n="abayie__n"/></e>
+<e lm="scouare" a="alanfavro">          <i>scouare</i><par n="abricot__n"/></e>
+<e lm="navèta" a="alanfavro">          <i>navèt</i><par n="cultur/a__n"/></e>
+<e lm="ensèrcion" a="alanfavro">          <i>ensèrcion</i><par n="abayie__n"/></e>
+<e lm="hèmisfèro" a="alanfavro">          <i>hèmisfèro</i><par n="abricot__n"/></e>
+<e lm="èrupcion" a="alanfavro">          <i>èrupcion</i><par n="abayie__n"/></e>
+<e lm="encâdrament" a="alanfavro">          <i>encâdrament</i><par n="abricot__n"/></e>
+<e lm="dom" a="alanfavro">          <i>dom</i><par n="abricot__n"/></e>
+<e lm="constanta" a="alanfavro">          <i>constant</i><par n="cultur/a__n"/></e>
+<e lm="comentator" a="alanfavro">          <i>comentator</i><par n="act/or__n"/></e>
+<e lm="botanisto" a="alanfavro">          <i>botanist</i><par n="anarchist/o__n"/></e>
+<e lm="balon" a="alanfavro">          <i>balon</i><par n="abricot__n"/></e>
+<e lm="vocabulèro" a="alanfavro">          <i>vocabulèro</i><par n="abricot__n"/></e>
+<e lm="vice-champion" a="alanfavro">          <i>vice-champion</i><par n="asian__n"/></e>
+<e lm="rubrica" a="alanfavro">          <i>rubri</i><par n="aritmèti/ca__n"/></e>
+<e lm="procèssor" a="alanfavro">          <i>procèssor</i><par n="abricot__n"/></e>
+<e lm="pachâ" a="alanfavro">          <i>pachâ</i><par n="abricot__n"/></e>
+<e lm="nècropola" a="alanfavro">          <i>nècropol</i><par n="cultur/a__n"/></e>
+<e lm="cotemes" a="alanfavro">          <i>cotemes</i><par n="vacances__n"/></e>
+<e lm="lasère" a="alanfavro">          <i>lasère</i><par n="abricot__n"/></e>
+<e lm="engrèdient" a="alanfavro">          <i>engrèdient</i><par n="abricot__n"/></e>
+<e lm="fossilo" a="alanfavro">          <i>fossilo</i><par n="abricot__n"/></e>
+<e lm="èclèsiastico" a="alanfavro">          <i>èclèsiasti</i><par n="asiati/co__n"/></e>
+<e lm="dèltâ" a="alanfavro">          <i>dèltâ</i><par n="abricot__n"/></e>
+<e lm="semblence" a="alanfavro">          <i>semblence</i><par n="abayie__n"/></e>
+<e lm="renfôrcement" a="alanfavro">          <i>renfôrcement</i><par n="abricot__n"/></e>
+<e lm="pèrimètro" a="alanfavro">          <i>pèrimètro</i><par n="abricot__n"/></e>
+<e lm="mobilitât" a="alanfavro">          <i>mobilit</i><par n="activit/ât__n"/></e>
+<e lm="mètinge" a="alanfavro">          <i>mètinge</i><par n="abricot__n"/></e>
+<e lm="ilustrator" a="alanfavro">          <i>ilustrator</i><par n="act/or__n"/></e>
+<e lm="trâlye" a="alanfavro">          <i>trâlye</i><par n="abayie__n"/></e>
+<e lm="ambience" a="alanfavro">          <i>ambience</i><par n="abayie__n"/></e>
+<e lm="algèbra" a="alanfavro">          <i>algèbr</i><par n="cultur/a__n"/></e>
+<e lm="retâblo" a="alanfavro">          <i>retâblo</i><par n="abricot__n"/></e>
+<e lm="platino" a="alanfavro">          <i>platino</i><par n="abricot__n"/></e>
+<e lm="pèrcussion" a="alanfavro">          <i>pèrcussion</i><par n="abayie__n"/></e>
+<e lm="engancior" a="alanfavro">          <i>engancior</i><par n="act/or__n"/></e>
+<e lm="membrana" a="alanfavro">          <i>membran</i><par n="cultur/a__n"/></e>
+<e lm="lèsion" a="alanfavro">          <i>lèsion</i><par n="abayie__n"/></e>
+<e lm="entèrsèccion" a="alanfavro">          <i>entèrsèccion</i><par n="abayie__n"/></e>
+<e lm="hôt" a="alanfavro">          <i>hôt</i><par n="abricot__n"/></e>
+<e lm="hiôt" a="alanfavro">          <i>hiôt</i><par n="abricot__n"/></e>
+<e lm="couerassâ" a="alanfavro">          <i>couerassâ</i><par n="enfant__n"/></e>
+<e lm="confluent" a="alanfavro">          <i>confluent</i><par n="abricot__n"/></e>
+<e lm="comèrcialisacion" a="alanfavro">          <i>comèrcialisacion</i><par n="abayie__n"/></e>
+<e lm="colèccionor" a="alanfavro">          <i>colècciono</i><par n="admirato/r__n"/></e>
+<e lm="urbanisacion" a="alanfavro">          <i>urbanisacion</i><par n="abayie__n"/></e>
+<e lm="tèrminal" a="alanfavro">          <i>tèrminal</i><par n="abricot__n"/></e>
+<e lm="substrat" a="alanfavro">          <i>substrat</i><par n="abricot__n"/></e>
+<e lm="spècificacion" a="alanfavro">          <i>spècificacion</i><par n="abayie__n"/></e>
+<e lm="scripte" a="alanfavro">          <i>scripte</i><par n="enfant__n"/></e>
+<e lm="engègnerie" a="alanfavro">          <i>engègnerie</i><par n="abayie__n"/></e>
+<e lm="émagerie" a="alanfavro">          <i>émagerie</i><par n="abayie__n"/></e>
+<e lm="feche" a="alanfavro">          <i>feche</i><par n="abayie__n"/></e>
+<e lm="dètèrminacion" a="alanfavro">          <i>dètèrminacion</i><par n="abayie__n"/></e>
+<e lm="ôtomato" a="alanfavro">          <i>ôtomat</i><par n="anarchist/o__n"/></e>
+<e lm="agrantissement" a="alanfavro">          <i>agrantissement</i><par n="abricot__n"/></e>
+<e lm="abrèviacion" a="alanfavro">          <i>abrèviacion</i><par n="abayie__n"/></e>
+<e lm="ouèstèrne" a="alanfavro">          <i>ouèstèrne</i><par n="abricot__n"/></e>
+<e lm="spèctro" a="alanfavro">          <i>spèctro</i><par n="abricot__n"/></e>
+<e lm="prèdator" a="alanfavro">          <i>prèdator</i><par n="act/or__n"/></e>
+<e lm="poterie" a="alanfavro">          <i>poterie</i><par n="abayie__n"/></e>
+<e lm="pilotâjo" a="alanfavro">          <i>pilotâjo</i><par n="abricot__n"/></e>
+<e lm="parodia" a="alanfavro">          <i>parodi</i><par n="cultur/a__n"/></e>
+<e lm="obsèrvator" a="alanfavro">          <i>obsèrvator</i><par n="act/or__n"/></e>
+<e lm="mènhir" a="alanfavro">          <i>mènhir</i><par n="abricot__n"/></e>
+<e lm="manipulacion" a="alanfavro">          <i>manipulacion</i><par n="abayie__n"/></e>
+<e lm="enspèccion" a="alanfavro">          <i>enspèccion</i><par n="abayie__n"/></e>
+<e lm="confluence" a="alanfavro">          <i>confluence</i><par n="abayie__n"/></e>
+<e lm="coloracion" a="alanfavro">          <i>coloracion</i><par n="abayie__n"/></e>
+<e lm="captor" a="alanfavro">          <i>captor</i><par n="abricot__n"/></e>
+<e lm="fortrèssa" a="alanfavro">          <i>fortrèss</i><par n="cultur/a__n"/></e>
+<e lm="anèxe" a="alanfavro">          <i>anèxe</i><par n="abayie__n"/></e>
+<e lm="acrèssua" a="alanfavro">          <i>acrèssu</i><par n="cultur/a__n"/></e>
+<e lm="artimbala" a="alanfavro">          <i>artimbal</i><par n="cultur/a__n"/></e>
+<e lm="vicalye" a="alanfavro">          <i>vicalye</i><par n="abayie__n"/></e>
+<e lm="règlâjo" a="alanfavro">          <i>règlâjo</i><par n="abricot__n"/></e>
+<e lm="porcentâjo" a="alanfavro">          <i>porcentâjo</i><par n="abricot__n"/></e>
+<e lm="maraton" a="alanfavro">          <i>maraton</i><par n="abricot__n"/></e>
+<e lm="lèpidoptèro" a="alanfavro">          <i>lèpidoptèro</i><par n="abricot__n"/></e>
+<e lm="bibi" a="alanfavro">          <i>bibi</i><par n="abricot__n"/></e>
+<e lm="enzima" a="alanfavro">          <i>enzim</i><par n="cultur/a__n"/></e>
+<e lm="dèssinor" a="alanfavro">          <i>dèssinor</i><par n="abricot__n"/></e>
+<e lm="cripta" a="alanfavro">          <i>cript</i><par n="cultur/a__n"/></e>
+<e lm="concèptor" a="alanfavro">          <i>concèptor</i><par n="act/or__n"/></e>
+<e lm="anfitéâtro" a="alanfavro">          <i>anfitéâtro</i><par n="abricot__n"/></e>
+<e lm="visibilitât" a="alanfavro">          <i>visibilit</i><par n="activit/ât__n"/></e>
+<e lm="trilogia" a="alanfavro">          <i>trilogi</i><par n="cultur/a__n"/></e>
+<e lm="supèrioritât" a="alanfavro">          <i>supèriorit</i><par n="activit/ât__n"/></e>
+<e lm="stand" a="alanfavro">          <i>stand</i><par n="abricot__n"/></e>
+<e lm="sonoritât" a="alanfavro">          <i>sonorit</i><par n="activit/ât__n"/></e>
+<e lm="sèismo" a="alanfavro">          <i>sèismo</i><par n="abricot__n"/></e>
+<e lm="samouraye" a="alanfavro">          <i>samouraye</i><par n="abricot__n"/></e>
+<e lm="prèdilèccion" a="alanfavro">          <i>prèdilèccion</i><par n="abayie__n"/></e>
+<e lm="oxido" a="alanfavro">          <i>oxido</i><par n="abricot__n"/></e>
+<e lm="nomado" a="alanfavro">          <i>nomad</i><par n="anarchist/o__n"/></e>
+<e lm="judô" a="alanfavro">          <i>judô</i><par n="abricot__n"/></e>
+<e lm="malyajor" a="alanfavro">          <i>malyajo</i><par n="admirato/r__n"/></e>
+<e lm="folclore" a="alanfavro">          <i>folclore</i><par n="abricot__n"/></e>
+<e lm="èvasion" a="alanfavro">          <i>èvasion</i><par n="abayie__n"/></e>
+<e lm="dirèctiva" a="alanfavro">          <i>dirèctiv</i><par n="cultur/a__n"/></e>
+<e lm="dèvelopor" a="alanfavro">          <i>dèvelopo</i><par n="admirato/r__n"/></e>
+<e lm="contemporen" a="alanfavro">          <i>contempor</i><par n="afriqu/en__n"/></e>
+<e lm="comunicâ" a="alanfavro">          <i>comunicâ</i><par n="abricot__n"/></e>
+<e lm="balyâjo" a="alanfavro">          <i>balyâjo</i><par n="abricot__n"/></e>
+<e lm="anomalia" a="alanfavro">          <i>anomali</i><par n="cultur/a__n"/></e>
+<e lm="anatomia" a="alanfavro">          <i>anatomi</i><par n="cultur/a__n"/></e>
+<e lm="votant" a="alanfavro">          <i>votant</i><par n="asian__n"/></e>
+<e lm="spine" a="alanfavro">          <i>spine</i><par n="abricot__n"/></e>
+<e lm="spècificitât" a="alanfavro">          <i>spècificit</i><par n="activit/ât__n"/></e>
+<e lm="sot-afluent" a="alanfavro">          <i>sot-afluent</i><par n="abricot__n"/></e>
+<e lm="schisto" a="alanfavro">          <i>schisto</i><par n="abricot__n"/></e>
+<e lm="pèdagogia" a="alanfavro">          <i>pèdagogi</i><par n="cultur/a__n"/></e>
+<e lm="oxidacion" a="alanfavro">          <i>oxidacion</i><par n="abayie__n"/></e>
+<e lm="musèon" a="alanfavro">          <i>musèon</i><par n="abricot__n"/></e>
+<e lm="menor" a="alanfavro">          <i>meno</i><par n="admirato/r__n"/></e>
+<e lm="lotus" a="alanfavro">          <i>lotus</i><par n="mês__n"/></e>
+<e lm="enstructor" a="alanfavro">          <i>enstructor</i><par n="act/or__n"/></e>
+<e lm="comprèssion" a="alanfavro">          <i>comprèssion</i><par n="abayie__n"/></e>
+<e lm="comèmoracion" a="alanfavro">          <i>comèmoracion</i><par n="abayie__n"/></e>
+<e lm="citadèla" a="alanfavro">          <i>citadèl</i><par n="cultur/a__n"/></e>
+<e lm="bridge" a="alanfavro">          <i>bridge</i><par n="abricot__n"/></e>
+<e lm="atribut" a="alanfavro">          <i>atribut</i><par n="abricot__n"/></e>
+<e lm="antico" a="alanfavro">          <i>anti</i><par n="asiati/co__n"/></e>
+<e lm="vizir" a="alanfavro">          <i>vizir</i><par n="abricot__n"/></e>
+<e lm="torpilyor" a="alanfavro">          <i>torpilyor</i><par n="abricot__n"/></e>
+<e lm="rèhabilitacion" a="alanfavro">          <i>rèhabilitacion</i><par n="abayie__n"/></e>
+<e lm="psiquiatria" a="alanfavro">          <i>psiquiatri</i><par n="cultur/a__n"/></e>
+<e lm="polinomo" a="alanfavro">          <i>polinomo</i><par n="abricot__n"/></e>
+<e lm="gimnastica" a="alanfavro">          <i>gimnasti</i><par n="aritmèti/ca__n"/></e>
+<e lm="maneyor" a="alanfavro">          <i>maneyo</i><par n="admirato/r__n"/></e>
+<e lm="fuselâjo" a="alanfavro">          <i>fuselâjo</i><par n="abricot__n"/></e>
+<e lm="ègal" a="alanfavro">          <i>ègal</i><par n="asian__n"/></e>
+<e lm="distributor" a="alanfavro">          <i>distributor</i><par n="act/or__n"/></e>
+<e lm="diesel" a="alanfavro">          <i>diesel</i><par n="abricot__n"/></e>
+<e lm="cèrtificacion" a="alanfavro">          <i>cèrtificacion</i><par n="abayie__n"/></e>
+<e lm="carayibo" a="alanfavro">          <i>carayib</i><par n="anarchist/o__n"/></e>
+<e lm="ascensor" a="alanfavro">          <i>ascensor</i><par n="abricot__n"/></e>
+<e lm="anâles" a="alanfavro">          <i>anâles</i><par n="vacances__n"/></e>
+<e lm="actuèl" a="alanfavro">          <i>actuèl</i><par n="asian__n"/></e>
+<e lm="vice-amirâl" a="alanfavro">          <i>vice-amirâl</i><par n="abricot__n"/></e>
+<e lm="vampiro" a="alanfavro">          <i>vampiro</i><par n="abricot__n"/></e>
+<e lm="solisto" a="alanfavro">          <i>solist</i><par n="anarchist/o__n"/></e>
+<e lm="chèrife" a="alanfavro">          <i>chèrife</i><par n="abricot__n"/></e>
+<e lm="rèdicion" a="alanfavro">          <i>rèdicion</i><par n="abayie__n"/></e>
+<e lm="reconquéta" a="alanfavro">          <i>reconquét</i><par n="cultur/a__n"/></e>
+<e lm="reforniment" a="alanfavro">          <i>reforniment</i><par n="abricot__n"/></e>
+<e lm="maquis" a="alanfavro">          <i>maquis</i><par n="mês__n"/></e>
+<e lm="émaginacion" a="alanfavro">          <i>émaginacion</i><par n="abayie__n"/></e>
+<e lm="fixo" a="alanfavro">          <i>fixo</i><par n="abricot__n"/></e>
+<e lm="ètica" a="alanfavro">          <i>èti</i><par n="aritmèti/ca__n"/></e>
+<e lm="emmarrâ" a="alanfavro">          <i>emmarrâ</i><par n="abayie__n"/></e>
+<e lm="combustiblo" a="alanfavro">          <i>combustiblo</i><par n="abricot__n"/></e>
+<e lm="banalitât" a="alanfavro">          <i>banalit</i><par n="activit/ât__n"/></e>
+<e lm="carrosserie" a="alanfavro">          <i>carrosserie</i><par n="abayie__n"/></e>
+<e lm="blocus" a="alanfavro">          <i>blocus</i><par n="mês__n"/></e>
+<e lm="altèracion" a="alanfavro">          <i>altèracion</i><par n="abayie__n"/></e>
+<e lm="adèpto" a="alanfavro">          <i>adèpt</i><par n="anarchist/o__n"/></e>
+<e lm="viaduc" a="alanfavro">          <i>viaduc</i><par n="abricot__n"/></e>
+<e lm="triatlon" a="alanfavro">          <i>triatlon</i><par n="abricot__n"/></e>
+<e lm="sinodo" a="alanfavro">          <i>sinodo</i><par n="abricot__n"/></e>
+<e lm="sot-oficiér" a="alanfavro">          <i>sot-oficiér</i><par n="aventuriér__n"/></e>
+<e lm="sècèssion" a="alanfavro">          <i>sècèssion</i><par n="abayie__n"/></e>
+<e lm="sacro" a="alanfavro">          <i>sacro</i><par n="abricot__n"/></e>
+<e lm="refêta" a="alanfavro">          <i>refêt</i><par n="cultur/a__n"/></e>
+<e lm="relativitât" a="alanfavro">          <i>relativit</i><par n="activit/ât__n"/></e>
+<e lm="refrèdissement" a="alanfavro">          <i>refrèdissement</i><par n="abricot__n"/></e>
+<e lm="pronom" a="alanfavro">          <i>pronom</i><par n="abricot__n"/></e>
+<e lm="primèra" a="alanfavro">          <i>primèr</i><par n="cultur/a__n"/></e>
+<e lm="pixèl" a="alanfavro">          <i>pixèl</i><par n="abricot__n"/></e>
+<e lm="pinyin" a="hector">          <i>pinyin</i><par n="personnel__n"/></e>
+<e lm="librèro" a="alanfavro">          <i>librèr</i><par n="advèrsèr/o__n"/></e>
+<e lm="hipodromo" a="alanfavro">          <i>hipodromo</i><par n="abricot__n"/></e>
+<e lm="grâs" a="alanfavro">          <i>grâs</i><par n="mês__n"/></e>
+<e lm="fronton" a="alanfavro">          <i>fronton</i><par n="abricot__n"/></e>
+<e lm="figurant" a="alanfavro">          <i>figurant</i><par n="asian__n"/></e>
+<e lm="fèrmentacion" a="alanfavro">          <i>fèrmentacion</i><par n="abayie__n"/></e>
+<e lm="èxpèrimentacion" a="alanfavro">          <i>èxpèrimentacion</i><par n="abayie__n"/></e>
+<e lm="dére" a="alanfavro">          <i>dére</i><par n="abayie__n"/></e>
+<e lm="dèpleyement" a="alanfavro">          <i>dèpleyement</i><par n="abricot__n"/></e>
+<e lm="datacion" a="alanfavro">          <i>datacion</i><par n="abayie__n"/></e>
+<e lm="convèrgence" a="alanfavro">          <i>convèrgence</i><par n="abayie__n"/></e>
+<e lm="capitulacion" a="alanfavro">          <i>capitulacion</i><par n="abayie__n"/></e>
+<e lm="assise" a="alanfavro">          <i>assise</i><par n="abayie__n"/></e>
+<e lm="âbrelin" a="alanfavro">          <i>âbrelin</i><par n="abricot__n"/></e>
+<e lm="alâ" a="alanfavro">          <i>alâ</i><par n="abricot__n"/></e>
+<e lm="sot-luètenent" a="alanfavro">          <i>sot-luètenent</i><par n="asian__n"/></e>
+<e lm="remontâ" a="alanfavro">          <i>remontâ</i><par n="abayie__n"/></e>
+<e lm="repoyê" a="alanfavro">          <i>repoyê</i><par n="abayie__n"/></e>
+<e lm="grepon" a="alanfavro">          <i>grepon</i><par n="abricot__n"/></e>
+<e lm="raponse" a="alanfavro">          <i>raponse</i><par n="abayie__n"/></e>
+<e lm="patalâ" a="alanfavro">          <i>patalâ</i><par n="abayie__n"/></e>
+<e lm="tarimbola" a="alanfavro">          <i>tarimbol</i><par n="cultur/a__n"/></e>
+<e lm="pèdagogo" a="alanfavro">          <i>pèdagog</i><par n="astrolog/o__n"/></e>
+<e lm="pedâjo" a="alanfavro">          <i>pedâjo</i><par n="abricot__n"/></e>
+<e lm="patronâjo" a="alanfavro">          <i>patronâjo</i><par n="abricot__n"/></e>
+<e lm="palace" a="alanfavro">          <i>palace</i><par n="abricot__n"/></e>
+<e lm="nurono" a="alanfavro">          <i>nurono</i><par n="abricot__n"/></e>
+<e lm="milicien" a="alanfavro">          <i>milici</i><par n="afriqu/en__n"/></e>
+<e lm="maquèta" a="alanfavro">          <i>maquèt</i><par n="cultur/a__n"/></e>
+<e lm="latituda" a="alanfavro">          <i>latitud</i><par n="cultur/a__n"/></e>
+<e lm="iniciator" a="alanfavro">          <i>iniciator</i><par n="act/or__n"/></e>
+<e lm="gènèrator" a="alanfavro">          <i>gènèrator</i><par n="abricot__n"/></e>
+<e lm="branlo" a="alanfavro">          <i>branlo</i><par n="abricot__n"/></e>
+<e lm="èstética" a="alanfavro">          <i>èstéti</i><par n="aritmèti/ca__n"/></e>
+<e lm="culpabilitât" a="alanfavro">          <i>culpabilit</i><par n="activit/ât__n"/></e>
+<e lm="copola" a="alanfavro">          <i>copol</i><par n="cultur/a__n"/></e>
+<e lm="comandô" a="alanfavro">          <i>comandô</i><par n="abricot__n"/></e>
+<e lm="citoyenetât" a="alanfavro">          <i>citoyenet</i><par n="activit/ât__n"/></e>
+<e lm="catalisor" a="alanfavro">          <i>catalisor</i><par n="abricot__n"/></e>
+<e lm="bèy" a="alanfavro">          <i>bèy</i><par n="abricot__n"/></e>
+<e lm="balyif" a="alanfavro">          <i>balyif</i><par n="abricot__n"/></e>
+<e lm="èdo" a="alanfavro">          <i>èd</i><par n="anarchist/o__n"/></e>
+<e lm="amèrindien" a="alanfavro">          <i>amèrindi</i><par n="afriqu/en__n"/></e>
+<e lm="adjèctif" a="alanfavro">          <i>adjèctif</i><par n="abricot__n"/></e>
+<e lm="tèoricien" a="alanfavro">          <i>tèorici</i><par n="afriqu/en__n"/></e>
+<e lm="tèxtura" a="alanfavro">          <i>tèxtur</i><par n="cultur/a__n"/></e>
+<e lm="supèrvision" a="alanfavro">          <i>supèrvision</i><par n="abayie__n"/></e>
+<e lm="sènèchâl" a="alanfavro">          <i>sènèchâl</i><par n="abricot__n"/></e>
+<e lm="prèrogativa" a="alanfavro">          <i>prèrogativ</i><par n="cultur/a__n"/></e>
+<e lm="prèfixo" a="alanfavro">          <i>prèfixo</i><par n="abricot__n"/></e>
+<e lm="lotissement" a="alanfavro">          <i>lotissement</i><par n="abricot__n"/></e>
+<e lm="lètrâ" a="alanfavro">          <i>lètrâ</i><par n="enfant__n"/></e>
+<e lm="hormona" a="alanfavro">          <i>hormon</i><par n="cultur/a__n"/></e>
+<e lm="atache" a="alanfavro">          <i>atache</i><par n="abayie__n"/></e>
+<e lm="facèta" a="alanfavro">          <i>facèt</i><par n="cultur/a__n"/></e>
+<e lm="demi" a="alanfavro">          <i>demi</i><par n="abricot__n"/></e>
+<e lm="cursus" a="alanfavro">          <i>cursus</i><par n="mês__n"/></e>
+<e lm="corègrafo" a="alanfavro">          <i>corègraf</i><par n="anarchist/o__n"/></e>
+<e lm="casinô" a="alanfavro">          <i>casinô</i><par n="abricot__n"/></e>
+<e lm="bron" a="alanfavro">          <i>bron</i><par n="asian__n"/></e>
+<e lm="égoueduc" a="alanfavro">          <i>égoueduc</i><par n="abricot__n"/></e>
+<e lm="afluence" a="alanfavro">          <i>afluence</i><par n="abayie__n"/></e>
+<e lm="vassâl" a="alanfavro">          <i>vassâl</i><par n="asian__n"/></e>
+<e lm="translacion" a="alanfavro">          <i>translacion</i><par n="abayie__n"/></e>
+<e lm="tèmatica" a="alanfavro">          <i>tèmati</i><par n="aritmèti/ca__n"/></e>
+<e lm="sembolica" a="alanfavro">          <i>semboli</i><par n="aritmèti/ca__n"/></e>
+<e lm="stagièro" a="alanfavro">          <i>stagièr</i><par n="advèrsèr/o__n"/></e>
+<e lm="sot-groupo" a="alanfavro">          <i>sot-groupo</i><par n="abricot__n"/></e>
+<e lm="sot-bouesc" a="alanfavro">          <i>sot-bouesc</i><par n="abricot__n"/></e>
+<e lm="sopranô" a="alanfavro">          <i>sopranô</i><par n="abayie__n"/></e>
+<e lm="scènèta" a="alanfavro">          <i>scènèt</i><par n="cultur/a__n"/></e>
+<e lm="rècupèracion" a="alanfavro">          <i>rècupèracion</i><par n="abayie__n"/></e>
+<e lm="protèctorat" a="alanfavro">          <i>protèctorat</i><par n="abricot__n"/></e>
+<e lm="problèmatica" a="alanfavro">          <i>problèmati</i><par n="aritmèti/ca__n"/></e>
+<e lm="prèscripcion" a="alanfavro">          <i>prèscripcion</i><par n="abayie__n"/></e>
+<e lm="prèlèvament" a="alanfavro">          <i>prèlèvament</i><par n="abricot__n"/></e>
+<e lm="pilastro" a="alanfavro">          <i>pilastro</i><par n="abricot__n"/></e>
+<e lm="paradigmo" a="alanfavro">          <i>paradigmo</i><par n="abricot__n"/></e>
+<e lm="nèrvura" a="alanfavro">          <i>nèrvur</i><par n="cultur/a__n"/></e>
+<e lm="longituda" a="alanfavro">          <i>longitud</i><par n="cultur/a__n"/></e>
+<e lm="lôrèat" a="alanfavro">          <i>lôrèat</i><par n="asian__n"/></e>
+<e lm="envèstitura" a="alanfavro">          <i>envèstitur</i><par n="cultur/a__n"/></e>
+<e lm="émaginèro" a="alanfavro">          <i>émaginèro</i><par n="abricot__n"/></e>
+<e lm="gramo" a="alanfavro">          <i>gramo</i><par n="abricot__n"/></e>
+<e lm="govèrnorat" a="alanfavro">          <i>govèrnorat</i><par n="abricot__n"/></e>
+<e lm="formulacion" a="alanfavro">          <i>formulacion</i><par n="abayie__n"/></e>
+<e lm="fluido" a="alanfavro">          <i>fluido</i><par n="abricot__n"/></e>
+<e lm="èscrima" a="alanfavro">          <i>èscrim</i><par n="cultur/a__n"/></e>
+<e lm="dinamismo" a="alanfavro">          <i>dinamismo</i><par n="abricot__n"/></e>
+<e lm="divèrgence" a="alanfavro">          <i>divèrgence</i><par n="abayie__n"/></e>
+<e lm="coloco" a="alanfavro">          <i>coloco</i><par n="abricot__n"/></e>
+<e lm="chârge" a="alanfavro">          <i>chârge</i><par n="abayie__n"/></e>
+<e lm="calcion" a="alanfavro">          <i>calcion</i><par n="abayie__n"/></e>
+<e lm="vinilo" a="alanfavro">          <i>vinilo</i><par n="abricot__n"/></e>
+<e lm="unificacion" a="alanfavro">          <i>unificacion</i><par n="abayie__n"/></e>
+<e lm="transportor" a="alanfavro">          <i>transportor</i><par n="abricot__n"/></e>
+<e lm="spiritualitât" a="alanfavro">          <i>spiritualit</i><par n="activit/ât__n"/></e>
+<e lm="spècialisacion" a="alanfavro">          <i>spècialisacion</i><par n="abayie__n"/></e>
+<e lm="soscripcion" a="alanfavro">          <i>soscripcion</i><par n="abayie__n"/></e>
+<e lm="sèriox" a="alanfavro">          <i>sèriox</i><par n="mês__n"/></e>
+<e lm="sèdiment" a="alanfavro">          <i>sèdiment</i><par n="abricot__n"/></e>
+<e lm="saxofonisto" a="alanfavro">          <i>saxofonist</i><par n="anarchist/o__n"/></e>
+<e lm="sarcofage" a="alanfavro">          <i>sarcofage</i><par n="abricot__n"/></e>
+<e lm="royalisto" a="alanfavro">          <i>royalist</i><par n="anarchist/o__n"/></e>
+<e lm="polimèro" a="alanfavro">          <i>polimèro</i><par n="abricot__n"/></e>
+<e lm="mècèno" a="alanfavro">          <i>mècèn</i><par n="anarchist/o__n"/></e>
+<e lm="jurisprudence" a="alanfavro">          <i>jurisprudence</i><par n="abayie__n"/></e>
+<e lm="nâf" a="alanfavro">          <i>nâf</i><par n="abayie__n"/></e>
+<e lm="modèsto" a="alanfavro">          <i>modèst</i><par n="anarchist/o__n"/></e>
+<e lm="èx" a="alanfavro">          <i>èx</i><par n="ex__n"/></e>
+<e lm="juè vidèo" a="alanfavro"><i>juè</i><par n="abricot__n"/><p><l><b/>vidèo</l><r><g><b/>vidèo</g></r></p></e>
+<e lm="quârt de finâla" a="alanfavro"><i>quârt</i><par n="abricot__n"/><p><l><b/>de<b/>finâla</l><r><g><b/>de<b/>finâla</g></r></p></e>
+<e lm="albon studiô" a="alanfavro"><i>albon</i><par n="abricot__n"/><p><l><b/>studiô</l><r><g><b/>studiô</g></r></p></e>
+<e lm="nom de ploma" a="alanfavro"><i>nom</i><par n="abricot__n"/><p><l><b/>de<b/>ploma</l><r><g><b/>de<b/>ploma</g></r></p></e>
+<e lm="bâsa de donâs" a="alanfavro"><i>bâs</i><par n="cultur/a__n"/><p><l><b/>de<b/>donâs</l><r><g><b/>de<b/>donâs</g></r></p></e>
+<e lm="chèf d'orquèstro" a="alanfavro"><i>chèf</i><par n="abricot__n"/><p><l><b/>d'orquèstro</l><r><g><b/>d'orquèstro</g></r></p></e>
+<e lm="mêson d'èdicion" a="alanfavro"><i>mêson</i><par n="abayie__n"/><p><l><b/>d'èdicion</l><r><g><b/>d'èdicion</g></r></p></e>
+<e lm="sistèmo d'usâjo" a="alanfavro"><i>sistèmo</i><par n="abricot__n"/><p><l><b/>d'usâjo</l><r><g><b/>d'usâjo</g></r></p></e>
+<e lm="centro de formacion" a="alanfavro"><i>centro</i><par n="abricot__n"/><p><l><b/>de<b/>formacion</l><r><g><b/>de<b/>formacion</g></r></p></e>
+<e lm="chifra d'aféres" a="alanfavro"><i>chifr</i><par n="cultur/a__n"/><p><l><b/>d'aféres</l><r><g><b/>d'aféres</g></r></p></e>
+<e lm="chifra d'afâres" a="alanfavro"><i>chifr</i><par n="cultur/a__n"/><p><l><b/>d'afâres</l><r><g><b/>d'afâres</g></r></p></e>
+<e lm="èmission de tèlèvision" a="alanfavro"><i>èmission</i><par n="abayie__n"/><p><l><b/>de<b/>tèlèvision</l><r><g><b/>de<b/>tèlèvision</g></r></p></e>
+<e lm="nom de famelye" a="alanfavro"><i>nom</i><par n="abricot__n"/><p><l><b/>de<b/>famelye</l><r><g><b/>de<b/>famelye</g></r></p></e>
+<e lm="drêt de voto" a="alanfavro"><i>drêt</i><par n="abricot__n"/><p><l><b/>de<b/>voto</l><r><g><b/>de<b/>voto</g></r></p></e>
+<e lm="color de vesâjo" a="alanfavro"><i>color</i><par n="abayie__n"/><p><l><b/>de<b/>vesâjo</l><r><g><b/>de<b/>vesâjo</g></r></p></e>
+<e lm="musica de chambra" a="alanfavro"><i>musi</i><par n="aritmèti/ca__n"/><p><l><b/>de<b/>chambra</l><r><g><b/>de<b/>chambra</g></r></p></e>
+<e lm="chambra de comèrce" a="alanfavro"><i>chambr</i><par n="cultur/a__n"/><p><l><b/>de<b/>comèrce</l><r><g><b/>de<b/>comèrce</g></r></p></e>
+<e lm="comena de campagne" a="alanfavro"><i>comen</i><par n="cultur/a__n"/><p><l><b/>de<b/>campagne</l><r><g><b/>de<b/>campagne</g></r></p></e>
+<e lm="ministro des afâres ètrangiéres" a="alanfavro"><i>ministr</i><par n="anarchist/o__n"/><p><l><b/>des<b/>afâres<b/>ètrangiéres</l><r><g><b/>des<b/>afâres<b/>ètrangiéres</g></r></p></e>
+<e lm="cort d'apèl" a="alanfavro"><i>cort</i><par n="abayie__n"/><p><l><b/>d'apèl</l><r><g><b/>d'apèl</g></r></p></e>
+<e lm="nant de montagne" a="alanfavro"><i>nant</i><par n="abricot__n"/><p><l><b/>de<b/>montagne</l><r><g><b/>de<b/>montagne</g></r></p></e>
+<e lm="juè de barrâjo" a="alanfavro"><i>juè</i><par n="abricot__n"/><p><l><b/>de<b/>barrâjo</l><r><g><b/>de<b/>barrâjo</g></r></p></e>
+<e lm="moyen de transpôrt" a="alanfavro"><i>moyen</i><par n="abricot__n"/><p><l><b/>de<b/>transpôrt</l><r><g><b/>de<b/>transpôrt</g></r></p></e>
+<e lm="nº" a="alanfavro"><i>nº</i><par n="mês__n"/></e>
+<e lm="hipe-hope" a="alanfavro"><i>hipe-hope</i><par n="mês__n"/></e>
+<e lm="rolo-titro" a="alanfavro"><p><l>rolo-titro</l><r>rolo-titro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="rolo-titro" a="alanfavro"><p><l>rolos-titros</l><r>rolo-titro<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="premiér rolo" a="alanfavro"><p><l>premiér<b/>rolo</l><r>premiér<b/>rolo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="premiér rolo" a="alanfavro"><p><l>premiérs<b/>rolos</l><r>premiér<b/>rolo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="bon ami" a="alanfavro"><p><l>bon<b/>ami</l><r>bon<b/>ami<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="bon ami" a="alanfavro"><p><l>bons<b/>amis</l><r>bon<b/>ami<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="ècoulèta" a="alanfavro"><i>ècoulèt</i><par n="cultur/a__n"/></e>
+<e lm="mêsa" a="alanfavro"><i>mês</i><par n="cultur/a__n"/></e>
+<e lm="tremblament" a="alanfavro"><i>tremblament</i><par n="abricot__n"/></e>
+<e lm="mêsa u pouent" a="alanfavro"><i>mês</i><par n="cultur/a__n"/><p><l><b/>u<b/>pouent</l><r><g><b/>u<b/>pouent</g></r></p></e>
+<e lm="mêsa a jorn" a="alanfavro"><i>mês</i><par n="cultur/a__n"/><p><l><b/>a<b/>jorn</l><r><g><b/>a<b/>jorn</g></r></p></e>
+<e lm="tremblament de tèrra" a="alanfavro"><i>tremblament</i><par n="abricot__n"/><p><l><b/>de<b/>tèrra</l><r><g><b/>de<b/>tèrra</g></r></p></e>
+<e lm="grôs-blât" a="alanfavro"><i>grôs-blât</i><par n="abricot__n"/></e>
+<e lm="desot-tèrra" a="alanfavro">          <i>desot-tèrr</i><par n="cultur/a__n"/></e>
+<e lm="quasi-totalitât" a="alanfavro">          <i>quasi-totalit</i><par n="activit/ât__n"/></e>
+<e lm="avant-gouârda" a="alanfavro">          <i>avant-gouârd</i><par n="cultur/a__n"/></e>
 
 <!--- xxxxx -->
 
