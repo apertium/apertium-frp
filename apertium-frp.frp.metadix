@@ -12066,6 +12066,7 @@
 <e lm="nen">             <i>n</i><par n="afriqu/en__adj"/></e>
 <e lm="nacionalisto">    <i>nacionalist</i><par n="anarchist/o__adj"/></e>
 <e lm="nacionâl">        <i>nacionâl</i><par n="asian__adj"/></e>
+<e lm="nacionâl">        <i>nacionâl</i><par n="asian__n"/></e>
 <e lm="nambot">          <i>nambot</i><par n="asian__adj"/></e>
 <e lm="namibien">        <i>namibi</i><par n="afriqu/en__adj"/></e>
 <e lm="nan">             <i>nan</i><par n="asian__adj"/></e>
@@ -56714,7 +56715,7 @@
 <e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâl-socialisto</l> <r>nacionâl-socialisto<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâla-socialista</l><r>nacionâl-socialisto<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâls-socialistos</l><r>nacionâl-socialisto<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâles-socialistes</l><r>sord-socialisto<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâles-socialistes</l><r>nacionâl-socialisto<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâl-socialisto</l> <r>nacionâl-socialisto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâla-socialista</l><r>nacionâl-socialisto<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="nacionâl-socialisto" a="hector">       <p><l>nacionâls-socialistos</l><r>nacionâl-socialisto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -57019,7 +57020,6 @@
 <e lm="mamifèro" a="Vouiquipèdia ">          <i>mamifèro</i><par n="abricot__n"/></e>
 <e lm="rèptile" a="Vouiquipèdia ">          <i>rèptile</i><par n="abricot__n"/></e>
 <e lm="Mr" a="hector ">          <i>Mr</i><par n="personnel__n"/></e>
-<e lm="Ms" a="hector ">          <i>Ms</i><par n="sêf__n"/></e>
 <e lm="Mrs" a="hector ">          <i>Mrs</i><par n="sêf__n"/></e>
 <e lm="miss" a="hector ">          <i>miss</i><par n="sêf__n"/></e>
 <e lm="missis" a="hector ">          <i>missis</i><par n="sêf__n"/></e>
@@ -57040,8 +57040,8 @@
 <e lm="lingala" a="hector"><i>lingala</i><par n="personnel__n"/></e>
 <e lm="souahili" a="hector"><i>souahili</i><par n="fadasse__adj"/></e>
 <e lm="Souahili" a="hector"><i>Souahili</i><par n="enfant__n"/></e>
-<e lm="afrikâns" a="Vouiquipèdia"><i>afrikâns</i><par n="fadasse__adj"/></e>
-<e lm="afrikâns" a="Vouiquipèdia"><i>afrikâns</i><par n="abricot__n"/></e>
+<e lm="afrikâns" a="Vouiquipèdia"><i>afrikâns</i><par n="orange__adj"/></e>
+<e lm="afrikâns" a="Vouiquipèdia"><i>afrikâns</i><par n="personnel__n"/></e>
 <e lm="zoulou" a="Vouiquipèdia"><i>zoulou</i><par n="fadasse__adj"/></e>
 <e lm="Zoulou" a="Vouiquipèdia"><i>Zoulou</i><par n="enfant__n"/></e>
 <e lm="xhosa" a="Vouiquipèdia"><i>xhosa</i><par n="fadasse__adj"/></e>
@@ -57198,7 +57198,6 @@
 <e lm="prècèdent" a="alanfavro">          <i>prècèdent</i><par n="abricot__n"/></e>
 <e lm="frèsco" a="alanfavro">          <i>frèsco</i><par n="abricot__n"/></e>
 <e lm="preyorâ" a="alanfavro">          <i>preyorâ</i><par n="abricot__n"/></e>
-<e lm="nacionâl" a="alanfavro">          <i>nacionâl</i><par n="asian__n"/></e>
 <e lm="èstima" a="alanfavro">          <i>èstim</i><par n="cultur/a__n"/></e>
 <e lm="navigacion" a="alanfavro">          <i>navigacion</i><par n="abayie__n"/></e>
 <e lm="mitologia" a="alanfavro">          <i>mitologi</i><par n="cultur/a__n"/></e>
@@ -57530,7 +57529,7 @@
 <e lm="gimnastica" a="alanfavro">          <i>gimnasti</i><par n="aritmèti/ca__n"/></e>
 <e lm="maneyor" a="alanfavro">          <i>maneyo</i><par n="admirato/r__n"/></e>
 <e lm="fuselâjo" a="alanfavro">          <i>fuselâjo</i><par n="abricot__n"/></e>
-<e lm="ègal" a="alanfavro">          <i>ègal</i><par n="asian__n"/></e>
+<e lm="ègâl" a="alanfavro/hector">          <i>ègâl</i><par n="asian__n"/></e>
 <e lm="distributor" a="alanfavro">          <i>distribut</i><par n="act/or__n"/></e>
 <e lm="diesel" a="alanfavro">          <i>diesel</i><par n="mês__n"/></e>
 <e lm="cèrtificacion" a="alanfavro">          <i>cèrtificacion</i><par n="abayie__n"/></e>
@@ -57742,6 +57741,268 @@
 <e lm="voyvodo" a="hector">          <i>voyvodo</i><par n="abricot__n"/></e>
 <e lm="p.">              <p><l>p.</l>        <r>p.<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e lm="patronimo" a="hector">          <i>patronimo</i><par n="abricot__n"/></e>
+
+<e lm="caractèristico" a="hector">          <i>caractèristi</i><par n="asiati/co__adj"/></e>
+<e lm="ècliptico" a="hector">          <i>èclipti</i><par n="asiati/co__adj"/></e>
+<e lm="idèal" a="hector">          <i>idè</i><par n="coloss/al__adj"/></e>
+<e lm="diagnostico" a="hector">          <i>diagnosti</i><par n="asiati/co__adj"/></e>
+<e lm="cèramico" a="hector">          <i>cèrami</i><par n="asiati/co__adj"/></e>
+<e lm="survivent" a="hector">          <i>survivent</i><par n="asian__adj"/></e>
+<e lm="optico" a="hector">          <i>opti</i><par n="asiati/co__adj"/></e>
+<e lm="fossilo" a="hector">          <i>fossil</i><par n="anarchist/o__adj"/></e>
+<e lm="nomado" a="hector">          <i>nomad</i><par n="anarchist/o__adj"/></e>
+<e lm="contemporen" a="hector">          <i>contempor</i><par n="afriqu/en__adj"/></e>
+<e lm="anatomico" a="hector">          <i>anatomi</i><par n="asiati/co__adj"/></e>
+<e lm="antico" a="hector">          <i>anti</i><par n="asiati/co__adj"/></e>
+<e lm="gimnastico" a="hector">          <i>gimnasti</i><par n="asiati/co__adj"/></e>
+<e lm="ètico" a="hector">          <i>èti</i><par n="asiati/co__adj"/></e>
+<e lm="corègrafico" a="hector">          <i>corègrafi</i><par n="asiati/co__adj"/></e>
+<e lm="vassal" a="hector">          <i>vass</i><par n="coloss/al__adj"/></e>
+<e lm="tèmatico" a="hector">          <i>tèmati</i><par n="asiati/co__adj"/></e>
+<e lm="stagièro" a="hector">          <i>stagièr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="émaginèro" a="hector">          <i>émaginèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="èstético" a="hector">          <i>èstéti</i><par n="asiati/co__adj"/></e>
+
+<e lm="Matiê Rechârd" a="Vouiquipèdia">          <i>Matiê<b/>Rechârd</i><par n="Jian__np"/></e>
+<e lm="Èlissê">          <i>Èlissê</i><par n="Jian__np"/></e>
+<e lm="Theodore" a="hector">          <i>Theodore</i><par n="Jian__np"/></e>
+<e lm="Amazon">          <i>Amazon</i><par n="Linux__np"/></e>
+<e lm="Oracle">          <i>Oracle</i><par n="Linux__np"/></e>
+<e lm="Uber">          <i>Uber</i><par n="Linux__np"/></e>
+<e lm="Mediaset">          <i>Mediaset</i><par n="Wikipedia__np"/></e>
+<e lm="La Cinq">          <i>La<b/>Cinq</i><par n="Wikipedia__np"/></e>
+<e lm="Apple Macintosh" a="hector">          <i>Apple<b/>Macintosh</i><par n="Linux__np"/></e>
+<e lm="Macintosh" a="hector">          <i>Macintosh</i><par n="Linux__np"/></e>
+<e lm="Volare">          <i>Volare</i><par n="Linux__np"/></e>
+<e lm="Volare Airlines">          <i>Volare<b/>Airlines</i><par n="Linux__np"/></e>
+<e lm="Air Europa">          <i>Air<b/>Europa</i><par n="Linux__np"/></e>
+<e lm="KLM">          <i>KLM</i><par n="Wikipedia__np"/></e>
+<e lm="Lufthansa">          <i>Lufthansa</i><par n="Wikipedia__np"/></e>
+<e lm="Luftwaffe">          <i>Luftwaffe</i><par n="Wikipedia__np"/></e>
+<e lm="Aeroflot">          <i>Aeroflot</i><par n="Linux__np"/></e>
+<e lm="Wehrmacht">          <i>Wehrmacht</i><par n="Wikipedia__np"/></e>
+<e lm="Siemens">          <i>Siemens</i><par n="Linux__np"/></e>
+<e lm="Washington Post">          <i>Washington<b/>Post</i><par n="Linux__np"/></e>
+<e lm="New York Times">          <i>New<b/>York<b/>Times</i><par n="Linux__np"/></e>
+<e lm="La Stampa">          <i>La<b/>Stampa</i><par n="Wikipedia__np"/></e>
+<e lm="Il Corriere della Sera">          <i>Il<b/>Corriere<b/>della<b/>Sera</i><par n="Linux__np"/></e>
+<e lm="Il Corriere">          <i>Il<b/>Corriere</i><par n="Linux__np"/></e>
+<e lm="La Repubblica">          <i>La<b/>Repubblica</i><par n="Wikipedia__np"/></e>
+<e lm="Erogroupe">          <i>Erogroupe</i><par n="Linux__np"/></e>
+<e lm="DOS">          <i>DOS</i><par n="Linux__np"/></e>
+<e lm="MS-DOS">          <i>MS-DOS</i><par n="Linux__np"/></e>
+<e lm="Michelin">          <i>Michelin</i><par n="Linux__np"/></e>
+<e lm="Visa">          <i>Visa</i><par n="Wikipedia__np"/></e>
+<e lm="American Express">          <i>American<b/>Express</i><par n="Wikipedia__np"/></e>
+<e lm="American Airlines">          <i>American<b/>Airlines</i><par n="Wikipedia__np"/></e>
+<e lm="BNB">          <i>BNB</i><par n="Wikipedia__np"/></e>
+<e lm="MasterCard">          <i>MasterCard</i><par n="Wikipedia__np"/></e>
+<e lm="Coran" a="hector">          <i>Coran</i><par n="Linux__np"/></e>
+<e lm="Ariane">          <i>Ariane</i><par n="Wikipedia__np"/></e>
+<e lm="Apollo">          <i>Apollo</i><par n="Linux__np"/></e>
+<e lm="Jeep">          <i>Jeep</i><par n="Wikipedia__np"/></e>
+<e lm="Assemblâ nacionâla" a="alanfavro">          <i>Assemblâ<b/>nacionâla</i><par n="Wikipedia__np"/></e>
+<e lm="Mèdecins sen Frontiéres" a="Vouiquipèdia">          <i>Mèdecins<b/>sen<b/>Frontiéres</i><par n="Linux__np"/></e>
+<e lm="Apartheid" a="Vouiquipèdia">          <i>Apartheid</i><par n="Linux__np"/></e>
+<e lm="Engie" a="hector">          <i>Engie</i><par n="Wikipedia__np"/></e>
+<e lm="GDF" a="hector">          <i>GDF</i><par n="Linux__np"/></e>
+<e lm="GDF-Suez" a="hector">          <i>GDF-Suez</i><par n="Linux__np"/></e>
+<e lm="Suez-GDF" a="hector">          <i>Suez-GDF</i><par n="Linux__np"/></e>
+<e lm="Thales" a="hector">          <i>Thales</i><par n="Linux__np"/></e>
+<e lm="DCNS" a="hector">          <i>DCNS</i><par n="Linux__np"/></e>
+<e lm="Nexter" a="hector">          <i>Nexter</i><par n="Linux__np"/></e>
+<e lm="EADS" a="hector">          <i>EADS</i><par n="Linux__np"/></e>
+<e lm="Rafale" a="hector">          <i>Rafale</i><par n="Linux__np"/></e>
+<e lm="Al Jazeera" a="hector">          <i>Al<b/>Jazeera</i><par n="Wikipedia__np"/></e>
+<e lm="Euronews" a="hector">          <i>Euronews</i><par n="Linux__np"/></e>
+<e lm="New Deal" a="hector">          <i>New<b/>Deal</i><par n="Linux__np"/></e>
+<e lm="Green Deal" a="hector">          <i>Green<b/>Deal</i><par n="Linux__np"/></e>
+<e lm="Marvel" a="hector">          <i>Marvel</i><par n="Linux__np"/></e>
+<e lm="Marvel Comics" a="hector">          <i>Marvel<b/>Comics</i><par n="Linux__np"/></e>
+<e lm="DC Comics" a="hector">          <i>DC<b/>Comics</i><par n="Linux__np"/></e>
+<e lm="iPad" a="hector">          <i>iPad</i><par n="Linux__np"/></e>
+<e lm="iPod" a="hector">          <i>iPod</i><par n="Linux__np"/></e>
+<e lm="iPhone" a="hector">          <i>iPhone</i><par n="Linux__np"/></e>
+<e lm="Eurovision" a="hector">          <i>Eurovision</i><par n="Wikipedia__np"/></e>
+<e lm="Euribor" a="hector">          <i>Euribor</i><par n="Linux__np"/></e>
+<e lm="Canale 5" a="hector">          <i>Canale<b/>5</i><par n="Linux__np"/></e>
+<e lm="VW">          <i>VW</i><par n="BBC__n"/></e>
+<e lm="RAI">          <i>RAI</i><par n="BBC__n"/></e>
+<e lm="AFE" a="hector">          <i>AFE</i><par n="BBVA__n"/></e>
+<e lm="AFI" a="hector">          <i>AFI</i><par n="BBVA__n"/></e>
+<e lm="RFA">          <i>RFA</i><par n="BBC__n"/></e>
+<e lm="RDA">          <i>RDA</i><par n="BBC__n"/></e>
+<e lm="TVA" a="alanfavro">          <i>TVA</i><par n="BBVA__n"/></e>
+<e lm="FC" a="alanfavro">          <i>FC</i><par n="BBVA__n"/></e>
+<e lm="UA" a="alanfavro">          <i>UA</i><par n="BBC__n"/></e>
+<e lm="BBC" a="alanfavro">          <i>BBC</i><par n="BBC__n"/></e>
+<e lm="PC" a="alanfavro">          <i>PC</i><par n="IRPF__n"/></e>
+<e lm="UCI" a="alanfavro">          <i>UCI</i><par n="BBVA__n"/></e>
+<e lm="ATP" a="alanfavro">          <i>ATP</i><par n="BBC__n"/></e>
+<e lm="SA" a="alanfavro">          <i>SA</i><par n="BBC__n"/></e>
+<e lm="SL" a="alanfavro">          <i>SL</i><par n="BBC__n"/></e>
+<e lm="ISO" a="alanfavro">          <i>ISO</i><par n="BBC__n"/></e>
+<e lm="TGV" a="alanfavro">          <i>TGV</i><par n="BBVA__n"/></e>
+<e lm="CNRS" a="alanfavro">          <i>CNRS</i><par n="BBVA__n"/></e>
+<e lm="RC" a="alanfavro">          <i>RC</i><par n="BBC__n"/></e>
+<e lm="FBI" a="alanfavro">          <i>FBI</i><par n="BBVA__n"/></e>
+<e lm="RTL" a="alanfavro">          <i>RTL</i><par n="BBC__n"/></e>
+<e lm="RATP" a="alanfavro">          <i>RATP</i><par n="BBC__n"/></e>
+<e lm="NFL" a="alanfavro">          <i>NFL</i><par n="BBC__n"/></e>
+<e lm="WWF">          <i>WWF</i><par n="BBVA__n"/></e>
+<e lm="SS">          <i>SS</i><par n="BBVA__n"/></e>
+<e lm="NBA" a="alanfavro">          <i>NBA</i><par n="BBC__n"/></e>
+<e lm="DJ" a="alanfavro">          <i>DJ</i><par n="ATS__n"/></e>
+<e lm="ESA">          <i>ESA</i><par n="BBC__n"/></e>
+<e lm="CERN">          <i>CERN</i><par n="BBVA__n"/></e>
+<e lm="AI">          <i>AI</i><par n="BBC__n"/></e>
+<e lm="MSF">          <i>MSF</i><par n="BBVA__n"/></e>
+<e lm="CNN" a="hector">          <i>CNN</i><par n="BBC__n"/></e>
+<e lm="VIH" a="hector">          <i>VIH</i><par n="IRPF__n"/></e>
+<e lm="SIDA" a="hector">          <i>SIDA</i><par n="BBVA__n"/></e>
+<e lm="EZLN" a="hector">          <i>EZLN</i><par n="BBVA__n"/></e>
+<e lm="ègz." a="LoTrèsor">          <i>ègz.</i><par n="BBVA__n"/></e>
+<e lm="Oxbridge" a="hector">          <i>Oxbridge</i><par n="Iran__np"/></e>
+<e lm="Tchètchènie" a="hector">          <i>Tchètchènie</i><par n="Bulgarie__np"/></e>
+<e lm="Ingouchie" a="hector">          <i>Ingouchie</i><par n="Bulgarie__np"/></e>
+<e lm="Everest" a="Vouiquipèdia">          <i>Everest</i><par n="Iran__np"/></e>
+<e lm="Èpiro" a="hector">          <i>Èpiro</i><par n="Iran__np"/></e>
+<e lm="Hanoi" a="Vouiquipèdia">          <i>Hanoi</i><par n="Iran__np"/></e>
+<e lm="Maraton" a="hector">          <i>Maraton</i><par n="Iran__np"/></e>
+<e lm="Carayibes" a="hector">          <i>Carayibes</i><par n="Alemagnes__np"/></e>
+<e lm="Kinshasa" a="hector">          <i>Kinshasa</i><par n="Bulgarie__np"/></e>
+<e lm="Dakar" a="hector">          <i>Dakar</i><par n="Iran__np"/></e>
+<e lm="Abidjan" a="hector">          <i>Abidjan</i><par n="Iran__np"/></e>
+<e lm="Carèlie" a="hector">          <i>Carèlie</i><par n="Bulgarie__np"/></e>
+<e lm="Mourmansk" a="hector">          <i>Mourmansk</i><par n="Iran__np"/></e>
+<e lm="Aberdeen" a="hector">          <i>Aberdeen</i><par n="Iran__np"/></e>
+<e lm="Constantinople" a="Vouiquipèdia">          <i>Constantinople</i><par n="Bulgarie__np"/></e>
+<e lm="Tchèrnobyl" a="hector">          <i>Tchèrnobyl</i><par n="Iran__np"/></e>
+
+<e lm="a la môda" a="alanfavro">          <i>a<b/>la<b/>môda</i><par n="avant__adv"/></e>
+<e lm="dedens-les-muralyes" a="Vouiquipèdia">          <i>dedens-les-muralyes</i><par n="avant__adv"/></e>
+<e lm="afrosament" a="alanfavro">          <i>afrosament</i><par n="avant__adv"/></e>
+<e lm="enjustament" a="stich">          <i>enjustament</i><par n="avant__adv"/></e>
+<e lm="cicllar" a="stich ">          <i>cicll</i><par n="chant/ar__vblex"/></e>
+<e lm="lamentar" a="stich ">          <i>lament</i><par n="chant/ar__vblex"/></e>
+<e lm="conformar" a="LoTrèsor ">          <i>conform</i><par n="chant/ar__vblex"/></e>
+<e lm="ubèrisar" a="hector">          <i>ubèris</i><par n="chant/ar__vblex"/></e>
+<e lm="polimèrisar" a="hector">          <i>polimèris</i><par n="chant/ar__vblex"/></e>
+<e lm="trotskisto" a="hector">          <i>trotskist</i><par n="anarchist/o__adj"/></e>
+<e lm="bantou" a="Vouiquipèdia">          <i>bantou</i><par n="asian__adj"/></e>
+<e lm="grègorien" a="Vouiquipèdia">          <i>grègori</i><par n="afriqu/en__adj"/></e>
+<e lm="bissèxtilo" a="Vouiquipèdia">          <i>bissèxtil</i><par n="anarchist/o__adj"/></e>
+<e lm="sèrialisto" a="hector">          <i>sèrialist</i><par n="anarchist/o__adj"/></e>
+<e lm="dodècafonisto" a="hector">          <i>dodècafonist</i><par n="anarchist/o__adj"/></e>
+<e lm="dodècafonico" a="hector">          <i>dodècafoni</i><par n="asiati/co__adj"/></e>
+<e lm="alzacien" a="hector">          <i>alzaci</i><par n="afriqu/en__adj"/></e>
+<e lm="avant-gouârdisto" a="hector">          <i>avant-gouârdist</i><par n="anarchist/o__adj"/></e>
+<e lm="tchètchèno" a="hector">          <i>tchètchèn</i><par n="anarchist/o__adj"/></e>
+<e lm="ingouche" a="hector">          <i>ingouche</i><par n="fadasse__adj"/></e>
+<e lm="hindôisto" a="hector">          <i>hindôist</i><par n="anarchist/o__adj"/></e>
+<e lm="boudisto" a="Vouiquipèdia">          <i>boudist</i><par n="anarchist/o__adj"/></e>
+<e lm="èvolucionisto" a="hector">          <i>èvolucionist</i><par n="anarchist/o__adj"/></e>
+<e lm="antitèrroristo" a="hector">          <i>antitèrrorist</i><par n="anarchist/o__adj"/></e>
+<e lm="alpin" a="LoTrèsor">          <i>alpin</i><par n="asian__adj"/></e>
+<e lm="manchin" a="LoTrèsor ">          <i>manchin</i><par n="asian__adj"/></e>
+<e lm="confôrmo" a="LoTrèsor ">          <i>confôrm</i><par n="anarchist/o__adj"/></e>
+<e lm="mèdo">          <i>mèd</i><par n="anarchist/o__adj"/></e>
+<e lm="aminâ" a="alanfavro">          <i>amin</i><par n="acharn/â__adj"/></e>
+<e lm="stalinien" a="hector">          <i>stalini</i><par n="afriqu/en__adj"/></e>
+<e lm="poutinien" a="hector">          <i>poutini</i><par n="afriqu/en__adj"/></e>
+<e lm="carèlien" a="hector">          <i>carèli</i><par n="afriqu/en__adj"/></e>
+<e lm="èxtrasolèro" a="hector">          <i>èxtrasolèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="èlectrochimico" a="hector">          <i>èlectrochimi</i><par n="asiati/co__adj"/></e>
+<e lm="ortografico" a="hector">          <i>ortografi</i><par n="asiati/co__adj"/></e>
+<e lm="sèleucido" a="hector">          <i>sèleucid</i><par n="anarchist/o__adj"/></e>
+<e lm="fènicien" a="hector">          <i>fènici</i><par n="afriqu/en__adj"/></e>
+<e lm="bôr" a="hector">          <i>bôr</i><par n="asian__adj"/></e>
+<e lm="sèropositif" a="hector">          <i>sèropositi</i><par n="acti/f__adj"/></e>
+<e lm="empèrialisto" a="alanfavro">          <i>empèrialist</i><par n="anarchist/o__adj"/></e>
+<e lm="multimèdia" a="hector"><i>multimèdia</i><par n="orange__adj"/></e>
+<e lm="trotskismo" a="hector">          <i>trotskismo</i><par n="abricot__n"/></e>
+<e lm="trotskisto" a="hector">          <i>trotskist</i><par n="anarchist/o__n"/></e>
+<e lm="souahili" a="hector">          <i>souahili</i><par n="asian__n"/></e>
+<e lm="bantou" a="Vouiquipèdia">          <i>bantou</i><par n="asian__n"/></e>
+<e lm="huétantiémo" a="hector">          <i>huétantiém</i><par n="anarchist/o__n"/></e>
+<e lm="sèrialismo" a="hector">          <i>sèrialismo</i><par n="abricot__n"/></e>
+<e lm="dodècafonismo" a="hector">          <i>dodècafonismo</i><par n="abricot__n"/></e>
+<e lm="dodècafonisto" a="hector">          <i>dodècafonist</i><par n="anarchist/o__n"/></e>
+<e lm="alzacien" a="hector">          <i>alzaci</i><par n="afriqu/en__n"/></e>
+<e lm="arpinisto" a="hector">          <i>arpinist</i><par n="anarchist/o__n"/></e>
+<e lm="avant-gouârdismo" a="hector">          <i>avant-gouârdismo</i><par n="abricot__n"/></e>
+<e lm="avant-gouârdisto" a="hector">          <i>avant-gouârdist</i><par n="anarchist/o__n"/></e>
+<e lm="tchètchèno" a="hector">          <i>tchètchèn</i><par n="anarchist/o__n"/></e>
+<e lm="ingouche" a="hector">          <i>ingouche</i><par n="enfant__n"/></e>
+<e lm="hindôismo" a="Vouiquipèdia">          <i>hindôismo</i><par n="abricot__n"/></e>
+<e lm="hindôisto" a="hector">          <i>hindôist</i><par n="anarchist/o__n"/></e>
+<e lm="boudisto" a="Vouiquipèdia">          <i>boudist</i><par n="anarchist/o__n"/></e>
+<e lm="èvolucionismo" a="hector">          <i>èvolucionismo</i><par n="abricot__n"/></e>
+<e lm="èvolucionisto" a="hector">          <i>èvolucionist</i><par n="anarchist/o__n"/></e>
+<e lm="antitèrrorismo" a="hector">          <i>antitèrrorismo</i><par n="abricot__n"/></e>
+<e r="LR" lm="alpinismo" a="hector" c="use_sub">          <i>alpinismo</i><par n="abricot__n"/></e>
+<e r="LR" lm="alpinisto" a="LoTrèsor" c="use_sub">          <i>alpinist</i><par n="anarchist/o__n"/></e>
+<e lm="manchin" a="LoTrèsor ">          <i>manchin</i><par n="asian__n"/></e>
+<e lm="triomfo" a="stich ">          <i>triomfo</i><par n="abricot__n"/></e>
+<e lm="misèricorde" a="stich ">          <i>misèricorde</i><par n="abayie__n"/></e>
+<e lm="valyent" a="hector ">          <i>valyent</i><par n="abricot__n"/></e>
+<e lm="mètèô" a="corpus ">          <i>mètèô</i><par n="abayie__n"/></e>
+<e lm="misèra" a="stich/use_sub ">          <i>misèr</i><par n="cultur/a__n"/></e>
+<e lm="ubèrisacion" a="hector">          <i>ubèrisacion</i><par n="abayie__n"/></e>
+<e lm="carèlien" a="hector">          <i>carèli</i><par n="afriqu/en__n"/></e>
+<e lm="ègzoplanèta" a="hector">          <i>ègzoplanèt</i><par n="cultur/a__n"/></e>
+<e lm="sida" a="hector">          <i>sid</i><par n="cultur/a__n"/></e>
+<e lm="consolidacion" a="corpus">          <i>consolidacion</i><par n="abayie__n"/></e>
+<e lm="fonèmo" a="hector">          <i>fonèmo</i><par n="abricot__n"/></e>
+<e lm="grafèmo" a="hector">          <i>grafèmo</i><par n="abricot__n"/></e>
+<e lm="Sèleucido" a="hector">          <i>Sèleucid</i><par n="anarchist/o__n"/></e>
+<e lm="Fènicien" a="hector">          <i>Fènici</i><par n="afriqu/en__n"/></e>
+<e lm="politologo" a="hector">          <i>politolog</i><par n="astrolog/o__n"/></e>
+<e lm="politologia" a="hector">          <i>politologi</i><par n="cultur/a__n"/></e>
+<e lm="biatlon" a="hector">          <i>biatlon</i><par n="abricot__n"/></e>
+<e lm="pentatlon" a="hector">          <i>pentatlon</i><par n="abricot__n"/></e>
+<e lm="heptatlon" a="hector">          <i>heptatlon</i><par n="abricot__n"/></e>
+<e lm="biatlèto" a="hector">          <i>biatlèt</i><par n="anarchist/o__n"/></e>
+<e lm="triatlèto" a="hector">          <i>triatlèt</i><par n="anarchist/o__n"/></e>
+<e r="LR" lm="èxploracion" a="stich" c="use_sub"><i>èxploracion</i><par n="abayie__n"/></e>
+<e lm="idolâtrie" a="stich">          <i>idolâtrie</i><par n="abayie__n"/></e>
+<e lm="prèposicion" a="LoTrèsor">          <i>prèposicion</i><par n="abayie__n"/></e>
+<e lm="polimèrisacion" a="hector">          <i>polimèrisacion</i><par n="abayie__n"/></e>
+<e lm="Bôr" a="hector">          <i>Bôr</i><par n="asian__n"/></e>
+<e lm="cort d'asséses"><i>cort</i><par n="abayie__n"/><p><l><b/>d'asséses</l><r><g><b/>d'asséses</g></r></p></e>
+<e lm="sèropositif" a="hector">          <i>sèropositi</i><par n="jui/f__n"/></e>
+<e lm="dracma" a="stich">          <i>dracm</i><par n="cultur/a__n"/></e>
+<e lm="decatlon" a="hector">          <i>decatlon</i><par n="abricot__n"/></e>
+<e lm="decatlèto" a="hector">          <i>decatlèt</i><par n="anarchist/o__n"/></e>
+<e r="LR" lm="afliccion" a="stich" c="use_sub">          <i>afliccion</i><par n="abayie__n"/></e>
+<e lm="ms" a="hector ">          <i>ms</i><par n="fês__n"/></e>
+<e lm="ôto" a="alanfavre">          <i>ôto</i><par n="anti__pref"/></e>
+<e lm="prô" a="alanfavro">          <i>prô</i><par n="anti__pref"/></e>
+<e lm="hiper" a="hector">          <i>hiper</i><par n="anti__pref"/></e>
+<e lm="hipo" a="hector">          <i>hipo</i><par n="anti__pref"/></e>
+<e lm="politico" a="hector">          <i>politico</i><par n="anti__pref"/></e>
+<e lm="socio" a="hector">          <i>socio</i><par n="anti__pref"/></e>
+<e lm="sot" a="hector">          <i>sot</i><par n="anti__pref"/></e>
+<e lm="èlectro" a="hector">          <i>èlectro</i><par n="anti__pref"/></e>
+<e lm="hidro" a="hector">          <i>hidro</i><par n="anti__pref"/></e>
+<e lm="tètra" a="hector">          <i>tètra</i><par n="anti__pref"/></e>
+<e lm="amino" a="hector">          <i>amino</i><par n="anti__pref"/></e>
+<e lm="oxido" a="hector">          <i>oxido</i><par n="anti__pref"/></e>
+<e lm="avant" a="hector">          <i>avant</i><par n="anti__pref"/></e>
+<e lm="èxtra" a="hector">          <i>èxtra</i><par n="anti__pref"/></e>
+<e lm="ègzo" a="hector">          <i>ègzo</i><par n="anti__pref"/></e>
+<e lm="cripto" a="hector">          <i>cripto</i><par n="anti__pref"/></e>
+<e lm="bio" a="hector">          <i>bio</i><par n="anti__pref"/></e>
+<e lm="èco" a="hector">          <i>èco</i><par n="anti__pref"/></e>
+<e lm="mètil" a="hector">          <i>mètil</i><par n="anti__pref"/></e>
+<e lm="ètil" a="hector">          <i>ètil</i><par n="anti__pref"/></e>
+<e lm="bènzo" a="hector">          <i>bènzo</i><par n="anti__pref"/></e>
+<e lm="macro" a="hector">          <i>macro</i><par n="anti__pref"/></e>
+<e lm="micro" a="hector">          <i>micro</i><par n="anti__pref"/></e>
+<e lm="nano" a="hector">          <i>nano</i><par n="anti__pref"/></e>
+<e lm="ultra" a="hector">          <i>ultra</i><par n="anti__pref"/></e>
+<e lm="mèga" a="hector">          <i>mèga</i><par n="anti__pref"/></e>
+<e lm="gmina" a="hector" c="use_sub"><i>gmin</i><par n="cultur/a__n"/></e>
 
 <!--- xxxxx -->
 
