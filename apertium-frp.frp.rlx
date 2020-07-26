@@ -128,6 +128,10 @@ SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
 SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
+LIST S = "<s'>"i "<s’>"i;
+LIST L = "<l'>"i "<l’>"i;
+LIST LPre = "<'l>"i "<’l>"i;
+
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
 LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
@@ -168,10 +172,10 @@ REMOVE Pref ;
  
 # mots individuels
 
-SELECT Masc_strict IF (0 ("<'l>") + Fem_strict) (1 Verb) (2 Noun_Adj + Masc_strict) ;			# 'l est recho
-SELECT Masc_strict IF (0 ("<'l>") + Fem_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Masc_strict) ;	# 'l est brâvament recho
-SELECT Fem_strict IF (0 ("<'l>") + Masc_strict) (1 Verb) (2 Noun_Adj + Fem_strict) ;			# 'l est recha
-SELECT Fem_strict IF (0 ("<'l>") + Masc_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Fem_strict) ;	# 'l est brâvament recha
+SELECT Masc_strict IF (0 LPre + Fem_strict) (1 Verb) (2 Noun_Adj + Masc_strict) ;			# 'l est recho
+SELECT Masc_strict IF (0 LPre + Fem_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Masc_strict) ;	# 'l est brâvament recho
+SELECT Fem_strict IF (0 LPre + Masc_strict) (1 Verb) (2 Noun_Adj + Fem_strict) ;			# 'l est recha
+SELECT Fem_strict IF (0 LPre + Masc_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Fem_strict) ;		# 'l est brâvament recha
 
 SELECT ("chamô") IF (0 ("chamôs")) (-1 Num) ;
 SELECT ("chamô") IF (0 ("chamôs")) (-1 Det + MascPl OR A + MascPl) ;
@@ -282,14 +286,14 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreA
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1C Noun_Adj + &&GenderNumber) ;	# lo hôt
 
 SELECT Det + &&GenderNumber IF (-1 PreDet + &&GenderNumber) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# tota l’assemblâ
-SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# ceti bruit ; l'hotâl ; je lo vôl
+SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (NOT 0 S) ;	# ceti bruit ; l'hotâl ; je lo vôl
 SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber LINK NOT 0 Verb + Pers) ;	# châcun son diô
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber LINK NOT 0 Verb + Pers) ;
 
 SELECT Det + &&GenderNumber IF (-1 Ant + &&GenderNumber) (0 Tn OR Pro OR Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + MajIni) ;	# Filipo lo Bél
 
-SELECT Det IF (0 ("<l'>")) (1 unknown) ;
+SELECT Det IF (0 L) (1 unknown) ;
 SELECT Prn IF (0 Det) (1 unknown) ;
 
 REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv) ;
