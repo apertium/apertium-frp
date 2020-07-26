@@ -11,4 +11,7 @@
   <char value="&#183;">
     <equiv-char value="."/>
   </char>
+  <char value="º">
+    <equiv-char value="°"/>
+  </char>
 </analysis-chars>
