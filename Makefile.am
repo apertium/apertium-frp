@@ -21,12 +21,13 @@ TARGETS_COMMON =			\
 ## Arpitan transducer
 ###############################################################################
 
-.deps/$(LANG1).metadix: $(BASENAME).$(LANG1).metadix .deps/.d
-	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
+$(LANG1).xsl: $(BASENAME).$(LANG1).metadix buscaPar.xsl
+	xsltproc buscaPar.xsl $< |uniq >$@.tmp
+	mv $@.tmp $@
 
-.deps/$(LANG1).dix: .deps/$(LANG1).metadix .deps/.d
-	xsltproc buscaPar.xsl .deps/$(LANG1).metadix | uniq >$$$$tmp1 && \
-	xsltproc $$$$tmp1 .deps/$(LANG1).metadix > $@ && rm $$$$tmp1
+.deps/$(LANG1).dix: $(LANG1).xsl $(BASENAME).$(LANG1).metadix .deps/.d
+	xsltproc $< $(BASENAME).$(LANG1).metadix > $@.tmp
+	mv $@.tmp $@
 
 $(LANG1).autogen.bin: .deps/$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
