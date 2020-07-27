@@ -197,6 +197,7 @@ SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	# devant la granta mêson
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
+SELECT Prep IF (0 ("devant")) (1 ("J.C.")) ;
 
 REMOVE Top IF (-1 BOS OR Sent) (0 ("en")) ;
 REMOVE Top IF (-1 BOS OR Sent) (0 ("nion")) ;
@@ -270,10 +271,18 @@ SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel OR A) ;		# je de
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel OR A) ;		# je demando pas qui
 SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel OR A) ;	# je demando pas avouéc qui
 
+# adv/ preadv
+
+REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
+
 # adv / postadv
 
 SELECT PostAdv IF (-1 (META:/-/r)) ;
 REMOVE PostAdv IF (NOT -1 (META:/-/r)) ;
+
+# adv / pre
+
+REMOVE Adv IF (0 ("avouéc")) (1 Det OR ("de")) ;	# avouéc sè sont dèfendus brâvament avouéc lor rê
 
 # det / prn
 
@@ -387,10 +396,6 @@ REMOVE Ger IF (-1C Adv_PreAdv OR ("galyârd")) (0 A + &&Number) ;	# il ére galy
 
 REMOVE Ger IF (-1C Noun_Adj + &&GenderNumber) (0 Noun_Adj + &&GenderNumber) ;	# un rê violent
 REMOVE Ger IF (-3 N + &&GenderNumber) (-2 A + &&GenderNumber) (-1 CnjCoo) (0 A + &&GenderNumber) ;	# un rê malin et violent
-
-# preadv
-
-REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
 
 # n / verb
 
