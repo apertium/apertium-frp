@@ -184,8 +184,8 @@ SELECT ("chamô") IF (0 ("chamôs")) (1 PreAdv OR Adv) (2 A + MascPl) ;
 
 SELECT ("cors") IF (0 ("cor") OR ("cors")) ;
 
-SELECT Masc IF (0 ("cort")) (NOT -1 Fem_strict) (1 ("de")) (2 ("tènis")) ;
-SELECT Fem IF (0 ("cort")) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Masc IF (0 ("cort")) (NOT -1/* Fem_strict) (1 ("de")) (2 ("tènis")) ;
+SELECT Fem IF (0 ("cort")) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 REMOVE ("mê") IF (0 ("mês")) ;
 
