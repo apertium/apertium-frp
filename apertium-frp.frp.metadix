@@ -2719,6 +2719,8 @@
   <e r="LR"><p><l>âs</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>âyes</l>      <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ês</l>        <r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>aye</l><r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>ayes</l><r>ar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>o</l>         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -7416,6 +7418,10 @@
   <e r="LR"><p><l>âye</l>       <r>être<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>âs</l>        <r>être<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>âyes</l>      <r>être<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>ât</l>         <r>être<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âts</l>        <r>être<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âte</l>       <r>être<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>âtes</l>      <r>être<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>êsso</l>      <r>être<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ês</l>        <r>être<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -10586,6 +10592,11 @@
   <e r="LR" c="use_sub"><p><l>a</l><r>â</r></p></e>
 </pardef>
 
+<pardef n="ô/o">	<!-- j'utilise ce paradigme pour des formes en o trouvées dans le corpus, mais qui n'appartiennent pas au "standard" -->
+  <e>       <p><l>ô</l>         <r>ô</r></p></e>
+  <e r="LR" c="use_sub"><p><l>o</l><r>ô</r></p></e>
+</pardef>
+
 <pardef n="e/è">	<!-- j'utilise ce paradigme pour des formes en è trouvées dans le corpus, mais qui n'appartiennent pas au "standard" -->
   <e>       <p><l>e</l>         <r>e</r></p></e>
   <e r="LR" c="use_sub"><p><l>è</l><r>e</r></p></e>
@@ -10596,10 +10607,11 @@
     <!-- ******************************
           group adj
       ****************************** -->
-<e lm="geografico" a="hector"><i></i><par n="g/g·"/><i>eografi</i><par n="asiati/co__adj"/></e>
-<e lm="geologico" a="hector"><i></i><par n="g/g·"/><i>eologi</i><par n="asiati/co__adj"/></e>
+<e lm="geografico" a="hector"><i></i><par n="g/g·"/><i></i><par n="e/è"/><i>ografi</i><par n="asiati/co__adj"/></e>
+<e lm="geologico" a="hector"><i></i><par n="g/g·"/><i></i><par n="e/è"/><i>ologi</i><par n="asiati/co__adj"/></e>
 <e lm="justo">           <i></i><par n="j/j·"/><i>ust</i><par n="anarchist/o__adj"/></e>
-<e lm="gèopolitico" a="alanfavre"><i></i><par n="g/g·"/><i>èopoliti</i><par n="asiati/co__adj"/></e>
+<e lm="geopolitico" a="alanfavre/hector"><i></i><par n="g/g·"/><i></i><par n="e/è"/><i>opoliti</i><par n="asiati/co__adj"/></e>
+<e lm="geo" a="hector"><i></i><par n="g/g·"/><i></i><par n="e/è"/><i>o</i><par n="anti__pref"/></e>
 <e r="RL" lm="biô">      <p><l><a/>b</l>     <r>b</r></p><par n="b/iô__adj"/></e>
 <e r="RL" lm="nuevo">    <p><l><a/>nue</l>   <r>nue</r></p><par n="nô/vo__adj"/></e>
 <e r="RL" lm="nôvo">     <p><l><a/>nô</l>    <r>nô</r></p><par n="nô/vo__adj"/></e>
@@ -13800,15 +13812,15 @@
     <!-- ******************************
           group n
       ****************************** -->
-<e lm="geomètre">        <i></i><par n="g/g·"/><i>eomètre</i><par n="enfant__n"/></e>
+<e lm="geomètre">        <i></i><par n="g/g·"/><i></i><par n="e/è"/><i>omètre</i><par n="enfant__n"/></e>
 <e lm="gendarmeria">     <i></i><par n="g/g·"/><i>endarmeri</i><par n="cultur/a__n"/></e>
 <e lm="gendarmerie">     <i></i><par n="g/g·"/><i>endarmerie</i><par n="abayie__n"/></e>
-<e lm="geografo">        <i></i><par n="g/g·"/><i>eograf</i><par n="anarchist/o__n"/></e>
-<e lm="geografia">       <i></i><par n="g/g·"/><i>eografi</i><par n="cultur/a__n"/></e>
-<e lm="geologia">        <i></i><par n="g/g·"/><i>eologi</i><par n="cultur/a__n"/></e>
-<e lm="geomètria">       <i></i><par n="g/g·"/><i>eomètri</i><par n="cultur/a__n"/></e>
+<e lm="geografo">        <i></i><par n="g/g·"/><i></i><par n="e/è"/><i>ograf</i><par n="anarchist/o__n"/></e>
+<e lm="geografia">       <i></i><par n="g/g·"/><i></i><par n="e/è"/><i>ografi</i><par n="cultur/a__n"/></e>
+<e lm="geologia">        <i></i><par n="g/g·"/><i></i><par n="e/è"/><i>ologi</i><par n="cultur/a__n"/></e>
+<e lm="geomètria">       <i></i><par n="g/g·"/><i></i><par n="e/è"/><i>omètri</i><par n="cultur/a__n"/></e>
 <e lm="gendârme">        <i></i><par n="g/g·"/><i>endârme</i><par n="enfant__n"/></e>
-<e lm="gèopolitica" a="alanfavre"><i></i><par n="g/g·"/><i>èopoliti</i><par n="aritmèti/ca__n"/></e>
+<e lm="geopolitica" a="alanfavre/hector"><i></i><par n="g/g·"/><i></i><par n="e/è"/><i>opoliti</i><par n="aritmèti/ca__n"/></e>
 <e lm="janre">           <i></i><par n="j/j·"/><i>anre</i><par n="abricot__n"/></e>
 <e lm="julyèt">          <i></i><par n="j/j·"/><i>ulyèt</i><par n="abricot__n"/></e>
 <e lm="justo">           <i></i><par n="j/j·"/><i>ust</i><par n="anarchist/o__n"/></e>
@@ -21184,7 +21196,7 @@
 <e lm="règence" a="alanfavre"><i>règence</i><par n="abayie__n"/></e>
 <e lm="règent">          <i>règent</i><par n="asian__n"/></e>
 <e lm="règiment">        <i>règiment</i><par n="abricot__n"/></e>
-<e lm="règimo">          <i>règimo</i><par n="abricot__n"/></e>
+<e lm="règimo">          <i>rè</i><par n="g/g·"/><i>imo</i><par n="abricot__n"/></e>
 <e lm="règlla">          <i>règll</i><par n="cultur/a__n"/></e>
 <e lm="règllament">      <i>règllament</i><par n="abricot__n"/></e>
 <e lm="règno">           <i>règno</i><par n="abricot__n"/></e>
@@ -23303,7 +23315,7 @@
 <e lm="ôtorota">         <i>ôtorot</i><par n="cultur/a__n"/></e>
 <e lm="ôtostrada">       <i>ôtostrad</i><par n="cultur/a__n"/></e>
 <e lm="Ôtrichien">       <i>Ôtric</i><par n="h/h·"/><i>i</i><par n="afriqu/en__n"/></e>
-<e lm="ôtô">             <i>ôtô</i><par n="abayie__n"/></e>
+<e lm="ôtô">             <i>ôt</i><par n="ô/o"/><i></i><par n="abayie__n"/></e>
 <e lm="ôvent">           <i>ôvent</i><par n="abricot__n"/></e>
 <e lm="ôvra">            <i>ôvr</i><par n="cultur/a__n"/></e>
 <e lm="ôvèrgnat">        <i>ôvèrgnat</i><par n="asian__n"/></e>
@@ -28987,6 +28999,7 @@
 <e lm="Chaban">          <i>Chaban</i><par n="Saussure__np"/></e>
 <e lm="Chaban-Delmas">   <i>Chaban-Delmas</i><par n="Saussure__np"/></e>
 <e lm="Chablès">         <i>Chablès</i><par n="Iran__np"/></e>
+<e lm="Chablès">         <i>Chablès</i><par n="États-Unis__np"/></e>
 <e lm="Chabot">          <i>Chabot</i><par n="Saussure__np"/></e>
 <e lm="Chabran">         <i>Chabran</i><par n="Saussure__np"/></e>
 <e lm="Chabrol">         <i>Chabrol</i><par n="Saussure__np"/></e>
@@ -50705,6 +50718,7 @@
 <e lm="brament" a="alanfavre"><i>brament</i><par n="franc__preadv"/></e>
 <e lm="brâvament">       <i>brâvament</i><par n="franc__preadv"/></e>
 <e lm="brâvo" a="alanfavre"><i>brâvo</i><par n="franc__preadv"/></e>
+<e lm="rudo" a="Vouiquipèdia"><i>rudo</i><par n="franc__preadv"/></e>
 <e lm="franc">           <i>franc</i><par n="franc__preadv"/></e>
 <e lm="galyârd">         <i>galyârd</i><par n="franc__preadv"/></e>
 <e lm="grôs">            <i>grôs</i><par n="franc__preadv"/></e>
@@ -57264,7 +57278,6 @@
 <e lm="entensitât" a="alanfavro">          <i>entensit</i><par n="activit/ât__n"/></e>
 <e lm="coèficient" a="alanfavro">          <i>coèficient</i><par n="abricot__n"/></e>
 <e lm="cinèasto" a="alanfavro">          <i>cinèast</i><par n="anarchist/o__n"/></e>
-<e lm="ôto" a="alanfavro">          <i>ôto</i><par n="abricot__n"/></e>
 <e lm="anfibio" a="alanfavro">          <i>anfibio</i><par n="abricot__n"/></e>
 <e lm="plantacion" a="alanfavro">          <i>plantacion</i><par n="abayie__n"/></e>
 <e lm="ion" a="alanfavro">          <i>ion</i><par n="abricot__n"/></e>
@@ -57990,7 +58003,7 @@
 <e r="LR" lm="afliccion" a="stich" c="use_sub">          <i>afliccion</i><par n="abayie__n"/></e>
 <e lm="ms" a="hector">          <i>ms</i><par n="fês__n"/></e>
 <e lm="ôto" a="alanfavre">          <i>ôto</i><par n="anti__pref"/></e>
-<e lm="prô" a="alanfavro">          <i>prô</i><par n="anti__pref"/></e>
+<e lm="pro" a="hector">          <i>pro</i><par n="anti__pref"/></e>
 <e lm="hiper" a="hector">          <i>hiper</i><par n="anti__pref"/></e>
 <e lm="hipo" a="hector">          <i>hipo</i><par n="anti__pref"/></e>
 <e lm="politico" a="hector">          <i>politico</i><par n="anti__pref"/></e>
@@ -58057,6 +58070,21 @@
 <e lm="mâlcontentar" a="stich">          <i>mâlcontent</i><par n="chant/ar__vblex"/></e>
 <e lm="Rangers" a="hector">          <i>Rangers</i><par n="Jeux_olympiques__np"/></e>
 <e lm="Power Rangers" a="hector">          <i>Power<b/>Rangers</i><par n="Jeux_olympiques__np"/></e>
+<e lm="matèrnâl">          <i>matèrn</i><par n="â/a"/><i>l</i><par n="asian__adj"/></e>
+<e lm="paritât" a="Vouiquipèdia">          <i>parit</i><par n="activit/ât__n"/></e>
+<e lm="ôtomobila" a="Vouiquipèdia" c="use_sub">          <i>ôtomobil</i><par n="cultur/a__n"/></e>
+<e lm="consulat" a="Vouiquipèdia">          <i>consulat</i><par n="abricot__n"/></e>
+<e lm="francèyancie" a="Vouiquipèdia">          <i>francèyancie</i><par n="abayie__n"/></e>
+<e lm="reyômo" a="Vouiquipèdia" c="use_sub">          <i>reyômo</i><par n="abricot__n"/></e>
+<e lm="crêtês">          <i>crêt</i><par n="angll/ês__n"/></e>
+<e lm="dièta" a="Vouiquipèdia">          <i>dièt</i><par n="cultur/a__n"/></e>
+<e lm="poèsie" a="Vouiquipèdia" c="use_sub">          <i>poèsie</i><par n="abayie__n"/></e>
+<e lm="Toquiote" a="Vouiquipèdia">          <i>Toquiote</i><par n="enfant__n"/></e>
+<e lm="fotêsa">          <i>fotês</i><par n="cultur/a__n"/></e>
+<e lm="blètonâjo">          <i>blètonâjo</i><par n="abricot__n"/></e>
+<e lm="bètonisacion" a="alanfavro">          <i>bètonisacion</i><par n="abayie__n"/></e>
+<e lm="blètonisacion" a="alanfavro">          <i>blètonisacion</i><par n="abayie__n"/></e>
+<e lm="accèlèrator" a="alanfavro">          <i>accèlèrator</i><par n="abricot__n"/></e>
 
 <!--- xxxxx -->
 
