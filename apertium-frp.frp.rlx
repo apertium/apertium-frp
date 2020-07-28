@@ -241,6 +241,9 @@ SELECT Prn IF (-2 Verb + Pers) (NOT -1 A OR Det) (0 ("ren")) ;
 
 REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la fin Diô at acutâ lor preyére
 
+SELECT Sg IF (NOT -1/* Pl_strict OR N) (0 ("Chablès")) (NOT 1 Pl_strict) ;
+SELECT Pl IF (-1/* Pl_strict) (0 ("Chablès")) ;
+
 # vbhaver / vblex
 
 SELECT Haver IF (0 Haver) (1 Adv OR CnjAdv) (2 PP) ;		# at pas chantâ
@@ -305,11 +308,11 @@ SELECT Det + &&GenderNumber IF (-1 Ant + &&GenderNumber) (0 Tn OR Pro OR Det + &
 SELECT Det IF (0 L) (1 unknown) ;
 SELECT Prn IF (0 Det) (1 unknown) ;
 
-REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv) ;
+REMOVE Det IF (0 Prn) (NOT 1 A OR N OR Adv OR PreAdv OR Num) ;
 REMOVE Det IF (0 Prn) (1C Adv OR PreAdv) (NOT 1 A) ;
 
 #REMOVE Det IF (-1 Prep) (0 Prn) (0 Det + &&GenderNumber) (NOT 1 PreAdv OR Noun_Adj + &&GenderNumber) ;	# avouéc lor por sè rendre
-REMOVE Det IF (-1 Prep) (0 Prn) (0 Det) (NOT 1 PreAdv OR Noun_Adj) ;	# avouéc lor por sè rendre
+REMOVE Det IF (-1 Prep) (0 Prn) (0 Det) (NOT 1 PreAdv OR Noun_Adj OR Num) ;	# avouéc lor por sè rendre
 
 # pro / enc
 
