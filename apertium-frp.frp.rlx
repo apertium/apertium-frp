@@ -157,6 +157,7 @@ LIST On = "on" ;
 LIST Oprn = "o" ;
 LIST Se = "sè" ;
 
+LIST Ne = "ne" ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
 LIST Etre = "étre" ;
@@ -410,6 +411,9 @@ REMOVE Verb IF (-2 PreDet + &&GenderNumber) (-1 Det + &&GenderNumber) (0 N + &&G
 REMOVE Verb IF (-2 Prep) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# la téta de ses armâs
 REMOVE Verb IF (-1 Prep) (-1/* Det) (0 N) ;					# des armâs
 REMOVE Verb IF (-2 Verb) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# comandâvont ses armâs
+
+SELECT Verb IF (-1 Ne) (1 Que) ;				# n’avant qu’un côr
+SELECT Verb IF (-1 Ne) (1 Adv OR CnjAdv) (2 Que) ;
 
 REMOVE Fin_non_Imp IF (-1C BOS OR Prep) (0 N) (NOT 0 (META:/-/r)) ;
   ## Groupe A, Taille 48, Série 1
