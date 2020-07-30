@@ -871,9 +871,9 @@
   <e>       <p><l>ces</l>       <r>ça<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="èrmit/a__n">
+<pardef n="bo/a__n">
   <e>       <p><l>a</l>         <r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es</l>        <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>as</l>        <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="activit/ât__n">
@@ -10522,6 +10522,12 @@
   <e>       <i>e<prm/></i><par n="char/giér__vblex"/></e>
 </pardef>
 
+<pardef n="repr/o[]giér__vblex" c="modèle 1ère conjugaison Bôg">
+  <e>       <p><l>ô</l>         <r>o</r></p><i><prm/></i><par n="châr/jo__vblex"/></e>
+  <e>       <p><l>ô</l>         <r>o</r></p><i><prm/></i><par n="châr/ges__vblex"/></e>
+  <e>       <i>o<prm/></i><par n="char/giér__vblex"/></e>
+</pardef>
+
 <pardef n="pr/e[Y]ér__vblex" c="modèle 1ère conjugaison Béy">
   <e>       <p><l>é</l>         <r>e</r></p><i><prm/></i><par n="préy/o__vblex"/></e>
   <e>       <i>e<prm/></i><par n="prey/ér__vblex"/></e>
@@ -10667,7 +10673,7 @@
 <e lm="alemand">         <i>alemand</i><par n="asian__adj"/></e>
 <e lm="alengouâ">        <i>alengou</i><par n="acharn/â__adj"/></e>
 <e lm="alezan">          <i>alezan</i><par n="asian__adj"/></e>
-<e lm="algèrien">        <i>algèri</i><par n="afriqu/en__adj"/></e>
+<e lm="algèrien">        <i>al</i><par n="g/g·"/><i>èri</i><par n="afriqu/en__adj"/></e>
 <e lm="aliâ">            <i>ali</i><par n="acharn/â__adj"/></e>
 <e lm="alèxandrin">      <i>alèxandrin</i><par n="asian__adj"/></e>
 <e lm="alégro">          <i>alégr</i><par n="anarchist/o__adj"/></e>
@@ -11199,7 +11205,7 @@
 <e lm="divin">           <i>divin</i><par n="asian__adj"/></e>
 <e lm="diètètico" a="hector"><i>diètèti</i><par n="asiati/co__adj"/></e>
 <e lm="diéziémo">        <i>diéziém</i><par n="dousiém/o__adj"/></e>
-<e lm="djiboutien">      <i>djibouti</i><par n="afriqu/en__adj"/></e>
+<e lm="djiboutien">      <i>d</i><par n="j/j·"/><i>ibouti</i><par n="afriqu/en__adj"/></e>
 <e lm="dox">             <i>do</i><par n="do/x__adj"/></e>
 <e lm="doblo">           <i>dobl</i><par n="anarchist/o__adj"/></e>
 <e lm="docilo">          <i>docil</i><par n="anarchist/o__adj"/></e>
@@ -12100,8 +12106,8 @@
 <e lm="nazi" a="hector"> <i>nazi</i><par n="asian__adj"/></e>
 <e lm="netro">           <i>netr</i><par n="anarchist/o__adj"/></e>
 <e lm="nicaragoayen">    <i>nicaragoay</i><par n="afriqu/en__adj"/></e>
-<e lm="nigèrien">        <i>nigèri</i><par n="afriqu/en__adj"/></e>
-<e lm="nigèrian">        <i>nigèrian</i><par n="asian__adj"/></e>
+<e lm="nigèrien">        <i>ni</i><par n="g/g·"/><i>èri</i><par n="afriqu/en__adj"/></e>
+<e lm="nigèrian">        <i>ni</i><par n="g/g·"/><i>èrian</i><par n="asian__adj"/></e>
 <e lm="nigôd">           <i>nigôd</i><par n="asian__adj"/></e>
 <e lm="nimosenc">        <i>nimosenc</i><par n="blanc__adj"/></e>
 <e lm="niquedolye">      <i>niquedolye</i><par n="fadasse__adj"/></e>
@@ -13976,7 +13982,7 @@
 <e lm="Alevardin">       <i>Alevardin</i><par n="asian__n"/></e>
 <e lm="alezan">          <i>alezan</i><par n="asian__n"/></e>
 <e lm="alfabèt">         <i>alfabèt</i><par n="abricot__n"/></e>
-<e lm="Algèrien">        <i>Algèri</i><par n="afriqu/en__n"/></e>
+<e lm="Algèrien">        <i>Al</i><par n="g/g·"/><i>èri</i><par n="afriqu/en__n"/></e>
 <e lm="aliance">         <i>aliance</i><par n="abayie__n"/></e>
 <e lm="aligot">          <i>aligot</i><par n="abricot__n"/></e>
 <e lm="alimentacion" a="alanfavre"><i>alimentacion</i><par n="abayie__n"/></e>
@@ -14631,7 +14637,7 @@
 <e lm="blèton">          <i>blèton</i><par n="abricot__n"/></e>
 <e lm="blôda">           <i>blôd</i><par n="cultur/a__n"/></e>
 <e lm="blôdon">          <i>blôdon</i><par n="abricot__n"/></e>
-<e lm="boa">             <i>bo</i><par n="èrmit/a__n"/></e>
+<e lm="boa">             <i>bo</i><par n="bo/a__n"/></e>
 <e lm="boba">            <i>bob</i><par n="cultur/a__n"/></e>
 <e lm="bobelye">         <i>bobelye</i><par n="abayie__n"/></e>
 <e lm="bobena">          <i>boben</i><par n="cultur/a__n"/></e>
@@ -16539,7 +16545,7 @@
 <e lm="diô">             <i>diô</i><par n="abricot__n"/></e>
 <e lm="diôla">           <i>diôl</i><par n="cultur/a__n"/></e>
 <e lm="djaz">            <i>djaz</i><par n="mês__n"/></e>
-<e lm="Djiboutien">      <i>Djibouti</i><par n="afriqu/en__n"/></e>
+<e lm="Djiboutien">      <i>D</i><par n="j/j·"/><i>ibouti</i><par n="afriqu/en__n"/></e>
 <e lm="dl">              <i>dl</i><par n="mês__n"/></e>
 <e lm="doa">             <i>do</i><par n="cultur/a__n"/></e>
 <e lm="doblo">           <i>doblo</i><par n="abricot__n"/></e>
@@ -17374,7 +17380,7 @@
 <e lm="fllât">           <i>fllât</i><par n="abricot__n"/></e>
 <e lm="fllèron">         <i>fllèron</i><par n="abricot__n"/></e>
 <e lm="fllôta">          <i>fllôt</i><par n="cultur/a__n"/></e>
-<e lm="flucsia">         <i>flucsi</i><par n="èrmit/a__n"/></e>
+<e lm="flucsia">         <i>flucsi</i><par n="bo/a__n"/></e>
 <e lm="fluvo">           <i>fluvo</i><par n="abricot__n"/></e>
 <e lm="flux">            <i>flux</i><par n="mês__n"/></e>
 <e lm="flèche">          <i>flèche</i><par n="abayie__n"/></e>
@@ -17454,7 +17460,7 @@
 <e lm="fotografo">       <i>fotograf</i><par n="anarchist/o__n"/></e>
 <e lm="fotosintèsa" a="stich"><i>fotosintès</i><par n="cultur/a__n"/></e>
 <e lm="fotô">            <i>fotô</i><par n="abayie__n"/></e>
-<e lm="fotôgrafia">      <i>fotôgrafi</i><par n="cultur/a__n"/></e>
+<e lm="fotografia">      <i>fotografi</i><par n="cultur/a__n"/></e>
 <e lm="foueson">         <i>foueson</i><par n="abricot__n"/></e>
 <e lm="foulârd">         <i>foulârd</i><par n="abricot__n"/></e>
 <e lm="foutebâl">        <i>foutebâl</i><par n="personnel__n"/></e>
@@ -17883,7 +17889,7 @@
 <e lm="gota">            <i>got</i><par n="cultur/a__n"/></e>
 <e lm="Got" a="stich">   <i>Got</i><par n="asian__n"/></e>
 <e lm="gotiére">         <i>gotiére</i><par n="abayie__n"/></e>
-<e lm="goua">            <i>gou</i><par n="èrmit/a__n"/></e>
+<e lm="goua">            <i>gou</i><par n="bo/a__n"/></e>
 <e lm="gouache">         <i>gouache</i><par n="abayie__n"/></e>
 <e lm="gouafa">          <i>gouaf</i><par n="cultur/a__n"/></e>
 <e lm="gouapo">          <i>gouap</i><par n="anarchist/o__n"/></e>
@@ -18884,7 +18890,6 @@
 <e lm="massacro">        <i>massacro</i><par n="abricot__n"/></e>
 <e lm="massacror">       <i>massacro</i><par n="admirato/r__n"/></e>
 <e lm="masse">           <i>masse</i><par n="abayie__n"/></e>
-<e lm="massela">         <i>massel</i><par n="èrmit/a__n"/></e>
 <e lm="massepen">        <i>massepen</i><par n="abricot__n"/></e>
 <e lm="massor">          <i>masso</i><par n="admirato/r__n"/></e>
 <e lm="massue">          <i>massue</i><par n="abayie__n"/></e>
@@ -19443,8 +19448,8 @@
 <e lm="niciê">           <i>niciê</i><par n="abayie__n"/></e>
 <e lm="nid">             <i>nid</i><par n="abricot__n"/></e>
 <e lm="niflla">          <i>nifll</i><par n="cultur/a__n"/></e>
-<e lm="Nigèrien">        <i>Nigèri</i><par n="afriqu/en__n"/></e>
-<e lm="Nigèrian">        <i>Nigèrian</i><par n="asian__n"/></e>
+<e lm="Nigèrien">        <i>Ni</i><par n="g/g·"/><i>èri</i><par n="afriqu/en__n"/></e>
+<e lm="Nigèrian">        <i>Ni</i><par n="g/g·"/><i>èrian</i><par n="asian__n"/></e>
 <e lm="nigôd">           <i>nigôd</i><par n="asian__n"/></e>
 <e lm="nilyê">           <i>nilyê</i><par n="abayie__n"/></e>
 <e lm="nimfa">           <i>nimf</i><par n="cultur/a__n"/></e>
@@ -19580,13 +19585,17 @@
 <e lm="ocupacion">       <i>ocupacion</i><par n="abayie__n"/></e>
 <e lm="ocèan">           <i>ocèan</i><par n="abricot__n"/></e>
 <e lm="Ocèanien">        <i>Ocèani</i><par n="afriqu/en__n"/></e>
+<e lm="ocèanien">        <i>ocèani</i><par n="afriqu/en__adj"/></e>
 <e lm="ocèanografia">    <i>ocèanografi</i><par n="cultur/a__n"/></e>
 <e lm="oda">             <i>od</i><par n="cultur/a__n"/></e>
 <e lm="odor">            <i>odor</i><par n="abayie__n"/></e>
 <e lm="ofensa">          <i>ofens</i><par n="cultur/a__n"/></e>
+<e lm="tabaqueria">          <i>tabaqueri</i><par n="cultur/a__n"/></e>
 <e lm="oficio">          <i>oficio</i><par n="abricot__n"/></e>
 <e lm="oficiér">         <i>oficiér</i><par n="aventuriér__n"/></e>
 <e lm="ofiço">           <i>ofiço</i><par n="abricot__n"/></e>
+<e lm="ofiço postâl">  <p><l>ofiço<b/>postâl</l><r>ofiço<b/>postâl<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ofiço postâl">  <p><l>ofiços<b/>postâls</l><r>ofiço<b/>postâl<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="ofiço de benvegnua"><i>ofiço</i><par n="abricot__n"/><p><l><b/>de<b/>benvegnua</l><r><g><b/>de<b/>benvegnua</g></r></p></e>
 <e lm="ofranda">         <i>ofrand</i><par n="cultur/a__n"/></e>
 <e lm="oftalmologue">    <i>oftalmologue</i><par n="enfant__n"/></e>
@@ -19618,7 +19627,7 @@
 <e lm="optimismo" a="hector"><i>optimismo</i><par n="abricot__n"/></e>
 <e lm="optimisto">       <i>optimist</i><par n="anarchist/o__n"/></e>
 <e lm="opulence">        <i>opulence</i><par n="abayie__n"/></e>
-<e lm="opèra">           <i>opèr</i><par n="cultur/a__n"/></e>
+<e lm="opèra">           <i>opèr</i><par n="bo/a__n"/></e>
 <e lm="opèracion">       <i>opèracion</i><par n="abayie__n"/></e>
 <e lm="opèrâ">           <i>opèrâ</i><par n="abricot__n"/></e>
 <e lm="opèrèta">         <i>opèrèt</i><par n="cultur/a__n"/></e>
@@ -19762,7 +19771,7 @@
 <e lm="panèt">           <i>panèt</i><par n="abricot__n"/></e>
 <e lm="panél">           <i>panél</i><par n="abricot__n"/></e>
 <e lm="panô">            <i>panô</i><par n="abricot__n"/></e>
-<e lm="papa">            <i>pap</i><par n="cultur/a__n"/></e>
+<e lm="papa">            <i>pap</i><par n="bo/a__n"/></e>
 <e lm="papagâl">         <i>papagâl</i><par n="abricot__n"/></e>
 <e lm="pape">            <i>pape</i><par n="abricot__n"/></e>
 <e lm="papelyon">        <i>papelyon</i><par n="abricot__n"/></e>
@@ -19986,7 +19995,7 @@
 <e lm="petro">           <i>petro</i><par n="abricot__n"/></e>
 <e lm="petubla">         <i>petubl</i><par n="cultur/a__n"/></e>
 <e lm="petuflla">        <i>petufll</i><par n="cultur/a__n"/></e>
-<e lm="pia">             <i>pi</i><par n="èrmit/a__n"/></e>
+<e lm="pia">             <i>pi</i><par n="bo/a__n"/></e>
 <e lm="pialyement">      <i>pialyement</i><par n="abricot__n"/></e>
 <e lm="pialèt">          <i>pialèt</i><par n="abricot__n"/></e>
 <e lm="pianisto">        <i>pianist</i><par n="anarchist/o__n"/></e>
@@ -20109,6 +20118,7 @@
 <e lm="platâna">         <i>platân</i><par n="cultur/a__n"/></e>
 <e lm="platâno">         <i>platâno</i><par n="abricot__n"/></e>
 <e lm="platél">          <i>platél</i><par n="abricot__n"/></e>
+<e lm="pllatél" a="LoTrèsor"><i>pllatél</i><par n="abricot__n"/></e>
 <e lm="playe">           <i>playe</i><par n="abayie__n"/></e>
 <e lm="plegnent">        <i>plegnent</i><par n="asian__n"/></e>
 <e lm="plenta">          <i>plent</i><par n="cultur/a__n"/></e>
@@ -20674,7 +20684,6 @@
 <e lm="pôrtafôlye">      <i>pôrtafôlye</i><par n="abricot__n"/></e>
 <e lm="pôsa">            <i>pôs</i><par n="cultur/a__n"/></e>
 <e lm="pôsta">           <i>pôst</i><par n="cultur/a__n"/></e>
-<e lm="pôstar">          <i>pôstar</i><par n="abricot__n"/></e>
 <e lm="pôstelyon">       <i>pôstelyon</i><par n="abricot__n"/></e>
 <e lm="pôsto">           <i>pôsto</i><par n="abricot__n"/></e>
 <e lm="Qatarien">        <i>Qatari</i><par n="afriqu/en__n"/></e>
@@ -22270,7 +22279,7 @@
 <e lm="tsar">            <i>tsar</i><par n="abricot__n"/></e>
 <e lm="tsarena" a="alanfavre"><i>tsaren</i><par n="cultur/a__n"/></e>
 <e lm="Tsigano">         <i>Tsigan</i><par n="anarchist/o__n"/></e>
-<e lm="tuba">            <i>tub</i><par n="èrmit/a__n"/></e>
+<e lm="tuba">            <i>tub</i><par n="bo/a__n"/></e>
 <e lm="tubèrculox">      <i>tubèrculo</i><par n="ambicio/x__n"/></e>
 <e lm="tubèrculosa">     <i>tubèrculos</i><par n="cultur/a__n"/></e>
 <e lm="tuche">           <i>tuche</i><par n="enfant__n"/></e>
@@ -22301,7 +22310,7 @@
 <e lm="târa">            <i>târ</i><par n="cultur/a__n"/></e>
 <e lm="târpa">           <i>târp</i><par n="cultur/a__n"/></e>
 <e lm="târpiér">         <i>târpiér</i><par n="aventuriér__n"/></e>
-<e lm="târtra">          <i>târtr</i><par n="èrmit/a__n"/></e>
+<e lm="târtra">          <i>târtr</i><par n="cultur/a__n"/></e>
 <e lm="tâs">             <i>tâs</i><par n="mês__n"/></e>
 <e lm="tâssa">           <i>tâss</i><par n="cultur/a__n"/></e>
 <e lm="tècnô">           <i>tècnô</i><par n="abayie__n"/></e>
@@ -23067,7 +23076,6 @@
 <e lm="èquèrro">         <i>èquèrro</i><par n="abricot__n"/></e>
 <e lm="èra">             <i>èr</i><par n="cultur/a__n"/></e>
 <e lm="Èritrèen">        <i>Èritrè</i><par n="afriqu/en__n"/></e>
-<e lm="èrmita">          <i>èrmit</i><par n="èrmit/a__n"/></e>
 <e lm="èrmito">          <i>èrmito</i><par n="abricot__n"/></e>
 <e lm="èrmitâjo">        <i>èrmitâjo</i><par n="abricot__n"/></e>
 <e lm="èrmo">            <i>èrmo</i><par n="abricot__n"/></e>
@@ -24148,7 +24156,7 @@
 <e lm="Algiér">          <i>Algiér</i><par n="Iran__np"/></e>
 <e lm="Alguacil">        <i>Alguacil</i><par n="Saussure__np"/></e>
 <e lm="Alguero">         <i>Alguero</i><par n="Saussure__np"/></e>
-<e lm="Algèrie">         <i>Algèrie</i><par n="Bulgarie__np"/></e>
+<e lm="Algèrie">         <i>Al</i><par n="g/g·"/><i>èrie</i><par n="Bulgarie__np"/></e>
 <e lm="Ali">             <i>Ali</i><par n="Jian__np"/></e>
 <e lm="Ali">             <i>Ali</i><par n="Saussure__np"/></e>
 <e lm="Alia">            <i>Alia</i><par n="Marie__np"/></e>
@@ -25280,11 +25288,8 @@
 <e lm="Atenea">          <i>Atenea</i><par n="Marie__np"/></e>
 <e lm="Athalie">         <i>Athalie</i><par n="Marie__np"/></e>
 <e lm="Athanasiu">       <i>Athanasiu</i><par n="Saussure__np"/></e>
-<e lm="Athena">          <i>Athena</i><par n="Marie__np"/></e>
-<e lm="Athenais">        <i>Athenais</i><par n="Marie__np"/></e>
 <e lm="Atherton">        <i>Atherton</i><par n="Saussure__np"/></e>
 <e lm="Athot">           <i>Athot</i><par n="Saussure__np"/></e>
-<e lm="Athéna">          <i>Athéna</i><par n="Marie__np"/></e>
 <e lm="Athénée">         <i>Athénée</i><par n="Jian__np"/></e>
 <e lm="Atienza">         <i>Atienza</i><par n="Saussure__np"/></e>
 <e lm="Atila">           <i>Atila</i><par n="Jian__np"/></e>
@@ -27670,7 +27675,7 @@
 <e lm="Burillo">         <i>Burillo</i><par n="Saussure__np"/></e>
 <e lm="Burity">          <i>Burity</i><par n="Saussure__np"/></e>
 <e lm="Burke">           <i>Burke</i><par n="Saussure__np"/></e>
-<e lm="Burkina-Fasô">    <i>Burkina-Fasô</i><par n="Iran__np"/></e>
+<e lm="Burkina-Faso">    <i>Burkina-Faso</i><par n="Iran__np"/></e>
 <e lm="Burlacu">         <i>Burlacu</i><par n="Saussure__np"/></e>
 <e lm="Burlamaqui">      <i>Burlamaqui</i><par n="Saussure__np"/></e>
 <e lm="Burlando">        <i>Burlando</i><par n="Saussure__np"/></e>
@@ -29804,7 +29809,8 @@
 <e lm="Confalonieri">    <i>Confalonieri</i><par n="Saussure__np"/></e>
 <e lm="Confucius">       <i>Confucius</i><par n="Jian__np"/></e>
 <e lm="Congost">         <i>Congost</i><par n="Saussure__np"/></e>
-<e lm="Congô">           <i>Congô</i><par n="Iran__np"/></e>
+<e lm="Congo">            <i>Congo</i><par n="Iran__np"/></e>
+<e r="LR" lm="Congô" c="use_sub">            <i>Congô</i><par n="Iran__np"/></e>
 <e lm="Conigliaro">      <i>Conigliaro</i><par n="Saussure__np"/></e>
 <e lm="Conill">          <i>Conill</i><par n="Saussure__np"/></e>
 <e lm="Conley">          <i>Conley</i><par n="Saussure__np"/></e>
@@ -31425,7 +31431,7 @@
 <e lm="Diz">             <i>Diz</i><par n="Saussure__np"/></e>
 <e lm="Dizazzo">         <i>Dizazzo</i><par n="Saussure__np"/></e>
 <e lm="Diéguez">         <i>Diéguez</i><par n="Saussure__np"/></e>
-<e lm="Djibouti">        <i>Djibouti</i><par n="Iran__np"/></e>
+<e lm="Djibouti">        <i>D</i><par n="j/j·"/><i>ibouti</i><par n="Iran__np"/></e>
 <e lm="Djokovic">        <i>Djokovic</i><par n="Saussure__np"/></e>
 <e lm="Dmitriy">         <i>Dmitriy</i><par n="Jian__np"/></e>
 <e lm="Dmitry">          <i>Dmitry</i><par n="Jian__np"/></e>
@@ -38645,7 +38651,7 @@
 <e lm="Lènine">          <i>Lènin</i><par n="Gagarin/e__np"/></e>
 <e lm="Lèpid">           <i>Lèpid</i><par n="Saussure__np"/></e>
 <e lm="Lèsbos">          <i>Lèsbos</i><par n="Bulgarie__np"/></e>
-<e lm="Lèsotô">          <i>Lèsotô</i><par n="Iran__np"/></e>
+<e lm="Lèsoto">          <i>Lèsoto</i><par n="Iran__np"/></e>
 <e r="LR" lm="Lètonia" a="Vouiquipèdia" c="use_sub"><i>Lètonia</i><par n="Bulgarie__np"/></e>
 <e lm="Lètonie">         <i>Lètonie</i><par n="Bulgarie__np"/></e>
 <e lm="Léa">             <i>Léa</i><par n="Marie__np"/></e>
@@ -41420,7 +41426,7 @@
 <e lm="Natàlia">         <i>Natàlia</i><par n="Marie__np"/></e>
 <e lm="Nault">           <i>Nault</i><par n="Saussure__np"/></e>
 <e lm="Naum">            <i>Naum</i><par n="Saussure__np"/></e>
-<e lm="Nausica">         <i>Nausica</i><par n="Marie__np"/></e>
+<e lm="Nôsicaa">         <i>Nôsicaa</i><par n="Marie__np"/></e>
 <e lm="Nava">            <i>Nava</i><par n="Saussure__np"/></e>
 <e lm="Navajas">         <i>Navajas</i><par n="Saussure__np"/></e>
 <e lm="Naval">           <i>Naval</i><par n="Saussure__np"/></e>
@@ -41671,7 +41677,7 @@
 <e lm="Nieves">          <i>Nieves</i><par n="Saussure__np"/></e>
 <e lm="Nigel">           <i>Nigel</i><par n="Jian__np"/></e>
 <e lm="Nigra">           <i>Nigra</i><par n="Saussure__np"/></e>
-<e lm="Nigèr">           <i>Nigèr</i><par n="Iran__np"/></e>
+<e lm="Nigèr">           <i>Ni</i><par n="g/g·"/><i>èr</i><par n="Iran__np"/></e>
 <e lm="Nihad">           <i>Nihad</i><par n="Marie__np"/></e>
 <e lm="Nihat">           <i>Nihat</i><par n="Jian__np"/></e>
 <e lm="Nihous">          <i>Nihous</i><par n="Saussure__np"/></e>
@@ -45341,8 +45347,8 @@
 <e lm="Rèpublica Centrafriquèna"><i>Rèpublica<b/>Centrafriquèna</i><par n="Bulgarie__np"/></e>
 <e lm="Rèpublica Dominiquèna"><i>Rèpublica<b/>Dominiquèna</i><par n="Bulgarie__np"/></e>
 <e r="LR" lm="Rèpublica Dominiquèna" c="use_sub"><p><l>Rèpublica<b/>domeniquêna</l><r>Rèpublica<b/>Dominiquèna</r></p><par n="Bulgarie__np"/></e>
-<e lm="Rèpublica du Congô"><i>Rèpublica<b/>du<b/>Congô</i><par n="Bulgarie__np"/></e>
-<e lm="Rèpublica Dèmocratica du Congô"><i>Rèpublica<b/>Dèmocratica<b/>du<b/>Congô</i><par n="Bulgarie__np"/></e>
+<e lm="Rèpublica du Congo"><i>Rèpublica<b/>du<b/>Congo</i><par n="Bulgarie__np"/></e>
+<e lm="Rèpublica Dèmocratica du Congo"><i>Rèpublica<b/>Dèmocratica<b/>du<b/>Congo</i><par n="Bulgarie__np"/></e>
 <e lm="Rèpublica Tchèca"><i>Rèpublica<b/>Tc</i><par n="h/h·"/><i>èca</i><par n="Bulgarie__np"/></e>
 <e lm="Réaumur">         <i>Réaumur</i><par n="Saussure__np"/></e>
 <e lm="Rébecca">         <i>Rébecca</i><par n="Marie__np"/></e>
@@ -47853,7 +47859,8 @@
 <e lm="Toga">            <i>Toga</i><par n="Saussure__np"/></e>
 <e lm="Togni">           <i>Togni</i><par n="Saussure__np"/></e>
 <e lm="Tognoli">         <i>Tognoli</i><par n="Saussure__np"/></e>
-<e lm="Togô">            <i>Togô</i><par n="Iran__np"/></e>
+<e lm="Togo">            <i>Togo</i><par n="Iran__np"/></e>
+<e r="LR" lm="Togô" c="use_sub">            <i>Togô</i><par n="Iran__np"/></e>
 <e lm="Toia">            <i>Toia</i><par n="Saussure__np"/></e>
 <e lm="Toinette">        <i>Toinette</i><par n="Marie__np"/></e>
 <e lm="Tokiko">          <i>Tokiko</i><par n="Saussure__np"/></e>
@@ -48135,7 +48142,8 @@
 <e lm="Trinidad">        <i>Trinidad</i><par n="Saussure__np"/></e>
 <e lm="Trinity">         <i>Trinity</i><par n="Marie__np"/></e>
 <e lm="Trinitât">        <i>Trinitât</i><par n="Bulgarie__np"/></e>
-<e lm="Trinitât-et-Tobagô"><i>Trinitât-et-Tobagô</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Trinitât-et-Tobagô"><i>Trinitât-et-Tobagô</i><par n="Bulgarie__np"/></e>
+<e lm="Trinitât-et-Tobago" c="use_sub"><i>Trinitât-et-Tobago</i><par n="Bulgarie__np"/></e>
 <e lm="Trinque">         <i>Trinque</i><par n="Saussure__np"/></e>
 <e lm="Triola">          <i>Triola</i><par n="Saussure__np"/></e>
 <e lm="Trione">          <i>Trione</i><par n="Saussure__np"/></e>
@@ -51325,7 +51333,7 @@
 <e lm="bougralyér">      <i>bougraly</i><par n="pay/ér__vblex"/></e>
 <e lm="boulonar">        <i>boulon</i><par n="chant/ar__vblex"/></e>
 <e lm="bourlar">         <i>bourl</i><par n="chant/ar__vblex"/></e>
-<e lm="bouèlar">         <i>bouèl</i><par n="chant/ar__vblex"/></e>
+<e lm="bouèlar" a="stich">         <i>bouèl</i><par n="chant/ar__vblex"/></e>
 <e lm="bouèrlar">        <i>bouèrl</i><par n="chant/ar__vblex"/></e>
 <e lm="bouètar">         <i>bouèt</i><par n="chant/ar__vblex"/></e>
 <e lm="boxar">           <i>box</i><par n="chant/ar__vblex"/></e>
@@ -52861,6 +52869,7 @@
 <e lm="iluminar">        <i>ilumin</i><par n="chant/ar__vblex"/></e>
 <e lm="ilustrar">        <i>ilustr</i><par n="chant/ar__vblex"/></e>
 <e lm="imaginar">        <i>imagin</i><par n="chant/ar__vblex"/></e>
+<e lm="émaginar" a="alanfavre"><i>émagin</i><par n="chant/ar__vblex"/></e>
 <e lm="imigrar" a="alanfavre"><i>imigr</i><par n="chant/ar__vblex"/></e>
 <e lm="imitar">          <i>imit</i><par n="chant/ar__vblex"/></e>
 <e lm="importar">        <i>imp</i><par n="t/o[RN]ar__vblex" prm="rt"/></e>
@@ -53477,7 +53486,7 @@
 <e lm="rapicolar">       <i>rapicol</i><par n="chant/ar__vblex"/></e>
 <e lm="rapistolar">      <i>rapistol</i><par n="chant/ar__vblex"/></e>
 <e lm="rapondre">        <i>rapond</i><par n="apond/re__vblex"/></e>
-<e lm="raprochiér">      <i>raproch</i><par n="lèss/iér__vblex"/></e>
+<e lm="raprochiér">      <i>rapr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
 <e lm="rapèrchiér">      <i>rapèrch</i><par n="lèss/iér__vblex"/></e>
 <e lm="rassemblar">      <i>rassembl</i><par n="chant/ar__vblex"/></e>
 <e lm="rassietar">       <i>rassi</i><par n="ap/e[L]ar__vblex" prm="t"/></e>
@@ -53667,8 +53676,8 @@
 <e lm="repoplar">        <i>repopl</i><par n="chant/ar__vblex"/></e>
 <e lm="repoussar">       <i>repouss</i><par n="chant/ar__vblex"/></e>
 <e lm="reprendre">       <i>repr</i><par n="pr/endre__vblex"/></e>
-<e lm="reprogiér">       <i>repro</i><par n="me/giér__vblex"/></e>
-<e lm="reprochiér">      <i>reproch</i><par n="lèss/iér__vblex"/></e>
+<e lm="reprogiér">       <i>repr</i><par n="repr/o[]giér__vblex" prm=""/></e>
+<e lm="reprochiér">      <i>repr</i><par n="apr/o[CH]iér__vblex" prm="ch"/></e>
 <e lm="reproduire">      <i>reprodui</i><par n="condui/re__vblex"/></e>
 <e lm="reprèsentar">     <i>reprèsent</i><par n="chant/ar__vblex"/></e>
 <e lm="repugnér">        <i>repugn</i><par n="pay/ér__vblex"/></e>
@@ -55491,8 +55500,8 @@
 <e lm="sèlèccionor" a="alanfavre">          <i>sèlècciono</i><par n="admirato/r__n"/></e>
 <e lm="smartfone" a="alanfavre">          <i>smartfone</i><par n="abricot__n"/></e>
 <e lm="souegnent" a="alanfavre">          <i>souegnent</i><par n="asian__n"/></e>
-<e r="LR" lm="sôverenitât" a="alanfavre" c="use_sub">          <i>sôverenit</i><par n="activit/ât__n"/></e>
-<e lm="soveranitât" a="hector">          <i>soveranit</i><par n="activit/ât__n"/></e>
+<e r="LR" lm="sôverenetât" a="Vouiquipèdia" c="use_sub">          <i>sôverenet</i><par n="activit/ât__n"/></e>
+<e lm="sôverenitât" a="alanfavre">          <i>sôverenit</i><par n="activit/ât__n"/></e>
 <e r="LR" lm="soverenismo" a="alanfavre" c="use_sub">          <i>soverenismo</i><par n="abricot__n"/></e>
 <e lm="soveranismo" a="hector">          <i>soveranismo</i><par n="abricot__n"/></e>
 <e r="LR" lm="soverenisto" a="alanfavre" c="use_sub">          <i>soverenist</i><par n="anarchist/o__n"/></e>
@@ -55515,7 +55524,7 @@
 <e lm="usagiér" a="alanfavre">          <i>usagiér</i><par n="aventuriér__n"/></e>
 <e lm="usurpator" a="alanfavre">          <i>usurpat</i><par n="act/or__n"/></e>
 <e lm="validitât" a="alanfavre">          <i>validit</i><par n="activit/ât__n"/></e>
-<e lm="vidèo" a="alanfavre">          <i>vidèo</i><par n="abricot__n"/></e>
+<e lm="vidèo" a="alanfavre">          <i>vidèo</i><par n="abayie__n"/></e>
 <e lm="violo" a="alanfavre">          <i>violo</i><par n="abricot__n"/></e>
 <e lm="agravacion" a="alanfavre">          <i>agravacion</i><par n="abayie__n"/></e>
 <e lm="agrocomèrço" a="alanfavre">          <i>agrocomèrço</i><par n="abricot__n"/></e>
@@ -55904,6 +55913,8 @@
 <e lm="libra-pensâ">   <p><l>libres-pensâs</l><r>libra-pensâ<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="sang-mècllâ">   <p><l>sang-mècllâ</l><r>sang-mècllâ<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="sang-mècllâ">   <p><l>sangs-mècllâs</l><r>sang-mècllâ<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e lm="lengoua-mére" a="LoTrèsor"><p><l>lengoua-mére</l><r>lengoua-mére<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="lengoua-mére" a="LoTrèsor"><p><l>lengoues-méres</l><r>lengoua-mére<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="sèctor privâ">   <p><l>sèctor<b/>privâ</l><r>sèctor<b/>privâ<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="sèctor privâ">   <p><l>sèctors<b/>privâs</l><r>sèctor<b/>privâ<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="filme long" a="alanfavro">   <p><l>filme<b/>long</l><r>filme<b/>long<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -56470,7 +56481,7 @@
 <e lm="Ottawa" a="Vouiquipèdia">          <i>Ottawa</i><par n="Bulgarie__np"/></e>
 <e lm="Bohèma" a="hector">          <i>Bohèma</i><par n="Bulgarie__np"/></e>
 <e lm="Moravie" a="hector">          <i>Moravie</i><par n="Bulgarie__np"/></e>
-<e lm="Queensland" a="hector">          <i>Queensland</i><par n="Iran__np"/></e>
+<e lm="Queensland" a="hector" c="use_sub">          <i>Queensland</i><par n="Iran__np"/></e>
 <e r="LR" lm="Tolosa" a="Vouiquipèdia" c="use_sub">          <i>Tolosa</i><par n="Bulgarie__np"/></e>
 <e lm="Brussèles" a="Vouiquipèdia">          <i>Brussèles</i><par n="Iran__np"/></e>
 <e r="LR" lm="Brussèla" a="Vouiquipèdia" c="use_sub">          <i>Brussèla</i><par n="Iran__np"/></e>
@@ -56574,6 +56585,8 @@
 
 <e lm="Attac">          <i>Attac</i><par n="Wikipedia__np"/></e>
 <e lm="France Inter">          <i>France<b/>Inter</i><par n="Wikipedia__np"/></e>
+<e lm="France 3">          <i>France<b/>3</i><par n="Wikipedia__np"/></e>
+<e lm="France 24">          <i>France<b/>24</i><par n="Wikipedia__np"/></e>
 <e lm="Adidas">          <i>Adidas</i><par n="Wikipedia__np"/></e>
 <e lm="Nike">          <i>Nike</i><par n="Linux__np"/></e>
 <e lm="Volvo">          <i>Volvo</i><par n="Wikipedia__np"/></e>
@@ -56802,7 +56815,7 @@
 <e lm="grèco" a="hector">          <i>grèco</i><par n="anti__pref"/></e>
 <e lm="bizantino" a="hector">          <i>bizantino</i><par n="anti__pref"/></e>
 <e lm="helèno" a="hector">          <i>helèno</i><par n="anti__pref"/></e>
-<e lm="nigèro" a="hector">          <i>nigèro</i><par n="anti__pref"/></e>
+<e lm="nigèro" a="hector">          <i>ni</i><par n="g/g·"/><i>èro</i><par n="anti__pref"/></e>
 <e lm="divèrs" a="LoTrèsor">          <i>divèrs</i><par n="borjouès__adj"/></e>
 <e lm="FN">          <i>FN</i><par n="BBVA__n"/></e>
 <e lm="RN">          <i>RN</i><par n="BBVA__n"/></e>
@@ -57977,7 +57990,7 @@
 <e lm="ubèrisacion" a="hector">          <i>ubèrisacion</i><par n="abayie__n"/></e>
 <e lm="carèlien" a="hector">          <i>carèli</i><par n="afriqu/en__n"/></e>
 <e lm="ègzoplanèta" a="hector">          <i>ègzoplanèt</i><par n="cultur/a__n"/></e>
-<e lm="sida" a="hector">          <i>sid</i><par n="cultur/a__n"/></e>
+<e lm="sida" a="hector">          <i>sid</i><par n="bo/a__n"/></e>
 <e lm="consolidacion" a="corpus">          <i>consolidacion</i><par n="abayie__n"/></e>
 <e lm="fonèmo" a="hector">          <i>fonèmo</i><par n="abricot__n"/></e>
 <e lm="grafèmo" a="hector">          <i>grafèmo</i><par n="abricot__n"/></e>
@@ -58052,8 +58065,8 @@
 <e lm="Unicode" a="hector">          <i>Unicode</i><par n="Linux__np"/></e>
 <e lm="Ranger" a="hector">          <i>Ranger</i><par n="Linux__np"/></e>
 <e lm="Ine" a="stich">          <i>Ine</i><par n="Iran__np"/></e>
-<e lm="Pô">          <i>Pô</i><par n="Iran__np"/></e>
-<e lm="Po" a="Vouiquipèdia">          <i>Po</i><par n="Iran__np"/></e>
+<e lm="Pô" c="Stich, 28.07.2020">          <i>Pô</i><par n="Iran__np"/></e>
+<e r="LR" lm="Po" a="Vouiquipèdia" c="use_sub">          <i>Po</i><par n="Iran__np"/></e>
 <e lm="julien" a="hector">          <i>juli</i><par n="afriqu/en__adj"/></e>
 <e lm="socioculturèl" a="hector">          <i>socioculturèl</i><par n="asian__adj"/></e>
 <e lm="saducèen" a="stich">          <i>saducè</i><par n="afriqu/en__adj"/></e>
@@ -58085,6 +58098,185 @@
 <e lm="bètonisacion" a="alanfavro">          <i>bètonisacion</i><par n="abayie__n"/></e>
 <e lm="blètonisacion" a="alanfavro">          <i>blètonisacion</i><par n="abayie__n"/></e>
 <e lm="accèlèrator" a="alanfavro">          <i>accèlèrator</i><par n="abricot__n"/></e>
+<e lm="lama" a="LoTrèsor">          <i>lam</i><par n="bo/a__n"/></e>
+<e lm="Grant-Bèca" a="Vouiquipèdia"><i>Grant-Bèca</i><par n="Bulgarie__np"/></e>
+<e lm="Sèrvin" a="Vouiquipèdia"><i>Sèrvin</i><par n="Iran__np"/></e>
+<e lm="Crét du Nivolet"><i>Crét<b/>du<b/>Nivolet</i><par n="Iran__np"/></e>
+<e lm="Nivolet"><i>Nivolet</i><par n="Iran__np"/></e>
+<e lm="Ozenche"><i>Ozenche</i><par n="Iran__np"/></e>
+<e lm="Ognena"><i>Ognena</i><par n="Bulgarie__np"/></e>
+<e lm="Prenche"><i>Prenche</i><par n="Iran__np"/></e>
+<e lm="encartar" a="alanfavre"><i>encart</i><par n="chant/ar__vblex"/></e>
+<e lm="Total">          <i>Total</i><par n="Linux__np"/></e>
+<e lm="Hermès">          <i>Hermès</i><par n="Linux__np"/></e>
+<e lm="Arcelor">          <i>Arcelor</i><par n="Linux__np"/></e>
+<e lm="Safran">          <i>Safran</i><par n="Linux__np"/></e>
+<e lm="ArcelorMittal">          <i>ArcelorMittal</i><par n="Linux__np"/></e>
+<e lm="Lisp">          <i>Lisp</i><par n="Linux__np"/></e>
+<e lm="Common Lisp">          <i>Common<b/>Lisp</i><par n="Linux__np"/></e>
+<e lm="Prolog">          <i>Prolog</i><par n="Linux__np"/></e>
+<e lm="Perl">          <i>Perl</i><par n="Linux__np"/></e>
+<e lm="Python">          <i>Python</i><par n="Linux__np"/></e>
+<e lm="Tcl">          <i>Tcl</i><par n="Linux__np"/></e>
+<e lm="Black Lives Matter" a="hector">          <i>Black<b/>Lives<b/>Matter</i><par n="Linux__np"/></e>
+<e lm="Me Too" a="hector">          <i>Me<b/>Too</i><par n="Linux__np"/></e>
+<e lm="Beatles">          <i>Beatles</i><par n="Jeux_olympiques__np"/></e>
+<e lm="Mayota" a="Vouiquipèdia">          <i>Mayota</i><par n="Bulgarie__np"/></e>
+<e lm="Crêta">          <i>Crêta</i><par n="Bulgarie__np"/></e>
+<e lm="Ila Môrice">          <i>Ila<b/>Môrice</i><par n="Bulgarie__np"/></e>
+<e lm="Jarnègo">          <i>Jarnègo</i><par n="Iran__np"/></e>
+<e lm="Maliven">          <i>Maliven</i><par n="Iran__np"/></e>
+<e lm="Margeries">          <i>Margeries</i><par n="Alemagnes__np"/></e>
+<e lm="l'Uselèt">          <i>l'Uselèt</i><par n="Iran__np"/></e>
+<e lm="Piboulèta">          <i>Piboulèta</i><par n="Bulgarie__np"/></e>
+<e lm="Prend-tè-gârda">          <i>Prend-tè-gârda</i><par n="Bulgarie__np"/></e>
+<e lm="Schengen">          <i>Schengen</i><par n="Iran__np"/></e>
+<e lm="Lèningrad">          <i>Lèningrad</i><par n="Iran__np"/></e>
+<e lm="Lisbona" a="Vouiquipèdia">          <i>Lisbona</i><par n="Bulgarie__np"/></e>
+<e lm="Dublin" a="Vouiquipèdia">          <i>Dublin</i><par n="Iran__np"/></e>
+<e r="LR" lm="Reyômo-Uni" a="Vouiquipèdia" c="use_sub">          <i>Reyômo-Uni</i><par n="Iran__np"/></e>
+<e lm="Atlâs" a="hector">          <i>Atlâs</i><par n="Iran__np"/></e>
+<e lm="Ètna" a="hector">          <i>Ètna</i><par n="Iran__np"/></e>
+<e lm="Vèsuvo" a="hector">          <i>Vèsuvo</i><par n="Iran__np"/></e>
+<e lm="Balcans" a="Vouiquipèdia">          <i>Balcans</i><par n="États-Unis__np"/></e>
+<e r="LR" lm="França" a="Vouiquipèdia" c="use_sub">          <i>França</i><par n="Bulgarie__np"/></e>
+<e lm="Burkina Fasô" a="Vouiquipèdia" c="use_sub">          <i>Burkina<b/>Fasô</i><par n="Iran__np"/></e>
+<e lm="Lesothô" a="Vouiquipèdia" c="use_sub">          <i>Lesothô</i><par n="Iran__np"/></e>
+<e lm="Xinjiang" a="hector">          <i>Xinjiang</i><par n="Iran__np"/></e>
+<e lm="Êriu">          <i>Êriu</i><par n="Iran__np"/></e>
+<e lm="Arc">          <i>Arc</i><par n="Iran__np"/></e>
+<e lm="Arvan">          <i>Arvan</i><par n="Iran__np"/></e>
+<e lm="Bôna">          <i>Bôna</i><par n="Bulgarie__np"/></e>
+<e lm="Cèza">          <i>Cèza</i><par n="Bulgarie__np"/></e>
+<e lm="Drac">          <i>Drac</i><par n="Iran__np"/></e>
+<e lm="Draf">          <i>Draf</i><par n="Iran__np"/></e>
+<e lm="Fllon">          <i>Fllon</i><par n="Iran__np"/></e>
+<e lm="Giér">          <i>Giér</i><par n="Iran__np"/></e>
+<e lm="Griena">          <i>Griena</i><par n="Bulgarie__np"/></e>
+<e lm="Gruviére">          <i>Gruviére</i><par n="Bulgarie__np"/></e>
+<e lm="Gruviéres">          <i>Gruviéres</i><par n="Bulgarie__np"/></e>
+<e lm="Jouche">          <i>Jouche</i><par n="Bulgarie__np"/></e>
+<e lm="Jonche">          <i>Jonche</i><par n="Bulgarie__np"/></e>
+<e lm="Jorat">          <i>Jorat</i><par n="Iran__np"/></e>
+<e lm="Nantèta">          <i>Nantèta</i><par n="Bulgarie__np"/></e>
+<e lm="Navisenche">          <i>Navisenche</i><par n="Bulgarie__np"/></e>
+<e lm="Mont Blanc">          <i>Mont<b/>Blanc</i><par n="Iran__np"/></e>
+<e lm="Mont Dolent">          <i>Mont<b/>Dolent</i><par n="Iran__np"/></e>
+<e lm="crét de la Nê">          <i>crét<b/>de<b/>la<b/>Nê</i><par n="Iran__np"/></e>
+<e lm="Nivolèt">          <i>Nivolèt</i><par n="Bulgarie__np"/></e>
+<e lm="Crét du Nivolèt">          <i>Crét<b/>du<b/>Nivolèt</i><par n="Bulgarie__np"/></e>
+<e lm="Rouèzôna">          <i>Rouèzôna</i><par n="Bulgarie__np"/></e>
+<e lm="Riotôrt">          <i>Riotôrt</i><par n="Iran__np"/></e>
+<e lm="Singena">          <i>Singena</i><par n="Bulgarie__np"/></e>
+<e lm="Sarena">          <i>Sarena</i><par n="Bulgarie__np"/></e>
+<e lm="Âra" a="Vouiquipèdia">          <i>Âra</i><par n="Iran__np"/></e>
+<e lm="Mèlbourne" a="hector">          <i>Mèlbourne</i><par n="Bulgarie__np"/></e>
+<e lm="Sydney" a="Vouiquipèdia">          <i>Sydney</i><par n="Iran__np"/></e>
+<e lm="Baal" a="stich">          <i>Baal</i><par n="Jian__np"/></e>
+<e lm="Absalom" a="stich">          <i>Absalom</i><par n="Jian__np"/></e>
+<e lm="Ustache">          <i>Ustache</i><par n="Jian__np"/></e>
+<e lm="bètonisar" a="alanfavro/hector">          <i>bètonis</i><par n="chant/ar__vblex"/></e>
+<e lm="blètonisar" a="alanfavro/hector">          <i>blètonis</i><par n="chant/ar__vblex"/></e>
+<e lm="balcanisar" a="hector">          <i>balcanis</i><par n="chant/ar__vblex"/></e>
+<e lm="lengoueyér" a="LoTrèsor">          <i>lengouey</i><par n="pay/ér__vblex"/></e>
+<e lm="lenguir" a="LoTrèsor">          <i>lengu</i><par n="fen/ir__vblex"/></e>
+<e lm="tradicionalament" a="Vouiquipèdia">          <i>tradicionalament</i><par n="avant__adv"/></e>
+<e lm="a châ doux">          <i>a<b/>châ<b/>doux</i><par n="avant__adv"/></e>
+<e lm="châ pou">          <i>châ<b/>pou</i><par n="avant__adv"/></e>
+<e r="LR" lm="vèritâblament" a="Vouiquipèdia" c="use_sub">          <i>vèritâblament</i><par n="avant__adv"/></e>
+<e lm="come d'usâjo" a="LoTrèsor">          <i>come<b/>d'usâjo</i><par n="avant__adv"/></e>
+<e lm="a môdo" a="LoTrèsor">          <i>a<b/>môdo</i><par n="avant__adv"/></e>
+<e lm="adrêt" a="LoTrèsor">          <i>adrêt</i><par n="avant__adv"/></e>
+<e lm="de primo abôrd" a="LoTrèsor">          <i>de<b/>primo<b/>abôrd</i><par n="avant__adv"/></e>
+<e lm="languissament" a="LoTrèsor">          <i>languissament</i><par n="avant__adv"/></e>
+<e lm="foto" a="hector">          <i>foto</i><par n="anti__pref"/></e>
+<e lm="libèrâl" a="hector">          <i>libèrâl</i><par n="anti__pref"/></e>
+<e lm="radicâl" a="hector">          <i>radicâl</i><par n="anti__pref"/></e>
+<e lm="étalo" a="Vouiquipèdia">          <i>étalo</i><par n="anti__pref"/></e>
+<e lm="re" a="alanfavro">          <i>re</i><par n="anti__pref"/></e>
+<e lm="brut" a="Vouiquipèdia">          <i>brut</i><par n="asian__adj"/></e>
+<e lm="continental" a="hector">          <i>continent</i><par n="coloss/al__adj"/></e>
+<e lm="transcontinental" a="hector">          <i>transcontinent</i><par n="coloss/al__adj"/></e>
+<e lm="constitucional" a="Vouiquipèdia/hector">          <i>constitucion</i><par n="coloss/al__adj"/></e>
+<e lm="anticonstitucional" a="hector">          <i>anticonstitucion</i><par n="coloss/al__adj"/></e>
+<e lm="prèsidencial" a="Vouiquipèdia/hector">          <i>prèsidenci</i><par n="coloss/al__adj"/></e>
+<e lm="mié-prèsidencial" a="Vouiquipèdia/hector">          <i>mié-prèsidenci</i><par n="coloss/al__adj"/></e>
+<e lm="cultural" a="Vouiquipèdia/hector">          <i>cultur</i><par n="coloss/al__adj"/></e>
+<e lm="nominal" a="Vouiquipèdia/hector">          <i>nomin</i><par n="coloss/al__adj"/></e>
+<e lm="unitèro" a="hector">          <i>unitèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="èxcllusif" a="Vouiquipèdia">          <i>èxcllusi</i><par n="acti/f__adj"/></e>
+<e lm="ultramaren" a="Vouiquipèdia">          <i>ultramar</i><par n="afriqu/en__adj"/></e>
+<e r="LR" lm="siésiémo" a="Vouiquipèdia" c="use_sub">          <i>siésiém</i><par n="anarchist/o__adj"/></e>
+<e lm="trotior">          <i>trotio</i><par n="admirato/r__adj"/></e>
+<e lm="crêtês">          <i>crêt</i><par n="angll/ês__adj"/></e>
+<e lm="chablèsien">          <i>chablèsi</i><par n="afriqu/en__adj"/></e>
+<e r="LR" lm="vèritâblo" a="Vouiquipèdia" c="use_sub">          <i>vèritâbl</i><par n="anarchist/o__adj"/></e>
+<e lm="toquiote" a="Vouiquipèdia">          <i>toquiote</i><par n="fadasse__adj"/></e>
+<e lm="astronôtico" a="hector">          <i>astronôti</i><par n="asiati/co__adj"/></e>
+<e lm="astronomico" a="hector">          <i>astronomi</i><par n="asiati/co__adj"/></e>
+<e lm="afèt" a="LoTrèsor">          <i>afèt</i><par n="asian__adj"/></e>
+<e lm="consulèro" a="hector">          <i>consulèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="baloutche" a="hector">          <i>baloutche</i><par n="fadasse__adj"/></e>
+<e lm="balcanico" a="hector">          <i>balcani</i><par n="asiati/co__adj"/></e>
+<e lm="postâl">          <i>postâl</i><par n="asian__adj"/></e>
+<e lm="lamayisto" a="LoTrèsor">          <i>lamayist</i><par n="anarchist/o__adj"/></e>
+<e lm="lamayico" a="LoTrèsor">          <i>lamayi</i><par n="asiati/co__adj"/></e>
+<e lm="lamarckien" a="LoTrèsor">          <i>lamarcki</i><par n="afriqu/en__adj"/></e>
+<e lm="milyârdèro" a="hector">          <i>milyârdèr</i><par n="advèrsèr/o__adj"/></e>
+<e lm="gruveren">          <i>gruver</i><par n="afriqu/en__adj"/></e>
+<e lm="gruverenc">          <i>gruverenc</i><par n="blanc__adj"/></e>
+<e lm="joratêr">          <i>joratêr</i><par n="asian__adj"/></e>
+<e lm="Joratêr">          <i>Joratêr</i><par n="asian__n"/></e>
+<e lm="transilvanien" a="Vouiquipèdia">          <i>transilvani</i><par n="afriqu/en__adj"/></e>
+<e lm="folque" a="alanfavro">          <i>folque</i><par n="fadasse__adj"/></e>
+<e lm="psicotropo" a="alanfavro">          <i>psicotrop</i><par n="anarchist/o__adj"/></e>
+<e lm="racionèl" a="LoTrèsor">          <i>racionèl</i><par n="asian__adj"/></e>
+<e lm="racionalisto" a="LoTrèsor">          <i>racionalist</i><par n="anarchist/o__adj"/></e>
+<e lm="pllat" a="LoTrèsor">          <i>pllat</i><par n="asian__adj"/></e>
+<e lm="languido" a="LoTrèsor">          <i>languid</i><par n="anarchist/o__adj"/></e>
+<e lm="languissant" a="LoTrèsor">          <i>languissant</i><par n="asian__adj"/></e>
+<e lm="baltico" a="hector">          <i>balti</i><par n="asiati/co__adj"/></e>
+<e lm="galouès" a="Vouiquipèdia">          <i>galouès</i><par n="borjouès__adj"/></e>
+<e r="LR" lm="ôtomobilo" a="corpus" c="use_sub">          <i>ôtomobilo</i><par n="abricot__n"/></e>
+<e lm="carcinosa" a="Vouiquipèdia">          <i>carcinos</i><par n="cultur/a__n"/></e>
+<e lm="agllomèracion" a="Vouiquipèdia">          <i>agllomèracion</i><par n="abayie__n"/></e>
+<e lm="astronôtica" a="hector">          <i>astronôti</i><par n="aritmèti/ca__n"/></e>
+<e lm="inice" a="LoTrèsor">          <i>inice</i><par n="abricot__n"/></e>
+<e lm="baloutche" a="hector">          <i>baloutche</i><par n="enfant__n"/></e>
+<e lm="balcanisacion" a="hector">          <i>balcanisacion</i><par n="abayie__n"/></e>
+<e lm="ocèanografo" a="hector">          <i>ocèanograf</i><par n="anarchist/o__n"/></e>
+<e lm="lamarckismo" a="LoTrèsor">          <i>lamarckismo</i><par n="abricot__n"/></e>
+<e lm="lamâjo" a="LoTrèsor">          <i>lamâjo</i><par n="abricot__n"/></e>
+<e lm="Transilvanien" a="Vouiquipèdia">          <i>Transilvani</i><par n="afriqu/en__n"/></e>
+<e lm="folque" a="alanfavro">          <i>folque</i><par n="abricot__n"/></e>
+<e lm="bassisto" a="alanfavro">          <i>bassist</i><par n="anarchist/o__n"/></e>
+<e lm="marijuana" a="alanfavro">          <i>marijuan</i><par n="cultur/a__n"/></e>
+<e lm="racionalitât" a="corpus">          <i>racionalit</i><par n="activit/ât__n"/></e>
+<e lm="racionalismo" a="LoTrèsor">          <i>racionalismo</i><par n="abricot__n"/></e>
+<e lm="racionalisto" a="LoTrèsor">          <i>racionalist</i><par n="anarchist/o__n"/></e>
+<e lm="tatouâjo" a="stich">          <i>tatouâjo</i><par n="abricot__n"/></e>
+<e lm="sèt" a="hector">          <i>sèt</i><par n="abricot__n"/></e>
+<e lm="pllat" a="LoTrèsor">          <i>pllat</i><par n="abricot__n"/></e>
+<e lm="langôsta" a="LoTrèsor">          <i>langôst</i><par n="cultur/a__n"/></e>
+<e lm="langostina" a="LoTrèsor">          <i>langostin</i><par n="cultur/a__n"/></e>
+<e lm="languor" a="LoTrèsor">          <i>languor</i><par n="abayie__n"/></e>
+<e lm="galouès" a="Vouiquipèdia">          <i>galouès</i><par n="borjouès__n"/></e>
+<e lm="stratovolcan" a="hector">          <i>stratovolcan</i><par n="abricot__n"/></e>
+<e lm="lamayismo" a="LoTrèsor">          <i>lamayismo</i><par n="abricot__n"/></e>
+<e lm="lamayisto" a="LoTrèsor">          <i>lamayist</i><par n="anarchist/o__n"/></e>
+<e lm="lamaserie" a="LoTrèsor">          <i>lamaserie</i><par n="abayie__n"/></e>
+<e lm="milyârdèro" a="hector">          <i>milyârdèr</i><par n="advèrsèr/o__n"/></e>
+<e lm="psicotropo" a="alanfavro">          <i>psicotropo</i><par n="abricot__n"/></e>
+<e lm="langôstiér" a="LoTrèsor">          <i>langôstiér</i><par n="aventuriér__n"/></e>
+<e lm="geoliér" a="stich">          <i>geoliér</i><par n="aventuriér__n"/></e>
+<e lm="Balto" a="hector">          <i>Balt</i><par n="anarchist/o__n"/></e>
+<e lm="balto" a="hector">          <i>balt</i><par n="anarchist/o__adj"/></e>
+<e lm="jouyor de calço" a="hector"><i>jouyo</i><par n="admirato/r__n"/><p><l><b/>de<b/>calço</l><r><g><b/>de<b/>calço</g></r></p></e>
+<e lm="jouyor de baskèt" a="hector"><i>jouyo</i><par n="admirato/r__n"/><p><l><b/>de<b/>baskèt</l><r><g><b/>de<b/>baskèt</g></r></p></e>
+<e lm="jouyor d'handebâl" a="hector"><i>jouyo</i><par n="admirato/r__n"/><p><l><b/>d'handebâl</l><r><g><b/>d'handebâl</g></r></p></e>
+<e lm="fruit de dedens bruto" a="Vouiquipèdia"><i>fruit</i><par n="abricot__n"/><p><l><b/>de<b/>dedens<b/>bruto</l><r><g><b/>de<b/>dedens<b/>bruto</g></r></p></e>
+<e lm="paritât de povêr d'empleta" a="Vouiquipèdia"><i>paritât</i><par n="abayie__n"/><p><l><b/>de<b/>povêr<b/>d'empleta</l><r><g><b/>de<b/>povêr<b/>d'empleta</g></r></p></e>
+<e r="LR" lm="quota de chômâjo" a="Vouiquipèdia"><i>quot</i><par n="bo/a__n"/><p><l><b/>de<b/>chômâjo</l><r><g><b/>de<b/>chômâjo</g></r></p></e> <!-- VERIFY -->
 
 <!--- xxxxx -->
 
@@ -58149,6 +58341,7 @@
 <e r="LR" lm="s'">       <p><l>s'</l>        <r>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="t'">       <p><l>t'</l>        <r>ton<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="tot plen d'"><p><l>tot<b/>plen<b/>d'</l><r>tot<b/>plen<b/>de<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" lm="un'">      <p><l>un'</l>       <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="un'">      <p><l>un'</l>       <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="voutr'">   <p><l>voutr'</l>    <r>voutron<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
