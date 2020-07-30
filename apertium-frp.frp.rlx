@@ -492,6 +492,8 @@ SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknown) ;
 	## Léon Verguet
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); #Orihuela, Vilallonga
 
+SELECT Ant IF (-1 ("diô") OR ("déèsse")) ; 
+
 REMOVE Al IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Top IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Al IF (0 Ant OR Cog) (1 Ant OR Cog) ;
