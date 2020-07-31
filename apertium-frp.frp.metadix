@@ -1332,6 +1332,11 @@
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="Asi/e__np">
+  <e>       <p><l>e</l>          <r>e<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="use_sub"><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="Alemagnes__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
@@ -8651,7 +8656,7 @@
 
 <pardef n="cr/êre__vblex">
   <e>       <p><l>êre</l>       <r>êre<s n="vblex"/><s n="inf"/></r></p></e>
-  <e>       <p><l>êyent</l>     <r>êre<s n="vblex"/><s n="ger"/></r></p></e>
+  <e>       <p><l>eyent</l>     <r>êre<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>u</l>         <r>êre<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>us</l>        <r>êre<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ua</l>        <r>êre<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -8661,14 +8666,14 @@
   <e r="LR"><p><l>èyua</l>      <r>êre<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>èyues</l>     <r>êre<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 
-  <e>       <p><l>êyo</l>       <r>êre<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>èyo</l>       <r>êre<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ês</l>        <r>êre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>êt</l>        <r>êre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>èyens</l>     <r>êre<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>èyons</l>     <r>êre<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>êde</l>       <r>êre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>èyéd</l>      <r>êre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>êyont</l>     <r>êre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>èyont</l>     <r>êre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 
   <e>       <p><l>èyê</l>       <r>êre<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>èyês</l>      <r>êre<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -23491,7 +23496,7 @@
 <e lm="Abimèlèk">        <i>Abimèlèk</i><par n="Jian__np"/></e>
 <e lm="Abinahil">        <i>Abinahil</i><par n="Marie__np"/></e>
 <e lm="Abitbol">         <i>Abitbol</i><par n="Saussure__np"/></e>
-<e lm="Abkhazie">        <i>Abkhazie</i><par n="Bulgarie__np"/></e>
+<e lm="Abkhazie">        <i>Abkhazi</i><par n="Asi/e__np"/></e>
 <e lm="Abou">            <i>Abou</i><par n="Jian__np"/></e>
 <e lm="Aboujaoude">      <i>Aboujaoude</i><par n="Saussure__np"/></e>
 <e lm="Abraam">          <i>Abraam</i><par n="Saussure__np"/></e>
@@ -23518,7 +23523,7 @@
 <e lm="Abèl">            <i>Abèl</i><par n="Jian__np"/></e>
 <e lm="Abécassis">       <i>Abécassis</i><par n="Saussure__np"/></e>
 <e lm="Abós">            <i>Abós</i><par n="Saussure__np"/></e>
-<e lm="Acadie">          <i>Acadie</i><par n="Bulgarie__np"/></e>
+<e lm="Acadie">          <i>Acadi</i><par n="Asi/e__np"/></e>
 <e lm="Acciarini">       <i>Acciarini</i><par n="Saussure__np"/></e>
 <e lm="Acciaro">         <i>Acciaro</i><par n="Saussure__np"/></e>
 <e lm="Accili">          <i>Accili</i><par n="Saussure__np"/></e>
@@ -23933,7 +23938,7 @@
 <e lm="Albana">          <i>Albana</i><par n="Marie__np"/></e>
 <e lm="Albanella">       <i>Albanella</i><par n="Saussure__np"/></e>
 <e lm="Albanese">        <i>Albanese</i><par n="Saussure__np"/></e>
-<e lm="Albanie">         <i>Albanie</i><par n="Bulgarie__np"/></e>
+<e lm="Albanie">         <i>Albani</i><par n="Asi/e__np"/></e>
 <e lm="Albano">          <i>Albano</i><par n="Saussure__np"/></e>
 <e lm="Albareda">        <i>Albareda</i><par n="Saussure__np"/></e>
 <e lm="Albarracín">      <i>Albarracín</i><par n="Saussure__np"/></e>
@@ -24156,7 +24161,7 @@
 <e lm="Algiér">          <i>Algiér</i><par n="Iran__np"/></e>
 <e lm="Alguacil">        <i>Alguacil</i><par n="Saussure__np"/></e>
 <e lm="Alguero">         <i>Alguero</i><par n="Saussure__np"/></e>
-<e lm="Algèrie">         <i>Al</i><par n="g/g·"/><i>èrie</i><par n="Bulgarie__np"/></e>
+<e lm="Algèrie">         <i>Al</i><par n="g/g·"/><i>èri</i><par n="Asi/e__np"/></e>
 <e lm="Ali">             <i>Ali</i><par n="Jian__np"/></e>
 <e lm="Ali">             <i>Ali</i><par n="Saussure__np"/></e>
 <e lm="Alia">            <i>Alia</i><par n="Marie__np"/></e>
@@ -24835,13 +24840,12 @@
 <e lm="Apuzzo">          <i>Apuzzo</i><par n="Saussure__np"/></e>
 <e lm="Aquilino">        <i>Aquilino</i><par n="Jian__np"/></e>
 <e lm="Aquin">           <i>Aquin</i><par n="Saussure__np"/></e>
-<e lm="Aquitanie" a="hector"><i>Aquitanie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Aquitania" a="Vouiquipèdia" c="use_sub"><i>Aquitania</i><par n="Bulgarie__np"/></e>
+<e lm="Aquitanie" a="hector"><i>Aquitani</i><par n="Asi/e__np"/></e>
 <e lm="Ara">             <i>Ara</i><par n="Saussure__np"/></e>
 <e lm="Arabella">        <i>Arabella</i><par n="Marie__np"/></e>
 <e lm="Arabelle">        <i>Arabelle</i><par n="Marie__np"/></e>
 <e lm="Arabi">           <i>Arabi</i><par n="Saussure__np"/></e>
-<e lm="Arabie">          <i>Arabie</i><par n="Bulgarie__np"/></e>
+<e lm="Arabie">          <i>Arabi</i><par n="Asi/e__np"/></e>
 <e lm="Arabie Saoudita"> <i>Arabie<b/>Saoudita</i><par n="Bulgarie__np"/></e>
 <e lm="Arabí">           <i>Arabí</i><par n="Saussure__np"/></e>
 <e lm="Araceli">         <i>Araceli</i><par n="Marie__np"/></e>
@@ -25064,7 +25068,7 @@
 <e lm="Armorica">        <i>Armorica</i><par n="Bulgarie__np"/></e>
 <e lm="Armosino">        <i>Armosino</i><par n="Saussure__np"/></e>
 <e lm="Armstrong">       <i>Armstrong</i><par n="Saussure__np"/></e>
-<e lm="Armènie">         <i>Armènie</i><par n="Bulgarie__np"/></e>
+<e lm="Armènie">         <i>Armèni</i><par n="Asi/e__np"/></e>
 <e lm="Arnabat">         <i>Arnabat</i><par n="Saussure__np"/></e>
 <e lm="Arnaiz">          <i>Arnaiz</i><par n="Saussure__np"/></e>
 <e lm="Arnal">           <i>Arnal</i><par n="Saussure__np"/></e>
@@ -25218,7 +25222,7 @@
 <e lm="Ashtyn">          <i>Ashtyn</i><par n="Marie__np"/></e>
 <e r="LR" lm="Asia" a="Vouiquipèdia" c="use_sub"><i>Asia</i><par n="Bulgarie__np"/></e>
 <e lm="Asia">            <i>Asia</i><par n="Marie__np"/></e>
-<e lm="Asie">            <i>Asie</i><par n="Bulgarie__np"/></e>
+<e lm="Asie">            <i>Asi</i><par n="Asi/e__np"/></e>
 <e lm="Asie Minore">     <i>Asie<b/>Minore</i><par n="Bulgarie__np"/></e>
 <e lm="Asier">           <i>Asier</i><par n="Jian__np"/></e>
 <e lm="Asimov">          <i>Asimov</i><par n="Saussure__np"/></e>
@@ -25252,7 +25256,7 @@
 <e lm="Assi">            <i>Assi</i><par n="Saussure__np"/></e>
 <e lm="Assia">           <i>Assia</i><par n="Marie__np"/></e>
 <e lm="Assirelli">       <i>Assirelli</i><par n="Saussure__np"/></e>
-<e lm="Assirie">         <i>Assirie</i><par n="Bulgarie__np"/></e>
+<e lm="Assirie">         <i>Assiri</i><par n="Asi/e__np"/></e>
 <e lm="Assouline">       <i>Assouline</i><par n="Saussure__np"/></e>
 <e lm="Assour">          <i>Assour</i><par n="Iran__np"/></e>
 <e lm="Assouèros">       <i>Assouèros</i><par n="Jian__np"/></e>
@@ -26708,7 +26712,7 @@
 <e lm="Biridina">        <i>Biridina</i><par n="Marie__np"/></e>
 <e lm="Birindelli">      <i>Birindelli</i><par n="Saussure__np"/></e>
 <e lm="Birkin">          <i>Birkin</i><par n="Saussure__np"/></e>
-<e lm="Birmanie">        <i>Birmanie</i><par n="Bulgarie__np"/></e>
+<e lm="Birmanie">        <i>Birmani</i><par n="Asi/e__np"/></e>
 <e lm="Birnbaum">        <i>Birnbaum</i><par n="Saussure__np"/></e>
 <e lm="Biro">            <i>Biro</i><par n="Saussure__np"/></e>
 <e lm="Birolli">         <i>Birolli</i><par n="Saussure__np"/></e>
@@ -26745,7 +26749,7 @@
 <e lm="Bizet">           <i>Bizet</i><par n="Saussure__np"/></e>
 <e lm="Bizier">          <i>Bizier</i><par n="Saussure__np"/></e>
 <e lm="Bizzotto">        <i>Bizzotto</i><par n="Saussure__np"/></e>
-<e lm="Bièlorussie">     <i>Bièlorussie</i><par n="Bulgarie__np"/></e>
+<e lm="Bièlorussie">     <i>Bièlorussi</i><par n="Asi/e__np"/></e>
 <e lm="Björnsson">       <i>Björnsson</i><par n="Saussure__np"/></e>
 <e lm="Black">           <i>Black</i><par n="Saussure__np"/></e>
 <e lm="Blackburn">       <i>Blackburn</i><par n="Saussure__np"/></e>
@@ -26935,7 +26939,7 @@
 <e lm="Bolinaga">        <i>Bolinaga</i><par n="Saussure__np"/></e>
 <e lm="Bolinches">       <i>Bolinches</i><par n="Saussure__np"/></e>
 <e lm="Bolivar">         <i>Bolivar</i><par n="Saussure__np"/></e>
-<e lm="Bolivie">         <i>Bolivie</i><par n="Bulgarie__np"/></e>
+<e lm="Bolivie">         <i>Bolivi</i><par n="Asi/e__np"/></e>
 <e lm="Bolkestein">      <i>Bolkestein</i><par n="Saussure__np"/></e>
 <e lm="Bollar">          <i>Bollar</i><par n="Saussure__np"/></e>
 <e lm="Bolle">           <i>Bolle</i><par n="Saussure__np"/></e>
@@ -27153,7 +27157,7 @@
 <e lm="Bose">            <i>Bose</i><par n="Saussure__np"/></e>
 <e lm="Boselli">         <i>Boselli</i><par n="Saussure__np"/></e>
 <e lm="Bosi">            <i>Bosi</i><par n="Saussure__np"/></e>
-<e lm="Bosnie">          <i>Bosnie</i><par n="Bulgarie__np"/></e>
+<e lm="Bosnie">          <i>Bosni</i><par n="Asi/e__np"/></e>
 <e lm="Bosnie-Hèrzegovina"><i>Bosnie-Hèrzegovina</i><par n="Bulgarie__np"/></e>
 <e lm="Boso">            <i>Boso</i><par n="Saussure__np"/></e>
 <e lm="Bosone">          <i>Bosone</i><par n="Saussure__np"/></e>
@@ -27641,7 +27645,7 @@
 <e lm="Bukele">          <i>Bukele</i><par n="Saussure__np"/></e>
 <e lm="Bulbi">           <i>Bulbi</i><par n="Saussure__np"/></e>
 <e lm="Bulgarelli">      <i>Bulgarelli</i><par n="Saussure__np"/></e>
-<e lm="Bulgarie">        <i>Bulgarie</i><par n="Bulgarie__np"/></e>
+<e lm="Bulgarie">        <i>Bulgari</i><par n="Asi/e__np"/></e>
 <e lm="Bulhões">         <i>Bulhões</i><par n="Saussure__np"/></e>
 <e lm="Bull">            <i>Bull</i><par n="Saussure__np"/></e>
 <e lm="Bulleri">         <i>Bulleri</i><par n="Saussure__np"/></e>
@@ -27759,7 +27763,7 @@
 <e lm="Bâcus">           <i>Bâcus</i><par n="Jian__np"/></e>
 <e lm="Bâla">            <i>Bâla</i><par n="Bulgarie__np"/></e>
 <e lm="Bârlădeanu">      <i>Bârlădeanu</i><par n="Saussure__np"/></e>
-<e lm="Bâssa-Normandie" a="Vouiquipèdia"><i>Bâssa-Normandie</i><par n="Bulgarie__np"/></e>
+<e lm="Bâssa-Normandie" a="Vouiquipèdia"><i>Bâssa-Normandi</i><par n="Asi/e__np"/></e>
 <e lm="Bågenholm">       <i>Bågenholm</i><par n="Saussure__np"/></e>
 <e lm="Bèatrice" a="alanfavre"><i>Bèatrice</i><par n="Marie__np"/></e>
 <e lm="Bèc">             <i>Bèc</i><par n="Saussure__np"/></e>
@@ -29709,7 +29713,7 @@
 <e lm="Colom Mas">       <i>Colom<b/>Mas</i><par n="Saussure__np"/></e>
 <e lm="Coloma">          <i>Coloma</i><par n="Saussure__np"/></e>
 <e lm="Colombani">       <i>Colombani</i><par n="Saussure__np"/></e>
-<e lm="Colombie">        <i>Colombie</i><par n="Bulgarie__np"/></e>
+<e lm="Colombie">        <i>Colombi</i><par n="Asi/e__np"/></e>
 <e lm="Colombier">       <i>Colombier</i><par n="Saussure__np"/></e>
 <e lm="Colombina">       <i>Colombina</i><par n="Marie__np"/></e>
 <e lm="Colombini">       <i>Colombini</i><par n="Saussure__np"/></e>
@@ -30206,7 +30210,7 @@
 <e lm="Crivellari">      <i>Crivellari</i><par n="Saussure__np"/></e>
 <e lm="Crivellini">      <i>Crivellini</i><par n="Saussure__np"/></e>
 <e lm="Crișan">          <i>Crișan</i><par n="Saussure__np"/></e>
-<e lm="Croacie">         <i>Croacie</i><par n="Bulgarie__np"/></e>
+<e lm="Croacie">         <i>Croaci</i><par n="Asi/e__np"/></e>
 <e lm="Croce">           <i>Croce</i><par n="Saussure__np"/></e>
 <e lm="Crocetta">        <i>Crocetta</i><par n="Marie__np"/></e>
 <e lm="Crocetta">        <i>Crocetta</i><par n="Saussure__np"/></e>
@@ -33456,7 +33460,7 @@
 <e lm="Frigato">         <i>Frigato</i><par n="Saussure__np"/></e>
 <e lm="Frigault">        <i>Frigault</i><par n="Saussure__np"/></e>
 <e lm="Frigerio">        <i>Frigerio</i><par n="Saussure__np"/></e>
-<e lm="Frigie">          <i>Frigie</i><par n="Bulgarie__np"/></e>
+<e lm="Frigie">          <i>Frigi</i><par n="Asi/e__np"/></e>
 <e lm="Frigo">           <i>Frigo</i><par n="Saussure__np"/></e>
 <e lm="Frigola">         <i>Frigola</i><par n="Saussure__np"/></e>
 <e lm="Frigolé">         <i>Frigolé</i><par n="Saussure__np"/></e>
@@ -33570,7 +33574,7 @@
 <e lm="Fátima">          <i>Fátima</i><par n="Marie__np"/></e>
 <e lm="Fèdra">           <i>Fèdra</i><par n="Marie__np"/></e>
 <e lm="Fèlix" a="alanfavre"><i>Fèlix</i><par n="Jian__np"/></e>
-<e lm="Fènicie">         <i>Fènicie</i><par n="Bulgarie__np"/></e>
+<e lm="Fènicie">         <i>Fènici</i><par n="Asi/e__np"/></e>
 <e lm="Fèrnand" a="alanfavre"><i>Fèrnand</i><par n="Jian__np"/></e>
 <e lm="Fédéric">         <i>Fédéric</i><par n="Jian__np"/></e>
 <e lm="Félez">           <i>Félez</i><par n="Saussure__np"/></e>
@@ -33772,7 +33776,7 @@
 <e lm="Gambaro">         <i>Gambaro</i><par n="Saussure__np"/></e>
 <e lm="Gambescia">       <i>Gambescia</i><par n="Saussure__np"/></e>
 <e lm="Gambetta">        <i>Gambetta</i><par n="Saussure__np"/></e>
-<e lm="Gambie">          <i>Gambie</i><par n="Bulgarie__np"/></e>
+<e lm="Gambie">          <i>Gambi</i><par n="Asi/e__np"/></e>
 <e lm="Gambin">          <i>Gambin</i><par n="Saussure__np"/></e>
 <e lm="Gambini">         <i>Gambini</i><par n="Saussure__np"/></e>
 <e lm="Gambino">         <i>Gambino</i><par n="Saussure__np"/></e>
@@ -34084,7 +34088,7 @@
 <e lm="Georgescu">       <i>Georgescu</i><par n="Saussure__np"/></e>
 <e lm="Georgette">       <i>Georgette</i><par n="Marie__np"/></e>
 <e lm="Georgia">         <i>Georgia</i><par n="Marie__np"/></e>
-<e lm="Georgie">         <i>Geor</i><par n="g/g·"/><i>ie</i><par n="Bulgarie__np"/></e>
+<e lm="Georgie">         <i>Geor</i><par n="g/g·"/><i>i</i><par n="Asi/e__np"/></e>
 <e lm="Georgie-du-Sud-et-les-Iles-Sandouiche-du-Sud"><i>Geor</i><par n="g/g·"/><i>ie-du-Sud-et-les-Iles-Sandouiche-du-Sud</i><par n="Bulgarie__np"/></e>
 <e lm="Georgiev">        <i>Georgiev</i><par n="Saussure__np"/></e>
 <e lm="Georgieva">       <i>Georgieva</i><par n="Saussure__np"/></e>
@@ -35048,7 +35052,7 @@
 <e lm="Gárate">          <i>Gárate</i><par n="Saussure__np"/></e>
 <e lm="Gázquez">         <i>Gázquez</i><par n="Saussure__np"/></e>
 <e lm="Gèli">            <i>Gèli</i><par n="Jian__np"/></e>
-<e lm="Gèrmanie">        <i>Gèrmanie</i><par n="Bulgarie__np"/></e>
+<e lm="Gèrmanie">        <i>Gèrmani</i><par n="Asi/e__np"/></e>
 <e lm="Gèrmen" a="alanfavre"><i>Gèrmen</i><par n="Jian__np"/></e>
 <e lm="Gèssenê">         <i>Gèssenê</i><par n="Iran__np"/></e>
 <e lm="Gédéon">          <i>Gédéon</i><par n="Saussure__np"/></e>
@@ -35541,7 +35545,7 @@
 <e lm="Honegger">        <i>Honegger</i><par n="Saussure__np"/></e>
 <e lm="Hong">            <i>Hong</i><par n="Saussure__np"/></e>
 <e lm="Hong-Kong">       <i>Hong-Kong</i><par n="Iran__np"/></e>
-<e lm="Hongrie" a="Vouiquipèdia"><i>Hongrie</i><par n="Bulgarie__np"/></e>
+<e lm="Hongrie" a="Vouiquipèdia"><i>Hongri</i><par n="Asi/e__np"/></e>
 <e lm="Hongries">        <i>Hongries</i><par n="Bulgarie__np"/></e>
 <e lm="Honorata">        <i>Honorata</i><par n="Marie__np"/></e>
 <e lm="Honori">          <i>Honori</i><par n="Saussure__np"/></e>
@@ -35752,7 +35756,7 @@
 <e lm="Hêra">            <i>Hêra</i><par n="Marie__np"/></e>
 <e lm="Hêraclês">        <i>Hêraclês</i><par n="Jian__np"/></e>
 <e lm="Hôt-Karabagh">    <i>Hôt-Karabagh</i><par n="Iran__np"/></e>
-<e lm="Hôta-Normandie" a="Vouiquipèdia"><i>Hôta-Normandie</i><par n="Bulgarie__np"/></e>
+<e lm="Hôta-Normandie" a="Vouiquipèdia"><i>Hôta-Normandi</i><par n="Asi/e__np"/></e>
 <e lm="Hôtariva">        <i>Hôtariva</i><par n="Bulgarie__np"/></e>
 <e lm="Hüllweck">        <i>Hüllweck</i><par n="Saussure__np"/></e>
 <e lm="Hănescu">         <i>Hănescu</i><par n="Saussure__np"/></e>
@@ -35932,7 +35936,7 @@
 <e lm="Indiana">         <i>Indiana</i><par n="Marie__np"/></e>
 <e lm="Indiano">         <i>Indiano</i><par n="Saussure__np"/></e>
 <e lm="Indira">          <i>Indira</i><par n="Marie__np"/></e>
-<e lm="Indonèsie">       <i>Indonèsie</i><par n="Bulgarie__np"/></e>
+<e lm="Indonèsie">       <i>Indonèsi</i><par n="Asi/e__np"/></e>
 <e lm="Indovina">        <i>Indovina</i><par n="Saussure__np"/></e>
 <e lm="Indurain">        <i>Indurain</i><par n="Saussure__np"/></e>
 <e lm="Ines">            <i>Ines</i><par n="Marie__np"/></e>
@@ -36118,7 +36122,7 @@
 <e lm="Itaca">           <i>Itaca</i><par n="Bulgarie__np"/></e>
 <e lm="Itagiba">         <i>Itagiba</i><par n="Saussure__np"/></e>
 <e lm="Italia">          <i>Italia</i><par n="Marie__np"/></e>
-<e lm="Italie">          <i>Italie</i><par n="Bulgarie__np"/></e>
+<e lm="Italie">          <i>Itali</i><par n="Asi/e__np"/></e>
 <e lm="Italina">         <i>Italina</i><par n="Marie__np"/></e>
 <e lm="Itallia">         <i>Itallia</i><par n="Marie__np"/></e>
 <e lm="Itié">            <i>Itié</i><par n="Saussure__np"/></e>
@@ -36555,7 +36559,7 @@
 <e lm="Jordan">          <i>Jordan</i><par n="Saussure__np"/></e>
 <e lm="Jordana">         <i>Jordana</i><par n="Marie__np"/></e>
 <e lm="Jordana">         <i>Jordana</i><par n="Saussure__np"/></e>
-<e lm="Jordanie">        <i>Jordanie</i><par n="Bulgarie__np"/></e>
+<e lm="Jordanie">        <i>Jordani</i><par n="Asi/e__np"/></e>
 <e r="LR" lm="Jordanie">    <p><l>J·ordanie</l>    <r>Jordanie</r></p><par n="Bulgarie__np"/></e>
 <e lm="Jorden">          <i>Jorden</i><par n="Iran__np"/></e>
 <e lm="Jordi">           <i>Jordi</i><par n="Jian__np"/></e>
@@ -36568,8 +36572,8 @@
 <e lm="Jorge">           <i>Jorge</i><par n="Jian__np"/></e>
 <e lm="Jorge">           <i>Jorge</i><par n="Saussure__np"/></e>
 <e lm="Jorgelina">       <i>Jorgelina</i><par n="Marie__np"/></e>
-<e lm="Jorgia" a="Vouiquipèdia"><i>Jor</i><par n="g/g·"/><i>ia</i><par n="Bulgarie__np"/></e>
-<e lm="Jôrgie" a="Vouiquipèdia"><i>Jôr</i><par n="g/g·"/><i>ie</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Jorgia" a="Vouiquipèdia" c="use_sub"><i>Jor</i><par n="g/g·"/><i>ia</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Jôrgie" a="Vouiquipèdia" c="use_sub"><i>Jôr</i><par n="g/g·"/><i>ie</i><par n="Bulgarie__np"/></e>
 <e lm="Jorgina">         <i>Jorgina</i><par n="Marie__np"/></e>
 <e lm="Jorio" a="alanfavre"><i>Jorio</i><par n="Jian__np"/></e>
 <e lm="Jornet">          <i>Jornet</i><par n="Saussure__np"/></e>
@@ -38061,7 +38065,7 @@
 <e lm="Liberty">         <i>Liberty</i><par n="Marie__np"/></e>
 <e lm="Libia">           <i>Libia</i><par n="Marie__np"/></e>
 <e lm="Libicki">         <i>Libicki</i><par n="Saussure__np"/></e>
-<e lm="Libie">           <i>Libie</i><par n="Bulgarie__np"/></e>
+<e lm="Libie">           <i>Libi</i><par n="Asi/e__np"/></e>
 <e lm="Liboiron">        <i>Liboiron</i><par n="Saussure__np"/></e>
 <e lm="Liboria">         <i>Liboria</i><par n="Marie__np"/></e>
 <e lm="Librada">         <i>Librada</i><par n="Marie__np"/></e>
@@ -38080,7 +38084,7 @@
 <e lm="Licursi">         <i>Licursi</i><par n="Saussure__np"/></e>
 <e lm="Lida">            <i>Lida</i><par n="Marie__np"/></e>
 <e lm="Lidia">           <i>Lidia</i><par n="Marie__np"/></e>
-<e lm="Lidie">           <i>Lidie</i><par n="Bulgarie__np"/></e>
+<e lm="Lidie">           <i>Lidi</i><par n="Asi/e__np"/></e>
 <e lm="Lidon">           <i>Lidon</i><par n="Saussure__np"/></e>
 <e lm="Lidubina">        <i>Lidubina</i><par n="Marie__np"/></e>
 <e lm="Lieberman">       <i>Lieberman</i><par n="Saussure__np"/></e>
@@ -38181,7 +38185,7 @@
 <e lm="Littell">         <i>Littell</i><par n="Saussure__np"/></e>
 <e lm="Little">          <i>Little</i><par n="Saussure__np"/></e>
 <e r="LR" lm="Lituania" a="Vouiquipèdia" c="use_sub"><i>Lituania</i><par n="Bulgarie__np"/></e>
-<e lm="Lituanie">        <i>Lituanie</i><par n="Bulgarie__np"/></e>
+<e lm="Lituanie">        <i>Lituani</i><par n="Asi/e__np"/></e>
 <e lm="Litvinenko">      <i>Litvinenko</i><par n="Saussure__np"/></e>
 <e lm="Litzy">           <i>Litzy</i><par n="Marie__np"/></e>
 <e lm="Liu">             <i>Liu</i><par n="Saussure__np"/></e>
@@ -38416,7 +38420,7 @@
 <e lm="Losilla">         <i>Losilla</i><par n="Saussure__np"/></e>
 <e lm="Loss">            <i>Loss</i><par n="Saussure__np"/></e>
 <e lm="Losserand">       <i>Losserand</i><par n="Saussure__np"/></e>
-<e lm="Lotaringie">      <i>Lotaringie</i><par n="Bulgarie__np"/></e>
+<e lm="Lotaringie">      <i>Lotaringi</i><par n="Asi/e__np"/></e>
 <e lm="Lothaire">        <i>Lothaire</i><par n="Jian__np"/></e>
 <e lm="Lotina">          <i>Lotina</i><par n="Saussure__np"/></e>
 <e lm="Lott">            <i>Lott</i><par n="Saussure__np"/></e>
@@ -38652,8 +38656,7 @@
 <e lm="Lèpid">           <i>Lèpid</i><par n="Saussure__np"/></e>
 <e lm="Lèsbos">          <i>Lèsbos</i><par n="Bulgarie__np"/></e>
 <e lm="Lèsoto">          <i>Lèsoto</i><par n="Iran__np"/></e>
-<e r="LR" lm="Lètonia" a="Vouiquipèdia" c="use_sub"><i>Lètonia</i><par n="Bulgarie__np"/></e>
-<e lm="Lètonie">         <i>Lètonie</i><par n="Bulgarie__np"/></e>
+<e lm="Lètonie">         <i>Lètoni</i><par n="Asi/e__np"/></e>
 <e lm="Léa">             <i>Léa</i><par n="Marie__np"/></e>
 <e lm="Léautaud">        <i>Léautaud</i><par n="Saussure__np"/></e>
 <e lm="Lécuyer">         <i>Lécuyer</i><par n="Saussure__np"/></e>
@@ -39047,7 +39050,7 @@
 <e lm="Malyar">          <i>Malyar</i><par n="Saussure__np"/></e>
 <e lm="Malé">            <i>Malé</i><par n="Saussure__np"/></e>
 <e lm="Malépart">        <i>Malépart</i><par n="Saussure__np"/></e>
-<e lm="Malêsie">         <i>Malêsie</i><par n="Bulgarie__np"/></e>
+<e lm="Malêsie">         <i>Malêsi</i><par n="Asi/e__np"/></e>
 <e lm="Mamane">          <i>Mamane</i><par n="Saussure__np"/></e>
 <e lm="Mamani">          <i>Mamani</i><par n="Saussure__np"/></e>
 <e lm="Mame">            <i>Mame</i><par n="Marie__np"/></e>
@@ -40294,7 +40297,7 @@
 <e lm="Miclette">        <i>Miclette</i><par n="Saussure__np"/></e>
 <e lm="Mico">            <i>Mico</i><par n="Saussure__np"/></e>
 <e lm="Micolini">        <i>Micolini</i><par n="Saussure__np"/></e>
-<e lm="Micronèsie">      <i>Micronèsie</i><par n="Bulgarie__np"/></e>
+<e lm="Micronèsie">      <i>Micronèsi</i><par n="Asi/e__np"/></e>
 <e lm="Micu">            <i>Micu</i><par n="Saussure__np"/></e>
 <e lm="Miculescu">       <i>Miculescu</i><par n="Saussure__np"/></e>
 <e lm="Micó">            <i>Micó</i><par n="Saussure__np"/></e>
@@ -40586,8 +40589,7 @@
 <e lm="Molano">          <i>Molano</i><par n="Saussure__np"/></e>
 <e lm="Molas">           <i>Molas</i><par n="Saussure__np"/></e>
 <e lm="Moldan">          <i>Moldan</i><par n="Saussure__np"/></e>
-<e r="LR" lm="Moldavia" a="Vouiquipèdia" c="use_sub"><i>Moldavia</i><par n="Bulgarie__np"/></e>
-<e lm="Moldavie">        <i>Moldavie</i><par n="Bulgarie__np"/></e>
+<e lm="Moldavie">        <i>Moldavi</i><par n="Asi/e__np"/></e>
 <e lm="Moldovan">        <i>Moldovan</i><par n="Saussure__np"/></e>
 <e lm="Moldovanu">       <i>Moldovanu</i><par n="Saussure__np"/></e>
 <e lm="Moldoveanu">      <i>Moldoveanu</i><par n="Saussure__np"/></e>
@@ -40688,7 +40690,7 @@
 <e lm="Monger">          <i>Monger</i><par n="Saussure__np"/></e>
 <e lm="Mongey">          <i>Mongey</i><par n="Saussure__np"/></e>
 <e lm="Mongiello">       <i>Mongiello</i><par n="Saussure__np"/></e>
-<e lm="Mongolie">        <i>Mongolie</i><par n="Bulgarie__np"/></e>
+<e lm="Mongolie">        <i>Mongoli</i><par n="Asi/e__np"/></e>
 <e lm="Mongrain">        <i>Mongrain</i><par n="Saussure__np"/></e>
 <e lm="Monguzzi">        <i>Monguzzi</i><par n="Saussure__np"/></e>
 <e lm="Monheit">         <i>Monheit</i><par n="Saussure__np"/></e>
@@ -41226,7 +41228,7 @@
 <e lm="Mèrcure">         <i>Mèrcure</i><par n="Jian__np"/></e>
 <e lm="Mèrcuro">         <i>Mèrcuro</i><par n="Jian__np"/></e>
 <e lm="Mèrovê">          <i>Mèrovê</i><par n="Jian__np"/></e>
-<e lm="Mèsopotamie">     <i>Mèsopotamie</i><par n="Bulgarie__np"/></e>
+<e lm="Mèsopotamie">     <i>Mèsopotami</i><par n="Asi/e__np"/></e>
 <e lm="Mètz">            <i>Mètz</i><par n="Iran__np"/></e>
 <e lm="Mèxique">         <i>Mèxique</i><par n="Iran__np"/></e>
 <e lm="Méchain">         <i>Méchain</i><par n="Saussure__np"/></e>
@@ -41255,7 +41257,7 @@
 <e lm="Mònica">          <i>Mònica</i><par n="Marie__np"/></e>
 <e lm="Mónica">          <i>Mónica</i><par n="Marie__np"/></e>
 <e lm="Môrice">          <i>Môrice</i><par n="Iran__np"/></e>
-<e lm="Môritanie">       <i>Môritanie</i><par n="Bulgarie__np"/></e>
+<e lm="Môritanie">       <i>Môritani</i><par n="Asi/e__np"/></e>
 <e lm="Möbius">          <i>Möbius</i><par n="Saussure__np"/></e>
 <e lm="Mövius">          <i>Mövius</i><par n="Jian__np"/></e>
 <e lm="Múgica">          <i>Múgica</i><par n="Saussure__np"/></e>
@@ -41326,7 +41328,7 @@
 <e lm="Nalia">           <i>Nalia</i><par n="Marie__np"/></e>
 <e lm="Nalin">           <i>Nalin</i><par n="Saussure__np"/></e>
 <e lm="Nalli">           <i>Nalli</i><par n="Saussure__np"/></e>
-<e lm="Namibie">         <i>Namibie</i><par n="Bulgarie__np"/></e>
+<e lm="Namibie">         <i>Namibi</i><par n="Asi/e__np"/></e>
 <e lm="Nan">             <i>Nan</i><par n="Saussure__np"/></e>
 <e lm="Nanci">           <i>Nanci</i><par n="Iran__np"/></e>
 <e lm="Nanci">           <i>Nanci</i><par n="Marie__np"/></e>
@@ -41821,7 +41823,7 @@
 <e lm="Norman">          <i>Norman</i><par n="Saussure__np"/></e>
 <e lm="Normand">         <i>Normand</i><par n="Saussure__np"/></e>
 <e lm="Normandeau">      <i>Normandeau</i><par n="Saussure__np"/></e>
-<e lm="Normandie">       <i>Normandie</i><par n="Bulgarie__np"/></e>
+<e lm="Normandie">       <i>Normandi</i><par n="Asi/e__np"/></e>
 <e lm="Normandin">       <i>Normandin</i><par n="Saussure__np"/></e>
 <e lm="Noronha">         <i>Noronha</i><par n="Saussure__np"/></e>
 <e lm="Norris">          <i>Norris</i><par n="Saussure__np"/></e>
@@ -41865,7 +41867,7 @@
 <e lm="Novillo">         <i>Novillo</i><par n="Saussure__np"/></e>
 <e lm="Novo">            <i>Novo</i><par n="Saussure__np"/></e>
 <e lm="Novoa">           <i>Novoa</i><par n="Saussure__np"/></e>
-<e lm="Novèla-Calèdonie"><i>Novèla-Calèdonie</i><par n="Bulgarie__np"/></e>
+<e lm="Novèla-Calèdonie"><i>Novèla-Calèdoni</i><par n="Asi/e__np"/></e>
 <e lm="Novèla-Guinê">    <i>Novèla-Guinê</i><par n="Bulgarie__np"/></e>
 <e lm="Novèla-Zèlande">  <i>Novèla-Zèlande</i><par n="Bulgarie__np"/></e>
 <e lm="Nowitzki">        <i>Nowitzki</i><par n="Saussure__np"/></e>
@@ -42274,7 +42276,7 @@
 <e lm="Ossama">          <i>Ossama</i><par n="Jian__np"/></e>
 <e lm="Ossicini">        <i>Ossicini</i><par n="Saussure__np"/></e>
 <e lm="Ossorio">         <i>Ossorio</i><par n="Saussure__np"/></e>
-<e lm="Ossètie">         <i>Ossètie</i><par n="Bulgarie__np"/></e>
+<e lm="Ossètie">         <i>Ossèti</i><par n="Asi/e__np"/></e>
 <e lm="Ossètie du Sud">  <i>Ossètie<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
 <e lm="Ostellari">       <i>Ostellari</i><par n="Saussure__np"/></e>
 <e lm="Osterberger">     <i>Osterberger</i><par n="Saussure__np"/></e>
@@ -42822,7 +42824,7 @@
 <e lm="Pavelescu">       <i>Pavelescu</i><par n="Saussure__np"/></e>
 <e lm="Paventi">         <i>Paventi</i><par n="Saussure__np"/></e>
 <e lm="Pavia">           <i>Pavia</i><par n="Saussure__np"/></e>
-<e lm="Pavie">           <i>Pavie</i><par n="Bulgarie__np"/></e>
+<e lm="Pavie">           <i>Pavi</i><par n="Asi/e__np"/></e>
 <e lm="Pavlenski">       <i>Pavlenski</i><par n="Saussure__np"/></e>
 <e lm="Pavlov">          <i>Pavlov</i><par n="Saussure__np"/></e>
 <e lm="Pavlovici">       <i>Pavlovici</i><par n="Saussure__np"/></e>
@@ -42860,7 +42862,7 @@
 <e lm="Pearce">          <i>Pearce</i><par n="Saussure__np"/></e>
 <e lm="Pearson">         <i>Pearson</i><par n="Saussure__np"/></e>
 <e lm="Pebbles">         <i>Pebbles</i><par n="Marie__np"/></e>
-<e lm="Pecardie" a="Vouiquipèdia"><i>Pecardie</i><par n="Bulgarie__np"/></e>
+<e lm="Pecardie" a="Vouiquipèdia"><i>Pecardi</i><par n="Asi/e__np"/></e>
 <e lm="Pecci">           <i>Pecci</i><par n="Saussure__np"/></e>
 <e lm="Peck">            <i>Peck</i><par n="Saussure__np"/></e>
 <e lm="Peco">            <i>Peco</i><par n="Saussure__np"/></e>
@@ -45174,7 +45176,7 @@
 <e lm="Rouillier">       <i>Rouillier</i><par n="Saussure__np"/></e>
 <e lm="Rouleau">         <i>Rouleau</i><par n="Saussure__np"/></e>
 <e lm="Roulier">         <i>Roulier</i><par n="Saussure__np"/></e>
-<e lm="Roumanie">        <i>Roumanie</i><par n="Bulgarie__np"/></e>
+<e lm="Roumanie">        <i>Roumani</i><par n="Asi/e__np"/></e>
 <e lm="Roumanille">      <i>Roumanille</i><par n="Saussure__np"/></e>
 <e lm="Roumeliotis">     <i>Roumeliotis</i><par n="Saussure__np"/></e>
 <e lm="Rouquette">       <i>Rouquette</i><par n="Saussure__np"/></e>
@@ -45313,7 +45315,7 @@
 <e lm="Russel">          <i>Russel</i><par n="Saussure__np"/></e>
 <e lm="Russell">         <i>Russell</i><par n="Jian__np"/></e>
 <e lm="Russell">         <i>Russell</i><par n="Saussure__np"/></e>
-<e lm="Russie">          <i>Russie</i><par n="Bulgarie__np"/></e>
+<e lm="Russie">          <i>Russi</i><par n="Asi/e__np"/></e>
 <e lm="Russo">           <i>Russo</i><par n="Saussure__np"/></e>
 <e lm="Russomanno">      <i>Russomanno</i><par n="Saussure__np"/></e>
 <e lm="Ruste">           <i>Ruste</i><par n="Saussure__np"/></e>
@@ -45645,7 +45647,7 @@
 <e lm="Samara">          <i>Samara</i><par n="Marie__np"/></e>
 <e lm="Samara">          <i>Samara</i><par n="Saussure__np"/></e>
 <e lm="Samaranch">       <i>Samaranch</i><par n="Saussure__np"/></e>
-<e lm="Samarie">         <i>Samarie</i><par n="Bulgarie__np"/></e>
+<e lm="Samarie">         <i>Samari</i><par n="Asi/e__np"/></e>
 <e lm="Samarra">         <i>Samarra</i><par n="Saussure__np"/></e>
 <e lm="Samay">           <i>Samay</i><par n="Marie__np"/></e>
 <e lm="Sambeat">         <i>Sambeat</i><par n="Saussure__np"/></e>
@@ -45772,7 +45774,7 @@
 <e lm="Sant-Ètièno">     <i>Sant-Ètièno</i><par n="Iran__np"/></e>
 <e lm="sant Bonaventura"><i>sant<b/>Bonaventura</i><par n="Saussure__np"/></e>
 <e lm="Santa">           <i>Santa</i><par n="Saussure__np"/></e>
-<e lm="Santa-Lucie">     <i>Santa-Lucie</i><par n="Bulgarie__np"/></e>
+<e lm="Santa-Lucie">     <i>Santa-Luci</i><par n="Asi/e__np"/></e>
 <e lm="santa Brígida">   <i>santa<b/>Brígida</i><par n="Saussure__np"/></e>
 <e lm="santa Lutgarda">  <i>santa<b/>Lutgarda</i><par n="Saussure__np"/></e>
 <e lm="Santacana">       <i>Santacana</i><par n="Saussure__np"/></e>
@@ -46023,7 +46025,7 @@
 <e lm="Scalzo">          <i>Scalzo</i><par n="Saussure__np"/></e>
 <e lm="Scanagatti">      <i>Scanagatti</i><par n="Saussure__np"/></e>
 <e lm="Scanderebech">    <i>Scanderebech</i><par n="Saussure__np"/></e>
-<e lm="Scandinavie" a="Vouiquipèdia"><i>Scandinavie</i><par n="Bulgarie__np"/></e>
+<e lm="Scandinavie" a="Vouiquipèdia"><i>Scandinavi</i><par n="Asi/e__np"/></e>
 <e lm="Scandroglio">     <i>Scandroglio</i><par n="Saussure__np"/></e>
 <e lm="Scanio">          <i>Scanio</i><par n="Saussure__np"/></e>
 <e lm="Scano">           <i>Scano</i><par n="Saussure__np"/></e>
@@ -46479,7 +46481,7 @@
 <e lm="Sibil·la">        <i>Sibil·la</i><par n="Marie__np"/></e>
 <e lm="Sibonet">         <i>Sibonet</i><par n="Marie__np"/></e>
 <e lm="Sibylle">         <i>Sibylle</i><par n="Marie__np"/></e>
-<e lm="Sibèrie">         <i>Sibèrie</i><par n="Bulgarie__np"/></e>
+<e lm="Sibèrie">         <i>Sibèri</i><par n="Asi/e__np"/></e>
 <e lm="Sica">            <i>Sica</i><par n="Saussure__np"/></e>
 <e lm="Sicard">          <i>Sicard</i><par n="Saussure__np"/></e>
 <e lm="Sicari">          <i>Sicari</i><par n="Saussure__np"/></e>
@@ -46646,7 +46648,7 @@
 <e lm="Sirera">          <i>Sirera</i><par n="Saussure__np"/></e>
 <e lm="Siri">            <i>Siri</i><par n="Saussure__np"/></e>
 <e lm="Siria">           <i>Siria</i><par n="Marie__np"/></e>
-<e lm="Sirie">           <i>Sirie</i><par n="Bulgarie__np"/></e>
+<e lm="Sirie">           <i>Siri</i><par n="Asi/e__np"/></e>
 <e lm="Sirin">           <i>Sirin</i><par n="Marie__np"/></e>
 <e lm="Sirius">          <i>Sirius</i><par n="Jian__np"/></e>
 <e lm="Sirkis">          <i>Sirkis</i><par n="Saussure__np"/></e>
@@ -46687,10 +46689,8 @@
 <e lm="Slight">          <i>Slight</i><par n="Saussure__np"/></e>
 <e lm="Slim">            <i>Slim</i><par n="Saussure__np"/></e>
 <e lm="Sloan">           <i>Sloan</i><par n="Saussure__np"/></e>
-<e r="LR" lm="Slovaquia" a="Vouiquipèdia" c="use_sub"><i>Slovaquia</i><par n="Bulgarie__np"/></e>
-<e lm="Slovaquie">       <i>Slovaquie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Slovènia" a="Vouiquipèdia" c="use_sub"><i>Slovènia</i><par n="Bulgarie__np"/></e>
-<e lm="Slovènie">        <i>Slovènie</i><par n="Bulgarie__np"/></e>
+<e lm="Slovaquie">       <i>Slovaqui</i><par n="Asi/e__np"/></e>
+<e lm="Slovènie">        <i>Slovèni</i><par n="Asi/e__np"/></e>
 <e lm="Small">           <i>Small</i><par n="Saussure__np"/></e>
 <e lm="Smart">           <i>Smart</i><par n="Saussure__np"/></e>
 <e lm="Smeriglio">       <i>Smeriglio</i><par n="Saussure__np"/></e>
@@ -46795,7 +46795,7 @@
 <e lm="Solé">            <i>Solé</i><par n="Saussure__np"/></e>
 <e lm="Solés">           <i>Solés</i><par n="Saussure__np"/></e>
 <e lm="Solís">           <i>Solís</i><par n="Saussure__np"/></e>
-<e lm="Somalie">         <i>Somalie</i><par n="Bulgarie__np"/></e>
+<e lm="Somalie">         <i>Somali</i><par n="Asi/e__np"/></e>
 <e lm="Somalilande">     <i>Somalilande</i><par n="Iran__np"/></e>
 <e lm="Somers">          <i>Somers</i><par n="Saussure__np"/></e>
 <e lm="Somma">           <i>Somma</i><par n="Saussure__np"/></e>
@@ -47294,7 +47294,7 @@
 <e lm="Sârvabelen">      <i>Sârvabelen</i><par n="Iran__np"/></e>
 <e lm="Sèbastopol">      <i>Sèbastopol</i><par n="Iran__np"/></e>
 <e lm="Sènègal">         <i>Sènègal</i><par n="Iran__np"/></e>
-<e lm="Sèrbie">          <i>Sèrbie</i><par n="Bulgarie__np"/></e>
+<e lm="Sèrbie">          <i>Sèrbi</i><par n="Asi/e__np"/></e>
 <e lm="Sèrgi">           <i>Sèrgi</i><par n="Jian__np"/></e>
 <e lm="Sèrguèy">         <i>Sèrguèy</i><par n="Jian__np"/></e>
 <e lm="Sèrguèyevitch">   <i>Sèrguèyevitch</i><par n="Jian__np"/></e>
@@ -47426,7 +47426,7 @@
 <e lm="Tannous">         <i>Tannous</i><par n="Saussure__np"/></e>
 <e lm="Tanoni">          <i>Tanoni</i><par n="Saussure__np"/></e>
 <e lm="Tanya">           <i>Tanya</i><par n="Marie__np"/></e>
-<e lm="Tanzanie">        <i>Tanzanie</i><par n="Bulgarie__np"/></e>
+<e lm="Tanzanie">        <i>Tanzani</i><par n="Asi/e__np"/></e>
 <e lm="Tanzilli">        <i>Tanzilli</i><par n="Saussure__np"/></e>
 <e lm="Taormina">        <i>Taormina</i><par n="Saussure__np"/></e>
 <e lm="Taoufik">         <i>Taoufik</i><par n="Saussure__np"/></e>
@@ -47527,7 +47527,7 @@
 <e lm="Tayyip">          <i>Tayyip</i><par n="Jian__np"/></e>
 <e lm="Taís">            <i>Taís</i><par n="Marie__np"/></e>
 <e lm="Taña">            <i>Taña</i><par n="Saussure__np"/></e>
-<e lm="Tchèquie">        <i>Tc</i><par n="h/h·"/><i>èquie</i><par n="Bulgarie__np"/></e>
+<e lm="Tchèquie">        <i>Tc</i><par n="h/h·"/><i>èqui</i><par n="Asi/e__np"/></e>
 <e lm="Tchad">           <i>Tc</i><par n="h/h·"/><i>ad</i><par n="Iran__np"/></e>
 <e lm="Tchaykovski">     <i>Tchaykovski</i><par n="Saussure__np"/></e>
 <e lm="Tchèkhov">        <i>Tchèkhov</i><par n="Saussure__np"/></e>
@@ -48237,7 +48237,7 @@
 <e lm="Tuneu">           <i>Tuneu</i><par n="Saussure__np"/></e>
 <e lm="Tunis">           <i>Tunis</i><par n="Iran__np"/></e>
 <e lm="Tunis">           <i>Tunis</i><par n="Saussure__np"/></e>
-<e lm="Tunisie">         <i>Tunisie</i><par n="Bulgarie__np"/></e>
+<e lm="Tunisie">         <i>Tunisi</i><par n="Asi/e__np"/></e>
 <e lm="Tunkara">         <i>Tunkara</i><par n="Saussure__np"/></e>
 <e lm="Tupini">          <i>Tupini</i><par n="Saussure__np"/></e>
 <e lm="Tur">             <i>Tur</i><par n="Saussure__np"/></e>
@@ -48267,7 +48267,7 @@
 <e lm="Turner">          <i>Turner</i><par n="Saussure__np"/></e>
 <e lm="Turpin">          <i>Turpin</i><par n="Saussure__np"/></e>
 <e lm="Turquesa">        <i>Turquesa</i><par n="Marie__np"/></e>
-<e lm="Turquie">         <i>Turquie</i><par n="Bulgarie__np"/></e>
+<e lm="Turquie">         <i>Turqui</i><par n="Asi/e__np"/></e>
 <e lm="Turroni">         <i>Turroni</i><par n="Saussure__np"/></e>
 <e lm="Turró">           <i>Turró</i><par n="Saussure__np"/></e>
 <e lm="Turu">            <i>Turu</i><par n="Saussure__np"/></e>
@@ -48311,7 +48311,7 @@
 <e lm="Tárraga">         <i>Tárraga</i><par n="Saussure__np"/></e>
 <e lm="Tárrega">         <i>Tárrega</i><par n="Saussure__np"/></e>
 <e lm="Távola">          <i>Távola</i><par n="Saussure__np"/></e>
-<e lm="Tèrra-Adèlie">    <i>Tèrra-Adèlie</i><par n="Bulgarie__np"/></e>
+<e lm="Tèrra-Adèlie">    <i>Tèrra-Adèli</i><par n="Asi/e__np"/></e>
 <e lm="Tèssalonica">     <i>Tèssalonica</i><par n="Bulgarie__np"/></e>
 <e lm="Tébar">           <i>Tébar</i><par n="Saussure__np"/></e>
 <e lm="Téllez">          <i>Téllez</i><par n="Saussure__np"/></e>
@@ -48648,7 +48648,7 @@
 <e lm="Varrica">         <i>Varrica</i><par n="Saussure__np"/></e>
 <e lm="Varrão">          <i>Varrão</i><par n="Saussure__np"/></e>
 <e lm="Varró">           <i>Varró</i><par n="Saussure__np"/></e>
-<e lm="Varsovie" a="Vouiquipèdia"><i>Varsovie</i><par n="Bulgarie__np"/></e>
+<e lm="Varsovie" a="Vouiquipèdia"><i>Varsovi</i><par n="Asi/e__np"/></e>
 <e lm="Vartan">          <i>Vartan</i><par n="Saussure__np"/></e>
 <e lm="Vary">            <i>Vary</i><par n="Saussure__np"/></e>
 <e lm="Varó">            <i>Varó</i><par n="Saussure__np"/></e>
@@ -49482,8 +49482,7 @@
 <e lm="Vântu">           <i>Vântu</i><par n="Saussure__np"/></e>
 <e lm="Vènus">           <i>Vènus</i><par n="Bulgarie__np"/></e>
 <e lm="Vènus">           <i>Vènus</i><par n="Marie__np"/></e>
-<e lm="Vènècie" a="hector"><i>Vènècie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Vènècia" a="Vouiquipèdia" c="use_sub"><i>Vènècia</i><par n="Bulgarie__np"/></e>
+<e lm="Vènècie" a="hector"><i>Vènèci</i><par n="Asi/e__np"/></e>
 <e lm="Vènèzuèla">       <i>Vènèzuèla</i><par n="Iran__np"/></e>
 <e lm="Vèrcingètorix">   <i>Vèrcingètorix</i><par n="Jian__np"/></e>
 <e lm="Vèrdun">          <i>Vèrdun</i><par n="Iran__np"/></e>
@@ -50023,7 +50022,7 @@
 <e lm="Zalina">          <i>Zalina</i><par n="Marie__np"/></e>
 <e lm="Zaman">           <i>Zaman</i><par n="Saussure__np"/></e>
 <e lm="Zambelli">        <i>Zambelli</i><par n="Saussure__np"/></e>
-<e lm="Zambie">          <i>Zambie</i><par n="Bulgarie__np"/></e>
+<e lm="Zambie">          <i>Zambi</i><par n="Asi/e__np"/></e>
 <e lm="Zambito">         <i>Zambito</i><par n="Saussure__np"/></e>
 <e lm="Zambrana">        <i>Zambrana</i><par n="Saussure__np"/></e>
 <e lm="Zambrano">        <i>Zambrano</i><par n="Saussure__np"/></e>
@@ -50314,11 +50313,11 @@
 <e lm="Èritrê">          <i>Èritrê</i><par n="Bulgarie__np"/></e>
 <e lm="Èspagne">         <i>Èspagne</i><par n="Bulgarie__np"/></e>
 <e r="LR" lm="Èstonia" a="Vouiquipèdia" c="use_sub"><i>Èstonia</i><par n="Bulgarie__np"/></e>
-<e lm="Èstonie">         <i>Èstonie</i><par n="Bulgarie__np"/></e>
+<e lm="Èstonie">         <i>Èstoni</i><par n="Asi/e__np"/></e>
 <e lm="Èstèfania">       <i>Èstèfania</i><par n="Marie__np"/></e>
 <e lm="Èstèr">           <i>Èstèr</i><par n="Marie__np"/></e>
 <e lm="Ètats-Unis">      <i>Ètats-Unis</i><par n="États-Unis__np"/></e>
-<e lm="Ètiopie">         <i>Ètiopie</i><par n="Bulgarie__np"/></e>
+<e lm="Ètiopie">         <i>Ètiopi</i><par n="Asi/e__np"/></e>
 <e lm="Ètièno">          <i>Ètièno</i><par n="Jian__np"/></e>
 <e lm="Èva">             <i>Èva</i><par n="Marie__np"/></e>
 <e lm="Ève">             <i>Ève</i><par n="Marie__np"/></e>
@@ -50355,8 +50354,7 @@
 <e lm="Éric">            <i>Éric</i><par n="Jian__np"/></e>
 <e lm="Éros">            <i>Éros</i><par n="Jian__np"/></e>
 <e lm="Ésope">           <i>Ésope</i><par n="Jian__np"/></e>
-<e r="LR" lm="Étalia" a="Vouiquipèdia" c="use_sub"><i>Étalia</i><par n="Bulgarie__np"/></e>
-<e lm="Étalie">          <i>Étalie</i><par n="Bulgarie__np"/></e>
+<e lm="Étalie">          <i>Étali</i><par n="Asi/e__np"/></e>
 <e lm="Éthier">          <i>Éthier</i><par n="Saussure__np"/></e>
 <e lm="Étienne">         <i>Étienne</i><par n="Jian__np"/></e>
 <e lm="Étienne">         <i>Étienne</i><par n="Saussure__np"/></e>
@@ -50369,7 +50367,7 @@
 <e lm="Ïa">              <i>Ïa</i><par n="Marie__np"/></e>
 <e lm="Òscar">           <i>Òscar</i><par n="Jian__np"/></e>
 <e lm="Óscar">           <i>Óscar</i><par n="Jian__np"/></e>
-<e lm="Ôstralie">        <i>Ôstralie</i><par n="Bulgarie__np"/></e>
+<e lm="Ôstralie">        <i>Ôstrali</i><par n="Asi/e__np"/></e>
 <e lm="Ôstèrlitz">       <i>Ôstèrlitz</i><par n="Iran__np"/></e>
 <e lm="Ôtriche">         <i>Ôtric</i><par n="h/h·"/><i>e</i><par n="Bulgarie__np"/></e>
 <e lm="Ôvèrgne" a="Vouiquipèdia"><i>Ôvèrgne</i><par n="Bulgarie__np"/></e>
@@ -54613,7 +54611,7 @@
 
 <e lm="Ninive">          <i>Ninive</i><par n="Bulgarie__np"/></e>
 <e lm="Niniva" a="stich">          <i>Niniva</i><par n="Bulgarie__np"/></e>
-<e lm="Pamfilie">          <i>Pamfilie</i><par n="Bulgarie__np"/></e>
+<e lm="Pamfilie">          <i>Pamfili</i><par n="Asi/e__np"/></e>
 <e lm="Cllârmont">          <i>Cllârmont</i><par n="Iran__np"/></e>
 <e lm="Velèta">          <i>Velèta</i><par n="Bulgarie__np"/></e>
 
@@ -55961,7 +55959,7 @@
 <e lm="Tbilisi" a="Vouiquipèdia">          <i>Tbilisi</i><par n="Iran__np"/></e>
 <e lm="Yèrèvan" a="Vouiquipèdia">          <i>Yèrèvan</i><par n="Iran__np"/></e>
 <e lm="Alèsia">          <i>Alèsia</i><par n="Bulgarie__np"/></e>
-<e lm="Gèrgovie">          <i>Gèrgovie</i><par n="Bulgarie__np"/></e>
+<e lm="Gèrgovie">          <i>Gèrgovi</i><par n="Asi/e__np"/></e>
 <e r="LR" lm="Macèdouène" a="stich" c="use_sub"><i>Macèdouène</i><par n="Bulgarie__np"/></e>
 <e lm="Buenos Aires" a="Vouiquipèdia">          <i>Buenos<b/>Aires</i><par n="Iran__np"/></e>
 <e lm="Peugeot">          <i>Peugeot</i><par n="Wikipedia__np"/></e>
@@ -56108,23 +56106,19 @@
 <e lm="Istanbul" a="hector">          <i>Istanbul</i><par n="Iran__np"/></e>
 <e lm="Atèna" a="Vouiquipèdia">          <i>Atèna</i><par n="Bulgarie__np"/></e>
 <e lm="Oslo" a="Vouiquipèdia">          <i>Oslo</i><par n="Iran__np"/></e>
-<e lm="Ombrie" a="hector">          <i>Ombrie</i><par n="Bulgarie__np"/></e>
+<e lm="Ombrie" a="hector">          <i>Ombri</i><par n="Asi/e__np"/></e>
 <e r="LR" lm="Ombria" a="Vouiquipèdia" c="use_sub">          <i>Ombria</i><par n="Bulgarie__np"/></e>
 <e lm="Toscana" a="Vouiquipèdia">          <i>Toscana</i><par n="Bulgarie__np"/></e>
-<e lm="Lombardie" a="hector">          <i>Lombardie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Lombardia" a="Vouiquipèdia" c="use_sub">          <i>Lombardia</i><par n="Bulgarie__np"/></e>
-<e lm="Ligurie" a="hector">          <i>Ligurie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Liguria" a="Vouiquipèdia" c="use_sub">          <i>Liguria</i><par n="Bulgarie__np"/></e>
+<e lm="Lombardie" a="hector">          <i>Lombardi</i><par n="Asi/e__np"/></e>
+<e lm="Ligurie" a="hector">          <i>Liguri</i><par n="Asi/e__np"/></e>
 <e lm="Lacion" a="Vouiquipèdia">          <i>Lacion</i><par n="Iran__np"/></e>
 <e lm="Basilicâ" a="Vouiquipèdia">          <i>Basilicâ</i><par n="Bulgarie__np"/></e>
 <e lm="Baselicâ" a="Vouiquipèdia">          <i>Baselicâ</i><par n="Bulgarie__np"/></e>
 <e lm="Calâbra" a="Vouiquipèdia">          <i>Calâbra</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Campania" a="Vouiquipèdia" c="use_sub">          <i>Campania</i><par n="Bulgarie__np"/></e>
-<e lm="Campanie" a="hector">          <i>Campanie</i><par n="Bulgarie__np"/></e>
+<e lm="Campanie" a="hector">          <i>Campani</i><par n="Asi/e__np"/></e>
 <e r="LR" lm="Èmilia-Romagne" a="Vouiquipèdia" c="use_sub">          <i>Èmilia-Romagne</i><par n="Bulgarie__np"/></e>
-<e lm="Èmilie" a="hector">          <i>Èmilie</i><par n="Bulgarie__np"/></e>
+<e lm="Èmilie" a="hector">          <i>Èmili</i><par n="Asi/e__np"/></e>
 <e lm="Èmilie-Romagne" a="hector">          <i>Èmilie-Romagne</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Èmilia" a="Vouiquipèdia" c="use_sub">          <i>Èmilia</i><par n="Bulgarie__np"/></e>
 <e lm="Romagne" a="Vouiquipèdia">          <i>Romagne</i><par n="Bulgarie__np"/></e>
 <e lm="Les Mârques" a="Vouiquipèdia">          <i>Les<b/>Mârques</i><par n="Bulgarie__np"/></e>
 <e lm="Molis" a="Vouiquipèdia">          <i>Molis</i><par n="Bulgarie__np"/></e>
@@ -56480,19 +56474,19 @@
 <e r="LR" lm="Éran" a="Vouiquipèdia" c="use_sub">          <i>Éran</i><par n="Iran__np"/></e>
 <e lm="Ottawa" a="Vouiquipèdia">          <i>Ottawa</i><par n="Bulgarie__np"/></e>
 <e lm="Bohèma" a="hector">          <i>Bohèma</i><par n="Bulgarie__np"/></e>
-<e lm="Moravie" a="hector">          <i>Moravie</i><par n="Bulgarie__np"/></e>
+<e lm="Moravie" a="hector">          <i>Moravi</i><par n="Asi/e__np"/></e>
 <e lm="Queensland" a="hector" c="use_sub">          <i>Queensland</i><par n="Iran__np"/></e>
 <e r="LR" lm="Tolosa" a="Vouiquipèdia" c="use_sub">          <i>Tolosa</i><par n="Bulgarie__np"/></e>
 <e lm="Brussèles" a="Vouiquipèdia">          <i>Brussèles</i><par n="Iran__np"/></e>
 <e r="LR" lm="Brussèla" a="Vouiquipèdia" c="use_sub">          <i>Brussèla</i><par n="Iran__np"/></e>
-<e lm="Silèsie" a="hector">          <i>Silèsie</i><par n="Bulgarie__np"/></e>
+<e lm="Silèsie" a="hector">          <i>Silèsi</i><par n="Asi/e__np"/></e>
 <e lm="Brooklyn" a="Vouiquipèdia">          <i>Brooklyn</i><par n="Iran__np"/></e>
 <e lm="Times Square" a="Vouiquipèdia">          <i>Times<b/>Square</i><par n="Bulgarie__np"/></e>
 <e lm="Queens" a="Vouiquipèdia">          <i>Queens</i><par n="Iran__np"/></e>
 <e lm="Bangalore" a="hector">          <i>Bangalore</i><par n="Iran__np"/></e>
 <e lm="Toronto" a="Vouiquipèdia">          <i>Toronto</i><par n="Iran__np"/></e>
 <e lm="Flandra" a="Vouiquipèdia">          <i>Flandra</i><par n="Bulgarie__np"/></e>
-<e lm="Valonie" a="Vouiquipèdia">          <i>Valonie</i><par n="Bulgarie__np"/></e>
+<e lm="Valonie" a="Vouiquipèdia">          <i>Valoni</i><par n="Asi/e__np"/></e>
 <e lm="Nacions unies" a="Vouiquipèdia">          <i>Nacions<b/>unies</i><par n="Nations_unies__np"/></e>
 <e lm="Concorde">          <i>Concorde</i><par n="Linux__np"/></e>
 <e lm="Mirage">          <i>Mirage</i><par n="Linux__np"/></e>
@@ -56537,7 +56531,7 @@
 <e lm="Guadalajara" a="hector">          <i>Guadalajara</i><par n="Bulgarie__np"/></e>
 <e lm="Casablanca" a="hector">          <i>Casablanca</i><par n="Bulgarie__np"/></e>
 <e lm="Rabat" a="hector">          <i>Rabat</i><par n="Iran__np"/></e>
-<e lm="Calabrie">          <i>Calabrie</i><par n="Bulgarie__np"/></e>
+<e lm="Calabrie">          <i>Calabri</i><par n="Asi/e__np"/></e>
 <e lm="Vâl d'Aran">          <i>Vâl<b/>d'Aran</i><par n="Iran__np"/></e>
 <e lm="Aliér" a="Vouiquipèdia">          <i>Aliér</i><par n="Iran__np"/></e>
 <e lm="Ardecha" a="Vouiquipèdia">          <i>Ardecha</i><par n="Bulgarie__np"/></e>
@@ -56604,25 +56598,22 @@
 
 <e lm="Adige" a="Vouiquipèdia">          <i>Adige</i><par n="Iran__np"/></e>
 <e lm="Ôvèrgne-Rôno-Ârpes" a="Vouiquipèdia">          <i>Ôvèrgne-Rôno-Ârpes</i><par n="Bulgarie__np"/></e>
-<e lm="Novèla-Aquitanie" a="hector">          <i>Novèla-Aquitanie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Novèla-Aquitania" a="Vouiquipèdia" c="use_sub">          <i>Novèla-Aquitania</i><par n="Bulgarie__np"/></e>
+<e lm="Novèla-Aquitanie" a="hector">          <i>Novèla-Aquitani</i><par n="Asi/e__np"/></e>
 <e lm="Borgogne-Franche-Comtât" a="Vouiquipèdia">          <i>Borgogne-Franche-Comtât</i><par n="Bulgarie__np"/></e>
 <e lm="Vanouèsa">          <i>Vanouèsa</i><par n="Bulgarie__np"/></e>
 <e lm="Pllan Contê">          <i>Pllan<b/>Contê</i><par n="Iran__np"/></e>
 <e lm="Plan Contê">          <i>Plan<b/>Contê</i><par n="Iran__np"/></e>
 <e lm="Delhi" a="hector">          <i>Delhi</i><par n="Iran__np"/></e>
 <e lm="Novèla-Delhi" a="hector">          <i>Novèla-Delhi</i><par n="Iran__np"/></e>
-<e lm="Occitanie" a="Vouiquipèdia">          <i>Occitanie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Occitania" a="Vouiquipèdia" c="use_sub">          <i>Occitania</i><par n="Bulgarie__np"/></e>
+<e lm="Occitanie" a="Vouiquipèdia">          <i>Occitani</i><par n="Asi/e__np"/></e>
 <e lm="Domba">          <i>Domba</i><par n="Bulgarie__np"/></e>
-<e lm="Ocèanie" a="Vouiquipèdia">          <i>Ocèanie</i><par n="Bulgarie__np"/></e>
-<e r="LR" lm="Ocèania" a="corpus" c="use_sub">          <i>Ocèania</i><par n="Bulgarie__np"/></e>
+<e lm="Ocèanie" a="Vouiquipèdia">          <i>Ocèani</i><par n="Asi/e__np"/></e>
 <e lm="Antananativo" a="hector">          <i>Antananativo</i><par n="Iran__np"/></e>
-<e lm="Ôstrasie" a="hector">          <i>Ôstrasie</i><par n="Bulgarie__np"/></e>
+<e lm="Ôstrasie" a="hector">          <i>Ôstrasi</i><par n="Asi/e__np"/></e>
 <e lm="Mons" a="hector">          <i>Mons</i><par n="Iran__np"/></e>
 <e lm="Charleroi" a="hector">          <i>Charleroi</i><par n="Iran__np"/></e>
 <e lm="Mexique" a="Vouiquipèdia">          <i>Mexique</i><par n="Iran__np"/></e>
-<e lm="Francie" a="hector">          <i>Francie</i><par n="Bulgarie__np"/></e>
+<e lm="Francie" a="hector">          <i>Franci</i><par n="Asi/e__np"/></e>
 <e lm="Belize" a="Vouiquipèdia">          <i>Belize</i><par n="Iran__np"/></e>
 <e lm="Antiles" a="Vouiquipèdia">          <i>Antiles</i><par n="Alemagnes__np"/></e>
 <e lm="Panama" a="Vouiquipèdia">          <i>Panama</i><par n="Iran__np"/></e>
@@ -56635,10 +56626,10 @@
 <e lm="Montsarrat" a="Vouiquipèdia">          <i>Montsarrat</i><par n="Iran__np"/></e>
 <e lm="Venezuèla" a="Vouiquipèdia">          <i>Venezuèla</i><par n="Iran__np"/></e>
 <e lm="iles Turques et Cayiques" a="Vouiquipèdia">          <i>iles<b/>Turques<b/>et<b/>Cayiques</i><par n="Alemagnes__np"/></e>
-<e lm="Arpetanie" a="hector">          <i>Arpetanie</i><par n="Bulgarie__np"/></e>
+<e lm="Arpetanie" a="hector">          <i>Arpetani</i><par n="Asi/e__np"/></e>
 <e lm="Arpitania" a="Vouiquipèdia">          <i>Arpitania</i><par n="Bulgarie__np"/></e>
 <e lm="Barbâda" a="Vouiquipèdia">          <i>Barbâda</i><par n="Bulgarie__np"/></e>
-<e lm="Arpitanie" a="hector">          <i>Arpitanie</i><par n="Bulgarie__np"/></e>
+<e lm="Arpitanie" a="hector">          <i>Arpitani</i><par n="Asi/e__np"/></e>
 <e lm="Arpetania" a="Vouiquipèdia">          <i>Arpetania</i><par n="Bulgarie__np"/></e>
 <e lm="Goatemala" a="Vouiquipèdia">          <i>Goatemala</i><par n="Iran__np"/></e>
 <e lm="Afganistan" a="Vouiquipèdia">          <i>Afganistan</i><par n="Iran__np"/></e>
@@ -56652,10 +56643,10 @@
 <e lm="Yèmen" a="Vouiquipèdia">          <i>Yèmen</i><par n="Iran__np"/></e>
 <e lm="Miyanmar" a="Vouiquipèdia">          <i>Miyanmar</i><par n="Iran__np"/></e>
 <e lm="Bruneyi" a="Vouiquipèdia">          <i>Bruneyi</i><par n="Iran__np"/></e>
-<e lm="Endonèsie" a="Vouiquipèdia">          <i>Endonèsie</i><par n="Bulgarie__np"/></e>
+<e lm="Endonèsie" a="Vouiquipèdia">          <i>Endonèsi</i><par n="Asi/e__np"/></e>
 <e lm="Felipines" a="Vouiquipèdia">          <i>Felipines</i><par n="Alemagnes__np"/></e>
 <e lm="Laos" a="Vouiquipèdia">          <i>Laos</i><par n="Iran__np"/></e>
-<e lm="Malèsie" a="Vouiquipèdia">          <i>Malèsie</i><par n="Bulgarie__np"/></e>
+<e lm="Malèsie" a="Vouiquipèdia">          <i>Malèsi</i><par n="Asi/e__np"/></e>
 <e lm="Singapor" a="Vouiquipèdia">          <i>Singapor</i><par n="Iran__np"/></e>
 <e lm="Tayilande" a="Vouiquipèdia">          <i>Tayilande</i><par n="Bulgarie__np"/></e>
 <e lm="Viêt Nam" a="Vouiquipèdia">          <i>Viêt<b/>Nam</i><par n="Iran__np"/></e>
@@ -57022,11 +57013,11 @@
 <e lm="Himalaya" a="hector">          <i>Himalaya</i><par n="Iran__np"/></e>
 <e lm="Bachkortostan" a="hector">          <i>Bachkortostan</i><par n="Iran__np"/></e>
 <e lm="Tatarstan" a="hector">          <i>Tatarstan</i><par n="Iran__np"/></e>
-<e lm="Tchouvachie" a="hector">          <i>Tchouvachie</i><par n="Bulgarie__np"/></e>
+<e lm="Tchouvachie" a="hector">          <i>Tchouvachi</i><par n="Asi/e__np"/></e>
 <e lm="Daguèstan" a="hector">          <i>Daguèstan</i><par n="Iran__np"/></e>
 <e lm="Èlisê" a="hector">          <i>Èlisê</i><par n="Iran__np"/></e>
-<e lm="Moscovie" a="hector">          <i>Moscovie</i><par n="Bulgarie__np"/></e>
-<e lm="Andalousie" a="hector">          <i>Andalousie</i><par n="Bulgarie__np"/></e>
+<e lm="Moscovie" a="hector">          <i>Moscovi</i><par n="Asi/e__np"/></e>
+<e lm="Andalousie" a="hector">          <i>Andalousi</i><par n="Asi/e__np"/></e>
 <e lm="Ford">          <i>Ford</i><par n="Wikipedia__np"/></e>
 <e lm="General Motors">          <i>General<b/>Motors</i><par n="Linux__np"/></e>
 <e lm="Chrysler">          <i>Chrysler</i><par n="Linux__np"/></e>
@@ -57902,8 +57893,8 @@
 <e lm="EZLN" a="hector">          <i>EZLN</i><par n="BBVA__n"/></e>
 <e lm="ègz." a="LoTrèsor">          <i>ègz.</i><par n="BBVA__n"/></e>
 <e lm="Oxbridge" a="hector">          <i>Oxbridge</i><par n="Iran__np"/></e>
-<e lm="Tchètchènie" a="hector">          <i>Tchètchènie</i><par n="Bulgarie__np"/></e>
-<e lm="Ingouchie" a="hector">          <i>Ingouchie</i><par n="Bulgarie__np"/></e>
+<e lm="Tchètchènie" a="hector">          <i>Tchètchèni</i><par n="Asi/e__np"/></e>
+<e lm="Ingouchie" a="hector">          <i>Ingouchi</i><par n="Asi/e__np"/></e>
 <e lm="Everest" a="Vouiquipèdia">          <i>Everest</i><par n="Iran__np"/></e>
 <e lm="Èpiro" a="hector">          <i>Èpiro</i><par n="Iran__np"/></e>
 <e lm="Hanoi" a="Vouiquipèdia">          <i>Hanoi</i><par n="Iran__np"/></e>
@@ -57912,7 +57903,7 @@
 <e lm="Kinshasa" a="hector">          <i>Kinshasa</i><par n="Bulgarie__np"/></e>
 <e lm="Dakar" a="hector">          <i>Dakar</i><par n="Iran__np"/></e>
 <e lm="Abidjan" a="hector">          <i>Abidjan</i><par n="Iran__np"/></e>
-<e lm="Carèlie" a="hector">          <i>Carèlie</i><par n="Bulgarie__np"/></e>
+<e lm="Carèlie" a="hector">          <i>Carèli</i><par n="Asi/e__np"/></e>
 <e lm="Mourmansk" a="hector">          <i>Mourmansk</i><par n="Iran__np"/></e>
 <e lm="Aberdeen" a="hector">          <i>Aberdeen</i><par n="Iran__np"/></e>
 <e lm="Constantinople" a="Vouiquipèdia">          <i>Constantinople</i><par n="Bulgarie__np"/></e>
@@ -58277,6 +58268,15 @@
 <e lm="fruit de dedens bruto" a="Vouiquipèdia"><i>fruit</i><par n="abricot__n"/><p><l><b/>de<b/>dedens<b/>bruto</l><r><g><b/>de<b/>dedens<b/>bruto</g></r></p></e>
 <e lm="paritât de povêr d'empleta" a="Vouiquipèdia"><i>paritât</i><par n="abayie__n"/><p><l><b/>de<b/>povêr<b/>d'empleta</l><r><g><b/>de<b/>povêr<b/>d'empleta</g></r></p></e>
 <e r="LR" lm="quota de chômâjo" a="Vouiquipèdia"><i>quot</i><par n="bo/a__n"/><p><l><b/>de<b/>chômâjo</l><r><g><b/>de<b/>chômâjo</g></r></p></e> <!-- VERIFY -->
+<e lm="G7">          <i>G7</i><par n="BBVA__n"/></e>
+<e lm="G8">          <i>G8</i><par n="BBVA__n"/></e>
+<e lm="G20">          <i>G20</i><par n="BBVA__n"/></e>
+<e lm="EDF">          <i>EDF</i><par n="BBC__n"/></e>
+<e lm="FDB" a="Vouiquipèdia">          <i>FDB</i><par n="IRPF__n"/></e>
+<e lm="PPE" a="Vouiquipèdia">          <i>PPE</i><par n="BBC__n"/></e>
+<e lm="Unèscô" a="Vouiquipèdia">          <i>Unèscô</i><par n="BBC__n"/></e>
+<e lm="Insee">          <i>Insee</i><par n="BBVA__n"/></e>
+<e lm="LSD" a="alanfavro">          <i>LSD</i><par n="IRPF__n"/></e>
 
 <!--- xxxxx -->
 
