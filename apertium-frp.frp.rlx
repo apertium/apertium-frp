@@ -210,6 +210,19 @@ SELECT N IF (-1 Def + FemSg) (0 ("<Mar>")) ;
 
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
+REMOVE ("vivre") IF (0 ("alar")) (1 Inf) ;			# je vé morir
+REMOVE ("vivre") IF (0 ("alar")) (1 Pro) (2 Inf) ;		# je vé t’envoyér
+REMOVE ("vivre") IF (0 ("alar")) (1 Pro) (2 Pro) (3 Inf) ;
+REMOVE ("vivre") IF (0 ("alar")) (1 Adv) (2 Inf) ;		# je vé pas morir
+REMOVE ("vivre") IF (0 ("alar")) (1 Adv) (2 Pro) (3 Inf) ;	# je vé pas t’envoyér
+REMOVE ("vivre") IF (0 ("alar")) (1 Adv) (2 Pro) (3 Pro) (4 Inf) ;
+REMOVE ("vivre") IF (0 ("alar")) (0 (META:/-/r)) (1 Tn) (2 Inf) ;			# vé-je morir
+REMOVE ("vivre") IF (0 ("alar")) (0 (META:/-/r)) (1 Tn) (2 Pro) (3 Inf) ;		# vé-je t’envoyér
+REMOVE ("vivre") IF (0 ("alar")) (0 (META:/-/r)) (1 Tn) (2 Pro) (3 Pro) (4 Inf) ;
+REMOVE ("vivre") IF (0 ("alar")) (0 (META:/-/r)) (1 Tn) (2 Adv) (3 Inf) ;		# vé-je pas morir
+REMOVE ("vivre") IF (0 ("alar")) (0 (META:/-/r)) (1 Tn) (2 Adv) (3 Pro) (4 Inf) ;	# vé-je pas t’envoyér
+REMOVE ("vivre") IF (0 ("alar")) (0 (META:/-/r)) (1 Tn) (2 Adv) (3 Pro) (4 Pro) (5 Inf) ;
+
 SELECT Prep IF (0 ("tant que")) (-1 ("alar")) ;
 
 SELECT Prep IF (0 ("dèrriér")) (1C Prn) ;	# dèrriér lor
@@ -582,7 +595,7 @@ SELECT P3 IF (0 Oprn) (1 Verb + P3 + Sg) ;
 
 REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* PtExcl) ;
 SELECT Imper IF (-1 BOS OR Sent OR (lpar)) (0 ("<Va>")) ;
-REMOVE Ind OR Subjunc IF (-1 BOS OR Sent OR (lpar)) (0 Imper) ;		# « Salye de ton payis
+REMOVE Ind OR Subjunc IF (-1 BOS OR Sent OR (lpar)) (0 Imper) ;		# Salye de ton payis
 
 #REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
 #REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
@@ -600,14 +613,11 @@ REMOVE Pers IF (-1C Prep) ;
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
 REMOVE Subjunc (NOT -1* Que) (0C Verb) (0 Pri) ;	# VERIFY
 
+REMOVE Pis IF (0 Prs) ;		# que nos rejouyéssens
+REMOVE Ifi IF (0 Pri) ;		# chantens ; alens
+
 # dormét pri/ifi
 # il faut regarder aussi qu'est-ce qui ce passe dans la frase antérieure ou postérieure (pri ou ifi?)
-
-SET MarcaPasado = ("ayer") OR ("anteayer");
-LIST LemmaPasado = (".*pasado.*"r) ;
-REMOVE:presente_pasado1 (pri) IF (0 (pri)) (0 (ifi)) (-1*/* MarcaPasado OR LemmaPasado OR ("pasado") BARRIER Verb OR Cnj_Rel_End); #El año pasado creamos
-REMOVE:presente_pasado2 (pri) IF (0 (pri)) (0 (ifi)) (1 MarcaPasado OR LemmaPasado) (NOT 1 ("pasado"));
-REMOVE:presente_pasado0 (ifi) IF (0 (pri)) (0 (ifi));
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
