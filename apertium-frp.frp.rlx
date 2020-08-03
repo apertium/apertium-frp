@@ -144,6 +144,9 @@ SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 # verbes qui peuvent avoir un attribut
 SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
+# adjectifs qui vont souvent devant le nom
+SET AdjPre = ("ancian") OR ("novél") OR ("joueno") OR ("viely") OR ("grant") OR ("petit") OR ("brâvo") OR ("bon") OR ("mâl") OR ("môvés") OR ("crouyo") OR ("mèchient") OR ("pouvro") OR ("hôt") OR ("hiôt") OR ("bâs") OR ("solèt") OR ("cèlèbro") OR ("veré") OR ("fôx") OR ("biô") OR ("mâlnèt") OR ("lârjo") OR ("long") OR ("sant") OR ("sent") OR ("sacrâ") ; 
+
 LIST Je = "je" ;
 LIST Ye = "ye" ;
 LIST Jo = "jo" ;
@@ -164,7 +167,7 @@ LIST Etre = "étre" ;
 
 LIST Coment = "coment" ;
 
-SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
+SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Tn OR Pro ;
 
 SECTION
 
@@ -469,8 +472,10 @@ REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NO
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
 REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+
 REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Num) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+
 
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
@@ -478,6 +483,10 @@ REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&Gende
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Adv) (2 Adj_PP + &&GenderNumber) ;
+
+REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 N + &&GenderNumber) (NOT 0 Ord OR AdjPre) (1 Adj_PP + &&GenderNumber) ;	# les armâs francêses
+SELECT A IF (-1/* Det + &&GenderNumber) (0 Ord OR AdjPre) (1 N + &&GenderNumber) ;	# les grantes armâs
+SELECT N IF (-2/* Det + &&GenderNumber) (-1 Ord OR AdjPre) (0 N + &&GenderNumber) ;	# les grantes armâs
 
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 SELECT N IF (-1C Prep OR BOS) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 Ord) (NOT 1C N) ;
