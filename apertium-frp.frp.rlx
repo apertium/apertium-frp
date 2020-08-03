@@ -188,6 +188,11 @@ SELECT ("cors") IF (0 ("cor") OR ("cors")) ;
 SELECT Masc IF (0 ("cort")) (NOT -1/* Fem_strict) (1 ("de")) (2 ("tènis")) ;
 SELECT Fem IF (0 ("cort")) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
+SELECT N IF (0 ("frâre")) (1 Ant OR unknownMajIni) ;					# frâre Jian
+SELECT N IF (0 ("sœr") OR ("sor") OR ("seror") OR ("suèra")) (1 Ant OR unknownMajIni) ;	# sœr Meredith
+SELECT Ant + Masc IF (-1 ("frâre")) (0 Ant) ;
+SELECT Ant + Fem IF (-1 ("sœr") OR ("sor") OR ("seror") OR ("suèra")) (0 Ant) ; 
+
 REMOVE ("mê") IF (0 ("mês")) ;
 
 SELECT A IF (0 ("dèrriér") + &&GenderNumber) (1 N + &&GenderNumber) ;	# dèrriér pouent
