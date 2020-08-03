@@ -204,8 +204,8 @@ SELECT Adv IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("pouent")) ;
 
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 N + &&GenderNumber) ;	# devant la mêson
 SELECT Prep IF (0 ("devant")) (1 Det + &&GenderNumber) (2 A + &&GenderNumber) ;	# devant la granta mêson
-SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl ) ;
-SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl ) ;
+SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl) ;
+SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl) ;
 SELECT Prep IF (0 ("devant")) (1 ("J.C.")) ;
 
 REMOVE Top IF (-1 BOS OR Sent) (0 ("en")) ;
@@ -419,8 +419,9 @@ SELECT PP IF (-1 Haver) (0 PP) ;
 SELECT PP IF (-2 Haver) (-1 Adv) (0 PP) ;
 SELECT PP IF (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
 
-SELECT PP IF (-1 Ser + &&Number) (0 A + &&Number) (1 ("par")) ;
-SELECT PP IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 A + &&Number) (1 ("par")) ;
+SELECT PP IF (-1 Ser + &&Number) (0 A + &&Number) (1 Prep) ;
+SELECT PP IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 A + &&Number) (1 Prep) ;
+SELECT PP IF (-3 Ser + &&Number) (-2 Adv) (-1 Adv_PreAdv) (0 A + &&Number) (1 Prep) ;
 
 # adj / ger
 
