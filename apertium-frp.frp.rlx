@@ -546,6 +546,26 @@ SELECT Top IF (-2 ("vela") OR ("vila") OR ("viala") OR ("aèrogâra") OR ("gâra
 SELECT NP IF (NOT -1 BOS OR Sent) (0 MajIni) ;	# VERIFY (il faut des tas plus de règles)
 
 #
+# Accords
+#
+
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Masc_strict) ;	# des premiérs tuâs
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 N + &&GenderNumber) (2 A + &&GenderNumber) (3 CnjCoo) (4 A + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 N + &&GenderNumber) (2 A + &&GenderNumber) (3 CnjCoo) (4 A + &&GenderNumber + Fem_strict) ;
+
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv LINK NOT 0 Pro OR Itg) (2 Noun_Adj + &&GenderNumber + Masc_strict) ;	# des tout premiérs tuâs
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
+
+#
 # Verbos
 #
 
