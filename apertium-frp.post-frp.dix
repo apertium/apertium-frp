@@ -58,6 +58,18 @@
     </pardef>
 
     <pardef n="article_complet">
+      <e><i>Iiér</i></e>
+      <e><i>Iiére</i></e>
+      <e><i>IInd</i></e>
+      <e><i>IInde</i></e>
+      <e><i>IIémo</i></e>
+      <e><i>IIéma</i></e>
+      <e><i>IIIémo</i></e>
+      <e><i>IIIéma</i></e>
+      <e><i>IVémo</i></e>
+      <e><i>IVéma</i></e>
+      <e><i>IXémo</i></e>
+      <e><i>IXéma</i></e>
       <e><i>yacht</i></e>
       <e><i>yang</i></e>
       <e><i>yankee</i></e>
@@ -73,14 +85,6 @@
       <e><i>yougoslave</i></e>
       <e><i>Yougoslavie</i></e>
       <e><i>yourte</i></e>
-      <e><i>Iièr</i></e>
-      <e><i>Iière</i></e>
-      <e><i>IIe</i></e>
-      <e><i>IIIe</i></e>
-      <e><i>IVe</i></e>
-      <e><i>IXe</i></e>
-      <e><i>Ianoukovytch</i></e>
-      <e><i>Iouchtchenko</i></e>
       <e><i>Yacoub</i></e>
       <e><i>Yadhira</i></e>
       <e><i>Yadia</i></e>
@@ -303,6 +307,10 @@
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="caractere_general"/></e>
       <e><p><l><b/></l><r>'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>los-dits</l><r>es-dits</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>les-dites</l><r>es-dites</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>lo-dit<b/></l><r>u-dit<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>lo-dit</l><r>u-dit</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>mè<b/></l><r>e<b/>m</r></p><par n="è_lo"/></e>
       <e><p><l><b/><a/>mè<b/></l><r>e<b/>m'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>tè<b/></l><r>e<b/>t</r></p><par n="è_lo"/></e>
@@ -331,6 +339,10 @@
       <e><p><l><b/><a/>la<b/></l><r>a<b/>la<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>la<b/></l><r>a<b/>la<b/></r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>le</l><r>u</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>los-dits</l><r>ux-dits</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>les-dites</l><r>ux-dites</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>lo-dit<b/></l><r>u-dit<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>lo-dit</l><r>u-dit</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>le<b/><a/>biô<b/></l><r>u<b/>bél<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>nôvo<b/></l><r>u<b/>nôf<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>nuevo<b/></l><r>u<b/>nuef<b/></r></p><par n="voyelles"/></e>
@@ -469,9 +481,13 @@
 
       <e><p><l><a/>a<b/><a/>lo<b/></l><r>u<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>a<b/><a/>la<b/></l><r>a<b/>la<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>a<b/><a/>lo-dit<b/></l><r>u-dit<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>a<b/><a/>la-dita<b/></l><r>a<b/>la-dita<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>a</l><r/></p><par n="a"/></e>
       <e><p><l><a/>de<b/><a/>lo<b/></l><r>du<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de<b/><a/>la<b/></l><r>de<b/>la<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>de<b/><a/>lo-dit<b/></l><r>du-dit<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>de<b/><a/>la-dita<b/></l><r>de<b/>la-dita<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de<b/><a/>ne<b/></l><r>de<b/>n</r></p><par n="ne"/></e>
       <e><p><l><a/>de<b/></l><r>de<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de</l><r>d</r></p><par n="de"/></e>
