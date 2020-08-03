@@ -410,6 +410,15 @@ REMOVE Adv (-1 Det + &&GenderNumber) (0 A + &&GenderNumber) (1 N + &&GenderNumbe
 
 SELECT Adv IF (-1 BOS OR Sent) (0 Noun_Adj) (1* P1 OR P2 OR P3) ;		# ; pués je tè beniré
 
+# adj / pp
+
+SELECT PP IF (-1 Haver) (0 PP) ;			
+SELECT PP IF (-2 Haver) (-1 Adv) (0 PP) ;
+SELECT PP IF (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
+
+SELECT PP IF (-1 Ser + &&Number) (0 A + &&Number) (1 ("par")) ;
+SELECT PP IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 A + &&Number) (1 ("par")) ;
+
 # adj / ger
 
 REMOVE Ger IF (-1 Ser + &&Number) (0 A + &&Number) ;			# il ére valyent
