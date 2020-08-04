@@ -637,6 +637,12 @@ REMOVE P3 IF (-1 Ser) (-1 (META:/-/r)) (0 Oprn) ;
 SELECT P3 IF (-1 Verb + P3 + Sg) (-1 (META:/-/r)) (0 Oprn) ;		# Y at-o de la place ?
 SELECT P3 IF (0 Oprn) (1 Verb + P3 + Sg) ;
 
+# participes
+
+SELECT Sg IF (-1C Ser + Sg) (0 PP) ;	# ére somês
+SELECT Pl IF (-1C Ser + Pl) (0 PP) ;	# érant somês
+SELECT Sg IF (NOT -2 Pro + Pl) (NOT -2 Que + Rel) (NOT -3 Que + Rel) (-1C Haver) (0 PP) ;	# qu’il at ètèrses
+
 # temps verbaux
 
 REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* PtExcl) ;
