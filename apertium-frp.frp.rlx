@@ -208,6 +208,8 @@ SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl) ;
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl) ;
 SELECT Prep IF (0 ("devant")) (1 ("J.C.")) ;
 
+SELECT CnjAdv IF (-1 BOS OR Sent OR CnjCoo OR CnjAdv) (0 ("portant")) ;
+
 REMOVE Top IF (-1 BOS OR Sent) (0 ("en")) ;
 REMOVE Top IF (-1 BOS OR Sent) (0 ("nion")) ;
 
