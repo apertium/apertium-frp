@@ -176,6 +176,8 @@ REMOVE Pref ;
  
 # mots individuels
 
+SELECT Num IF (0 ("mile") + Sg_strict) (-1 Num) ;
+
 SELECT Masc_strict IF (0 LPre + Fem_strict) (1 Verb) (2 Noun_Adj + Masc_strict) ;			# 'l est recho
 SELECT Masc_strict IF (0 LPre + Fem_strict) (1 Verb) (2 Adv_PreAdv) (3 Noun_Adj + Masc_strict) ;	# 'l est brâvament recho
 SELECT Fem_strict IF (0 LPre + Masc_strict) (1 Verb) (2 Noun_Adj + Fem_strict) ;			# 'l est recha
