@@ -302,6 +302,8 @@ SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel OR A) ;		# je de
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel OR A) ;		# je demando pas qui
 SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel OR A) ;	# je demando pas avouéc qui
 
+REMOVE Itg IF (-1C Noun_Adj) (0 Rel) ;	# un palès yô qu’y avêt
+
 # adv/ preadv
 
 REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
