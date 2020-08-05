@@ -167,7 +167,7 @@ LIST Etre = "étre" ;
 
 LIST Coment = "coment" ;
 
-SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Tn OR Pro ;
+SET Barrera_Final_Estrict_SN = EOS OR Sent OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Tn OR Pro OR Itg OR Verb + Pers OR Verb + Inf OR Verb + Ger OR ("avant") OR ("aprés") OR ("pendent") OR ("sur") OR ("dessus") OR ("sot") OR ("desot") OR ("por") OR ("avouéc") OR ("sen") OR ("asse-més") ;
 
 SECTION
 
@@ -470,22 +470,22 @@ REMOVE N (-1 Det + &&GenderNumber) (0 ("joueno") + &&GenderNumber) (1 Cog + &&Ge
 REMOVE N (-1 Det + &&GenderNumber) (0 ("mèchient") + &&GenderNumber) (1 Ant + &&GenderNumber) ;
 REMOVE N (-1 Det + &&GenderNumber) (0 ("mèchient") + &&GenderNumber) (1 Cog + &&GenderNumber) ;
 
-REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
 REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
 
-REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -2 Coment) (-1 Num) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -3 Coment) (-2 Det + &&GenderNumber) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Num) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
 
 
-REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
 REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Adv) (2 Adj_PP + &&GenderNumber) ;
 
