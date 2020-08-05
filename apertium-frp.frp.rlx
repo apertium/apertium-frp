@@ -122,6 +122,7 @@ LIST PtItg = "?" ;
 
 SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
+LIST L_Noun_Adj_PP = (n) (a) (pp) ;
 SET Adj_PP = A OR PP ;
 SET Adv_PreAdv = Adv OR PreAdv ;
 SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
@@ -557,8 +558,8 @@ SELECT NP IF (NOT -1 BOS OR Sent) (0 MajIni) ;	# VERIFY (il faut des tas plus de
 # Accords
 #
 
-SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Masc_strict) ;	# des premiérs tuâs
-SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Masc_strict) (NOT 1 Fem_strict) ;	# des premiérs tuâs ; ses nuets
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Fem_strict) (NOT 1 Masc_strict) ;
 SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber + Masc_strict) ;
 SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber + Fem_strict) ;
 SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
@@ -572,6 +573,13 @@ SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Ad
 SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
 SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
 SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
+
+SELECT &&GenderNumber IF (-1C Det) (-1 &&GenderNumber) (0C Noun_Adj_PP) (0 &&GenderNumber) ;		# una nuet
+SELECT &&GenderNumber IF (0C Det) (-1 &&GenderNumber) (1C Noun_Adj_PP) (0 &&GenderNumber) ;
+SELECT &&GenderNumber IF (-1C Noun_Adj_PP) (-1 &&GenderNumber) (0C Noun_Adj_PP) (0 &&GenderNumber) ;	# mile homos armâs / mile fèna armâs
+SELECT &&GenderNumber IF (-2C Noun_Adj_PP) (-2 &&GenderNumber) (-1 Adv_PreAdv) (0C Noun_Adj_PP) (0 &&GenderNumber) ;
+SELECT &&GenderNumber IF (-2C Noun_Adj_PP) (-2 &&GenderNumber) (-2 &&Number) (-1 Ser + &&Number OR ("semblar") + &&Number OR ("resemblar") + &&Number) (0C Adj_PP) (0 &&GenderNumber) ;	# los poplos seyont somês a tè
+SELECT &&GenderNumber IF (-3C Noun_Adj_PP) (-3 &&GenderNumber) (-3 &&Number) (-2 Ser + &&Number OR ("semblar") + &&Number OR ("resemblar") + &&Number) (-1 Adv_PreAdv OR CnjAdv) (0C Adj_PP) (0 &&GenderNumber) ;	# los poplos seyont pas somês a tè
 
 #
 # Verbos
