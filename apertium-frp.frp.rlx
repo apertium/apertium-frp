@@ -424,9 +424,13 @@ SELECT Adv IF (-1 BOS OR Sent) (0 Noun_Adj) (1* P1 OR P2 OR P3) ;		# ; pués je 
 
 # adj / pp
 
-SELECT PP IF (-1 Haver) (0 PP) ;			
+SELECT PP IF (-1 Haver) (0 PP) ;
 SELECT PP IF (-2 Haver) (-1 Adv) (0 PP) ;
 SELECT PP IF (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
+
+SELECT PP IF (-1 Ser + &&Number) (0 ("chêre") + &&Number) ;
+SELECT PP IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 ("chêre") + &&Number) ;
+SELECT PP IF (-3 Ser + &&Number) (-2 Adv) (-1 Adv_PreAdv) (0 ("chêre") + &&Number) ;
 
 SELECT PP IF (-1 Ser + &&Number) (0 A + &&Number) (1 Prep) ;
 SELECT PP IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 A + &&Number) (1 Prep) ;
