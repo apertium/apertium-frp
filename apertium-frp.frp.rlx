@@ -305,6 +305,8 @@ SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel OR A) ;
 
 REMOVE Itg IF (-1C Noun_Adj) (0 Rel) ;	# un palès yô qu’y avêt
 
+REMOVE PP IF (0 Qui) (1 Que) ;
+
 # adv/ preadv
 
 REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
