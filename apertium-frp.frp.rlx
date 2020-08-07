@@ -223,6 +223,7 @@ REMOVE Cog IF (-1 BOS OR Sent) (0 ("pou")) ;
 
 SELECT N IF (-1 Def + FemSg) (0 ("<Mar>")) ;
 
+SELECT ("avêr") IF (0 ("arar")) ;	# FIXME
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
 REMOVE ("vivre") IF (0 ("alar")) (1 Inf) ;			# je vé morir
