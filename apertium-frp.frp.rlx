@@ -665,6 +665,8 @@ SELECT Sg IF (NOT -2 Pro + Pl) (NOT -2 Que + Rel) (NOT -3 Que + Rel) (-1C Haver)
 
 # temps verbaux
 
+REMOVE Verb + Pers IF (-1C Verb + Pers) ;
+
 REMOVE Imper IF (NOT -1 BOS OR Sent OR (lpar)) (NOT 1* PtExcl) ;
 SELECT Imper IF (-1 BOS OR Sent OR (lpar)) (0 ("<Va>")) ;
 REMOVE Ind OR Subjunc IF (-1 BOS OR Sent OR (lpar)) (0 Imper) ;		# Salye de ton payis
