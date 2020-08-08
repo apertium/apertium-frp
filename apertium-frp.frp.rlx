@@ -226,6 +226,8 @@ SELECT N IF (-1 Def + FemSg) (0 ("<Mar>")) ;
 SELECT ("avêr") IF (0 ("arar")) ;	# FIXME
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
+SELECT Num IF (0 ("huar")) ;		# FIXME
+
 REMOVE ("vivre") IF (0 ("alar")) (1 Inf) ;			# je vé morir
 REMOVE ("vivre") IF (0 ("alar")) (1 Pro) (2 Inf) ;		# je vé t’envoyér
 REMOVE ("vivre") IF (0 ("alar")) (1 Pro) (2 Pro) (3 Inf) ;
