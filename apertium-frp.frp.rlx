@@ -468,6 +468,9 @@ REMOVE Fin_non_Imp IF (-1C BOS OR Prep) (0 N) (NOT 0 (META:/-/r)) ;
   ## Groupe A, Taille 48, Série 1
   ## Pense-t-il
 
+REMOVE Verb + Pers IF (-1C Prep) ;
+REMOVE Verb + Pers IF (-2C BOS OR Sent OR CnjSub) (-1 ("en")) (0 N) ;
+
 # n / adj
 
 SELECT Ord IF (0 N + &&GenderNumber) (1 N + &&GenderNumber) ;
