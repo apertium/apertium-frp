@@ -614,7 +614,7 @@ SELECT P2 IF (-1 Te) (0 VSg2);
   ## Tu veux
 SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Tu) ;
   ## Veux-tu
-SELECT P2 IF (1 Te) (0 VSg2);
+SELECT P2 IF (1 Te) (0 (META:/-/r)) (0 VSg2);
   ## Veux-tu
 SELECT P2 IF (-2 Te) (-1 Pro) (0 VSg2);
   ## Tu lui veux
@@ -637,7 +637,7 @@ SELECT P3 IF (-1 Il + Pl) (0 VPl3);
   ## Elle parle
 SELECT P3 IF (0 VPl3) (0 (META:/-/r)) (1 Il + Pl) ;
   ## Dit-il
-SELECT P3 IF (1 Il + Pl) (0 VPl3);
+SELECT P3 IF (1 Il + Pl) (0 (META:/-/r)) (0 VPl3);
   ## Parle-t-elle
 SELECT P3 IF (-2 Il + Pl) (-1 Pro) (0 VPl3);
   ## Elle lui parle
