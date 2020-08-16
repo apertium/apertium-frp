@@ -203,6 +203,11 @@ SELECT N IF (0 ("catèdrâla")) (1 MajIni OR unknownMajIni) ;            # cath�
 
 REMOVE ("mê") IF (0 ("mês")) ;
 
+REMOVE ("avien") IF (0 ("avêr")) (NOT -1 N + MascPl) ;
+REMOVE ("avien") IF (0 ("avêr")) (1 PP or unknown) ;
+REMOVE ("avien") IF (0 ("avêr")) (1 Adv OR CnjAdv or unknown) (2 PP or unknown) ;
+REMOVE ("avien") IF (0 ("avêr")) (1 Adv OR CnjAdv or unknown) (3 Adv OR CnjAdv or unknown) (3 PP or unknown) ;
+
 SELECT A IF (0 ("dèrriér") + &&GenderNumber) (1 N + &&GenderNumber) ;	# dèrriér pouent
 
 SELECT Adv IF (-1 Verb + Pers) (NOT -1 A OR Det) (0 ("pouent")) ;
