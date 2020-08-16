@@ -366,6 +366,12 @@ SELECT Tn IF (0 ("mè")) (1 ("je") OR ("ye")) ;		# mè je vos dio
 SELECT Tn IF (0 ("tè")) (1 ("te")) ;
 SELECT Tn + ("lui") IF (0 ("lui") + &&GenderNumber) (1 ("il") + &&GenderNumber) ;
 
+SELECT Tn IF (0 ("mè")) (1 ("solèt")) ;
+SELECT Tn IF (0 ("tè")) (1 ("solèt")) ;
+SELECT Tn IF (0 ("lui")) (1 ("solèt")) ;
+SELECT Tn IF (0 ("nos")) (1 ("solèt")) ;
+SELECT Tn IF (0 ("vos")) (1 ("solèt")) ;
+
 REMOVE Pro IF (-1 Prep) (0 Pro) (NOT 1 Inf OR Ger OR Pro) ;	# por tè / por tè chantar / en sè jetant
 REMOVE Pro IF (-1 CnjCoo) (0 Pro) (NOT 1 Verb OR Pro OR unknown) ;		# mas tè / et sè batant
 
