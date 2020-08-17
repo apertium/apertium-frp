@@ -526,6 +526,11 @@ SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 SELECT N IF (-1C Prep OR BOS) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 Ord) (NOT 1C N) ;
 SELECT N IF (-1C Prep OR BOS) (0C Noun_Adj_PP) (1 EOS) ;
 
+SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quârt")) ;	# une comédienne, réalisatrice, traductrice et romancière.
+SELECT N IF (NOT -1 N) (0C Noun_Adj_PP) (1 CnjCoo) (2C N) ;	# comédies, revues et opérettes / langues anciennes et sciences naturelles
+SELECT N IF (-2 N) (-1 CM) (0C Noun_Adj_PP) (1 CnjCoo OR CM) (2C N) ;	# prêtre, curé, prédicateur 
+SELECT N IF (-2C N) (-1 CM) (0C Noun_Adj_PP) (1 CM) (2 N) ;	# prêtre, curé, prédicateur
+
 # mots individuels (mais après la selection n/adj)
 
 REMOVE ("franc") IF (0C N) (0 ("Franc_poplo")) ;
