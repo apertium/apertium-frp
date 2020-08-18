@@ -284,6 +284,8 @@ SELECT Pl IF (-1/* Pl_strict) (0 ("Chablès")) ;
 
 REMOVE Fem IF (0 ("<mon>"i) OR ("<ton>"i) OR ("<son>"i)) (NOT 1 VowelIni + FemSg) ;
 
+SELECT A IF (-1 PreAdv) (0 ("fôrt"));		# tant fôrt
+
 # vbhaver / vblex
 
 SELECT Haver IF (0 Haver) (1 Adv OR CnjAdv) (2 PP) ;		# at pas chantâ
