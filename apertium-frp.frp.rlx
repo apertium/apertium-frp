@@ -134,8 +134,9 @@ LIST L = "<l'>"i "<l’>"i;
 LIST LPre = "<'l>"i "<’l>"i;
 
 LIST unknown = ("\\*.*"r) ;
-LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
-LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
+LIST unknownMajIni = ("\\*[A-ZÀÁÈÉÊÍÒÓÔÚÜÇ].*"r) ;
+LIST MajIni = ("\\<[A-ZÀÁÈÉÊÍÒÓÔÚÜÇ].*\\>"r) ;
+LIST VowelIni = ("\\<[aâeèéêioôuAÂEÈÉÊÎOÔU].*\\>"r) ;
 LIST ChiffreRom = ("\\<[IVXLCM]*\\>"r) ;
 
 # verbes Vblex que typiquement impliquen subjonctif
@@ -280,6 +281,8 @@ REMOVE A IF (-1 Det + &&GenderNumber) (0 ("fin") + N + &&GenderNumber) ;		# a la
 
 SELECT Sg IF (NOT -1/* Pl_strict OR N) (0 ("Chablès")) (NOT 1 Pl_strict) ;
 SELECT Pl IF (-1/* Pl_strict) (0 ("Chablès")) ;
+
+REMOVE Fem IF (0 ("<mon>"i) OR ("<ton>"i) OR ("<son>"i)) (NOT 1 VowelIni + FemSg) ;
 
 # vbhaver / vblex
 
