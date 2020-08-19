@@ -129,6 +129,7 @@ SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
 SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
+LIST Napos = "<n'>"i "<n’>"i;
 LIST S = "<s'>"i "<s’>"i;
 LIST L = "<l'>"i "<l’>"i;
 LIST LPre = "<'l>"i "<’l>"i;
@@ -350,7 +351,7 @@ SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 Adv_PreA
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1C Noun_Adj + &&GenderNumber) ;	# lo hôt
 
 SELECT Det + &&GenderNumber IF (-1 PreDet + &&GenderNumber) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) ;	# tota l’assemblâ
-SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (NOT 0 S) ;	# ceti bruit ; l'hotâl ; je lo vôl
+SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (NOT 0 S OR Napos) ;	# ceti bruit ; l'hotâl ; je lo vôl
 SELECT Det + &&GenderNumber IF (NOT -1 Tn) (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber LINK NOT 0 Verb + Pers) ;	# châcun son diô
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 NP + &&GenderNumber LINK NOT 0 Verb + Pers) ;
@@ -481,7 +482,8 @@ REMOVE Ger IF (-3 N + &&GenderNumber) (-2 A + &&GenderNumber) (-1 CnjCoo) (0 A +
 SELECT N IF (-1 ("dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;		# dèrriér pouent
 SELECT N IF (-1 ("avant-dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;	# avant-dèrriér pouent
 
-REMOVE Verb IF (-2 BOS OR Sent OR LPar) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;		# La fuita en Ègipta
+REMOVE Verb IF (-2 BOS OR Sent OR LPar) (-1 Det + &&GenderNumber LINK NOT 0 Napos) (0 N + &&GenderNumber) ;		# La fuita en Ègipta
+
 REMOVE Verb IF (-2 PreDet + &&GenderNumber) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# tota l’assemblâ
 REMOVE Verb IF (-2 Prep) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# la téta de ses armâs
 REMOVE Verb IF (-1 Prep) (-1/* Det) (0 N) ;					# des armâs
@@ -601,7 +603,7 @@ SELECT NP IF (NOT -1 BOS OR Sent OR LPar) (0 MajIni) ;	# VERIFY (il faut des tas
 # Accords
 #
 
-SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Masc_strict) (NOT 1 Fem_strict) ;	# des premiérs tuâs ; ses nuets
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber LINK NOT 0 Napos) (1 Noun_Adj + &&GenderNumber + Masc_strict) (NOT 1 Fem_strict) ;	# des premiérs tuâs ; ses nuets
 SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber + Fem_strict) (NOT 1 Masc_strict) ;
 SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber + Masc_strict) ;
 SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Noun_Adj + &&GenderNumber + Fem_strict) ;
