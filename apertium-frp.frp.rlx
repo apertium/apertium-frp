@@ -231,6 +231,9 @@ REMOVE Cog IF (-1 BOS OR Sent OR LPar) (0 ("pou")) ;
 
 SELECT N IF (-1 Def + FemSg) (0 ("<Mar>")) ;
 
+#SELECT N IF (0 ("mot")) (0 (META:/ \"/r) OR (META:/ '/r) OR (META:/ «/r)) ;
+SELECT N IF (-1 Det + &&GenderNumber) (0 ("mot") + &&GenderNumber) ;
+
 SELECT ("avêr") IF (0 ("arar")) ;	# FIXME
 SELECT Ser IF (0 ("savêr")) ;		# FIXME
 
