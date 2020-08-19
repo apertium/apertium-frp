@@ -219,13 +219,13 @@ SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 N + &&Gender + Pl) ;
 SELECT Prep IF (0 ("devant")) (1 Num + &&Gender) (2 A + &&Gender + Pl) ;
 SELECT Prep IF (0 ("devant")) (1 ("J.C.")) ;
 
-SELECT CnjAdv IF (-1 BOS OR Sent OR CnjCoo OR CnjAdv) (0 ("portant")) ;
+SELECT CnjAdv IF (-1 BOS OR Sent OR LPar OR CnjCoo OR CnjAdv) (0 ("portant")) ;
 
-REMOVE Top IF (-1 BOS OR Sent) (0 ("en")) ;
-REMOVE Top IF (-1 BOS OR Sent) (0 ("nion")) ;
+REMOVE Top IF (-1 BOS OR Sent OR LPar) (0 ("en")) ;
+REMOVE Top IF (-1 BOS OR Sent OR LPar) (0 ("nion")) ;
 
-REMOVE Cog IF (-1 BOS OR Sent) (0 ("mas")) ;
-REMOVE Cog IF (-1 BOS OR Sent) (0 ("pou")) ;
+REMOVE Cog IF (-1 BOS OR Sent OR LPar) (0 ("mas")) ;
+REMOVE Cog IF (-1 BOS OR Sent OR LPar) (0 ("pou")) ;
 
 SELECT N IF (-1 Def + FemSg) (0 ("<Mar>")) ;
 
@@ -306,9 +306,9 @@ REMOVE CnjSub IF (-1C CnjCoo) (NOT 1 Tn) ;
 
 # itg / rel, adj, cnjadv
 
-SELECT Itg IF (-1 BOS OR Sent) (0C Itg OR Rel OR A) ;				# Qui ; Quint mâl at-il fêt ?
-SELECT Itg IF (-2 BOS OR Sent) (-1 LPar) (0C Itg OR Rel OR A) ;			# « Quint mâl at-il fêt ?
-SELECT Itg IF (-2 BOS OR Sent) (-1 Prep) (0C Itg OR Rel OR A) ;			# A qui s'adresse
+SELECT Itg IF (-1 BOS OR Sent OR LPar) (0C Itg OR Rel OR A) ;				# Qui ; Quint mâl at-il fêt ?
+#SELECT Itg IF (-2 BOS OR Sent) (-1 LPar) (0C Itg OR Rel OR A) ;			# « Quint mâl at-il fêt ?
+SELECT Itg IF (-2 BOS OR Sent OR LPar) (-1 Prep) (0C Itg OR Rel OR A) ;		# A qui s'adresse
 SELECT Itg IF (-1 BOS OR Sent) (0 Coment) (1* PtItg BARRIER (":")) ;		# Coment y at-o donc du loly asse-ben ?
 SELECT Itg IF (-2 BOS OR Sent) (-1 LPar) (0 Coment) (1* PtItg BARRIER (":")) ;	# « Coment 
 SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel OR A) ;			# je demando qui
@@ -442,7 +442,7 @@ REMOVE Adv (-1 Det + &&GenderNumber) (0 A + &&GenderNumber) (1 N + &&GenderNumbe
 
 # adv / n
 
-SELECT Adv IF (-1 BOS OR Sent) (0 Noun_Adj) (1* P1 OR P2 OR P3) ;		# ; pués je tè beniré
+SELECT Adv IF (-1 BOS OR Sent OR ("«")) (0 Noun_Adj) (1* P1 OR P2 OR P3) ;		# ; pués je tè beniré
 
 # adj / pp
 
@@ -472,7 +472,7 @@ REMOVE Ger IF (-3 N + &&GenderNumber) (-2 A + &&GenderNumber) (-1 CnjCoo) (0 A +
 SELECT N IF (-1 ("dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;		# dèrriér pouent
 SELECT N IF (-1 ("avant-dèrriér") + &&GenderNumber) (0 N + &&GenderNumber) ;	# avant-dèrriér pouent
 
-REMOVE Verb IF (-2 BOS OR Sent) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;		# La fuita en Ègipta
+REMOVE Verb IF (-2 BOS OR Sent OR LPar) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;		# La fuita en Ègipta
 REMOVE Verb IF (-2 PreDet + &&GenderNumber) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# tota l’assemblâ
 REMOVE Verb IF (-2 Prep) (-1 Det + &&GenderNumber) (0 N + &&GenderNumber) ;	# la téta de ses armâs
 REMOVE Verb IF (-1 Prep) (-1/* Det) (0 N) ;					# des armâs
@@ -486,7 +486,7 @@ REMOVE Fin_non_Imp IF (-1C BOS OR Prep) (0 N) (NOT 0 (META:/-/r)) ;
   ## Pense-t-il
 
 REMOVE Verb + Pers IF (-1C Prep) ;
-REMOVE Verb + Pers IF (-2C BOS OR Sent OR CnjSub) (-1 ("en")) (0 N) ;
+REMOVE Verb + Pers IF (-2C BOS OR Sent OR LPar OR CnjSub) (-1 ("en")) (0 N) ;
 
 # n / adj
 
@@ -551,7 +551,7 @@ REMOVE Ant IF (-1 ("en")) (0 Ant OR Cog) ;
 
 REMOVE NP IF (-1 Det + &&GenderNumber) (0 Noun_Adj + &&GenderNumber) ;
 REMOVE NP IF (-1/* Det + &&GenderNumber) (0 Noun_Adj + &&GenderNumber) ;	# Jèsus u Jardin des Oliviérs
-REMOVE NP IF (-1 BOS OR Sent) (NOT 1 NP OR Adv OR P3) ;
+REMOVE NP IF (-1 BOS OR Sent OR LPar) (NOT 1 NP OR Adv OR P3) ;
 
 SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) (NOT 0 ("bâs") OR ("hôt") OR ("hiôt")) ;
 	# Pierre-Michel
@@ -586,7 +586,7 @@ REMOVE Top IF (0 Ant OR Cog) (1 Ant OR Cog) ;
 SELECT Top IF (-2 ("vela") OR ("vila") OR ("viala") OR ("aèrogâra") OR ("gâra") OR ("stacion") OR ("pôrt")
 	OR ("royômo") OR ("principauté") OR ("grant-ducât") OR ("grand-ducât") OR ("ducât") OR ("marquisat") OR ("comtât") OR ("baronnie") OR ("sègnorerie") OR ("archèvèchiê") OR ("archèvèco") OR ("èvèchiê") OR ("èvèco")) (-1 ("de")) (0 Cog OR Ant) ;
  
-SELECT NP IF (NOT -1 BOS OR Sent) (0 MajIni) ;	# VERIFY (il faut des tas plus de règles)
+SELECT NP IF (NOT -1 BOS OR Sent OR LPar) (0 MajIni) ;	# VERIFY (il faut des tas plus de règles)
 
 #
 # Accords
