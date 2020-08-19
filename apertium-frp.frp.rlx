@@ -373,6 +373,9 @@ REMOVE Enc IF (NOT -1 (META:/-/r)) (0 ("mè") OR ("tè")) ;
 SELECT Tn IF (0 ("mè")) (1 ("je") OR ("ye")) ;		# mè je vos dio
 SELECT Tn IF (0 ("tè")) (1 ("te")) ;
 SELECT Tn + ("lui") IF (0 ("lui") + &&GenderNumber) (1 ("il") + &&GenderNumber) ;
+SELECT Tn IF (-1 BOS OR Sent OR LPar) (0 ("mè")) (1 CM) (2 ("je") OR ("ye")) ;		# Mè, je vos dio
+SELECT Tn IF (-1 BOS OR Sent OR LPar) (0 ("tè")) (1 CM) (2 ("te")) ;
+SELECT Tn + ("lui") IF (-1 BOS OR Sent OR LPar) (0 ("lui") + &&GenderNumber) (1 CM) (2 ("il") + &&GenderNumber) ;
 
 SELECT Tn IF (0 ("mè")) (1 ("solèt")) ;
 SELECT Tn IF (0 ("tè")) (1 ("solèt")) ;
