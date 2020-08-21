@@ -460,6 +460,10 @@ SELECT PP IF (-1 Haver) (0 PP) ;
 SELECT PP IF (-2 Haver) (-1 Adv) (0 PP) ;
 SELECT PP IF (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
 
+SELECT PP IF (-1 Ser + PP) (0 PP) ;
+SELECT PP IF (-2 Ser + PP) (-1 Adv) (0 PP) ;
+SELECT PP IF (-3 Ser + PP) (-2 Adv) (-1 Adv) (0 PP) ;
+
 SELECT PP IF (-1 Ser + &&Number) (0 ("chêre") + &&Number) ;
 SELECT PP IF (-2 Ser + &&Number) (-1 Adv_PreAdv) (0 ("chêre") + &&Number) ;
 SELECT PP IF (-3 Ser + &&Number) (-2 Adv) (-1 Adv_PreAdv) (0 ("chêre") + &&Number) ;
@@ -625,6 +629,19 @@ SELECT &&GenderNumber IF (-1C Noun_Adj_PP) (-1 &&GenderNumber) (0C Noun_Adj_PP) 
 SELECT &&GenderNumber IF (-2C Noun_Adj_PP) (-2 &&GenderNumber) (-1 Adv_PreAdv) (0C Noun_Adj_PP) (0 &&GenderNumber) ;
 SELECT &&GenderNumber IF (-2C Noun_Adj_PP) (-2 &&GenderNumber) (-2 &&Number) (-1 Ser + &&Number OR ("semblar") + &&Number OR ("resemblar") + &&Number) (0C Adj_PP) (0 &&GenderNumber) ;	# los poplos seyont somês a tè
 SELECT &&GenderNumber IF (-3C Noun_Adj_PP) (-3 &&GenderNumber) (-3 &&Number) (-2 Ser + &&Number OR ("semblar") + &&Number OR ("resemblar") + &&Number) (-1 Adv_PreAdv OR CnjAdv) (0C Adj_PP) (0 &&GenderNumber) ;	# los poplos seyont pas somês a tè
+
+SELECT &&GenderNumber IF (-3 Noun_Adj + &&GenderNumber + &&Number) (-2 Ser + PP + &&Number) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-4 Noun_Adj + &&GenderNumber + &&Number) (-3 Ser + PP + &&Number) (-2 Ser + PP) (-1 Adv) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-5 Noun_Adj + &&GenderNumber + &&Number) (-4 Ser + PP + &&Number) (-3 Ser + PP) (-2 Adv) (-1 Adv) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-3 Noun_Adj + &&GenderNumber + &&Number) (-2 Ser + PP + &&Number) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-4 Noun_Adj + &&GenderNumber + &&Number) (-3 Ser + PP + &&Number) (-2 Adv) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-5 Noun_Adj + &&GenderNumber + &&Number) (-4 Ser + PP + &&Number) (-3 Adv) (-2 Adv) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-3 Noun_Adj + &&GenderNumber + &&Number) (-2 Haver + PP + &&Number) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-4 Noun_Adj + &&GenderNumber + &&Number) (-3 Haver + PP + &&Number) (-2 Ser + PP) (-1 Adv) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-5 Noun_Adj + &&GenderNumber + &&Number) (-4 Haver + PP + &&Number) (-3 Ser + PP) (-2 Adv) (-1 Adv) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-3 Noun_Adj + &&GenderNumber + &&Number) (-2 Haver + PP + &&Number) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-4 Noun_Adj + &&GenderNumber + &&Number) (-3 Haver + PP + &&Number) (-2 Adv) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
+SELECT &&GenderNumber IF (-5 Noun_Adj + &&GenderNumber + &&Number) (-4 Haver + PP + &&Number) (-3 Adv) (-2 Adv) (-1 Ser + PP) (0 PP + &&GenderNumber + &&Number) ;
 
 #
 # Verbos
