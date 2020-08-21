@@ -343,6 +343,7 @@ REMOVE Adv IF (0 ("avouéc")) (1 Det OR ("de")) ;	# avouéc sè sont dèfendus b
 # det / prn
 
 SELECT Prn (0 Det) (1 ("que")) ;
+REMOVE Prn (0 Det) (1C Num) ;
 
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 A + &&GenderNumber) ;
 SELECT Det + &&GenderNumber IF (0 Tn OR Pro OR Det + &&GenderNumber) (1 N + &&GenderNumber) (2 Adv_PreAdv) (3 A + &&GenderNumber) ;
