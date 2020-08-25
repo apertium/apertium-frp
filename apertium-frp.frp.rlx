@@ -205,6 +205,9 @@ SELECT Ant + Fem IF (-1 ("sœr") OR ("sor") OR ("seror") OR ("suèra")) (0 Ant) 
 
 SELECT N IF (0 ("catèdrâla")) (1 MajIni OR unknownMajIni) ;            # cathédrale Notre-Dame de Rouen
 
+SELECT ("grôssa") IF (-1 ("fèna")) ;
+SELECT ("grôs") IF (0 ("grôssa")) ;
+
 REMOVE ("mê") IF (0 ("mês")) ;
 
 REMOVE ("avien") IF (0 ("avêr")) (NOT -1 N + MascPl) ;
