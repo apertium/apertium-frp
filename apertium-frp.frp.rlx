@@ -543,7 +543,7 @@ REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&Gende
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
-REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Adv) (2 Adj_PP + &&GenderNumber) ;
+REMOVE A OR PP IF (NOT -2 Coment) (-1 Det + &&GenderNumber) (0 Noun_Adj_PP + &&GenderNumber LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + &&GenderNumber) ;
 
 REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 N + &&GenderNumber) (NOT 0 Ord OR AdjPre) (1 Adj_PP + &&GenderNumber) ;	# les armâs francêses
 SELECT A IF (-1/* Det + &&GenderNumber) (0 Ord OR AdjPre) (1 N + &&GenderNumber) ;	# les grantes armâs
@@ -624,11 +624,11 @@ SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 N + &&GenderNumber) (2
 SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 N + &&GenderNumber) (2 A + &&GenderNumber) (3 CnjCoo) (4 A + &&GenderNumber + Fem_strict) ;
 
 SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv LINK NOT 0 Pro OR Itg) (2 Noun_Adj + &&GenderNumber + Masc_strict) ;	# des tout premiérs tuâs
-SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber + Fem_strict) ;
-SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
-SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
-SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
-SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv OR Pref) (2 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv OR Pref) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Adv_PreAdv OR Pref) (2 Noun_Adj + &&GenderNumber) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
+SELECT SUB:* Masc_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv OR Pref) (3 Noun_Adj + &&GenderNumber + Masc_strict) ;
+SELECT SUB:* Fem_strict IF (0/* Det + &&GenderNumber) (1 Noun_Adj + &&GenderNumber) (2 Adv_PreAdv OR Pref) (3 Noun_Adj + &&GenderNumber + Fem_strict) ;
 
 SELECT &&GenderNumber IF (-1C Det) (-1 &&GenderNumber) (0C Noun_Adj_PP) (0 &&GenderNumber) ;		# una nuet
 SELECT &&GenderNumber IF (0C Det) (-1 &&GenderNumber) (1C Noun_Adj_PP) (0 &&GenderNumber) ;
