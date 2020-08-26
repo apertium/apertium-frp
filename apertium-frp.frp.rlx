@@ -210,6 +210,8 @@ SELECT ("grôs") IF (0 ("grôssa")) ;
 
 REMOVE ("mê") IF (0 ("mês")) ;
 
+SELECT Top IF (-1 DetDef) (0 ("<En>")) ;
+
 REMOVE ("avien") IF (0 ("avêr")) (NOT -1 N + MascPl) ;
 REMOVE ("avien") IF (0 ("avêr")) (1 PP or unknown) ;
 REMOVE ("avien") IF (0 ("avêr")) (1 Adv OR CnjAdv or unknown) (2 PP or unknown) ;
