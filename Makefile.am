@@ -11,8 +11,8 @@ TARGETS_COMMON =			\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
-	$(LANG1).prob                   \
 	$(LANG1).rlx.bin
+#	$(LANG1).prob                   
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
@@ -57,8 +57,8 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 ## Unigram tagger
 ###############################################################################
 
-$(LANG1).prob: corpus/$(LANG1).tagged
-	apertium-tagger -s 0 -u 2 $@ $<
+#$(LANG1).prob: corpus/$(LANG1).tagged
+#	apertium-tagger -s 0 -u 2 $@ $<
 
 ###############################################################################
 ## Distribution
