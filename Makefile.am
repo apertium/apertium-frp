@@ -83,7 +83,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix		\
 apertium_frpdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_frp_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_frp_DATA=$(TARGETS_COMMON)
+apertium_frp_DATA=$(TARGETS_COMMON)	\
+	$(LANG1).prob                   
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
