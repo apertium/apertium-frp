@@ -50,8 +50,8 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 ## Disambiguation rules
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
-	$(CGCOMP) $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+	cg-comp $< $@
 
 ###############################################################################
 ## Unigram tagger
@@ -81,27 +81,18 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix		\
 #   apertium_frp_srcdir: This is where the source files go
 
 apertium_frpdir=$(prefix)/share/apertium/$(BASENAME)/
-apertium_frp_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_frp_DATA=$(TARGETS_COMMON)	\
-	$(LANG1).prob                   
+apertium_frp_DATA=$(TARGETS_COMMON) \
+	$(LANG1).prob \
+	$(BASENAME).$(LANG1).rlx \
+	$(BASENAME).post-$(LANG1).dix
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
-# Modes are not installed since they're all just "debug modes". All
-# modes are created by this goal.
-modes/$(LANG1)-morph.mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_frp_srcdir) || mkdir -p $(DESTDIR)$(apertium_frp_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_frp_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_frp_srcdir)
-#	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_frp_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
