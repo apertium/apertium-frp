@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium frp], [1.0.0], [hectoralos@gmail.com], [apertium-frp], [http://wiki.apertium.org/wiki/Apertium-frp])
+AC_INIT([Apertium frp], [1.0.0], [hectoralos@gmail.com], [apertium-frp], [https://wiki.apertium.org/wiki/Apertium-frp])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
